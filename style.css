@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+    overflow: hidden; /* Hide scrollbars of the body */
+    color: white;
+}
+
+.app-wrapper {
+    width: 100%;
+    max-width: 400px; /* Simulate phone width */
+    height: 100vh;
+    max-height: 900px; /* Simulate phone height */
+    position: relative;
+    overflow: hidden; /* Hide scrollbars for the app content */
+    background-color: #000;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    border-radius: 10px; /* Simulate phone rounded corners */
+}
+
+.video-feed {
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: y mandatory; /* Enable scroll snapping */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    position: relative;
+}
+
+/* Hide scrollbar for webkit browsers */
+.video-feed::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for Firefox */
+.video-feed {
+    scrollbar-width: none;
+}
+
+.video-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; /* Snap to the start of each card */
+    position: relative;
+    background-color: #000;
+}
+
+.video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Video covers the entire card */
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.3) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.video-info {
+    margin-bottom: 10px;
+}
+
+.video-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+}
+
+.video-info p {
+    margin: 0;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 15px;
+    z-index: 2; /* Ensure controls are above overlay */
+}
+
+.control-btn {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.control-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.side-actions {
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 2;
+}
+
+.action-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.action-btn i {
+    font-size: 1.8em;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Play/Pause icon in the center */
+.play-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.7);
+    pointer-events: none; /* Allows clicks to pass through to the video */
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+    z-index: 3;
+}
+
+.video-card.paused .play-indicator {
+    opacity: 1;
+}
+
+/* Hide default video controls */
+video::-webkit-media-controls {
+    display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+video {
+    -ms-media-controls-display: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
