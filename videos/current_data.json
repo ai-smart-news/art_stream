@@ -1,51 +1,133 @@
 {
   "items": [
     {
-      "id": 75799145,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd4e0f10-aa6f-42f5-8bc0-5dba35ad2a13/width=1024/fd4e0f10-aa6f-42f5-8bc0-5dba35ad2a13.jpeg",
-      "hash": "UmE{tZWBW;t7~pWVWCof-pfkR*afxakCayWC",
-      "width": 1024,
-      "height": 1536,
+      "id": 24294279,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc6700f4-7fd3-4fc8-84ce-dcb154161850/width=1080/bc6700f4-7fd3-4fc8-84ce-dcb154161850.jpeg",
+      "hash": "U7BMuu0000~V%N%M4.OY00_4^*R457E1_4IT",
+      "width": 1080,
+      "height": 1680,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-18T06:58:39.518Z",
-      "postId": 16830957,
+      "createdAt": "2024-08-14T17:20:49.238Z",
+      "postId": 5424571,
       "stats": {
-        "cryCount": 1080,
-        "laughCount": 1609,
-        "likeCount": 10484,
+        "cryCount": 699,
+        "laughCount": 1323,
+        "likeCount": 10661,
         "dislikeCount": 0,
-        "heartCount": 3664,
-        "commentCount": 21
+        "heartCount": 4027,
+        "commentCount": 6
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "Dead can dance, misty morning, unreal shapes emerge from the fog, photo realism.",
-        "quality": "medium",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
+        "TI": {},
+        "Size": "1080x1680",
+        "seed": 2785547559,
+        "Model": "meichidarkMix_meichidarkanimxlV1",
+        "steps": 30,
+        "hashes": {
+          "model": "2116dedd1d",
+          "lora:GEN 0.1v": "82d63626ec3a",
+          "lora:age_slider_v4": "5a6ef2b74e7e",
+          "embed:unaestheticXL_Alb2": "9650626a25",
+          "lora:Expressive_H-000001": "5671f20a9a6b",
+          "lora:modern_anime_screencap_v1_0": "3f716caca76a"
+        },
+        "prompt": "<lora:GEN 0.1v:0.8>,<lora:Expressive_H-000001>,<lora:modern_anime_screencap_v1_0:0.8>,source_anime,score_9,score_8_up,score_7_up,score_6_up,dark background,low light,\n1girl,solo,<lora:age_slider_v4:1.2>,adult,tall female,black hair,medium hair,bangs,full bangs,straight hair,red eyes,pale skin,skindentation,petite,toned,(thick thighs:0.6),medium breasts,(angry:0.6),(half-closed eyes:0.8),fighting stance,holding katana,stance,black baggy pants,white top,high collar,one eye closed,crouch,glowing eyes,belt,harness,looking at viewer,flaming eye,black background,",
+        "Version": "f2.0.1v1.10.1-previous-260-gaadc0f04",
+        "sampler": "Euler a",
+        "cfgScale": 8,
+        "freeu_b1": "1.3",
+        "freeu_b2": "1.4",
+        "freeu_s1": "0.9",
+        "freeu_s2": "0.2",
+        "resources": [
           {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
+            "hash": "3f716caca76a",
+            "name": "modern_anime_screencap_v1_0",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "5a6ef2b74e7e",
+            "name": "age_slider_v4",
+            "type": "lora",
+            "weight": 1.2
+          },
+          {
+            "hash": "82d63626ec3a",
+            "name": "GEN 0.1v",
+            "type": "lora"
+          },
+          {
+            "hash": "5671f20a9a6b",
+            "name": "Expressive_H-000001",
+            "type": "lora"
+          },
+          {
+            "hash": "2116dedd1d",
+            "name": "meichidarkMix_meichidarkanimxlV1",
+            "type": "model"
           }
-        ]
+        ],
+        "sag_scale": "0.5",
+        "Model hash": "2116dedd1d",
+        "sag_enabled": "True",
+        "ControlNet 0": {
+          "Model": "sai_xl_canny_256lora [566f20af]",
+          "Module": "canny",
+          "Weight": "1",
+          "Hr Option": "Both",
+          "Resize Mode": "Crop and Resize",
+          "Threshold A": "100",
+          "Threshold B": "200",
+          "Control Mode": "Balanced",
+          "Guidance End": "1.0",
+          "Pixel Perfect": "True",
+          "Processor Res": "1080",
+          "Guidance Start": "0.0"
+        },
+        "Schedule type": "Automatic",
+        "freeu_enabled": "True",
+        "negativePrompt": "unaestheticXL_Alb2,score_4,score_3,score_2,score_1,source_cartoon,source_pony,source_furry,worst quality,low quality,normal quality,ugly,bad hand,bad feet,bad anatomy,multiple views,text,watermark,signature,monochrome,3d,\nunnatural face,unnatural body,long neck,spiral eyes,(thick lips:1.2),loli,child,teen,tall female,messy hair,ponytail,",
+        "sag_blur_sigma": "2",
+        "ADetailer model": "face_yolov8n.pt",
+        "ADetailer version": "24.8.0",
+        "Denoising strength": "0.3",
+        "ADetailer mask blur": "4",
+        "ADetailer model 2nd": "mediapipe_face_mesh_eyes_only",
+        "kohya_hrfix_enabled": "True",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer mask blur 2nd": "4",
+        "kohya_hrfix_end_percent": "0.35",
+        "ADetailer confidence 2nd": "0.3",
+        "kohya_hrfix_block_number": "5",
+        "ADetailer inpaint padding": "32",
+        "kohya_hrfix_start_percent": "0",
+        "ADetailer dilate erode 2nd": "4",
+        "kohya_hrfix_upscale_method": "bicubic",
+        "ADetailer denoising strength": "0.3",
+        "kohya_hrfix_downscale_factor": "2",
+        "kohya_hrfix_downscale_method": "bicubic",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer inpaint padding 2nd": "32",
+        "ADetailer denoising strength 2nd": "0.4",
+        "kohya_hrfix_downscale_after_skip": "True",
+        "ADetailer inpaint only masked 2nd": "True"
       },
-      "username": "highCastle",
-      "baseModel": "OpenAI",
+      "username": "Tommu",
+      "baseModel": null,
       "modelVersionIds": [
-        1733399
+        382152,
+        442507,
+        706675
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "19|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=19%7C1744925337225"
+    "nextCursor": "20|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=20%7C1744925337225"
   }
 }
