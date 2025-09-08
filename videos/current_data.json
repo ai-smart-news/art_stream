@@ -1,57 +1,79 @@
 {
   "items": [
     {
-      "id": 10556898,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d57e4d81-eac9-40ed-9054-1d3b82a24f49/width=832/d57e4d81-eac9-40ed-9054-1d3b82a24f49.jpeg",
-      "hash": "UEB:NrRV01-n?GNF9ajvohWBs+R%~VIV9b-o",
+      "id": 11029293,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27220beb-d75d-4bad-9965-9506eb50a234/width=832/27220beb-d75d-4bad-9965-9506eb50a234.jpeg",
+      "hash": "UPGcY{_M*JRjO@%MWVs:IqtkIBoLtRNbRjR*",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-04-23T14:50:05.636Z",
-      "postId": 2313097,
+      "createdAt": "2024-04-28T23:57:17.393Z",
+      "postId": 2419192,
       "stats": {
-        "cryCount": 691,
-        "laughCount": 1315,
-        "likeCount": 10480,
+        "cryCount": 681,
+        "laughCount": 1458,
+        "likeCount": 10527,
         "dislikeCount": 0,
-        "heartCount": 3769,
-        "commentCount": 4
+        "heartCount": 3566,
+        "commentCount": 5
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 958517608,
-        "steps": 42,
-        "prompt": "detailed background,( Calm spring night landscape), amongst lush greenery, beautiful view, creeping phlox in full bloom, creeping phlox, early morning, sunrise sky, beautiful clouds, dappled sunlight, outdoor seating, one lamp, Tranquil Lake, Boat on a Lake, depth of field, masterpiece, best quality, ultra-detailed, very aesthetic, illustration, perfect composition, intricate details, absurdres, moody lighting, wisps of light, no humans,",
-        "sampler": "DPM++ 2M",
+        "seed": 171500869,
+        "steps": 45,
+        "prompt": "score_9, score_8_up, score_7_up,  ((first person perspective)), landscape photo, tron, heaven, ascendance, god rays, light, gold, sky,  advntr, underwater, alien, colorful, ((zdzislaw beksinski)),translucent,transparent,reelmech, mechanical parts, cable, wires, machinery, joints, body suit",
+        "sampler": "LMS",
         "cfgScale": 7,
         "clipSkip": 2,
         "resources": [],
-        "negativePrompt": "extra digit, fewer digits, cropped, worst quality, low quality, normal quality, very displeasing,  blurry, artist name,",
+        "negativePrompt": "score_6, score_5, score_4, simple background, blur, low quality, muscular, fairy wings,  censored, , , teeth, , furry, hair buns,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 403131
+            "modelVersionId": 290640
           },
           {
-            "type": "lora",
-            "weight": 0.7,
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 8042
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 1, TriggerWord = , Type = lora }",
+            "weight": 1,
             "modelVersionId": 135867
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 1, TriggerWord = , Type = lora }",
+            "weight": 1,
+            "modelVersionId": 177888
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 1, TriggerWord = , Type = lora }",
+            "weight": 1,
+            "modelVersionId": 460254
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 106916
           }
         ]
       },
-      "username": "SomeT",
-      "baseModel": "SDXL 1.0",
+      "username": "HyperActive84",
+      "baseModel": "Pony",
       "modelVersionIds": [
+        8042,
         135867,
-        403131
+        177888,
+        290640,
+        460254
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "24|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=24%7C1744925337225"
+    "nextCursor": "25|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=25%7C1744925337225"
   }
 }
