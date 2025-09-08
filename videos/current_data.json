@@ -1,94 +1,80 @@
 {
   "items": [
     {
-      "id": 60177069,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcdc3cc5-f7f7-4eba-9901-9116eeed6203/width=1080/dcdc3cc5-f7f7-4eba-9901-9116eeed6203.jpeg",
-      "hash": "UMJZbt55JN^i56}@SvIp-jxU^h=_0#S0^PxZ",
-      "width": 1080,
-      "height": 1576,
+      "id": 14971955,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c53c6b0f-ab0f-4970-8911-b9bfd66e6f21/width=768/c53c6b0f-ab0f-4970-8911-b9bfd66e6f21.jpeg",
+      "hash": "UNF#{,~VNF9t%fkCE1IpIpWVso%1x]xuaeM{",
+      "width": 768,
+      "height": 1280,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-26T05:34:00.000Z",
-      "postId": 13457021,
+      "createdAt": "2024-06-07T21:36:24.088Z",
+      "postId": 3319540,
       "stats": {
-        "cryCount": 692,
-        "laughCount": 1428,
-        "likeCount": 11174,
+        "cryCount": 677,
+        "laughCount": 1427,
+        "likeCount": 10897,
         "dislikeCount": 0,
-        "heartCount": 4624,
+        "heartCount": 4316,
         "commentCount": 12
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1789290092,
-        "Model": "hassakuXLIllustrious_v13StyleA",
-        "steps": 30,
+        "Size": "768x1280",
+        "seed": 2261475806,
+        "Model": "duchaitenPonyXLNo_ponyNoScoreV40",
+        "steps": 25,
         "hashes": {
-          "model": "163ac69059",
-          "lora:ck-neon-retrowave-IL": "edafb9df7da1",
-          "lora:ck-shadow-circuit-IL": "88e247aa8c3d",
-          "lora:ck-nc-cyberpunk-IL-000011": "935e6755554c",
-          "lora:MoriiMee_Gothic_Niji_Style_Illustrious_r1": "ca72422dcb3e"
+          "model": "886a42c049",
+          "embed:SDXL_general_unaestheticXL_Alb2": "6c1c4cfa35",
+          "embed:SDXL_semireal_unaestheticXL2v10": "c792360b80"
         },
-        "prompt": "<lora:ck-shadow-circuit-IL:0.78>,\nmasterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject,\n close up, stylized, in gold and neon shades, wabi sabi, 1girl, rainbow angel wings,  looking at viewer, dynamic angle, from below, from side, relaxing\n<lora:MoriiMee_Gothic_Niji_Style_Illustrious_r1:0.45>\n<lora:ck-nc-cyberpunk-IL-000011:0.4>\n<lora:ck-neon-retrowave-IL:0.8>",
-        "Version": "f2.0.1v1.10.1-1.10.1",
-        "sampler": "Euler a",
-        "cfgScale": 5,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, beautiful, white hair, long hair, bangs, fair skin, big breasts, leather armor, sword, forest, dappled sunlight, upper body, looking at viewer",
+        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+        "sampler": "DPM++ SDE Karras",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "TI hashes": {
+          "SDXL_general_unaestheticXL_Alb2": "6c1c4cfa35e9",
+          "SDXL_semireal_unaestheticXL2v10": "c792360b80a1"
+        },
         "resources": [
           {
-            "hash": "88e247aa8c3d",
-            "name": "ck-shadow-circuit-IL",
-            "type": "lora",
-            "weight": 0.78
-          },
-          {
-            "hash": "ca72422dcb3e",
-            "name": "MoriiMee_Gothic_Niji_Style_Illustrious_r1",
-            "type": "lora",
-            "weight": 0.45
-          },
-          {
-            "hash": "935e6755554c",
-            "name": "ck-nc-cyberpunk-IL-000011",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "hash": "edafb9df7da1",
-            "name": "ck-neon-retrowave-IL",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "163ac69059",
-            "name": "hassakuXLIllustrious_v13StyleA",
+            "hash": "886a42c049",
+            "name": "duchaitenPonyXLNo_ponyNoScoreV40",
             "type": "model"
           }
         ],
-        "Model hash": "163ac69059",
-        "Hires steps": "20",
-        "Hires upscale": "1.3",
-        "Schedule type": "Simple",
-        "Hires upscaler": "4x-AnimeSharp",
-        "negativePrompt": "score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry, window, holding, headphones,",
-        "Hires CFG Scale": "5",
-        "Denoising strength": "0.35",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
+        "Model hash": "886a42c049",
+        "Mimic scale": "7",
+        "negativePrompt": "score_4, score_3, score_2, score_1, SDXL_general_unaestheticXL_Alb2, SDXL_semireal_unaestheticXL2v10",
+        "ADetailer model": "face_yolov8n.pt",
+        "Interpolate Phi": "1",
+        "ADetailer version": "24.5.1",
+        "Scaling Startpoint": "MEAN",
+        "ADetailer mask blur": "4",
+        "Variability Measure": "AD",
+        "ADetailer confidence": "0.3",
+        "Threshold percentile": "100",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "Separate Feature Channels": "True",
+        "ADetailer denoising strength": "0.4",
+        "Dynamic thresholding enabled": "True",
+        "ADetailer inpaint only masked": "True"
       },
-      "username": "ChronoKnight",
-      "baseModel": "Illustrious",
+      "username": "Imperativ",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1244133,
-        1380520,
-        1384132,
-        1410611
+        302265,
+        363593,
+        531417
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "17|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=17%7C1744925337225"
+    "nextCursor": "18|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=18%7C1744925337225"
   }
 }
