@@ -4,9 +4,297 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的短影音</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Icon for play/pause, mute/unmute etc. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow: hidden;
+            color: white;
+        }
+
+        .app-wrapper {
+            width: 100%;
+            max-width: 400px;
+            height: 100vh;
+            max-height: 900px;
+            position: relative;
+            overflow: hidden;
+            background: #000;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .video-feed {
+            width: 100%;
+            height: 100%;
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+            position: relative;
+            scrollbar-width: none;
+        }
+
+        .video-feed::-webkit-scrollbar {
+            display: none;
+        }
+
+        .video-card {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+            position: relative;
+            background: #000;
+        }
+
+        .video-player {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background: #000;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0,0,0,0.1) 0%,
+                rgba(0,0,0,0) 20%,
+                rgba(0,0,0,0) 60%,
+                rgba(0,0,0,0.7) 100%
+            );
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 25px;
+            z-index: 1;
+        }
+
+        .video-info {
+            margin-bottom: 15px;
+        }
+
+        .video-info h3 {
+            font-size: 1.3em;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+            line-height: 1.2;
+        }
+
+        .video-info p {
+            font-size: 0.95em;
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+            line-height: 1.4;
+        }
+
+        .controls {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            display: flex;
+            gap: 18px;
+            z-index: 3;
+        }
+
+        .control-btn {
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.3em;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .control-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .side-actions {
+            position: absolute;
+            right: 20px;
+            bottom: 120px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+            z-index: 3;
+        }
+
+        .action-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            font-size: 0.85em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .action-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .action-btn i {
+            font-size: 2em;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+            transition: all 0.3s ease;
+        }
+
+        .action-btn:hover i {
+            transform: scale(1.2);
+        }
+
+        .action-btn:nth-child(1) i {
+            color: #ff3040;
+        }
+
+        .action-btn:nth-child(2) i {
+            color: #25d366;
+        }
+
+        .action-btn:nth-child(3) i {
+            color: #1da1f2;
+        }
+
+        .play-indicator {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4em;
+            color: rgba(255, 255, 255, 0.9);
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 4;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .video-card.paused .play-indicator {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+
+        /* Loading animation */
+        .video-card.loading::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid #fff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            z-index: 5;
+        }
+
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        /* Progress bar */
+        .progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.3);
+            width: 100%;
+            z-index: 2;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ff3040, #ff6b6b);
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+
+        /* Hide default video controls */
+        video::-webkit-media-controls,
+        video::-webkit-media-controls-enclosure {
+            display: none !important;
+        }
+
+        video {
+            -ms-media-controls-display: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 480px) {
+            .app-wrapper {
+                max-width: 100vw;
+                height: 100vh;
+                border-radius: 0;
+                border: none;
+            }
+
+            .video-overlay {
+                padding: 20px;
+            }
+
+            .controls {
+                left: 20px;
+                bottom: 20px;
+                gap: 15px;
+            }
+
+            .control-btn {
+                width: 45px;
+                height: 45px;
+                font-size: 1.2em;
+            }
+
+            .side-actions {
+                right: 15px;
+                bottom: 100px;
+                gap: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="app-wrapper">
@@ -15,6 +303,292 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const videoFeed = document.querySelector('.video-feed');
+
+            // 從GitHub repo獲取真實影片數據
+            const videoData = [
+                { id: 1, src: 'videos/2025_09_08/2025_09_08_01.mp4', title: '城市霓虹夜景', description: '@DancingQueen88 - 夜晚的城市燈火璀璨 ✨ #城市風光 #夜景攝影' },
+                { id: 2, src: 'videos/2025_09_08/2025_09_08_02.mp4', title: '山間日出時光', description: '@NatureLover - 清晨第一道陽光灑向大地 🌅 #日出 #山景' },
+                { id: 3, src: 'videos/2025_09_08/2025_09_08_03.mp4', title: '可愛貓咪日常', description: '@KittyTales - 我家貓主子又在賣萌了 🐱 #萌寵 #貓咪日常' },
+                { id: 4, src: 'videos/2025_09_08/2025_09_08_04.mp4', title: '美食製作過程', description: '@FoodieFanatic - 手工義大利麵製作教學 🍝 #料理 #美食' },
+                { id: 5, src: 'videos/2025_09_08/2025_09_08_05.mp4', title: '星空縮時攝影', description: '@Stargazer - 璀璨星空下的寧靜夜晚 ⭐ #星空 #縮時攝影' },
+                { id: 6, src: 'videos/2025_09_08/2025_09_08_06.mp4', title: '極限運動挑戰', description: '@AdrenalineJunkie - 滑板公園的酷炫技巧 🛹 #極限運動 #滑板' },
+                { id: 7, src: 'videos/2025_09_08/2025_09_08_07.mp4', title: '藝術創作靈感', description: '@ArtisticSoul - 抽象畫作的創作過程 🎨 #藝術 #創意' },
+                { id: 8, src: 'videos/2025_09_08/2025_09_08_08.mp4', title: '海邊放鬆時光', description: '@BeachVibes - 夕陽西下的海邊漫步 🌊 #海邊 #放鬆' }
+            ];
+
+            let currentVideoIndex = 0;
+            const preloadCount = 2;
+
+            // 創建進度條
+            function createProgressBar() {
+                const progressBar = document.createElement('div');
+                progressBar.classList.add('progress-bar');
+                const progressFill = document.createElement('div');
+                progressFill.classList.add('progress-fill');
+                progressBar.appendChild(progressFill);
+                return progressBar;
+            }
+
+            // 更新進度條
+            function updateProgressBar(video, progressFill) {
+                if (video.duration) {
+                    const progress = (video.currentTime / video.duration) * 100;
+                    progressFill.style.width = `${progress}%`;
+                }
+            }
+
+            // 創建單個影片卡片
+            function createVideoCard(videoItem, index) {
+                const videoCard = document.createElement('div');
+                videoCard.classList.add('video-card', 'loading');
+                videoCard.dataset.index = index;
+
+                const videoPlayer = document.createElement('video');
+                videoPlayer.classList.add('video-player');
+                videoPlayer.src = videoItem.src;
+                videoPlayer.loop = true;
+                videoPlayer.muted = true;
+                videoPlayer.playsInline = true;
+                videoPlayer.preload = 'metadata';
+
+                const videoOverlay = document.createElement('div');
+                videoOverlay.classList.add('video-overlay');
+
+                const videoInfo = document.createElement('div');
+                videoInfo.classList.add('video-info');
+                const title = document.createElement('h3');
+                title.textContent = videoItem.title;
+                const description = document.createElement('p');
+                description.textContent = videoItem.description;
+                videoInfo.appendChild(title);
+                videoInfo.appendChild(description);
+
+                const controls = document.createElement('div');
+                controls.classList.add('controls');
+                const playPauseBtn = document.createElement('button');
+                playPauseBtn.classList.add('control-btn', 'play-pause-btn');
+                playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+                const muteUnmuteBtn = document.createElement('button');
+                muteUnmuteBtn.classList.add('control-btn', 'mute-unmute-btn');
+                muteUnmuteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+                controls.appendChild(playPauseBtn);
+                controls.appendChild(muteUnmuteBtn);
+
+                const sideActions = document.createElement('div');
+                sideActions.classList.add('side-actions');
+                const likeBtn = document.createElement('div');
+                likeBtn.classList.add('action-btn');
+                likeBtn.innerHTML = '<i class="fas fa-heart"></i><span>1.2M</span>';
+                const commentBtn = document.createElement('div');
+                commentBtn.classList.add('action-btn');
+                commentBtn.innerHTML = '<i class="fas fa-comment-dots"></i><span>5.7K</span>';
+                const shareBtn = document.createElement('div');
+                shareBtn.classList.add('action-btn');
+                shareBtn.innerHTML = '<i class="fas fa-share"></i><span>分享</span>';
+                sideActions.appendChild(likeBtn);
+                sideActions.appendChild(commentBtn);
+                sideActions.appendChild(shareBtn);
+
+                const playIndicator = document.createElement('div');
+                playIndicator.classList.add('play-indicator');
+                playIndicator.innerHTML = '<i class="fas fa-play"></i>';
+
+                const progressBar = createProgressBar();
+                const progressFill = progressBar.querySelector('.progress-fill');
+
+                videoOverlay.appendChild(videoInfo);
+                videoCard.appendChild(videoPlayer);
+                videoCard.appendChild(videoOverlay);
+                videoCard.appendChild(controls);
+                videoCard.appendChild(sideActions);
+                videoCard.appendChild(playIndicator);
+                videoCard.appendChild(progressBar);
+
+                // 影片載入完成事件
+                videoPlayer.addEventListener('loadedmetadata', () => {
+                    videoCard.classList.remove('loading');
+                });
+
+                // 進度更新
+                videoPlayer.addEventListener('timeupdate', () => {
+                    updateProgressBar(videoPlayer, progressFill);
+                });
+
+                // 事件監聽器
+                playPauseBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+                });
+
+                muteUnmuteBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    toggleMuteUnmute(videoPlayer, muteUnmuteBtn);
+                });
+
+                videoPlayer.addEventListener('click', () => {
+                    togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+                });
+
+                // 按讚動畫
+                likeBtn.addEventListener('click', () => {
+                    likeBtn.style.transform = 'scale(1.3)';
+                    setTimeout(() => {
+                        likeBtn.style.transform = 'scale(1)';
+                    }, 200);
+                });
+
+                videoCard.classList.add('paused');
+                return videoCard;
+            }
+
+            // 播放/暫停功能
+            function togglePlayPause(video, btn, card, indicator) {
+                if (video.paused) {
+                    video.play().catch(e => console.error("Play error:", e));
+                    btn.innerHTML = '<i class="fas fa-pause"></i>';
+                    card.classList.remove('paused');
+                    indicator.innerHTML = '<i class="fas fa-pause"></i>';
+                } else {
+                    video.pause();
+                    btn.innerHTML = '<i class="fas fa-play"></i>';
+                    card.classList.add('paused');
+                    indicator.innerHTML = '<i class="fas fa-play"></i>';
+                }
+                
+                indicator.style.opacity = 1;
+                clearTimeout(video.indicatorTimeout);
+                video.indicatorTimeout = setTimeout(() => {
+                    indicator.style.opacity = 0;
+                }, 800);
+            }
+
+            // 靜音/取消靜音功能
+            function toggleMuteUnmute(video, btn) {
+                video.muted = !video.muted;
+                btn.innerHTML = video.muted ? 
+                    '<i class="fas fa-volume-mute"></i>' : 
+                    '<i class="fas fa-volume-up"></i>';
+            }
+
+            // 渲染影片
+            function renderVideos(startIndex) {
+                videoFeed.innerHTML = '';
+                const frag = document.createDocumentFragment();
+
+                const start = Math.max(0, startIndex - preloadCount);
+                const end = Math.min(videoData.length - 1, startIndex + preloadCount);
+
+                for (let i = start; i <= end; i++) {
+                    const videoCard = createVideoCard(videoData[i], i);
+                    frag.appendChild(videoCard);
+                }
+                videoFeed.appendChild(frag);
+                initObserver();
+            }
+
+            let observer;
+
+            function initObserver() {
+                if (observer) observer.disconnect();
+
+                const options = {
+                    root: videoFeed,
+                    rootMargin: '0px',
+                    threshold: 0.8
+                };
+
+                observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        const videoCard = entry.target;
+                        const video = videoCard.querySelector('.video-player');
+                        const index = parseInt(videoCard.dataset.index);
+
+                        if (entry.isIntersecting) {
+                            if (index === currentVideoIndex) {
+                                video.play().catch(e => console.error("Play error:", e));
+                                videoCard.classList.remove('paused');
+                                videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-pause"></i>';
+                            } else {
+                                video.pause();
+                                videoCard.classList.add('paused');
+                                videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-play"></i>';
+                            }
+
+                            if (index !== currentVideoIndex) {
+                                currentVideoIndex = index;
+                                renderVideos(currentVideoIndex);
+                                const currentCard = videoFeed.querySelector(`[data-index="${currentVideoIndex}"]`);
+                                if (currentCard) {
+                                    videoFeed.scrollTo({
+                                        top: currentCard.offsetTop,
+                                        behavior: 'smooth'
+                                    });
+                                }
+                            }
+                        } else {
+                            video.pause();
+                            videoCard.classList.add('paused');
+                            videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-play"></i>';
+                        }
+                    });
+                }, options);
+
+                videoFeed.querySelectorAll('.video-card').forEach(card => {
+                    observer.observe(card);
+                });
+            }
+
+            // 初始化
+            renderVideos(currentVideoIndex);
+
+            // 鍵盤事件
+            document.addEventListener('keydown', (e) => {
+                const currentVideoCard = videoFeed.querySelector(`[data-index="${currentVideoIndex}"]`);
+                if (!currentVideoCard) return;
+
+                const video = currentVideoCard.querySelector('.video-player');
+                const playPauseBtn = currentVideoCard.querySelector('.play-pause-btn');
+                const muteUnmuteBtn = currentVideoCard.querySelector('.mute-unmute-btn');
+                const playIndicator = currentVideoCard.querySelector('.play-indicator');
+
+                switch (e.code) {
+                    case 'Space':
+                        e.preventDefault();
+                        togglePlayPause(video, playPauseBtn, currentVideoCard, playIndicator);
+                        break;
+                    case 'ArrowDown':
+                    case 'PageDown':
+                        e.preventDefault();
+                        const nextIndex = (currentVideoIndex + 1) % videoData.length;
+                        const nextCard = videoFeed.querySelector(`[data-index="${nextIndex}"]`);
+                        if (nextCard) {
+                            videoFeed.scrollTo({
+                                top: nextCard.offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+                        break;
+                    case 'ArrowUp':
+                    case 'PageUp':
+                        e.preventDefault();
+                        const prevIndex = (currentVideoIndex - 1 + videoData.length) % videoData.length;
+                        const prevCard = videoFeed.querySelector(`[data-index="${prevIndex}"]`);
+                        if (prevCard) {
+                            videoFeed.scrollTo({
+                                top: prevCard.offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+                        break;
+                    case 'KeyM':
+                        toggleMuteUnmute(video, muteUnmuteBtn);
+                        break;
+                }
+            });
+        });
+    </script>
 </body>
 </html>
