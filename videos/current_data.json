@@ -1,61 +1,100 @@
 {
   "items": [
     {
-      "id": 12654388,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4e27f2b8-68b2-4eec-9912-07c2468cfc4b/width=832/4e27f2b8-68b2-4eec-9912-07c2468cfc4b.jpeg",
-      "hash": "UKA-IrWEtRt6y?NIt8t6yXn,NKoyyXogRSof",
-      "width": 832,
-      "height": 1216,
+      "id": 63175621,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0f4515bd-3db6-4032-90fe-168d1c9a4cf4/width=1400/0f4515bd-3db6-4032-90fe-168d1c9a4cf4.jpeg",
+      "hash": "U#SEBGs.xZs:.lkBS#bHNeaznioLxWjZRkWV",
+      "width": 1400,
+      "height": 2046,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-16T14:42:49.002Z",
-      "postId": 2796738,
+      "createdAt": "2025-04-03T20:46:21.212Z",
+      "postId": 14095469,
       "stats": {
-        "cryCount": 860,
-        "laughCount": 1558,
-        "likeCount": 12418,
+        "cryCount": 999,
+        "laughCount": 1529,
+        "likeCount": 12450,
         "dislikeCount": 0,
-        "heartCount": 4523,
-        "commentCount": 9
+        "heartCount": 4290,
+        "commentCount": 16
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1756146257,
-        "steps": 40,
-        "prompt": "score_9,score_8_up,score_7_up, AUTOMATON, \ngiant rock golem with plants growing on shoulders, rough rocks, rough stone, unpolished, dirty, ancient, STANDING,",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 8.5,
+        "seed": 922171400,
+        "steps": 25,
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
         "resources": [],
-        "negativePrompt": "(score_4,score_5,score_3,score_2,score_1), nude, flesh, gender, genitalia, EYES, NOSE, MOUTH,",
+        "Created Date": "2025-03-06T1004:47.8125258Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 290640
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
             "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 408720
+            "weight": 0.4,
+            "modelVersionId": 806265,
+            "modelVersionName": "v1.0"
           },
           {
-            "type": "embed",
-            "modelVersionId": 106916
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 863655,
+            "modelVersionName": "Balance_v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 754068,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 747534,
+            "modelVersionName": "Flux.1 D v1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 983288,
+            "modelVersionName": "Flux v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 840288,
+            "modelVersionName": "artisketchyfs"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 792756,
+            "modelVersionName": "flux v2.0"
           }
         ]
       },
-      "username": "FML2",
-      "baseModel": "Pony",
+      "username": "ArtifyAI",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        290640,
-        408720
+        691639,
+        747534,
+        754068,
+        792756,
+        806265,
+        840288,
+        863655,
+        983288
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "11|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=11%7C1744925337225"
+    "nextCursor": "12|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=12%7C1744925337225"
   }
 }
