@@ -1,51 +1,80 @@
 {
   "items": [
     {
-      "id": 75749028,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4d25013-1fb5-4610-8610-07a466ab2627/width=1024/a4d25013-1fb5-4610-8610-07a466ab2627.jpeg",
-      "hash": "U9B:ELE200~V16s:=XNb02WB^$bb^+RQIAx]",
-      "width": 1024,
-      "height": 1536,
+      "id": 68701222,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9f50cbc3-98f4-4eb1-8bf6-34b40b30ad41/width=832/9f50cbc3-98f4-4eb1-8bf6-34b40b30ad41.jpeg",
+      "hash": "UDI:z0IE~90iLd5ps.NI0j^#Mz~8$*IqI=t6",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-18T06:49:19.333Z",
-      "postId": 16820009,
+      "createdAt": "2025-04-08T06:31:00.000Z",
+      "postId": 15265347,
       "stats": {
-        "cryCount": 799,
-        "laughCount": 1613,
-        "likeCount": 9598,
+        "cryCount": 721,
+        "laughCount": 1219,
+        "likeCount": 9848,
         "dislikeCount": 0,
-        "heartCount": 3445,
-        "commentCount": 4
+        "heartCount": 3571,
+        "commentCount": 8
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "realistic, vibrant, detailed. a cinematic photograph classily depicts a prestigious beautiful woman dressed in an all white dress. The woman has no face. Her head is a sphere, a colorful gradient foreign planet, and not a human head. Her outfit is adorned by luxurious gold trim and other attire. Her skin is tan with smooth rough textures. She has a very detailed planetary sphere for her head that emits natural weather phenomenon and neon ethereal ozonous layers, swirls, and hues. The image is sharp and professional with studio quality. The contrast and style is very sharp, but liquid and vivid. Gorgeous background and details with subtle hints of illumination. glass, ether, spirit, breath, light, energy. Particles, high density quality, vibrant colors and hues. The overall style of the image is highly stylish, dynamic and free-flowing elegance., modest, sfw",
-        "quality": "medium",
-        "quantity": 2,
-        "workflow": "txt2img",
-        "background": "opaque",
+        "Size": "832x1216",
+        "seed": 1515554949,
+        "steps": 25,
+        "prompt": "nistyle, in the style of ck-mgs, Mh1$AgThS2, intricate linework with expressive contrasts, soft lighting with dynamic highlights, image of a dusty desert with a 1930s female explorer, blonde hair, safari hat and jacket, standing looking up at an Egyptian pyramid, silhouetted at sunset, sparse clouds",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-04-06T0739:52.7347730Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 791149,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 976226,
+            "modelVersionName": "v.01 - e13 flux"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 1023569,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1232251,
+            "modelVersionName": "v1.0 FLUX"
           }
         ]
       },
-      "username": "Ocean3",
-      "baseModel": "OpenAI",
+      "username": "Stu42",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        691639,
+        791149,
+        976226,
+        1023569,
+        1232251
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "31|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=31%7C1744925337225"
+    "nextCursor": "32|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=32%7C1744925337225"
   }
 }
