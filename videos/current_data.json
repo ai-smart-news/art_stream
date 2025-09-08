@@ -1,106 +1,52 @@
 {
   "items": [
     {
-      "id": 17108902,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0ea2c31-2551-46b4-95e4-6c3ca52a0204/width=832/c0ea2c31-2551-46b4-95e4-6c3ca52a0204.jpeg",
-      "hash": "U7D[8~IW=w}=0N-A%1$$0N=_5S5S~A9^EfNw",
+      "id": 25318543,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/003eb0b8-e848-4c10-aa34-54f4f420602e/width=832/003eb0b8-e848-4c10-aa34-54f4f420602e.jpeg",
+      "hash": "UFAl9I5R5k^Q}tELJ6-UNtR*=eI:9[oL=eI:",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-06-25T07:08:44.943Z",
-      "postId": 3835910,
+      "createdAt": "2024-08-20T20:48:15.175Z",
+      "postId": 5657638,
       "stats": {
-        "cryCount": 554,
-        "laughCount": 1158,
-        "likeCount": 10100,
+        "cryCount": 755,
+        "laughCount": 2201,
+        "likeCount": 9373,
         "dislikeCount": 0,
-        "heartCount": 3783,
-        "commentCount": 11
+        "heartCount": 3189,
+        "commentCount": 16
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 340283652,
-        "steps": 45,
-        "prompt": "Bosstyle, Silhouette of a Woman fighting a giant DARK mononoke Monster Boss resembling a ethereal fox with seven tails: Capture the essence of nostalgia and color in this vintage photograph. Dominating the scene is a meticulously detailed, translucent dark-red Blood filled firefox, adorned with vibrant patterns, blending seamlessly with its surroundings. Its long tail, composed of intricately woven ribbons in a spectrum of colors, trails behind, adding to the spectacle of the moment. Amidst the quietude of the night, its presence exudes a sense of ancestral strength and resilience. Behind it, the low-toned hues of the Milky Way cast a mesmerizing backdrop, a cosmic tapestry weaving tales of both past and future. In this moment, the convergence of tradition and technology, of ancient wisdom and industrial progress, hangs palpably in the air., atmospheric haze, Film grain, cinematic film still, shallow depth of field, highly detailed, high budget, cinemascope, moody, epic, OverallDetail, 2000s vintage RAW photo, photorealistic, candid camera, color graded cinematic, eye catchlights, atmospheric lighting, imperfections, natural, shallow dof",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 4.5,
+        "seed": 45964179,
+        "steps": 25,
+        "prompt": "A minion from despicable me, red skin, Darth Maul like spikes on head, dressed in a dark Sith lord robe, Dark Jedi, (one eye:1.2), angry expression, scowling, (looking at viewer:1.1), holding a red lightsaber, pitch black background only illuminated by red lightsaber, perfect lightsaber, lightsaber pointed at viewer,\nHighest quality, masterpiece, 4k, concept art,",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-06-20T0659:33.3194347Z",
-        "negativePrompt": "NEG-fixl-2, easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
+        "Created Date": "2024-08-14T1942:06.9242157Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 577919,
-            "modelVersionName": "NightVisionXL_v9.0.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 258687,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 296637,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 413566,
-            "modelVersionName": "v0.1"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 429806,
-            "modelVersionName": "NEG-fixl (negative)"
-          },
-          {
-            "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 561738,
-            "modelVersionName": "light-trails"
-          },
-          {
-            "type": "lora",
-            "weight": 0.9,
-            "modelVersionId": 569512,
-            "modelVersionName": "Spirit"
-          },
-          {
-            "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 577530,
-            "modelVersionName": "mononoke"
-          },
-          {
-            "type": "vae",
-            "weight": 1,
-            "modelVersionId": 333245,
-            "modelVersionName": "SDXL-VAE"
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           }
         ]
       },
-      "username": "OrlandoOrso",
-      "baseModel": "SDXL 1.0",
+      "username": "UnstableGen",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        258687,
-        296637,
-        413566,
-        429806,
-        569512,
-        577919
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "29|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=29%7C1744925337225"
+    "nextCursor": "30|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=30%7C1744925337225"
   }
 }
