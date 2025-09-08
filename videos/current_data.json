@@ -1,33 +1,94 @@
 {
   "items": [
     {
-      "id": 718471,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c0ccb9b-8426-4e33-b4fe-bbca293efc32/width=1440/4c0ccb9b-8426-4e33-b4fe-bbca293efc32.jpeg",
-      "hash": "UAFY0?~As,sS-:?an$$%E1~B%1V@?GnNxYE2",
-      "width": 1440,
-      "height": 2880,
+      "id": 60177069,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcdc3cc5-f7f7-4eba-9901-9116eeed6203/width=1080/dcdc3cc5-f7f7-4eba-9901-9116eeed6203.jpeg",
+      "hash": "UMJZbt55JN^i56}@SvIp-jxU^h=_0#S0^PxZ",
+      "width": 1080,
+      "height": 1576,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-02-10T02:49:53.264Z",
-      "postId": 196183,
+      "createdAt": "2025-02-26T05:34:00.000Z",
+      "postId": 13457021,
       "stats": {
-        "cryCount": 866,
-        "laughCount": 1403,
-        "likeCount": 11438,
+        "cryCount": 692,
+        "laughCount": 1428,
+        "likeCount": 11174,
         "dislikeCount": 0,
-        "heartCount": 4435,
-        "commentCount": 53
+        "heartCount": 4624,
+        "commentCount": 12
       },
-      "meta": null,
-      "username": "Mazz_W",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1789290092,
+        "Model": "hassakuXLIllustrious_v13StyleA",
+        "steps": 30,
+        "hashes": {
+          "model": "163ac69059",
+          "lora:ck-neon-retrowave-IL": "edafb9df7da1",
+          "lora:ck-shadow-circuit-IL": "88e247aa8c3d",
+          "lora:ck-nc-cyberpunk-IL-000011": "935e6755554c",
+          "lora:MoriiMee_Gothic_Niji_Style_Illustrious_r1": "ca72422dcb3e"
+        },
+        "prompt": "<lora:ck-shadow-circuit-IL:0.78>,\nmasterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject,\n close up, stylized, in gold and neon shades, wabi sabi, 1girl, rainbow angel wings,  looking at viewer, dynamic angle, from below, from side, relaxing\n<lora:MoriiMee_Gothic_Niji_Style_Illustrious_r1:0.45>\n<lora:ck-nc-cyberpunk-IL-000011:0.4>\n<lora:ck-neon-retrowave-IL:0.8>",
+        "Version": "f2.0.1v1.10.1-1.10.1",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "resources": [
+          {
+            "hash": "88e247aa8c3d",
+            "name": "ck-shadow-circuit-IL",
+            "type": "lora",
+            "weight": 0.78
+          },
+          {
+            "hash": "ca72422dcb3e",
+            "name": "MoriiMee_Gothic_Niji_Style_Illustrious_r1",
+            "type": "lora",
+            "weight": 0.45
+          },
+          {
+            "hash": "935e6755554c",
+            "name": "ck-nc-cyberpunk-IL-000011",
+            "type": "lora",
+            "weight": 0.4
+          },
+          {
+            "hash": "edafb9df7da1",
+            "name": "ck-neon-retrowave-IL",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "163ac69059",
+            "name": "hassakuXLIllustrious_v13StyleA",
+            "type": "model"
+          }
+        ],
+        "Model hash": "163ac69059",
+        "Hires steps": "20",
+        "Hires upscale": "1.3",
+        "Schedule type": "Simple",
+        "Hires upscaler": "4x-AnimeSharp",
+        "negativePrompt": "score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry, window, holding, headphones,",
+        "Hires CFG Scale": "5",
+        "Denoising strength": "0.35",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
+      },
+      "username": "ChronoKnight",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1244133,
+        1380520,
+        1384132,
+        1410611
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "16|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=16%7C1744925337225"
+    "nextCursor": "17|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=17%7C1744925337225"
   }
 }
