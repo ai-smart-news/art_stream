@@ -1,39 +1,94 @@
 {
   "items": [
     {
-      "id": 9450093,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec8d76a5-a3dc-473d-bffb-890df13c69b7/width=832/ec8d76a5-a3dc-473d-bffb-890df13c69b7.jpeg",
-      "hash": "U8AUBa4n?w%MMwVr8^xu?wRjaef+Sifkozoz",
-      "width": 832,
-      "height": 1216,
+      "id": 10703900,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/402ed7f8-ba25-421d-a68a-b11ae31af91f/width=450/402ed7f8-ba25-421d-a68a-b11ae31af91f.jpeg",
+      "hash": "U8B3KH~U0201R*xZ%1RktS-oV?9a?G%LM|E2",
+      "width": 450,
+      "height": 800,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-04-08T19:10:40.568Z",
-      "postId": 2046084,
+      "createdAt": "2024-04-25T09:36:34.533Z",
+      "postId": 2347846,
       "stats": {
-        "cryCount": 781,
-        "laughCount": 1481,
-        "likeCount": 11958,
+        "cryCount": 761,
+        "laughCount": 1548,
+        "likeCount": 11750,
         "dislikeCount": 0,
-        "heartCount": 4360,
-        "commentCount": 18
+        "heartCount": 4279,
+        "commentCount": 8
       },
-      "meta": null,
-      "username": "eduardo_saffe",
+      "meta": {
+        "VAE": "sdxl_vae.safetensors",
+        "Size": "720x1280",
+        "seed": 282176597,
+        "Model": "mrXOTOXNASSEWNDE_v10Fp32",
+        "steps": 38,
+        "hashes": {
+          "vae": "235745af8d",
+          "model": "5f6b784003",
+          "lora:MJ52": "000c96b6bd08",
+          "lora:add-detail-xl": "9c783c8ce46c",
+          "lora:Concept Art Twilight Style SDXL_LoRA_Pony Diffusion V6 XL": "e5fe96cd307b"
+        },
+        "prompt": "linquivera,  Ink illustration, (anime:0.5), brown tones, aged black red paper, inkpunk, moonlight,surreal, a ghost standing on a boat in swampy wetlands, (at a distance), Will-o'-the-wisp, moonlit, lonely, solitude, windy, tall trees, willows, willowy,  OverallDetail, extremely detailed, UHD,(long exposure , dystopian but extremely beautiful:1.4),<lora:- SDXL - letitflrsh_let_it_flourish_V1.0:0.8> ,<lora:Cute_Collectible:1>, <lora:XL_boss_battle:0.6>  <lora:add-detail-xl:1>,  <lora:Concept Art Twilight Style SDXL_LoRA_Pony Diffusion V6 XL:1>,  <lora:MJ52:1>",
+        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+        "sampler": "DPM++ SDE Karras",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "name": "Cute_Collectible",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "name": "XL_boss_battle",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "hash": "9c783c8ce46c",
+            "name": "add-detail-xl",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "000c96b6bd08",
+            "name": "MJ52",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "e5fe96cd307b",
+            "name": "Concept Art Twilight Style SDXL_LoRA_Pony Diffusion V6 XL",
+            "type": "lora"
+          },
+          {
+            "hash": "5f6b784003",
+            "name": "mrXOTOXNASSEWNDE_v10Fp32",
+            "type": "model"
+          }
+        ],
+        "Model hash": "5f6b784003",
+        "Hires upscale": "1.5",
+        "Hires upscaler": "Latent",
+        "negativePrompt": "(worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch), open mouth",
+        "Denoising strength": "0.7"
+      },
+      "username": "Rohanda",
       "baseModel": "SDXL 1.0",
       "modelVersionIds": [
         135867,
-        302265,
-        310551,
-        391999,
-        395107
+        283697,
+        448214
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "13|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=13%7C1744925337225"
+    "nextCursor": "14|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=14%7C1744925337225"
   }
 }
