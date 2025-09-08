@@ -1,70 +1,38 @@
 {
   "items": [
     {
-      "id": 9517243,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/695375a4-d7af-461e-ae6f-5ee960d34caa/width=832/695375a4-d7af-461e-ae6f-5ee960d34caa.jpeg",
-      "hash": "UCF=UA~WrrE2?bNttQSMMy^*%1IqIpxZM_E1",
+      "id": 22566974,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a6f968b2-1220-422d-a618-ac1e938ffa62/width=832/a6f968b2-1220-422d-a618-ac1e938ffa62.jpeg",
+      "hash": "UJ5%7tjsHqa~uijrQ-a#Poj[vfayXnjsnOWq",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-04-09T17:30:28.993Z",
-      "postId": 2061174,
+      "createdAt": "2024-08-03T13:21:43.930Z",
+      "postId": 5028682,
       "stats": {
-        "cryCount": 784,
-        "laughCount": 2638,
-        "likeCount": 11880,
+        "cryCount": 942,
+        "laughCount": 4031,
+        "likeCount": 11019,
         "dislikeCount": 0,
-        "heartCount": 4546,
+        "heartCount": 3738,
         "commentCount": 33
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 3912581945,
-        "Model": "zavychromaxl_v60",
-        "steps": 20,
-        "hashes": {
-          "model": "835d65144c",
-          "lora:cashbaba": "e6fb445891ee",
-          "lora:xl_more_art-full_v1": "fe3b4816be83"
-        },
-        "prompt": "image of a hand offering money to a fishmonger cat, holding fish, 8k, ultra detailed, at the market, <lora:cashbaba:0.6>  <lora:xl_more_art-full_v1:0.5>",
-        "Version": "v1.8.0",
-        "sampler": "DPM++ 2M SDE Karras",
-        "cfgScale": 4.5,
-        "resources": [
-          {
-            "hash": "e6fb445891ee",
-            "name": "cashbaba",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "fe3b4816be83",
-            "name": "xl_more_art-full_v1",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "hash": "835d65144c",
-            "name": "zavychromaxl_v60",
-            "type": "model"
-          }
-        ],
-        "Model hash": "835d65144c"
+        "seed": 419750308183444,
+        "steps": 25,
+        "prompt": "a digital illustration of a movie poster titled \"Finding Emo\", finding nemo parody poster, featuring a depressed cartoon clownfish with black emo hair, eyeliner, and piercings, bored expression, swimming in a dark underwater scene, in the background, movie title in a dripping, grungy font, moody blue and purple color palette",
+        "sampler": "Euler"
       },
-      "username": "Tugoff",
-      "baseModel": "SDXL 1.0",
-      "modelVersionIds": [
-        416867,
-        436890
-      ]
+      "username": "Veilance",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "7|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=7%7C1744925337225"
+    "nextCursor": "8|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=8%7C1744925337225"
   }
 }
