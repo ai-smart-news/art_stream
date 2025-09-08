@@ -1,89 +1,106 @@
 {
   "items": [
     {
-      "id": 28673784,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a103c4ba-ee8c-47b8-a649-5eed4e16efb8/width=832/a103c4ba-ee8c-47b8-a649-5eed4e16efb8.jpeg",
-      "hash": "UMEVD]9HIp-o~VIVRQxt-:M{M|t7?ZIVs.t6",
+      "id": 17108902,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0ea2c31-2551-46b4-95e4-6c3ca52a0204/width=832/c0ea2c31-2551-46b4-95e4-6c3ca52a0204.jpeg",
+      "hash": "U7D[8~IW=w}=0N-A%1$$0N=_5S5S~A9^EfNw",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-10T06:08:58.081Z",
-      "postId": 6413732,
+      "createdAt": "2024-06-25T07:08:44.943Z",
+      "postId": 3835910,
       "stats": {
-        "cryCount": 807,
-        "laughCount": 1348,
-        "likeCount": 9902,
+        "cryCount": 554,
+        "laughCount": 1158,
+        "likeCount": 10100,
         "dislikeCount": 0,
-        "heartCount": 3635,
-        "commentCount": 8
+        "heartCount": 3783,
+        "commentCount": 11
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 2123616405,
-        "extra": {
-          "remixOfId": 24871639
-        },
-        "steps": 29,
-        "prompt": "(silhouette_with_gold_foil:1.5), 1girl, pretty woman, grey eyes, detailed face, long hair, twintails, capelet, dress, gloves, cherry blossom flower petals floating around her, setting sun in back ground illuminating the body, lost the deep forest, many trees and foliage around her, a mysterious terror and fear inducing scene, small golden stars, circular patterns around body, intricate golden dress, gold foil,\nscore_9, score_8_up, score_7_up, score_6_up, score_5_up,",
-        "sampler": "Euler a",
-        "cfgScale": 7,
+        "seed": 340283652,
+        "steps": 45,
+        "prompt": "Bosstyle, Silhouette of a Woman fighting a giant DARK mononoke Monster Boss resembling a ethereal fox with seven tails: Capture the essence of nostalgia and color in this vintage photograph. Dominating the scene is a meticulously detailed, translucent dark-red Blood filled firefox, adorned with vibrant patterns, blending seamlessly with its surroundings. Its long tail, composed of intricately woven ribbons in a spectrum of colors, trails behind, adding to the spectacle of the moment. Amidst the quietude of the night, its presence exudes a sense of ancestral strength and resilience. Behind it, the low-toned hues of the Milky Way cast a mesmerizing backdrop, a cosmic tapestry weaving tales of both past and future. In this moment, the convergence of tradition and technology, of ancient wisdom and industrial progress, hangs palpably in the air., atmospheric haze, Film grain, cinematic film still, shallow depth of field, highly detailed, high budget, cinemascope, moody, epic, OverallDetail, 2000s vintage RAW photo, photorealistic, candid camera, color graded cinematic, eye catchlights, atmospheric lighting, imperfections, natural, shallow dof",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 4.5,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-09-10T0559:10.5975911Z",
-        "negativePrompt": "score_4,score_5,score_3,score_2,score_1, text, signature, username",
+        "Created Date": "2024-06-20T0659:33.3194347Z",
+        "negativePrompt": "NEG-fixl-2, easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 686553,
-            "modelVersionName": "v2 cleaned style"
+            "modelVersionId": 577919,
+            "modelVersionName": "NightVisionXL_v9.0.0"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 753378,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 244808,
-            "modelVersionName": "v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 714400,
-            "modelVersionName": "v0.5"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 135867,
+            "weight": 0.4,
+            "modelVersionId": 258687,
             "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 296637,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 413566,
+            "modelVersionName": "v0.1"
           },
           {
             "type": "embed",
-            "modelVersionId": 106916,
-            "modelVersionName": "v1.0"
+            "weight": 1,
+            "modelVersionId": 429806,
+            "modelVersionName": "NEG-fixl (negative)"
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 561738,
+            "modelVersionName": "light-trails"
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 569512,
+            "modelVersionName": "Spirit"
+          },
+          {
+            "type": "lora",
+            "weight": 0.75,
+            "modelVersionId": 577530,
+            "modelVersionName": "mononoke"
+          },
+          {
+            "type": "vae",
+            "weight": 1,
+            "modelVersionId": 333245,
+            "modelVersionName": "SDXL-VAE"
           }
         ]
       },
-      "username": "a2957598",
-      "baseModel": "Pony",
+      "username": "OrlandoOrso",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        135867,
-        244808,
-        686553,
-        714400,
-        753378
+        258687,
+        296637,
+        413566,
+        429806,
+        569512,
+        577919
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "28|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=28%7C1744925337225"
+    "nextCursor": "29|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=29%7C1744925337225"
   }
 }
