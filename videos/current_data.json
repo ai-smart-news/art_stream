@@ -1,61 +1,57 @@
 {
   "items": [
     {
-      "id": 60206877,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afcab5fa-e580-489a-9ea8-bca23534be08/width=832/afcab5fa-e580-489a-9ea8-bca23534be08.jpeg",
-      "hash": "U9DcXT009Z%M5v==xutRysMww]kCJW01xW={",
+      "id": 10556898,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d57e4d81-eac9-40ed-9054-1d3b82a24f49/width=832/d57e4d81-eac9-40ed-9054-1d3b82a24f49.jpeg",
+      "hash": "UEB:NrRV01-n?GNF9ajvohWBs+R%~VIV9b-o",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-26T17:00:00.000Z",
-      "postId": 13464437,
+      "createdAt": "2024-04-23T14:50:05.636Z",
+      "postId": 2313097,
       "stats": {
-        "cryCount": 731,
-        "laughCount": 1292,
-        "likeCount": 10151,
+        "cryCount": 691,
+        "laughCount": 1315,
+        "likeCount": 10480,
         "dislikeCount": 0,
-        "heartCount": 4104,
-        "commentCount": 9
+        "heartCount": 3769,
+        "commentCount": 4
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 174790514,
-        "Model": "waiNSFWIllustrious_v100",
-        "steps": 30,
-        "hashes": {
-          "model": "7e87327f89"
-        },
-        "prompt": "realistic, solo, cat, cute, sleeping, light_particles, nature, mountain, depth of field, the best quality, amazing quality, high quality, masterpiece,",
-        "Version": "v1.10.1",
+        "seed": 958517608,
+        "steps": 42,
+        "prompt": "detailed background,( Calm spring night landscape), amongst lush greenery, beautiful view, creeping phlox in full bloom, creeping phlox, early morning, sunrise sky, beautiful clouds, dappled sunlight, outdoor seating, one lamp, Tranquil Lake, Boat on a Lake, depth of field, masterpiece, best quality, ultra-detailed, very aesthetic, illustration, perfect composition, intricate details, absurdres, moody lighting, wisps of light, no humans,",
         "sampler": "DPM++ 2M",
         "cfgScale": 7,
-        "Mask blur": "4",
-        "resources": [
+        "clipSkip": 2,
+        "resources": [],
+        "negativePrompt": "extra digit, fewer digits, cropped, worst quality, low quality, normal quality, very displeasing,  blurry, artist name,",
+        "civitaiResources": [
           {
-            "hash": "7e87327f89",
-            "name": "waiNSFWIllustrious_v100",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 403131
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 135867
           }
-        ],
-        "Model hash": "7e87327f89",
-        "Inpaint area": "Only masked",
-        "Schedule type": "Karras",
-        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,",
-        "Denoising strength": "0.5",
-        "Masked area padding": "32"
+        ]
       },
-      "username": "Asto556",
-      "baseModel": "Illustrious",
+      "username": "SomeT",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        1367422
+        135867,
+        403131
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "23|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=23%7C1744925337225"
+    "nextCursor": "24|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=24%7C1744925337225"
   }
 }
