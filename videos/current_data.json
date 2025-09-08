@@ -1,133 +1,38 @@
 {
   "items": [
     {
-      "id": 24294279,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc6700f4-7fd3-4fc8-84ce-dcb154161850/width=1080/bc6700f4-7fd3-4fc8-84ce-dcb154161850.jpeg",
-      "hash": "U7BMuu0000~V%N%M4.OY00_4^*R457E1_4IT",
-      "width": 1080,
-      "height": 1680,
+      "id": 23526611,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5be4f7eb-7618-406e-8889-0abc966bf4f0/width=1800/5be4f7eb-7618-406e-8889-0abc966bf4f0.jpeg",
+      "hash": "U5ByZ|~T4U021~t6D*^i0h57aK?G?ZSg$%9H",
+      "width": 2304,
+      "height": 3456,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-08-14T17:20:49.238Z",
-      "postId": 5424571,
+      "createdAt": "2024-08-09T20:41:24.110Z",
+      "postId": 5246838,
       "stats": {
-        "cryCount": 699,
-        "laughCount": 1323,
-        "likeCount": 10661,
+        "cryCount": 674,
+        "laughCount": 2719,
+        "likeCount": 9933,
         "dislikeCount": 0,
-        "heartCount": 4027,
-        "commentCount": 6
+        "heartCount": 3314,
+        "commentCount": 32
       },
       "meta": {
-        "TI": {},
-        "Size": "1080x1680",
-        "seed": 2785547559,
-        "Model": "meichidarkMix_meichidarkanimxlV1",
-        "steps": 30,
-        "hashes": {
-          "model": "2116dedd1d",
-          "lora:GEN 0.1v": "82d63626ec3a",
-          "lora:age_slider_v4": "5a6ef2b74e7e",
-          "embed:unaestheticXL_Alb2": "9650626a25",
-          "lora:Expressive_H-000001": "5671f20a9a6b",
-          "lora:modern_anime_screencap_v1_0": "3f716caca76a"
-        },
-        "prompt": "<lora:GEN 0.1v:0.8>,<lora:Expressive_H-000001>,<lora:modern_anime_screencap_v1_0:0.8>,source_anime,score_9,score_8_up,score_7_up,score_6_up,dark background,low light,\n1girl,solo,<lora:age_slider_v4:1.2>,adult,tall female,black hair,medium hair,bangs,full bangs,straight hair,red eyes,pale skin,skindentation,petite,toned,(thick thighs:0.6),medium breasts,(angry:0.6),(half-closed eyes:0.8),fighting stance,holding katana,stance,black baggy pants,white top,high collar,one eye closed,crouch,glowing eyes,belt,harness,looking at viewer,flaming eye,black background,",
-        "Version": "f2.0.1v1.10.1-previous-260-gaadc0f04",
-        "sampler": "Euler a",
-        "cfgScale": 8,
-        "freeu_b1": "1.3",
-        "freeu_b2": "1.4",
-        "freeu_s1": "0.9",
-        "freeu_s2": "0.2",
-        "resources": [
-          {
-            "hash": "3f716caca76a",
-            "name": "modern_anime_screencap_v1_0",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "5a6ef2b74e7e",
-            "name": "age_slider_v4",
-            "type": "lora",
-            "weight": 1.2
-          },
-          {
-            "hash": "82d63626ec3a",
-            "name": "GEN 0.1v",
-            "type": "lora"
-          },
-          {
-            "hash": "5671f20a9a6b",
-            "name": "Expressive_H-000001",
-            "type": "lora"
-          },
-          {
-            "hash": "2116dedd1d",
-            "name": "meichidarkMix_meichidarkanimxlV1",
-            "type": "model"
-          }
-        ],
-        "sag_scale": "0.5",
-        "Model hash": "2116dedd1d",
-        "sag_enabled": "True",
-        "ControlNet 0": {
-          "Model": "sai_xl_canny_256lora [566f20af]",
-          "Module": "canny",
-          "Weight": "1",
-          "Hr Option": "Both",
-          "Resize Mode": "Crop and Resize",
-          "Threshold A": "100",
-          "Threshold B": "200",
-          "Control Mode": "Balanced",
-          "Guidance End": "1.0",
-          "Pixel Perfect": "True",
-          "Processor Res": "1080",
-          "Guidance Start": "0.0"
-        },
-        "Schedule type": "Automatic",
-        "freeu_enabled": "True",
-        "negativePrompt": "unaestheticXL_Alb2,score_4,score_3,score_2,score_1,source_cartoon,source_pony,source_furry,worst quality,low quality,normal quality,ugly,bad hand,bad feet,bad anatomy,multiple views,text,watermark,signature,monochrome,3d,\nunnatural face,unnatural body,long neck,spiral eyes,(thick lips:1.2),loli,child,teen,tall female,messy hair,ponytail,",
-        "sag_blur_sigma": "2",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer version": "24.8.0",
-        "Denoising strength": "0.3",
-        "ADetailer mask blur": "4",
-        "ADetailer model 2nd": "mediapipe_face_mesh_eyes_only",
-        "kohya_hrfix_enabled": "True",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer mask blur 2nd": "4",
-        "kohya_hrfix_end_percent": "0.35",
-        "ADetailer confidence 2nd": "0.3",
-        "kohya_hrfix_block_number": "5",
-        "ADetailer inpaint padding": "32",
-        "kohya_hrfix_start_percent": "0",
-        "ADetailer dilate erode 2nd": "4",
-        "kohya_hrfix_upscale_method": "bicubic",
-        "ADetailer denoising strength": "0.3",
-        "kohya_hrfix_downscale_factor": "2",
-        "kohya_hrfix_downscale_method": "bicubic",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 2nd": "32",
-        "ADetailer denoising strength 2nd": "0.4",
-        "kohya_hrfix_downscale_after_skip": "True",
-        "ADetailer inpaint only masked 2nd": "True"
+        "seed": 340500836565573,
+        "steps": 20,
+        "prompt": "A TV show poster for a parody series titled \"Breaking Bread,\" playing on the name of the famous show Breaking Bad. The poster features a stern-looking baker in a flour-dusted apron, with a rolling pin slung over his shoulder like a weapon. He stands in the middle of a rustic bakery, surrounded by stacks of bread loaves, pastries, and bags of flour, all arranged to mimic the iconic desert backdrop from the original show.\n\nBehind him, the bakery's chalkboard menu lists items like \"Cinnamon Swirl Cartel\" and \"Blueberry Muffin Meth,\" hinting at the culinary chaos that\u2019s about to unfold. The baker\u2019s expression is intense, yet comically serious, as if he's about to take on the world with nothing but his dough and determination.\n\nThe title \"Breaking Bread\" is displayed in bold, stylized text at the top, with the \"Breaking\" in a gritty, cracked font, while \"Bread\" is written in warm, golden letters resembling freshly baked loaves. The tagline beneath reads, \"Baking is a Dangerous Game,\" adding to the pun-filled humor.\n\nThe overall color scheme of the poster is a mix of warm, bakery hues with the gritty, dark tones reminiscent of the original show, blending the intense drama of Breaking Bad with the lighthearted, culinary twist of \"Breaking Bread.\"",
+        "sampler": "Euler"
       },
-      "username": "Tommu",
-      "baseModel": null,
-      "modelVersionIds": [
-        382152,
-        442507,
-        706675
-      ]
+      "username": "impossiblebearcl4060",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "20|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=20%7C1744925337225"
+    "nextCursor": "21|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=21%7C1744925337225"
   }
 }
