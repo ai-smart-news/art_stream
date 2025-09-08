@@ -1,59 +1,61 @@
 {
   "items": [
     {
-      "id": 9078035,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab2daea7-2269-436b-acad-e6c73ee8af83/width=720/ab2daea7-2269-436b-acad-e6c73ee8af83.jpeg",
-      "hash": "UhJtbt_3?^%M~C%Mbwt7WXDitRIUNdoL%Mt7",
-      "width": 720,
-      "height": 1280,
+      "id": 60206877,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afcab5fa-e580-489a-9ea8-bca23534be08/width=832/afcab5fa-e580-489a-9ea8-bca23534be08.jpeg",
+      "hash": "U9DcXT009Z%M5v==xutRysMww]kCJW01xW={",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-04-03T15:00:16.609Z",
-      "postId": 1960110,
+      "createdAt": "2025-02-26T17:00:00.000Z",
+      "postId": 13464437,
       "stats": {
-        "cryCount": 648,
-        "laughCount": 1318,
-        "likeCount": 9948,
+        "cryCount": 731,
+        "laughCount": 1292,
+        "likeCount": 10151,
         "dislikeCount": 0,
-        "heartCount": 4597,
+        "heartCount": 4104,
         "commentCount": 9
       },
       "meta": {
-        "Size": "360x640",
-        "seed": 4033382240,
-        "Model": "realcartoonXL_v6",
-        "steps": 40,
+        "Size": "832x1216",
+        "seed": 174790514,
+        "Model": "waiNSFWIllustrious_v100",
+        "steps": 30,
         "hashes": {
-          "model": "8824abc1db"
+          "model": "7e87327f89"
         },
-        "prompt": "(1girl, solo, masterpiece, 8k, HDR,), ginger girl, \ncharacter concept art of a beautiful woman leaning over, red sweater falling off her shoulder, cleavage, extremely sexy, seductive, long hair, luscious lips, comic book art, rough colored sketch, \n(small breasts, big hips, looking at the viewer),\n(simple background, white background)",
-        "Version": "v1.8.0",
+        "prompt": "realistic, solo, cat, cute, sleeping, light_particles, nature, mountain, depth of field, the best quality, amazing quality, high quality, masterpiece,",
+        "Version": "v1.10.1",
         "sampler": "DPM++ 2M",
         "cfgScale": 7,
+        "Mask blur": "4",
         "resources": [
           {
-            "hash": "8824abc1db",
-            "name": "realcartoonXL_v6",
+            "hash": "7e87327f89",
+            "name": "waiNSFWIllustrious_v100",
             "type": "model"
           }
         ],
-        "Model hash": "8824abc1db",
-        "Hires upscale": "2",
-        "Hires upscaler": "Latent",
-        "negativePrompt": "watermark, ugly, mutation, lowres, low quality, extra limbs, text, signature, artist name, bad anatomy, poorly drawn, malformed, deformed, blurry, out of focus, noise, dust",
-        "Denoising strength": "0.7"
+        "Model hash": "7e87327f89",
+        "Inpaint area": "Only masked",
+        "Schedule type": "Karras",
+        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,",
+        "Denoising strength": "0.5",
+        "Masked area padding": "32"
       },
-      "username": "AkiAICreator",
-      "baseModel": "SDXL 1.0",
+      "username": "Asto556",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        254091
+        1367422
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "22|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=22%7C1744925337225"
+    "nextCursor": "23|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=23%7C1744925337225"
   }
 }
