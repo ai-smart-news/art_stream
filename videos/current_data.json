@@ -1,36 +1,70 @@
 {
   "items": [
     {
-      "id": 61893679,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/012041fd-c1cb-4c08-b0dd-b4ae9148e9bc/width=832/012041fd-c1cb-4c08-b0dd-b4ae9148e9bc.jpeg",
-      "hash": "UXDn8-tQ9GtR_Mj[Djs:ogayV?n$s+jZkpkC",
+      "id": 9517243,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/695375a4-d7af-461e-ae6f-5ee960d34caa/width=832/695375a4-d7af-461e-ae6f-5ee960d34caa.jpeg",
+      "hash": "UCF=UA~WrrE2?bNttQSMMy^*%1IqIpxZM_E1",
       "width": 832,
-      "height": 1456,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-29T17:24:07.192Z",
-      "postId": 13831050,
+      "createdAt": "2024-04-09T17:30:28.993Z",
+      "postId": 2061174,
       "stats": {
-        "cryCount": 1278,
-        "laughCount": 1837,
-        "likeCount": 12445,
+        "cryCount": 784,
+        "laughCount": 2638,
+        "likeCount": 11880,
         "dislikeCount": 0,
-        "heartCount": 4410,
-        "commentCount": 18
+        "heartCount": 4546,
+        "commentCount": 33
       },
-      "meta": null,
-      "username": "Pinkielicious",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 3912581945,
+        "Model": "zavychromaxl_v60",
+        "steps": 20,
+        "hashes": {
+          "model": "835d65144c",
+          "lora:cashbaba": "e6fb445891ee",
+          "lora:xl_more_art-full_v1": "fe3b4816be83"
+        },
+        "prompt": "image of a hand offering money to a fishmonger cat, holding fish, 8k, ultra detailed, at the market, <lora:cashbaba:0.6>  <lora:xl_more_art-full_v1:0.5>",
+        "Version": "v1.8.0",
+        "sampler": "DPM++ 2M SDE Karras",
+        "cfgScale": 4.5,
+        "resources": [
+          {
+            "hash": "e6fb445891ee",
+            "name": "cashbaba",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "hash": "fe3b4816be83",
+            "name": "xl_more_art-full_v1",
+            "type": "lora",
+            "weight": 0.5
+          },
+          {
+            "hash": "835d65144c",
+            "name": "zavychromaxl_v60",
+            "type": "model"
+          }
+        ],
+        "Model hash": "835d65144c"
+      },
+      "username": "Tugoff",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        720252,
-        1279996
+        416867,
+        436890
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "6|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=6%7C1744925337225"
+    "nextCursor": "7|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=7%7C1744925337225"
   }
 }
