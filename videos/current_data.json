@@ -1,59 +1,74 @@
 {
   "items": [
     {
-      "id": 12097475,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/936f0e8d-c76f-4aa7-8b5c-37349f9b7da7/width=1520/936f0e8d-c76f-4aa7-8b5c-37349f9b7da7.jpeg",
-      "hash": "U4C$fr?w3FVYL4%KE24n0eEM00Zh+GX8:%xu",
-      "width": 1520,
-      "height": 1952,
+      "id": 64399178,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db5208dd-da08-40c7-8ed4-bd67508740ac/width=832/db5208dd-da08-40c7-8ed4-bd67508740ac.jpeg",
+      "hash": "U56*jp^f581lyEo#%f%M5EF4~p^d?b%1x]Ny",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-10T21:33:39.009Z",
-      "postId": 2669960,
+      "createdAt": "2025-04-11T19:56:34.648Z",
+      "postId": 14356296,
       "stats": {
-        "cryCount": 913,
-        "laughCount": 1896,
-        "likeCount": 14395,
+        "cryCount": 1154,
+        "laughCount": 1900,
+        "likeCount": 14151,
         "dislikeCount": 0,
-        "heartCount": 6328,
-        "commentCount": 24
+        "heartCount": 4979,
+        "commentCount": 27
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 3269595310,
-        "steps": 25,
-        "hashes": {
-          "model": "67ab2fd8ec",
-          "LORA:pony/kenva": "189804f733",
-          "LORA:pony/expressiveh": "7b53da0391",
-          "LORA:pony/san_pony_v4": "66512e48ec",
-          "LORA:pony/twilight_style": "2d9ee3fc65",
-          "LORA:sdxl/sinfully_stylish_sdxl": "033c44dfb8"
-        },
-        "prompt": "score_9, score_8_up, score_7_up,  san, 1girl, full body, squatting, solo, short hair, brown hair, gray eyes, headband, face paint, earrings, white sleeveless top, navy under dress, arm cuffs, fur headdress, fur cape, light-skinned female, female focus, looking at viewer, smiling, forest, (blush:1.1)  <lora:pony/twilight_style:0.8> concept art, realistic, <lora:pony/expressiveh:0.8> expressiveh, <lora:pony/kenva:0.8> knva, <lora:pony/san_pony_v4> <lora:sdxl/sinfully_stylish_sdxl>",
-        "sampler": "Euler a Karras",
-        "cfgScale": 7,
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 588815599,
+        "draft": false,
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A close-up of a face adorned with intricate black and blue patterns. The left side of the face is predominantly yellow, with symbols and doodles, while the right side is dark, featuring mechanical elements. The eye on the left is a striking shade of yellow, contrasting sharply with the surrounding patterns. The face is partially covered by a hooded garment, cinematic_1940s cinematic_octane",
+        "sampler": "Undefined",
+        "cfgScale": 2.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
         "resources": [],
-        "Model hash": "67ab2fd8ec",
-        "negativePrompt": "score_6, score_5, score_4",
-        "ponyDiffusionV6XL_v6StartWithThisOne Version": "ComfyUI"
+        "Created Date": "2025-03-19T0829:50.1337521Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1527024,
+            "modelVersionName": "Cinematic 1940s"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 1526912,
+            "modelVersionName": "Cinematic Octane"
+          }
+        ]
       },
-      "username": "Stellaaa",
-      "baseModel": "Pony",
+      "username": "L10n_H34r7",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        290640,
-        330475,
-        382152,
-        407532,
-        454703,
-        474738
+        691639,
+        1526912,
+        1527024
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "2|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=2%7C1744925337225"
+    "nextCursor": "3|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=3%7C1744925337225"
   }
 }
