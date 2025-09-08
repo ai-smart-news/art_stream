@@ -1,38 +1,59 @@
 {
   "items": [
     {
-      "id": 23526611,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5be4f7eb-7618-406e-8889-0abc966bf4f0/width=1800/5be4f7eb-7618-406e-8889-0abc966bf4f0.jpeg",
-      "hash": "U5ByZ|~T4U021~t6D*^i0h57aK?G?ZSg$%9H",
-      "width": 2304,
-      "height": 3456,
+      "id": 9078035,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab2daea7-2269-436b-acad-e6c73ee8af83/width=720/ab2daea7-2269-436b-acad-e6c73ee8af83.jpeg",
+      "hash": "UhJtbt_3?^%M~C%Mbwt7WXDitRIUNdoL%Mt7",
+      "width": 720,
+      "height": 1280,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-08-09T20:41:24.110Z",
-      "postId": 5246838,
+      "createdAt": "2024-04-03T15:00:16.609Z",
+      "postId": 1960110,
       "stats": {
-        "cryCount": 674,
-        "laughCount": 2719,
-        "likeCount": 9933,
+        "cryCount": 648,
+        "laughCount": 1318,
+        "likeCount": 9948,
         "dislikeCount": 0,
-        "heartCount": 3314,
-        "commentCount": 32
+        "heartCount": 4597,
+        "commentCount": 9
       },
       "meta": {
-        "seed": 340500836565573,
-        "steps": 20,
-        "prompt": "A TV show poster for a parody series titled \"Breaking Bread,\" playing on the name of the famous show Breaking Bad. The poster features a stern-looking baker in a flour-dusted apron, with a rolling pin slung over his shoulder like a weapon. He stands in the middle of a rustic bakery, surrounded by stacks of bread loaves, pastries, and bags of flour, all arranged to mimic the iconic desert backdrop from the original show.\n\nBehind him, the bakery's chalkboard menu lists items like \"Cinnamon Swirl Cartel\" and \"Blueberry Muffin Meth,\" hinting at the culinary chaos that\u2019s about to unfold. The baker\u2019s expression is intense, yet comically serious, as if he's about to take on the world with nothing but his dough and determination.\n\nThe title \"Breaking Bread\" is displayed in bold, stylized text at the top, with the \"Breaking\" in a gritty, cracked font, while \"Bread\" is written in warm, golden letters resembling freshly baked loaves. The tagline beneath reads, \"Baking is a Dangerous Game,\" adding to the pun-filled humor.\n\nThe overall color scheme of the poster is a mix of warm, bakery hues with the gritty, dark tones reminiscent of the original show, blending the intense drama of Breaking Bad with the lighthearted, culinary twist of \"Breaking Bread.\"",
-        "sampler": "Euler"
+        "Size": "360x640",
+        "seed": 4033382240,
+        "Model": "realcartoonXL_v6",
+        "steps": 40,
+        "hashes": {
+          "model": "8824abc1db"
+        },
+        "prompt": "(1girl, solo, masterpiece, 8k, HDR,), ginger girl, \ncharacter concept art of a beautiful woman leaning over, red sweater falling off her shoulder, cleavage, extremely sexy, seductive, long hair, luscious lips, comic book art, rough colored sketch, \n(small breasts, big hips, looking at the viewer),\n(simple background, white background)",
+        "Version": "v1.8.0",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 7,
+        "resources": [
+          {
+            "hash": "8824abc1db",
+            "name": "realcartoonXL_v6",
+            "type": "model"
+          }
+        ],
+        "Model hash": "8824abc1db",
+        "Hires upscale": "2",
+        "Hires upscaler": "Latent",
+        "negativePrompt": "watermark, ugly, mutation, lowres, low quality, extra limbs, text, signature, artist name, bad anatomy, poorly drawn, malformed, deformed, blurry, out of focus, noise, dust",
+        "Denoising strength": "0.7"
       },
-      "username": "impossiblebearcl4060",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "username": "AkiAICreator",
+      "baseModel": "SDXL 1.0",
+      "modelVersionIds": [
+        254091
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "21|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=21%7C1744925337225"
+    "nextCursor": "22|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=22%7C1744925337225"
   }
 }
