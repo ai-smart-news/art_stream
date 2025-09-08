@@ -1,68 +1,69 @@
 {
   "items": [
     {
-      "id": 28746697,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac371696-874f-4bbb-a6ed-5f7a5bd3ae62/width=832/ac371696-874f-4bbb-a6ed-5f7a5bd3ae62.jpeg",
-      "hash": "UJC?u{xDPVEl?wM{Vst6P;OF=_={-:V@9ZNH",
+      "id": 10634283,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26cfd41c-7ced-4c28-839e-99c0498d05ea/width=832/26cfd41c-7ced-4c28-839e-99c0498d05ea.jpeg",
+      "hash": "U04xe{9G00~WMwozn3RP00WA~qRk4m%2EMM{",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-10T17:37:01.830Z",
-      "postId": 6430369,
+      "createdAt": "2024-04-24T13:11:16.549Z",
+      "postId": 2331737,
       "stats": {
-        "cryCount": 759,
-        "laughCount": 1281,
-        "likeCount": 9746,
+        "cryCount": 636,
+        "laughCount": 1726,
+        "likeCount": 9511,
         "dislikeCount": 0,
-        "heartCount": 3491,
-        "commentCount": 9
+        "heartCount": 3234,
+        "commentCount": 6
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 4256041652,
-        "Model": "flux_dev_pruned",
-        "steps": 20,
-        "hashes": {
-          "model": "7ce71707e3",
-          "lora:Dever_Flux_Enhancer": "6be64a302443"
-        },
-        "prompt": "intensely focused Viking woman warrior with curly hair hurling a burning meteorite from her hand towards the viewer, the glowing sphere leaves the woman's body getting closer to the viewer leaving a trail of smoke and sparks, intense battlegrounds in snowy conditions, army banners, swords and shields on the ground <lora:Dever_Flux_Enhancer:0.5>",
-        "Version": "f2.0.1v1.10.1-previous-495-g4f64f6da",
+        "seed": 684123019,
+        "steps": 8,
+        "prompt": "(best quality, 8K, high resolution, masterpiece), ultra detailed, (3D CGI), black sunglasses, trendy, fashionable, silver and black stylized angry muscle doberman on a black background, countryside advertising, winning photo,",
         "sampler": "Euler",
-        "Module 1": "sd3_clip_L",
-        "Module 2": "sd3_t5xxl_fp8_e4m3fn",
-        "Module 3": "ae",
         "cfgScale": 1,
-        "resources": [
+        "clipSkip": 2,
+        "resources": [],
+        "negativePrompt": "BadDream",
+        "civitaiResources": [
           {
-            "hash": "6be64a302443",
-            "name": "Dever_Flux_Enhancer",
-            "type": "lora",
-            "weight": 0.5
+            "type": "checkpoint",
+            "modelVersionId": 344487
           },
           {
-            "hash": "7ce71707e3",
-            "name": "flux_dev_pruned",
-            "type": "model"
+            "type": "ImageJobNetworkParams { Strength = 0.75, TriggerWord = , Type = Lora }",
+            "weight": 0.75,
+            "modelVersionId": 293991
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 1, TriggerWord = BadDream, Type = TextualInversion }",
+            "weight": 1,
+            "modelVersionId": 77169
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 1, TriggerWord = , Type = Lora }",
+            "weight": 1,
+            "modelVersionId": 391999
           }
-        ],
-        "Model hash": "7ce71707e3",
-        "Schedule type": "Simple",
-        "Distilled CFG Scale": "3.5",
-        "Diffusion in Low Bits": "float8-e4m3fn (fp16 LoRA)"
+        ]
       },
-      "username": "Dever",
-      "baseModel": "Flux.1 D",
+      "username": "doberman1987",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        737284
+        77169,
+        293991,
+        344487,
+        391999
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "33|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=33%7C1744925337225"
+    "nextCursor": "34|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=34%7C1744925337225"
   }
 }
