@@ -1,74 +1,91 @@
 {
   "items": [
     {
-      "id": 64399178,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db5208dd-da08-40c7-8ed4-bd67508740ac/width=832/db5208dd-da08-40c7-8ed4-bd67508740ac.jpeg",
-      "hash": "U56*jp^f581lyEo#%f%M5EF4~p^d?b%1x]Ny",
+      "id": 17391786,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29ccc99b-e514-47a9-a361-924d4d13b100/width=832/29ccc99b-e514-47a9-a361-924d4d13b100.jpeg",
+      "hash": "UXKw2:~VS~j@~VxtR%WBE2IVWBbIM|ofaeWB",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-11T19:56:34.648Z",
-      "postId": 14356296,
+      "createdAt": "2024-06-27T06:34:41.918Z",
+      "postId": 3896135,
       "stats": {
-        "cryCount": 1154,
-        "laughCount": 1900,
-        "likeCount": 14151,
+        "cryCount": 800,
+        "laughCount": 1560,
+        "likeCount": 12175,
         "dislikeCount": 0,
-        "heartCount": 4979,
-        "commentCount": 27
+        "heartCount": 5901,
+        "commentCount": 28
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": false,
-        "seed": 588815599,
-        "draft": false,
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "A close-up of a face adorned with intricate black and blue patterns. The left side of the face is predominantly yellow, with symbols and doodles, while the right side is dark, featuring mechanical elements. The eye on the left is a striking shade of yellow, contrasting sharply with the surrounding patterns. The face is partially covered by a hooded garment, cinematic_1940s cinematic_octane",
-        "sampler": "Undefined",
-        "cfgScale": 2.5,
+        "seed": 3814095131,
+        "steps": 50,
+        "prompt": "1girl, mirko, rabbit,",
+        "sampler": "Euler a",
+        "cfgScale": 7,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-03-19T0829:50.1337521Z",
+        "resources": [
+          {
+            "name": "p3tl0v3XLP",
+            "type": "lora",
+            "weight": 1
+          }
+        ],
+        "Created Date": "2024-06-27T0322:59.2616375Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1527024,
-            "modelVersionName": "Cinematic 1940s"
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
             "type": "lora",
             "weight": 0.2,
-            "modelVersionId": 1526912,
-            "modelVersionName": "Cinematic Octane"
+            "modelVersionId": 244808,
+            "modelVersionName": "v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 333607,
+            "modelVersionName": "Smooth Anime 2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 441582,
+            "modelVersionName": "v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 593907,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 106916,
+            "modelVersionName": "v1.0"
           }
         ]
       },
-      "username": "L10n_H34r7",
-      "baseModel": "Flux.1 D",
+      "username": "fortylove",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        691639,
-        1526912,
-        1527024
+        244808,
+        290640,
+        333607,
+        441582,
+        593907
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "3|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=3%7C1744925337225"
+    "nextCursor": "4|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=4%7C1744925337225"
   }
 }
