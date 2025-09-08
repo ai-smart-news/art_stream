@@ -1,85 +1,33 @@
 {
   "items": [
     {
-      "id": 65653762,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2cf2d81-92de-4b3b-8fe0-492ae1044d34/width=1800/d2cf2d81-92de-4b3b-8fe0-492ae1044d34.jpeg",
-      "hash": "U9F6az%L00WB}?%LKPM}9tR+MdV?00NHwas:",
-      "width": 1920,
-      "height": 2560,
+      "id": 718471,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c0ccb9b-8426-4e33-b4fe-bbca293efc32/width=1440/4c0ccb9b-8426-4e33-b4fe-bbca293efc32.jpeg",
+      "hash": "UAFY0?~As,sS-:?an$$%E1~B%1V@?GnNxYE2",
+      "width": 1440,
+      "height": 2880,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-31T16:43:29.067Z",
-      "postId": 14618996,
+      "createdAt": "2024-02-10T02:49:53.264Z",
+      "postId": 196183,
       "stats": {
-        "cryCount": 1012,
-        "laughCount": 1454,
-        "likeCount": 11517,
+        "cryCount": 866,
+        "laughCount": 1403,
+        "likeCount": 11438,
         "dislikeCount": 0,
-        "heartCount": 4182,
-        "commentCount": 28
+        "heartCount": 4435,
+        "commentCount": 53
       },
-      "meta": {
-        "RNG": "CPU",
-        "Size": "960x1280",
-        "seed": 88888888,
-        "Model": "artsy_vibe-flux-fp8",
-        "steps": 60,
-        "hashes": {
-          "model": "d5894b84fa",
-          "lora:faetastic_details-flux-by_faeia": "4259dc3287",
-          "lora:style-dark_ghibli-flux-by_arsmachina": "df7d896377"
-        },
-        "prompt": "famous artwork, alcohol ink and watercolor on traditional washi paper, in a secluded, moonlit garden deep within an ancient forest and bathed in silver moonlight, a mythical silver-furred kitsune fox spirit sits regally upon a quaint wooden bridge arching over a tranquil koi pond, its presence both enchanting and enigmatic, its nine resplendent fox tails unfurl in a grand, mesmerizing display, fanning out behind it like an ethereal peacock wheel, each tail flowing like silk, shimmering with delicate strands of celestial light, and tipped with a faint, ghostly luminescence, its magical golden eyes glow intensely, casting an enchanting aura as they pierce the night. the scene is dreamlike, filled with cascading wisteria, intricately detailed herbs and wildflowers, and delicate misty fog drifting through the air, a few glowing will-o\u00e2\u0080\u0099-wisps float gently around the kitsune, illuminating the moss-covered stones and the mirror-like koi pond beneath with their soft, mystical glow. the kitsune\u00e2\u0080\u0099s tails dominate the composition, arranged in an elegant, symmetrical arc, their delicate, flowing texture highlighted by the contrast of moonlight and shadow, the atmosphere is surreal and enchanting, with a color palette of mint green, teal, deep indigo, ethereal blues, and soft lavender, golden accents from the kitsune\u00e2\u0080\u0099s piercing gaze and the floating wisps create a striking contrast against the cool, dreamy hues, petals from the wisteria drift lazily through the air, caught in a soft breeze, their descent mirrored in the rippling pond, where the kitsune\u00e2\u0080\u0099s spectral reflection appears even more otherworldly. a cinematic, painterly shot, slightly elevated angle, capturing the entire mystical landscape in breathtaking detail, intricate hand-painted textures and masterful use of light and shadow create a delicate balance between whimsy and haunting beauty, atmospheric fog softens the edges of the scenery, lending an otherworldly, timeless quality, the entire scene is rendered in handcrafted alcohol ink and watercolor, with soft, flowing brushstrokes, infused with a sense of ancient magic and mythical legends. inspired by studio ghibli, brian froud, and kay nielsen, accurate reflections, ovg, studio ghibli dark fairytale, <lora:style-dark_ghibli-flux-by_arsmachina:0.8> <lora:faetastic_details-flux-by_faeia:0.64>",
-        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d43",
-        "sampler": "LMS",
-        "Module 1": "ae",
-        "Module 2": "clip_l-clip_g-fp32-full_zer0int",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "name": "style-dark_ghibli-flux-by_arsmachina",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "name": "faetastic_details-flux-by_faeia",
-            "type": "lora",
-            "weight": 0.64
-          },
-          {
-            "hash": "d5894b84fa",
-            "name": "artsy_vibe-flux-fp8",
-            "type": "model"
-          }
-        ],
-        "Model hash": "d5894b84fa",
-        "Hires steps": "36",
-        "Hires upscale": "2",
-        "Schedule type": "Beta",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x_foolhardy_remacri",
-        "Hires CFG Scale": "1",
-        "Beta schedule beta": "0.6",
-        "Denoising strength": "0.36",
-        "Beta schedule alpha": "0.6",
-        "Distilled CFG Scale": "4.6",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "Hires Distilled CFG Scale": "3.6"
-      },
-      "username": "OneViolentGentleman",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        720252,
-        1308180,
-        1524423
-      ]
+      "meta": null,
+      "username": "Mazz_W",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "15|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=15%7C1744925337225"
+    "nextCursor": "16|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=16%7C1744925337225"
   }
 }
