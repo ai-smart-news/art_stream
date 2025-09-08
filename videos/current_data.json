@@ -1,57 +1,89 @@
 {
   "items": [
     {
-      "id": 27763004,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e0e11f20-d392-4703-a708-600828585251/width=1024/e0e11f20-d392-4703-a708-600828585251.jpeg",
-      "hash": "UADtIp2?2?|K8E$%]mE#-AsA5,#nS}n6rsFb",
-      "width": 1024,
-      "height": 1536,
+      "id": 28673784,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a103c4ba-ee8c-47b8-a649-5eed4e16efb8/width=832/a103c4ba-ee8c-47b8-a649-5eed4e16efb8.jpeg",
+      "hash": "UMEVD]9HIp-o~VIVRQxt-:M{M|t7?ZIVs.t6",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-04T19:05:41.445Z",
-      "postId": 6209479,
+      "createdAt": "2024-09-10T06:08:58.081Z",
+      "postId": 6413732,
       "stats": {
-        "cryCount": 698,
-        "laughCount": 1260,
-        "likeCount": 10079,
+        "cryCount": 807,
+        "laughCount": 1348,
+        "likeCount": 9902,
         "dislikeCount": 0,
-        "heartCount": 3828,
-        "commentCount": 13
+        "heartCount": 3635,
+        "commentCount": 8
       },
       "meta": {
-        "seed": 526419013298427,
-        "vaes": [
-          "flux_ae.safetensors"
-        ],
-        "comfy": "{\"prompt\": {\"6\": {\"inputs\": {\"text\": \"The image is a digital illustration in a detailed, vibrant, high contrast, semi-realistic art style with 90s retro futuristic anime elements without noise or comic halftone effect. The subject is a woman with dark shoulder length hair and green eyes. Her face showing a serious expression. The theme of her body is a vivid red. Her body is slender and athletic. Her body is cyborg with mechanical parts integrated into it. Her arms and chest are fully mechanical. she is wearing a red futuristic, cybernetic, high-tech suit with a vivid red color, reminiscent of military or space gear. the background features a greenish, (dark), abandined, industrial setting with metallic pipes and machinery, creating a sense of a dystopian or sci-fi environment. The compostition and the poses are dynamic. The composition is dominated by cool tones, with a muted, slightly gritty texture that enhances the gritty, futuristic atmosphere.\", \"clip\": [\"11\", 0]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Prompt)\"}}, \"8\": {\"inputs\": {\"samples\": [\"13\", 0], \"vae\": [\"10\", 0]}, \"class_type\": \"VAEDecode\", \"_meta\": {\"title\": \"VAE Decode\"}}, \"9\": {\"inputs\": {\"filename_prefix\": \"RAF/image\", \"images\": [\"8\", 0]}, \"class_type\": \"SaveImage\", \"_meta\": {\"title\": \"Save Image\"}}, \"10\": {\"inputs\": {\"vae_name\": \"flux_ae.safetensors\"}, \"class_type\": \"VAELoader\", \"_meta\": {\"title\": \"Load VAE\"}}, \"11\": {\"inputs\": {\"clip_name1\": \"flux\\\\t5xxl_fp16.safetensors\", \"clip_name2\": \"flux\\\\clip_l.safetensors\", \"type\": \"flux\"}, \"class_type\": \"DualCLIPLoader\", \"_meta\": {\"title\": \"DualCLIPLoader\"}}, \"12\": {\"inputs\": {\"unet_name\": \"flux_dev.safetensors\", \"weight_dtype\": \"default\"}, \"class_type\": \"UNETLoader\", \"_meta\": {\"title\": \"Load Diffusion Model\"}}, \"13\": {\"inputs\": {\"noise\": [\"25\", 0], \"guider\": [\"22\", 0], \"sampler\": [\"16\", 0], \"sigmas\": [\"17\", 0], \"latent_image\": [\"85\", 4]}, \"class_type\": \"SamplerCustomAdvanced\", \"_meta\": {\"title\": \"SamplerCustomAdvanced\"}}, \"16\": {\"inputs\": {\"sampler_name\": \"euler\"}, \"class_type\": \"KSamplerSelect\", \"_meta\": {\"title\": \"KSamplerSelect\"}}, \"17\": {\"inputs\": {\"scheduler\": \"sgm_uniform\", \"steps\": 35, \"denoise\": 1.0, \"model\": [\"61\", 0]}, \"class_type\": \"BasicScheduler\", \"_meta\": {\"title\": \"BasicScheduler\"}}, \"22\": {\"inputs\": {\"model\": [\"61\", 0], \"conditioning\": [\"60\", 0]}, \"class_type\": \"BasicGuider\", \"_meta\": {\"title\": \"BasicGuider\"}}, \"25\": {\"inputs\": {\"noise_seed\": 526419013298427}, \"class_type\": \"RandomNoise\", \"_meta\": {\"title\": \"RandomNoise\"}}, \"60\": {\"inputs\": {\"guidance\": 3.5, \"conditioning\": [\"6\", 0]}, \"class_type\": \"FluxGuidance\", \"_meta\": {\"title\": \"FluxGuidance\"}}, \"61\": {\"inputs\": {\"max_shift\": 1.15, \"base_shift\": 0.5, \"width\": [\"85\", 0], \"height\": [\"85\", 1], \"model\": [\"72\", 0]}, \"class_type\": \"ModelSamplingFlux\", \"_meta\": {\"title\": \"ModelSamplingFlux\"}}, \"72\": {\"inputs\": {\"lora_name\": \"RetroAnimeFlux\\\\RetroAnimeFluxV1.safetensors\", \"strength_model\": 1.2, \"model\": [\"12\", 0]}, \"class_type\": \"LoraLoaderModelOnly\", \"_meta\": {\"title\": \"LoraLoaderModelOnly\"}}, \"85\": {\"inputs\": {\"width\": 1024, \"height\": 1536, \"aspect_ratio\": \"custom\", \"swap_dimensions\": \"Off\", \"upscale_factor\": 1.0, \"batch_size\": 1}, \"class_type\": \"CR SDXL Aspect Ratio\", \"_meta\": {\"title\": \"\\ud83d\\udd33 CR SDXL Aspect Ratio\"}}}, \"workflow\": {\"last_node_id\": 89, \"last_link_id\": 125, \"nodes\": [{\"id\": 6, \"type\": \"CLIPTextEncode\", \"pos\": {\"0\": 790, \"1\": 370, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 490, \"1\": 250}, \"flags\": {\"collapsed\": false}, \"order\": 7, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 108, \"label\": \"clip\"}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [86], \"slot_index\": 0, \"label\": \"CONDITIONING\"}], \"properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}, \"widgets_values\": [\"The image is a digital illustration in a detailed, vibrant, high contrast, semi-realistic art style with 90s retro futuristic anime elements without noise or comic halftone effect. The subject is a woman with dark shoulder length hair and green eyes. Her face showing a serious expression. The theme of her body is a vivid red. Her body is slender and athletic. Her body is cyborg with mechanical parts integrated into it. Her arms and chest are fully mechanical. she is wearing a red futuristic, cybernetic, high-tech suit with a vivid red color, reminiscent of military or space gear. the background features a greenish, (dark), abandined, industrial setting with metallic pipes and machinery, creating a sense of a dystopian or sci-fi environment. The compostition and the poses are dynamic. The composition is dominated by cool tones, with a muted, slightly gritty texture that enhances the gritty, futuristic atmosphere.\"], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 8, \"type\": \"VAEDecode\", \"pos\": {\"0\": 1740, \"1\": 200, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 140, \"1\": 50}, \"flags\": {}, \"order\": 14, \"mode\": 0, \"inputs\": [{\"name\": \"samples\", \"type\": \"LATENT\", \"link\": 24, \"label\": \"samples\"}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 12, \"label\": \"vae\"}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [9], \"slot_index\": 0, \"label\": \"IMAGE\"}], \"properties\": {\"Node name for S&R\": \"VAEDecode\"}}, {\"id\": 9, \"type\": \"SaveImage\", \"pos\": {\"0\": 1910, \"1\": -330, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 840, \"1\": 1280}, \"flags\": {}, \"order\": 15, \"mode\": 0, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 9, \"label\": \"images\"}], \"outputs\": [], \"properties\": {\"Node name for S&R\": \"SaveImage\"}, \"widgets_values\": [\"RAF/image\"]}, {\"id\": 10, \"type\": \"VAELoader\", \"pos\": {\"0\": 1650, \"1\": 80, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 230, \"1\": 60}, \"flags\": {}, \"order\": 1, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"VAE\", \"type\": \"VAE\", \"links\": [12], \"slot_index\": 0, \"shape\": 3, \"label\": \"VAE\"}], \"properties\": {\"Node name for S&R\": \"VAELoader\"}, \"widgets_values\": [\"flux_ae.safetensors\"]}, {\"id\": 11, \"type\": \"DualCLIPLoader\", \"pos\": {\"0\": 60, \"1\": 380, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 320, \"1\": 110}, \"flags\": {}, \"order\": 2, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [108], \"slot_index\": 0, \"shape\": 3, \"label\": \"CLIP\"}], \"properties\": {\"Node name for S&R\": \"DualCLIPLoader\"}, \"widgets_values\": [\"flux\\\\t5xxl_fp16.safetensors\", \"flux\\\\clip_l.safetensors\", \"flux\"]}, {\"id\": 12, \"type\": \"UNETLoader\", \"pos\": {\"0\": 60, \"1\": 190, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 320, \"1\": 80}, \"flags\": {}, \"order\": 0, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [107], \"slot_index\": 0, \"shape\": 3, \"label\": \"MODEL\"}], \"properties\": {\"Node name for S&R\": \"UNETLoader\"}, \"widgets_values\": [\"flux_dev.safetensors\", \"default\"]}, {\"id\": 13, \"type\": \"SamplerCustomAdvanced\", \"pos\": {\"0\": 1640, \"1\": 300, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 240, \"1\": 330}, \"flags\": {}, \"order\": 13, \"mode\": 0, \"inputs\": [{\"name\": \"noise\", \"type\": \"NOISE\", \"link\": 37, \"slot_index\": 0, \"label\": \"noise\"}, {\"name\": \"guider\", \"type\": \"GUIDER\", \"link\": 30, \"slot_index\": 1, \"label\": \"guider\"}, {\"name\": \"sampler\", \"type\": \"SAMPLER\", \"link\": 19, \"slot_index\": 2, \"label\": \"sampler\"}, {\"name\": \"sigmas\", \"type\": \"SIGMAS\", \"link\": 20, \"slot_index\": 3, \"label\": \"sigmas\"}, {\"name\": \"latent_image\", \"type\": \"LATENT\", \"link\": 125, \"slot_index\": 4, \"label\": \"latent_image\"}], \"outputs\": [{\"name\": \"output\", \"type\": \"LATENT\", \"links\": [24], \"slot_index\": 0, \"shape\": 3, \"label\": \"output\"}, {\"name\": \"denoised_output\", \"type\": \"LATENT\", \"links\": null, \"shape\": 3, \"label\": \"denoised_output\"}], \"properties\": {\"Node name for S&R\": \"SamplerCustomAdvanced\"}}, {\"id\": 16, \"type\": \"KSamplerSelect\", \"pos\": {\"0\": 1310, \"1\": 310, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 260, \"1\": 60}, \"flags\": {}, \"order\": 5, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"SAMPLER\", \"type\": \"SAMPLER\", \"links\": [19], \"shape\": 3, \"label\": \"SAMPLER\"}], \"properties\": {\"Node name for S&R\": \"KSamplerSelect\"}, \"widgets_values\": [\"euler\"]}, {\"id\": 17, \"type\": \"BasicScheduler\", \"pos\": {\"0\": 1305, \"1\": 420, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 260, \"1\": 110}, \"flags\": {}, \"order\": 11, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 93, \"slot_index\": 0, \"label\": \"model\"}], \"outputs\": [{\"name\": \"SIGMAS\", \"type\": \"SIGMAS\", \"links\": [20], \"shape\": 3, \"label\": \"SIGMAS\"}], \"properties\": {\"Node name for S&R\": \"BasicScheduler\"}, \"widgets_values\": [\"sgm_uniform\", 35, 1]}, {\"id\": 22, \"type\": \"BasicGuider\", \"pos\": {\"0\": 1305, \"1\": 200, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 260, \"1\": 60}, \"flags\": {\"collapsed\": false}, \"order\": 12, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 94, \"slot_index\": 0, \"label\": \"model\"}, {\"name\": \"conditioning\", \"type\": \"CONDITIONING\", \"link\": 87, \"slot_index\": 1, \"label\": \"conditioning\"}], \"outputs\": [{\"name\": \"GUIDER\", \"type\": \"GUIDER\", \"links\": [30], \"slot_index\": 0, \"shape\": 3, \"label\": \"GUIDER\"}], \"properties\": {\"Node name for S&R\": \"BasicGuider\"}}, {\"id\": 25, \"type\": \"RandomNoise\", \"pos\": {\"0\": 1305, \"1\": 70, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 260, \"1\": 80}, \"flags\": {}, \"order\": 4, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"NOISE\", \"type\": \"NOISE\", \"links\": [37], \"shape\": 3, \"label\": \"NOISE\"}], \"properties\": {\"Node name for S&R\": \"RandomNoise\"}, \"widgets_values\": [526419013298427, \"randomize\"]}, {\"id\": 60, \"type\": \"FluxGuidance\", \"pos\": {\"0\": 1070, \"1\": 220, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 210, \"1\": 60}, \"flags\": {}, \"order\": 10, \"mode\": 0, \"inputs\": [{\"name\": \"conditioning\", \"type\": \"CONDITIONING\", \"link\": 86, \"label\": \"conditioning\"}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [87], \"slot_index\": 0, \"shape\": 3, \"label\": \"CONDITIONING\"}], \"properties\": {\"Node name for S&R\": \"FluxGuidance\"}, \"widgets_values\": [3.5], \"color\": \"#323\", \"bgcolor\": \"#535\"}, {\"id\": 61, \"type\": \"ModelSamplingFlux\", \"pos\": {\"0\": 790, \"1\": 190, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 240, \"1\": 120}, \"flags\": {}, \"order\": 9, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 106, \"label\": \"model\"}, {\"name\": \"width\", \"type\": \"INT\", \"link\": 122, \"widget\": {\"name\": \"width\"}, \"label\": \"width\"}, {\"name\": \"height\", \"type\": \"INT\", \"link\": 123, \"widget\": {\"name\": \"height\"}, \"label\": \"height\"}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [93, 94], \"slot_index\": 0, \"shape\": 3, \"label\": \"MODEL\"}], \"properties\": {\"Node name for S&R\": \"ModelSamplingFlux\"}, \"widgets_values\": [1.15, 0.5, 1024, 1024]}, {\"id\": 72, \"type\": \"LoraLoaderModelOnly\", \"pos\": {\"0\": 430, \"1\": 190, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 310, \"1\": 80}, \"flags\": {}, \"order\": 6, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 107, \"label\": \"model\"}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [106], \"slot_index\": 0, \"shape\": 3, \"label\": \"MODEL\"}], \"properties\": {\"Node name for S&R\": \"LoraLoaderModelOnly\"}, \"widgets_values\": [\"RetroAnimeFlux\\\\RetroAnimeFluxV1.safetensors\", 1.2]}, {\"id\": 85, \"type\": \"CR SDXL Aspect Ratio\", \"pos\": {\"0\": 420, \"1\": 340, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": {\"0\": 320, \"1\": 280}, \"flags\": {}, \"order\": 3, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"width\", \"type\": \"INT\", \"links\": [122], \"slot_index\": 0, \"shape\": 3, \"label\": \"width\"}, {\"name\": \"height\", \"type\": \"INT\", \"links\": [123], \"slot_index\": 1, \"shape\": 3, \"label\": \"height\"}, {\"name\": \"upscale_factor\", \"type\": \"FLOAT\", \"links\": null, \"shape\": 3, \"label\": \"upscale_factor\"}, {\"name\": \"batch_size\", \"type\": \"INT\", \"links\": null, \"shape\": 3, \"label\": \"batch_size\"}, {\"name\": \"empty_latent\", \"type\": \"LATENT\", \"links\": [124], \"slot_index\": 4, \"shape\": 3, \"label\": \"empty_latent\"}, {\"name\": \"show_help\", \"type\": \"STRING\", \"links\": null, \"shape\": 3, \"label\": \"show_help\"}], \"properties\": {\"Node name for S&R\": \"CR SDXL Aspect Ratio\"}, \"widgets_values\": [1024, 1536, \"custom\", \"Off\", 1, 1]}, {\"id\": 88, \"type\": \"Reroute\", \"pos\": {\"0\": 1490, \"1\": 550, \"2\": 0, \"3\": 0, \"4\": 0, \"5\": 0, \"6\": 0, \"7\": 0, \"8\": 0, \"9\": 0}, \"size\": [75, 26], \"flags\": {}, \"order\": 8, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 124, \"label\": \"\"}], \"outputs\": [{\"name\": \"\", \"type\": \"LATENT\", \"links\": [125], \"slot_index\": 0, \"label\": \"\"}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}], \"links\": [[9, 8, 0, 9, 0, \"IMAGE\"], [12, 10, 0, 8, 1, \"VAE\"], [19, 16, 0, 13, 2, \"SAMPLER\"], [20, 17, 0, 13, 3, \"SIGMAS\"], [24, 13, 0, 8, 0, \"LATENT\"], [30, 22, 0, 13, 1, \"GUIDER\"], [37, 25, 0, 13, 0, \"NOISE\"], [86, 6, 0, 60, 0, \"CONDITIONING\"], [87, 60, 0, 22, 1, \"CONDITIONING\"], [93, 61, 0, 17, 0, \"MODEL\"], [94, 61, 0, 22, 0, \"MODEL\"], [106, 72, 0, 61, 0, \"MODEL\"], [107, 12, 0, 72, 0, \"MODEL\"], [108, 11, 0, 6, 0, \"CLIP\"], [122, 85, 0, 61, 1, \"INT\"], [123, 85, 1, 61, 2, \"INT\"], [124, 85, 4, 88, 0, \"*\"], [125, 88, 0, 13, 4, \"LATENT\"]], \"groups\": [], \"config\": {}, \"extra\": {\"ds\": {\"scale\": 1.2284597357367533, \"offset\": [-301.8711782700982, 63.21615709169255]}, \"workspace_info\": {\"id\": \"75136a68-c3f8-443d-b2f3-9b649bf31d6a\", \"saveLock\": false, \"cloudID\": null, \"coverMediaPath\": null}, \"groupNodes\": {}}, \"version\": 0.4, \"widget_idx_map\": {\"16\": {\"sampler_name\": 0}, \"17\": {\"scheduler\": 0}, \"25\": {\"noise_seed\": 0}}, \"seed_widgets\": {\"25\": 0}}}",
-        "steps": 35,
-        "models": [],
-        "prompt": "The image is a digital illustration in a detailed, vibrant, high contrast, semi-realistic art style with 90s retro futuristic anime elements without noise or comic halftone effect. The subject is a woman with dark shoulder length hair and green eyes. Her face showing a serious expression. The theme of her body is a vivid red. Her body is slender and athletic. Her body is cyborg with mechanical parts integrated into it. Her arms and chest are fully mechanical. she is wearing a red futuristic, cybernetic, high-tech suit with a vivid red color, reminiscent of military or space gear. the background features a greenish, (dark), abandined, industrial setting with metallic pipes and machinery, creating a sense of a dystopian or sci-fi environment. The compostition and the poses are dynamic. The composition is dominated by cool tones, with a muted, slightly gritty texture that enhances the gritty, futuristic atmosphere.",
-        "denoise": 1,
-        "sampler": "Euler",
-        "cfgScale": 3.5,
-        "modelIds": [],
-        "scheduler": "sgm_uniform",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "additionalResources": [
+        "Size": "832x1216",
+        "seed": 2123616405,
+        "extra": {
+          "remixOfId": 24871639
+        },
+        "steps": 29,
+        "prompt": "(silhouette_with_gold_foil:1.5), 1girl, pretty woman, grey eyes, detailed face, long hair, twintails, capelet, dress, gloves, cherry blossom flower petals floating around her, setting sun in back ground illuminating the body, lost the deep forest, many trees and foliage around her, a mysterious terror and fear inducing scene, small golden stars, circular patterns around body, intricate golden dress, gold foil,\nscore_9, score_8_up, score_7_up, score_6_up, score_5_up,",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-09-10T0559:10.5975911Z",
+        "negativePrompt": "score_4,score_5,score_3,score_2,score_1, text, signature, username",
+        "civitaiResources": [
           {
-            "name": "RetroAnimeFlux\\RetroAnimeFluxV1.safetensors",
+            "type": "checkpoint",
+            "modelVersionId": 686553,
+            "modelVersionName": "v2 cleaned style"
+          },
+          {
             "type": "lora",
-            "strength": 1.2
+            "weight": 1,
+            "modelVersionId": 753378,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 244808,
+            "modelVersionName": "v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 714400,
+            "modelVersionName": "v0.5"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 135867,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 106916,
+            "modelVersionName": "v1.0"
           }
         ]
       },
-      "username": "LizardMan245",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "username": "a2957598",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        135867,
+        244808,
+        686553,
+        714400,
+        753378
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "27|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=27%7C1744925337225"
+    "nextCursor": "28|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=28%7C1744925337225"
   }
 }
