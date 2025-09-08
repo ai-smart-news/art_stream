@@ -1,81 +1,36 @@
 {
   "items": [
     {
-      "id": 11871535,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd00de1d-ec6a-4848-bc8c-01d7a8437a5d/width=832/dd00de1d-ec6a-4848-bc8c-01d7a8437a5d.jpeg",
-      "hash": "ULG@*v~ARkxt?F-nRkWX~A9uIpoft6NHNHxa",
+      "id": 61893679,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/012041fd-c1cb-4c08-b0dd-b4ae9148e9bc/width=832/012041fd-c1cb-4c08-b0dd-b4ae9148e9bc.jpeg",
+      "hash": "UXDn8-tQ9GtR_Mj[Djs:ogayV?n$s+jZkpkC",
       "width": 832,
-      "height": 1216,
+      "height": 1456,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-08T11:26:03.864Z",
-      "postId": 2617340,
+      "createdAt": "2025-04-29T17:24:07.192Z",
+      "postId": 13831050,
       "stats": {
-        "cryCount": 837,
-        "laughCount": 1601,
-        "likeCount": 13032,
+        "cryCount": 1278,
+        "laughCount": 1837,
+        "likeCount": 12445,
         "dislikeCount": 0,
-        "heartCount": 4737,
-        "commentCount": 13
+        "heartCount": 4410,
+        "commentCount": 18
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 1942001206,
-        "steps": 37,
-        "prompt": "very dark focused flash photo, amazing quality, masterpiece, best quality, hyper detailed, ultra detailed, UHD, perfect anatomy, portrait, dof, hyper-realism, majestic, awesome, inspiring,Capture the thrilling showdown between the ancient mummy and the colossal sand boss in an epic battle amidst swirling dust and desert sands. Embrace the action and chaos as these formidable forces clash in the heart of the dunes. cinematic composition, soft shadows, national geographic style",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 4.5,
-        "clipSkip": 2,
-        "resources": [],
-        "negativePrompt": "easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 155870
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 152309
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 258687
-          },
-          {
-            "type": "lora",
-            "weight": 0.95,
-            "modelVersionId": 369959
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 332071
-          }
-        ]
-      },
-      "username": "saper7474377",
-      "baseModel": "SDXL 1.0",
+      "meta": null,
+      "username": "Pinkielicious",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        9208,
-        152309,
-        155870,
-        258687,
-        332071,
-        369959
+        720252,
+        1279996
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "5|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=5%7C1744925337225"
+    "nextCursor": "6|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=6%7C1744925337225"
   }
 }
