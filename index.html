@@ -377,8 +377,8 @@
             // 轉換數據格式，添加額外信息
             return data.videos.map((video, index) => ({
                 id: `${dateString}_${index + 1}`,
-                src: `videos/${dateString}/${video.filename}`, // 修正路徑
-                thumb: `videos/${dateString}/${video.thumb_path}`, // 修正路徑
+                src: `${video.filename}`, // 修正路徑
+                thumb: `${video.thumb_path}`, // 修正路徑
                 timestamp: video.timestamp,
                 date: dateString
             }));
