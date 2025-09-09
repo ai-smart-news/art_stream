@@ -1,38 +1,43 @@
 {
   "items": [
     {
-      "id": 37410111,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c73d847-abb9-48e0-a0a5-b0f73bc0e7d9/width=832/1c73d847-abb9-48e0-a0a5-b0f73bc0e7d9.jpeg",
-      "hash": "UD5=nej[WCWA?wj[Rjae%NaxMxayxvaeMxWB",
+      "id": 56975911,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c52d4c1e-bd3d-4c8f-9b21-6556bd60a5d6/width=832/c52d4c1e-bd3d-4c8f-9b21-6556bd60a5d6.jpeg",
+      "hash": "UGDaZB~8?7^I0;9i9cE3%F%K%1S_M|NHaisD",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-30T16:35:03.386Z",
-      "postId": 8544236,
+      "createdAt": "2025-02-10T14:57:12.607Z",
+      "postId": 12755780,
       "stats": {
-        "cryCount": 632,
-        "laughCount": 978,
-        "likeCount": 8413,
+        "cryCount": 580,
+        "laughCount": 950,
+        "likeCount": 8086,
         "dislikeCount": 0,
-        "heartCount": 2988,
-        "commentCount": 13
+        "heartCount": 3280,
+        "commentCount": 10
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 925473429,
-        "extra": {
-          "remixOfId": 34756932
-        },
-        "steps": 18,
-        "prompt": "horror show, monster, nightmare, fear, Cinematic style\n\"A dark, hooded figure stands in the midst of thick fog. The creature's eyes glow with hellish fire, as if the darkness itself is pouring through them. Its face is covered in shadow, but from beneath the dark purple hood, a vicious yellow skull can be seen, twisted with malice. A clawed hand reaches forward, as if calling or cursing. Magical energy swirls around it, like smoke, poisoning the air with an ominous aura. This creature is an embodiment of horror, a creature of deep nightmares, guarding the secrets of an ancient curse.\"",
+        "nsfw": false,
+        "seed": 108218445,
+        "draft": false,
+        "steps": 38,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A close-up portrait of a demon woman with molten lava-like cracks on her skin, her fiery eyes glowing intensely. Her horns are jagged and sharp, resembling molten stone, and her expression is one of wrath and destruction, with flames flickering around her face, anime style, women, demon women, cute face, perfect body, perfect smile, REALNIME, Dark Neon Fantasy.",
         "sampler": "Undefined",
-        "cfgScale": 3.5,
+        "cfgScale": 4.5,
         "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
         "resources": [],
-        "Created Date": "2024-10-24T1915:53.7219932Z",
+        "Created Date": "2025-02-10T1456:35.8482881Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -41,22 +46,29 @@
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 959549,
-            "modelVersionName": "V1"
+            "weight": 0.85,
+            "modelVersionId": 959406,
+            "modelVersionName": "FLUX V2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
           }
         ]
       },
-      "username": "theycallmedonut",
+      "username": "tent44",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
         691639,
-        959549
+        720252,
+        959406
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "58|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=58%7C1744925337225"
+    "nextCursor": "59|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=59%7C1744925337225"
   }
 }
