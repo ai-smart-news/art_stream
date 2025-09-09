@@ -1,50 +1,80 @@
 {
   "items": [
     {
-      "id": 13164245,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d57e4412-2d4d-4d3d-9725-a61bcd86cbfc/width=1024/d57e4412-2d4d-4d3d-9725-a61bcd86cbfc.jpeg",
-      "hash": "U8DHg#=z53OE3WB49=ob}c=gOZ=gKhNsM^Ed",
-      "width": 1024,
-      "height": 1440,
+      "id": 68701503,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc6061bd-5bae-408a-9718-84232693d223/width=832/bc6061bd-5bae-408a-9718-84232693d223.jpeg",
+      "hash": "UwLyfQ?ZyCNH}?W;S}WC-UR+oyxGS#NHaeni",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-21T16:41:43.415Z",
-      "postId": 2910895,
+      "createdAt": "2025-04-08T06:51:00.000Z",
+      "postId": 15265399,
       "stats": {
-        "cryCount": 607,
-        "laughCount": 1286,
-        "likeCount": 9284,
+        "cryCount": 689,
+        "laughCount": 1216,
+        "likeCount": 9540,
         "dislikeCount": 0,
-        "heartCount": 3737,
-        "commentCount": 5
+        "heartCount": 3473,
+        "commentCount": 9
       },
       "meta": {
-        "VAE": "sdxl-vae-fp16-fix.safetensors",
-        "Size": "1024x1440",
-        "seed": 4257785000,
-        "Model": "EMS-325360-EMS",
+        "Size": "832x1216",
+        "seed": 60113041,
         "steps": 25,
-        "TaskID": "730293003243195778",
-        "prompt": "masterpiece, best quality, very aesthetic, absurdres\nwlop miimalism  \n  cinematic  lighting \n   1girl, aged up\n  walking in the alley black suit white collar shirt \n perspective from above\n cyberpunk, neon",
-        "Version": "v1.6.0.133-1-gaca9268",
-        "sampler": "Restart",
-        "cfgScale": 7,
+        "prompt": "in the style of ck-mgs, nistyle, Special Ink-drawing mode, intricate linework with expressive contrasts, Mh1$AgThS2, Inkplash art on rice paper, sepia, henna , Silhouette Art, magnificent, inksplash closeup portrait of Chinese woman punting, sunset, calm lake, redlection",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
         "resources": [],
-        "negativePrompt": "lowres, worst quality, blurry, grayscale, low contrast\n low quality, worst quality, normal quality",
-        "Denoising strength": "0",
-        "Style Selector Style": "base",
-        "Style Selector Enabled": "True",
-        "Style Selector Randomize": "False"
+        "Created Date": "2025-04-02T1641:11.0323972Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 791149,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 1023569,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1232251,
+            "modelVersionName": "v1.0 FLUX"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 976226,
+            "modelVersionName": "v.01 - e13 flux"
+          }
+        ]
       },
-      "username": "bullseyetroll",
-      "baseModel": "SDXL 1.0",
-      "modelVersionIds": []
+      "username": "Stu42",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        791149,
+        976226,
+        1023569,
+        1232251
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "35|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=35%7C1744925337225"
+    "nextCursor": "36|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=36%7C1744925337225"
   }
 }
