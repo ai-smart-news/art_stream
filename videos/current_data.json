@@ -1,60 +1,109 @@
 {
   "items": [
     {
-      "id": 60497457,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4cea4d6e-8cfe-4f68-ac9b-69a441f5d8f2/width=1152/4cea4d6e-8cfe-4f68-ac9b-69a441f5d8f2.jpeg",
-      "hash": "UHFU.[|_6OE~BnOX6NWV]nFcNu,rK4W;sA=0",
-      "width": 1152,
-      "height": 1728,
+      "id": 11878630,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a828b7f-26e5-4b34-9249-473ba586edca/width=832/0a828b7f-26e5-4b34-9249-473ba586edca.jpeg",
+      "hash": "U77BAbxEnif+~os,IVj[%foeIVoe%LWCIWj?",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-27T19:38:52.397Z",
-      "postId": 13533756,
+      "createdAt": "2024-05-08T13:19:22.985Z",
+      "postId": 2619098,
       "stats": {
-        "cryCount": 678,
-        "laughCount": 1016,
-        "likeCount": 8788,
+        "cryCount": 562,
+        "laughCount": 1068,
+        "likeCount": 8672,
         "dislikeCount": 0,
-        "heartCount": 3135,
+        "heartCount": 3281,
         "commentCount": 5
       },
       "meta": {
-        "VAE": "Flux\\ae.safetensors",
-        "seed": 248335805850279,
-        "Model": "Flux\\flux1-dev-fp8.safetensors",
-        "steps": 20,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "1be961341b",
-          "lora:yfg-smorgas-v1": "826c0dd9be"
-        },
-        "prompt": "yfg-sm0rg, Bask in the realm of abstract expressionism as a mysterious figure cloaked in a vibrant red shawl steps into view against an ebony void. Her head hangs low, enveloped in a cloud of bewitching curiosity. In stark contrast with her crimson surroundings, crisp white lines dance alongside her form, accentuating each delicate curve as if painted by an ethereal brushstroke. A sense of profound contemplation radiates from within as she stands on the edge of a transformative moment, encapsulated in a timeless swirl of emotions unraveling before our eyes. Let illuminate this striking canvas through the melding of bold colors and expressive movement, forever immortalizing this introspective scene of raw passion and introspection.",
-        "sampler": "euler_beta",
-        "resources": [
+        "Size": "832x1216",
+        "seed": 1965521129,
+        "steps": 46,
+        "prompt": "drunken fist, leaning forward, Red and Grey color graded glamour portrait photo of an Cyborg Samurai, macro, a captivating vibrant dark neon capturing the essence of a translucent amber cyborg Bedouin sorcerer in fight stance, defying expectations by conjuring a whimsical robot 'freak' from an oversized sedge hat. ethereal, smoky backdrop. throwing a translucent orange/tanslucent purple/black, weapon, katana, holding katana, atmospheric haze, Film grain, cinematic film still, shallow depth of field, highly detailed, high budget, cinemascope, moody, epic, OverallDetail, gorgeous, 2000s vintage RAW photo, photorealistic, candid camera, color graded cinematic, eye catchlights, atmospheric lighting, skin pores, imperfections, natural, shallow dof,",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "negativePrompt": "NEG-fixl-2, easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
+        "civitaiResources": [
           {
-            "hash": "1be961341b",
-            "name": "Flux\\flux1-dev-fp8.safetensors",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 343830
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 0.4, TriggerWord = , Type = lora }",
+            "weight": 0.4,
+            "modelVersionId": 240274
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 0.4, TriggerWord = , Type = lora }",
+            "weight": 0.4,
+            "modelVersionId": 258687
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 0.5, TriggerWord = , Type = lora }",
+            "weight": 0.5,
+            "modelVersionId": 296637
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 0.2, TriggerWord = , Type = lora }",
+            "weight": 0.2,
+            "modelVersionId": 316333
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 0.2, TriggerWord = , Type = lora }",
+            "weight": 0.2,
+            "modelVersionId": 329127
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 1.4, TriggerWord = , Type = lora }",
+            "weight": 1.4,
+            "modelVersionId": 332747
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 0.6, TriggerWord = , Type = lora }",
+            "weight": 0.6,
+            "modelVersionId": 413566
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 429806
+          },
+          {
+            "type": "ImageJobNetworkParams { Strength = 0.2, TriggerWord = , Type = lora }",
+            "weight": 0.2,
+            "modelVersionId": 461654
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 106916
           }
-        ],
-        "Model hash": "1be961341b",
-        "Lora_0 Model hash": "826c0dd9be",
-        "Lora_0 Model name": "yfg-smorgas-v1.safetensors",
-        "Lora_0 Strength clip": "0.8",
-        "Lora_0 Strength model": "0.8"
+        ]
       },
-      "username": "gonzalu",
-      "baseModel": "Flux.1 D",
+      "username": "Ajuro",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        694648,
-        1461091
+        240274,
+        258687,
+        296637,
+        316333,
+        329127,
+        343830,
+        413566,
+        429806,
+        461654,
+        332747
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "52|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=52%7C1744925337225"
+    "nextCursor": "53|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=53%7C1744925337225"
   }
 }
