@@ -1,72 +1,53 @@
 {
   "items": [
     {
-      "id": 64470684,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c39338b4-fceb-48bc-8227-fdeb2f57344b/width=1440/c39338b4-fceb-48bc-8227-fdeb2f57344b.jpeg",
-      "hash": "UaM*Ej-;~pkC?HRiR*IU?Gofxusm-of+ay%2",
-      "width": 1440,
-      "height": 1632,
+      "id": 77725327,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c2c256f-fa37-4abe-a44d-a9327dfea308/width=1024/3c2c256f-fa37-4abe-a44d-a9327dfea308.jpeg",
+      "hash": "U49?|0AJPC%gBrCmx^=F4ou5NaROL2q[X8xu",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-19T19:30:00.000Z",
-      "postId": 14371442,
+      "createdAt": "2025-05-22T01:44:09.644Z",
+      "postId": 17264923,
       "stats": {
-        "cryCount": 607,
-        "laughCount": 1166,
-        "likeCount": 7092,
+        "cryCount": 662,
+        "laughCount": 1125,
+        "likeCount": 7234,
         "dislikeCount": 0,
-        "heartCount": 2958,
-        "commentCount": 6
+        "heartCount": 2781,
+        "commentCount": 12
       },
       "meta": {
-        "Size": "960x1088",
-        "seed": 1522453998,
-        "Model": "novaFurryXL_illustriousV30",
-        "steps": 28,
-        "hashes": {
-          "model": "21d3ed2136",
-          "lora:Depresso_IL-000008": "d5a077e17ca0"
-        },
-        "prompt": "masterpiece, best quality, absurdres, simple background, white background, <lora:Depresso_IL-000008:1> depresso, blue body, purple hair, black tail, pink eyes, solo, one eye closed, ikea shark, hugging ikea shark, chibi, standing, sparkle",
-        "Version": "f1.2.5-v1.10.1RC-latest-983-g44e5eb17",
-        "sampler": "DPM++ 2M SDE",
-        "Emphasis": "No norm",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "A futuristic Egyptian warrior leaps through the air in a dynamic pose, mid-battle against an army of rogue AI constructs. Their armor is a sleek fusion of gold nanometal and holographic hieroglyphs, glowing with ancient power. A high-tech ankh pulses with blue plasma energy in one hand, while the other channels a beam of scarab-like drones. Behind them, a colossal pyramid-shaped starship hovers above a neon-lit desert city, casting angular shadows across towering obelisks made of obsidian and glass. Dust and energy swirl dramatically in the air. Style: cyberpharaoh aesthetic, ultra-detailed, cinematic sci-fi, glowing tech motifs, movement blur, richly textured, Moebius meets Dune ",
+        "process": "txt2img",
+        "quality": "medium",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "OpenAI",
+        "background": "opaque",
+        "civitaiResources": [
           {
-            "hash": "d5a077e17ca0",
-            "name": "Depresso_IL-000008",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "21d3ed2136",
-            "name": "novaFurryXL_illustriousV30",
-            "type": "model"
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
           }
-        ],
-        "Model hash": "21d3ed2136",
-        "Hires steps": "16",
-        "Hires upscale": "1.5",
-        "Schedule type": "Karras",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "negativePrompt": "worst quality, low quality, lowres, signature, watermark, artist name, sketch, bright pupils, dorsal fin, (countershade torso, white countershading:1.1), eyelashes",
-        "Hires CFG Scale": "3.5",
-        "Denoising strength": "0.48"
+        ]
       },
-      "username": "DD13",
-      "baseModel": "Illustrious",
+      "username": "CitronLegacy",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        1279960,
-        1532107
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "76|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=76%7C1744925337225"
+    "nextCursor": "77|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=77%7C1744925337225"
   }
 }
