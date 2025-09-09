@@ -396,8 +396,8 @@ class VideoApp {
             // 由於希望序號大的在前面，所以要將影片反轉
             return data.videos.map((video, index) => ({
                 id: `${dateString}_${index + 1}`,
-                src: `videos/${dateString}/${video.filename}`, // 修正路徑
-                thumb: `videos/${dateString}/${video.thumb_path}`, // 修正路徑
+                src: `${video.filename}`, // 修正路徑
+                thumb: `${video.thumb_path}`, // 修正路徑
                 timestamp: video.timestamp,
                 date: dateString
             })).reverse(); // 反轉，讓最新的影片排在前面
