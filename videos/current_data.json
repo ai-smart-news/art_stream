@@ -1,33 +1,81 @@
 {
   "items": [
     {
-      "id": 74832354,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/970fba8c-082c-48c2-9231-9368dad66d8f/width=1024/970fba8c-082c-48c2-9231-9368dad66d8f.jpeg",
-      "hash": "UGFEJq^O~9of~Vt6X8WCt+NbWEoL%fkBafs:",
-      "width": 1024,
-      "height": 1536,
+      "id": 69643023,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45428a1a-edb8-4375-8ffa-f5b33387f065/width=832/45428a1a-edb8-4375-8ffa-f5b33387f065.jpeg",
+      "hash": "UD7e77v|%1XV?Kw{$jVtiGo$v_aLbYS%bro}",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-07T19:14:29.094Z",
-      "postId": 16616086,
+      "createdAt": "2025-04-12T21:09:10.479Z",
+      "postId": 15472253,
       "stats": {
-        "cryCount": 798,
-        "laughCount": 1317,
-        "likeCount": 7508,
+        "cryCount": 590,
+        "laughCount": 1127,
+        "likeCount": 7925,
         "dislikeCount": 0,
-        "heartCount": 2929,
-        "commentCount": 52
+        "heartCount": 2865,
+        "commentCount": 6
       },
-      "meta": null,
-      "username": "EXP9182",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 1176313552,
+        "draft": false,
+        "steps": 24,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A neon samurai, his body adorned with holographic armor that shifts in color with every step, walks through the neon-drenched streets of a cybernetic Tokyo. His katana, humming with digitized energy, slices through the rain, leaving a trail of flickering blue data in its wake. His helmet bears no visor, only an ever-changing LED mask that reflects the emotions of a warrior who has forgotten his own face.\n, pinkpixelicious, aidmamj6.1,",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-04-12T2103:06.0401555Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 1.05,
+            "modelVersionId": 1609898,
+            "modelVersionName": "FLUX"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 1249246,
+            "modelVersionName": "FLUX v0.5"
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          }
+        ]
+      },
+      "username": "AIDigitalMediaAgency",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        720252,
+        1249246,
+        1609898
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "62|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=62%7C1744925337225"
+    "nextCursor": "63|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=63%7C1744925337225"
   }
 }
