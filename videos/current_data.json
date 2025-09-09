@@ -1,109 +1,55 @@
 {
   "items": [
     {
-      "id": 11878630,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a828b7f-26e5-4b34-9249-473ba586edca/width=832/0a828b7f-26e5-4b34-9249-473ba586edca.jpeg",
-      "hash": "U77BAbxEnif+~os,IVj[%foeIVoe%LWCIWj?",
-      "width": 832,
-      "height": 1216,
+      "id": 54318776,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/680922a8-d5bd-4cd7-836d-eb6ae1042b8e/width=1248/680922a8-d5bd-4cd7-836d-eb6ae1042b8e.jpeg",
+      "hash": "UGCG-$?[IqDj%xx[W?M|o[%LR6M|%yx[r?f5",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-08T13:19:22.985Z",
-      "postId": 2619098,
+      "createdAt": "2025-01-28T04:25:44.985Z",
+      "postId": 12183768,
       "stats": {
-        "cryCount": 562,
-        "laughCount": 1068,
-        "likeCount": 8672,
+        "cryCount": 544,
+        "laughCount": 983,
+        "likeCount": 8755,
         "dislikeCount": 0,
-        "heartCount": 3281,
-        "commentCount": 5
+        "heartCount": 3266,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1965521129,
-        "steps": 46,
-        "prompt": "drunken fist, leaning forward, Red and Grey color graded glamour portrait photo of an Cyborg Samurai, macro, a captivating vibrant dark neon capturing the essence of a translucent amber cyborg Bedouin sorcerer in fight stance, defying expectations by conjuring a whimsical robot 'freak' from an oversized sedge hat. ethereal, smoky backdrop. throwing a translucent orange/tanslucent purple/black, weapon, katana, holding katana, atmospheric haze, Film grain, cinematic film still, shallow depth of field, highly detailed, high budget, cinemascope, moody, epic, OverallDetail, gorgeous, 2000s vintage RAW photo, photorealistic, candid camera, color graded cinematic, eye catchlights, atmospheric lighting, skin pores, imperfections, natural, shallow dof,",
+        "Size": "1248x1824",
+        "seed": 1197238889,
+        "Model": "ponyDiffusionV6XL_v6StartWithThisOne.safetensors",
+        "steps": 20,
+        "hashes": {
+          "model": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3"
+        },
+        "prompt": "score_9, score_8_up, score_7_up, \r\nmonster girl, llamia, slit pupils, green eyes, horns, kunoichi, long hair, action pose, forest,",
         "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "negativePrompt": "NEG-fixl-2, easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
-        "civitaiResources": [
+        "cfgScale": 7,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 343830
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 0.4, TriggerWord = , Type = lora }",
-            "weight": 0.4,
-            "modelVersionId": 240274
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 0.4, TriggerWord = , Type = lora }",
-            "weight": 0.4,
-            "modelVersionId": 258687
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 0.5, TriggerWord = , Type = lora }",
-            "weight": 0.5,
-            "modelVersionId": 296637
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 0.2, TriggerWord = , Type = lora }",
-            "weight": 0.2,
-            "modelVersionId": 316333
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 0.2, TriggerWord = , Type = lora }",
-            "weight": 0.2,
-            "modelVersionId": 329127
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 1.4, TriggerWord = , Type = lora }",
-            "weight": 1.4,
-            "modelVersionId": 332747
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 0.6, TriggerWord = , Type = lora }",
-            "weight": 0.6,
-            "modelVersionId": 413566
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 429806
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 0.2, TriggerWord = , Type = lora }",
-            "weight": 0.2,
-            "modelVersionId": 461654
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 106916
+            "hash": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3",
+            "name": "ponyDiffusionV6XL_v6StartWithThisOne.safetensors",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3",
+        "negativePrompt": "score_6, score_5, score_4, text, pony, furry, child, kid, monochrome background,"
       },
-      "username": "Ajuro",
-      "baseModel": "SDXL 1.0",
+      "username": "Elioplasma",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        240274,
-        258687,
-        296637,
-        316333,
-        329127,
-        343830,
-        413566,
-        429806,
-        461654,
-        332747
+        290640
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "53|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=53%7C1744925337225"
+    "nextCursor": "54|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=54%7C1744925337225"
   }
 }
