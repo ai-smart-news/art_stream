@@ -1,69 +1,100 @@
 {
   "items": [
     {
-      "id": 29714376,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63171c8d-6b31-41e3-ad6f-6b1052dcaf55/width=832/63171c8d-6b31-41e3-ad6f-6b1052dcaf55.jpeg",
-      "hash": "U7D+JA000N^j00t,:kXm0L}@^+8{+vIVW-?a",
-      "width": 832,
-      "height": 1216,
+      "id": 13073993,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb38a219-28f9-467d-b1e5-e51c650cbdd4/width=1792/fb38a219-28f9-467d-b1e5-e51c650cbdd4.jpeg",
+      "hash": "U96uw^V?HrtRx]ogIAkC?^VsI9oz%#fkH=of",
+      "width": 1792,
+      "height": 2304,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-16T12:59:48.958Z",
-      "postId": 6648552,
+      "createdAt": "2024-05-20T17:59:01.428Z",
+      "postId": 2890151,
       "stats": {
-        "cryCount": 752,
-        "laughCount": 1288,
-        "likeCount": 8915,
+        "cryCount": 626,
+        "laughCount": 1176,
+        "likeCount": 9158,
         "dislikeCount": 0,
-        "heartCount": 3597,
-        "commentCount": 26
+        "heartCount": 3371,
+        "commentCount": 11
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 4294967296,
-        "extra": {
-          "remixOfId": 28769117
+        "Size": "896x1152",
+        "seed": 2667752565,
+        "Model": "wildcardxXLFusion_fusionOG",
+        "steps": 30,
+        "hashes": {
+          "model": "22ebc61141",
+          "lora:glowneon_xl_v1": "7f46648b8eec",
+          "lora:zavy-cntrst-sdxl": "1ac0c6cd4e92",
+          "lora:- SDXL - vanta-black_contrast_V3.0": "dd3cf99d3264"
         },
-        "steps": 25,
-        "prompt": "Hyperrealism, extreme close-up Portrait of a beautiful, stunning unique female character. She has large turquoise eyes filled with joy and excitement, extravagant eyelashes, making this image a masterpiece of photography and digital art. Style: realistic hyper-detailed rendering, 32k UHD, expressive eyes, punk, graphic design, pink hibiscus tattoo, girl's face, side view, pretty and cute, gleaming lips, white skin, telling a tale of adventure. Exuding confidence and serenity. Vibrant tattoos adorn her sun-kissed skin",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-09-15T1736:55.2667537Z",
-        "civitaiResources": [
+        "prompt": "concept art hidden face, mysterious, hooded, full body, dark enigmatic warrior, standing, storm of falling shards, glowing ethereal giant heavy thick sword in hand, warrior\u00e2\u0080\u0099s intricate armor, tattered cloak that billows in the wind, atmosphere is charged with an otherworldly energy, fantasy realism, dramatic lighting, detailed textures to bring the scene to life, <lora:zavy-cntrst-sdxl:1.5>, <lora:- SDXL - vanta-black_contrast_V3.0:0.4>, <lora:glowneon_xl_v1:0.4> . digital artwork, illustrative, painterly, matte painting, highly detailed",
+        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 5,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "hash": "1ac0c6cd4e92",
+            "name": "zavy-cntrst-sdxl",
+            "type": "lora",
+            "weight": 1.5
           },
           {
+            "hash": "7f46648b8eec",
+            "name": "glowneon_xl_v1",
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 792756,
-            "modelVersionName": "flux v2.0"
+            "weight": 0.4
           },
           {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 755549,
-            "modelVersionName": "v.02 For Flux"
+            "hash": "dd3cf99d3264",
+            "name": "- SDXL - vanta-black_contrast_V3.0",
+            "type": "lora"
+          },
+          {
+            "hash": "22ebc61141",
+            "name": "wildcardxXLFusion_fusionOG",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "22ebc61141",
+        "Hires steps": "15",
+        "ControlNet 0": {
+          "Model": "diffusers_xl_canny_mid [112a778d]",
+          "Module": "canny",
+          "Weight": "1.3",
+          "Hr Option": "Both",
+          "Resize Mode": "Resize and Fill",
+          "Threshold A": "29",
+          "Threshold B": "37",
+          "Control Mode": "My prompt is more important",
+          "Guidance End": "0.7",
+          "Pixel Perfect": "True",
+          "Processor Res": "512",
+          "Guidance Start": "0"
+        },
+        "Hires upscale": "2",
+        "Hires upscaler": "Latent (nearest-exact)",
+        "negativePrompt": "photo, photorealistic, realism, ugly",
+        "Denoising strength": "0.5",
+        "Style Selector Style": "Digital Art",
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "False"
       },
-      "username": "DarkirStorm",
-      "baseModel": "Flux.1 D",
+      "username": "DreamCk",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        691639,
-        755549,
-        792756
+        332071,
+        345685,
+        348189,
+        430643
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "44|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=44%7C1744925337225"
+    "nextCursor": "45|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=45%7C1744925337225"
   }
 }
