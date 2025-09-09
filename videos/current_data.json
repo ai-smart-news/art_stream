@@ -1,33 +1,94 @@
 {
   "items": [
     {
-      "id": 28674519,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3bcae6ac-9141-489b-8e14-81954a9e8e76/width=1536/3bcae6ac-9141-489b-8e14-81954a9e8e76.jpeg",
-      "hash": "UGDJCh?aDhD%~WtlVsIA~qW=ROWCNGM|WqtR",
-      "width": 1536,
-      "height": 2048,
+      "id": 58472372,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2aed23d-92ee-4ff9-88a2-386685d51d99/width=832/b2aed23d-92ee-4ff9-88a2-386685d51d99.jpeg",
+      "hash": "UQECam$y}?#lJ-IqR.RQxGM|o|bawfRPx]ba",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-10T06:16:29.644Z",
-      "postId": 6413878,
+      "createdAt": "2025-02-17T22:56:50.615Z",
+      "postId": 13083581,
       "stats": {
-        "cryCount": 653,
-        "laughCount": 1301,
-        "likeCount": 8119,
+        "cryCount": 585,
+        "laughCount": 903,
+        "likeCount": 8605,
         "dislikeCount": 0,
-        "heartCount": 3185,
-        "commentCount": 12
+        "heartCount": 3005,
+        "commentCount": 9
       },
-      "meta": null,
-      "username": "SOVONOY",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1501089528,
+        "steps": 41,
+        "prompt": "A apoclypse surreal cyberpunk setting under a gritty bleaked beige and blue-turqoise misty desert sunset, a Closeup Portrait of an eerie horned hkgod sci-fi shinobi nun-scout with billowing octopus backpack in a sandstorm, their holographic crystalline mask glinting like shattered rainbows. Iridescent black amber teal energy veins pulse across their form. The atmosphere is thick with heat distortion, glowing particles floating in the air. dark atmospheric lighting, white cybernetic armor. Wielding a massive sss great sword with intricate translucent engravings, hknuns",
+        "sampler": "Undefined",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-01-26T1932:00.8477068Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1288117,
+            "modelVersionName": "v.02"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 842112,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1281609,
+            "modelVersionName": "test-ad-v02E19"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1051442,
+            "modelVersionName": "Flux"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 955683,
+            "modelVersionName": "FLUX"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1299834,
+            "modelVersionName": "Flux"
+          }
+        ]
+      },
+      "username": "Ajuro",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        842112,
+        955683,
+        1051442,
+        1281609,
+        1288117,
+        1299834
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "56|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=56%7C1744925337225"
+    "nextCursor": "57|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=57%7C1744925337225"
   }
 }
