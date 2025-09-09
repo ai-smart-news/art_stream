@@ -1,91 +1,38 @@
 {
   "items": [
     {
-      "id": 87488990,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77c337fb-036b-42ba-ab55-ba335a377b75/width=832/77c337fb-036b-42ba-ab55-ba335a377b75.jpeg",
-      "hash": "UvM5%d%2-.xZ}=M|NHV[x[t7XTozb]n$tRbb",
+      "id": 60077494,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e2f5800-3b16-4e98-ae1d-00d1689a3333/width=832/9e2f5800-3b16-4e98-ae1d-00d1689a3333.jpeg",
+      "hash": "UgCaG7kCRQfQ_Nj[WBof-=ofadae%Moyofj@",
       "width": 832,
-      "height": 1216,
+      "height": 1472,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-10T21:57:32.004Z",
-      "postId": 19408619,
+      "createdAt": "2025-02-25T19:05:00.000Z",
+      "postId": 13433583,
       "stats": {
-        "cryCount": 700,
-        "laughCount": 1052,
-        "likeCount": 7443,
+        "cryCount": 511,
+        "laughCount": 915,
+        "likeCount": 7916,
         "dislikeCount": 0,
-        "heartCount": 2981,
-        "commentCount": 23
+        "heartCount": 2800,
+        "commentCount": 8
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 740360497,
-        "draft": false,
-        "steps": 21,
-        "width": 832,
-        "height": 1216,
-        "prompt": "illustrated by Gabriel Picolo, (resplendent highlighting) in the style of casual line and wash sketch, hauntingly beautiful, violento colorido, influenced by Bernard Buffet, a contemporary watercolor painting, tightly framed, close-up portrait of a deltarune githyanki with wild hair, by Aleksi Briclot, fantasy art, super wide angel, ginger wavy hair, karol bak, decay, lovely dark autumn princess FLAT COLORS, concept art by syd mead, minimal shading, plump lips",
-        "process": "txt2img",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "clipSkip": 2,
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "SDXL",
-        "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-07-10T2157:14.2171687Z",
-        "experimental": false,
-        "negativePrompt": "watermark, cloned face, same face, nsfw, nipples, elongated, long neck makeup, face paint, weapons, sticks, holding objects, long forearms, duplicate ears, (elongated arms:1.5), (Blurry eyes:1.5), Duplicate mouth, duplicate lips, duplicate nostrils, misaligned fingers hand and arm, misaligned toes feet, and leg), (misaligned irises, misaligned pupils), (semi-realistic, CGI, 3D, render, sketch, cartoon, drawing, anime (deformed, distorted, disfigured:1.4), (extra fingers hand or arm, extra toes foot or leg:1.4), (missing fingers hand or arm, missing toes foot or leg:1.4), (elongated hands and too many fingers), (elongated feet and too many toes)",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 128078,
-            "modelVersionName": "v1.0 VAE fix"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1140252,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 403123,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 211718,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1982223,
-            "modelVersionName": "V1"
-          }
-        ]
-      },
-      "username": "runaheadofme",
-      "baseModel": "SDXL 1.0",
+      "meta": null,
+      "username": "Pinkielicious",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        128078,
-        211718,
-        403123,
-        1140252,
-        1982223
+        863991,
+        859666,
+        720252,
+        1279996
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "68|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=68%7C1744925337225"
+    "nextCursor": "69|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=69%7C1744925337225"
   }
 }
