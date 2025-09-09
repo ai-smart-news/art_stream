@@ -1,120 +1,33 @@
 {
   "items": [
     {
-      "id": 57433742,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bac0ed25-64e9-409d-b255-cb23787e377f/width=1456/bac0ed25-64e9-409d-b255-cb23787e377f.jpeg",
-      "hash": "UOCa6bRTNYkU_Lx[IqNF.6tQD*X4xtt6M|IV",
-      "width": 1456,
-      "height": 2128,
+      "id": 78827973,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c22bbfbb-105b-45ec-b345-3d1e5beef2cf/width=768/c22bbfbb-105b-45ec-b345-3d1e5beef2cf.jpeg",
+      "hash": "UQL#C9xt~q-p=sbIT0n$^+s:IoShyYjZivbv",
+      "width": 768,
+      "height": 1408,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-12T20:59:26.462Z",
-      "postId": 12855027,
+      "createdAt": "2025-05-27T16:19:14.061Z",
+      "postId": 17509975,
       "stats": {
-        "cryCount": 553,
-        "laughCount": 877,
-        "likeCount": 7821,
+        "cryCount": 664,
+        "laughCount": 1752,
+        "likeCount": 6908,
         "dislikeCount": 0,
-        "heartCount": 2788,
-        "commentCount": 11
+        "heartCount": 2619,
+        "commentCount": 13
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 863698841,
-        "Model": "flux1-dev-bnb-nf4-v2",
-        "steps": 30,
-        "hashes": {
-          "model": "bea01d51bd",
-          "lora:niji_flux": "e3b0c44298fc",
-          "lora:monster_flux": "245496db2e88",
-          "lora:RetroAnimeFluxV1": "3d6b347c868f",
-          "lora:ck-painterly-fantasy": "2fc3f53ef01a",
-          "lora:FluxMythP0rtr4itStyle": "8ea428b224a8",
-          "lora:zy_horror_monsters_flux": "294900283ee7",
-          "lora:Kodak Motion Picture Film style v1": "DB38CA35C5E2",
-          "lora:flux.1_lora_flyway_Epic-Characters_v1": "B73E077D02BF"
-        },
-        "Version": "f2.0.1v1.10.1-previous-636-gb835f24a",
-        "sampler": "DEIS",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "DB38CA35C5E2",
-            "name": "Kodak Motion Picture Film style v1",
-            "type": "lora"
-          },
-          {
-            "hash": "3d6b347c868f",
-            "name": "RetroAnimeFluxV1",
-            "type": "lora"
-          },
-          {
-            "hash": "B73E077D02BF",
-            "name": "flux.1_lora_flyway_Epic-Characters_v1",
-            "type": "lora"
-          },
-          {
-            "hash": "245496db2e88",
-            "name": "monster_flux",
-            "type": "lora"
-          },
-          {
-            "hash": "294900283ee7",
-            "name": "zy_horror_monsters_flux",
-            "type": "lora"
-          },
-          {
-            "hash": "2fc3f53ef01a",
-            "name": "ck-painterly-fantasy",
-            "type": "lora"
-          },
-          {
-            "hash": "8ea428b224a8",
-            "name": "FluxMythP0rtr4itStyle",
-            "type": "lora"
-          },
-          {
-            "hash": "e3b0c44298fc",
-            "name": "niji_flux",
-            "type": "lora"
-          },
-          {
-            "hash": "bea01d51bd",
-            "name": "flux1-dev-bnb-nf4-v2",
-            "type": "model"
-          }
-        ],
-        "Model hash": "bea01d51bd",
-        "Hires steps": "10",
-        "Hires upscale": "1.75",
-        "Schedule type": "Beta",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x-UltraSharp",
-        "Hires CFG Scale": "1",
-        "Beta schedule beta": "0.6",
-        "Denoising strength": "0.5",
-        "Beta schedule alpha": "0.6",
-        "Distilled CFG Scale": "4",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "Hires Distilled CFG Scale": "3.5"
-      },
-      "username": "ArtifyAI",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        751352,
-        983288,
-        1189379,
-        806265,
-        753053,
-        823881,
-        805021
-      ]
+      "meta": null,
+      "username": "SamLiu",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "70|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=70%7C1744925337225"
+    "nextCursor": "71|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=71%7C1744925337225"
   }
 }
