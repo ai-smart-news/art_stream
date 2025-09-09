@@ -327,8 +327,8 @@
         this.observer = null;
         this.loadedDates = new Set(); // 已載入的日期
         this.isLoading = false;
-        this.hasMoreContent = true;
-        
+        this.hasMoreContent = true; // 是否還有更舊的內容可以載入
+
         this.init();
     }
 
@@ -346,12 +346,26 @@
         const [year, month, day] = dateString.split('_');
         const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
         date.setDate(date.getDate() - 1);
-        
+
         const prevYear = date.getFullYear();
         const prevMonth = String(date.getMonth() + 1).padStart(2, '0');
         const prevDay = String(date.getDate()).padStart(2, '0');
         return `${prevYear}_${prevMonth}_${prevDay}`;
     }
+    
+    // 取得下一天的日期字串 (用於判斷是否要載入更新的影片，但在此情境下暫不需要，因為我們從最新開始)
+    // 如果需要未來日期來載入最新的影片，可以使用此函數
+    getNextDateString(dateString) {
+        const [year, month, day] = dateString.split('_');
+        const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+        date.setDate(date.getDate() + 1);
+
+        const nextYear = date.getFullYear();
+        const nextMonth = String(date.getMonth() + 1).padStart(2, '0');
+        const nextDay = String(date.getDate()).padStart(2, '0');
+        return `${nextYear}_${nextMonth}_${nextDay}`;
+    }
+
 
     // 載入指定日期的 JSON 數據
     async loadDateData(dateString) {
@@ -362,44 +376,50 @@
         try {
             const response = await fetch(`videos/${dateString}/data.json`);
             if (!response.ok) {
-                // 如果是 404，表示沒有該日期的資料，但不是真正的錯誤
                 if (response.status === 404) {
                     console.log(`沒有找到 ${dateString} 的資料.`);
-                    this.loadedDates.add(dateString); // 標記為已檢查過，避免重複請求
+                    this.loadedDates.add(dateString);
                     return [];
                 }
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
-            
+
             const data = await response.json();
             this.loadedDates.add(dateString);
-            
+
             // 轉換數據格式，添加額外信息
+            // 由於希望序號大的在前面，所以要將影片反轉
             return data.videos.map((video, index) => ({
                 id: `${dateString}_${index + 1}`,
                 src: `${video.filename}`, // 修正路徑
                 thumb: `${video.thumb_path}`, // 修正路徑
                 timestamp: video.timestamp,
                 date: dateString
-            }));
+            })).reverse(); // 反轉，讓最新的影片排在前面
         } catch (error) {
             console.warn(`無法載入 ${dateString} 的數據:`, error);
-            this.loadedDates.add(dateString); // 標記為已檢查過，避免重複請求
+            this.loadedDates.add(dateString);
             return [];
         }
     }
 
-    // 載入更多影片數據
+    // 載入更多影片數據（現在是載入更「舊」的影片）
     async loadMoreVideos() {
         if (this.isLoading || !this.hasMoreContent) return 0;
         
         this.isLoading = true;
-        let dateToLoad = this.getCurrentDateString();
-        
-        // 如果已經有載入的日期，從最早的日期開始往前找
-        if (this.loadedDates.size > 0) {
-            const sortedDates = Array.from(this.loadedDates).sort();
-            dateToLoad = this.getPreviousDateString(sortedDates[0]);
+        let dateToLoad = this.getCurrentDateString(); // 預設從今天開始
+
+        // 如果已經有載入的日期，從最「舊」的日期開始往前找
+        // 由於我們將影片push到allVideos，所以allVideos的最後一個影片日期是最舊的
+        if (this.allVideos.length > 0) {
+            dateToLoad = this.getPreviousDateString(this.allVideos[this.allVideos.length - 1].date);
+        } else {
+             // 如果 allVideos 是空的，且 loadedDates 已經有資料，從已載入的最舊日期繼續往前
+             if (this.loadedDates.size > 0) {
+                const sortedDates = Array.from(this.loadedDates).sort(); // 升序排列
+                dateToLoad = this.getPreviousDateString(sortedDates[0]);
+             }
         }
 
         let maxAttempts = 30; // 最多嘗試30天
@@ -410,10 +430,8 @@
             const newVideos = await this.loadDateData(dateToLoad);
             
             if (newVideos.length > 0) {
-                // 將新影片插入到陣列開頭
-                this.allVideos.unshift(...newVideos);
-                // 調整當前索引
-                this.currentVideoIndex += newVideos.length;
+                // 將新影片插入到陣列末尾 (因為是更舊的影片)
+                this.allVideos.push(...newVideos);
                 newVideosCount += newVideos.length;
                 this.isLoading = false;
                 return newVideosCount;
@@ -424,7 +442,6 @@
             }
         }
 
-        // 達到最大嘗試次數，沒有更多內容
         this.hasMoreContent = false;
         this.isLoading = false;
         console.log("沒有更多舊影片了.");
@@ -433,28 +450,48 @@
 
     // 初始化載入
     async init() {
-        await this.loadMoreVideos(); // 載入今天的影片
-
+        // 初始載入當天的影片
+        await this.loadMoreVideos(); 
+        
         if (this.allVideos.length === 0) {
             this.showEndIndicator();
             return;
         }
 
+        // 確保 currentVideoIndex 在有效範圍內
+        this.currentVideoIndex = 0; // 從最新影片開始
         this.renderVisibleVideos(); // 初始渲染
         this.setupKeyboardEvents();
     }
 
     // 顯示結束指示器
     showEndIndicator() {
-        this.videoFeed.innerHTML = `
-            <div class="video-card end-card">
-                <div class="end-indicator">
-                    <i class="fas fa-film"></i>
-                    <h3>暫無更多影片</h3>
-                    <p>請稍後再來查看新內容</p>
+        // 如果已經有影片卡片，則將結束指示器添加到最後
+        if (this.allVideos.length > 0) {
+            if (!document.querySelector('.end-card')) {
+                const endCard = document.createElement('div');
+                endCard.classList.add('video-card', 'end-card');
+                endCard.innerHTML = `
+                    <div class="end-indicator">
+                        <i class="fas fa-film"></i>
+                        <h3>暫無更多影片</h3>
+                        <p>請稍後再來查看新內容</p>
+                    </div>
+                `;
+                this.videoFeed.appendChild(endCard);
+            }
+        } else {
+            // 如果沒有任何影片，則清空並顯示結束指示器
+            this.videoFeed.innerHTML = `
+                <div class="video-card end-card">
+                    <div class="end-indicator">
+                        <i class="fas fa-film"></i>
+                        <h3>暫無更多影片</h3>
+                        <p>請稍後再來查看新內容</p>
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
+        }
     }
 
     // 創建進度條
@@ -575,7 +612,7 @@
             card.classList.add('paused');
             indicator.innerHTML = '<i class="fas fa-play"></i>';
         }
-        
+
         indicator.style.opacity = 1;
         clearTimeout(video.indicatorTimeout);
         video.indicatorTimeout = setTimeout(() => {
@@ -586,6 +623,8 @@
     // 渲染當前可見及預載的影片
     async renderVisibleVideos() {
         const requiredIndices = new Set();
+        // firstIndex 應該是 currentVideoIndex 減去 preloadCount (往前數)
+        // lastIndex 應該是 currentVideoIndex 加上 preloadCount (往後數)
         const firstIndex = Math.max(0, this.currentVideoIndex - this.preloadCount);
         const lastIndex = Math.min(this.allVideos.length - 1, this.currentVideoIndex + this.preloadCount);
 
@@ -607,8 +646,8 @@
         });
 
         const frag = document.createDocumentFragment();
-        let lastAppendedCard = null; // 用來追蹤最後一個被加入的卡片
 
+        // 從 firstIndex 到 lastIndex 遍歷，確保影片按順序排列
         for (let i = firstIndex; i <= lastIndex; i++) {
             if (!this.allVideos[i]) continue; // 確保影片數據存在
 
@@ -618,37 +657,50 @@
                 videoCard = this.createVideoCard(this.allVideos[i], i);
                 frag.appendChild(videoCard);
             }
+            
             // 確保影片卡片按正確順序排列
-            // 找到正確的插入點
+            // 找到正確的插入點 (依據 index 尋找，確保小的 index 在前面)
             let targetSibling = null;
-            if (i < this.allVideos.length - 1) { // 如果不是最後一張，尋找後一張
+            if (i < this.allVideos.length - 1) { // 如果不是最後一張，尋找後一張的DOM元素
                 targetSibling = this.videoFeed.querySelector(`[data-index="${i + 1}"]`);
             }
+            
+            // 如果卡片不在正確的位置，重新插入
+            // videoCard.parentNode !== this.videoFeed: 表示卡片還沒被加到 videoFeed
+            // videoCard.nextElementSibling !== targetSibling: 表示卡片順序不正確
             if (videoCard.parentNode !== this.videoFeed || (targetSibling && videoCard.nextElementSibling !== targetSibling)) {
-                // 如果不在正確位置，則重新插入
                 if (targetSibling) {
                     this.videoFeed.insertBefore(videoCard, targetSibling);
                 } else {
-                    this.videoFeed.appendChild(videoCard); // 插入到最後
+                    // 如果沒有 targetSibling，表示這是最後一張卡片，直接 append
+                    this.videoFeed.appendChild(videoCard);
                 }
             }
         }
         
         if (frag.children.length > 0) {
-            this.videoFeed.appendChild(frag); // 批次加入新的卡片
+            // 將 DocumentFragment 中的新卡片添加到 DOM 中
+            // 由於上面已經處理了順序，這裡只需要簡單的 append 即可
+            this.videoFeed.appendChild(frag);
         }
         
-        this.initObserver(); // 重新初始化觀察器以監視新加入的卡片
-        this.playCurrentVideo(); // 確保當前影片播放
+        // 重新初始化觀察器以監視新加入的卡片
+        this.initObserver(); 
+        
+        // 確保當前影片播放
+        this.playCurrentVideo(); 
 
-        // 檢查是否需要載入更多內容 (向前滾動)
-        // 如果當前影片在預載範圍的前面，則嘗試載入更多舊影片
-        if (this.currentVideoIndex < this.preloadCount && this.hasMoreContent) {
+        // 檢查是否需要載入更多「舊」內容 (當滑動到接近底部時)
+        // 如果 currentVideoIndex 接近 allVideos 的末尾，且還有更多內容
+        if (this.currentVideoIndex >= this.allVideos.length - 1 - this.preloadCount && this.hasMoreContent) {
             const initialAllVideosLength = this.allVideos.length;
             await this.loadMoreVideos(); // 嘗試載入更多舊影片
             if (this.allVideos.length > initialAllVideosLength) {
                 // 如果成功載入新影片，需要重新渲染以顯示它們
                 this.renderVisibleVideos();
+            } else {
+                // 如果沒有更多影片可以載入，顯示結束指示器
+                this.showEndIndicator();
             }
         }
     }
@@ -668,6 +720,7 @@
                     playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
                 }
                 // 確保當前影片在視圖中
+                // 滾動到正確位置，讓當前影片卡片位於視圖中央
                 this.videoFeed.scrollTo({
                     top: card.offsetTop,
                     behavior: 'smooth'
@@ -701,6 +754,7 @@
 
                 if (entry.isIntersecting) {
                     // 如果進入視圖的影片不是當前影片，則更新 currentVideoIndex
+                    // 只有當新進入的影片與當前影片不同時才更新和重新渲染
                     if (index !== this.currentVideoIndex) {
                         this.currentVideoIndex = index;
                         this.renderVisibleVideos(); // 更新可見影片，並播放新當前影片
@@ -731,34 +785,32 @@
                     e.preventDefault();
                     this.togglePlayPause(video, playPauseBtn, currentVideoCard, playIndicator);
                     break;
-                case 'ArrowDown':
+                case 'ArrowDown': // 往下滑動 (查看更舊的影片，索引增加)
                 case 'PageDown':
                     e.preventDefault();
                     if (this.currentVideoIndex < this.allVideos.length - 1) {
                         this.currentVideoIndex++;
-                        this.renderVisibleVideos();
-                        // 滾動到正確位置 (renderVisibleVideos 會處理)
+                        this.renderVisibleVideos(); // 這會觸發滾動
                     } else if (this.currentVideoIndex === this.allVideos.length - 1 && this.hasMoreContent) {
                         // 如果已經是最後一支影片且還有更多內容，則嘗試載入並滾動
                         this.loadMoreVideos().then(newCount => {
                             if (newCount > 0) {
-                                this.currentVideoIndex++; // 新影片會被加到前面，所以索引往前移
+                                this.currentVideoIndex++; // 新影片會被加到後面，所以索引遞增
                                 this.renderVisibleVideos();
                             } else {
                                 this.showEndIndicator();
                             }
                         });
                     } else if (this.currentVideoIndex === this.allVideos.length - 1 && !this.hasMoreContent) {
-                         this.showEndIndicator();
+                         this.showEndIndicator(); // 已經是最後，且沒有更多內容
                     }
                     break;
-                case 'ArrowUp':
+                case 'ArrowUp': // 往上滑動 (查看較新的影片，索引減少)
                 case 'PageUp':
                     e.preventDefault();
                     if (this.currentVideoIndex > 0) {
                         this.currentVideoIndex--;
-                        this.renderVisibleVideos();
-                        // 滾動到正確位置 (renderVisibleVideos 會處理)
+                        this.renderVisibleVideos(); // 這會觸發滾動
                     }
                     break;
             }
