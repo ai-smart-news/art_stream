@@ -467,31 +467,27 @@
     // 顯示結束指示器
     showEndIndicator() {
         // 如果已經有影片卡片，則將結束指示器添加到最後
-        if (this.allVideos.length > 0) {
-            if (!document.querySelector('.end-card')) {
-                const endCard = document.createElement('div');
-                endCard.classList.add('video-card', 'end-card');
-                endCard.innerHTML = `
-                    <div class="end-indicator">
-                        <i class="fas fa-film"></i>
-                        <h3>暫無更多影片</h3>
-                        <p>請稍後再來查看新內容</p>
-                    </div>
-                `;
-                this.videoFeed.appendChild(endCard);
-            }
-        } else {
-            // 如果沒有任何影片，則清空並顯示結束指示器
-            this.videoFeed.innerHTML = `
-                <div class="video-card end-card">
-                    <div class="end-indicator">
-                        <i class="fas fa-film"></i>
-                        <h3>暫無更多影片</h3>
-                        <p>請稍後再來查看新內容</p>
-                    </div>
-                </div>
-            `;
+        if (document.querySelector('.end-card')) return; // 避免重複添加
+
+        const endCard = document.createElement('div');
+        endCard.classList.add('video-card', 'end-card');
+        endCard.innerHTML = `
+            <div class="end-indicator">
+                <i class="fas fa-film"></i>
+                <h3>暫無更多影片</h3>
+                <p>請稍後再來查看新內容</p>
+            </div>
+        `;
+        // 如果 videoFeed 已經有內容，則添加到最後，否則替換內容
+        if (this.videoFeed.children.length > 0 && !this.videoFeed.querySelector('.end-card')) {
+            this.videoFeed.appendChild(endCard);
+        } else if (this.videoFeed.children.length === 0) {
+             this.videoFeed.innerHTML = ''; // 清空可能存在的其他內容
+             this.videoFeed.appendChild(endCard);
         }
+       
+       // 確保結束指示器也參與 IntersectionObserver
+       this.initObserver();
     }
 
     // 創建進度條
@@ -623,8 +619,6 @@
     // 渲染當前可見及預載的影片
     async renderVisibleVideos() {
         const requiredIndices = new Set();
-        // firstIndex 應該是 currentVideoIndex 減去 preloadCount (往前數)
-        // lastIndex 應該是 currentVideoIndex 加上 preloadCount (往後數)
         const firstIndex = Math.max(0, this.currentVideoIndex - this.preloadCount);
         const lastIndex = Math.min(this.allVideos.length - 1, this.currentVideoIndex + this.preloadCount);
 
@@ -666,8 +660,6 @@
             }
             
             // 如果卡片不在正確的位置，重新插入
-            // videoCard.parentNode !== this.videoFeed: 表示卡片還沒被加到 videoFeed
-            // videoCard.nextElementSibling !== targetSibling: 表示卡片順序不正確
             if (videoCard.parentNode !== this.videoFeed || (targetSibling && videoCard.nextElementSibling !== targetSibling)) {
                 if (targetSibling) {
                     this.videoFeed.insertBefore(videoCard, targetSibling);
@@ -710,7 +702,8 @@
         this.videoFeed.querySelectorAll('.video-card').forEach(card => {
             const video = card.querySelector('.video-player');
             const playPauseBtn = card.querySelector('.play-pause-btn');
-            const playIndicator = card.querySelector('.play-indicator');
+            // const playIndicator = card.querySelector('.play-indicator'); // Indicator在這裡不需要，因為用戶正在滾動
+
             const index = parseInt(card.dataset.index);
 
             if (index === this.currentVideoIndex) {
@@ -719,12 +712,11 @@
                     card.classList.remove('paused');
                     playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
                 }
-                // 確保當前影片在視圖中
-                // 滾動到正確位置，讓當前影片卡片位於視圖中央
-                this.videoFeed.scrollTo({
-                    top: card.offsetTop,
-                    behavior: 'smooth'
-                });
+                // *** 移除此處的 scrollTo，避免與用戶手動滾動衝突 ***
+                // this.videoFeed.scrollTo({
+                //     top: card.offsetTop,
+                //     behavior: 'smooth'
+                // });
             } else {
                 if (!video.paused) {
                     video.pause();
@@ -746,6 +738,9 @@
         };
 
         this.observer = new IntersectionObserver((entries) => {
+            let bestCandidateIndex = this.currentVideoIndex; // 預設是當前影片
+            let maxIntersectionRatio = 0;
+
             entries.forEach(entry => {
                 const videoCard = entry.target;
                 if (!videoCard.classList.contains('video-card') || videoCard.classList.contains('end-card')) return;
@@ -753,17 +748,23 @@
                 const index = parseInt(videoCard.dataset.index);
 
                 if (entry.isIntersecting) {
-                    // 如果進入視圖的影片不是當前影片，則更新 currentVideoIndex
-                    // 只有當新進入的影片與當前影片不同時才更新和重新渲染
-                    if (index !== this.currentVideoIndex) {
-                        this.currentVideoIndex = index;
-                        this.renderVisibleVideos(); // 更新可見影片，並播放新當前影片
+                    // 找出交叉比例最大的影片，認為這是用戶「真正想看」的影片
+                    if (entry.intersectionRatio > maxIntersectionRatio) {
+                        maxIntersectionRatio = entry.intersectionRatio;
+                        bestCandidateIndex = index;
                     }
                 }
             });
+
+            // 只有當最優候選影片的索引與當前索引不同時才更新
+            if (bestCandidateIndex !== this.currentVideoIndex) {
+                this.currentVideoIndex = bestCandidateIndex;
+                // console.log("Observer detected new current index:", this.currentVideoIndex);
+                this.renderVisibleVideos(); // 更新可見影片，並播放新當前影片
+            }
         }, options);
 
-        this.videoFeed.querySelectorAll('.video-card:not(.end-card)').forEach(card => {
+        this.videoFeed.querySelectorAll('.video-card').forEach(card => { // 包含 .end-card 讓它也能被觀察
             this.observer.observe(card);
         });
     }
@@ -790,19 +791,49 @@
                     e.preventDefault();
                     if (this.currentVideoIndex < this.allVideos.length - 1) {
                         this.currentVideoIndex++;
-                        this.renderVisibleVideos(); // 這會觸發滾動
+                        this.renderVisibleVideos(); 
+                        // 鍵盤事件需要手動滾動到新位置
+                        const nextCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+                        if (nextCard) {
+                            this.videoFeed.scrollTo({
+                                top: nextCard.offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
                     } else if (this.currentVideoIndex === this.allVideos.length - 1 && this.hasMoreContent) {
                         // 如果已經是最後一支影片且還有更多內容，則嘗試載入並滾動
                         this.loadMoreVideos().then(newCount => {
                             if (newCount > 0) {
                                 this.currentVideoIndex++; // 新影片會被加到後面，所以索引遞增
                                 this.renderVisibleVideos();
+                                const nextCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+                                if (nextCard) {
+                                    this.videoFeed.scrollTo({
+                                        top: nextCard.offsetTop,
+                                        behavior: 'smooth'
+                                    });
+                                }
                             } else {
-                                this.showEndIndicator();
+                                this.showEndIndicator(); // 已經是最後，且沒有更多內容
+                                // 滾動到結束指示器
+                                const endCard = this.videoFeed.querySelector('.end-card');
+                                if (endCard) {
+                                     this.videoFeed.scrollTo({
+                                        top: endCard.offsetTop,
+                                        behavior: 'smooth'
+                                    });
+                                }
                             }
                         });
                     } else if (this.currentVideoIndex === this.allVideos.length - 1 && !this.hasMoreContent) {
                          this.showEndIndicator(); // 已經是最後，且沒有更多內容
+                         const endCard = this.videoFeed.querySelector('.end-card');
+                         if (endCard) {
+                             this.videoFeed.scrollTo({
+                                top: endCard.offsetTop,
+                                behavior: 'smooth'
+                            });
+                         }
                     }
                     break;
                 case 'ArrowUp': // 往上滑動 (查看較新的影片，索引減少)
@@ -811,6 +842,13 @@
                     if (this.currentVideoIndex > 0) {
                         this.currentVideoIndex--;
                         this.renderVisibleVideos(); // 這會觸發滾動
+                        const prevCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+                        if (prevCard) {
+                            this.videoFeed.scrollTo({
+                                top: prevCard.offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
                     }
                     break;
             }
@@ -822,6 +860,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     new VideoApp();
 });
-    </script>
+</script>
 </body>
 </html>
