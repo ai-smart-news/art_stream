@@ -1,80 +1,86 @@
 {
   "items": [
     {
-      "id": 68701503,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc6061bd-5bae-408a-9718-84232693d223/width=832/bc6061bd-5bae-408a-9718-84232693d223.jpeg",
-      "hash": "UwLyfQ?ZyCNH}?W;S}WC-UR+oyxGS#NHaeni",
-      "width": 832,
-      "height": 1216,
+      "id": 15900782,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/877f082b-3bc4-4b6d-976f-3980bfd0f62b/width=1664/877f082b-3bc4-4b6d-976f-3980bfd0f62b.jpeg",
+      "hash": "UABfIi9^00NI}YENK1-9D%Nd=|w]O=R%#mW?",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-08T06:51:00.000Z",
-      "postId": 15265399,
+      "createdAt": "2024-06-15T17:00:00.000Z",
+      "postId": 3549926,
       "stats": {
-        "cryCount": 689,
-        "laughCount": 1216,
-        "likeCount": 9540,
+        "cryCount": 622,
+        "laughCount": 1108,
+        "likeCount": 9299,
         "dislikeCount": 0,
-        "heartCount": 3473,
-        "commentCount": 9
+        "heartCount": 3791,
+        "commentCount": 5
       },
       "meta": {
+        "RNG": "NV",
+        "VAE": "fixFP16ErrorsSDXLLowerMemoryUse_v10.safetensors",
         "Size": "832x1216",
-        "seed": 60113041,
-        "steps": 25,
-        "prompt": "in the style of ck-mgs, nistyle, Special Ink-drawing mode, intricate linework with expressive contrasts, Mh1$AgThS2, Inkplash art on rice paper, sepia, henna , Silhouette Art, magnificent, inksplash closeup portrait of Chinese woman punting, sunset, calm lake, redlection",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-04-02T1641:11.0323972Z",
-        "civitaiResources": [
+        "seed": 4098107878,
+        "Model": "Incursio'sMemeDifV2.1.fp16",
+        "steps": 18,
+        "hashes": {
+          "vae": "235745af8d",
+          "model": "0883f410d1"
+        },
+        "prompt": "score_9, score_8_up, score_7_up, detailed, 1girl, solo, intricate details, chromatic aberration, realistic, long hair, pink hair, red head ornament, pink highlights, hair over one eye, purple eyes, earrings, sharp eyes, choker, neon shirt, torn legwear, open jacket, turtleneck sweater, night,against wall, brick wall, graffiti, dim lighting, alley, looking at viewer",
+        "Version": "f0.0.17v1.8.0rc-latest-269-gef35383b",
+        "sampler": "Restart",
+        "cfgScale": 5,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 791149,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 1023569,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 1232251,
-            "modelVersionName": "v1.0 FLUX"
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 976226,
-            "modelVersionName": "v.01 - e13 flux"
+            "hash": "0883f410d1",
+            "name": "Incursio'sMemeDifV2.1.fp16",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "0883f410d1",
+        "Hires steps": "8",
+        "Hires upscale": "2",
+        "Hires upscaler": "4x-UltraSharp",
+        "negativePrompt": "monochrome, toned",
+        "ADetailer model": "AnzhcHead-seg.pt",
+        "ADetailer steps": "24",
+        "ADetailer sampler": "Euler a",
+        "ADetailer version": "24.5.1",
+        "Denoising strength": "0.45",
+        "ADetailer mask blur": "4",
+        "ADetailer model 2nd": "face_yolov8n.pt",
+        "ADetailer steps 2nd": "24",
+        "ADetailer confidence": "0.3",
+        "ADetailer sampler 2nd": "Euler a",
+        "ADetailer dilate erode": "4",
+        "ADetailer mask blur 2nd": "4",
+        "ADetailer confidence 2nd": "0.3",
+        "ADetailer inpaint padding": "32",
+        "ADetailer dilate erode 2nd": "4",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer use separate steps": "True",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer inpaint padding 2nd": "32",
+        "ADetailer use separate sampler": "True",
+        "ADetailer denoising strength 2nd": "0.4",
+        "ADetailer use separate steps 2nd": "True",
+        "ADetailer inpaint only masked 2nd": "True",
+        "ADetailer use separate sampler 2nd": "True"
       },
-      "username": "Stu42",
-      "baseModel": "Flux.1 D",
+      "username": "FallenIncursio",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        691639,
-        791149,
-        976226,
-        1023569,
-        1232251
+        574756
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "36|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=36%7C1744925337225"
+    "nextCursor": "37|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=37%7C1744925337225"
   }
 }
