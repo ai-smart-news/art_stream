@@ -1,33 +1,60 @@
 {
   "items": [
     {
-      "id": 10912274,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0f0aba37-7625-4158-8824-e7c2f4b1c337/width=1800/0f0aba37-7625-4158-8824-e7c2f4b1c337.jpeg",
-      "hash": "UIFOmC.5[{Mgys%d4mIB,C$%VZIpTvsDJ6NI",
-      "width": 3328,
-      "height": 4864,
+      "id": 60497457,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4cea4d6e-8cfe-4f68-ac9b-69a441f5d8f2/width=1152/4cea4d6e-8cfe-4f68-ac9b-69a441f5d8f2.jpeg",
+      "hash": "UHFU.[|_6OE~BnOX6NWV]nFcNu,rK4W;sA=0",
+      "width": 1152,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-04-27T17:18:57.677Z",
-      "postId": 2392848,
+      "createdAt": "2025-02-27T19:38:52.397Z",
+      "postId": 13533756,
       "stats": {
-        "cryCount": 620,
-        "laughCount": 1254,
-        "likeCount": 8707,
+        "cryCount": 678,
+        "laughCount": 1016,
+        "likeCount": 8788,
         "dislikeCount": 0,
-        "heartCount": 3186,
-        "commentCount": 10
+        "heartCount": 3135,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "Hizumi___",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "VAE": "Flux\\ae.safetensors",
+        "seed": 248335805850279,
+        "Model": "Flux\\flux1-dev-fp8.safetensors",
+        "steps": 20,
+        "hashes": {
+          "vae": "afc8e28272",
+          "model": "1be961341b",
+          "lora:yfg-smorgas-v1": "826c0dd9be"
+        },
+        "prompt": "yfg-sm0rg, Bask in the realm of abstract expressionism as a mysterious figure cloaked in a vibrant red shawl steps into view against an ebony void. Her head hangs low, enveloped in a cloud of bewitching curiosity. In stark contrast with her crimson surroundings, crisp white lines dance alongside her form, accentuating each delicate curve as if painted by an ethereal brushstroke. A sense of profound contemplation radiates from within as she stands on the edge of a transformative moment, encapsulated in a timeless swirl of emotions unraveling before our eyes. Let illuminate this striking canvas through the melding of bold colors and expressive movement, forever immortalizing this introspective scene of raw passion and introspection.",
+        "sampler": "euler_beta",
+        "resources": [
+          {
+            "hash": "1be961341b",
+            "name": "Flux\\flux1-dev-fp8.safetensors",
+            "type": "model"
+          }
+        ],
+        "Model hash": "1be961341b",
+        "Lora_0 Model hash": "826c0dd9be",
+        "Lora_0 Model name": "yfg-smorgas-v1.safetensors",
+        "Lora_0 Strength clip": "0.8",
+        "Lora_0 Strength model": "0.8"
+      },
+      "username": "gonzalu",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        694648,
+        1461091
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "51|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=51%7C1744925337225"
+    "nextCursor": "52|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=52%7C1744925337225"
   }
 }
