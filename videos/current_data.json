@@ -1,39 +1,90 @@
 {
   "items": [
     {
-      "id": 50358563,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d940f04d-e628-4114-b3ae-20fac5a40985/width=1800/d940f04d-e628-4114-b3ae-20fac5a40985.jpeg",
-      "hash": "UACP*I%200Io_2WBM_%M00Rj~W%2Int7^+Rk",
-      "width": 2080,
-      "height": 2880,
+      "id": 23367762,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0430beb1-1cdf-4c35-a9fe-14b5e9eb8e9b/width=1024/0430beb1-1cdf-4c35-a9fe-14b5e9eb8e9b.jpeg",
+      "hash": "UAFi3$9b-U^*l+xaMyNGEJs:EMIoVuIp-:WB",
+      "width": 1024,
+      "height": 1024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-08T17:46:00.000Z",
-      "postId": 11334650,
+      "createdAt": "2024-08-08T18:44:42.071Z",
+      "postId": 5207473,
       "stats": {
-        "cryCount": 491,
-        "laughCount": 833,
-        "likeCount": 7593,
+        "cryCount": 577,
+        "laughCount": 2432,
+        "likeCount": 6454,
         "dislikeCount": 0,
-        "heartCount": 2709,
-        "commentCount": 13
+        "heartCount": 2149,
+        "commentCount": 12
       },
-      "meta": null,
-      "username": "Abrakzas",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "VAE": "sdxl_vae.safetensors",
+        "Size": "1024x1024",
+        "seed": 1890019774,
+        "Model": "snowpony_v10",
+        "steps": 24,
+        "hashes": {
+          "vae": "235745af8d",
+          "model": "d6f941b46b",
+          "lora:oc_justtnp_ponyXL": "8363337825ba",
+          "lora:ChamWatamelonPonyXL": "1f2ca41d014d",
+          "lora:concept_aquascreaming_ponyXL": "23db46635353"
+        },
+        "prompt": "score_9, score_8_up, source_anime, Watamelon, no humans, creature, chibi, watermelon, all fours, aquascreaming, screaming, open mouth, crying with eyes open, 1boy, justtnp, black hair, heterochromia, black eyes, white eyes, <lora:ChamWatamelonPonyXL:1>, <lora:oc_justtnp_ponyXL:1.2>, <lora:concept_aquascreaming_ponyXL:0.8>",
+        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "resources": [
+          {
+            "hash": "1f2ca41d014d",
+            "name": "ChamWatamelonPonyXL",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "8363337825ba",
+            "name": "oc_justtnp_ponyXL",
+            "type": "lora",
+            "weight": 1.2
+          },
+          {
+            "hash": "23db46635353",
+            "name": "concept_aquascreaming_ponyXL",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "d6f941b46b",
+            "name": "snowpony_v10",
+            "type": "model"
+          }
+        ],
+        "Model hash": "d6f941b46b",
+        "negativePrompt": "3d, monochrome",
+        "ADetailer model": "Anzhc Face -seg.pt",
+        "ADetailer version": "24.4.2",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
+      },
+      "username": "ChameleonAI",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        691639,
-        759880,
-        806265,
-        978472,
-        1202162
+        418297,
+        360847,
+        580625,
+        706916
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "81|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=81%7C1744925337225"
+    "nextCursor": "82|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=82%7C1744925337225"
   }
 }
