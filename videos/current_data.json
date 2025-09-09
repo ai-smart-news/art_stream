@@ -1,100 +1,63 @@
 {
   "items": [
     {
-      "id": 13073993,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb38a219-28f9-467d-b1e5-e51c650cbdd4/width=1792/fb38a219-28f9-467d-b1e5-e51c650cbdd4.jpeg",
-      "hash": "U96uw^V?HrtRx]ogIAkC?^VsI9oz%#fkH=of",
-      "width": 1792,
-      "height": 2304,
+      "id": 66450218,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62927ff3-ee08-41d5-8532-b9cdb221a54b/width=768/62927ff3-ee08-41d5-8532-b9cdb221a54b.jpeg",
+      "hash": "U6F~gd4n~qD%00M{00?b00WAj[IUayIU_300",
+      "width": 768,
+      "height": 1360,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-20T17:59:01.428Z",
-      "postId": 2890151,
+      "createdAt": "2025-03-28T17:13:35.527Z",
+      "postId": 14787049,
       "stats": {
-        "cryCount": 626,
-        "laughCount": 1176,
-        "likeCount": 9158,
+        "cryCount": 698,
+        "laughCount": 1165,
+        "likeCount": 8970,
         "dislikeCount": 0,
-        "heartCount": 3371,
-        "commentCount": 11
+        "heartCount": 3424,
+        "commentCount": 13
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 2667752565,
-        "Model": "wildcardxXLFusion_fusionOG",
-        "steps": 30,
+        "Size": "768x1365",
+        "seed": 1888401168,
+        "Model": "waiNSFWIllustrious_v120",
+        "steps": 20,
         "hashes": {
-          "model": "22ebc61141",
-          "lora:glowneon_xl_v1": "7f46648b8eec",
-          "lora:zavy-cntrst-sdxl": "1ac0c6cd4e92",
-          "lora:- SDXL - vanta-black_contrast_V3.0": "dd3cf99d3264"
+          "model": "89cb4ec0a9",
+          "lora:RavenScript": "1e9b6e83d314"
         },
-        "prompt": "concept art hidden face, mysterious, hooded, full body, dark enigmatic warrior, standing, storm of falling shards, glowing ethereal giant heavy thick sword in hand, warrior\u00e2\u0080\u0099s intricate armor, tattered cloak that billows in the wind, atmosphere is charged with an otherworldly energy, fantasy realism, dramatic lighting, detailed textures to bring the scene to life, <lora:zavy-cntrst-sdxl:1.5>, <lora:- SDXL - vanta-black_contrast_V3.0:0.4>, <lora:glowneon_xl_v1:0.4> . digital artwork, illustrative, painterly, matte painting, highly detailed",
-        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
-        "sampler": "DPM++ 2M Karras",
+        "prompt": "1girl, arm up, bangs, black background, blood, closed mouth, covered eyes, dress, floating hair, greyscale, hooded cloak, long hair, long sleeves, looking at viewer, monochrome, one eye covered, simple background, solo, stuffed toy, thorns, witch hat <lora:RavenScript :1>",
+        "Version": "f1.3.0-v1.10.1RC-latest-1012-g70f68fd5",
+        "sampler": "DPM++ 2M",
         "cfgScale": 5,
+        "clipSkip": 2,
         "resources": [
           {
-            "hash": "1ac0c6cd4e92",
-            "name": "zavy-cntrst-sdxl",
-            "type": "lora",
-            "weight": 1.5
-          },
-          {
-            "hash": "7f46648b8eec",
-            "name": "glowneon_xl_v1",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "hash": "dd3cf99d3264",
-            "name": "- SDXL - vanta-black_contrast_V3.0",
+            "hash": "1e9b6e83d314",
+            "name": "RavenScript",
             "type": "lora"
           },
           {
-            "hash": "22ebc61141",
-            "name": "wildcardxXLFusion_fusionOG",
+            "hash": "89cb4ec0a9",
+            "name": "waiNSFWIllustrious_v120",
             "type": "model"
           }
         ],
-        "Model hash": "22ebc61141",
-        "Hires steps": "15",
-        "ControlNet 0": {
-          "Model": "diffusers_xl_canny_mid [112a778d]",
-          "Module": "canny",
-          "Weight": "1.3",
-          "Hr Option": "Both",
-          "Resize Mode": "Resize and Fill",
-          "Threshold A": "29",
-          "Threshold B": "37",
-          "Control Mode": "My prompt is more important",
-          "Guidance End": "0.7",
-          "Pixel Perfect": "True",
-          "Processor Res": "512",
-          "Guidance Start": "0"
-        },
-        "Hires upscale": "2",
-        "Hires upscaler": "Latent (nearest-exact)",
-        "negativePrompt": "photo, photorealistic, realism, ugly",
-        "Denoising strength": "0.5",
-        "Style Selector Style": "Digital Art",
-        "Style Selector Enabled": "True",
-        "Style Selector Randomize": "False"
+        "Model hash": "89cb4ec0a9",
+        "Schedule type": "Karras"
       },
-      "username": "DreamCk",
-      "baseModel": "SDXL 1.0",
+      "username": "Rustyvivid",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        332071,
-        345685,
-        348189,
-        430643
+        1490781
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "45|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=45%7C1744925337225"
+    "nextCursor": "46|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=46%7C1744925337225"
   }
 }
