@@ -319,395 +319,457 @@
 
     <script>
         class VideoApp {
-            constructor() {
-                this.videoFeed = document.querySelector('.video-feed');
-                this.allVideos = []; // 所有影片的扁平化陣列
-                this.currentVideoIndex = 0;
-                this.preloadCount = 2;
-                this.observer = null;
-                this.loadedDates = new Set(); // 已載入的日期
-                this.isLoading = false;
-                this.hasMoreContent = true;
-                
-                this.init();
-            }
+    constructor() {
+        this.videoFeed = document.querySelector('.video-feed');
+        this.allVideos = []; // 所有影片的扁平化陣列
+        this.currentVideoIndex = 0;
+        this.preloadCount = 2; // 當前影片前後各預載2支，總共顯示 1 + 2*2 = 5 支影片
+        this.observer = null;
+        this.loadedDates = new Set(); // 已載入的日期
+        this.isLoading = false;
+        this.hasMoreContent = true;
+        
+        this.init();
+    }
 
-            // 取得當前日期，格式：2025_09_08
-            getCurrentDateString() {
-                const now = new Date();
-                const year = now.getFullYear();
-                const month = String(now.getMonth() + 1).padStart(2, '0');
-                const day = String(now.getDate()).padStart(2, '0');
-                return `${year}_${month}_${day}`;
-            }
+    // 取得當前日期，格式：2025_09_08
+    getCurrentDateString() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        return `${year}_${month}_${day}`;
+    }
 
-            // 取得前一天的日期字串
-            getPreviousDateString(dateString) {
-                const [year, month, day] = dateString.split('_');
-                const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
-                date.setDate(date.getDate() - 1);
-                
-                const prevYear = date.getFullYear();
-                const prevMonth = String(date.getMonth() + 1).padStart(2, '0');
-                const prevDay = String(date.getDate()).padStart(2, '0');
-                return `${prevYear}_${prevMonth}_${prevDay}`;
-            }
+    // 取得前一天的日期字串
+    getPreviousDateString(dateString) {
+        const [year, month, day] = dateString.split('_');
+        const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+        date.setDate(date.getDate() - 1);
+        
+        const prevYear = date.getFullYear();
+        const prevMonth = String(date.getMonth() + 1).padStart(2, '0');
+        const prevDay = String(date.getDate()).padStart(2, '0');
+        return `${prevYear}_${prevMonth}_${prevDay}`;
+    }
 
-            // 載入指定日期的 JSON 數據
-            async loadDateData(dateString) {
-                if (this.loadedDates.has(dateString)) {
+    // 載入指定日期的 JSON 數據
+    async loadDateData(dateString) {
+        if (this.loadedDates.has(dateString)) {
+            return [];
+        }
+
+        try {
+            const response = await fetch(`videos/${dateString}/data.json`);
+            if (!response.ok) {
+                // 如果是 404，表示沒有該日期的資料，但不是真正的錯誤
+                if (response.status === 404) {
+                    console.log(`沒有找到 ${dateString} 的資料.`);
+                    this.loadedDates.add(dateString); // 標記為已檢查過，避免重複請求
                     return [];
                 }
-
-                try {
-                    const response = await fetch(`videos/${dateString}/data.json`);
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    
-                    const data = await response.json();
-                    this.loadedDates.add(dateString);
-                    
-                    // 轉換數據格式，添加額外信息
-                    return data.videos.map((video, index) => ({
-                        id: `${dateString}_${index + 1}`,
-                        src: video.filename,
-                        thumb: video.thumb_path,
-                        timestamp: video.timestamp,
-                        date: dateString
-                    }));
-                } catch (error) {
-                    console.log(`無法載入 ${dateString} 的數據:`, error);
-                    return null;
-                }
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
+            
+            const data = await response.json();
+            this.loadedDates.add(dateString);
+            
+            // 轉換數據格式，添加額外信息
+            return data.videos.map((video, index) => ({
+                id: `${dateString}_${index + 1}`,
+                src: `videos/${dateString}/${video.filename}`, // 修正路徑
+                thumb: `videos/${dateString}/${video.thumb_path}`, // 修正路徑
+                timestamp: video.timestamp,
+                date: dateString
+            }));
+        } catch (error) {
+            console.warn(`無法載入 ${dateString} 的數據:`, error);
+            this.loadedDates.add(dateString); // 標記為已檢查過，避免重複請求
+            return [];
+        }
+    }
 
-            // 載入更多影片數據
-            async loadMoreVideos() {
-                if (this.isLoading || !this.hasMoreContent) return;
-                
-                this.isLoading = true;
-                let dateToLoad = this.getCurrentDateString();
-                
-                // 如果已經有載入的日期，從最早的日期開始往前找
-                if (this.loadedDates.size > 0) {
-                    const sortedDates = Array.from(this.loadedDates).sort();
-                    dateToLoad = this.getPreviousDateString(sortedDates[0]);
-                }
+    // 載入更多影片數據
+    async loadMoreVideos() {
+        if (this.isLoading || !this.hasMoreContent) return 0;
+        
+        this.isLoading = true;
+        let dateToLoad = this.getCurrentDateString();
+        
+        // 如果已經有載入的日期，從最早的日期開始往前找
+        if (this.loadedDates.size > 0) {
+            const sortedDates = Array.from(this.loadedDates).sort();
+            dateToLoad = this.getPreviousDateString(sortedDates[0]);
+        }
 
-                let maxAttempts = 30; // 最多嘗試30天
-                let attempts = 0;
+        let maxAttempts = 30; // 最多嘗試30天
+        let attempts = 0;
+        let newVideosCount = 0;
 
-                while (attempts < maxAttempts) {
-                    const newVideos = await this.loadDateData(dateToLoad);
-                    
-                    if (newVideos && newVideos.length > 0) {
-                        // 將新影片插入到陣列開頭
-                        this.allVideos.unshift(...newVideos);
-                        // 調整當前索引
-                        this.currentVideoIndex += newVideos.length;
-                        this.isLoading = false;
-                        return newVideos.length;
-                    } else if (newVideos === null) {
-                        // 載入失敗，嘗試前一天
-                        dateToLoad = this.getPreviousDateString(dateToLoad);
-                        attempts++;
-                    } else {
-                        // 空陣列，繼續嘗試前一天
-                        dateToLoad = this.getPreviousDateString(dateToLoad);
-                        attempts++;
-                    }
-                }
-
-                // 達到最大嘗試次數，沒有更多內容
-                this.hasMoreContent = false;
+        while (attempts < maxAttempts) {
+            const newVideos = await this.loadDateData(dateToLoad);
+            
+            if (newVideos.length > 0) {
+                // 將新影片插入到陣列開頭
+                this.allVideos.unshift(...newVideos);
+                // 調整當前索引
+                this.currentVideoIndex += newVideos.length;
+                newVideosCount += newVideos.length;
                 this.isLoading = false;
-                return 0;
-            }
-
-            // 初始化載入
-            async init() {
-                // 載入今天的影片
-                await this.loadMoreVideos();
-                
-                if (this.allVideos.length === 0) {
-                    this.showEndIndicator();
-                    return;
-                }
-
-                this.renderVideos(this.currentVideoIndex);
-                this.setupKeyboardEvents();
-            }
-
-            // 顯示結束指示器
-            showEndIndicator() {
-                this.videoFeed.innerHTML = `
-                    <div class="video-card">
-                        <div class="end-indicator">
-                            <i class="fas fa-film"></i>
-                            <h3>暫無更多影片</h3>
-                            <p>請稍後再來查看新內容</p>
-                        </div>
-                    </div>
-                `;
-            }
-
-            // 創建進度條
-            createProgressBar() {
-                const progressBar = document.createElement('div');
-                progressBar.classList.add('progress-bar');
-                const progressFill = document.createElement('div');
-                progressFill.classList.add('progress-fill');
-                progressBar.appendChild(progressFill);
-                return progressBar;
-            }
-
-            // 更新進度條
-            updateProgressBar(video, progressFill) {
-                if (video.duration) {
-                    const progress = (video.currentTime / video.duration) * 100;
-                    progressFill.style.width = `${progress}%`;
-                }
-            }
-
-            // 創建單個影片卡片
-            createVideoCard(videoItem, index) {
-                const videoCard = document.createElement('div');
-                videoCard.classList.add('video-card', 'loading');
-                videoCard.dataset.index = index;
-
-                const videoPlayer = document.createElement('video');
-                videoPlayer.classList.add('video-player');
-                videoPlayer.src = videoItem.src;
-                videoPlayer.loop = true;
-                videoPlayer.muted = true;
-                videoPlayer.playsInline = true;
-                videoPlayer.preload = 'metadata';
-
-                const videoOverlay = document.createElement('div');
-                videoOverlay.classList.add('video-overlay');
-
-                const controls = document.createElement('div');
-                controls.classList.add('controls');
-                const playPauseBtn = document.createElement('button');
-                playPauseBtn.classList.add('control-btn', 'play-pause-btn');
-                playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
-                controls.appendChild(playPauseBtn);
-
-                const sideActions = document.createElement('div');
-                sideActions.classList.add('side-actions');
-                const likeBtn = document.createElement('div');
-                likeBtn.classList.add('action-btn');
-                likeBtn.innerHTML = '<i class="fas fa-heart"></i><span>1.2M</span>';
-                const commentBtn = document.createElement('div');
-                commentBtn.classList.add('action-btn');
-                commentBtn.innerHTML = '<i class="fas fa-comment-dots"></i><span>5.7K</span>';
-                const shareBtn = document.createElement('div');
-                shareBtn.classList.add('action-btn');
-                shareBtn.innerHTML = '<i class="fas fa-share"></i><span>分享</span>';
-                sideActions.appendChild(likeBtn);
-                sideActions.appendChild(commentBtn);
-                sideActions.appendChild(shareBtn);
-
-                const playIndicator = document.createElement('div');
-                playIndicator.classList.add('play-indicator');
-                playIndicator.innerHTML = '<i class="fas fa-play"></i>';
-
-                const progressBar = this.createProgressBar();
-                const progressFill = progressBar.querySelector('.progress-fill');
-
-                videoCard.appendChild(videoPlayer);
-                videoCard.appendChild(videoOverlay);
-                videoCard.appendChild(controls);
-                videoCard.appendChild(sideActions);
-                videoCard.appendChild(playIndicator);
-                videoCard.appendChild(progressBar);
-
-                // 影片載入完成事件
-                videoPlayer.addEventListener('loadedmetadata', () => {
-                    videoCard.classList.remove('loading');
-                });
-
-                // 進度更新
-                videoPlayer.addEventListener('timeupdate', () => {
-                    this.updateProgressBar(videoPlayer, progressFill);
-                });
-
-                // 事件監聽器
-                playPauseBtn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
-                });
-
-                videoPlayer.addEventListener('click', () => {
-                    this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
-                });
-
-                // 按讚動畫
-                likeBtn.addEventListener('click', () => {
-                    likeBtn.style.transform = 'scale(1.3)';
-                    setTimeout(() => {
-                        likeBtn.style.transform = 'scale(1)';
-                    }, 200);
-                });
-
-                videoCard.classList.add('paused');
-                return videoCard;
-            }
-
-            // 播放/暫停功能
-            togglePlayPause(video, btn, card, indicator) {
-                if (video.paused) {
-                    video.play().catch(e => console.error("Play error:", e));
-                    btn.innerHTML = '<i class="fas fa-pause"></i>';
-                    card.classList.remove('paused');
-                    indicator.innerHTML = '<i class="fas fa-pause"></i>';
-                } else {
-                    video.pause();
-                    btn.innerHTML = '<i class="fas fa-play"></i>';
-                    card.classList.add('paused');
-                    indicator.innerHTML = '<i class="fas fa-play"></i>';
-                }
-                
-                indicator.style.opacity = 1;
-                clearTimeout(video.indicatorTimeout);
-                video.indicatorTimeout = setTimeout(() => {
-                    indicator.style.opacity = 0;
-                }, 800);
-            }
-
-            // 渲染影片
-            renderVideos(centerIndex) {
-                this.videoFeed.innerHTML = '';
-                const frag = document.createDocumentFragment();
-
-                const start = Math.max(0, centerIndex - this.preloadCount);
-                const end = Math.min(this.allVideos.length - 1, centerIndex + this.preloadCount);
-
-                for (let i = start; i <= end; i++) {
-                    if (this.allVideos[i]) {
-                        const videoCard = this.createVideoCard(this.allVideos[i], i);
-                        frag.appendChild(videoCard);
-                    }
-                }
-                
-                this.videoFeed.appendChild(frag);
-                this.initObserver();
-                
-                // 檢查是否需要載入更多內容
-                if (centerIndex < 5 && this.hasMoreContent) {
-                    this.loadMoreVideos().then(newCount => {
-                        if (newCount > 0) {
-                            // 重新渲染以包含新載入的影片
-                            this.renderVideos(this.currentVideoIndex);
-                        }
-                    });
-                }
-            }
-
-            // 初始化觀察器
-            initObserver() {
-                if (this.observer) this.observer.disconnect();
-
-                const options = {
-                    root: this.videoFeed,
-                    rootMargin: '0px',
-                    threshold: 0.8
-                };
-
-                this.observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        const videoCard = entry.target;
-                        const video = videoCard.querySelector('.video-player');
-                        const index = parseInt(videoCard.dataset.index);
-
-                        if (entry.isIntersecting) {
-                            if (index === this.currentVideoIndex) {
-                                video.play().catch(e => console.error("Play error:", e));
-                                videoCard.classList.remove('paused');
-                                videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-pause"></i>';
-                            } else {
-                                video.pause();
-                                videoCard.classList.add('paused');
-                                videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-play"></i>';
-                            }
-
-                            if (index !== this.currentVideoIndex) {
-                                this.currentVideoIndex = index;
-                                this.renderVideos(this.currentVideoIndex);
-                                const currentCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
-                                if (currentCard) {
-                                    this.videoFeed.scrollTo({
-                                        top: currentCard.offsetTop,
-                                        behavior: 'smooth'
-                                    });
-                                }
-                            }
-                        } else {
-                            video.pause();
-                            videoCard.classList.add('paused');
-                            videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-play"></i>';
-                        }
-                    });
-                }, options);
-
-                this.videoFeed.querySelectorAll('.video-card').forEach(card => {
-                    this.observer.observe(card);
-                });
-            }
-
-            // 設置鍵盤事件
-            setupKeyboardEvents() {
-                document.addEventListener('keydown', (e) => {
-                    const currentVideoCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
-                    if (!currentVideoCard) return;
-
-                    const video = currentVideoCard.querySelector('.video-player');
-                    const playPauseBtn = currentVideoCard.querySelector('.play-pause-btn');
-                    const playIndicator = currentVideoCard.querySelector('.play-indicator');
-
-                    switch (e.code) {
-                        case 'Space':
-                            e.preventDefault();
-                            this.togglePlayPause(video, playPauseBtn, currentVideoCard, playIndicator);
-                            break;
-                        case 'ArrowDown':
-                        case 'PageDown':
-                            e.preventDefault();
-                            if (this.currentVideoIndex < this.allVideos.length - 1) {
-                                const nextIndex = this.currentVideoIndex + 1;
-                                const nextCard = this.videoFeed.querySelector(`[data-index="${nextIndex}"]`);
-                                if (nextCard) {
-                                    this.videoFeed.scrollTo({
-                                        top: nextCard.offsetTop,
-                                        behavior: 'smooth'
-                                    });
-                                }
-                            }
-                            break;
-                        case 'ArrowUp':
-                        case 'PageUp':
-                            e.preventDefault();
-                            if (this.currentVideoIndex > 0) {
-                                const prevIndex = this.currentVideoIndex - 1;
-                                const prevCard = this.videoFeed.querySelector(`[data-index="${prevIndex}"]`);
-                                if (prevCard) {
-                                    this.videoFeed.scrollTo({
-                                        top: prevCard.offsetTop,
-                                        behavior: 'smooth'
-                                    });
-                                }
-                            }
-                            break;
-                    }
-                });
+                return newVideosCount;
+            } else {
+                // 空陣列或載入失敗，繼續嘗試前一天
+                dateToLoad = this.getPreviousDateString(dateToLoad);
+                attempts++;
             }
         }
 
-        // 初始化應用
-        document.addEventListener('DOMContentLoaded', () => {
-            new VideoApp();
+        // 達到最大嘗試次數，沒有更多內容
+        this.hasMoreContent = false;
+        this.isLoading = false;
+        console.log("沒有更多舊影片了.");
+        return 0;
+    }
+
+    // 初始化載入
+    async init() {
+        await this.loadMoreVideos(); // 載入今天的影片
+
+        if (this.allVideos.length === 0) {
+            this.showEndIndicator();
+            return;
+        }
+
+        this.renderVisibleVideos(); // 初始渲染
+        this.setupKeyboardEvents();
+    }
+
+    // 顯示結束指示器
+    showEndIndicator() {
+        this.videoFeed.innerHTML = `
+            <div class="video-card end-card">
+                <div class="end-indicator">
+                    <i class="fas fa-film"></i>
+                    <h3>暫無更多影片</h3>
+                    <p>請稍後再來查看新內容</p>
+                </div>
+            </div>
+        `;
+    }
+
+    // 創建進度條
+    createProgressBar() {
+        const progressBar = document.createElement('div');
+        progressBar.classList.add('progress-bar');
+        const progressFill = document.createElement('div');
+        progressFill.classList.add('progress-fill');
+        progressBar.appendChild(progressFill);
+        return progressBar;
+    }
+
+    // 更新進度條
+    updateProgressBar(video, progressFill) {
+        if (video.duration) {
+            const progress = (video.currentTime / video.duration) * 100;
+            progressFill.style.width = `${progress}%`;
+        }
+    }
+
+    // 創建單個影片卡片
+    createVideoCard(videoItem, index) {
+        const videoCard = document.createElement('div');
+        videoCard.classList.add('video-card', 'loading');
+        videoCard.dataset.index = index;
+        videoCard.dataset.id = videoItem.id; // 添加 id，方便查找
+
+        const videoPlayer = document.createElement('video');
+        videoPlayer.classList.add('video-player');
+        videoPlayer.src = videoItem.src;
+        videoPlayer.loop = true;
+        videoPlayer.muted = true;
+        videoPlayer.playsInline = true;
+        videoPlayer.preload = 'metadata';
+        // videoPlayer.poster = videoItem.thumb; // 可以使用縮圖作為預載畫面
+
+        const videoOverlay = document.createElement('div');
+        videoOverlay.classList.add('video-overlay');
+
+        const controls = document.createElement('div');
+        controls.classList.add('controls');
+        const playPauseBtn = document.createElement('button');
+        playPauseBtn.classList.add('control-btn', 'play-pause-btn');
+        playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+        controls.appendChild(playPauseBtn);
+
+        const sideActions = document.createElement('div');
+        sideActions.classList.add('side-actions');
+        const likeBtn = document.createElement('div');
+        likeBtn.classList.add('action-btn');
+        likeBtn.innerHTML = '<i class="fas fa-heart"></i><span>1.2M</span>';
+        const commentBtn = document.createElement('div');
+        commentBtn.classList.add('action-btn');
+        commentBtn.innerHTML = '<i class="fas fa-comment-dots"></i><span>5.7K</span>';
+        const shareBtn = document.createElement('div');
+        shareBtn.classList.add('action-btn');
+        shareBtn.innerHTML = '<i class="fas fa-share"></i><span>分享</span>';
+        sideActions.appendChild(likeBtn);
+        sideActions.appendChild(commentBtn);
+        sideActions.appendChild(shareBtn);
+
+        const playIndicator = document.createElement('div');
+        playIndicator.classList.add('play-indicator');
+        playIndicator.innerHTML = '<i class="fas fa-play"></i>';
+
+        const progressBar = this.createProgressBar();
+        const progressFill = progressBar.querySelector('.progress-fill');
+
+        videoCard.appendChild(videoPlayer);
+        videoCard.appendChild(videoOverlay);
+        videoCard.appendChild(controls);
+        videoCard.appendChild(sideActions);
+        videoCard.appendChild(playIndicator);
+        videoCard.appendChild(progressBar);
+
+        // 影片載入完成事件
+        videoPlayer.addEventListener('loadedmetadata', () => {
+            videoCard.classList.remove('loading');
         });
+
+        // 進度更新
+        videoPlayer.addEventListener('timeupdate', () => {
+            this.updateProgressBar(videoPlayer, progressFill);
+        });
+
+        // 事件監聽器
+        playPauseBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+        });
+
+        videoPlayer.addEventListener('click', () => {
+            this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+        });
+
+        // 按讚動畫
+        likeBtn.addEventListener('click', () => {
+            likeBtn.style.transform = 'scale(1.3)';
+            setTimeout(() => {
+                likeBtn.style.transform = 'scale(1)';
+            }, 200);
+        });
+
+        videoCard.classList.add('paused'); // 預設為暫停
+        return videoCard;
+    }
+
+    // 播放/暫停功能
+    togglePlayPause(video, btn, card, indicator) {
+        if (video.paused) {
+            video.play().catch(e => console.error("Play error:", e));
+            btn.innerHTML = '<i class="fas fa-pause"></i>';
+            card.classList.remove('paused');
+            indicator.innerHTML = '<i class="fas fa-pause"></i>';
+        } else {
+            video.pause();
+            btn.innerHTML = '<i class="fas fa-play"></i>';
+            card.classList.add('paused');
+            indicator.innerHTML = '<i class="fas fa-play"></i>';
+        }
+        
+        indicator.style.opacity = 1;
+        clearTimeout(video.indicatorTimeout);
+        video.indicatorTimeout = setTimeout(() => {
+            indicator.style.opacity = 0;
+        }, 800);
+    }
+
+    // 渲染當前可見及預載的影片
+    async renderVisibleVideos() {
+        const requiredIndices = new Set();
+        const firstIndex = Math.max(0, this.currentVideoIndex - this.preloadCount);
+        const lastIndex = Math.min(this.allVideos.length - 1, this.currentVideoIndex + this.preloadCount);
+
+        for (let i = firstIndex; i <= lastIndex; i++) {
+            requiredIndices.add(i);
+        }
+
+        // 移除不再需要的影片卡片
+        this.videoFeed.querySelectorAll('.video-card:not(.end-card)').forEach(card => {
+            const index = parseInt(card.dataset.index);
+            if (!requiredIndices.has(index)) {
+                card.remove();
+            }
+        });
+
+        const existingCards = new Map(); // 存放已存在的卡片，以 index 為 key
+        this.videoFeed.querySelectorAll('.video-card:not(.end-card)').forEach(card => {
+            existingCards.set(parseInt(card.dataset.index), card);
+        });
+
+        const frag = document.createDocumentFragment();
+        let lastAppendedCard = null; // 用來追蹤最後一個被加入的卡片
+
+        for (let i = firstIndex; i <= lastIndex; i++) {
+            if (!this.allVideos[i]) continue; // 確保影片數據存在
+
+            let videoCard = existingCards.get(i);
+            if (!videoCard) {
+                // 如果卡片不存在，則創建它
+                videoCard = this.createVideoCard(this.allVideos[i], i);
+                frag.appendChild(videoCard);
+            }
+            // 確保影片卡片按正確順序排列
+            // 找到正確的插入點
+            let targetSibling = null;
+            if (i < this.allVideos.length - 1) { // 如果不是最後一張，尋找後一張
+                targetSibling = this.videoFeed.querySelector(`[data-index="${i + 1}"]`);
+            }
+            if (videoCard.parentNode !== this.videoFeed || (targetSibling && videoCard.nextElementSibling !== targetSibling)) {
+                // 如果不在正確位置，則重新插入
+                if (targetSibling) {
+                    this.videoFeed.insertBefore(videoCard, targetSibling);
+                } else {
+                    this.videoFeed.appendChild(videoCard); // 插入到最後
+                }
+            }
+        }
+        
+        if (frag.children.length > 0) {
+            this.videoFeed.appendChild(frag); // 批次加入新的卡片
+        }
+        
+        this.initObserver(); // 重新初始化觀察器以監視新加入的卡片
+        this.playCurrentVideo(); // 確保當前影片播放
+
+        // 檢查是否需要載入更多內容 (向前滾動)
+        // 如果當前影片在預載範圍的前面，則嘗試載入更多舊影片
+        if (this.currentVideoIndex < this.preloadCount && this.hasMoreContent) {
+            const initialAllVideosLength = this.allVideos.length;
+            await this.loadMoreVideos(); // 嘗試載入更多舊影片
+            if (this.allVideos.length > initialAllVideosLength) {
+                // 如果成功載入新影片，需要重新渲染以顯示它們
+                this.renderVisibleVideos();
+            }
+        }
+    }
+
+    // 播放當前影片並暫停其他影片
+    playCurrentVideo() {
+        this.videoFeed.querySelectorAll('.video-card').forEach(card => {
+            const video = card.querySelector('.video-player');
+            const playPauseBtn = card.querySelector('.play-pause-btn');
+            const playIndicator = card.querySelector('.play-indicator');
+            const index = parseInt(card.dataset.index);
+
+            if (index === this.currentVideoIndex) {
+                if (video.paused) {
+                    video.play().catch(e => console.error("Play error:", e));
+                    card.classList.remove('paused');
+                    playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                }
+                // 確保當前影片在視圖中
+                this.videoFeed.scrollTo({
+                    top: card.offsetTop,
+                    behavior: 'smooth'
+                });
+            } else {
+                if (!video.paused) {
+                    video.pause();
+                    card.classList.add('paused');
+                    playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+                }
+            }
+        });
+    }
+
+    // 初始化觀察器
+    initObserver() {
+        if (this.observer) this.observer.disconnect();
+
+        const options = {
+            root: this.videoFeed,
+            rootMargin: '0px',
+            threshold: 0.8 // 當影片有 80% 進入視圖時觸發
+        };
+
+        this.observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const videoCard = entry.target;
+                if (!videoCard.classList.contains('video-card') || videoCard.classList.contains('end-card')) return;
+
+                const index = parseInt(videoCard.dataset.index);
+
+                if (entry.isIntersecting) {
+                    // 如果進入視圖的影片不是當前影片，則更新 currentVideoIndex
+                    if (index !== this.currentVideoIndex) {
+                        this.currentVideoIndex = index;
+                        this.renderVisibleVideos(); // 更新可見影片，並播放新當前影片
+                    }
+                }
+            });
+        }, options);
+
+        this.videoFeed.querySelectorAll('.video-card:not(.end-card)').forEach(card => {
+            this.observer.observe(card);
+        });
+    }
+
+    // 設置鍵盤事件
+    setupKeyboardEvents() {
+        document.addEventListener('keydown', (e) => {
+            if (e.repeat) return; // 防止長按重複觸發
+
+            const currentVideoCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+            if (!currentVideoCard) return;
+
+            const video = currentVideoCard.querySelector('.video-player');
+            const playPauseBtn = currentVideoCard.querySelector('.play-pause-btn');
+            const playIndicator = currentVideoCard.querySelector('.play-indicator');
+
+            switch (e.code) {
+                case 'Space':
+                    e.preventDefault();
+                    this.togglePlayPause(video, playPauseBtn, currentVideoCard, playIndicator);
+                    break;
+                case 'ArrowDown':
+                case 'PageDown':
+                    e.preventDefault();
+                    if (this.currentVideoIndex < this.allVideos.length - 1) {
+                        this.currentVideoIndex++;
+                        this.renderVisibleVideos();
+                        // 滾動到正確位置 (renderVisibleVideos 會處理)
+                    } else if (this.currentVideoIndex === this.allVideos.length - 1 && this.hasMoreContent) {
+                        // 如果已經是最後一支影片且還有更多內容，則嘗試載入並滾動
+                        this.loadMoreVideos().then(newCount => {
+                            if (newCount > 0) {
+                                this.currentVideoIndex++; // 新影片會被加到前面，所以索引往前移
+                                this.renderVisibleVideos();
+                            } else {
+                                this.showEndIndicator();
+                            }
+                        });
+                    } else if (this.currentVideoIndex === this.allVideos.length - 1 && !this.hasMoreContent) {
+                         this.showEndIndicator();
+                    }
+                    break;
+                case 'ArrowUp':
+                case 'PageUp':
+                    e.preventDefault();
+                    if (this.currentVideoIndex > 0) {
+                        this.currentVideoIndex--;
+                        this.renderVisibleVideos();
+                        // 滾動到正確位置 (renderVisibleVideos 會處理)
+                    }
+                    break;
+            }
+        });
+    }
+}
+
+// 初始化應用
+document.addEventListener('DOMContentLoaded', () => {
+    new VideoApp();
+});
     </script>
 </body>
 </html>
