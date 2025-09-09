@@ -1,55 +1,63 @@
 {
   "items": [
     {
-      "id": 54318776,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/680922a8-d5bd-4cd7-836d-eb6ae1042b8e/width=1248/680922a8-d5bd-4cd7-836d-eb6ae1042b8e.jpeg",
-      "hash": "UGCG-$?[IqDj%xx[W?M|o[%LR6M|%yx[r?f5",
-      "width": 1248,
-      "height": 1824,
+      "id": 92712576,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8471c937-e02b-48dd-a605-7e6d1e747f76/width=832/8471c937-e02b-48dd-a605-7e6d1e747f76.jpeg",
+      "hash": "U88N%[~qxUM_IUD%IUWCMvRjWstRV=t8bcad",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-28T04:25:44.985Z",
-      "postId": 12183768,
+      "createdAt": "2025-08-06T20:56:42.234Z",
+      "postId": 20566626,
       "stats": {
-        "cryCount": 544,
-        "laughCount": 983,
-        "likeCount": 8755,
+        "cryCount": 799,
+        "laughCount": 1117,
+        "likeCount": 8071,
         "dislikeCount": 0,
-        "heartCount": 3266,
-        "commentCount": 7
+        "heartCount": 3414,
+        "commentCount": 18
       },
       "meta": {
-        "Size": "1248x1824",
-        "seed": 1197238889,
-        "Model": "ponyDiffusionV6XL_v6StartWithThisOne.safetensors",
-        "steps": 20,
-        "hashes": {
-          "model": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3"
-        },
-        "prompt": "score_9, score_8_up, score_7_up, \r\nmonster girl, llamia, slit pupils, green eyes, horns, kunoichi, long hair, action pose, forest,",
+        "Size": "832x1216",
+        "seed": 1099143650,
+        "draft": false,
+        "steps": 40,
+        "width": 832,
+        "height": 1216,
+        "prompt": "an ancient warrior princess with sad face, from the side, looking up, in rain, a small stream of water running down over her face, high contrast shadowing,\n candid style. high contrast, grain effect prominent throughout image, high contrast lighting creating dramatic shadows, grainy film-like texture",
+        "process": "txt2img",
         "sampler": "DPM++ 2M Karras",
         "cfgScale": 7,
-        "resources": [
+        "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-08-06T1516:54.0578271Z",
+        "experimental": false,
+        "negativePrompt": "photo , photography, bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, ugly, jpeg artifacts, deformed, noisy image",
+        "civitaiResources": [
           {
-            "hash": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3",
-            "name": "ponyDiffusionV6XL_v6StartWithThisOne.safetensors",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 1714314,
+            "modelVersionName": "Hemp II"
           }
-        ],
-        "Model hash": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3",
-        "negativePrompt": "score_6, score_5, score_4, text, pony, furry, child, kid, monochrome background,"
+        ]
       },
-      "username": "Elioplasma",
-      "baseModel": "Pony",
+      "username": "Roboduck",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        290640
+        1714314
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "54|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=54%7C1744925337225"
+    "nextCursor": "55|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=55%7C1744925337225"
   }
 }
