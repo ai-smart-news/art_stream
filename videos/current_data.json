@@ -1,39 +1,74 @@
 {
   "items": [
     {
-      "id": 24641975,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d7b48ab2-4d80-4d72-859c-5e2d0533cf28/width=768/d7b48ab2-4d80-4d72-859c-5e2d0533cf28.jpeg",
-      "hash": "UnG0OfWBt7f+_Nozj[RjaJxujZWBM{xuWVj[",
-      "width": 768,
-      "height": 1216,
+      "id": 64508193,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/18612c96-c21c-4bd7-aef0-21b9b57f4b7e/width=1792/18612c96-c21c-4bd7-aef0-21b9b57f4b7e.jpeg",
+      "hash": "U3B3KN1+00i_6BJDxatR00}m-;5m|:R4n}=v",
+      "width": 1792,
+      "height": 2304,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-08-16T20:45:32.437Z",
-      "postId": 5506027,
+      "createdAt": "2025-03-19T20:24:12.318Z",
+      "postId": 14379899,
       "stats": {
-        "cryCount": 570,
-        "laughCount": 1089,
-        "likeCount": 9181,
+        "cryCount": 678,
+        "laughCount": 1183,
+        "likeCount": 8693,
         "dislikeCount": 0,
-        "heartCount": 3136,
+        "heartCount": 3350,
         "commentCount": 10
       },
       "meta": {
-        "seed": 7778,
-        "steps": 30,
-        "prompt": "cinematic, skyrim themed, a warrior wearing leather armor and horned helmet, 2 swords in hand, looking up at the sky, a dark demonic dragon is flying in the air in circles, snow peaked mountains in background, small village, very detailed, masterpiece, adventurous, cloudy sky, "
+        "VAE": "sdxlVAE_sdxlVAE.safetensors",
+        "seed": 67318230036877,
+        "Model": "glances_v1.safetensors",
+        "steps": 40,
+        "hashes": {
+          "vae": "63aeecb90f",
+          "model": "41f2b5f7d4",
+          "lora:il_saturation_slider_d1": "72497bc941",
+          "lora:sagging-illustrious-v0.3": "f4121bf8eb",
+          "lora:Witchy_Cottagecore_Illu_Edition": "adb48bd5a7"
+        },
+        "prompt": "(atmosphere, masterpiece, high_quality, absurdres, very aesthetic, blurry_background, grainy_texture, film_grain, light particles textured clothing, textured hair, painterly, watercolor_\\(medium\\), colored_pencil_\\(medium\\), blending)\n(w1tchyc0ttagec0re, petting fox in foreground, 1girl, solo, long_hair, blush, looking_at_viewer, smile, open_mouth, brown_hair, photoshop_(medium), shirt, brown_eyes, green_eyes, jacket, ponytail, flower, :d, food, teeth, indoors, cup, window, mask, night, chair, table, high_ponytail, bottle, plant, bowl, lantern, mug, potted_plant, mask_on_head, fox_mask, coffee, shelf, kitchen, jar, shop, mask_removed, counter, inuyasha)",
+        "sampler": "Euler a",
+        "cfgScale": 3.5,
+        "resources": [
+          {
+            "hash": "41f2b5f7d4",
+            "name": "glances_v1.safetensors",
+            "type": "model"
+          }
+        ],
+        "Model hash": "41f2b5f7d4",
+        "negativePrompt": "worst quality, bad quality, low quality, lowres, anatomical nonsense, artistic error, bad anatomy, realistic, 3D",
+        "Lora_0 Model hash": "adb48bd5a7",
+        "Lora_0 Model name": "Witchy_Cottagecore_Illu_Edition.safetensors",
+        "Lora_1 Model hash": "72497bc941",
+        "Lora_1 Model name": "il_saturation_slider_d1.safetensors",
+        "Lora_2 Model hash": "f4121bf8eb",
+        "Lora_2 Model name": "sagging-illustrious-v0.3.safetensors",
+        "Lora_0 Strength clip": "1",
+        "Lora_1 Strength clip": "-1.3",
+        "Lora_2 Strength clip": "0.65",
+        "Lora_0 Strength model": "1",
+        "Lora_1 Strength model": "-1.3",
+        "Lora_2 Strength model": "0.65"
       },
-      "username": "7Zack",
-      "baseModel": "Flux.1 D",
+      "username": "EcstaticKalliope",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639
+        927604,
+        1227749,
+        1289779,
+        1398687
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "49|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=49%7C1744925337225"
+    "nextCursor": "50|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=50%7C1744925337225"
   }
 }
