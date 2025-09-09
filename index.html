@@ -91,62 +91,11 @@
             z-index: 1;
         }
 
-        .video-info {
-            margin-bottom: 15px;
-        }
-
-        .video-info h3 {
-            font-size: 1.3em;
-            font-weight: 700;
-            margin: 0 0 8px 0;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
-            line-height: 1.2;
-        }
-
-        .video-info p {
-            font-size: 0.95em;
-            color: rgba(255, 255, 255, 0.9);
-            margin: 0;
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
-            line-height: 1.4;
-        }
-
-        .controls {
-            position: absolute;
-            bottom: 25px;
-            left: 25px;
-            display: flex;
-            gap: 18px;
-            z-index: 3;
-        }
-
-        .control-btn {
-            background: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            font-size: 1.3em;
-            color: white;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-        }
-
-        .control-btn:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: scale(1.1);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-        }
-
         .side-actions {
             position: absolute;
             right: 20px;
-            bottom: 120px;
+            top: 50%;
+            transform: translateY(-50%);
             display: flex;
             flex-direction: column;
             gap: 25px;
@@ -306,21 +255,8 @@
                 padding: 20px;
             }
 
-            .controls {
-                left: 20px;
-                bottom: 20px;
-                gap: 15px;
-            }
-
-            .control-btn {
-                width: 45px;
-                height: 45px;
-                font-size: 1.2em;
-            }
-
             .side-actions {
                 right: 15px;
-                bottom: 100px;
                 gap: 20px;
             }
         }
@@ -339,7 +275,7 @@
                 this.videoFeed = document.querySelector('.video-feed');
                 this.allVideos = []; // 所有影片的扁平化陣列
                 this.currentVideoIndex = 0;
-                this.preloadCount = 2;
+                this.renderedVideos = new Map(); // 已渲染的影片 Map<index, element>
                 this.observer = null;
                 this.loadedDates = new Set(); // 已載入的日期
                 this.isLoading = false;
@@ -384,47 +320,18 @@
                     const data = await response.json();
                     this.loadedDates.add(dateString);
                     
-                    // 轉換數據格式，添加額外信息
+                    // 轉換數據格式
                     return data.videos.map((video, index) => ({
                         id: `${dateString}_${index + 1}`,
                         src: video.filename,
                         thumb: video.thumb_path,
                         timestamp: video.timestamp,
-                        title: this.generateTitle(video.filename),
-                        description: this.generateDescription(video.filename, video.timestamp),
                         date: dateString
                     }));
                 } catch (error) {
                     console.log(`無法載入 ${dateString} 的數據:`, error);
                     return null;
                 }
-            }
-
-            // 產生影片標題
-            generateTitle(filename) {
-                const titles = [
-                    '城市霓虹夜景', '山間日出時光', '可愛貓咪日常', '美食製作過程',
-                    '星空縮時攝影', '極限運動挑戰', '藝術創作靈感', '海邊放鬆時光',
-                    '街頭音樂表演', '咖啡拉花藝術', '寵物搞笑瞬間', '夜市美食探索',
-                    '自然風光記錄', '運動健身日常', '手工藝品製作', '旅行風景分享'
-                ];
-                const randomIndex = Math.floor(Math.random() * titles.length);
-                return titles[randomIndex];
-            }
-
-            // 產生影片描述
-            generateDescription(filename, timestamp) {
-                const users = ['@DancingQueen88', '@NatureLover', '@FoodieFanatic', '@ArtisticSoul', '@BeachVibes'];
-                const hashtags = ['#生活', '#美食', '#旅行', '#藝術', '#運動', '#寵物', '#風景', '#日常'];
-                
-                const user = users[Math.floor(Math.random() * users.length)];
-                const tag1 = hashtags[Math.floor(Math.random() * hashtags.length)];
-                const tag2 = hashtags[Math.floor(Math.random() * hashtags.length)];
-                
-                const date = new Date(timestamp);
-                const timeStr = date.toLocaleString('zh-TW');
-                
-                return `${user} - 記錄生活中的美好時光 ✨ ${tag1} ${tag2}`;
             }
 
             // 載入更多影片數據
@@ -480,7 +387,8 @@
                     return;
                 }
 
-                this.renderVideos(this.currentVideoIndex);
+                this.updateRenderedVideos();
+                this.scrollToCurrentVideo();
                 this.setupKeyboardEvents();
             }
 
@@ -532,26 +440,6 @@
                 const videoOverlay = document.createElement('div');
                 videoOverlay.classList.add('video-overlay');
 
-                const videoInfo = document.createElement('div');
-                videoInfo.classList.add('video-info');
-                const title = document.createElement('h3');
-                title.textContent = videoItem.title;
-                const description = document.createElement('p');
-                description.textContent = videoItem.description;
-                videoInfo.appendChild(title);
-                videoInfo.appendChild(description);
-
-                const controls = document.createElement('div');
-                controls.classList.add('controls');
-                const playPauseBtn = document.createElement('button');
-                playPauseBtn.classList.add('control-btn', 'play-pause-btn');
-                playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
-                const muteUnmuteBtn = document.createElement('button');
-                muteUnmuteBtn.classList.add('control-btn', 'mute-unmute-btn');
-                muteUnmuteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
-                controls.appendChild(playPauseBtn);
-                controls.appendChild(muteUnmuteBtn);
-
                 const sideActions = document.createElement('div');
                 sideActions.classList.add('side-actions');
                 const likeBtn = document.createElement('div');
@@ -574,10 +462,8 @@
                 const progressBar = this.createProgressBar();
                 const progressFill = progressBar.querySelector('.progress-fill');
 
-                videoOverlay.appendChild(videoInfo);
                 videoCard.appendChild(videoPlayer);
                 videoCard.appendChild(videoOverlay);
-                videoCard.appendChild(controls);
                 videoCard.appendChild(sideActions);
                 videoCard.appendChild(playIndicator);
                 videoCard.appendChild(progressBar);
@@ -592,19 +478,9 @@
                     this.updateProgressBar(videoPlayer, progressFill);
                 });
 
-                // 事件監聽器
-                playPauseBtn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
-                });
-
-                muteUnmuteBtn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    this.toggleMuteUnmute(videoPlayer, muteUnmuteBtn);
-                });
-
+                // 點擊影片播放/暫停
                 videoPlayer.addEventListener('click', () => {
-                    this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+                    this.togglePlayPause(videoPlayer, videoCard, playIndicator);
                 });
 
                 // 按讚動畫
@@ -620,15 +496,13 @@
             }
 
             // 播放/暫停功能
-            togglePlayPause(video, btn, card, indicator) {
+            togglePlayPause(video, card, indicator) {
                 if (video.paused) {
                     video.play().catch(e => console.error("Play error:", e));
-                    btn.innerHTML = '<i class="fas fa-pause"></i>';
                     card.classList.remove('paused');
                     indicator.innerHTML = '<i class="fas fa-pause"></i>';
                 } else {
                     video.pause();
-                    btn.innerHTML = '<i class="fas fa-play"></i>';
                     card.classList.add('paused');
                     indicator.innerHTML = '<i class="fas fa-play"></i>';
                 }
@@ -640,39 +514,72 @@
                 }, 800);
             }
 
-            // 靜音/取消靜音功能
-            toggleMuteUnmute(video, btn) {
-                video.muted = !video.muted;
-                btn.innerHTML = video.muted ? 
-                    '<i class="fas fa-volume-mute"></i>' : 
-                    '<i class="fas fa-volume-up"></i>';
+            // 計算需要渲染的影片範圍
+            getVideoRange() {
+                const current = this.currentVideoIndex;
+                
+                if (current === 0) {
+                    // 在第1支影片：preload 2+3
+                    return { start: 0, end: Math.min(2, this.allVideos.length - 1) };
+                } else if (current === 1) {
+                    // 在第2支影片：保留1，preload 3+4
+                    return { start: 0, end: Math.min(3, this.allVideos.length - 1) };
+                } else {
+                    // 第3支以後：保留前2支，preload 後2支
+                    const start = Math.max(0, current - 2);
+                    const end = Math.min(current + 2, this.allVideos.length - 1);
+                    return { start, end };
+                }
             }
 
-            // 渲染影片
-            renderVideos(centerIndex) {
-                this.videoFeed.innerHTML = '';
-                const frag = document.createDocumentFragment();
-
-                const start = Math.max(0, centerIndex - this.preloadCount);
-                const end = Math.min(this.allVideos.length - 1, centerIndex + this.preloadCount);
-
-                for (let i = start; i <= end; i++) {
-                    if (this.allVideos[i]) {
-                        const videoCard = this.createVideoCard(this.allVideos[i], i);
-                        frag.appendChild(videoCard);
+            // 更新渲染的影片
+            updateRenderedVideos() {
+                const { start, end } = this.getVideoRange();
+                
+                // 移除不在範圍內的影片
+                for (const [index, element] of this.renderedVideos.entries()) {
+                    if (index < start || index > end) {
+                        element.remove();
+                        this.renderedVideos.delete(index);
                     }
                 }
-                
-                this.videoFeed.appendChild(frag);
+
+                // 添加需要的影片
+                for (let i = start; i <= end; i++) {
+                    if (!this.renderedVideos.has(i) && this.allVideos[i]) {
+                        const videoCard = this.createVideoCard(this.allVideos[i], i);
+                        this.renderedVideos.set(i, videoCard);
+                    }
+                }
+
+                // 重新排序並添加到 DOM
+                this.videoFeed.innerHTML = '';
+                for (let i = start; i <= end; i++) {
+                    if (this.renderedVideos.has(i)) {
+                        this.videoFeed.appendChild(this.renderedVideos.get(i));
+                    }
+                }
+
                 this.initObserver();
                 
                 // 檢查是否需要載入更多內容
-                if (centerIndex < 5 && this.hasMoreContent) {
+                if (this.currentVideoIndex < 5 && this.hasMoreContent) {
                     this.loadMoreVideos().then(newCount => {
                         if (newCount > 0) {
-                            // 重新渲染以包含新載入的影片
-                            this.renderVideos(this.currentVideoIndex);
+                            this.updateRenderedVideos();
                         }
+                    });
+                }
+            }
+
+            // 滾動到當前影片
+            scrollToCurrentVideo() {
+                const currentCard = this.renderedVideos.get(this.currentVideoIndex);
+                if (currentCard) {
+                    const cardIndex = Array.from(this.videoFeed.children).indexOf(currentCard);
+                    this.videoFeed.scrollTo({
+                        top: cardIndex * this.videoFeed.clientHeight,
+                        behavior: 'smooth'
                     });
                 }
             }
@@ -692,33 +599,18 @@
                         const videoCard = entry.target;
                         const video = videoCard.querySelector('.video-player');
                         const index = parseInt(videoCard.dataset.index);
+                        const playIndicator = videoCard.querySelector('.play-indicator');
 
-                        if (entry.isIntersecting) {
-                            if (index === this.currentVideoIndex) {
-                                video.play().catch(e => console.error("Play error:", e));
-                                videoCard.classList.remove('paused');
-                                videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-pause"></i>';
-                            } else {
-                                video.pause();
-                                videoCard.classList.add('paused');
-                                videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-play"></i>';
-                            }
-
-                            if (index !== this.currentVideoIndex) {
-                                this.currentVideoIndex = index;
-                                this.renderVideos(this.currentVideoIndex);
-                                const currentCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
-                                if (currentCard) {
-                                    this.videoFeed.scrollTo({
-                                        top: currentCard.offsetTop,
-                                        behavior: 'smooth'
-                                    });
-                                }
-                            }
+                        if (entry.isIntersecting && index === this.currentVideoIndex) {
+                            // 當前影片進入視窗
+                            video.play().catch(e => console.error("Play error:", e));
+                            videoCard.classList.remove('paused');
+                            playIndicator.innerHTML = '<i class="fas fa-pause"></i>';
                         } else {
+                            // 其他影片暫停
                             video.pause();
                             videoCard.classList.add('paused');
-                            videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-play"></i>';
+                            playIndicator.innerHTML = '<i class="fas fa-play"></i>';
                         }
                     });
                 }, options);
@@ -728,52 +620,38 @@
                 });
             }
 
+            // 切換到指定影片
+            switchToVideo(newIndex) {
+                if (newIndex < 0 || newIndex >= this.allVideos.length) return;
+                
+                this.currentVideoIndex = newIndex;
+                this.updateRenderedVideos();
+                this.scrollToCurrentVideo();
+            }
+
             // 設置鍵盤事件
             setupKeyboardEvents() {
                 document.addEventListener('keydown', (e) => {
-                    const currentVideoCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
-                    if (!currentVideoCard) return;
+                    const currentCard = this.renderedVideos.get(this.currentVideoIndex);
+                    if (!currentCard) return;
 
-                    const video = currentVideoCard.querySelector('.video-player');
-                    const playPauseBtn = currentVideoCard.querySelector('.play-pause-btn');
-                    const muteUnmuteBtn = currentVideoCard.querySelector('.mute-unmute-btn');
-                    const playIndicator = currentVideoCard.querySelector('.play-indicator');
+                    const video = currentCard.querySelector('.video-player');
+                    const playIndicator = currentCard.querySelector('.play-indicator');
 
                     switch (e.code) {
                         case 'Space':
                             e.preventDefault();
-                            this.togglePlayPause(video, playPauseBtn, currentVideoCard, playIndicator);
+                            this.togglePlayPause(video, currentCard, playIndicator);
                             break;
                         case 'ArrowDown':
                         case 'PageDown':
                             e.preventDefault();
-                            if (this.currentVideoIndex < this.allVideos.length - 1) {
-                                const nextIndex = this.currentVideoIndex + 1;
-                                const nextCard = this.videoFeed.querySelector(`[data-index="${nextIndex}"]`);
-                                if (nextCard) {
-                                    this.videoFeed.scrollTo({
-                                        top: nextCard.offsetTop,
-                                        behavior: 'smooth'
-                                    });
-                                }
-                            }
+                            this.switchToVideo(this.currentVideoIndex + 1);
                             break;
                         case 'ArrowUp':
                         case 'PageUp':
                             e.preventDefault();
-                            if (this.currentVideoIndex > 0) {
-                                const prevIndex = this.currentVideoIndex - 1;
-                                const prevCard = this.videoFeed.querySelector(`[data-index="${prevIndex}"]`);
-                                if (prevCard) {
-                                    this.videoFeed.scrollTo({
-                                        top: prevCard.offsetTop,
-                                        behavior: 'smooth'
-                                    });
-                                }
-                            }
-                            break;
-                        case 'KeyM':
-                            this.toggleMuteUnmute(video, muteUnmuteBtn);
+                            this.switchToVideo(this.currentVideoIndex - 1);
                             break;
                     }
                 });
