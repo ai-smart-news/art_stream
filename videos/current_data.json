@@ -1,57 +1,80 @@
 {
   "items": [
     {
-      "id": 11798302,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6fcaf10d-d444-489e-9fe2-a945fbbd6cc3/width=896/6fcaf10d-d444-489e-9fe2-a945fbbd6cc3.jpeg",
-      "hash": "UMJ7H{ER*J^+%#w_R-xbyD9FxaIBxv-oxbsp",
-      "width": 896,
+      "id": 64467372,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b977657-c60e-4a6d-9ffa-b81d3e90fa37/width=832/0b977657-c60e-4a6d-9ffa-b81d3e90fa37.jpeg",
+      "hash": "URFgXO-n}qR+^4bawdnj-Ts.xYwdoLsoI;NH",
+      "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-07T15:47:56.575Z",
-      "postId": 2599613,
+      "createdAt": "2025-03-19T19:01:00.000Z",
+      "postId": 14370706,
       "stats": {
-        "cryCount": 671,
-        "laughCount": 1707,
-        "likeCount": 8920,
+        "cryCount": 755,
+        "laughCount": 1157,
+        "likeCount": 9310,
         "dislikeCount": 0,
-        "heartCount": 3456,
-        "commentCount": 13
+        "heartCount": 3473,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "896x1216",
-        "seed": 2090560901,
-        "Model": "SleipnirV2.7",
-        "steps": 8,
-        "hashes": {
-          "model": "6e2b56943c"
-        },
-        "prompt": "detailed realistic close up of a strawberry shaped like a kitten, sitting, natural light",
-        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
-        "sampler": "DPM++ SDE",
-        "cfgScale": 5,
+        "Size": "832x1216",
+        "seed": 305440652,
+        "steps": 25,
+        "prompt": "in the style of ck-mgs, nistyle, Special Ink-drawing mode, intricate linework with expressive contrasts, Mh1$AgThS2, Inkplash art on rice paper, sepia, henna , Silhouette Art, magnificent, inksplash closeup portrait of stunning japanese female sc-fi soldier, helmet, mirrored visor reflecting jungle environment",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [
+        "resources": [],
+        "Created Date": "2025-03-19T1405:42.4117180Z",
+        "civitaiResources": [
           {
-            "hash": "6e2b56943c",
-            "name": "SleipnirV2.7",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 791149,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 976226,
+            "modelVersionName": "v.01 - e13 flux"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1023569,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1232251,
+            "modelVersionName": "v1.0 FLUX"
           }
-        ],
-        "Model hash": "6e2b56943c",
-        "negativePrompt": "worst quality"
+        ]
       },
-      "username": "freek22",
-      "baseModel": "SDXL Hyper",
+      "username": "Stu42",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        491832
+        691639,
+        791149,
+        976226,
+        1023569,
+        1232251
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "38|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=38%7C1744925337225"
+    "nextCursor": "39|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=39%7C1744925337225"
   }
 }
