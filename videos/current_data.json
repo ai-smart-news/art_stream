@@ -1,63 +1,87 @@
 {
   "items": [
     {
-      "id": 66450218,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62927ff3-ee08-41d5-8532-b9cdb221a54b/width=768/62927ff3-ee08-41d5-8532-b9cdb221a54b.jpeg",
-      "hash": "U6F~gd4n~qD%00M{00?b00WAj[IUayIU_300",
-      "width": 768,
-      "height": 1360,
+      "id": 15565887,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3723815a-6877-4f9b-a485-4680f9e360b1/width=832/3723815a-6877-4f9b-a485-4680f9e360b1.jpeg",
+      "hash": "U5CZw[k@E2-;%hE19FWB00%2M{_4%M-;4n_N",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-28T17:13:35.527Z",
-      "postId": 14787049,
+      "createdAt": "2024-06-12T20:22:36.607Z",
+      "postId": 3466506,
       "stats": {
-        "cryCount": 698,
-        "laughCount": 1165,
-        "likeCount": 8970,
+        "cryCount": 578,
+        "laughCount": 1073,
+        "likeCount": 9199,
         "dislikeCount": 0,
-        "heartCount": 3424,
-        "commentCount": 13
+        "heartCount": 3291,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "768x1365",
-        "seed": 1888401168,
-        "Model": "waiNSFWIllustrious_v120",
-        "steps": 20,
-        "hashes": {
-          "model": "89cb4ec0a9",
-          "lora:RavenScript": "1e9b6e83d314"
-        },
-        "prompt": "1girl, arm up, bangs, black background, blood, closed mouth, covered eyes, dress, floating hair, greyscale, hooded cloak, long hair, long sleeves, looking at viewer, monochrome, one eye covered, simple background, solo, stuffed toy, thorns, witch hat <lora:RavenScript :1>",
-        "Version": "f1.3.0-v1.10.1RC-latest-1012-g70f68fd5",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 5,
+        "Size": "832x1216",
+        "seed": 23241252,
+        "steps": 40,
+        "prompt": "A closeup of fantastical image of a moon knight, clad in flowing, flowing robes, wielding an ornate, ornate blade. Their eyes are filled with power and determination, as they wield the sword in a fluid, dynamic motion. The moon's reflection highlights their magical power",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [
+        "resources": [],
+        "Created Date": "2024-06-12T1606:18.2570201Z",
+        "negativePrompt": "bad proportions, low resolution, bad, ugly, terrible, , pink skin creepy, meat skin,comic, anime, manga, unrealistic, flat, FastNegativeV2, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.6), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, (malformed hand:1.2), (disassembled lightsaber handle:1.5)",
+        "civitaiResources": [
           {
-            "hash": "1e9b6e83d314",
-            "name": "RavenScript",
-            "type": "lora"
+            "type": "checkpoint",
+            "modelVersionId": 345685,
+            "modelVersionName": "FUSION OG"
           },
           {
-            "hash": "89cb4ec0a9",
-            "name": "waiNSFWIllustrious_v120",
-            "type": "model"
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 0,
+            "modelVersionId": 240274,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 258687,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 391327,
+            "modelVersionName": "v3.0"
+          },
+          {
+            "type": "vae",
+            "weight": 1,
+            "modelVersionId": 333245,
+            "modelVersionName": "SDXL-VAE"
           }
-        ],
-        "Model hash": "89cb4ec0a9",
-        "Schedule type": "Karras"
+        ]
       },
-      "username": "Rustyvivid",
-      "baseModel": "Illustrious",
+      "username": "eduardo_saffe",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        1490781
+        9208,
+        240274,
+        258687,
+        345685,
+        391327
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "46|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=46%7C1744925337225"
+    "nextCursor": "47|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=47%7C1744925337225"
   }
 }
