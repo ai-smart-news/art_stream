@@ -1,69 +1,50 @@
 {
   "items": [
     {
-      "id": 10634283,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26cfd41c-7ced-4c28-839e-99c0498d05ea/width=832/26cfd41c-7ced-4c28-839e-99c0498d05ea.jpeg",
-      "hash": "U04xe{9G00~WMwozn3RP00WA~qRk4m%2EMM{",
-      "width": 832,
-      "height": 1216,
+      "id": 13164245,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d57e4412-2d4d-4d3d-9725-a61bcd86cbfc/width=1024/d57e4412-2d4d-4d3d-9725-a61bcd86cbfc.jpeg",
+      "hash": "U8DHg#=z53OE3WB49=ob}c=gOZ=gKhNsM^Ed",
+      "width": 1024,
+      "height": 1440,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-04-24T13:11:16.549Z",
-      "postId": 2331737,
+      "createdAt": "2024-05-21T16:41:43.415Z",
+      "postId": 2910895,
       "stats": {
-        "cryCount": 636,
-        "laughCount": 1726,
-        "likeCount": 9511,
+        "cryCount": 607,
+        "laughCount": 1286,
+        "likeCount": 9284,
         "dislikeCount": 0,
-        "heartCount": 3234,
-        "commentCount": 6
+        "heartCount": 3737,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 684123019,
-        "steps": 8,
-        "prompt": "(best quality, 8K, high resolution, masterpiece), ultra detailed, (3D CGI), black sunglasses, trendy, fashionable, silver and black stylized angry muscle doberman on a black background, countryside advertising, winning photo,",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "clipSkip": 2,
+        "VAE": "sdxl-vae-fp16-fix.safetensors",
+        "Size": "1024x1440",
+        "seed": 4257785000,
+        "Model": "EMS-325360-EMS",
+        "steps": 25,
+        "TaskID": "730293003243195778",
+        "prompt": "masterpiece, best quality, very aesthetic, absurdres\nwlop miimalism  \n  cinematic  lighting \n   1girl, aged up\n  walking in the alley black suit white collar shirt \n perspective from above\n cyberpunk, neon",
+        "Version": "v1.6.0.133-1-gaca9268",
+        "sampler": "Restart",
+        "cfgScale": 7,
         "resources": [],
-        "negativePrompt": "BadDream",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 344487
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 0.75, TriggerWord = , Type = Lora }",
-            "weight": 0.75,
-            "modelVersionId": 293991
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 1, TriggerWord = BadDream, Type = TextualInversion }",
-            "weight": 1,
-            "modelVersionId": 77169
-          },
-          {
-            "type": "ImageJobNetworkParams { Strength = 1, TriggerWord = , Type = Lora }",
-            "weight": 1,
-            "modelVersionId": 391999
-          }
-        ]
+        "negativePrompt": "lowres, worst quality, blurry, grayscale, low contrast\n low quality, worst quality, normal quality",
+        "Denoising strength": "0",
+        "Style Selector Style": "base",
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "False"
       },
-      "username": "doberman1987",
+      "username": "bullseyetroll",
       "baseModel": "SDXL 1.0",
-      "modelVersionIds": [
-        77169,
-        293991,
-        344487,
-        391999
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "34|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=34%7C1744925337225"
+    "nextCursor": "35|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=35%7C1744925337225"
   }
 }
