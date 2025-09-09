@@ -1,71 +1,33 @@
 {
   "items": [
     {
-      "id": 59645082,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5602f0eb-82ad-42eb-a536-a5c720e011cf/width=1248/5602f0eb-82ad-42eb-a536-a5c720e011cf.jpeg",
-      "hash": "UID,J%L}_4R$%%I8x^WB4pNHD*oz%gWAIU%M",
-      "width": 1248,
-      "height": 1608,
+      "id": 74832354,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/970fba8c-082c-48c2-9231-9368dad66d8f/width=1024/970fba8c-082c-48c2-9231-9368dad66d8f.jpeg",
+      "hash": "UGFEJq^O~9of~Vt6X8WCt+NbWEoL%fkBafs:",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-23T16:04:42.128Z",
-      "postId": 13339581,
+      "createdAt": "2025-05-07T19:14:29.094Z",
+      "postId": 16616086,
       "stats": {
-        "cryCount": 715,
-        "laughCount": 924,
-        "likeCount": 8162,
+        "cryCount": 798,
+        "laughCount": 1317,
+        "likeCount": 7508,
         "dislikeCount": 0,
-        "heartCount": 2867,
-        "commentCount": 9
+        "heartCount": 2929,
+        "commentCount": 52
       },
-      "meta": {
-        "VAE": "FLUX1\\ae.sft",
-        "Size": "896x1152",
-        "seed": 20732154933645,
-        "Model": "flux_dev.safetensors",
-        "steps": 60,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "2eda627c8a",
-          "lora:fechin-FLUX": "11058aac17",
-          "lora:FluxDFaeTasticDetails": "4259dc3287"
-        },
-        "prompt": "A strikingly symbolic surreal composition portraying a single tree split into two contrasting halves, forming the profile of a human face, where one side is barren and lifeless while the other thrives with lush greenery. The left half of the image presents a bleak dystopian landscape, filled with towering smokestacks belching thick, dark clouds into the sky, a sea of overflowing garbage bags piled beneath, and a cracked, ashen road stretching endlessly. The skeletal branches of the tree mirror the decay, devoid of leaves, twisted and lifeless, blending into the smog-filled atmosphere. On the right side, a vibrant utopian paradise emerges, with rolling green fields stretching toward lush forested mountains, illuminated by a soft, golden glow. The tree here is full of life, its rich green foliage thriving under a bright blue sky, where a radiant rainbow arcs gracefully, casting a hopeful aura over the pristine natural landscape. The stark contrast between industrial destruction and environmental harmony conveys a profound visual metaphor of human impact, nature\u2019s resilience, and the choice between devastation and renewal in a hyper-detailed, thought-provoking surrealist art style.\n <lora:FluxDFaeTasticDetails:0.25> <lora:fechin-FLUX:0.75>",
-        "sampler": "DPM++ 2M",
-        "resources": [
-          {
-            "hash": "4259dc3287",
-            "name": "FluxDFaeTasticDetails",
-            "type": "lora",
-            "weight": 0.25
-          },
-          {
-            "hash": "11058aac17",
-            "name": "fechin-FLUX",
-            "type": "lora",
-            "weight": 0.75
-          },
-          {
-            "hash": "2eda627c8a",
-            "name": "flux_dev.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "2eda627c8a"
-      },
-      "username": "amre92YH",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        1128686,
-        691639,
-        720252
-      ]
+      "meta": null,
+      "username": "EXP9182",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "61|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=61%7C1744925337225"
+    "nextCursor": "62|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=62%7C1744925337225"
   }
 }
