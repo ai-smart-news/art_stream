@@ -1,80 +1,35 @@
 {
   "items": [
     {
-      "id": 64467372,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b977657-c60e-4a6d-9ffa-b81d3e90fa37/width=832/0b977657-c60e-4a6d-9ffa-b81d3e90fa37.jpeg",
-      "hash": "URFgXO-n}qR+^4bawdnj-Ts.xYwdoLsoI;NH",
+      "id": 34601798,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/18530b55-dc8d-4320-a7d0-97c9dc613bc5/width=832/18530b55-dc8d-4320-a7d0-97c9dc613bc5.jpeg",
+      "hash": "UQBz8{tR_Nxa?b%M-;%MkXM{?HRja}ayxuWV",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-19T19:01:00.000Z",
-      "postId": 14370706,
+      "createdAt": "2024-10-14T19:23:57.545Z",
+      "postId": 7906510,
       "stats": {
-        "cryCount": 755,
-        "laughCount": 1157,
-        "likeCount": 9310,
+        "cryCount": 937,
+        "laughCount": 1172,
+        "likeCount": 9187,
         "dislikeCount": 0,
-        "heartCount": 3473,
-        "commentCount": 7
+        "heartCount": 3393,
+        "commentCount": 52
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 305440652,
-        "steps": 25,
-        "prompt": "in the style of ck-mgs, nistyle, Special Ink-drawing mode, intricate linework with expressive contrasts, Mh1$AgThS2, Inkplash art on rice paper, sepia, henna , Silhouette Art, magnificent, inksplash closeup portrait of stunning japanese female sc-fi soldier, helmet, mirrored visor reflecting jungle environment",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-03-19T1405:42.4117180Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 791149,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 976226,
-            "modelVersionName": "v.01 - e13 flux"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1023569,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 1232251,
-            "modelVersionName": "v1.0 FLUX"
-          }
-        ]
+        "prompt": "(comic book style) , A pen and ink style expressionism painting. Portrait of a female detective scowling into a magnifying glass. The glass is crystal clear, showing a water portal through the glass. The detective is wearing a black suit that emanates her shadowy figure. "
       },
-      "username": "Stu42",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        791149,
-        976226,
-        1023569,
-        1232251
-      ]
+      "username": "Adel_AI",
+      "baseModel": null,
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "39|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=39%7C1744925337225"
+    "nextCursor": "40|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=40%7C1744925337225"
   }
 }
