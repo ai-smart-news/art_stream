@@ -1,66 +1,69 @@
 {
   "items": [
     {
-      "id": 16641559,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebebea37-2512-47b9-a171-b79f5fc5b91f/width=832/ebebea37-2512-47b9-a171-b79f5fc5b91f.jpeg",
-      "hash": "UNI|RHS$0#}r~p%2%0WEOsOrx]wM-mS5tl$%",
+      "id": 29714376,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63171c8d-6b31-41e3-ad6f-6b1052dcaf55/width=832/63171c8d-6b31-41e3-ad6f-6b1052dcaf55.jpeg",
+      "hash": "U7D+JA000N^j00t,:kXm0L}@^+8{+vIVW-?a",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-06-21T18:42:30.727Z",
-      "postId": 3733368,
+      "createdAt": "2024-09-16T12:59:48.958Z",
+      "postId": 6648552,
       "stats": {
-        "cryCount": 624,
-        "laughCount": 1163,
-        "likeCount": 9331,
+        "cryCount": 752,
+        "laughCount": 1288,
+        "likeCount": 8915,
         "dislikeCount": 0,
-        "heartCount": 3458,
-        "commentCount": 9
+        "heartCount": 3597,
+        "commentCount": 26
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 2454726382,
-        "steps": 30,
-        "prompt": "<lora:gr33nXLP:1> gr33n, solo, 1girl, long hair, plant, flower, score_9, score_8_up, score_7_up, score_6_up,",
-        "sampler": "Euler a",
-        "cfgScale": 7,
+        "seed": 4294967296,
+        "extra": {
+          "remixOfId": 28769117
+        },
+        "steps": 25,
+        "prompt": "Hyperrealism, extreme close-up Portrait of a beautiful, stunning unique female character. She has large turquoise eyes filled with joy and excitement, extravagant eyelashes, making this image a masterpiece of photography and digital art. Style: realistic hyper-detailed rendering, 32k UHD, expressive eyes, punk, graphic design, pink hibiscus tattoo, girl's face, side view, pretty and cute, gleaming lips, white skin, telling a tale of adventure. Exuding confidence and serenity. Vibrant tattoos adorn her sun-kissed skin",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [
-          {
-            "name": "gr33nXLP",
-            "type": "lora",
-            "weight": 1
-          }
-        ],
-        "Created Date": "2024-06-21T1841:48.2873374Z",
-        "negativePrompt": "watermark, signature, artist name, (3d), muscular, cum, ugly, monochrome,",
+        "resources": [],
+        "Created Date": "2024-09-15T1736:55.2667537Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 324619,
-            "modelVersionName": "AutismMix_pony"
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
             "type": "lora",
             "weight": 1,
-            "modelVersionId": 587001,
-            "modelVersionName": "Green & Lush"
+            "modelVersionId": 792756,
+            "modelVersionName": "flux v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 755549,
+            "modelVersionName": "v.02 For Flux"
           }
         ]
       },
-      "username": "4ndr3w",
-      "baseModel": "Pony",
+      "username": "DarkirStorm",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        324619,
-        587001
+        691639,
+        755549,
+        792756
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "43|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=43%7C1744925337225"
+    "nextCursor": "44|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=44%7C1744925337225"
   }
 }
