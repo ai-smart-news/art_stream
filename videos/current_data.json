@@ -1,67 +1,33 @@
 {
   "items": [
     {
-      "id": 64239788,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58f848f7-ed07-4155-b207-c2cd9893a45a/width=832/58f848f7-ed07-4155-b207-c2cd9893a45a.jpeg",
-      "hash": "UYIz#Rs.ENof4Tn%JVR*~XoLM|WXIUj@kWa}",
-      "width": 832,
-      "height": 1248,
+      "id": 93891455,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/12a73885-8415-4b17-b1c3-e1628a988722/width=1024/12a73885-8415-4b17-b1c3-e1628a988722.jpeg",
+      "hash": "UJC}t9}==_-Tt6t6oeNcENIqNHNHR+R+Nbs,",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-22T01:07:55.714Z",
-      "postId": 14322490,
+      "createdAt": "2025-08-12T21:55:00.000Z",
+      "postId": 20829199,
       "stats": {
-        "cryCount": 610,
-        "laughCount": 1016,
-        "likeCount": 7222,
+        "cryCount": 563,
+        "laughCount": 1092,
+        "likeCount": 7086,
         "dislikeCount": 0,
-        "heartCount": 2714,
-        "commentCount": 11
+        "heartCount": 2787,
+        "commentCount": 17
       },
-      "meta": {
-        "VAE": "xlVAEC_f2.safetensors",
-        "Size": "832x1249",
-        "seed": 761478725,
-        "Model": "hsArtAnime_godlike",
-        "steps": 35,
-        "hashes": {
-          "vae": "9d65a7d086",
-          "model": "3a0b38b9fe",
-          "lora:InkSplash1llust": "1fcfc128c59c"
-        },
-        "prompt": "InkSplash,splatter ink,1boy,solo,male focus,red hair,sandals,teeth,might guy \\(naruto\\),fire,full body,aura,red eyes,spiked hair,pants,jacket,belt,outstretched arms,clenched teeth,scar,long sleeves,looking at viewer,<lora:InkSplash1llust:0.8>,InkSplash,splatter ink,\nmasterpiece,best quality,ultra-high resolution,exquisite ink brushwork,dynamic and fluid ink strokes,cinematic ink wash aesthetics,highly detailed brush textures,expressive and spontaneous ink flow,fine-grained paper texture integration,masterful balance of bold and delicate strokes,deep atmospheric ink diffusion,controlled ink splashes for dramatic effect,refined tonal layering for depth,intricate shading with natural ink wash,seamless blending of wet and dry brush techniques,calligraphic precision in linework,flowing fabric with ink-splattered motion,ultra-detailed character features with artistic stylization,striking and elegant poses,composition with sweeping ink dynamics,rich and immersive artistic atmosphere,ink-diffused lighting for soft yet striking contrast,expressive silhouette dynamics,harmonious balance of black,white,and gray tones,handcrafted stroke realism,fine ink gradients for emotional depth,meticulously layered ink textures,AAA-level traditional ink artistry,painterly elegance with cinematic impact.,black_background,noir_vesper,",
-        "Version": "v1.10.1",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "resources": [
-          {
-            "hash": "1fcfc128c59c",
-            "name": "InkSplash1llust",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "3a0b38b9fe",
-            "name": "hsArtAnime_godlike",
-            "type": "model"
-          }
-        ],
-        "Model hash": "3a0b38b9fe",
-        "Schedule type": "Automatic",
-        "negativePrompt": "NSFW,logo,text,blurry,low quality,sketches,lowres,unnatural poses,awkward hand positions,uncoordinated movement,multiple weapons,floating weapons,cluttered composition,chaotic background,poor grip,stiff posture,exaggerated features,awkward angles,distracting elements,unrealistic anatomy,mismatched styles,excessive details,\n(bottle:1.1),holding bottle,holding jar,can,(the wrong posture:1.3),(the wrong knife:1.4),action is not natural,(two weapons:1.4),(multiple weapons:1.5),not handsome posture,"
-      },
-      "username": "HS_hi",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1464015,
-        1548725
-      ]
+      "meta": null,
+      "username": "El_Tigre1977",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "84|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=84%7C1744925337225"
+    "nextCursor": "85|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=85%7C1744925337225"
   }
 }
