@@ -263,6 +263,36 @@
             -webkit-appearance: none;
         }
 
+        /* End of content indicator */
+        .end-indicator {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 40px;
+        }
+
+        .end-indicator i {
+            font-size: 4em;
+            margin-bottom: 20px;
+            opacity: 0.6;
+        }
+
+        .end-indicator h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .end-indicator p {
+            font-size: 1em;
+            opacity: 0.7;
+        }
+
         /* Mobile responsive */
         @media (max-width: 480px) {
             .app-wrapper {
@@ -304,26 +334,171 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const videoFeed = document.querySelector('.video-feed');
+        class VideoApp {
+            constructor() {
+                this.videoFeed = document.querySelector('.video-feed');
+                this.allVideos = []; // 所有影片的扁平化陣列
+                this.currentVideoIndex = 0;
+                this.preloadCount = 2;
+                this.observer = null;
+                this.loadedDates = new Set(); // 已載入的日期
+                this.isLoading = false;
+                this.hasMoreContent = true;
+                
+                this.init();
+            }
 
-            // 從GitHub repo獲取真實影片數據
-            const videoData = [
-                { id: 1, src: 'videos/2025_09_08/2025_09_08_01.mp4', title: '城市霓虹夜景', description: '@DancingQueen88 - 夜晚的城市燈火璀璨 ✨ #城市風光 #夜景攝影' },
-                { id: 2, src: 'videos/2025_09_08/2025_09_08_02.mp4', title: '山間日出時光', description: '@NatureLover - 清晨第一道陽光灑向大地 🌅 #日出 #山景' },
-                { id: 3, src: 'videos/2025_09_08/2025_09_08_03.mp4', title: '可愛貓咪日常', description: '@KittyTales - 我家貓主子又在賣萌了 🐱 #萌寵 #貓咪日常' },
-                { id: 4, src: 'videos/2025_09_08/2025_09_08_04.mp4', title: '美食製作過程', description: '@FoodieFanatic - 手工義大利麵製作教學 🍝 #料理 #美食' },
-                { id: 5, src: 'videos/2025_09_08/2025_09_08_05.mp4', title: '星空縮時攝影', description: '@Stargazer - 璀璨星空下的寧靜夜晚 ⭐ #星空 #縮時攝影' },
-                { id: 6, src: 'videos/2025_09_08/2025_09_08_06.mp4', title: '極限運動挑戰', description: '@AdrenalineJunkie - 滑板公園的酷炫技巧 🛹 #極限運動 #滑板' },
-                { id: 7, src: 'videos/2025_09_08/2025_09_08_07.mp4', title: '藝術創作靈感', description: '@ArtisticSoul - 抽象畫作的創作過程 🎨 #藝術 #創意' },
-                { id: 8, src: 'videos/2025_09_08/2025_09_08_08.mp4', title: '海邊放鬆時光', description: '@BeachVibes - 夕陽西下的海邊漫步 🌊 #海邊 #放鬆' }
-            ];
+            // 取得當前日期，格式：2025_09_08
+            getCurrentDateString() {
+                const now = new Date();
+                const year = now.getFullYear();
+                const month = String(now.getMonth() + 1).padStart(2, '0');
+                const day = String(now.getDate()).padStart(2, '0');
+                return `${year}_${month}_${day}`;
+            }
 
-            let currentVideoIndex = 0;
-            const preloadCount = 2;
+            // 取得前一天的日期字串
+            getPreviousDateString(dateString) {
+                const [year, month, day] = dateString.split('_');
+                const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+                date.setDate(date.getDate() - 1);
+                
+                const prevYear = date.getFullYear();
+                const prevMonth = String(date.getMonth() + 1).padStart(2, '0');
+                const prevDay = String(date.getDate()).padStart(2, '0');
+                return `${prevYear}_${prevMonth}_${prevDay}`;
+            }
+
+            // 載入指定日期的 JSON 數據
+            async loadDateData(dateString) {
+                if (this.loadedDates.has(dateString)) {
+                    return [];
+                }
+
+                try {
+                    const response = await fetch(`videos/${dateString}/data.json`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    
+                    const data = await response.json();
+                    this.loadedDates.add(dateString);
+                    
+                    // 轉換數據格式，添加額外信息
+                    return data.videos.map((video, index) => ({
+                        id: `${dateString}_${index + 1}`,
+                        src: video.filename,
+                        thumb: video.thumb_path,
+                        timestamp: video.timestamp,
+                        title: this.generateTitle(video.filename),
+                        description: this.generateDescription(video.filename, video.timestamp),
+                        date: dateString
+                    }));
+                } catch (error) {
+                    console.log(`無法載入 ${dateString} 的數據:`, error);
+                    return null;
+                }
+            }
+
+            // 產生影片標題
+            generateTitle(filename) {
+                const titles = [
+                    '城市霓虹夜景', '山間日出時光', '可愛貓咪日常', '美食製作過程',
+                    '星空縮時攝影', '極限運動挑戰', '藝術創作靈感', '海邊放鬆時光',
+                    '街頭音樂表演', '咖啡拉花藝術', '寵物搞笑瞬間', '夜市美食探索',
+                    '自然風光記錄', '運動健身日常', '手工藝品製作', '旅行風景分享'
+                ];
+                const randomIndex = Math.floor(Math.random() * titles.length);
+                return titles[randomIndex];
+            }
+
+            // 產生影片描述
+            generateDescription(filename, timestamp) {
+                const users = ['@DancingQueen88', '@NatureLover', '@FoodieFanatic', '@ArtisticSoul', '@BeachVibes'];
+                const hashtags = ['#生活', '#美食', '#旅行', '#藝術', '#運動', '#寵物', '#風景', '#日常'];
+                
+                const user = users[Math.floor(Math.random() * users.length)];
+                const tag1 = hashtags[Math.floor(Math.random() * hashtags.length)];
+                const tag2 = hashtags[Math.floor(Math.random() * hashtags.length)];
+                
+                const date = new Date(timestamp);
+                const timeStr = date.toLocaleString('zh-TW');
+                
+                return `${user} - 記錄生活中的美好時光 ✨ ${tag1} ${tag2}`;
+            }
+
+            // 載入更多影片數據
+            async loadMoreVideos() {
+                if (this.isLoading || !this.hasMoreContent) return;
+                
+                this.isLoading = true;
+                let dateToLoad = this.getCurrentDateString();
+                
+                // 如果已經有載入的日期，從最早的日期開始往前找
+                if (this.loadedDates.size > 0) {
+                    const sortedDates = Array.from(this.loadedDates).sort();
+                    dateToLoad = this.getPreviousDateString(sortedDates[0]);
+                }
+
+                let maxAttempts = 30; // 最多嘗試30天
+                let attempts = 0;
+
+                while (attempts < maxAttempts) {
+                    const newVideos = await this.loadDateData(dateToLoad);
+                    
+                    if (newVideos && newVideos.length > 0) {
+                        // 將新影片插入到陣列開頭
+                        this.allVideos.unshift(...newVideos);
+                        // 調整當前索引
+                        this.currentVideoIndex += newVideos.length;
+                        this.isLoading = false;
+                        return newVideos.length;
+                    } else if (newVideos === null) {
+                        // 載入失敗，嘗試前一天
+                        dateToLoad = this.getPreviousDateString(dateToLoad);
+                        attempts++;
+                    } else {
+                        // 空陣列，繼續嘗試前一天
+                        dateToLoad = this.getPreviousDateString(dateToLoad);
+                        attempts++;
+                    }
+                }
+
+                // 達到最大嘗試次數，沒有更多內容
+                this.hasMoreContent = false;
+                this.isLoading = false;
+                return 0;
+            }
+
+            // 初始化載入
+            async init() {
+                // 載入今天的影片
+                await this.loadMoreVideos();
+                
+                if (this.allVideos.length === 0) {
+                    this.showEndIndicator();
+                    return;
+                }
+
+                this.renderVideos(this.currentVideoIndex);
+                this.setupKeyboardEvents();
+            }
+
+            // 顯示結束指示器
+            showEndIndicator() {
+                this.videoFeed.innerHTML = `
+                    <div class="video-card">
+                        <div class="end-indicator">
+                            <i class="fas fa-film"></i>
+                            <h3>暫無更多影片</h3>
+                            <p>請稍後再來查看新內容</p>
+                        </div>
+                    </div>
+                `;
+            }
 
             // 創建進度條
-            function createProgressBar() {
+            createProgressBar() {
                 const progressBar = document.createElement('div');
                 progressBar.classList.add('progress-bar');
                 const progressFill = document.createElement('div');
@@ -333,7 +508,7 @@
             }
 
             // 更新進度條
-            function updateProgressBar(video, progressFill) {
+            updateProgressBar(video, progressFill) {
                 if (video.duration) {
                     const progress = (video.currentTime / video.duration) * 100;
                     progressFill.style.width = `${progress}%`;
@@ -341,7 +516,7 @@
             }
 
             // 創建單個影片卡片
-            function createVideoCard(videoItem, index) {
+            createVideoCard(videoItem, index) {
                 const videoCard = document.createElement('div');
                 videoCard.classList.add('video-card', 'loading');
                 videoCard.dataset.index = index;
@@ -396,7 +571,7 @@
                 playIndicator.classList.add('play-indicator');
                 playIndicator.innerHTML = '<i class="fas fa-play"></i>';
 
-                const progressBar = createProgressBar();
+                const progressBar = this.createProgressBar();
                 const progressFill = progressBar.querySelector('.progress-fill');
 
                 videoOverlay.appendChild(videoInfo);
@@ -414,22 +589,22 @@
 
                 // 進度更新
                 videoPlayer.addEventListener('timeupdate', () => {
-                    updateProgressBar(videoPlayer, progressFill);
+                    this.updateProgressBar(videoPlayer, progressFill);
                 });
 
                 // 事件監聽器
                 playPauseBtn.addEventListener('click', (e) => {
                     e.stopPropagation();
-                    togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+                    this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
                 });
 
                 muteUnmuteBtn.addEventListener('click', (e) => {
                     e.stopPropagation();
-                    toggleMuteUnmute(videoPlayer, muteUnmuteBtn);
+                    this.toggleMuteUnmute(videoPlayer, muteUnmuteBtn);
                 });
 
                 videoPlayer.addEventListener('click', () => {
-                    togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+                    this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
                 });
 
                 // 按讚動畫
@@ -445,7 +620,7 @@
             }
 
             // 播放/暫停功能
-            function togglePlayPause(video, btn, card, indicator) {
+            togglePlayPause(video, btn, card, indicator) {
                 if (video.paused) {
                     video.play().catch(e => console.error("Play error:", e));
                     btn.innerHTML = '<i class="fas fa-pause"></i>';
@@ -466,7 +641,7 @@
             }
 
             // 靜音/取消靜音功能
-            function toggleMuteUnmute(video, btn) {
+            toggleMuteUnmute(video, btn) {
                 video.muted = !video.muted;
                 btn.innerHTML = video.muted ? 
                     '<i class="fas fa-volume-mute"></i>' : 
@@ -474,40 +649,52 @@
             }
 
             // 渲染影片
-            function renderVideos(startIndex) {
-                videoFeed.innerHTML = '';
+            renderVideos(centerIndex) {
+                this.videoFeed.innerHTML = '';
                 const frag = document.createDocumentFragment();
 
-                const start = Math.max(0, startIndex - preloadCount);
-                const end = Math.min(videoData.length - 1, startIndex + preloadCount);
+                const start = Math.max(0, centerIndex - this.preloadCount);
+                const end = Math.min(this.allVideos.length - 1, centerIndex + this.preloadCount);
 
                 for (let i = start; i <= end; i++) {
-                    const videoCard = createVideoCard(videoData[i], i);
-                    frag.appendChild(videoCard);
+                    if (this.allVideos[i]) {
+                        const videoCard = this.createVideoCard(this.allVideos[i], i);
+                        frag.appendChild(videoCard);
+                    }
                 }
-                videoFeed.appendChild(frag);
-                initObserver();
+                
+                this.videoFeed.appendChild(frag);
+                this.initObserver();
+                
+                // 檢查是否需要載入更多內容
+                if (centerIndex < 5 && this.hasMoreContent) {
+                    this.loadMoreVideos().then(newCount => {
+                        if (newCount > 0) {
+                            // 重新渲染以包含新載入的影片
+                            this.renderVideos(this.currentVideoIndex);
+                        }
+                    });
+                }
             }
 
-            let observer;
-
-            function initObserver() {
-                if (observer) observer.disconnect();
+            // 初始化觀察器
+            initObserver() {
+                if (this.observer) this.observer.disconnect();
 
                 const options = {
-                    root: videoFeed,
+                    root: this.videoFeed,
                     rootMargin: '0px',
                     threshold: 0.8
                 };
 
-                observer = new IntersectionObserver((entries) => {
+                this.observer = new IntersectionObserver((entries) => {
                     entries.forEach(entry => {
                         const videoCard = entry.target;
                         const video = videoCard.querySelector('.video-player');
                         const index = parseInt(videoCard.dataset.index);
 
                         if (entry.isIntersecting) {
-                            if (index === currentVideoIndex) {
+                            if (index === this.currentVideoIndex) {
                                 video.play().catch(e => console.error("Play error:", e));
                                 videoCard.classList.remove('paused');
                                 videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-pause"></i>';
@@ -517,12 +704,12 @@
                                 videoCard.querySelector('.play-pause-btn').innerHTML = '<i class="fas fa-play"></i>';
                             }
 
-                            if (index !== currentVideoIndex) {
-                                currentVideoIndex = index;
-                                renderVideos(currentVideoIndex);
-                                const currentCard = videoFeed.querySelector(`[data-index="${currentVideoIndex}"]`);
+                            if (index !== this.currentVideoIndex) {
+                                this.currentVideoIndex = index;
+                                this.renderVideos(this.currentVideoIndex);
+                                const currentCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
                                 if (currentCard) {
-                                    videoFeed.scrollTo({
+                                    this.videoFeed.scrollTo({
                                         top: currentCard.offsetTop,
                                         behavior: 'smooth'
                                     });
@@ -536,58 +723,66 @@
                     });
                 }, options);
 
-                videoFeed.querySelectorAll('.video-card').forEach(card => {
-                    observer.observe(card);
+                this.videoFeed.querySelectorAll('.video-card').forEach(card => {
+                    this.observer.observe(card);
                 });
             }
 
-            // 初始化
-            renderVideos(currentVideoIndex);
+            // 設置鍵盤事件
+            setupKeyboardEvents() {
+                document.addEventListener('keydown', (e) => {
+                    const currentVideoCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+                    if (!currentVideoCard) return;
 
-            // 鍵盤事件
-            document.addEventListener('keydown', (e) => {
-                const currentVideoCard = videoFeed.querySelector(`[data-index="${currentVideoIndex}"]`);
-                if (!currentVideoCard) return;
+                    const video = currentVideoCard.querySelector('.video-player');
+                    const playPauseBtn = currentVideoCard.querySelector('.play-pause-btn');
+                    const muteUnmuteBtn = currentVideoCard.querySelector('.mute-unmute-btn');
+                    const playIndicator = currentVideoCard.querySelector('.play-indicator');
 
-                const video = currentVideoCard.querySelector('.video-player');
-                const playPauseBtn = currentVideoCard.querySelector('.play-pause-btn');
-                const muteUnmuteBtn = currentVideoCard.querySelector('.mute-unmute-btn');
-                const playIndicator = currentVideoCard.querySelector('.play-indicator');
+                    switch (e.code) {
+                        case 'Space':
+                            e.preventDefault();
+                            this.togglePlayPause(video, playPauseBtn, currentVideoCard, playIndicator);
+                            break;
+                        case 'ArrowDown':
+                        case 'PageDown':
+                            e.preventDefault();
+                            if (this.currentVideoIndex < this.allVideos.length - 1) {
+                                const nextIndex = this.currentVideoIndex + 1;
+                                const nextCard = this.videoFeed.querySelector(`[data-index="${nextIndex}"]`);
+                                if (nextCard) {
+                                    this.videoFeed.scrollTo({
+                                        top: nextCard.offsetTop,
+                                        behavior: 'smooth'
+                                    });
+                                }
+                            }
+                            break;
+                        case 'ArrowUp':
+                        case 'PageUp':
+                            e.preventDefault();
+                            if (this.currentVideoIndex > 0) {
+                                const prevIndex = this.currentVideoIndex - 1;
+                                const prevCard = this.videoFeed.querySelector(`[data-index="${prevIndex}"]`);
+                                if (prevCard) {
+                                    this.videoFeed.scrollTo({
+                                        top: prevCard.offsetTop,
+                                        behavior: 'smooth'
+                                    });
+                                }
+                            }
+                            break;
+                        case 'KeyM':
+                            this.toggleMuteUnmute(video, muteUnmuteBtn);
+                            break;
+                    }
+                });
+            }
+        }
 
-                switch (e.code) {
-                    case 'Space':
-                        e.preventDefault();
-                        togglePlayPause(video, playPauseBtn, currentVideoCard, playIndicator);
-                        break;
-                    case 'ArrowDown':
-                    case 'PageDown':
-                        e.preventDefault();
-                        const nextIndex = (currentVideoIndex + 1) % videoData.length;
-                        const nextCard = videoFeed.querySelector(`[data-index="${nextIndex}"]`);
-                        if (nextCard) {
-                            videoFeed.scrollTo({
-                                top: nextCard.offsetTop,
-                                behavior: 'smooth'
-                            });
-                        }
-                        break;
-                    case 'ArrowUp':
-                    case 'PageUp':
-                        e.preventDefault();
-                        const prevIndex = (currentVideoIndex - 1 + videoData.length) % videoData.length;
-                        const prevCard = videoFeed.querySelector(`[data-index="${prevIndex}"]`);
-                        if (prevCard) {
-                            videoFeed.scrollTo({
-                                top: prevCard.offsetTop,
-                                behavior: 'smooth'
-                            });
-                        }
-                        break;
-                    case 'KeyM':
-                        toggleMuteUnmute(video, muteUnmuteBtn);
-                        break;
-                }
-            });
+        // 初始化應用
+        document.addEventListener('DOMContentLoaded', () => {
+            new VideoApp();
         });
     </script>
 </body>
