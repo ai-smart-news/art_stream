@@ -1,39 +1,72 @@
 {
   "items": [
     {
-      "id": 92503923,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5770c78-bf54-49e7-8c2c-b1beddc22119/width=1664/b5770c78-bf54-49e7-8c2c-b1beddc22119.jpeg",
-      "hash": "U33vs}oh8wR3IKkFw;osQRp2t:R2xRjEPER+",
-      "width": 1664,
-      "height": 2432,
+      "id": 64470684,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c39338b4-fceb-48bc-8227-fdeb2f57344b/width=1440/c39338b4-fceb-48bc-8227-fdeb2f57344b.jpeg",
+      "hash": "UaM*Ej-;~pkC?HRiR*IU?Gofxusm-of+ay%2",
+      "width": 1440,
+      "height": 1632,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-05T19:52:48.053Z",
-      "postId": 20521243,
+      "createdAt": "2025-03-19T19:30:00.000Z",
+      "postId": 14371442,
       "stats": {
-        "cryCount": 616,
-        "laughCount": 971,
-        "likeCount": 7293,
+        "cryCount": 607,
+        "laughCount": 1166,
+        "likeCount": 7092,
         "dislikeCount": 0,
-        "heartCount": 2964,
-        "commentCount": 26
+        "heartCount": 2958,
+        "commentCount": 6
       },
       "meta": {
-        "steps": 30,
-        "prompt": "incredibly absurdres, highres, masterpiece, newest, creative, filmic, cinematic, amazing lighting, magical, realistic, great angle, fantasy, mushroom forest, clearing, mystical, small fairy, sitting, side view, thimble, solo, knees together, feet apart, vivid, nighttime, night sky, multicolored, lush, wings, tiny life, fairy attire, nebula, background castle in fog, mountain, trees",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "negativePrompt": "worst quality, bad quality, low quality, lowres, cartoon, anime, nude, young, (((looking at viewer))), fuzzy, snow, makeup"
+        "Size": "960x1088",
+        "seed": 1522453998,
+        "Model": "novaFurryXL_illustriousV30",
+        "steps": 28,
+        "hashes": {
+          "model": "21d3ed2136",
+          "lora:Depresso_IL-000008": "d5a077e17ca0"
+        },
+        "prompt": "masterpiece, best quality, absurdres, simple background, white background, <lora:Depresso_IL-000008:1> depresso, blue body, purple hair, black tail, pink eyes, solo, one eye closed, ikea shark, hugging ikea shark, chibi, standing, sparkle",
+        "Version": "f1.2.5-v1.10.1RC-latest-983-g44e5eb17",
+        "sampler": "DPM++ 2M SDE",
+        "Emphasis": "No norm",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "d5a077e17ca0",
+            "name": "Depresso_IL-000008",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "21d3ed2136",
+            "name": "novaFurryXL_illustriousV30",
+            "type": "model"
+          }
+        ],
+        "Model hash": "21d3ed2136",
+        "Hires steps": "16",
+        "Hires upscale": "1.5",
+        "Schedule type": "Karras",
+        "Hires upscaler": "4x_foolhardy_Remacri",
+        "negativePrompt": "worst quality, low quality, lowres, signature, watermark, artist name, sketch, bright pupils, dorsal fin, (countershade torso, white countershading:1.1), eyelashes",
+        "Hires CFG Scale": "3.5",
+        "Denoising strength": "0.48"
       },
-      "username": "TurinBjorn",
+      "username": "DD13",
       "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        1279960,
+        1532107
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "75|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=75%7C1744925337225"
+    "nextCursor": "76|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=76%7C1744925337225"
   }
 }
