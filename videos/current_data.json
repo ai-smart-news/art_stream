@@ -1,86 +1,57 @@
 {
   "items": [
     {
-      "id": 15900782,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/877f082b-3bc4-4b6d-976f-3980bfd0f62b/width=1664/877f082b-3bc4-4b6d-976f-3980bfd0f62b.jpeg",
-      "hash": "UABfIi9^00NI}YENK1-9D%Nd=|w]O=R%#mW?",
-      "width": 1664,
-      "height": 2432,
+      "id": 11798302,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6fcaf10d-d444-489e-9fe2-a945fbbd6cc3/width=896/6fcaf10d-d444-489e-9fe2-a945fbbd6cc3.jpeg",
+      "hash": "UMJ7H{ER*J^+%#w_R-xbyD9FxaIBxv-oxbsp",
+      "width": 896,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-06-15T17:00:00.000Z",
-      "postId": 3549926,
+      "createdAt": "2024-05-07T15:47:56.575Z",
+      "postId": 2599613,
       "stats": {
-        "cryCount": 622,
-        "laughCount": 1108,
-        "likeCount": 9299,
+        "cryCount": 671,
+        "laughCount": 1707,
+        "likeCount": 8920,
         "dislikeCount": 0,
-        "heartCount": 3791,
-        "commentCount": 5
+        "heartCount": 3456,
+        "commentCount": 13
       },
       "meta": {
-        "RNG": "NV",
-        "VAE": "fixFP16ErrorsSDXLLowerMemoryUse_v10.safetensors",
-        "Size": "832x1216",
-        "seed": 4098107878,
-        "Model": "Incursio'sMemeDifV2.1.fp16",
-        "steps": 18,
+        "Size": "896x1216",
+        "seed": 2090560901,
+        "Model": "SleipnirV2.7",
+        "steps": 8,
         "hashes": {
-          "vae": "235745af8d",
-          "model": "0883f410d1"
+          "model": "6e2b56943c"
         },
-        "prompt": "score_9, score_8_up, score_7_up, detailed, 1girl, solo, intricate details, chromatic aberration, realistic, long hair, pink hair, red head ornament, pink highlights, hair over one eye, purple eyes, earrings, sharp eyes, choker, neon shirt, torn legwear, open jacket, turtleneck sweater, night,against wall, brick wall, graffiti, dim lighting, alley, looking at viewer",
-        "Version": "f0.0.17v1.8.0rc-latest-269-gef35383b",
-        "sampler": "Restart",
+        "prompt": "detailed realistic close up of a strawberry shaped like a kitten, sitting, natural light",
+        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+        "sampler": "DPM++ SDE",
         "cfgScale": 5,
+        "clipSkip": 2,
         "resources": [
           {
-            "hash": "0883f410d1",
-            "name": "Incursio'sMemeDifV2.1.fp16",
+            "hash": "6e2b56943c",
+            "name": "SleipnirV2.7",
             "type": "model"
           }
         ],
-        "Model hash": "0883f410d1",
-        "Hires steps": "8",
-        "Hires upscale": "2",
-        "Hires upscaler": "4x-UltraSharp",
-        "negativePrompt": "monochrome, toned",
-        "ADetailer model": "AnzhcHead-seg.pt",
-        "ADetailer steps": "24",
-        "ADetailer sampler": "Euler a",
-        "ADetailer version": "24.5.1",
-        "Denoising strength": "0.45",
-        "ADetailer mask blur": "4",
-        "ADetailer model 2nd": "face_yolov8n.pt",
-        "ADetailer steps 2nd": "24",
-        "ADetailer confidence": "0.3",
-        "ADetailer sampler 2nd": "Euler a",
-        "ADetailer dilate erode": "4",
-        "ADetailer mask blur 2nd": "4",
-        "ADetailer confidence 2nd": "0.3",
-        "ADetailer inpaint padding": "32",
-        "ADetailer dilate erode 2nd": "4",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer use separate steps": "True",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 2nd": "32",
-        "ADetailer use separate sampler": "True",
-        "ADetailer denoising strength 2nd": "0.4",
-        "ADetailer use separate steps 2nd": "True",
-        "ADetailer inpaint only masked 2nd": "True",
-        "ADetailer use separate sampler 2nd": "True"
+        "Model hash": "6e2b56943c",
+        "negativePrompt": "worst quality"
       },
-      "username": "FallenIncursio",
-      "baseModel": "Pony",
+      "username": "freek22",
+      "baseModel": "SDXL Hyper",
       "modelVersionIds": [
-        574756
+        491832
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "37|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=37%7C1744925337225"
+    "nextCursor": "38|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=38%7C1744925337225"
   }
 }
