@@ -1,76 +1,66 @@
 {
   "items": [
     {
-      "id": 9219897,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0537ea36-62dd-4aab-8884-6da0e928e303/width=1248/0537ea36-62dd-4aab-8884-6da0e928e303.jpeg",
-      "hash": "U6BMb:oz4o^%58-n~UxZ9aW=%1s.xtRkE2WB",
-      "width": 1248,
-      "height": 1824,
+      "id": 16641559,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebebea37-2512-47b9-a171-b79f5fc5b91f/width=832/ebebea37-2512-47b9-a171-b79f5fc5b91f.jpeg",
+      "hash": "UNI|RHS$0#}r~p%2%0WEOsOrx]wM-mS5tl$%",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-04-05T14:03:09.884Z",
-      "postId": 1992362,
+      "createdAt": "2024-06-21T18:42:30.727Z",
+      "postId": 3733368,
       "stats": {
-        "cryCount": 542,
-        "laughCount": 1651,
-        "likeCount": 9341,
+        "cryCount": 624,
+        "laughCount": 1163,
+        "likeCount": 9331,
         "dislikeCount": 0,
-        "heartCount": 3123,
-        "commentCount": 10
+        "heartCount": 3458,
+        "commentCount": 9
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 2768675309,
-        "Model": "juggernautXL_v9Rdphoto2Lightning",
-        "steps": 8,
-        "hashes": {
-          "model": "c8df560d29",
-          "lora:MJ52": "000c96b6bd08",
-          "lora:add-detail-xl": "9c783c8ce46c"
-        },
-        "prompt": "a group of rats in the nursing home gather around a table for a game of cards, with one rat wearing a monocle and another puffing on a cigar. The rendering style is reminiscent of a classic oil painting.  <lora:add-detail-xl:1>  <lora:MJ52:0.5>",
-        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
-        "sampler": "DPM++ SDE Karras",
-        "cfgScale": 1,
+        "seed": 2454726382,
+        "steps": 30,
+        "prompt": "<lora:gr33nXLP:1> gr33n, solo, 1girl, long hair, plant, flower, score_9, score_8_up, score_7_up, score_6_up,",
+        "sampler": "Euler a",
+        "cfgScale": 7,
         "clipSkip": 2,
         "resources": [
           {
-            "hash": "9c783c8ce46c",
-            "name": "add-detail-xl",
+            "name": "gr33nXLP",
             "type": "lora",
             "weight": 1
-          },
-          {
-            "hash": "000c96b6bd08",
-            "name": "MJ52",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "hash": "c8df560d29",
-            "name": "juggernautXL_v9Rdphoto2Lightning",
-            "type": "model"
           }
         ],
-        "Model hash": "c8df560d29",
-        "Hires steps": "4",
-        "Hires upscale": "1.5",
-        "Hires upscaler": "4x_NMKD-Siax_200k",
-        "Denoising strength": "0.4"
+        "Created Date": "2024-06-21T1841:48.2873374Z",
+        "negativePrompt": "watermark, signature, artist name, (3d), muscular, cum, ugly, monochrome,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 324619,
+            "modelVersionName": "AutismMix_pony"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 587001,
+            "modelVersionName": "Green & Lush"
+          }
+        ]
       },
-      "username": "popyay",
-      "baseModel": "SDXL Lightning",
+      "username": "4ndr3w",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        135867,
-        283697,
-        357609
+        324619,
+        587001
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "42|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=42%7C1744925337225"
+    "nextCursor": "43|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=43%7C1744925337225"
   }
 }
