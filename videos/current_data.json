@@ -1,66 +1,35 @@
 {
   "items": [
     {
-      "id": 14614776,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a6fcbf0-40d9-428d-bdd9-008059d11a60/width=832/5a6fcbf0-40d9-428d-bdd9-008059d11a60.jpeg",
-      "hash": "UCD0Ga01IB~U_2NHj]xtgNxZM}oeNyt6M|WC",
-      "width": 832,
-      "height": 1216,
+      "id": 82090044,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8ce911f-81f5-4cd3-9dc0-e2ad93117ed3/width=1024/a8ce911f-81f5-4cd3-9dc0-e2ad93117ed3.jpeg",
+      "hash": "UAHUk4+wi]^j0K.8~pkVyX00%M%g=a?b4:IU",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-06-04T20:50:28.141Z",
-      "postId": 3245430,
+      "createdAt": "2025-06-14T15:33:29.266Z",
+      "postId": 18234308,
       "stats": {
-        "cryCount": 525,
-        "laughCount": 921,
-        "likeCount": 8029,
+        "cryCount": 587,
+        "laughCount": 1561,
+        "likeCount": 7275,
         "dislikeCount": 0,
-        "heartCount": 2894,
-        "commentCount": 11
+        "heartCount": 2912,
+        "commentCount": 16
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 2094459691,
-        "steps": 38,
-        "prompt": "cinematic giant kraken",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-06-04T2049:53.9937525Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 329420,
-            "modelVersionName": "v2.1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 510042,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 283697,
-            "modelVersionName": "v1.2"
-          }
-        ]
+        "prompt": "Smol Potat"
       },
-      "username": "oneeyed2",
-      "baseModel": "SDXL 1.0",
-      "modelVersionIds": [
-        283697,
-        329420,
-        510042
-      ]
+      "username": "Meower2024",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "64|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=64%7C1744925337225"
+    "nextCursor": "65|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=65%7C1744925337225"
   }
 }
