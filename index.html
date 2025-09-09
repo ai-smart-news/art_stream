@@ -318,7 +318,7 @@
     </div>
 
     <script>
-        class VideoApp {
+class VideoApp {
     constructor() {
         this.videoFeed = document.querySelector('.video-feed');
         this.allVideos = []; // 所有影片的扁平化陣列
@@ -327,7 +327,13 @@
         this.observer = null;
         this.loadedDates = new Set(); // 已載入的日期
         this.isLoading = false;
-        this.hasMoreContent = true; // 是否還有更舊的內容可以載入
+        this.hasMoreContent = true; // 是否還有更多舊的內容可以載入
+        
+        // 新增：防止跳躍的變數
+        this.isScrolling = false;
+        this.scrollTimeout = null;
+        this.lastObserverUpdate = 0;
+        this.observerThrottle = 100; // 限制 observer 更新頻率到 100ms
 
         this.init();
     }
@@ -366,7 +372,6 @@
         return `${nextYear}_${nextMonth}_${nextDay}`;
     }
 
-
     // 載入指定日期的 JSON 數據
     async loadDateData(dateString) {
         if (this.loadedDates.has(dateString)) {
@@ -391,8 +396,8 @@
             // 由於希望序號大的在前面，所以要將影片反轉
             return data.videos.map((video, index) => ({
                 id: `${dateString}_${index + 1}`,
-                src: `${video.filename}`, // 修正路徑
-                thumb: `${video.thumb_path}`, // 修正路徑
+                src: `videos/${dateString}/${video.filename}`, // 修正路徑
+                thumb: `videos/${dateString}/${video.thumb_path}`, // 修正路徑
                 timestamp: video.timestamp,
                 date: dateString
             })).reverse(); // 反轉，讓最新的影片排在前面
@@ -462,6 +467,36 @@
         this.currentVideoIndex = 0; // 從最新影片開始
         this.renderVisibleVideos(); // 初始渲染
         this.setupKeyboardEvents();
+        this.setupScrollEvents(); // 新增：設置滾動事件
+    }
+
+    // 新增：設置滾動事件監聽
+    setupScrollEvents() {
+        this.videoFeed.addEventListener('scroll', () => {
+            this.isScrolling = true;
+            
+            // 清除之前的定時器
+            if (this.scrollTimeout) {
+                clearTimeout(this.scrollTimeout);
+            }
+            
+            // 滾動結束後 150ms 才允許 observer 更新
+            this.scrollTimeout = setTimeout(() => {
+                this.isScrolling = false;
+            }, 150);
+        }, { passive: true });
+
+        // 監聽觸摸事件（手機端）
+        this.videoFeed.addEventListener('touchstart', () => {
+            this.isScrolling = true;
+        }, { passive: true });
+
+        this.videoFeed.addEventListener('touchend', () => {
+            // 觸摸結束後延遲一點時間再允許 observer 更新
+            setTimeout(() => {
+                this.isScrolling = false;
+            }, 200);
+        }, { passive: true });
     }
 
     // 顯示結束指示器
@@ -702,7 +737,6 @@
         this.videoFeed.querySelectorAll('.video-card').forEach(card => {
             const video = card.querySelector('.video-player');
             const playPauseBtn = card.querySelector('.play-pause-btn');
-            // const playIndicator = card.querySelector('.play-indicator'); // Indicator在這裡不需要，因為用戶正在滾動
 
             const index = parseInt(card.dataset.index);
 
@@ -712,11 +746,6 @@
                     card.classList.remove('paused');
                     playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
                 }
-                // *** 移除此處的 scrollTo，避免與用戶手動滾動衝突 ***
-                // this.videoFeed.scrollTo({
-                //     top: card.offsetTop,
-                //     behavior: 'smooth'
-                // });
             } else {
                 if (!video.paused) {
                     video.pause();
@@ -727,39 +756,64 @@
         });
     }
 
-    // 初始化觀察器
+    // 修改：初始化觀察器，加入防跳躍邏輯
     initObserver() {
         if (this.observer) this.observer.disconnect();
 
         const options = {
             root: this.videoFeed,
             rootMargin: '0px',
-            threshold: 0.8 // 當影片有 80% 進入視圖時觸發
+            threshold: [0.5, 0.8] // 使用多個閾值，提供更精確的檢測
         };
 
         this.observer = new IntersectionObserver((entries) => {
+            // 如果正在滾動中，忽略 observer 更新
+            if (this.isScrolling) return;
+
+            // 限制更新頻率
+            const now = Date.now();
+            if (now - this.lastObserverUpdate < this.observerThrottle) return;
+            this.lastObserverUpdate = now;
+
             let bestCandidateIndex = this.currentVideoIndex; // 預設是當前影片
             let maxIntersectionRatio = 0;
+            let validEntries = [];
 
+            // 先過濾出有效的條目
             entries.forEach(entry => {
                 const videoCard = entry.target;
                 if (!videoCard.classList.contains('video-card') || videoCard.classList.contains('end-card')) return;
 
                 const index = parseInt(videoCard.dataset.index);
+                if (isNaN(index)) return;
 
-                if (entry.isIntersecting) {
-                    // 找出交叉比例最大的影片，認為這是用戶「真正想看」的影片
-                    if (entry.intersectionRatio > maxIntersectionRatio) {
-                        maxIntersectionRatio = entry.intersectionRatio;
-                        bestCandidateIndex = index;
-                    }
+                if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+                    validEntries.push({ index, ratio: entry.intersectionRatio });
                 }
             });
 
+            // 從有效條目中找出最佳候選者
+            // 優先考慮與當前索引相鄰的視頻，避免跳躍
+            if (validEntries.length > 0) {
+                // 按交叉比例排序
+                validEntries.sort((a, b) => b.ratio - a.ratio);
+                
+                // 如果最高比例的視頻與當前視頻相鄰（差值 <= 1），則選擇它
+                const topCandidate = validEntries[0];
+                const indexDiff = Math.abs(topCandidate.index - this.currentVideoIndex);
+                
+                if (indexDiff <= 1 && topCandidate.ratio > 0.6) {
+                    bestCandidateIndex = topCandidate.index;
+                } else if (topCandidate.ratio > 0.8) {
+                    // 只有當交叉比例非常高時，才允許跳躍到非相鄰的視頻
+                    bestCandidateIndex = topCandidate.index;
+                }
+            }
+
             // 只有當最優候選影片的索引與當前索引不同時才更新
             if (bestCandidateIndex !== this.currentVideoIndex) {
+                console.log(`Video index change: ${this.currentVideoIndex} -> ${bestCandidateIndex}`);
                 this.currentVideoIndex = bestCandidateIndex;
-                // console.log("Observer detected new current index:", this.currentVideoIndex);
                 this.renderVisibleVideos(); // 更新可見影片，並播放新當前影片
             }
         }, options);
