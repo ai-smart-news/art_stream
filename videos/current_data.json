@@ -1,121 +1,71 @@
 {
   "items": [
     {
-      "id": 69852268,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1334e29-105b-4396-91d7-be57299e25f2/width=1536/c1334e29-105b-4396-91d7-be57299e25f2.jpeg",
-      "hash": "UJG%oV9^9wOX}roLxFNxbbR*9^$%5Wt6J-wJ",
-      "width": 1536,
-      "height": 1536,
+      "id": 59645082,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5602f0eb-82ad-42eb-a536-a5c720e011cf/width=1248/5602f0eb-82ad-42eb-a536-a5c720e011cf.jpeg",
+      "hash": "UID,J%L}_4R$%%I8x^WB4pNHD*oz%gWAIU%M",
+      "width": 1248,
+      "height": 1608,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-13T22:53:41.861Z",
-      "postId": 15518004,
+      "createdAt": "2025-02-23T16:04:42.128Z",
+      "postId": 13339581,
       "stats": {
-        "cryCount": 642,
-        "laughCount": 1123,
-        "likeCount": 8001,
+        "cryCount": 715,
+        "laughCount": 924,
+        "likeCount": 8162,
         "dislikeCount": 0,
-        "heartCount": 2910,
-        "commentCount": 7
+        "heartCount": 2867,
+        "commentCount": 9
       },
       "meta": {
-        "VAE": "sdxl_vae.safetensors",
-        "Size": "1024x1024",
-        "seed": 1156582717,
-        "Model": "forrealx10",
-        "steps": 20,
+        "VAE": "FLUX1\\ae.sft",
+        "Size": "896x1152",
+        "seed": 20732154933645,
+        "Model": "flux_dev.safetensors",
+        "steps": 60,
         "hashes": {
-          "vae": "235745af8d",
-          "model": "ff0240ddf7",
-          "lora:silhouette": "b287e74186cb"
+          "vae": "afc8e28272",
+          "model": "2eda627c8a",
+          "lora:fechin-FLUX": "11058aac17",
+          "lora:FluxDFaeTasticDetails": "4259dc3287"
         },
-        "prompt": "by Joe Madureira and Johan Messely in the style of Peter Holme III, silhouette <lora:silhouette:2.00>",
-        "Version": "1.10.1",
-        "sampler": "Euler a",
-        "cfgScale": 1.5,
+        "prompt": "A strikingly symbolic surreal composition portraying a single tree split into two contrasting halves, forming the profile of a human face, where one side is barren and lifeless while the other thrives with lush greenery. The left half of the image presents a bleak dystopian landscape, filled with towering smokestacks belching thick, dark clouds into the sky, a sea of overflowing garbage bags piled beneath, and a cracked, ashen road stretching endlessly. The skeletal branches of the tree mirror the decay, devoid of leaves, twisted and lifeless, blending into the smog-filled atmosphere. On the right side, a vibrant utopian paradise emerges, with rolling green fields stretching toward lush forested mountains, illuminated by a soft, golden glow. The tree here is full of life, its rich green foliage thriving under a bright blue sky, where a radiant rainbow arcs gracefully, casting a hopeful aura over the pristine natural landscape. The stark contrast between industrial destruction and environmental harmony conveys a profound visual metaphor of human impact, nature\u2019s resilience, and the choice between devastation and renewal in a hyper-detailed, thought-provoking surrealist art style.\n <lora:FluxDFaeTasticDetails:0.25> <lora:fechin-FLUX:0.75>",
+        "sampler": "DPM++ 2M",
         "resources": [
           {
-            "hash": "b287e74186cb",
-            "name": "silhouette",
+            "hash": "4259dc3287",
+            "name": "FluxDFaeTasticDetails",
             "type": "lora",
-            "weight": 2
+            "weight": 0.25
           },
           {
-            "hash": "ff0240ddf7",
-            "name": "forrealx10",
+            "hash": "11058aac17",
+            "name": "fechin-FLUX",
+            "type": "lora",
+            "weight": 0.75
+          },
+          {
+            "hash": "2eda627c8a",
+            "name": "flux_dev.safetensors",
             "type": "model"
           }
         ],
-        "Model hash": "ff0240ddf7",
-        "Hires steps": "8",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires upscaler": "4x-UltraSharp",
-        "negativePrompt": "poorly drawn, deviant, mess, low quality, deformed, unprofessional, plastic doll",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer prompt": {
-          "perfect_eyes": "0.55> __loras__ {||||}{||||}{||||}\\n"
-        },
-        "ADetailer VAE 3rd": "vae-ft-mse-840000-ema-pruned.ckpt",
-        "ADetailer version": "25.3.0",
-        "Denoising strength": "0.35",
-        "ADetailer mask blur": "12",
-        "ADetailer model 3rd": "female-breast-v4.0-fantasy.pt",
-        "ADetailer steps 3rd": "20",
-        "ADetailer confidence": "0.5",
-        "ADetailer prompt 3rd": {},
-        "ADetailer sampler 3rd": "DPM++ 2M",
-        "ADetailer dilate erode": "12",
-        "ADetailer CFG scale 3rd": "7.0",
-        "ADetailer CLIP skip 3rd": "1",
-        "ADetailer inpaint width": "1024",
-        "ADetailer mask blur 3rd": "12",
-        "ADetailer scheduler 3rd": "Karras",
-        "ADetailer checkpoint 3rd": "wafflemix7 [4844f773bb]",
-        "ADetailer confidence 3rd": "0.4",
-        "ADetailer inpaint height": "1024",
-        "ADetailer mask min ratio": "0.001",
-        "ADetailer inpaint padding": "256",
-        "ADetailer mask only top k": "5",
-        "ADetailer dilate erode 3rd": "12",
-        "ADetailer inpaint width 3rd": "1024",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint height 3rd": "1024",
-        "ADetailer mask min ratio 3rd": "0.001",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 3rd": "256",
-        "ADetailer mask only top k 3rd": "4",
-        "ADetailer negative prompt 3rd": {
-          "(tan lines": "1.4)",
-          "normal quality": "2.0)"
-        },
-        "ADetailer noise multiplier 3rd": "1.0",
-        "ADetailer use separate VAE 3rd": "True",
-        "ADetailer denoising strength 3rd": "0.4",
-        "ADetailer use separate steps 3rd": "True",
-        "ADetailer inpaint only masked 3rd": "True",
-        "ADetailer use inpaint width height": "True",
-        "ADetailer use separate sampler 3rd": "True",
-        "ADetailer use separate CFG scale 3rd": "True",
-        "ADetailer use separate CLIP skip 3rd": "True",
-        "ADetailer use separate checkpoint 3rd": "True",
-        "ADetailer method to decide top k masks": "Area",
-        "ADetailer use inpaint width height 3rd": "True",
-        "ADetailer method to decide top k masks 3rd": "Area",
-        "ADetailer use separate noise multiplier 3rd": "True"
+        "Model hash": "2eda627c8a"
       },
-      "username": "LordTerror",
-      "baseModel": "SDXL Lightning",
+      "username": "amre92YH",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        262669,
-        712530
+        1128686,
+        691639,
+        720252
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "60|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=60%7C1744925337225"
+    "nextCursor": "61|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=61%7C1744925337225"
   }
 }
