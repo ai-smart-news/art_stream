@@ -1,65 +1,69 @@
 {
   "items": [
     {
-      "id": 96506155,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4e9945d6-da5d-4c26-8ad1-311a03d049a7/width=792/4e9945d6-da5d-4c26-8ad1-311a03d049a7.jpeg",
-      "hash": "ULL2Vp%1.:s;{KRk=fni|qWXFyt6%NjuE2jE",
-      "width": 792,
-      "height": 1104,
+      "id": 27764881,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3223da1-5846-4f07-8926-df6a6542bffd/width=1024/a3223da1-5846-4f07-8926-df6a6542bffd.jpeg",
+      "hash": "U4BDTg0gD4%K3FwI01XnqG#l%#-pH=E*}?I[",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-28T09:27:34.985Z",
-      "postId": 21406322,
+      "createdAt": "2024-09-04T19:16:34.201Z",
+      "postId": 6209909,
       "stats": {
-        "cryCount": 644,
-        "laughCount": 941,
-        "likeCount": 6910,
+        "cryCount": 510,
+        "laughCount": 937,
+        "likeCount": 7224,
         "dislikeCount": 0,
-        "heartCount": 2745,
-        "commentCount": 8
+        "heartCount": 2566,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "792x1104",
-        "seed": 2847572173,
-        "Model": "waiNSFWIllustrious_v120",
+        "VAE": "sdxl_vae.safetensors",
+        "Size": "512x768",
+        "seed": 402227558,
+        "Model": "EDGfZ_2-0.fp16",
         "steps": 30,
         "hashes": {
-          "model": "b9044b28d6",
-          "lora:Alpaca_Carlesi_Style": "faa4ef5c6f9d"
+          "vae": "63aeecb90f",
+          "model": "82b6f2e776",
+          "lora:edgFantasyDressesPony": "e1fc8e8881f4"
         },
-        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, detailed background, 8k, dynamic angle,\n\"alpacaxd, 1girl, chopsticks, noodles, solo, food, black hair, braid, qing guanmao, jiangshi, ramen, hat, twin braids, eating, long hair, blue eyes, ofuda, chinese clothes, bowl, colored skin\",\n <lora:Alpaca_Carlesi_Style:1>",
-        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
+        "prompt": "score_9, score_8_up, score_7_up BREAK ,robot,mecha,fire,wing,flying\nedgTF,sci-fi,cyberpunk,metallic chrome armor,neon lights,wearing <lora:edgFantasyDressesPony:1>",
+        "Version": "v1.6.0",
         "sampler": "Euler a",
         "cfgScale": 7,
-        "clipSkip": 2,
         "resources": [
           {
-            "hash": "faa4ef5c6f9d",
-            "name": "Alpaca_Carlesi_Style",
+            "hash": "e1fc8e8881f4",
+            "name": "edgFantasyDressesPony",
             "type": "lora",
             "weight": 1
           },
           {
-            "hash": "b9044b28d6",
-            "name": "waiNSFWIllustrious_v120",
+            "hash": "82b6f2e776",
+            "name": "EDGfZ_2-0.fp16",
             "type": "model"
           }
         ],
-        "Model hash": "b9044b28d6",
-        "Schedule type": "Karras",
-        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, 2d, sketch, ugly face, low res, interlocked fingers, anatomically incorrect hands, bad anatomy, {worst quality, low quality, normal quality}, watermark, signature, letter, username, logo, name, text, badhandsv5-neg, (monochrome), (gray scale), ugly face, distorted face, bad body, extra limbs, malformed limbs, extra limbs, {missing hands, extra hands, bad hands}, {missing legs, extra legs, bad legs}, {missing arms, extra arms, bad arms}, {missing thighs, extra thighs,bad thighs}, (bad anatomy:1.5), {Multiple people}, mutilated, poorly drawn hands, poorly drawn face, bad proportions, gross proportions, jpeg artifacts, signature, mutation, deformity, by CT, {fused fingers, too many fingers, blurry finger}, {missing finger, bad finger}, ((extra finger)), EasyNegative, EasynegativeV2, ng_deepnegative_v1_75t, (((mole on the skin))), negativeXL_D, negativeXL_D,"
+        "Model hash": "82b6f2e776",
+        "Hires steps": "20",
+        "Hires upscale": "2",
+        "Hires upscaler": "Latent",
+        "negativePrompt": "greyscale,3d,human,1girl,solo,1boy,crowd",
+        "Denoising strength": "0.8"
       },
-      "username": "ArtistIA",
-      "baseModel": "Illustrious",
+      "username": "EDG",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        2145305
+        729115
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "95|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=95%7C1744925337225"
+    "nextCursor": "96|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=96%7C1744925337225"
   }
 }
