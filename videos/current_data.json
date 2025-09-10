@@ -1,92 +1,52 @@
 {
   "items": [
     {
-      "id": 97194552,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c81f880-536f-488c-b267-22f296f6d46f/width=832/4c81f880-536f-488c-b267-22f296f6d46f.jpeg",
-      "hash": "UVI;;f$K~oE2NxR*S%xZDhNdR.j@NHWB$$Iq",
-      "width": 832,
-      "height": 1216,
+      "id": 76398341,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23c8ce90-fe80-4da3-9573-a1f4d563c568/width=1024/23c8ce90-fe80-4da3-9573-a1f4d563c568.jpeg",
+      "hash": "UQQvzZ%M~q%N-;R*WAs-.9bHD$jEs-s.xvNe",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-29T15:01:55.079Z",
-      "postId": 21561330,
+      "createdAt": "2025-05-17T23:10:39.666Z",
+      "postId": 16968045,
       "stats": {
-        "cryCount": 537,
-        "laughCount": 925,
-        "likeCount": 6642,
+        "cryCount": 527,
+        "laughCount": 1081,
+        "likeCount": 7082,
         "dislikeCount": 0,
-        "heartCount": 2997,
-        "commentCount": 12
+        "heartCount": 2378,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 21911770,
-        "draft": false,
-        "steps": 29,
-        "width": 832,
-        "height": 1216,
-        "prompt": "realistic,HassaKu_illu, artist:moriimee, 748cmstyle, jsyu_style, 2025. 08, \n(1girl, solo, masterpiece, best quality, amazing quality, absurdres, newest), BREAK, \nlooking at viewer, chun-li, brown eyes, black hair, hair bun, double bun, swept bangs, hair ribbon, yellow ribbon, blue bodysuit, unitard, skin tight, large breasts, blue crop top, gold trim, sleeveless, studded bracelet, toned female, eastern dragon, yellow background, jewelry, short hair, serious, closed mouth, gradient background, looking at viewer, bare shoulders, fist foreshortening, fist on fire, fiery aura, yellow flames, motion blur, motion lines,",
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "a glass marble with rainbow inside falling into water",
         "process": "txt2img",
-        "sampler": "Euler a",
-        "cfgScale": 4,
-        "clipSkip": 2,
-        "quantity": 2,
+        "quality": "high",
+        "quantity": 4,
         "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-08-29T0757:43.2178405Z",
-        "experimental": false,
-        "negativePrompt": "source_furry, source_Futanari, censored, worst quality, low quality, hands on own face, hands on own cheeks, ugly, deformed fingers, extra fingers, fused fingers, too many fingers, grainy, Sweat, facial mark, tears of blood, tear drop tattoo, tear tattoo, looking up",
+        "background": "opaque",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1761560
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 1809575
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 1784760
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1244133
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 1056404
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 1580764
+            "weight": 1,
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "jsyu",
-      "baseModel": "Illustrious",
+      "username": "tjluins",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        1056404,
-        1244133,
-        1580764,
-        1761560,
-        1784760,
-        1809575
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "103|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=103%7C1744925337225"
+    "nextCursor": "104|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=104%7C1744925337225"
   }
 }
