@@ -1,97 +1,92 @@
 {
   "items": [
     {
-      "id": 58234894,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/96058c3d-5ddb-42b9-85c1-ff9139b2aab0/width=1800/96058c3d-5ddb-42b9-85c1-ff9139b2aab0.jpeg",
-      "hash": "UFGH0SEN^iRk~n%1I;NH=x-.E2M|xsWCIpNH",
-      "width": 3328,
-      "height": 4864,
+      "id": 97194552,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c81f880-536f-488c-b267-22f296f6d46f/width=832/4c81f880-536f-488c-b267-22f296f6d46f.jpeg",
+      "hash": "UVI;;f$K~oE2NxR*S%xZDhNdR.j@NHWB$$Iq",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-16T23:30:00.000Z",
-      "postId": 13032676,
+      "createdAt": "2025-08-29T15:01:55.079Z",
+      "postId": 21561330,
       "stats": {
-        "cryCount": 479,
-        "laughCount": 681,
-        "likeCount": 7220,
+        "cryCount": 537,
+        "laughCount": 925,
+        "likeCount": 6642,
         "dislikeCount": 0,
-        "heartCount": 2766,
-        "commentCount": 8
+        "heartCount": 2997,
+        "commentCount": 12
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 571880482,
-        "Model": "flux1-dev-bnb-nf4-v2",
-        "steps": 30,
-        "hashes": {
-          "model": "bea01d51bd",
-          "lora:RetroAnimeFluxV1": "3d6b347c868f",
-          "lora:FluxMythR3alisticF": "1e20d80fc2e7",
-          "lora:FluxMythG0thicL1nes": "bffb2bf533d5",
-          "lora:OB\u534a\u5199\u5b9e\u8096\u50cf\u753bV2.0": "b23b5b19b00a"
-        },
-        "prompt": "samurai girl wearing a kimono with shoulder armor, she's holding a katana glowing with red energy, her long hair is flowing in the wind, she stands in a dojo training for her next battle. (maximum ultra high definition image quality and rendering:3), maximum image detail, maximum realistic render, (((ultra realist style))), realist side lighting, , 8K high definition, realist soft lighting, <lora:FluxMythG0thicL1nes:0.6> <lora:FluxMythR3alisticF:0.5> <lora:RetroAnimeFluxV1:0.6> <lora:OB\u534a\u5199\u5b9e\u8096\u50cf\u753bV2.0:0.6>",
-        "Version": "f2.0.1v1.10.1-previous-519-g44eb4ea8",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "resources": [
+        "seed": 21911770,
+        "draft": false,
+        "steps": 29,
+        "width": 832,
+        "height": 1216,
+        "prompt": "realistic,HassaKu_illu, artist:moriimee, 748cmstyle, jsyu_style, 2025. 08, \n(1girl, solo, masterpiece, best quality, amazing quality, absurdres, newest), BREAK, \nlooking at viewer, chun-li, brown eyes, black hair, hair bun, double bun, swept bangs, hair ribbon, yellow ribbon, blue bodysuit, unitard, skin tight, large breasts, blue crop top, gold trim, sleeveless, studded bracelet, toned female, eastern dragon, yellow background, jewelry, short hair, serious, closed mouth, gradient background, looking at viewer, bare shoulders, fist foreshortening, fist on fire, fiery aura, yellow flames, motion blur, motion lines,",
+        "process": "txt2img",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-08-29T0757:43.2178405Z",
+        "experimental": false,
+        "negativePrompt": "source_furry, source_Futanari, censored, worst quality, low quality, hands on own face, hands on own cheeks, ugly, deformed fingers, extra fingers, fused fingers, too many fingers, grainy, Sweat, facial mark, tears of blood, tear drop tattoo, tear tattoo, looking up",
+        "civitaiResources": [
           {
-            "hash": "bffb2bf533d5",
-            "name": "FluxMythG0thicL1nes",
+            "type": "checkpoint",
+            "modelVersionId": 1761560
+          },
+          {
             "type": "lora",
-            "weight": 0.6
+            "weight": 0.4,
+            "modelVersionId": 1809575
           },
           {
-            "hash": "1e20d80fc2e7",
-            "name": "FluxMythR3alisticF",
             "type": "lora",
-            "weight": 0.5
+            "weight": 0.2,
+            "modelVersionId": 1784760
           },
           {
-            "hash": "3d6b347c868f",
-            "name": "RetroAnimeFluxV1",
             "type": "lora",
-            "weight": 0.6
+            "weight": 0.5,
+            "modelVersionId": 1244133
           },
           {
-            "hash": "b23b5b19b00a",
-            "name": "OB\u534a\u5199\u5b9e\u8096\u50cf\u753bV2.0",
-            "type": "lora"
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1056404
           },
           {
-            "hash": "bea01d51bd",
-            "name": "flux1-dev-bnb-nf4-v2",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1580764
           }
-        ],
-        "Model hash": "bea01d51bd",
-        "Schedule type": "Simple",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer version": "24.8.0",
-        "ADetailer mask blur": "4",
-        "Distilled CFG Scale": "3.5",
-        "ADetailer confidence": "0.3",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer mask only top k largest": "1"
+        ]
       },
-      "username": "VelvetS",
-      "baseModel": "Flux.1 D",
+      "username": "jsyu",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        806265,
-        978472,
-        1202162,
-        1227179
+        1056404,
+        1244133,
+        1580764,
+        1761560,
+        1784760,
+        1809575
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "102|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=102%7C1744925337225"
+    "nextCursor": "103|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=103%7C1744925337225"
   }
 }
