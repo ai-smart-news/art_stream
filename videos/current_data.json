@@ -1,35 +1,76 @@
 {
   "items": [
     {
-      "id": 75175384,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/efd03c1e-05be-4bb3-96b9-da21ae1959e4/width=1024/efd03c1e-05be-4bb3-96b9-da21ae1959e4.jpeg",
-      "hash": "U8B3sM9GIU9Z%M~V4oW=xt-:aJM{~pM|adRi",
-      "width": 1024,
-      "height": 1536,
+      "id": 57522230,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c3becd8-0dbc-407b-a5c8-0f47d14ce1a7/width=1440/9c3becd8-0dbc-407b-a5c8-0f47d14ce1a7.jpeg",
+      "hash": "USEe[5D*0M^*~VIVIV%MI[ods+R+M|t7j[Rj",
+      "width": 1440,
+      "height": 2304,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-09T10:20:59.134Z",
-      "postId": 16693037,
+      "createdAt": "2025-02-13T06:24:48.182Z",
+      "postId": 12873962,
       "stats": {
-        "cryCount": 475,
-        "laughCount": 2152,
-        "likeCount": 5520,
+        "cryCount": 467,
+        "laughCount": 741,
+        "likeCount": 6710,
         "dislikeCount": 0,
-        "heartCount": 2312,
-        "commentCount": 30
+        "heartCount": 2535,
+        "commentCount": 12
       },
       "meta": {
-        "prompt": "A photorealistic, ultra detailed, humorous scene on a bustling dutch street market. A small young tabby cat anthropomorphized, running on two legs while tightly hugging a large, shiny silver fish. The cat has a determined, dramatic facial expression with wide eyes and an open mouth, as if mid-shout. Behind the cat, a shocked fish vendor in an apron is chasing after it, yelling. Fresh fishes are laid out on a market stall to the right, displayed on ice. The background features open stalls, market signs, and a few bystanders reacting in surprise. Dynamic lighting, rich details, cinematic composition, freeze-frame action shot, aspect ratio: 9:16, but don't give it a yellow/orange/brown hue. 8k uhd natural lighting, raw, rich, intricate details, key visual, atmospheric lighting, 35mm photograph, film, bokeh, professional, 4k, highly detailed, cinematic, colorful background, 8k, dramatic lighting, highly detailed, hyper realistic, intricate, intricate sharp details, fighting."
+        "Size": "1440x2304",
+        "seed": 499167416,
+        "Model": "flux1-dev",
+        "steps": 25,
+        "hashes": {
+          "model": "3f97fdc57a",
+          "lora:kcyberpunk-01": "4d473f385aea"
+        },
+        "prompt": "A futuristic eco-city covered in massive vertical gardens,where skyscrapers intertwine with lush greenery. A boy wearing a futuristic outfit adorned with nature-inspired patterns sits on a rooftop platform,overlooking aerial walkways and flowing water features surrounded by vegetation. The golden hues of sunset cast dynamic shadows,creating a harmonious yet mysterious atmosphere.,<lora:kcyberpunk-01:0.8>,kcyberpunk,",
+        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
+        "sampler": "Euler",
+        "Module 1": "flux_ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "Mask blur": "4",
+        "resources": [
+          {
+            "hash": "4d473f385aea",
+            "name": "kcyberpunk-01",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "3f97fdc57a",
+            "name": "flux1-dev",
+            "type": "model"
+          }
+        ],
+        "Model hash": "3f97fdc57a",
+        "Schedule type": "Simple",
+        "Denoising strength": "0.55",
+        "Distilled CFG Scale": "3.5",
+        "Soft inpainting enabled": "True",
+        "Soft inpainting schedule bias": "1",
+        "Soft inpainting mask influence": "0",
+        "Soft inpainting difference contrast": "2",
+        "Soft inpainting difference threshold": "0.5",
+        "Soft inpainting preservation strength": "0.5",
+        "Soft inpainting transition contrast boost": "4"
       },
-      "username": "J1B",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "username": "karlcrane2015",
+      "baseModel": null,
+      "modelVersionIds": [
+        1407799
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "133|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=133%7C1744925337225"
+    "nextCursor": "134|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=134%7C1744925337225"
   }
 }
