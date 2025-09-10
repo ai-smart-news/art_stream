@@ -1,73 +1,40 @@
 {
   "items": [
     {
-      "id": 60159403,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f04bb7a9-e6ac-4f31-b8b2-ce95c08db81e/width=1440/f04bb7a9-e6ac-4f31-b8b2-ce95c08db81e.jpeg",
-      "hash": "UH8plpxt9]Rk}@xaENRk-Tt6SOayNbbHxZs.",
-      "width": 1440,
-      "height": 2304,
+      "id": 87058498,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad0552b3-e062-4d70-b754-c17ea04c1614/width=1280/ad0552b3-e062-4d70-b754-c17ea04c1614.jpeg",
+      "hash": "UOET3$,D}ExG].Wqw{j[EzF0AWS2AXN]Eza|",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-26T03:29:01.601Z",
-      "postId": 13452959,
+      "createdAt": "2025-07-08T17:02:17.678Z",
+      "postId": 19314596,
       "stats": {
-        "cryCount": 480,
-        "laughCount": 747,
-        "likeCount": 6959,
+        "cryCount": 571,
+        "laughCount": 839,
+        "likeCount": 6666,
         "dislikeCount": 0,
-        "heartCount": 2374,
+        "heartCount": 2480,
         "commentCount": 9
       },
-      "meta": {
-        "Size": "960x1536",
-        "seed": 526772190,
-        "Model": "flux1-dev",
-        "steps": 25,
-        "hashes": {
-          "model": "3f97fdc57a",
-          "lora:klordoftherings-01": "6b2e055078ee"
-        },
-        "prompt": "First-person view standing atop a rocky hill,looking towards the distant evil city of Mordor. A jagged mountain range frames the scene,with a dark,sprawling city at the center. The Eye of Sauron looms large above the city,radiating an intense,fiery glow that contrasts with the desolate,smoky atmosphere. The foreground has barren,cracked earth and sparse vegetation,while the sky is filled with swirling dark clouds. (vivid style, cinematic),<lora:klordoftherings-01:0.8>,klordoftherings,",
-        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
-        "sampler": "Euler",
-        "Module 1": "flux_ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 3,
-        "resources": [
-          {
-            "hash": "6b2e055078ee",
-            "name": "klordoftherings-01",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "3f97fdc57a",
-            "name": "flux1-dev",
-            "type": "model"
-          }
-        ],
-        "Model hash": "3f97fdc57a",
-        "Hires upscale": "1.5",
-        "Schedule type": "Simple",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x_NMKD-Siax_200k",
-        "Hires CFG Scale": "1",
-        "Denoising strength": "0.4",
-        "Distilled CFG Scale": "3.5",
-        "Hires Distilled CFG Scale": "3.5"
-      },
-      "username": "karlcrane2015",
-      "baseModel": "Flux.1 D",
+      "meta": null,
+      "username": "MasterKK",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1441473
+        164821,
+        1141520,
+        1380520,
+        1420683,
+        1682812,
+        1697082
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "130|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=130%7C1744925337225"
+    "nextCursor": "131|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=131%7C1744925337225"
   }
 }
