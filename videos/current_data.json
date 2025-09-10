@@ -1,92 +1,38 @@
 {
   "items": [
     {
-      "id": 88075298,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dba5e7e2-4aa8-4d3b-98a2-dbd66b720fa3/width=1536/dba5e7e2-4aa8-4d3b-98a2-dbd66b720fa3.jpeg",
-      "hash": "U396~@]#Q8?H.mWXhyXT.Swc0KOY6Aw]D*X8",
-      "width": 1536,
-      "height": 2688,
+      "id": 56925298,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85f7d63e-1eec-47f6-86cb-c01eb3e12e63/width=896/85f7d63e-1eec-47f6-86cb-c01eb3e12e63.jpeg",
+      "hash": "U88|*A-;01D*~VxZ9aR-9bf6$$WW01Rj-pWB",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-14T18:01:00.000Z",
-      "postId": 19538415,
+      "createdAt": "2025-02-17T15:30:00.000Z",
+      "postId": 12743814,
       "stats": {
-        "cryCount": 533,
-        "laughCount": 877,
-        "likeCount": 6824,
+        "cryCount": 478,
+        "laughCount": 722,
+        "likeCount": 7221,
         "dislikeCount": 0,
-        "heartCount": 2732,
-        "commentCount": 21
+        "heartCount": 2523,
+        "commentCount": 26
       },
       "meta": {
-        "Size": "768x1344",
-        "seed": 742061109297,
-        "Model": "Illustrious\\illustrij_v17.safetensors",
-        "steps": 90,
-        "hashes": {
-          "model": "4f4c9ee286",
-          "lora:DetailedEyes_V3": "2c1c3f889f",
-          "lora:PinkieRetroAnimeIL": "b4dd0dbb35",
-          "lora:DetailerILv2-000008": "528277aedc",
-          "lora:p0nyd1sney1ncasev1x0n2 - IL -v2": "c3078d8c8c",
-          "lora:Cleavage Slider_alpha1.0_rank4_noxattn_last": "15b9045d82",
-          "lora:Breasts size slider NNFFS_alpha16.0_rank32_full_last": "ce23dbe6e5"
-        },
-        "prompt": "masterpiece,\nhigh_quality, highres, detailed_eyes, detailed, masterpiece, best quality, absurdres, 8k, HDR, face_focus, high quality, very_awa, newest, absurdres, highres, depth_of_field, realistic_skin,\npinkretroanime, retro art,\nJeddtl02,\np0nyd1sney1ncasev1x0n2, very aesthetic, detailed face, (dynamic:1.2), stylized, illustration, dynamic pose, nsfw, girl, tall body, slender body, fit body, long legs, deep cleavage, (freckles on the face:1.25), In the heart of a gothic village, shrouded in fog, stands a powerful sorceress, exuding an aura of mysticism and danger. Her attire is a striking contrast - a black, ornate dress that clings to her form, accentuating her every curve. A matching black cloak billows around her, hinting at the wind she may command. She wields a staff made of fire, its crackling flames casting an intense glow that illuminates her surroundings and sets her against the backdrop of the village. The village itself is a labyrinth of dark stone buildings, their pointed arches and towers reaching towards the overcast sky. The cobblestone streets are slick with rain, reflecting the dim light from the street lamps that punctuate the darkness. In her hands, she expertly manipulates a large fireball, its radiant heat illuminating her face and causing the air around her to shimmer. Her eyes, a mesmerizing blend of black and gold, seem to hold an arcane knowledge, while her lips are parted in a whispering spell. The atmosphere is one of anticipation, as if she is about to unleash a powerful magic upon the village. The colors in the image are dominated by blacks, whites, and dark reds, creating a noir-like palette that emphasizes the gothic and mysterious theme. The lighting is dramatic and moody, with shadows dancing across the scene, adding depth and intrigue. This image captures a moment of intense action and suspenseful anticipation, as the sorceress prepares to cast her spell, her power palpable even in this still frame., 1girl, solo, long hair, breasts, looking at viewer, smile, short hair, bangs, blue eyes, skirt, blonde hair, large breasts, brown hair, thighhighs, gloves, long sleeves, hat, dress, cleavage, brown eyes, jewelry, medium breasts, closed mouth, standing, jacket, full body, pantyhose, red hair, earrings, boots, outdoors, parted lips, shorts, choker, belt, indoors, miniskirt, black skirt, medium hair, necklace, black footwear, orange hair, mole, blurry, black dress, tree, lips, coat, black pantyhose, window, black headwear, witch hat, copyright name, night, depth of field, blurry background, brown footwear, moon, knee boots, outstretched arms, cross, fire, corset, side slit, pendant, cross-laced footwear, high heel boots, walking, brown pantyhose, black coat, spread arms, lace-up boots, witch, magic, magic circle, cross necklace, flame, burning, stone floor, pyrokinesis, leather boots",
-        "sampler": "dpmpp_2m_sde_karras",
-        "cfgScale": 2.5,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "4f4c9ee286",
-            "name": "Illustrious\\illustrij_v17.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "4f4c9ee286",
-        "negativePrompt": "masterpiece,\nhigh_quality, highres, detailed_eyes, detailed, masterpiece, best quality, absurdres, 8k, HDR, face_focus, high quality, very_awa, newest, absurdres, highres, depth_of_field, realistic_skin,\npinkretroanime, retro art,\nJeddtl02,\np0nyd1sney1ncasev1x0n2, very aesthetic, detailed face, (dynamic:1.2), stylized, illustration, dynamic pose, nsfw, girl, tall body, slender body, fit body, long legs, deep cleavage, (freckles on the face:1.25), In the heart of a gothic village, shrouded in fog, stands a powerful sorceress, exuding an aura of mysticism and danger. Her attire is a striking contrast - a black, ornate dress that clings to her form, accentuating her every curve. A matching black cloak billows around her, hinting at the wind she may command. She wields a staff made of fire, its crackling flames casting an intense glow that illuminates her surroundings and sets her against the backdrop of the village. The village itself is a labyrinth of dark stone buildings, their pointed arches and towers reaching towards the overcast sky. The cobblestone streets are slick with rain, reflecting the dim light from the street lamps that punctuate the darkness. In her hands, she expertly manipulates a large fireball, its radiant heat illuminating her face and causing the air around her to shimmer. Her eyes, a mesmerizing blend of black and gold, seem to hold an arcane knowledge, while her lips are parted in a whispering spell. The atmosphere is one of anticipation, as if she is about to unleash a powerful magic upon the village. The colors in the image are dominated by blacks, whites, and dark reds, creating a noir-like palette that emphasizes the gothic and mysterious theme. The lighting is dramatic and moody, with shadows dancing across the scene, adding depth and intrigue. This image captures a moment of intense action and suspenseful anticipation, as the sorceress prepares to cast her spell, her power palpable even in this still frame., 1girl, solo, long hair, breasts, looking at viewer, smile, short hair, bangs, blue eyes, skirt, blonde hair, large breasts, brown hair, thighhighs, gloves, long sleeves, hat, dress, cleavage, brown eyes, jewelry, medium breasts, closed mouth, standing, jacket, full body, pantyhose, red hair, earrings, boots, outdoors, parted lips, shorts, choker, belt, indoors, miniskirt, black skirt, medium hair, necklace, black footwear, orange hair, mole, blurry, black dress, tree, lips, coat, black pantyhose, window, black headwear, witch hat, copyright name, night, depth of field, blurry background, brown footwear, moon, knee boots, outstretched arms, cross, fire, corset, side slit, pendant, cross-laced footwear, high heel boots, walking, brown pantyhose, black coat, spread arms, lace-up boots, witch, magic, magic circle, cross necklace, flame, burning, stone floor, pyrokinesis, leather boots",
-        "Lora_0 Model hash": "15b9045d82",
-        "Lora_0 Model name": "Cleavage Slider_alpha1.0_rank4_noxattn_last.safetensors",
-        "Lora_1 Model hash": "2c1c3f889f",
-        "Lora_1 Model name": "DetailedEyes_V3.safetensors",
-        "Lora_2 Model hash": "ce23dbe6e5",
-        "Lora_2 Model name": "Breasts size slider NNFFS_alpha16.0_rank32_full_last.safetensors",
-        "Lora_3 Model hash": "528277aedc",
-        "Lora_3 Model name": "DetailerILv2-000008.safetensors",
-        "Lora_4 Model hash": "c3078d8c8c",
-        "Lora_4 Model name": "p0nyd1sney1ncasev1x0n2 - IL -v2.safetensors",
-        "Lora_5 Model hash": "b4dd0dbb35",
-        "Lora_5 Model name": "PinkieRetroAnimeIL.safetensors",
-        "Lora_0 Strength clip": "1.0",
-        "Lora_1 Strength clip": "1.0",
-        "Lora_2 Strength clip": "1.0",
-        "Lora_3 Strength clip": "1.0",
-        "Lora_4 Strength clip": "1.0",
-        "Lora_5 Strength clip": "1.0",
-        "Lora_0 Strength model": "1.8000000000000003",
-        "Lora_1 Strength model": "1.0000000000000002",
-        "Lora_2 Strength model": "1.0000000000000002",
-        "Lora_3 Strength model": "2.0000000000000004",
-        "Lora_4 Strength model": "0.4000000000000001",
-        "Lora_5 Strength model": "0.8000000000000002"
+        "seed": 54654642,
+        "steps": 30,
+        "sampler": "Euler",
+        "cfgScale": 1
       },
-      "username": "lordstjohn",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        145907,
-        541905,
-        1506690,
-        1558765,
-        1736373,
-        1860423,
-        2001618
-      ]
+      "username": "surush",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "109|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=109%7C1744925337225"
+    "nextCursor": "110|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=110%7C1744925337225"
   }
 }
