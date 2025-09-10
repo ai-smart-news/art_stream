@@ -1,71 +1,65 @@
 {
   "items": [
     {
-      "id": 84694801,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8e9dc25-7408-4ebc-9120-8a65a6b7557a/width=1264/f8e9dc25-7408-4ebc-9120-8a65a6b7557a.jpeg",
-      "hash": "U59aBRg300V?~pRkW;x]00-p%M9F00xZ?bM{",
-      "width": 1264,
-      "height": 1848,
+      "id": 96506155,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4e9945d6-da5d-4c26-8ad1-311a03d049a7/width=792/4e9945d6-da5d-4c26-8ad1-311a03d049a7.jpeg",
+      "hash": "ULL2Vp%1.:s;{KRk=fni|qWXFyt6%NjuE2jE",
+      "width": 792,
+      "height": 1104,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-26T18:17:51.135Z",
-      "postId": 18802071,
+      "createdAt": "2025-08-28T09:27:34.985Z",
+      "postId": 21406322,
       "stats": {
-        "cryCount": 533,
-        "laughCount": 945,
-        "likeCount": 7040,
+        "cryCount": 644,
+        "laughCount": 941,
+        "likeCount": 6910,
         "dislikeCount": 0,
-        "heartCount": 2821,
-        "commentCount": 6
+        "heartCount": 2745,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1138625421,
-        "Model": "0.67(c) + 0.33(__C)",
+        "Size": "792x1104",
+        "seed": 2847572173,
+        "Model": "waiNSFWIllustrious_v120",
         "steps": 30,
         "hashes": {
-          "model": "cc41f2a8f7"
+          "model": "b9044b28d6",
+          "lora:Alpaca_Carlesi_Style": "faa4ef5c6f9d"
         },
-        "prompt": "Fantasy Style, Grunge, masterpiece, high_quality, highres, woman, portrait, monochromatic color, black, \nethereal woman in soft light, shadow crawling behind her expression, neutral, looking at viewer, dream or illusion, palette porcelain skin, pale rose, deep black, style surreal, cinematic, angle half-lit portrait, profile, \ncircle, silhouette, glass fragments",
-        "Version": "f2.0.1v1.10.1-previous-626-ga332f7cc",
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, detailed background, 8k, dynamic angle,\n\"alpacaxd, 1girl, chopsticks, noodles, solo, food, black hair, braid, qing guanmao, jiangshi, ramen, hat, twin braids, eating, long hair, blue eyes, ofuda, chinese clothes, bowl, colored skin\",\n <lora:Alpaca_Carlesi_Style:1>",
+        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
         "sampler": "Euler a",
         "cfgScale": 7,
         "clipSkip": 2,
         "resources": [
           {
-            "hash": "cc41f2a8f7",
-            "name": "0.67(c) + 0.33(__C)",
+            "hash": "faa4ef5c6f9d",
+            "name": "Alpaca_Carlesi_Style",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "b9044b28d6",
+            "name": "waiNSFWIllustrious_v120",
             "type": "model"
           }
         ],
-        "Model hash": "cc41f2a8f7",
-        "Hires steps": "30",
-        "Hires upscale": "1.526",
-        "Original Size": "832x1216",
-        "Schedule type": "Automatic",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "negativePrompt": "lowres, bad anatomy, deformed face, watermark, logo,",
-        "ADetailer model": "mediapipe_face_mesh",
-        "Hires CFG Scale": "7",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.3",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
+        "Model hash": "b9044b28d6",
+        "Schedule type": "Karras",
+        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, 2d, sketch, ugly face, low res, interlocked fingers, anatomically incorrect hands, bad anatomy, {worst quality, low quality, normal quality}, watermark, signature, letter, username, logo, name, text, badhandsv5-neg, (monochrome), (gray scale), ugly face, distorted face, bad body, extra limbs, malformed limbs, extra limbs, {missing hands, extra hands, bad hands}, {missing legs, extra legs, bad legs}, {missing arms, extra arms, bad arms}, {missing thighs, extra thighs,bad thighs}, (bad anatomy:1.5), {Multiple people}, mutilated, poorly drawn hands, poorly drawn face, bad proportions, gross proportions, jpeg artifacts, signature, mutation, deformity, by CT, {fused fingers, too many fingers, blurry finger}, {missing finger, bad finger}, ((extra finger)), EasyNegative, EasynegativeV2, ng_deepnegative_v1_75t, (((mole on the skin))), negativeXL_D, negativeXL_D,"
       },
-      "username": "reijlita",
+      "username": "ArtistIA",
       "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        2145305
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "94|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=94%7C1744925337225"
+    "nextCursor": "95|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=95%7C1744925337225"
   }
 }
