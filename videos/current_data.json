@@ -1,33 +1,96 @@
 {
   "items": [
     {
-      "id": 56740233,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a19fad2-4f00-4c76-9493-3f6fbf4aed48/width=896/7a19fad2-4f00-4c76-9493-3f6fbf4aed48.jpeg",
-      "hash": "UrF=gbafNIj[~VWCj[fk-nR*s.j[-TRkR+j[",
-      "width": 896,
-      "height": 1152,
+      "id": 87483545,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bc363f8-6018-4fa7-ae7f-5d8f99792b0f/width=1328/0bc363f8-6018-4fa7-ae7f-5d8f99792b0f.jpeg",
+      "hash": "UEBx.PNb59R*9cNIt5$%9c%0-TIq~9R*IqWV",
+      "width": 1328,
+      "height": 1944,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-17T15:30:00.000Z",
-      "postId": 12703616,
+      "createdAt": "2025-07-10T21:14:29.832Z",
+      "postId": 19407372,
       "stats": {
-        "cryCount": 563,
-        "laughCount": 778,
-        "likeCount": 7615,
+        "cryCount": 585,
+        "laughCount": 1162,
+        "likeCount": 7059,
         "dislikeCount": 0,
-        "heartCount": 2526,
-        "commentCount": 24
+        "heartCount": 2622,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "ill",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 3154900787,
+        "Model": "colossusProjectFlux_v10bBOBFP8UNETOnly",
+        "steps": 50,
+        "hashes": {
+          "lora:FLUX_antiblur": "328f945688a9"
+        },
+        "prompt": "A luminous texture of a red hair stylized cat, glowing in the warm glow of its brightened eyes. With golden paws reaching out to grasp and fur-lined clothing coverings \u00e2\u0080\u0093 all caught gracefully within striking detail and beautiful details - reminiscent entirely oracular. <lora:FLUX_antiblur:0.5>, Film grain, cinematic film still, highly detailed, high budget, cinemascope, moody, epic, OverallDetail, gorgeous, 2000s vintage RAW photo, photorealistic, candid camera, color graded cinematic, eye catchlights, atmospheric lighting, imperfections, natural, shallow dof",
+        "sampler": "Res Multistep",
+        "Module 1": "t5xxl_fp16",
+        "Module 2": "ViT-L-14-REG-GATED-balanced-ckpt12",
+        "Module 3": "flux_vae",
+        "cfgScale": 2.3,
+        "resources": [
+          {
+            "hash": "328f945688a9",
+            "name": "FLUX_antiblur",
+            "type": "lora",
+            "weight": 0.5
+          }
+        ],
+        "Extra noise": "0.01",
+        "Hires steps": "38",
+        "Hires prompt": {
+          "(Sharp focus": "2)",
+          "FLUX_antiblur": "0.5>"
+        },
+        "Hires upscale": "1.6",
+        "Schedule type": "SGM Uniform",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4xNomos2_otf_esrgan",
+        "negativePrompt": "NSFW, nude, naked, blurry, (unperfect image:2), (unperfect details:2), (inconsistent fine details:2), (composition errors:2), (inconsistent features:2), (inconsistent faces:2), (inconsistent hands:2), (inconsistent fingers:2), (low quality:2), (worst quality:2), (shallow depth of field), (bad hands:2), (ugly eyes:2), (fused fingers:2), (elongated fingers:2), (additional fingers:2), missing fingers, (intricated patterns:2), (intricated vegetation:2), (lowres), (poor detailing:2), unrealistic lighting, sketchy, unnatural, watermark, (unrealistic:2), (bad perspective:2), (bad face:2), (airbrushed, anime, semi-realistic, cgi, blender, amateur:2)",
+        "Hires CFG Scale": "2.3",
+        "Denoising strength": "0.5",
+        "Distilled CFG Scale": "3.5",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "Hires negative prompt": {
+          "amateur": "2)",
+          "(bad face": "2)",
+          "(bad hands": "2)",
+          "(ugly eyes": "2)",
+          "(low quality": "2)",
+          "(unrealistic": "2)",
+          "(poorly drawn": "2)",
+          "(fused fingers": "2)",
+          "(worst quality": "2)",
+          "(poor detailing": "2)",
+          "(bad perspective": "2)",
+          "(unperfect image": "2)",
+          "(elongated fingers": "2)",
+          "(unperfect details": "2)",
+          "(additional fingers": "2)",
+          "(composition errors": "2)",
+          "(inconsistent faces": "2)",
+          "(inconsistent hands": "2)",
+          "(intricated patterns": "2)",
+          "(inconsistent fingers": "2)",
+          "(inconsistent features": "2)",
+          "(intricated vegetation": "2)",
+          "(inconsistent fine details": "2)"
+        },
+        "Hires Distilled CFG Scale": "3.5"
+      },
+      "username": "_Wizz_",
       "baseModel": "Flux.1 D",
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "87|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=87%7C1744925337225"
+    "nextCursor": "88|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=88%7C1744925337225"
   }
 }
