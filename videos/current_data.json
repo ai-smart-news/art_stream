@@ -1,167 +1,64 @@
 {
   "items": [
     {
-      "id": 82634156,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/361460ba-6c48-411b-88e9-4dcd608711b5/width=1280/361460ba-6c48-411b-88e9-4dcd608711b5.jpeg",
-      "hash": "UODlNc9tIUt6~BIpRiR%$eNIWVS3xbWBWAbc",
-      "width": 1280,
-      "height": 1856,
+      "id": 95861628,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77ad7428-1ceb-4f7a-9bd7-72766b8faf10/width=1024/77ad7428-1ceb-4f7a-9bd7-72766b8faf10.jpeg",
+      "hash": "UDBWMfrU0#?w4m%i={IAAJ9FnMs+wHkC9uNb",
+      "width": 1024,
+      "height": 1504,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-16T20:23:00.000Z",
-      "postId": 18353889,
+      "createdAt": "2025-08-22T17:53:11.419Z",
+      "postId": 21263354,
       "stats": {
-        "cryCount": 483,
-        "laughCount": 863,
-        "likeCount": 6686,
+        "cryCount": 494,
+        "laughCount": 854,
+        "likeCount": 6713,
         "dislikeCount": 0,
-        "heartCount": 2617,
-        "commentCount": 5
+        "heartCount": 2585,
+        "commentCount": 10
       },
       "meta": {
-        "nsfw": false,
-        "seed": 658775543,
-        "vaes": [
-          "urn:air:sdxl:vae:civitai:296576@333245"
-        ],
-        "Model": "urn:air:sdxl:checkpoint:civitai:643227@770375",
-        "extra": {
-          "remixOfId": 81541540
-        },
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:643227@770375"
-        ],
-        "prompt": "(absurdres, best quality, masterpiece:1.4), score_9, score_8_up, score_7_up, score_6_up, detailed, detailed body, detailed face, world of warcraft, fantasy, \n\nfFaceDetail, SkinDetail, ((female, draenei, tall, athletic arms, pale white skin, smooth skin, long white hair, purple eyes, no pupil, no sclera, long white tail), (h0rns, ram horns, white horns), \n(long fingers, purple fingernails, purple nail polish)), \n\n(long loose cyan dress, simple armlet, black facemask, cyan silk scarf), dagger, holding a dagger,\n\nfull body, squatting, \n\noutdoor, evening, mountains, sunset, snow",
-        "denoise": 0.4,
-        "sampler": "Euler a",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Pony",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/7820XYAY49B04PGDGY98252ES0.jpeg",
-          "width": 832,
-          "height": 1216
-        },
-        "experimental": false,
-        "negativePrompt": "civit_nsfw, nude, cleavage, plain background, text, anime, score_4, score_5, easynegative, negative_hand, \n\nlong ears, human, elf, bull horns, kudu horn, split horn, nipples, skin markings, \n\nhair behind eyes, blur, blurry face, broken shoulders,  tattoo, tattoos,  \n\ntight clothing, ",
+        "Size": "1024x1504",
+        "seed": 578381702269088,
+        "Model": "visionaryILLUSTRIOUS_visionaryIllustrious",
+        "steps": 24,
+        "prompt": "masterpiece, best quality, (enhanced), (stylized), (enhanced textures), perfect composition, high detail, concept art, dynamic composition, 1boy, animal, cat, glowing, gradient, gradient background, headphones, light particles, realistic, snowing, solo, starry sky, wallpaper,",
+        "Version": "ComfyUI",
+        "sampler": "Euler",
+        "cfgScale": 4,
+        "resources": [],
+        "negativePrompt": "(bad quality:1, worst quality:1, bad eyes:1)",
         "civitaiResources": [
           {
-            "weight": 1,
-            "modelVersionId": 770375
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 770375
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 9208
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 60938
-          },
-          {
-            "weight": 0.85,
-            "modelVersionId": 522995
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 663601
-          },
-          {
-            "weight": 4,
-            "modelVersionId": 712947
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 720175
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 333245
-          },
-          {
             "type": "checkpoint",
-            "modelVersionId": 770375
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          },
-          {
-            "type": "vae",
-            "modelVersionId": 333245
+            "modelVersionId": 1909771
           },
           {
             "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 522995
+            "weight": 0.5,
+            "modelVersionId": 2084489
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 663601
-          },
-          {
-            "type": "lora",
-            "weight": 4,
-            "modelVersionId": 712947
-          }
-        ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:470073@522995",
-            "type": "lora",
-            "strength": 0.85,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:594148@663601",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:402462@712947",
-            "type": "lora",
-            "strength": 4,
-            "strengthClip": 1
+            "weight": 0.5,
+            "modelVersionId": 1557805
           }
         ]
       },
-      "username": "Vorfreude",
-      "baseModel": "Pony",
+      "username": "webys2",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        9208,
-        60938,
-        164821,
-        333245,
-        522995,
-        663601,
-        712947,
-        720175,
-        770375
+        1557805,
+        1909771,
+        2084489
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "124|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=124%7C1744925337225"
+    "nextCursor": "125|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=125%7C1744925337225"
   }
 }
