@@ -1,82 +1,95 @@
 {
   "items": [
     {
-      "id": 86373697,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b16a8e2-ca52-4572-825f-1a109cabc362/width=1304/0b16a8e2-ca52-4572-825f-1a109cabc362.jpeg",
-      "hash": "U64f:zj]D4tn*0adf.o}MwV?x_ozD4VryEf5",
-      "width": 1304,
-      "height": 1952,
+      "id": 64480335,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e38cb413-a9f1-4e1b-90bc-1d42c4d52e26/width=912/e38cb413-a9f1-4e1b-90bc-1d42c4d52e26.jpeg",
+      "hash": "UCFr;X4n00?b%M00M{_300?b?bD%M{~qM{IU",
+      "width": 912,
+      "height": 1336,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-05T06:22:33.422Z",
-      "postId": 19165919,
+      "createdAt": "2025-03-19T18:00:00.000Z",
+      "postId": 14373601,
       "stats": {
-        "cryCount": 512,
-        "laughCount": 882,
-        "likeCount": 6600,
+        "cryCount": 567,
+        "laughCount": 1052,
+        "likeCount": 6574,
         "dislikeCount": 0,
-        "heartCount": 2696,
-        "commentCount": 8
+        "heartCount": 2504,
+        "commentCount": 15
       },
       "meta": {
-        "Size": "768x1152",
-        "seed": 4050293370,
-        "Model": "flux1-dev-fp8",
+        "": {},
+        "RNG": "CPU",
+        "Size": "832x1216",
+        "seed": 415824853,
+        "Model": "noobaiXLNAIXL_vPred10Version",
+        "model": {},
         "steps": 30,
-        "hashes": {
-          "model": "8e91b68084",
-          "lora:Vibrantly_Floral_style": "81ca9a5bf335",
-          "lora:Anime_Scenery_style_v.1": "e44059c06341"
+        "Hashes": {
+          "{embed": "Smooth_Quality"
         },
-        "prompt": "<lora:Anime_Scenery_style_v.1:0.8> AnimeScenery style. Three luminous blue blossoms float like starlight on a gnarled branch, their delicate petals glowing with soft gradients of sapphire and cerulean as golden stamens sparkle against the velvety shadows of a moonlit forest. Suspended beneath the lowest leaf, a crystal drop of dew descends in slow motion, just above a still, obsidian pool where gentle ripples radiate outward in concentric rings of pale light. The background fades into deep cobalt and indigo, with bokeh glimmers hinting at unseen foliage in a dreamlike haze. Rendered in ultra-high detail with a shallow depth of field and soft overhead lighting, the scene balances surreal botanical elegance with a quiet aquatic atmosphere. A complementary palette of cool blues and warm gold punctuates the darkness, while the composition's vertical symmetry draws the viewer's eye from blossom to droplet to ripple, creating a meditative, weightless moment frozen in enchanted stillness.",
-        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
-        "sampler": "Euler",
-        "cfgScale": 1,
+        "hashes": {
+          "model": "ea349eeae8",
+          "embed:Smooth_Quality": "d4a83433e5",
+          "embed:Smooth_Negative": "636f58fdcd",
+          "lora:Mature_Comics_Style_-_NoobAI": "3446cbb192d0"
+        },
+        "prompt": "Smooth_Quality, solo, paimon \\(genshin impact\\), empty eyes, half-closed eyes, annoyed, star-shaped pupils, halo, smoking cigarette, blowing smoke, close-up portrait, short hair, bangs, hair ornament, hair between eyes, white hair, long sleeves, dress, scarf, cape, thighhighs, spot color, shaded face, black and white, from side, dynamic angle, looking at viewer, crossed arms,   <lora:Mature_Comics_Style_-_NoobAI:1>,",
+        "Version": "f1.7.0dev-v1.10.1RC-latest-2174-g9a15d875",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 5,
+        "TI hashes": {
+          "Smooth_Quality": "d4a83433e57a",
+          "Smooth_Negative": "636f58fdcdcb"
+        },
         "resources": [
           {
-            "hash": "e44059c06341",
-            "name": "Anime_Scenery_style_v.1",
+            "hash": "3446cbb192d0",
+            "name": "Mature_Comics_Style_-_NoobAI",
             "type": "lora",
-            "weight": 0.8
+            "weight": 1
           },
           {
-            "hash": "81ca9a5bf335",
-            "name": "Vibrantly_Floral_style",
-            "type": "lora",
-            "weight": 0.7
-          },
-          {
-            "hash": "8e91b68084",
-            "name": "flux1-dev-fp8",
+            "hash": "ea349eeae8",
+            "name": "noobaiXLNAIXL_vPred10Version",
             "type": "model"
           }
         ],
-        "Model hash": "8e91b68084",
-        "Hires steps": "20",
-        "Hires upscale": "1.7",
-        "Original Size": "768x1152",
-        "Schedule type": "Simple",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "Latent",
-        "Hires CFG Scale": "1",
-        "Denoising strength": "0.6",
-        "Distilled CFG Scale": "3",
-        "Hires schedule type": "Simple",
-        "wildcards_batch_salt": "3520890663",
-        "Diffusion in Low Bits": "float8-e4m3fn (fp16 LoRA)",
-        "Hires Distilled CFG Scale": "3"
+        "Model hash": "ea349eeae8",
+        "Hires steps": "15",
+        "Hires upscale": "1.1",
+        "Schedule type": "SGM Uniform",
+        "Hires upscaler": "4x_foolhardy_Remacri",
+        "negativePrompt": "Smooth_Negative\u200b\u200b\u200b,",
+        "ADetailer model": "face_yolov8s.pt",
+        "Hires CFG Scale": "5",
+        "ADetailer version": "24.11.1",
+        "Denoising strength": "0.2",
+        "ADetailer mask blur": "6",
+        "ADetailer confidence": "0.2",
+        "{embed:Smooth_Quality": {},
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer mask only top k": "1",
+        "ADetailer denoising strength": "0.3",
+        "ADetailer inpaint only masked": "True",
+        "lora:Mature_Comics_Style_-_NoobAI": {},
+        "ADetailer method to decide top k masks": "Area"
       },
-      "username": "Bra2ha",
-      "baseModel": null,
+      "username": "DigitalPastel",
+      "baseModel": "NoobAI",
       "modelVersionIds": [
-        1975873
+        1190596,
+        1195487,
+        1470551
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "120|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=120%7C1744925337225"
+    "nextCursor": "121|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=121%7C1744925337225"
   }
 }
