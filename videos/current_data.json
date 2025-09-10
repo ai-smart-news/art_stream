@@ -1,94 +1,86 @@
 {
   "items": [
     {
-      "id": 64621413,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c145c1be-6532-47a6-a436-f5bda14e99b4/width=1800/c145c1be-6532-47a6-a436-f5bda14e99b4.jpeg",
-      "hash": "UVIW~JS*0Lnz?dNyNFn$M|oc%2NGM}Wrt3xF",
-      "width": 2048,
-      "height": 1408,
+      "id": 13338632,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e65752c9-52c3-4392-b922-011e16a7d7ba/width=1248/e65752c9-52c3-4392-b922-011e16a7d7ba.jpeg",
+      "hash": "UEF=s_TKIp_N~pxu00IU.8Mx4nf6_N%MROn$",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-20T08:11:10.938Z",
-      "postId": 14404038,
+      "createdAt": "2024-06-28T18:00:42.835Z",
+      "postId": 2947916,
       "stats": {
-        "cryCount": 647,
-        "laughCount": 1007,
-        "likeCount": 7083,
+        "cryCount": 449,
+        "laughCount": 936,
+        "likeCount": 7041,
         "dislikeCount": 0,
-        "heartCount": 2685,
-        "commentCount": 7
+        "heartCount": 2971,
+        "commentCount": 6
       },
       "meta": {
-        "nsfw": true,
-        "seed": 444860461,
-        "vaes": [],
-        "draft": false,
-        "extra": {},
-        "steps": 30,
-        "width": 1216,
-        "height": 832,
-        "models": [],
-        "prompt": "A golden road winds through a misty valley towards towering mountains. The rising sun peeks over the horizon, painting the sky in vivid hues of pink, orange, and gold. Ancient white cherry trees line the path, their blossoms awakening to the dawn's first light, petals glowing with an ethereal radiance. Dew-kissed grass sparkles as sunbeams dance across the landscape. Wispy clouds catch the morning light, transforming into floating islands of color. In the distance, the mountains' peaks emerge from shadow, their crystal spires glinting in the new day's brilliance. As the world stirs to life, luminous flowers unfurl along the roadside, their soft glow harmonizing with the cherry blossoms' increasing luminescence.",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 3.5,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-upscale",
-        "baseModel": "Flux1",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/1ZG246VM0KZNAE77Y4CXXVW450.jpeg",
-          "width": 1216,
-          "height": 832,
-          "upscaleWidth": 2048,
-          "upscaleHeight": 1408
+        "Size": "832x1216",
+        "seed": 1327749010,
+        "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+        "steps": 20,
+        "hashes": {
+          "model": "67ab2fd8ec",
+          "lora:Fant5yP0ny": "a493698332df"
         },
-        "upscaleWidth": 2048,
-        "upscaleHeight": 1408,
-        "civitaiResources": [
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,<lora:Fant5yP0ny:0.8>, 1girl, armor, weapon, wings, solo, shoulder armor, blue eyes, pauldrons, white hair, looking at viewer, power armor",
+        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "Mask blur": "4",
+        "resources": [
           {
-            "weight": 1,
-            "modelVersionId": 691639
+            "hash": "a493698332df",
+            "name": "Fant5yP0ny",
+            "type": "lora",
+            "weight": 0.8
           },
           {
-            "weight": 1,
-            "modelVersionId": 691639
-          },
-          {
-            "weight": 0.7,
-            "modelVersionId": 720252
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 766438
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "hash": "67ab2fd8ec",
+            "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+            "type": "model"
           }
         ],
-        "additionalResources": []
+        "Model hash": "67ab2fd8ec",
+        "Hires steps": "15",
+        "Inpaint area": "Only masked",
+        "Hires upscale": "1.5",
+        "Hires upscaler": "4x_NMKD-Superscale-SP_178000_G",
+        "ADetailer model": "face_yolov8n.pt",
+        "ADetailer version": "24.3.2",
+        "Denoising strength": "0.4",
+        "ADetailer mask blur": "4",
+        "ADetailer model 2nd": "full_eyes_detect_v1.pt",
+        "Masked area padding": "32",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer mask blur 2nd": "4",
+        "ADetailer confidence 2nd": "0.3",
+        "ADetailer inpaint padding": "32",
+        "ADetailer dilate erode 2nd": "4",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer inpaint padding 2nd": "32",
+        "ADetailer denoising strength 2nd": "0.4",
+        "ADetailer inpaint only masked 2nd": "True"
       },
-      "username": "Shirowalker",
-      "baseModel": "Flux.1 D",
+      "username": "popyay",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        164821,
-        691639,
-        720252,
-        766438
+        290640,
+        522995
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "89|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=89%7C1744925337225"
+    "nextCursor": "90|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=90%7C1744925337225"
   }
 }
