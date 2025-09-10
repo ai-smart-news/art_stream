@@ -1,76 +1,62 @@
 {
   "items": [
     {
-      "id": 57522230,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c3becd8-0dbc-407b-a5c8-0f47d14ce1a7/width=1440/9c3becd8-0dbc-407b-a5c8-0f47d14ce1a7.jpeg",
-      "hash": "USEe[5D*0M^*~VIVIV%MI[ods+R+M|t7j[Rj",
-      "width": 1440,
-      "height": 2304,
+      "id": 93901738,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af560887-e50a-458b-a751-f65e6a8686eb/width=1216/af560887-e50a-458b-a751-f65e6a8686eb.jpeg",
+      "hash": "UI9*[+t90JM^%%V?RktTn5ogR#NGMytSj:IS",
+      "width": 1216,
+      "height": 832,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-13T06:24:48.182Z",
-      "postId": 12873962,
+      "createdAt": "2025-08-12T22:03:56.789Z",
+      "postId": 20831034,
       "stats": {
-        "cryCount": 467,
-        "laughCount": 741,
-        "likeCount": 6710,
+        "cryCount": 617,
+        "laughCount": 977,
+        "likeCount": 6384,
         "dislikeCount": 0,
-        "heartCount": 2535,
-        "commentCount": 12
+        "heartCount": 2468,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "1440x2304",
-        "seed": 499167416,
-        "Model": "flux1-dev",
-        "steps": 25,
-        "hashes": {
-          "model": "3f97fdc57a",
-          "lora:kcyberpunk-01": "4d473f385aea"
-        },
-        "prompt": "A futuristic eco-city covered in massive vertical gardens,where skyscrapers intertwine with lush greenery. A boy wearing a futuristic outfit adorned with nature-inspired patterns sits on a rooftop platform,overlooking aerial walkways and flowing water features surrounded by vegetation. The golden hues of sunset cast dynamic shadows,creating a harmonious yet mysterious atmosphere.,<lora:kcyberpunk-01:0.8>,kcyberpunk,",
-        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
-        "sampler": "Euler",
-        "Module 1": "flux_ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "Mask blur": "4",
-        "resources": [
+        "Size": "1216x832",
+        "seed": 1739813491,
+        "draft": false,
+        "steps": 30,
+        "width": 1216,
+        "height": 832,
+        "prompt": "a strange alien forest, plants and trees made of nerves and brain tissue, dendrite vines, nerve grass, biotech fantasy landscape, surreal, macrophotogrpahy, vibrant, bioluminescent, sparks of cibrant colors jump form nerve cluster to nerve cluster, surreal > render of a, hyper realistic, 4k, artistic, ultra detailed, octane render, photorealistic, glowing, ultra realistic:: a plesiosaurus that is standing in the water, a detailed matte painting, by Darek Zabrocki, loch ness monster, metal dragon tail, digital art 4k unsettling, coiled realistic serpents, black glossy xenomorph, digital matte painting, highly realistic digital art, twilight ; digital painting, flat matte painting, high res render, highly photographic render --ar 2:3 --v 6.0",
+        "process": "txt2img",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "disablePoi": true,
+        "aspectRatio": "19:13",
+        "Created Date": "2025-08-12T2158:22.6542217Z",
+        "experimental": false,
+        "civitaiResources": [
           {
-            "hash": "4d473f385aea",
-            "name": "kcyberpunk-01",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "3f97fdc57a",
-            "name": "flux1-dev",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 1714002,
+            "modelVersionName": "Walnut"
           }
-        ],
-        "Model hash": "3f97fdc57a",
-        "Schedule type": "Simple",
-        "Denoising strength": "0.55",
-        "Distilled CFG Scale": "3.5",
-        "Soft inpainting enabled": "True",
-        "Soft inpainting schedule bias": "1",
-        "Soft inpainting mask influence": "0",
-        "Soft inpainting difference contrast": "2",
-        "Soft inpainting difference threshold": "0.5",
-        "Soft inpainting preservation strength": "0.5",
-        "Soft inpainting transition contrast boost": "4"
+        ]
       },
-      "username": "karlcrane2015",
-      "baseModel": null,
+      "username": "zafegity407",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1407799
+        1714002
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "134|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=134%7C1744925337225"
+    "nextCursor": "135|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=135%7C1744925337225"
   }
 }
