@@ -1,69 +1,84 @@
 {
   "items": [
     {
-      "id": 27764881,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3223da1-5846-4f07-8926-df6a6542bffd/width=1024/a3223da1-5846-4f07-8926-df6a6542bffd.jpeg",
-      "hash": "U4BDTg0gD4%K3FwI01XnqG#l%#-pH=E*}?I[",
-      "width": 1024,
-      "height": 1536,
+      "id": 88383742,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e30f4149-c8d2-4eda-85c3-783e5e2b3352/width=1800/e30f4149-c8d2-4eda-85c3-783e5e2b3352.jpeg",
+      "hash": "UaIze^$fi|WF}txaW?V[-WM_NGofM~oMV@oc",
+      "width": 1920,
+      "height": 2816,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-04T19:16:34.201Z",
-      "postId": 6209909,
+      "createdAt": "2025-07-15T10:00:00.000Z",
+      "postId": 19604936,
       "stats": {
-        "cryCount": 510,
-        "laughCount": 937,
-        "likeCount": 7224,
+        "cryCount": 537,
+        "laughCount": 928,
+        "likeCount": 7033,
         "dislikeCount": 0,
-        "heartCount": 2566,
-        "commentCount": 4
+        "heartCount": 2719,
+        "commentCount": 8
       },
       "meta": {
-        "VAE": "sdxl_vae.safetensors",
-        "Size": "512x768",
-        "seed": 402227558,
-        "Model": "EDGfZ_2-0.fp16",
-        "steps": 30,
-        "hashes": {
-          "vae": "63aeecb90f",
-          "model": "82b6f2e776",
-          "lora:edgFantasyDressesPony": "e1fc8e8881f4"
+        "seed": 907808944,
+        "vaes": [],
+        "extra": {},
+        "steps": 35,
+        "width": 832,
+        "height": 1216,
+        "models": [],
+        "prompt": "masterpiece, best_quality, absurdres, ultra-detailed, intricate_details, sharp_focus, painterly, traditional media, hdr, vibrant_colors, ink_wash, cinematic_lighting, epic_composition, landscape, scenery, wide_shot, aerial_view, panoramic_view, sweeping_view, extreme_depth_of_field, vanishing_point, depth, atmospheric_perspective, layered_landscape, matte_painting, towering_mountains, karst_mountains, mountain_peak, cliff, chasm, pagoda, multi-tiered_pagoda, ancient_china, asian_architecture, ornate_bridge, bridge_over_water, river, waterfall, plunging_waterfall, turquoise_water, rice_paddy, terraced_field, cherry_blossoms, sakura, full_bloom, pine_tree, ancient_tree, prayer_flags, fluttering, sunset, golden_hour, colorful_sky, orange_sky, magenta_sky, lavender_sky, volumetric_lighting, god_rays, ((ethereal, mist, fog)), dreamlike, majestic, breathtaking",
+        "denoise": 0.3,
+        "process": "img2img",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 8.5,
+        "clipSkip": 2,
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "disablePoi": true,
+        "versionIds": [],
+        "aspectRatio": "13:19",
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/D7A6W0P1AWAPPY5VSS4D44SWF0.jpeg",
+          "width": 832,
+          "height": 1216
         },
-        "prompt": "score_9, score_8_up, score_7_up BREAK ,robot,mecha,fire,wing,flying\nedgTF,sci-fi,cyberpunk,metallic chrome armor,neon lights,wearing <lora:edgFantasyDressesPony:1>",
-        "Version": "v1.6.0",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "resources": [
+        "experimental": false,
+        "negativePrompt": "(worst quality, low quality, normal quality:2), blurry, pixelated, grainy, noisy, oversaturated, jpeg artifacts, watermark, signature, text, logo, border, frame, sketch, cartoon, 3d, cgi, anime, flat_lighting, broken perspective, depth_fail, unnatural depth, bad composition, ugly color palette, photo, real_life",
+        "civitaiResources": [
           {
-            "hash": "e1fc8e8881f4",
-            "name": "edgFantasyDressesPony",
-            "type": "lora",
-            "weight": 1
+            "weight": 1,
+            "modelVersionId": 1900496
           },
           {
-            "hash": "82b6f2e776",
-            "name": "EDGfZ_2-0.fp16",
-            "type": "model"
+            "weight": 1.1,
+            "modelVersionId": 1571875
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
         ],
-        "Model hash": "82b6f2e776",
-        "Hires steps": "20",
-        "Hires upscale": "2",
-        "Hires upscaler": "Latent",
-        "negativePrompt": "greyscale,3d,human,1girl,solo,1boy,crowd",
-        "Denoising strength": "0.8"
+        "additionalResources": []
       },
-      "username": "EDG",
-      "baseModel": "Pony",
+      "username": "2018cfh",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        729115
+        164821,
+        1571875,
+        1900496
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "96|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=96%7C1744925337225"
+    "nextCursor": "97|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=97%7C1744925337225"
   }
 }
