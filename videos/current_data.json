@@ -1,73 +1,38 @@
 {
   "items": [
     {
-      "id": 87478633,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c779f94-d90a-4817-891f-38618eedbd90/width=832/1c779f94-d90a-4817-891f-38618eedbd90.jpeg",
-      "hash": "U88;VxD+0n^i?EX9ENt603$~}-9x0jsS=?I=",
+      "id": 59921082,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e18157c7-7c8e-41ba-8136-dcca28639bda/width=832/e18157c7-7c8e-41ba-8136-dcca28639bda.jpeg",
+      "hash": "U8AJ+s00Ov-,_#Kj$PNG5G---l5U9u$2,XKP",
       "width": 832,
-      "height": 1280,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-10T21:53:28.907Z",
-      "postId": 19406344,
+      "createdAt": "2025-02-28T17:30:00.000Z",
+      "postId": 13399534,
       "stats": {
-        "cryCount": 512,
-        "laughCount": 934,
-        "likeCount": 7146,
+        "cryCount": 529,
+        "laughCount": 893,
+        "likeCount": 7117,
         "dislikeCount": 0,
-        "heartCount": 2607,
-        "commentCount": 9
+        "heartCount": 2644,
+        "commentCount": 31
       },
       "meta": {
-        "VAE": "ae_flux.safetensors",
-        "seed": 598490787914000,
-        "Model": "Chroma_Flux1_S_Base\\chroma_v35DetailCalibrated.safetensors",
-        "steps": 20,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "e01d54637f",
-          "lora:- Flux1 DeDi - sharp_various_longcaptation_1.0": "67ec9d72c5",
-          "lora:-_Flux1_DeDi_-_sharp_various_longcaptation_1.0": "67ec9d72c5",
-          "lora:- Flux1 DeDi - effects_n_pattern_1.0-step00002600": "f423b179d1",
-          "lora:-_Flux1_DeDi_-_effects_n_pattern_1.0-step00002600": "f423b179d1"
-        },
-        "prompt": "a world without a light so dark and bright on a faithfull night <lora:-_Flux1_DeDi_-_effects_n_pattern_1.0-step00002600:0.7000000000000002> <lora:-_Flux1_DeDi_-_sharp_various_longcaptation_1.0:0.8000000000000002>",
-        "sampler": "DPM++ 2M_sgm_uniform",
-        "cfgScale": 5,
-        "clipSkip": 1,
-        "resources": [
-          {
-            "hash": "f423b179d1",
-            "name": "-_Flux1_DeDi_-_effects_n_pattern_1.0-step00002600",
-            "type": "lora",
-            "weight": 0.7000000000000002
-          },
-          {
-            "hash": "67ec9d72c5",
-            "name": "-_Flux1_DeDi_-_sharp_various_longcaptation_1.0",
-            "type": "lora",
-            "weight": 0.8000000000000002
-          },
-          {
-            "hash": "e01d54637f",
-            "name": "Chroma_Flux1_S_Base\\chroma_v35DetailCalibrated.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "e01d54637f",
-        "negativePrompt": "test, words, writing, comic, letters, meme"
+        "seed": 56448565,
+        "steps": 30,
+        "sampler": "Euler",
+        "cfgScale": 1
       },
-      "username": "TijuanaSlumlord",
-      "baseModel": "Other",
-      "modelVersionIds": [
-        1884429
-      ]
+      "username": "surush",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "98|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=98%7C1744925337225"
+    "nextCursor": "99|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=99%7C1744925337225"
   }
 }
