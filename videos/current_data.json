@@ -1,70 +1,33 @@
 {
   "items": [
     {
-      "id": 34798101,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8009e55b-61d9-4170-914c-df491e31aa98/width=832/8009e55b-61d9-4170-914c-df491e31aa98.jpeg",
-      "hash": "UB8Nh9~pxaIV%2aKM{oLDjD%RP%2M{Rjt7t7",
-      "width": 832,
-      "height": 1216,
+      "id": 64488595,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/496b5dc4-6fda-4522-8843-6ebf7f8ad8c2/width=1024/496b5dc4-6fda-4522-8843-6ebf7f8ad8c2.jpeg",
+      "hash": "UXFY7A^j~A%2%MxZM{S4?GnhxZR-bcxDNHtR",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-15T22:05:55.113Z",
-      "postId": 7952430,
+      "createdAt": "2025-03-19T18:23:59.787Z",
+      "postId": 14375519,
       "stats": {
-        "cryCount": 785,
-        "laughCount": 994,
-        "likeCount": 6437,
+        "cryCount": 649,
+        "laughCount": 1045,
+        "likeCount": 6531,
         "dislikeCount": 0,
-        "heartCount": 2472,
-        "commentCount": 56
+        "heartCount": 2441,
+        "commentCount": 11
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 3892657507,
-        "extra": {
-          "remixOfId": 34728902
-        },
-        "steps": 20,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, watercolor painting, white Cat, blue eyes,",
-        "sampler": "Euler a",
-        "cfgScale": 8,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-10-15T2201:26.0335529Z",
-        "negativePrompt": "Score_6, score_5, score_4, 3d, bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, ugly, jpeg artifacts, deformed, noisy image, deformation, duplicate horns, head wings,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 706363,
-            "modelVersionName": "v5.2"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 486869,
-            "modelVersionName": "Organic Sauce"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 708019,
-            "modelVersionName": "v1.0"
-          }
-        ]
-      },
+      "meta": null,
       "username": null,
-      "baseModel": "Pony",
-      "modelVersionIds": [
-        486869,
-        706363,
-        708019
-      ]
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "122|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=122%7C1744925337225"
+    "nextCursor": "123|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=123%7C1744925337225"
   }
 }
