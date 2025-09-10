@@ -1,35 +1,121 @@
 {
   "items": [
     {
-      "id": 74813012,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d50c572b-14d1-413d-8e16-54620fee1a4d/width=1024/d50c572b-14d1-413d-8e16-54620fee1a4d.jpeg",
-      "hash": "U78zY~PW0NznPqyErqMc16xu^NIoVYV?oyo}",
-      "width": 1024,
-      "height": 1536,
+      "id": 56215874,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5658c4ff-331f-40c3-8932-476af8ba249e/width=1536/5658c4ff-331f-40c3-8932-476af8ba249e.jpeg",
+      "hash": "U27,$Qyq0v4m^zKatW++00ij]r%C00vgwOPA",
+      "width": 1536,
+      "height": 2560,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-07T17:15:00.000Z",
-      "postId": 16611644,
+      "createdAt": "2025-02-06T18:31:09.427Z",
+      "postId": 12590319,
       "stats": {
-        "cryCount": 531,
-        "laughCount": 896,
-        "likeCount": 6775,
+        "cryCount": 465,
+        "laughCount": 874,
+        "likeCount": 6950,
         "dislikeCount": 0,
-        "heartCount": 2723,
-        "commentCount": 14
+        "heartCount": 2604,
+        "commentCount": 9
       },
-      "meta": null,
-      "username": "Pinkielicious",
-      "baseModel": "OpenAI",
+      "meta": {
+        "Size": "768x1280",
+        "seed": 3021430734,
+        "Model": "flux_dev",
+        "steps": 20,
+        "hashes": {
+          "vae": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+          "model": "8e91b68084b53a7fc44ed2a3756d821e355ac1a7b6fe29be760c1db532f3d88a",
+          "lora:0.1": "Unknown",
+          "lora:FLUX\\GLSHS": "cc0a29cba497f383017bf05c12c1e78719c6eca770cbc22cdd4480c339849c6d",
+          "lora:FLUX\\OBdonman": "Unknown",
+          "lora:FLUX\\Flux-jijia": "0d1bf7a4c51165ec4b89f96d9bbd9ec532db4dec772c42404d6c0fe80dbf4591",
+          "lora:FLUX\\Synesthesia": "e8cd2a2f4ed9b8d27a78e0158bebfab583f721f11b6e1ccddc98426d10eb054c",
+          "lora:FLUX\\Anime Art V3": "e5e8260b829327fab30685faf4a4de6c83ea2591fb716391398ea5ecc2ab07a8",
+          "lora:FLUX\\RetroAnimeS1.1": "8f43c31b6c3238ac44195c970d511d759c5893bddd00f59f42b8fe51e8e76fa0",
+          "lora:FLUX\\It's a LoRA for portraits": "Unknown",
+          "lora:FLUX\\Dieselpunk Delight - s0_9 g4": "bbe21426d5574b397dc3b97b008189101b623fa1a37bb06e90c73bedd798894c"
+        },
+        "prompt": "The image features a close-up of a person with their eyes closed, and vibrant, neon-colored streaks flowing from their eyes down their face and hand. The colors include shades of purple, pink, green, and blue, creating a striking contrast against the subject's skin tone. The person has freckles on their cheeks and nose, adding texture to their complexion. Their hair is dark and appears slightly tousled.\nThe camera captures the subject from a frontal angle, focusing closely on their face and upper body. The lighting is soft and even, highlighting the details of the subject's skin and the vivid colors of the streaks. The light source seems to be positioned in front of the subject, ensuring that the colors are bright and well-defined. Shadows are minimal, maintaining the clarity of the image.\nThe background is completely black, which isolates the subject and makes the colors pop even more. This stark contrast draws all attention to the subject and the artistic elements of the image. There are no other objects or distractions in the background, keeping the focus solely on the person and the neon streaks.\nThe composition is centered, with the subject's face taking up most of the frame. The hand gently touching the mouth adds an element of intrigue and emotion to the image. The lines of the neon streaks lead the viewer's eye across the face and down the hand, creating a dynamic flow within the composition. The overall effect is both artistic and emotive, evoking a sense of mystery and creativity.\nBREAK anime, d13s3lp2nk, bboil artist style, OBdonman, Anime art, <lora:FLUX\\Anime Art V3:0.2>, <lora:FLUX\\Synesthesia:0.2>, <lora:FLUX\\RetroAnimeS1.1:0.5>, <lora:FLUX\\Flux-jijia:0.1>, <lora:FLUX\\It's a LoRA for portraits, BUT! actually specialized in backgrounds. v1.0:0.1>, <lora:FLUX\\GLSHS:0.2>, <lora:FLUX\\Dieselpunk Delight - s0_9 g4:0.4>, <lora:FLUX\\OBdonman, anime0style portrait:0.1>",
+        "Version": "ComfyUI.LF Nodes",
+        "sampler": "euler",
+        "cfgScale": 5,
+        "clipSkip": 1,
+        "TI hashes": {},
+        "resources": [
+          {
+            "hash": "e5e8260b829327fab30685faf4a4de6c83ea2591fb716391398ea5ecc2ab07a8",
+            "name": "FLUX\\Anime Art V3",
+            "type": "lora"
+          },
+          {
+            "hash": "e8cd2a2f4ed9b8d27a78e0158bebfab583f721f11b6e1ccddc98426d10eb054c",
+            "name": "FLUX\\Synesthesia",
+            "type": "lora"
+          },
+          {
+            "hash": "8f43c31b6c3238ac44195c970d511d759c5893bddd00f59f42b8fe51e8e76fa0",
+            "name": "FLUX\\RetroAnimeS1.1",
+            "type": "lora"
+          },
+          {
+            "hash": "0d1bf7a4c51165ec4b89f96d9bbd9ec532db4dec772c42404d6c0fe80dbf4591",
+            "name": "FLUX\\Flux-jijia",
+            "type": "lora"
+          },
+          {
+            "hash": "Unknown",
+            "name": "FLUX\\It's a LoRA for portraits",
+            "type": "lora"
+          },
+          {
+            "hash": "Unknown",
+            "name": "0.1",
+            "type": "lora"
+          },
+          {
+            "hash": "cc0a29cba497f383017bf05c12c1e78719c6eca770cbc22cdd4480c339849c6d",
+            "name": "FLUX\\GLSHS",
+            "type": "lora"
+          },
+          {
+            "hash": "bbe21426d5574b397dc3b97b008189101b623fa1a37bb06e90c73bedd798894c",
+            "name": "FLUX\\Dieselpunk Delight - s0_9 g4",
+            "type": "lora"
+          },
+          {
+            "hash": "Unknown",
+            "name": "FLUX\\OBdonman",
+            "type": "lora"
+          },
+          {
+            "hash": "8e91b68084b53a7fc44ed2a3756d821e355ac1a7b6fe29be760c1db532f3d88a",
+            "name": "flux_dev",
+            "type": "model"
+          }
+        ],
+        "Model hash": "8e91b68084b53a7fc44ed2a3756d821e355ac1a7b6fe29be760c1db532f3d88a",
+        "Hires upscale": "2.0",
+        "Schedule type": "normal",
+        "Hires upscaler": "realesrganX4plus_v1.pt",
+        "Denoising strength": "1.0"
+      },
+      "username": "julek_",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        731291,
+        733245,
+        806265,
+        888290,
+        1245565,
+        1376386
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "113|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=113%7C1744925337225"
+    "nextCursor": "114|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=114%7C1744925337225"
   }
 }
