@@ -1,95 +1,52 @@
 {
   "items": [
     {
-      "id": 67188663,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a15b19a0-ba97-4b2f-8c21-068235956c18/width=832/a15b19a0-ba97-4b2f-8c21-068235956c18.jpeg",
-      "hash": "UHFp~~%4rp}bTKR*0wAAwMemAAxbv$V@NYV@",
+      "id": 25613643,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13612342-f310-43d3-86a3-401e4bfe7d3d/width=832/13612342-f310-43d3-86a3-401e4bfe7d3d.jpeg",
+      "hash": "UBC$=g%Lx]IV_NM{WVxa0LIB4:%2IpayIVWX",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T04:18:00.000Z",
-      "postId": 14942999,
+      "createdAt": "2024-08-22T16:44:44.268Z",
+      "postId": 5725652,
       "stats": {
-        "cryCount": 496,
-        "laughCount": 876,
-        "likeCount": 6751,
+        "cryCount": 495,
+        "laughCount": 1519,
+        "likeCount": 6546,
         "dislikeCount": 0,
-        "heartCount": 2765,
-        "commentCount": 6
+        "heartCount": 2249,
+        "commentCount": 10
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": false,
-        "seed": 1614503296,
-        "draft": false,
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject, dynamic angle, side view,  1girl,solo, CivChan, android,  holofoil glitter, faint, glowing, ethereal, neon hair, glowing hair, long hair, purple eyes, futuristic uniform, cleavage, standing looking sweet, stance, coy,  looking at viewer, relaxing, sci-fi",
-        "sampler": "Euler a",
-        "cfgScale": 5.5,
+        "seed": 3695857304,
+        "steps": 24,
+        "prompt": "wolf wearing sheep costume, many sheep in the background,",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
         "resources": [],
-        "Created Date": "2025-04-01T0332:46.4598770Z",
-        "negativePrompt": "score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry, window, holding, headphones,",
+        "Created Date": "2024-08-22T1643:21.2692084Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1240288,
-            "modelVersionName": "v1.3 - Style A"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.1,
-            "modelVersionId": 1380520,
-            "modelVersionName": "ILLUSTRIOUS"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1410611,
-            "modelVersionName": "ILLUSTRIOUS v1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1384132,
-            "modelVersionName": "ILLUSTRIOUS"
-          },
-          {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 1244133,
-            "modelVersionName": "V1 Ilustrious"
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           }
         ]
       },
-      "username": "ChronoKnight",
-      "baseModel": "Illustrious",
+      "username": null,
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1240288,
-        1244133,
-        1380520,
-        1384132,
-        1410611,
-        1597055
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "115|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=115%7C1744925337225"
+    "nextCursor": "116|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=116%7C1744925337225"
   }
 }
