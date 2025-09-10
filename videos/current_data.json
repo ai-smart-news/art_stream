@@ -1,79 +1,73 @@
 {
   "items": [
     {
-      "id": 95334425,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5dbdf11f-ff46-4357-a1ea-7dcab8d92c6f/width=1800/5dbdf11f-ff46-4357-a1ea-7dcab8d92c6f.jpeg",
-      "hash": "UHF}]Icu9EsF^QS%ElxFD4vzkro|rBrVbDI;",
-      "width": 3168,
-      "height": 4608,
+      "id": 60159403,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f04bb7a9-e6ac-4f31-b8b2-ce95c08db81e/width=1440/f04bb7a9-e6ac-4f31-b8b2-ce95c08db81e.jpeg",
+      "hash": "UH8plpxt9]Rk}@xaENRk-Tt6SOayNbbHxZs.",
+      "width": 1440,
+      "height": 2304,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-20T18:00:16.642Z",
-      "postId": 21144918,
+      "createdAt": "2025-02-26T03:29:01.601Z",
+      "postId": 13452959,
       "stats": {
-        "cryCount": 535,
-        "laughCount": 801,
-        "likeCount": 6617,
+        "cryCount": 480,
+        "laughCount": 747,
+        "likeCount": 6959,
         "dislikeCount": 0,
-        "heartCount": 2615,
+        "heartCount": 2374,
         "commentCount": 9
       },
       "meta": {
-        "App": "SD.Next",
-        "Size": "1056x1536",
-        "seed": 4124978750,
-        "Model": "Duchesse_vae_Myloras_00001_",
-        "steps": 8,
+        "Size": "960x1536",
+        "seed": 526772190,
+        "Model": "flux1-dev",
+        "steps": 25,
         "hashes": {
-          "model": "d2228599fa"
+          "model": "3f97fdc57a",
+          "lora:klordoftherings-01": "6b2e055078ee"
         },
-        "prompt": "masterpiece, best quality, absurdres, ultra-detailed, intricate details, sharp focus, painterly style, traditional media, HDR, vibrant colors, ink wash, cinematic lighting, epic composition,IllusP0s, 1girl, Seiza, sad, lonely, hanfu, black ruffling_hair, brown eyes, dutch angle, scenic, cherry blossoms,  <lora:ScenicILL:0.75>",
-        "Version": "419fad3",
-        "sampler": "Euler a",
-        "Detailer": {},
-        "Pipeline": "StableDiffusionXLInpaintPipeline",
-        "cfgScale": 6,
-        "Mask area": "masked",
-        "Mask blur": "4",
+        "prompt": "First-person view standing atop a rocky hill,looking towards the distant evil city of Mordor. A jagged mountain range frames the scene,with a dark,sprawling city at the center. The Eye of Sauron looms large above the city,radiating an intense,fiery glow that contrasts with the desolate,smoky atmosphere. The foreground has barren,cracked earth and sparse vegetation,while the sky is filled with swirling dark clouds. (vivid style, cinematic),<lora:klordoftherings-01:0.8>,klordoftherings,",
+        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
+        "sampler": "Euler",
+        "Module 1": "flux_ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 3,
         "resources": [
           {
-            "name": "ScenicILL",
+            "hash": "6b2e055078ee",
+            "name": "klordoftherings-01",
             "type": "lora",
-            "weight": 0.75
+            "weight": 0.8
           },
           {
-            "hash": "d2228599fa",
-            "name": "Duchesse_vae_Myloras_00001_",
+            "hash": "3f97fdc57a",
+            "name": "flux1-dev",
             "type": "model"
           }
         ],
-        "Mask alpha": "1",
-        "Model hash": "d2228599fa",
-        "Operations": "inpaint; detailer",
-        "Mask invert": "masked",
-        "Mask padding": "8",
-        "LoRA networks": "ScenicILL",
-        "Detailer steps": "10",
-        "negativePrompt": "(low quality, worst quality), patreon, artist name, displeasing, ugly, poorly drawn, displeasing, very displeasing, worst quality, bad quality, oldest, deformed limbs, bad anatomy, child, chibi",
-        "Image CFG scale": "6",
-        "Init image hash": "54d45cdb",
-        "Init image size": "1056x1536",
-        "Detailer strength": "0.2",
-        "Denoising strength": "0.5",
-        "Postprocess upscaler": "chaiNNer 4x DAT UltraSharp-v2",
-        "Postprocess upscale by": "3"
+        "Model hash": "3f97fdc57a",
+        "Hires upscale": "1.5",
+        "Schedule type": "Simple",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x_NMKD-Siax_200k",
+        "Hires CFG Scale": "1",
+        "Denoising strength": "0.4",
+        "Distilled CFG Scale": "3.5",
+        "Hires Distilled CFG Scale": "3.5"
       },
-      "username": "Chumple",
-      "baseModel": "Illustrious",
+      "username": "karlcrane2015",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        2130727
+        1441473
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "129|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=129%7C1744925337225"
+    "nextCursor": "130|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=130%7C1744925337225"
   }
 }
