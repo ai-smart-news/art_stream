@@ -1,64 +1,66 @@
 {
   "items": [
     {
-      "id": 95861628,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77ad7428-1ceb-4f7a-9bd7-72766b8faf10/width=1024/77ad7428-1ceb-4f7a-9bd7-72766b8faf10.jpeg",
-      "hash": "UDBWMfrU0#?w4m%i={IAAJ9FnMs+wHkC9uNb",
-      "width": 1024,
-      "height": 1504,
+      "id": 77673897,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1d2f3e83-4236-4f7e-833d-e5a1f40b3972/width=1152/1d2f3e83-4236-4f7e-833d-e5a1f40b3972.jpeg",
+      "hash": "UZD,T1%Mo}%L~ps:Rkxu-;oJWAxuxuRjM{j[",
+      "width": 1152,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-22T17:53:11.419Z",
-      "postId": 21263354,
+      "createdAt": "2025-05-21T20:15:00.000Z",
+      "postId": 17253409,
       "stats": {
-        "cryCount": 494,
-        "laughCount": 854,
-        "likeCount": 6713,
+        "cryCount": 607,
+        "laughCount": 1120,
+        "likeCount": 6482,
         "dislikeCount": 0,
-        "heartCount": 2585,
-        "commentCount": 10
+        "heartCount": 2391,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "1024x1504",
-        "seed": 578381702269088,
-        "Model": "visionaryILLUSTRIOUS_visionaryIllustrious",
-        "steps": 24,
-        "prompt": "masterpiece, best quality, (enhanced), (stylized), (enhanced textures), perfect composition, high detail, concept art, dynamic composition, 1boy, animal, cat, glowing, gradient, gradient background, headphones, light particles, realistic, snowing, solo, starry sky, wallpaper,",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 4,
-        "resources": [],
-        "negativePrompt": "(bad quality:1, worst quality:1, bad eyes:1)",
-        "civitaiResources": [
+        "VAE": "Flux\\ae.safetensors",
+        "seed": 627149449002175,
+        "Model": "Flux\\flux1-dev-fp8.safetensors",
+        "steps": 20,
+        "hashes": {
+          "vae": "afc8e28272",
+          "model": "1be961341b",
+          "lora:artilands_v02-000006": "e9fee0f9a7",
+          "lora:YFG-ChatGPT-4o-Style-v1e16": "8a4e45bd8f"
+        },
+        "prompt": "artilands02, Photo-realistic rendering of a mechanical frog with vibrant yellow and black spotted patterns, sitting atop a wooden post against a backdrop of a modern city skyline, the frog's metallic joints and sleek design highlighted, with two children fishing by the water's edge, a cloudy sky above, and reflections on the water creating a juxtaposition of nature and technology in a serene urban setting.",
+        "sampler": "euler_beta",
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1909771
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 2084489
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1557805
+            "hash": "1be961341b",
+            "name": "Flux\\flux1-dev-fp8.safetensors",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "1be961341b",
+        "Lora_0 Model hash": "8a4e45bd8f",
+        "Lora_0 Model name": "YFG-ChatGPT-4o-Style-v1e16.safetensors",
+        "Lora_1 Model hash": "e9fee0f9a7",
+        "Lora_1 Model name": "artilands_v02-000006.safetensors",
+        "Lora_0 Strength clip": "0.45",
+        "Lora_1 Strength clip": "0.8",
+        "Lora_0 Strength model": "0.45",
+        "Lora_1 Strength model": "0.8"
       },
-      "username": "webys2",
-      "baseModel": "Illustrious",
+      "username": "gonzalu",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1557805,
-        1909771,
-        2084489
+        694648,
+        1630082,
+        1662822
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "125|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=125%7C1744925337225"
+    "nextCursor": "126|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=126%7C1744925337225"
   }
 }
