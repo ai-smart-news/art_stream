@@ -1,95 +1,70 @@
 {
   "items": [
     {
-      "id": 64480335,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e38cb413-a9f1-4e1b-90bc-1d42c4d52e26/width=912/e38cb413-a9f1-4e1b-90bc-1d42c4d52e26.jpeg",
-      "hash": "UCFr;X4n00?b%M00M{_300?b?bD%M{~qM{IU",
-      "width": 912,
-      "height": 1336,
+      "id": 34798101,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8009e55b-61d9-4170-914c-df491e31aa98/width=832/8009e55b-61d9-4170-914c-df491e31aa98.jpeg",
+      "hash": "UB8Nh9~pxaIV%2aKM{oLDjD%RP%2M{Rjt7t7",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-19T18:00:00.000Z",
-      "postId": 14373601,
+      "createdAt": "2024-10-15T22:05:55.113Z",
+      "postId": 7952430,
       "stats": {
-        "cryCount": 567,
-        "laughCount": 1052,
-        "likeCount": 6574,
+        "cryCount": 785,
+        "laughCount": 994,
+        "likeCount": 6437,
         "dislikeCount": 0,
-        "heartCount": 2504,
-        "commentCount": 15
+        "heartCount": 2472,
+        "commentCount": 56
       },
       "meta": {
-        "": {},
-        "RNG": "CPU",
         "Size": "832x1216",
-        "seed": 415824853,
-        "Model": "noobaiXLNAIXL_vPred10Version",
-        "model": {},
-        "steps": 30,
-        "Hashes": {
-          "{embed": "Smooth_Quality"
+        "seed": 3892657507,
+        "extra": {
+          "remixOfId": 34728902
         },
-        "hashes": {
-          "model": "ea349eeae8",
-          "embed:Smooth_Quality": "d4a83433e5",
-          "embed:Smooth_Negative": "636f58fdcd",
-          "lora:Mature_Comics_Style_-_NoobAI": "3446cbb192d0"
-        },
-        "prompt": "Smooth_Quality, solo, paimon \\(genshin impact\\), empty eyes, half-closed eyes, annoyed, star-shaped pupils, halo, smoking cigarette, blowing smoke, close-up portrait, short hair, bangs, hair ornament, hair between eyes, white hair, long sleeves, dress, scarf, cape, thighhighs, spot color, shaded face, black and white, from side, dynamic angle, looking at viewer, crossed arms,   <lora:Mature_Comics_Style_-_NoobAI:1>,",
-        "Version": "f1.7.0dev-v1.10.1RC-latest-2174-g9a15d875",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 5,
-        "TI hashes": {
-          "Smooth_Quality": "d4a83433e57a",
-          "Smooth_Negative": "636f58fdcdcb"
-        },
-        "resources": [
+        "steps": 20,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, watercolor painting, white Cat, blue eyes,",
+        "sampler": "Euler a",
+        "cfgScale": 8,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-10-15T2201:26.0335529Z",
+        "negativePrompt": "Score_6, score_5, score_4, 3d, bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, ugly, jpeg artifacts, deformed, noisy image, deformation, duplicate horns, head wings,",
+        "civitaiResources": [
           {
-            "hash": "3446cbb192d0",
-            "name": "Mature_Comics_Style_-_NoobAI",
-            "type": "lora",
-            "weight": 1
+            "type": "checkpoint",
+            "modelVersionId": 706363,
+            "modelVersionName": "v5.2"
           },
           {
-            "hash": "ea349eeae8",
-            "name": "noobaiXLNAIXL_vPred10Version",
-            "type": "model"
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 486869,
+            "modelVersionName": "Organic Sauce"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 708019,
+            "modelVersionName": "v1.0"
           }
-        ],
-        "Model hash": "ea349eeae8",
-        "Hires steps": "15",
-        "Hires upscale": "1.1",
-        "Schedule type": "SGM Uniform",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "negativePrompt": "Smooth_Negative\u200b\u200b\u200b,",
-        "ADetailer model": "face_yolov8s.pt",
-        "Hires CFG Scale": "5",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.2",
-        "ADetailer mask blur": "6",
-        "ADetailer confidence": "0.2",
-        "{embed:Smooth_Quality": {},
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer mask only top k": "1",
-        "ADetailer denoising strength": "0.3",
-        "ADetailer inpaint only masked": "True",
-        "lora:Mature_Comics_Style_-_NoobAI": {},
-        "ADetailer method to decide top k masks": "Area"
+        ]
       },
-      "username": "DigitalPastel",
-      "baseModel": "NoobAI",
+      "username": null,
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1190596,
-        1195487,
-        1470551
+        486869,
+        706363,
+        708019
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "121|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=121%7C1744925337225"
+    "nextCursor": "122|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=122%7C1744925337225"
   }
 }
