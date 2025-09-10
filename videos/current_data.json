@@ -1,36 +1,94 @@
 {
   "items": [
     {
-      "id": 61315034,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34b6969e-fe76-4fad-8fe5-79ed248b3cf0/width=832/34b6969e-fe76-4fad-8fe5-79ed248b3cf0.jpeg",
-      "hash": "UHFg}2iZ4nyFG[9Y9qcY5MrY^8tK]boMF@RR",
+      "id": 38729349,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32d13028-bbc7-4c81-b243-a34879df02e8/width=832/32d13028-bbc7-4c81-b243-a34879df02e8.jpeg",
+      "hash": "U36RlRH$7o=ygVVM?]-Ux^#=QBtMies9QqtQ",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-03T20:37:56.494Z",
-      "postId": 13709400,
+      "createdAt": "2024-11-06T22:10:38.420Z",
+      "postId": 8840031,
       "stats": {
-        "cryCount": 429,
-        "laughCount": 878,
-        "likeCount": 7067,
+        "cryCount": 558,
+        "laughCount": 876,
+        "likeCount": 6805,
         "dislikeCount": 0,
-        "heartCount": 2633,
-        "commentCount": 1
+        "heartCount": 2753,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "simiancopulation",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 606569812,
+        "extra": {
+          "remixOfId": 37913924
+        },
+        "steps": 40,
+        "prompt": "score_9, score_8_up, score_8_up, 1 Indian girl, dark-skinned girl, cyberpunk, brown hair, ((long hair)), ((bangs)), straight hair, piercings, choker, portrait, ((streetwear)), average tits, teardrop shaped tits, fit body, thin waists, beautiful, night neon lighting, negative_hand, g0thicPXL, GTA",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 6.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-11-06T2151:38.4543391Z",
+        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
+          }
+        ]
+      },
+      "username": "RONIN_N",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        691639,
-        1116417
+        9208,
+        290640,
+        382152,
+        398847,
+        436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "107|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=107%7C1744925337225"
+    "nextCursor": "108|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=108%7C1744925337225"
   }
 }
