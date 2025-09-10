@@ -1,84 +1,73 @@
 {
   "items": [
     {
-      "id": 88383742,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e30f4149-c8d2-4eda-85c3-783e5e2b3352/width=1800/e30f4149-c8d2-4eda-85c3-783e5e2b3352.jpeg",
-      "hash": "UaIze^$fi|WF}txaW?V[-WM_NGofM~oMV@oc",
-      "width": 1920,
-      "height": 2816,
+      "id": 87478633,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c779f94-d90a-4817-891f-38618eedbd90/width=832/1c779f94-d90a-4817-891f-38618eedbd90.jpeg",
+      "hash": "U88;VxD+0n^i?EX9ENt603$~}-9x0jsS=?I=",
+      "width": 832,
+      "height": 1280,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-15T10:00:00.000Z",
-      "postId": 19604936,
+      "createdAt": "2025-07-10T21:53:28.907Z",
+      "postId": 19406344,
       "stats": {
-        "cryCount": 537,
-        "laughCount": 928,
-        "likeCount": 7033,
+        "cryCount": 512,
+        "laughCount": 934,
+        "likeCount": 7146,
         "dislikeCount": 0,
-        "heartCount": 2719,
-        "commentCount": 8
+        "heartCount": 2607,
+        "commentCount": 9
       },
       "meta": {
-        "seed": 907808944,
-        "vaes": [],
-        "extra": {},
-        "steps": 35,
-        "width": 832,
-        "height": 1216,
-        "models": [],
-        "prompt": "masterpiece, best_quality, absurdres, ultra-detailed, intricate_details, sharp_focus, painterly, traditional media, hdr, vibrant_colors, ink_wash, cinematic_lighting, epic_composition, landscape, scenery, wide_shot, aerial_view, panoramic_view, sweeping_view, extreme_depth_of_field, vanishing_point, depth, atmospheric_perspective, layered_landscape, matte_painting, towering_mountains, karst_mountains, mountain_peak, cliff, chasm, pagoda, multi-tiered_pagoda, ancient_china, asian_architecture, ornate_bridge, bridge_over_water, river, waterfall, plunging_waterfall, turquoise_water, rice_paddy, terraced_field, cherry_blossoms, sakura, full_bloom, pine_tree, ancient_tree, prayer_flags, fluttering, sunset, golden_hour, colorful_sky, orange_sky, magenta_sky, lavender_sky, volumetric_lighting, god_rays, ((ethereal, mist, fog)), dreamlike, majestic, breathtaking",
-        "denoise": 0.3,
-        "process": "img2img",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 8.5,
-        "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "versionIds": [],
-        "aspectRatio": "13:19",
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/D7A6W0P1AWAPPY5VSS4D44SWF0.jpeg",
-          "width": 832,
-          "height": 1216
+        "VAE": "ae_flux.safetensors",
+        "seed": 598490787914000,
+        "Model": "Chroma_Flux1_S_Base\\chroma_v35DetailCalibrated.safetensors",
+        "steps": 20,
+        "hashes": {
+          "vae": "afc8e28272",
+          "model": "e01d54637f",
+          "lora:- Flux1 DeDi - sharp_various_longcaptation_1.0": "67ec9d72c5",
+          "lora:-_Flux1_DeDi_-_sharp_various_longcaptation_1.0": "67ec9d72c5",
+          "lora:- Flux1 DeDi - effects_n_pattern_1.0-step00002600": "f423b179d1",
+          "lora:-_Flux1_DeDi_-_effects_n_pattern_1.0-step00002600": "f423b179d1"
         },
-        "experimental": false,
-        "negativePrompt": "(worst quality, low quality, normal quality:2), blurry, pixelated, grainy, noisy, oversaturated, jpeg artifacts, watermark, signature, text, logo, border, frame, sketch, cartoon, 3d, cgi, anime, flat_lighting, broken perspective, depth_fail, unnatural depth, bad composition, ugly color palette, photo, real_life",
-        "civitaiResources": [
+        "prompt": "a world without a light so dark and bright on a faithfull night <lora:-_Flux1_DeDi_-_effects_n_pattern_1.0-step00002600:0.7000000000000002> <lora:-_Flux1_DeDi_-_sharp_various_longcaptation_1.0:0.8000000000000002>",
+        "sampler": "DPM++ 2M_sgm_uniform",
+        "cfgScale": 5,
+        "clipSkip": 1,
+        "resources": [
           {
-            "weight": 1,
-            "modelVersionId": 1900496
+            "hash": "f423b179d1",
+            "name": "-_Flux1_DeDi_-_effects_n_pattern_1.0-step00002600",
+            "type": "lora",
+            "weight": 0.7000000000000002
           },
           {
-            "weight": 1.1,
-            "modelVersionId": 1571875
+            "hash": "67ec9d72c5",
+            "name": "-_Flux1_DeDi_-_sharp_various_longcaptation_1.0",
+            "type": "lora",
+            "weight": 0.8000000000000002
           },
           {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "hash": "e01d54637f",
+            "name": "Chroma_Flux1_S_Base\\chroma_v35DetailCalibrated.safetensors",
+            "type": "model"
           }
         ],
-        "additionalResources": []
+        "Model hash": "e01d54637f",
+        "negativePrompt": "test, words, writing, comic, letters, meme"
       },
-      "username": "2018cfh",
-      "baseModel": "Illustrious",
+      "username": "TijuanaSlumlord",
+      "baseModel": "Other",
       "modelVersionIds": [
-        164821,
-        1571875,
-        1900496
+        1884429
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "97|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=97%7C1744925337225"
+    "nextCursor": "98|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=98%7C1744925337225"
   }
 }
