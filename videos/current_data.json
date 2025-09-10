@@ -1,86 +1,38 @@
 {
   "items": [
     {
-      "id": 13338632,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e65752c9-52c3-4392-b922-011e16a7d7ba/width=1248/e65752c9-52c3-4392-b922-011e16a7d7ba.jpeg",
-      "hash": "UEF=s_TKIp_N~pxu00IU.8Mx4nf6_N%MROn$",
-      "width": 1248,
-      "height": 1824,
+      "id": 86148975,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fabb53ff-2ca5-436c-9c83-4c6bcdc5f6fa/width=1536/fabb53ff-2ca5-436c-9c83-4c6bcdc5f6fa.jpeg",
+      "hash": "UBAu;L}xI,NORtNFR|od0v9?oFs%=q-Co6Rp",
+      "width": 1536,
+      "height": 2688,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-06-28T18:00:42.835Z",
-      "postId": 2947916,
+      "createdAt": "2025-07-04T18:01:00.000Z",
+      "postId": 19117420,
       "stats": {
-        "cryCount": 449,
-        "laughCount": 936,
-        "likeCount": 7041,
+        "cryCount": 535,
+        "laughCount": 904,
+        "likeCount": 7105,
         "dislikeCount": 0,
-        "heartCount": 2971,
-        "commentCount": 6
+        "heartCount": 2835,
+        "commentCount": 10
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 1327749010,
-        "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
-        "steps": 20,
-        "hashes": {
-          "model": "67ab2fd8ec",
-          "lora:Fant5yP0ny": "a493698332df"
-        },
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,<lora:Fant5yP0ny:0.8>, 1girl, armor, weapon, wings, solo, shoulder armor, blue eyes, pauldrons, white hair, looking at viewer, power armor",
-        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "Mask blur": "4",
-        "resources": [
-          {
-            "hash": "a493698332df",
-            "name": "Fant5yP0ny",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "67ab2fd8ec",
-            "name": "ponyDiffusionV6XL_v6StartWithThisOne",
-            "type": "model"
-          }
-        ],
-        "Model hash": "67ab2fd8ec",
-        "Hires steps": "15",
-        "Inpaint area": "Only masked",
-        "Hires upscale": "1.5",
-        "Hires upscaler": "4x_NMKD-Superscale-SP_178000_G",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer version": "24.3.2",
-        "Denoising strength": "0.4",
-        "ADetailer mask blur": "4",
-        "ADetailer model 2nd": "full_eyes_detect_v1.pt",
-        "Masked area padding": "32",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer mask blur 2nd": "4",
-        "ADetailer confidence 2nd": "0.3",
-        "ADetailer inpaint padding": "32",
-        "ADetailer dilate erode 2nd": "4",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 2nd": "32",
-        "ADetailer denoising strength 2nd": "0.4",
-        "ADetailer inpaint only masked 2nd": "True"
-      },
-      "username": "popyay",
-      "baseModel": "Pony",
+      "meta": null,
+      "username": "lordstjohn",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        290640,
-        522995
+        916415,
+        1227713,
+        1558765,
+        1658208
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "90|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=90%7C1744925337225"
+    "nextCursor": "91|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=91%7C1744925337225"
   }
 }
