@@ -1,33 +1,167 @@
 {
   "items": [
     {
-      "id": 64488595,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/496b5dc4-6fda-4522-8843-6ebf7f8ad8c2/width=1024/496b5dc4-6fda-4522-8843-6ebf7f8ad8c2.jpeg",
-      "hash": "UXFY7A^j~A%2%MxZM{S4?GnhxZR-bcxDNHtR",
-      "width": 1024,
-      "height": 1536,
+      "id": 82634156,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/361460ba-6c48-411b-88e9-4dcd608711b5/width=1280/361460ba-6c48-411b-88e9-4dcd608711b5.jpeg",
+      "hash": "UODlNc9tIUt6~BIpRiR%$eNIWVS3xbWBWAbc",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-19T18:23:59.787Z",
-      "postId": 14375519,
+      "createdAt": "2025-06-16T20:23:00.000Z",
+      "postId": 18353889,
       "stats": {
-        "cryCount": 649,
-        "laughCount": 1045,
-        "likeCount": 6531,
+        "cryCount": 483,
+        "laughCount": 863,
+        "likeCount": 6686,
         "dislikeCount": 0,
-        "heartCount": 2441,
-        "commentCount": 11
+        "heartCount": 2617,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": null,
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "nsfw": false,
+        "seed": 658775543,
+        "vaes": [
+          "urn:air:sdxl:vae:civitai:296576@333245"
+        ],
+        "Model": "urn:air:sdxl:checkpoint:civitai:643227@770375",
+        "extra": {
+          "remixOfId": 81541540
+        },
+        "steps": 25,
+        "width": 832,
+        "height": 1216,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:643227@770375"
+        ],
+        "prompt": "(absurdres, best quality, masterpiece:1.4), score_9, score_8_up, score_7_up, score_6_up, detailed, detailed body, detailed face, world of warcraft, fantasy, \n\nfFaceDetail, SkinDetail, ((female, draenei, tall, athletic arms, pale white skin, smooth skin, long white hair, purple eyes, no pupil, no sclera, long white tail), (h0rns, ram horns, white horns), \n(long fingers, purple fingernails, purple nail polish)), \n\n(long loose cyan dress, simple armlet, black facemask, cyan silk scarf), dagger, holding a dagger,\n\nfull body, squatting, \n\noutdoor, evening, mountains, sunset, snow",
+        "denoise": 0.4,
+        "sampler": "Euler a",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-hires",
+        "baseModel": "Pony",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "disablePoi": true,
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/7820XYAY49B04PGDGY98252ES0.jpeg",
+          "width": 832,
+          "height": 1216
+        },
+        "experimental": false,
+        "negativePrompt": "civit_nsfw, nude, cleavage, plain background, text, anime, score_4, score_5, easynegative, negative_hand, \n\nlong ears, human, elf, bull horns, kudu horn, split horn, nipples, skin markings, \n\nhair behind eyes, blur, blurry face, broken shoulders,  tattoo, tattoos,  \n\ntight clothing, ",
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 770375
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 770375
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 9208
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 60938
+          },
+          {
+            "weight": 0.85,
+            "modelVersionId": 522995
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 663601
+          },
+          {
+            "weight": 4,
+            "modelVersionId": 712947
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 720175
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 333245
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 770375
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          },
+          {
+            "type": "vae",
+            "modelVersionId": 333245
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 522995
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 663601
+          },
+          {
+            "type": "lora",
+            "weight": 4,
+            "modelVersionId": 712947
+          }
+        ],
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:470073@522995",
+            "type": "lora",
+            "strength": 0.85,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:594148@663601",
+            "type": "lora",
+            "strength": 1,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:402462@712947",
+            "type": "lora",
+            "strength": 4,
+            "strengthClip": 1
+          }
+        ]
+      },
+      "username": "Vorfreude",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        9208,
+        60938,
+        164821,
+        333245,
+        522995,
+        663601,
+        712947,
+        720175,
+        770375
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "123|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=123%7C1744925337225"
+    "nextCursor": "124|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=124%7C1744925337225"
   }
 }
