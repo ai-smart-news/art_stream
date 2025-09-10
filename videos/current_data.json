@@ -1,96 +1,94 @@
 {
   "items": [
     {
-      "id": 87483545,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bc363f8-6018-4fa7-ae7f-5d8f99792b0f/width=1328/0bc363f8-6018-4fa7-ae7f-5d8f99792b0f.jpeg",
-      "hash": "UEBx.PNb59R*9cNIt5$%9c%0-TIq~9R*IqWV",
-      "width": 1328,
-      "height": 1944,
+      "id": 64621413,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c145c1be-6532-47a6-a436-f5bda14e99b4/width=1800/c145c1be-6532-47a6-a436-f5bda14e99b4.jpeg",
+      "hash": "UVIW~JS*0Lnz?dNyNFn$M|oc%2NGM}Wrt3xF",
+      "width": 2048,
+      "height": 1408,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-10T21:14:29.832Z",
-      "postId": 19407372,
+      "createdAt": "2025-03-20T08:11:10.938Z",
+      "postId": 14404038,
       "stats": {
-        "cryCount": 585,
-        "laughCount": 1162,
-        "likeCount": 7059,
+        "cryCount": 647,
+        "laughCount": 1007,
+        "likeCount": 7083,
         "dislikeCount": 0,
-        "heartCount": 2622,
-        "commentCount": 5
+        "heartCount": 2685,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 3154900787,
-        "Model": "colossusProjectFlux_v10bBOBFP8UNETOnly",
-        "steps": 50,
-        "hashes": {
-          "lora:FLUX_antiblur": "328f945688a9"
+        "nsfw": true,
+        "seed": 444860461,
+        "vaes": [],
+        "draft": false,
+        "extra": {},
+        "steps": 30,
+        "width": 1216,
+        "height": 832,
+        "models": [],
+        "prompt": "A golden road winds through a misty valley towards towering mountains. The rising sun peeks over the horizon, painting the sky in vivid hues of pink, orange, and gold. Ancient white cherry trees line the path, their blossoms awakening to the dawn's first light, petals glowing with an ethereal radiance. Dew-kissed grass sparkles as sunbeams dance across the landscape. Wispy clouds catch the morning light, transforming into floating islands of color. In the distance, the mountains' peaks emerge from shadow, their crystal spires glinting in the new day's brilliance. As the world stirs to life, luminous flowers unfurl along the roadside, their soft glow harmonizing with the cherry blossoms' increasing luminescence.",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 3.5,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-upscale",
+        "baseModel": "Flux1",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/1ZG246VM0KZNAE77Y4CXXVW450.jpeg",
+          "width": 1216,
+          "height": 832,
+          "upscaleWidth": 2048,
+          "upscaleHeight": 1408
         },
-        "prompt": "A luminous texture of a red hair stylized cat, glowing in the warm glow of its brightened eyes. With golden paws reaching out to grasp and fur-lined clothing coverings \u00e2\u0080\u0093 all caught gracefully within striking detail and beautiful details - reminiscent entirely oracular. <lora:FLUX_antiblur:0.5>, Film grain, cinematic film still, highly detailed, high budget, cinemascope, moody, epic, OverallDetail, gorgeous, 2000s vintage RAW photo, photorealistic, candid camera, color graded cinematic, eye catchlights, atmospheric lighting, imperfections, natural, shallow dof",
-        "sampler": "Res Multistep",
-        "Module 1": "t5xxl_fp16",
-        "Module 2": "ViT-L-14-REG-GATED-balanced-ckpt12",
-        "Module 3": "flux_vae",
-        "cfgScale": 2.3,
-        "resources": [
+        "upscaleWidth": 2048,
+        "upscaleHeight": 1408,
+        "civitaiResources": [
           {
-            "hash": "328f945688a9",
-            "name": "FLUX_antiblur",
-            "type": "lora",
-            "weight": 0.5
+            "weight": 1,
+            "modelVersionId": 691639
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 691639
+          },
+          {
+            "weight": 0.7,
+            "modelVersionId": 720252
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 766438
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
         ],
-        "Extra noise": "0.01",
-        "Hires steps": "38",
-        "Hires prompt": {
-          "(Sharp focus": "2)",
-          "FLUX_antiblur": "0.5>"
-        },
-        "Hires upscale": "1.6",
-        "Schedule type": "SGM Uniform",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4xNomos2_otf_esrgan",
-        "negativePrompt": "NSFW, nude, naked, blurry, (unperfect image:2), (unperfect details:2), (inconsistent fine details:2), (composition errors:2), (inconsistent features:2), (inconsistent faces:2), (inconsistent hands:2), (inconsistent fingers:2), (low quality:2), (worst quality:2), (shallow depth of field), (bad hands:2), (ugly eyes:2), (fused fingers:2), (elongated fingers:2), (additional fingers:2), missing fingers, (intricated patterns:2), (intricated vegetation:2), (lowres), (poor detailing:2), unrealistic lighting, sketchy, unnatural, watermark, (unrealistic:2), (bad perspective:2), (bad face:2), (airbrushed, anime, semi-realistic, cgi, blender, amateur:2)",
-        "Hires CFG Scale": "2.3",
-        "Denoising strength": "0.5",
-        "Distilled CFG Scale": "3.5",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "Hires negative prompt": {
-          "amateur": "2)",
-          "(bad face": "2)",
-          "(bad hands": "2)",
-          "(ugly eyes": "2)",
-          "(low quality": "2)",
-          "(unrealistic": "2)",
-          "(poorly drawn": "2)",
-          "(fused fingers": "2)",
-          "(worst quality": "2)",
-          "(poor detailing": "2)",
-          "(bad perspective": "2)",
-          "(unperfect image": "2)",
-          "(elongated fingers": "2)",
-          "(unperfect details": "2)",
-          "(additional fingers": "2)",
-          "(composition errors": "2)",
-          "(inconsistent faces": "2)",
-          "(inconsistent hands": "2)",
-          "(intricated patterns": "2)",
-          "(inconsistent fingers": "2)",
-          "(inconsistent features": "2)",
-          "(intricated vegetation": "2)",
-          "(inconsistent fine details": "2)"
-        },
-        "Hires Distilled CFG Scale": "3.5"
+        "additionalResources": []
       },
-      "username": "_Wizz_",
+      "username": "Shirowalker",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        164821,
+        691639,
+        720252,
+        766438
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "88|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=88%7C1744925337225"
+    "nextCursor": "89|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=89%7C1744925337225"
   }
 }
