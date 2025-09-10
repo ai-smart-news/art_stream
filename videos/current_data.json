@@ -1,36 +1,127 @@
 {
   "items": [
     {
-      "id": 71597557,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89f5cd5a-4728-45d4-b275-817332e46f00/width=832/89f5cd5a-4728-45d4-b275-817332e46f00.jpeg",
-      "hash": "U5AmY$Mx8wyYCS$*Me%NMao~7O$evMtS~XE1",
-      "width": 832,
-      "height": 1216,
+      "id": 67220815,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc4449f-0ebb-4566-adc8-50001d57ef0e/width=1800/1cc4449f-0ebb-4566-adc8-50001d57ef0e.jpeg",
+      "hash": "U3Hm.P000K=L2]00?u0M0f~BZio|0f^*010f",
+      "width": 1920,
+      "height": 2560,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-21T18:02:00.000Z",
-      "postId": 15903665,
+      "createdAt": "2025-04-02T22:37:05.565Z",
+      "postId": 14948823,
       "stats": {
-        "cryCount": 558,
-        "laughCount": 1003,
-        "likeCount": 6646,
+        "cryCount": 536,
+        "laughCount": 942,
+        "likeCount": 6630,
         "dislikeCount": 0,
-        "heartCount": 2600,
-        "commentCount": 3
+        "heartCount": 2698,
+        "commentCount": 12
       },
-      "meta": null,
-      "username": "DoreenAI",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "TI": {},
+        "RNG": "CPU",
+        "Size": "960x1280",
+        "seed": 88888888,
+        "Model": "ilustmix-v4-illustrious-by_gzees",
+        "steps": 120,
+        "hashes": {
+          "model": "d5894b84fa",
+          "model:artsy_vibe-flux-fp8": "d9d414bd11",
+          "lora:civchan-illustrious-by_civchan": "adf956abf9",
+          "embed:smooth_quality_illustrious-neg": "636f58fdcd",
+          "embed:smooth_quality_illustrious-pos": "0388be1500",
+          "lora:text_improver-v0.4-flux-by_aidma": "ed58e7ed92",
+          "lora:hands-v5.5-flux-by_vantablackdark": "542c4af624",
+          "lora:maid_cafe-illustrious-by_bolero537": "6b3852de79",
+          "lora:flux_pro1.1_detailer-v0.3-flux-by_aidma": "3f3e39bb45",
+          "lora:dramatic_lighting_slider-illustrious-by_klaabu": "cad8e91066",
+          "lora:style-moriimee-gothic_niji-flux-by_tentacles_riders": "077c40863c",
+          "lora:style-moriimee_gothic_niji-illustrious-by_tentacles_riders": "570bcb313e"
+        },
+        "prompt": "smooth_quality_illustrious-pos, (realistic:1.2), (very awa:1.2), (masterpiece:1.2), (best quality:1.2), (amazing quality:1.2), (very aesthetic:1.1), high resolution, absurdres, ultra-detailed, hdr, civchan, the cutest girl in the world, wearing a (maid costume:1.1), shoulder length pink hair, heart hands, glowing heart eyes, smiling, glimmer, sparkles, (lots of floating hearts:1.2), looking at viewer, cozy caf\u00e9, rim lighting, crepuscular rays, indoors, table, patrons in the background, food, curtains, circuit board sticking in a strawberry cake, cup of coffee with latte art, chalkboard with restaurant menu and hearts on the wall, little vase with flowers on the table, illuminated dust particles, \"someone\" asked me to add that i was definitely not forced with a knife to write \"cutest girl in the world\" about her, there, done, *sigh*, ovg, artist:moriimee, <lora:maid_cafe-illustrious-by_bolero537:1.0> <lora:civchan-illustrious-by_civchan:1.0> <lora:style-moriimee_gothic_niji-illustrious-by_tentacles_riders:0.6> <lora:dramatic_lighting_slider-illustrious-by_klaabu:3.0>",
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d43",
+        "sampler": "Euler",
+        "Module 1": "sdxl_vae",
+        "cfgScale": 7.2,
+        "resources": [
+          {
+            "name": "maid_cafe-illustrious-by_bolero537",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "name": "civchan-illustrious-by_civchan",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "name": "style-moriimee_gothic_niji-illustrious-by_tentacles_riders",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "name": "dramatic_lighting_slider-illustrious-by_klaabu",
+            "type": "lora",
+            "weight": 3
+          },
+          {
+            "hash": "d9d414bd11",
+            "name": "ilustmix-v4-illustrious-by_gzees",
+            "type": "model"
+          }
+        ],
+        "Model hash": "d9d414bd11",
+        "Hires steps": "36",
+        "Hires upscale": "2",
+        "Schedule type": "Beta",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x_foolhardy_remacri",
+        "negativePrompt": "smooth_quality_illustrious-neg, (deformed:1.1), (crippled:1.1), (worst quality:1.1), (bad quality:1.1), (low quality:1.1), (2d:1.1), (flat:1.1), (simple:1.1), (ugly:1.1), unsharp, smudged, bad anatomy, bad hands, watermark, distorted, deformed, signature",
+        "Hires CFG Scale": "1",
+        "ADetailer version": "25.3.0",
+        "Beta schedule beta": "0.6",
+        "Denoising strength": "0.12",
+        "ADetailer model 2nd": "hand-yolov9c.pt",
+        "Beta schedule alpha": "0.6",
+        "ADetailer prompt 2nd": {
+          "hands-v5.5-xl-by_vantablackdark": "0.72>"
+        },
+        "ADetailer mask blur 2nd": "12",
+        "ADetailer confidence 2nd": "0.3",
+        "ADetailer dilate erode 2nd": "16",
+        "ADetailer inpaint width 2nd": "1216",
+        "ADetailer inpaint height 2nd": "832",
+        "ADetailer inpaint padding 2nd": "32",
+        "ADetailer mask only top k 2nd": "2",
+        "ADetailer mask merge invert 2nd": "Merge",
+        "ADetailer denoising strength 2nd": "0.2",
+        "ADetailer inpaint only masked 2nd": "True",
+        "ADetailer use inpaint width height 2nd": "True",
+        "ADetailer method to decide top k masks 2nd": "Confidence"
+      },
+      "username": "OneViolentGentleman",
+      "baseModel": "Flux.1 DIllustrious",
       "modelVersionIds": [
-        803128,
-        1358518
+        907877,
+        997426,
+        1189748,
+        1195460,
+        1195487,
+        1242203,
+        1244133,
+        1244911,
+        1308180,
+        1553725,
+        1556527,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "117|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=117%7C1744925337225"
+    "nextCursor": "118|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=118%7C1744925337225"
   }
 }
