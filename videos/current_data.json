@@ -1,37 +1,79 @@
 {
   "items": [
     {
-      "id": 68714165,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cea39502-59c0-405a-8d86-b30d336914a2/width=832/cea39502-59c0-405a-8d86-b30d336914a2.jpeg",
-      "hash": "U6Bg0jtl00DiH;xBIoJC01xa~Vkq^iS5NynN",
-      "width": 832,
-      "height": 1216,
+      "id": 95334425,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5dbdf11f-ff46-4357-a1ea-7dcab8d92c6f/width=1800/5dbdf11f-ff46-4357-a1ea-7dcab8d92c6f.jpeg",
+      "hash": "UHF}]Icu9EsF^QS%ElxFD4vzkro|rBrVbDI;",
+      "width": 3168,
+      "height": 4608,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-08T06:56:36.396Z",
-      "postId": 15267938,
+      "createdAt": "2025-08-20T18:00:16.642Z",
+      "postId": 21144918,
       "stats": {
-        "cryCount": 554,
-        "laughCount": 870,
-        "likeCount": 6726,
+        "cryCount": 535,
+        "laughCount": 801,
+        "likeCount": 6617,
         "dislikeCount": 0,
-        "heartCount": 2452,
-        "commentCount": 14
+        "heartCount": 2615,
+        "commentCount": 9
       },
-      "meta": null,
-      "username": "Graf137",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "App": "SD.Next",
+        "Size": "1056x1536",
+        "seed": 4124978750,
+        "Model": "Duchesse_vae_Myloras_00001_",
+        "steps": 8,
+        "hashes": {
+          "model": "d2228599fa"
+        },
+        "prompt": "masterpiece, best quality, absurdres, ultra-detailed, intricate details, sharp focus, painterly style, traditional media, HDR, vibrant colors, ink wash, cinematic lighting, epic composition,IllusP0s, 1girl, Seiza, sad, lonely, hanfu, black ruffling_hair, brown eyes, dutch angle, scenic, cherry blossoms,  <lora:ScenicILL:0.75>",
+        "Version": "419fad3",
+        "sampler": "Euler a",
+        "Detailer": {},
+        "Pipeline": "StableDiffusionXLInpaintPipeline",
+        "cfgScale": 6,
+        "Mask area": "masked",
+        "Mask blur": "4",
+        "resources": [
+          {
+            "name": "ScenicILL",
+            "type": "lora",
+            "weight": 0.75
+          },
+          {
+            "hash": "d2228599fa",
+            "name": "Duchesse_vae_Myloras_00001_",
+            "type": "model"
+          }
+        ],
+        "Mask alpha": "1",
+        "Model hash": "d2228599fa",
+        "Operations": "inpaint; detailer",
+        "Mask invert": "masked",
+        "Mask padding": "8",
+        "LoRA networks": "ScenicILL",
+        "Detailer steps": "10",
+        "negativePrompt": "(low quality, worst quality), patreon, artist name, displeasing, ugly, poorly drawn, displeasing, very displeasing, worst quality, bad quality, oldest, deformed limbs, bad anatomy, child, chibi",
+        "Image CFG scale": "6",
+        "Init image hash": "54d45cdb",
+        "Init image size": "1056x1536",
+        "Detailer strength": "0.2",
+        "Denoising strength": "0.5",
+        "Postprocess upscaler": "chaiNNer 4x DAT UltraSharp-v2",
+        "Postprocess upscale by": "3"
+      },
+      "username": "Chumple",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        1244911,
-        1524423
+        2130727
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "128|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=128%7C1744925337225"
+    "nextCursor": "129|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=129%7C1744925337225"
   }
 }
