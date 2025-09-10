@@ -1,40 +1,82 @@
 {
   "items": [
     {
-      "id": 67357648,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a52d0a77-55ea-4e1b-8e00-3ab137204dd7/width=1664/a52d0a77-55ea-4e1b-8e00-3ab137204dd7.jpeg",
-      "hash": "UIIq}qt701oz}[WX01RjR5a|rro0B-oe%fof",
-      "width": 1664,
-      "height": 2432,
+      "id": 86373697,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b16a8e2-ca52-4572-825f-1a109cabc362/width=1304/0b16a8e2-ca52-4572-825f-1a109cabc362.jpeg",
+      "hash": "U64f:zj]D4tn*0adf.o}MwV?x_ozD4VryEf5",
+      "width": 1304,
+      "height": 1952,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T23:17:45.811Z",
-      "postId": 14979448,
+      "createdAt": "2025-07-05T06:22:33.422Z",
+      "postId": 19165919,
       "stats": {
-        "cryCount": 591,
-        "laughCount": 1481,
-        "likeCount": 6287,
+        "cryCount": 512,
+        "laughCount": 882,
+        "likeCount": 6600,
         "dislikeCount": 0,
-        "heartCount": 2419,
-        "commentCount": 31
+        "heartCount": 2696,
+        "commentCount": 8
       },
-      "meta": null,
-      "username": "kaalibro",
-      "baseModel": "Illustrious",
+      "meta": {
+        "Size": "768x1152",
+        "seed": 4050293370,
+        "Model": "flux1-dev-fp8",
+        "steps": 30,
+        "hashes": {
+          "model": "8e91b68084",
+          "lora:Vibrantly_Floral_style": "81ca9a5bf335",
+          "lora:Anime_Scenery_style_v.1": "e44059c06341"
+        },
+        "prompt": "<lora:Anime_Scenery_style_v.1:0.8> AnimeScenery style. Three luminous blue blossoms float like starlight on a gnarled branch, their delicate petals glowing with soft gradients of sapphire and cerulean as golden stamens sparkle against the velvety shadows of a moonlit forest. Suspended beneath the lowest leaf, a crystal drop of dew descends in slow motion, just above a still, obsidian pool where gentle ripples radiate outward in concentric rings of pale light. The background fades into deep cobalt and indigo, with bokeh glimmers hinting at unseen foliage in a dreamlike haze. Rendered in ultra-high detail with a shallow depth of field and soft overhead lighting, the scene balances surreal botanical elegance with a quiet aquatic atmosphere. A complementary palette of cool blues and warm gold punctuates the darkness, while the composition's vertical symmetry draws the viewer's eye from blossom to droplet to ripple, creating a meditative, weightless moment frozen in enchanted stillness.",
+        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "e44059c06341",
+            "name": "Anime_Scenery_style_v.1",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "81ca9a5bf335",
+            "name": "Vibrantly_Floral_style",
+            "type": "lora",
+            "weight": 0.7
+          },
+          {
+            "hash": "8e91b68084",
+            "name": "flux1-dev-fp8",
+            "type": "model"
+          }
+        ],
+        "Model hash": "8e91b68084",
+        "Hires steps": "20",
+        "Hires upscale": "1.7",
+        "Original Size": "768x1152",
+        "Schedule type": "Simple",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "Latent",
+        "Hires CFG Scale": "1",
+        "Denoising strength": "0.6",
+        "Distilled CFG Scale": "3",
+        "Hires schedule type": "Simple",
+        "wildcards_batch_salt": "3520890663",
+        "Diffusion in Low Bits": "float8-e4m3fn (fp16 LoRA)",
+        "Hires Distilled CFG Scale": "3"
+      },
+      "username": "Bra2ha",
+      "baseModel": null,
       "modelVersionIds": [
-        530790,
-        567119,
-        1396529,
-        1541883,
-        1553725,
-        1597055
+        1975873
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "119|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=119%7C1744925337225"
+    "nextCursor": "120|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=120%7C1744925337225"
   }
 }
