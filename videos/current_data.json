@@ -1,52 +1,35 @@
 {
   "items": [
     {
-      "id": 76398341,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23c8ce90-fe80-4da3-9573-a1f4d563c568/width=1024/23c8ce90-fe80-4da3-9573-a1f4d563c568.jpeg",
-      "hash": "UQQvzZ%M~q%N-;R*WAs-.9bHD$jEs-s.xvNe",
+      "id": 78110188,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/18083612-52a8-48db-8a85-6ac258839fd1/width=1024/18083612-52a8-48db-8a85-6ac258839fd1.jpeg",
+      "hash": "UFLWt#E1=xS%?HbbWAsm~pxbN^$#NZadR-Nw",
       "width": 1024,
       "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-17T23:10:39.666Z",
-      "postId": 16968045,
+      "createdAt": "2025-05-23T23:52:27.362Z",
+      "postId": 17351787,
       "stats": {
-        "cryCount": 527,
-        "laughCount": 1081,
-        "likeCount": 7082,
+        "cryCount": 585,
+        "laughCount": 1184,
+        "likeCount": 6501,
         "dislikeCount": 0,
-        "heartCount": 2378,
-        "commentCount": 7
+        "heartCount": 2759,
+        "commentCount": 17
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "a glass marble with rainbow inside falling into water",
-        "process": "txt2img",
-        "quality": "high",
-        "quantity": 4,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
-          }
-        ]
+        "prompt": "ikea blahaj shark if it were an axolotl instead"
       },
-      "username": "tjluins",
+      "username": "schmede",
       "baseModel": "OpenAI",
-      "modelVersionIds": [
-        1733399
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "104|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=104%7C1744925337225"
+    "nextCursor": "105|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=105%7C1744925337225"
   }
 }
