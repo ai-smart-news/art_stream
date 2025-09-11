@@ -1,66 +1,33 @@
 {
   "items": [
     {
-      "id": 29153357,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74773b8a-4732-4184-abab-ff9290bcf1d7/width=832/74773b8a-4732-4184-abab-ff9290bcf1d7.jpeg",
-      "hash": "UQJtL}%1?tS2}@aeEfW;R6RkbvxttkfkRkjt",
-      "width": 832,
-      "height": 1216,
+      "id": 86240018,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a271ed3-9f19-4293-bcde-7f3ba7e45ce2/width=1024/0a271ed3-9f19-4293-bcde-7f3ba7e45ce2.jpeg",
+      "hash": "UPJZVY=^={=_.mI=X9t6ctWWI@I@%gj[WBWV",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-13T03:58:25.353Z",
-      "postId": 6522916,
+      "createdAt": "2025-07-04T14:22:53.812Z",
+      "postId": 19137408,
       "stats": {
-        "cryCount": 598,
-        "laughCount": 924,
-        "likeCount": 6272,
+        "cryCount": 541,
+        "laughCount": 1746,
+        "likeCount": 5676,
         "dislikeCount": 0,
-        "heartCount": 2329,
-        "commentCount": 1
+        "heartCount": 2149,
+        "commentCount": 20
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 4253327021,
-        "steps": 25,
-        "prompt": "ArsMJStyle, Minimalist Vector Art of a Frank Frazetta fantasy oil painting young woman with bright red hair blowing in the wind, wearing chainmail armor",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-09-13T0358:07.9248004Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 1.15,
-            "modelVersionId": 801269,
-            "modelVersionName": "Flux"
-          },
-          {
-            "type": "lora",
-            "weight": 1.15,
-            "modelVersionId": 792756,
-            "modelVersionName": "flux v2.0"
-          }
-        ]
-      },
-      "username": "darmox",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        792756,
-        801269
-      ]
+      "meta": null,
+      "username": "Fujido",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "161|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=161%7C1744925337225"
+    "nextCursor": "162|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=162%7C1744925337225"
   }
 }
