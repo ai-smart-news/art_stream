@@ -1,67 +1,80 @@
 {
   "items": [
     {
-      "id": 82224194,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b249013a-1a7e-47d1-9327-8b3945b800c4/width=832/b249013a-1a7e-47d1-9327-8b3945b800c4.jpeg",
-      "hash": "UOJa7zK5xr~B0Kk8tRo~Ad$%V@IoIo%1s.n*",
+      "id": 64321194,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed81ad27-3a5e-424d-b163-5d3dc037ac02/width=832/ed81ad27-3a5e-424d-b163-5d3dc037ac02.jpeg",
+      "hash": "U7Iz6C%2039v$}wf03%K02DQ?Y~U0Ntjx@0$",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-18T03:57:00.000Z",
-      "postId": 18262364,
+      "createdAt": "2025-04-09T07:50:38.553Z",
+      "postId": 14340518,
       "stats": {
-        "cryCount": 433,
-        "laughCount": 777,
-        "likeCount": 6479,
+        "cryCount": 495,
+        "laughCount": 810,
+        "likeCount": 6513,
         "dislikeCount": 0,
-        "heartCount": 2260,
-        "commentCount": 6
+        "heartCount": 2133,
+        "commentCount": 1
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 103092078,
-        "steps": 19,
-        "prompt": "1girl, solo, purple eyes, dark blue hair, short hair, bangs, bob cut, streaked hair, masterpiece, best quality, absurdres,breasts, shirt, hair accessories, accessories, red glasses, indoors, bedroom, face closeup, extreme closeup, face portrait, front view, side eye, wink,v, seductive,\nwhite borders,",
-        "sampler": "Euler a",
-        "cfgScale": 4,
+        "seed": 1612824657,
+        "steps": 25,
+        "prompt": "in the style of ck-mgs, nistyle, Special Ink-drawing mode, intricate linework with expressive contrasts, Mh1$AgThS2, Inkplash art on rice paper, sepia, henna , Silhouette Art, magnificent, inksplash image of stunning japanese woman, gold and red cheongsam, sitting in front of tori gate, facing viewer, dappled sunlight",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2025-06-14T0550:23.5265819Z",
-        "negativePrompt": "easynegative",
+        "Created Date": "2025-03-18T1049:42.6536584Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1697082,
-            "modelVersionName": "v2.2"
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1900876,
-            "modelVersionName": "V1"
+            "weight": 0.8,
+            "modelVersionId": 1232251,
+            "modelVersionName": "v1.0 FLUX"
           },
           {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 976226,
+            "modelVersionName": "v.01 - e13 flux"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1023569,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 791149,
+            "modelVersionName": "V1"
           }
         ]
       },
-      "username": "unempty",
-      "baseModel": "Illustrious",
+      "username": "Stu42",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        9208,
-        1697082,
-        1900876
+        691639,
+        791149,
+        976226,
+        1023569,
+        1232251
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "179|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=179%7C1744925337225"
+    "nextCursor": "180|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=180%7C1744925337225"
   }
 }
