@@ -1,34 +1,38 @@
 {
   "items": [
     {
-      "id": 75898404,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c39c42e1-ace0-498b-b5ca-a6f92c600edf/width=1024/c39c42e1-ace0-498b-b5ca-a6f92c600edf.jpeg",
-      "hash": "UP9u=-t,Q;s+?dt8tkWq-?r?t6WX.SoyV[n%",
+      "id": 74815178,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/619d8c47-fb4e-40ff-a62a-bf66b9978908/width=1024/619d8c47-fb4e-40ff-a62a-bf66b9978908.jpeg",
+      "hash": "UCAkwLwv0|JVF|slv|Nw1fW=]jr=|?SOAa$M",
       "width": 1024,
-      "height": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-12T20:18:09.052Z",
-      "postId": 16852174,
+      "createdAt": "2025-05-07T17:19:00.526Z",
+      "postId": 16612129,
       "stats": {
-        "cryCount": 436,
-        "laughCount": 992,
-        "likeCount": 6391,
+        "cryCount": 530,
+        "laughCount": 809,
+        "likeCount": 6492,
         "dislikeCount": 0,
-        "heartCount": 2379,
-        "commentCount": 9
+        "heartCount": 2366,
+        "commentCount": 4
       },
       "meta": {
         "width": 1024,
         "engine": "openai",
-        "height": 1024,
-        "prompt": "Aerial view of a pristine archipelago, turquoise waters dotted with lush emerald islands. Intricate coral reefs visible beneath crystal-clear shallows, forming mesmerizing patterns. White sandy beaches curve along island edges, contrasting with dense tropical forests. Dramatic cliffs on larger islands, their faces etched with cascading waterfalls. Sunlight glimmers off wave crests, creating a sparkling tapestry across the ocean surface. Clouds cast soft shadows, adding depth to the scene. Rich biodiversity evident in the vibrant colors of flora and fauna. 8K resolution, hyper-detailed, masterpiece quality, perfect lighting, intricate textures.",
-        "quality": "medium",
-        "quantity": 1,
+        "height": 1536,
+        "prompt": "A hyper-detailed, fantasy illustration of a luminous, translucent dragon curled inside a shallow black stone bowl. The dragon is made of glasslike liquid fire, with its semi-transparent body swirling in hues of molten orange, glowing amber, crystalline lavender, and cool opalescent blues. Its eyes blaze with radiant golden light, giving it a powerful, sentient expression. The texture of its body shifts between molten lava and flowing liquid glass, with droplets and splashes captured mid-air, as if the dragon is constantly shifting between states of energy.\n\nFiery tendrils and flaming water-like wisps rise from its back and horns, creating an ethereal halo of heat and power. The dragon's form is coiled and majestic, with delicate claws and a sinuous, serpentine posture. The base of the bowl appears ancient and carved from volcanic rock, with glowing embers and enchanted molten energy bubbling beneath the dragon.\n\nAmbient lighting is magical and cinematic, with a strong internal glow emanating from the dragon's core, casting warm orange and gold light on its surroundings. The background is deep twilight blue, softly blurred with glowing orbs of mystical energy floating in the air. Scattered around the base are tiny enchanted orbs and gemstones, adding a cosmic, alchemical laboratory feel. Style is ultra-detailed fantasy realism with magical effects, perfect for high-end fantasy art or collectible card visuals.",
+        "quantity": 4,
         "workflow": "txt2img",
         "background": "opaque",
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/83038020264213863248032564339291175459",
+          "width": 832,
+          "height": 1216
+        },
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -37,7 +41,7 @@
           }
         ]
       },
-      "username": "Arty_Ficial",
+      "username": "Faeia",
       "baseModel": "OpenAI",
       "modelVersionIds": [
         1733399
@@ -45,7 +49,7 @@
     }
   ],
   "metadata": {
-    "nextCursor": "154|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=154%7C1744925337225"
+    "nextCursor": "155|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=155%7C1744925337225"
   }
 }
