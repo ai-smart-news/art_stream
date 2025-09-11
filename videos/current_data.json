@@ -1,98 +1,65 @@
 {
   "items": [
     {
-      "id": 56995455,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f570fad2-1880-4978-a1cd-8f1e4e6e5494/width=1248/f570fad2-1880-4978-a1cd-8f1e4e6e5494.jpeg",
-      "hash": "UGA+?*ogxbNF^Us=$,R%9ps=s=xb5Mf6EJ%4",
-      "width": 1248,
-      "height": 1728,
+      "id": 67176198,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6deb9162-bb67-4109-8242-24ca90d4627f/width=1080/6deb9162-bb67-4109-8242-24ca90d4627f.jpeg",
+      "hash": "UOJ@F69Z4--o~BNFIp%2S#%2NGWD0zM{r=WE",
+      "width": 1080,
+      "height": 1440,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-10T17:17:53.717Z",
-      "postId": 12760107,
+      "createdAt": "2025-04-01T02:26:50.867Z",
+      "postId": 14940215,
       "stats": {
-        "cryCount": 456,
-        "laughCount": 787,
-        "likeCount": 6473,
+        "cryCount": 490,
+        "laughCount": 961,
+        "likeCount": 6055,
         "dislikeCount": 0,
-        "heartCount": 2376,
-        "commentCount": 14
+        "heartCount": 2570,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "1248x1728",
-        "seed": 592009000507619,
-        "Model": "noobaiXLNAIXL_vPred10Version",
-        "steps": 32,
+        "Size": "1080x1440",
+        "seed": 3309316608,
+        "Model": "Magic_ILL",
+        "steps": 30,
         "hashes": {
-          "model": "ea349eeae8",
-          "LORA:XXX667": "23f0ace9a1",
-          "LORA:748cmSDXL": "85715eb695",
-          "LORA:114558v4df2fsdf5": "68455d58ba",
-          "LORA:ponyv6_noobV1_2_adamW-000017": "ba79d5302b",
-          "LORA:748cm-NoobEPS100-lokr-v03-000080": "f80fc9d86c",
-          "LORA:noobai_ep11_stabilizer_v0.114_fp16": "a22bd4a285"
+          "model": "e32dfcca8a",
+          "lora:CivChan": "295906106644"
         },
-        "prompt": "very awa,  <lora:748cmSDXL:0.3>, 748cmstyle, <lora:748cm-NoobEPS100-lokr-v03-000080:0.6>, 748cm, <lora:ponyv6_noobV1_2_adamW-000017:0.35>, (taro-k:0.5), (opossumachine:0.3), (maccha \\mochancc\\:0.25), <lora:noobai_ep11_stabilizer_v0.114_fp16:0.4>,  <lora:XXX667:0.75>, xxx667_illu, <lora:114558v4df2fsdf5:0.8>, 15546+456868,  1girl, long hair, black hair, facing away, mechanical wings, mechanical spine,  black hole, from behind,  no lineart, realistic, blurry,  masterpiece, [best quality:0.25], newest, absurdres, very aesthetic, best quality, year 2024, newest,",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 3.5,
+        "prompt": "<lora:CivChan:1>, 1girl, civchan, solo, (eating spaghetti), spaghettie hanging from mouth, slurping, Kawaii, wholesome, cute, adorable, blush, sitting at table, nom nom nom, fangs, uwu, excited, happy, ecstatic, giggling, giddy, indoors, purple ribbon, puffy sleeves, Dynamic angle, best quality",
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 5,
+        "clipSkip": 2,
         "resources": [
           {
-            "name": "748cmSDXL",
+            "hash": "295906106644",
+            "name": "CivChan",
             "type": "lora",
-            "weight": 0.3
+            "weight": 1
           },
           {
-            "name": "748cm-NoobEPS100-lokr-v03-000080",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "name": "ponyv6_noobV1_2_adamW-000017",
-            "type": "lora",
-            "weight": 0.35
-          },
-          {
-            "name": "noobai_ep11_stabilizer_v0.114_fp16",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "name": "XXX667",
-            "type": "lora",
-            "weight": 0.75
-          },
-          {
-            "name": "114558v4df2fsdf5",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "ea349eeae8",
-            "name": "noobaiXLNAIXL_vPred10Version",
+            "hash": "e32dfcca8a",
+            "name": "Magic_ILL",
             "type": "model"
           }
         ],
-        "Model hash": "ea349eeae8",
-        "negativePrompt": "worst aesthetic, worst quality, low quality, lowres, sketch,  [bad hands:0.2], [mutated hands:0.2], mammal, anthro, furry, feral, semi-anthro, oldest, old, loli, child, ai-generated, signature, nsfw,"
+        "Model hash": "e32dfcca8a",
+        "Schedule type": "Karras"
       },
-      "username": "iviyaa",
-      "baseModel": "SDXL 1.0",
+      "username": "Titan_Uranus",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1356500,
-        1195582,
-        1056404,
-        1265270,
-        1247042,
-        1190596,
-        1354541
+        1521207,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "165|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=165%7C1744925337225"
+    "nextCursor": "166|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=166%7C1744925337225"
   }
 }
