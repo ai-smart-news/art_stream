@@ -1,77 +1,61 @@
 {
   "items": [
     {
-      "id": 67375791,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34271741-5cc9-408e-a765-daf26e91027d/width=832/34271741-5cc9-408e-a765-daf26e91027d.jpeg",
-      "hash": "UGKT=D4T00%1}sxuFeD%4:tl00%gKNM|nOxH",
-      "width": 832,
-      "height": 1216,
+      "id": 83276085,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f92c767c-a07b-4f5b-a6bc-33c5b6fef869/width=1024/f92c767c-a07b-4f5b-a6bc-33c5b6fef869.jpeg",
+      "hash": "UC7x]|%%8^D%$+s,XSX89ER%%Nxv5TM|#js8",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-02T00:52:27.891Z",
-      "postId": 14982989,
+      "createdAt": "2025-06-19T16:48:31.823Z",
+      "postId": 18494694,
       "stats": {
-        "cryCount": 538,
-        "laughCount": 1845,
-        "likeCount": 5582,
+        "cryCount": 484,
+        "laughCount": 830,
+        "likeCount": 6331,
         "dislikeCount": 0,
-        "heartCount": 2086,
+        "heartCount": 2395,
         "commentCount": 8
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 1812381719,
-        "draft": false,
-        "extra": {
-          "remixOfId": 59239087
+        "Size": "512x768",
+        "seed": 3664052084,
+        "Model": "damnednationspell_v10",
+        "steps": 20,
+        "hashes": {
+          "model": "e720b40586"
         },
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "masterpiece, best quality, abusrdres, amazing quality, 1girl, solo, CivChan, purple eyes, pink hair, maid, handsomize, meme, beautiful face, lips, meme, parody, inside, house, blurry background, Dutch angle",
-        "sampler": "Euler a",
+        "prompt": "painting_\\(medium\\),moon,cloud,tree,night,shore,scenery,full_moon,dawn,slow_d,stone_wall,grass,sky,cloudy_sky,night_sky,1other,traditional_media,highres,horizon,ocean,outdoors,solo",
+        "Version": "v1.10.1-89-g2174ce5a",
+        "sampler": "DPM++ 2M",
         "cfgScale": 7,
-        "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
-        "Created Date": "2025-04-02T0052:00.6950859Z",
-        "negativePrompt": "source_pony, realistic, sketch, painting, blender, worst quality, low quality, lowres, blurry foreground, cropped, bad anatomy, bad perspective, (bad hands, missing fingers, extra digit, fewer digits), error, worst quality, low quality, normal quality, jpeg artifacts, Humpbacked, deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long neck, long body, monochrome, (watermark), signature, logo, name, (mosaic censoring), bar censor, sketch, (blurry), bokeh, motion blur, color bleed, Base:bad quality,worst quality,worst detail,sketch,censor",
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1151831,
-            "modelVersionName": "v1.0 Illustrious"
-          },
-          {
-            "type": "lora",
-            "weight": 1.5,
-            "modelVersionId": 1443745,
-            "modelVersionName": "Illustrious: V1"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055,
-            "modelVersionName": "V1"
+            "hash": "e720b40586",
+            "name": "damnednationspell_v10",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "e720b40586",
+        "Hires prompt": {},
+        "Hires upscale": "2",
+        "Schedule type": "Karras",
+        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+        "negativePrompt": "bad quality, worst quality, low quality, lowres",
+        "Denoising strength": "0.7"
       },
-      "username": "Mlaofmd",
+      "username": "Dark_Schneider",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        1151831,
-        1443745,
-        1597055
+        1384898
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "169|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=169%7C1744925337225"
+    "nextCursor": "170|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=170%7C1744925337225"
   }
 }
