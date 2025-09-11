@@ -1,33 +1,67 @@
 {
   "items": [
     {
-      "id": 83021104,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/432e329a-668c-478f-b87c-c4c4f652dd83/width=1800/432e329a-668c-478f-b87c-c4c4f652dd83.jpeg",
-      "hash": "UHKmtn|.x]p000P8M_IUQ,KhS#xb$.nhob$%",
-      "width": 2048,
-      "height": 3648,
+      "id": 82224194,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b249013a-1a7e-47d1-9327-8b3945b800c4/width=832/b249013a-1a7e-47d1-9327-8b3945b800c4.jpeg",
+      "hash": "UOJa7zK5xr~B0Kk8tRo~Ad$%V@IoIo%1s.n*",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-18T08:57:55.139Z",
-      "postId": 18438163,
+      "createdAt": "2025-06-18T03:57:00.000Z",
+      "postId": 18262364,
       "stats": {
-        "cryCount": 461,
-        "laughCount": 850,
-        "likeCount": 6283,
+        "cryCount": 433,
+        "laughCount": 777,
+        "likeCount": 6479,
         "dislikeCount": 0,
-        "heartCount": 2366,
-        "commentCount": 20
+        "heartCount": 2260,
+        "commentCount": 6
       },
-      "meta": null,
-      "username": "Clear_Note",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 103092078,
+        "steps": 19,
+        "prompt": "1girl, solo, purple eyes, dark blue hair, short hair, bangs, bob cut, streaked hair, masterpiece, best quality, absurdres,breasts, shirt, hair accessories, accessories, red glasses, indoors, bedroom, face closeup, extreme closeup, face portrait, front view, side eye, wink,v, seductive,\nwhite borders,",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-06-14T0550:23.5265819Z",
+        "negativePrompt": "easynegative",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1697082,
+            "modelVersionName": "v2.2"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1900876,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          }
+        ]
+      },
+      "username": "unempty",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        9208,
+        1697082,
+        1900876
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "178|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=178%7C1744925337225"
+    "nextCursor": "179|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=179%7C1744925337225"
   }
 }
