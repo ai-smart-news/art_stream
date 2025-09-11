@@ -1,33 +1,87 @@
 {
   "items": [
     {
-      "id": 74399698,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f30aafe-c2a7-45b6-ae2b-3483f50a4c17/width=684/1f30aafe-c2a7-45b6-ae2b-3483f50a4c17.jpeg",
-      "hash": "ULBNQSxu4oNe~qxu9ZNIxZoeRjRio#WBtRt6",
-      "width": 684,
-      "height": 1000,
+      "id": 60108563,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b67bfa5-3fda-4655-968e-df68ac215fcb/width=832/3b67bfa5-3fda-4655-968e-df68ac215fcb.jpeg",
+      "hash": "UDCN,c]={#r:PBExEJs82mWE5kJ.}8wIogOs",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-05T19:10:00.000Z",
-      "postId": 16520176,
+      "createdAt": "2025-02-25T22:00:59.548Z",
+      "postId": 13440426,
       "stats": {
-        "cryCount": 657,
-        "laughCount": 795,
-        "likeCount": 6427,
+        "cryCount": 432,
+        "laughCount": 752,
+        "likeCount": 6724,
         "dislikeCount": 0,
-        "heartCount": 2316,
-        "commentCount": 8
+        "heartCount": 2265,
+        "commentCount": 4
       },
-      "meta": null,
-      "username": "Pinkielicious",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1391259044,
+        "steps": 40,
+        "prompt": "A Vintage Sci-fi head photo featuring a surreal, abstract Busty woman set against a vibrant, cosmic background. The woman is a sleek, featureless humanoid with a metallic, reflective head that resembles a helmet or mask. The head is a polished, iridescent surface that reflects and refracts light, showing a mesmerizing mix of colors including deep blues, purples, and hints of gold, suggesting a blend of nebulae and cosmic phenomena. The body is clad in a dark, sleek suit, which appears to be made of a material that matches the reflective quality of the head.",
+        "sampler": "Undefined",
+        "cfgScale": 3.4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-02-17T1544:46.4975482Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 801005,
+            "modelVersionName": "Flux.1 D v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1278791,
+            "modelVersionName": "v1.0 for Flux"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 1423189,
+            "modelVersionName": "m200-0.1e09"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 1423177,
+            "modelVersionName": "m200-0.1b"
+          }
+        ]
+      },
+      "username": "Ajuro",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        691639,
+        720252,
+        801005,
+        1278791,
+        1423177,
+        1423189
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "156|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=156%7C1744925337225"
+    "nextCursor": "157|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=157%7C1744925337225"
   }
 }
