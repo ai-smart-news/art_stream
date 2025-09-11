@@ -1,65 +1,100 @@
 {
   "items": [
     {
-      "id": 67176198,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6deb9162-bb67-4109-8242-24ca90d4627f/width=1080/6deb9162-bb67-4109-8242-24ca90d4627f.jpeg",
-      "hash": "UOJ@F69Z4--o~BNFIp%2S#%2NGWD0zM{r=WE",
-      "width": 1080,
-      "height": 1440,
+      "id": 96638598,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/046ed290-fb2b-4216-b5d9-343456737d73/width=832/046ed290-fb2b-4216-b5d9-343456737d73.jpeg",
+      "hash": "U6BLMD1Dq_xw}eAl,@noQ^Su%LnAt5I;w3S|",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T02:26:50.867Z",
-      "postId": 14940215,
+      "createdAt": "2025-08-26T15:47:07.610Z",
+      "postId": 21435946,
       "stats": {
-        "cryCount": 490,
-        "laughCount": 961,
-        "likeCount": 6055,
+        "cryCount": 551,
+        "laughCount": 828,
+        "likeCount": 6136,
         "dislikeCount": 0,
-        "heartCount": 2570,
+        "heartCount": 2553,
         "commentCount": 6
       },
       "meta": {
-        "Size": "1080x1440",
-        "seed": 3309316608,
-        "Model": "Magic_ILL",
-        "steps": 30,
-        "hashes": {
-          "model": "e32dfcca8a",
-          "lora:CivChan": "295906106644"
+        "Size": "832x1216",
+        "seed": 2066384887,
+        "draft": false,
+        "extra": {
+          "remixOfId": 49503909
         },
-        "prompt": "<lora:CivChan:1>, 1girl, civchan, solo, (eating spaghetti), spaghettie hanging from mouth, slurping, Kawaii, wholesome, cute, adorable, blush, sitting at table, nom nom nom, fangs, uwu, excited, happy, ecstatic, giggling, giddy, indoors, purple ribbon, puffy sleeves, Dynamic angle, best quality",
-        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 5,
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Glitching and surreal, abstract portrait of an young goth woman long black hair. Her eyes are covered with a black, glitched, blurred censor bar. She posing with finger at mouth, black fishnet shirt. A terrifying, glitched scarecrow, with floating purple haze across a fields and old black church in LA backdrop. The brushstrokes are masterfully blended and sophisticated, creating a sense of depth and intrigue. The palette is chosen in the style of horror cinema, sends a sense of suspense and fear. The overall image exudes a palpable mystique and sophistication, a captivating masterpiece of a digital illustration. <lora:ck-shadow-circuit-000021_(FLUX):0.8> <lora:Glitchcore_Flux:1.0> <lora:boFLUX_digital-abyss_(FLUX):0.8> <lora:FluxDFaeTasticDetails:0.5>",
+        "sampler": "Undefined",
+        "cfgScale": 7,
         "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
         "resources": [
           {
-            "hash": "295906106644",
-            "name": "CivChan",
+            "name": "Glitchcore_Flux",
             "type": "lora",
             "weight": 1
           },
           {
-            "hash": "e32dfcca8a",
-            "name": "Magic_ILL",
-            "type": "model"
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora",
+            "weight": 0.5
           }
         ],
-        "Model hash": "e32dfcca8a",
-        "Schedule type": "Karras"
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-08-26T1543:53.0251491Z",
+        "experimental": false,
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 720252
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1050932
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 877992
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 945122
+          }
+        ],
+        "fluxUltraAspectRatio": "4"
       },
-      "username": "Titan_Uranus",
-      "baseModel": "Illustrious",
+      "username": "Evil_Kep",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1521207,
-        1597055
+        691639,
+        720252,
+        877992,
+        945122,
+        1050932
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "166|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=166%7C1744925337225"
+    "nextCursor": "167|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=167%7C1744925337225"
   }
 }
