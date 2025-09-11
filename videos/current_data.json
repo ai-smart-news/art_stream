@@ -1,72 +1,67 @@
 {
   "items": [
     {
-      "id": 66398361,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e32388a-f856-43fe-a9c6-9160aa986f03/width=864/0e32388a-f856-43fe-a9c6-9160aa986f03.jpeg",
-      "hash": "UGG8W3000-~T_M9GWAxuO[M{$eoh-UoeIpxt",
-      "width": 864,
-      "height": 1872,
+      "id": 95684781,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7595daf-86d2-46d5-acfd-be44059e2a5a/width=1152/c7595daf-86d2-46d5-acfd-be44059e2a5a.jpeg",
+      "hash": "U75$0Vtk8yIB?[t7DjM{%ft6IBM|%2ofRQRj",
+      "width": 1152,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-28T11:02:08.637Z",
-      "postId": 14775993,
+      "createdAt": "2025-08-21T20:45:00.000Z",
+      "postId": 21224288,
       "stats": {
-        "cryCount": 454,
-        "laughCount": 1048,
-        "likeCount": 6318,
+        "cryCount": 470,
+        "laughCount": 767,
+        "likeCount": 6405,
         "dislikeCount": 0,
-        "heartCount": 2151,
-        "commentCount": 10
+        "heartCount": 2327,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "864x1872",
-        "seed": 1984367578,
-        "Model": "flux1-Dev-Hyper-NF4-v2",
+        "VAE": "Flux\\ae.safetensors",
+        "seed": 21546179084660,
+        "Model": "Flux\\flux1-krea-dev.safetensors",
         "steps": 20,
         "hashes": {
-          "model": "d6b002afb6",
-          "lora:Rostpunk": "854c6b5c6eae",
-          "lora:Fantasy_Novel_Art_Style": "28397453a9ed"
+          "vae": "afc8e28272",
+          "model": "f6315581b7",
+          "lora:YFG-ChatGPT-4o-Style-v2e16": "83f0a714b5",
+          "lora:The_Dark_Side_Of_The_Future": "a4fb7595e0"
         },
-        "prompt": "(indoors,indoor,isometric view,side view,tilt-shift lens:2), (fna_style,miniature,miniature,diorama,miniature,diorama,PVC,plastic:2),sunset,winter giant (randomly multi stack up,multi layer of cheese cake cubic vertical:2.5)  is located center, people are climbing with ropes, (in wooden square plate:3) (on table at study:3) <lora:Fantasy_Novel_Art_Style:1> <lora:Rostpunk:0.3>",
-        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
-        "sampler": "Euler",
-        "cfgScale": 1,
+        "prompt": "A shattered battlefield lies engulfed by an overgrown jungle, where nature reclaims the wreckage of war. Towering trees with glowing, bioluminescent vines twist around skeletal ruins of war machines, their metallic remains glinting under streaks of directional sunlight breaking through the dense canopy above. The vibrant jungle pulses with life\u00e2\u0080\u0094bright emerald leaves, neon-blue flowers, and crimson ferns sway in the humid breeze, casting shadows across the ground. Amid the ruins, a squad of soldiers advances cautiously, their armor scratched and caked in mud, blending with the chaotic colors of the foliage. At the forefront, a soldier wields a massive minigun, its barrels gleaming with menace. The weapon hums faintly, its energy cells flickering with red glow, ready to erupt in a storm of bullets at the slightest provocation. The soldiers' visors reflect the shimmering hues of the jungle, their tense movements betraying the suspense thick in the air.Above, the sky churns with suspense before battle\u00e2\u0080\u0094distant trails of smoke and faint echoes of explosions merge with the eerie hum of the jungle.The interplay of vivid neon greens, radiant blues, and fiery reds paints the scene with vibrant intensity, while shafts of sunlight carve dramatic paths through the gloom. The dense jungle feels alive, its every rustle and shadow a potential threat. This world teeters on the edge of chaos, where the line between hunter and prey blurs in the heart of the overgrown wilderness. Close-up.",
+        "sampler": "res_multistep_beta",
         "resources": [
           {
-            "hash": "28397453a9ed",
-            "name": "Fantasy_Novel_Art_Style",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "854c6b5c6eae",
-            "name": "Rostpunk",
-            "type": "lora",
-            "weight": 0.3
-          },
-          {
-            "hash": "d6b002afb6",
-            "name": "flux1-Dev-Hyper-NF4-v2",
+            "hash": "f6315581b7",
+            "name": "Flux\\flux1-krea-dev.safetensors",
             "type": "model"
           }
         ],
-        "Model hash": "d6b002afb6",
-        "Schedule type": "Simple",
-        "Distilled CFG Scale": "3.5"
+        "Model hash": "f6315581b7",
+        "Prompt Index": "15647",
+        "Lora_0 Model hash": "83f0a714b5",
+        "Lora_0 Model name": "YFG-ChatGPT-4o-Style-v2e16.safetensors",
+        "Lora_1 Model hash": "a4fb7595e0",
+        "Lora_1 Model name": "The_Dark_Side_Of_The_Future.safetensors",
+        "Lora_0 Strength clip": "0.45",
+        "Lora_1 Strength clip": "0.45",
+        "Lora_0 Strength model": "0.45",
+        "Lora_1 Strength model": "0.45"
       },
-      "username": "gtkff9021_sub",
+      "username": "gonzalu",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        829996,
-        862188
+        831763,
+        2068000,
+        2091186
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "176|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=176%7C1744925337225"
+    "nextCursor": "177|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=177%7C1744925337225"
   }
 }
