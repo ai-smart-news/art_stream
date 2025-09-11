@@ -1,159 +1,78 @@
 {
   "items": [
     {
-      "id": 62464358,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21e4ec2a-01d6-4856-98b6-5adedbd8fb25/width=1280/21e4ec2a-01d6-4856-98b6-5adedbd8fb25.jpeg",
-      "hash": "UEG[1]Lb;DnP.9~D00My0vHa0cOmk.FW^+c7",
-      "width": 1280,
-      "height": 1856,
+      "id": 67297280,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45c2f3da-c558-49d5-9242-357024cacb98/width=1664/45c2f3da-c558-49d5-9242-357024cacb98.jpeg",
+      "hash": "UTOo;h8_t+jE~D$*I:IoJ,WUnhogTJS2i_jF",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-09T12:08:25.039Z",
-      "postId": 13949338,
+      "createdAt": "2025-04-01T16:51:14.402Z",
+      "postId": 14966034,
       "stats": {
-        "cryCount": 394,
-        "laughCount": 736,
-        "likeCount": 6364,
+        "cryCount": 511,
+        "laughCount": 997,
+        "likeCount": 6183,
         "dislikeCount": 0,
-        "heartCount": 2811,
-        "commentCount": 14
+        "heartCount": 2598,
+        "commentCount": 6
       },
       "meta": {
-        "nsfw": false,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:140272@1240288",
-        "extra": {
-          "remixOfId": 60177069
-        },
+        "Size": "832x1216",
+        "seed": 3364518230,
+        "Model": "Illustrious BlackMagic v3.0",
         "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:140272@1240288"
-        ],
-        "prompt": "<lora:ck-shadow-circuit-IL:0.78>, Frieren, smiling, holding black cat, enchanted forest,no hand in frame,\nmasterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject,\n close up, stylized, wabi sabi, 1girl,  looking at viewer, dynamic angle, from below, from side, relaxing\n<lora:MoriiMee_Gothic_Niji_Style_Illustrious_r1:0.45>\n<lora:ck-nc-cyberpunk-IL-000011:0.4>\n<lora:ck-neon-retrowave-IL:0.8> , in the style of cksc, in the style of cknc, artist:moriimee, in the style of ck-rw",
-        "denoise": 0.4,
+        "hashes": {
+          "model": "5a75b2f526",
+          "lora:CivChan": "295906106644"
+        },
+        "prompt": "masterpiece,best quality,amazing quality, CivChan, purple eyes, pink hair, peeking out, wall, looking at viewer, maid, smirk,medium hair,\n<lora:CivChan:1>",
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
         "sampler": "Euler a",
         "cfgScale": 5,
-        "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/XGQD7Y9R44SP1WP46ZW722Q7Q0.jpeg",
-          "width": 832,
-          "height": 1216
-        },
-        "experimental": false,
-        "negativePrompt": "civit_nsfw, score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry, window, holding, headphones,",
-        "civitaiResources": [
+        "resources": [
           {
-            "weight": 1,
-            "modelVersionId": 1240288
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1240288
-          },
-          {
-            "weight": 0.78,
-            "modelVersionId": 1380520
-          },
-          {
-            "weight": 0.4,
-            "modelVersionId": 1410611
-          },
-          {
-            "weight": 0.45,
-            "modelVersionId": 1244133
-          },
-          {
-            "weight": 0.8,
-            "modelVersionId": 1384132
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 106916
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1240288
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          },
-          {
+            "hash": "295906106644",
+            "name": "CivChan",
             "type": "lora",
-            "weight": 0.78,
-            "modelVersionId": 1380520
+            "weight": 1
           },
           {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 1410611
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 1244133
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1384132
+            "hash": "5a75b2f526",
+            "name": "Illustrious BlackMagic v3.0",
+            "type": "model"
           }
         ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:938811@1380520",
-            "type": "lora",
-            "strength": 0.78,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:903057@1410611",
-            "type": "lora",
-            "strength": 0.4,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:915918@1244133",
-            "type": "lora",
-            "strength": 0.45,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:816857@1384132",
-            "type": "lora",
-            "strength": 0.8,
-            "strengthClip": 1
-          }
-        ]
+        "Model hash": "5a75b2f526",
+        "Hires upscale": "2",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x_foolhardy_Remacri ori",
+        "negativePrompt": "(bad quality:1.1),(worst quality:1.1),worst detail,sketch, loli, child, patreon username,",
+        "ADetailer model": "face_yolov8n.pt",
+        "Hires CFG Scale": "5",
+        "ADetailer version": "24.11.1",
+        "Denoising strength": "0.25",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.25",
+        "ADetailer inpaint only masked": "True"
       },
-      "username": "Meower2024",
+      "username": "MLGnom",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        164821,
-        1240288,
-        1244133,
-        1380520,
-        1384132,
-        1410611
+        1592852,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "148|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=148%7C1744925337225"
+    "nextCursor": "149|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=149%7C1744925337225"
   }
 }
