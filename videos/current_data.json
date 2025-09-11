@@ -1,50 +1,33 @@
 {
   "items": [
     {
-      "id": 74806841,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca5a8073-0c31-42c0-b5a4-d866b0e3d931/width=1024/ca5a8073-0c31-42c0-b5a4-d866b0e3d931.jpeg",
-      "hash": "UCHmDFEOxs$i59I=NIs.}q-TR+I=^1RkxY$%",
-      "width": 1024,
-      "height": 1536,
+      "id": 86270017,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d259e19e-423a-489e-8a72-dce75f198c77/width=1632/d259e19e-423a-489e-8a72-dce75f198c77.jpeg",
+      "hash": "UDI{v+OZr2jJ5eJU=t$$GHSh0~r={*oegM$f",
+      "width": 1632,
+      "height": 2912,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-07T16:22:09.691Z",
-      "postId": 16610188,
+      "createdAt": "2025-07-04T17:40:47.029Z",
+      "postId": 19143907,
       "stats": {
-        "cryCount": 535,
-        "laughCount": 1210,
-        "likeCount": 6316,
+        "cryCount": 613,
+        "laughCount": 879,
+        "likeCount": 6453,
         "dislikeCount": 0,
-        "heartCount": 2288,
+        "heartCount": 2400,
         "commentCount": 6
       },
-      "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "macro photo, ant lifting a tiny dumbbell, bodybuilding in a miniature gym, high detail, humorous and cute \n",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
-          }
-        ]
-      },
-      "username": "AIDigitalMediaAgency",
-      "baseModel": "OpenAI",
-      "modelVersionIds": [
-        1733399
-      ]
+      "meta": null,
+      "username": "SergVidocq",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "143|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=143%7C1744925337225"
+    "nextCursor": "144|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=144%7C1744925337225"
   }
 }
