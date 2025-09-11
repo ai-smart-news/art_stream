@@ -1,100 +1,41 @@
 {
   "items": [
     {
-      "id": 96638598,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/046ed290-fb2b-4216-b5d9-343456737d73/width=832/046ed290-fb2b-4216-b5d9-343456737d73.jpeg",
-      "hash": "U6BLMD1Dq_xw}eAl,@noQ^Su%LnAt5I;w3S|",
-      "width": 832,
-      "height": 1216,
+      "id": 86867621,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0324246d-7299-49de-8bb2-6ad4d864ce08/width=1536/0324246d-7299-49de-8bb2-6ad4d864ce08.jpeg",
+      "hash": "U98|-C0LD+^*~oD+M|-.xtRkxtWBx[Rjj?s:",
+      "width": 1536,
+      "height": 2688,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-26T15:47:07.610Z",
-      "postId": 21435946,
+      "createdAt": "2025-07-08T17:01:00.000Z",
+      "postId": 19273905,
       "stats": {
-        "cryCount": 551,
-        "laughCount": 828,
-        "likeCount": 6136,
+        "cryCount": 405,
+        "laughCount": 744,
+        "likeCount": 6456,
         "dislikeCount": 0,
-        "heartCount": 2553,
-        "commentCount": 6
+        "heartCount": 2451,
+        "commentCount": 7
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 2066384887,
-        "draft": false,
-        "extra": {
-          "remixOfId": 49503909
-        },
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Glitching and surreal, abstract portrait of an young goth woman long black hair. Her eyes are covered with a black, glitched, blurred censor bar. She posing with finger at mouth, black fishnet shirt. A terrifying, glitched scarecrow, with floating purple haze across a fields and old black church in LA backdrop. The brushstrokes are masterfully blended and sophisticated, creating a sense of depth and intrigue. The palette is chosen in the style of horror cinema, sends a sense of suspense and fear. The overall image exudes a palpable mystique and sophistication, a captivating masterpiece of a digital illustration. <lora:ck-shadow-circuit-000021_(FLUX):0.8> <lora:Glitchcore_Flux:1.0> <lora:boFLUX_digital-abyss_(FLUX):0.8> <lora:FluxDFaeTasticDetails:0.5>",
-        "sampler": "Undefined",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [
-          {
-            "name": "Glitchcore_Flux",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "name": "FluxDFaeTasticDetails",
-            "type": "lora",
-            "weight": 0.5
-          }
-        ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-08-26T1543:53.0251491Z",
-        "experimental": false,
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 720252
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1050932
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 877992
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 945122
-          }
-        ],
-        "fluxUltraAspectRatio": "4"
-      },
-      "username": "Evil_Kep",
-      "baseModel": "Flux.1 D",
+      "meta": null,
+      "username": "lordstjohn",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        720252,
-        877992,
-        945122,
-        1050932
+        145907,
+        541905,
+        1506690,
+        1558765,
+        1736373,
+        1772645,
+        1860423
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "167|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=167%7C1744925337225"
+    "nextCursor": "168|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=168%7C1744925337225"
   }
 }
