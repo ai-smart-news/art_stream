@@ -1,33 +1,87 @@
 {
   "items": [
     {
-      "id": 64007437,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38bafc1a-e7b4-4d0b-9ab8-f7ae1ac9581e/width=1792/38bafc1a-e7b4-4d0b-9ab8-f7ae1ac9581e.jpeg",
-      "hash": "UFE{e6kC00M{_Nof9FM|4.ayxuog-=WBV@of",
-      "width": 1792,
-      "height": 2288,
+      "id": 93456307,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5097d73b-42ee-4c01-a27b-6ecde2051c6b/width=832/5097d73b-42ee-4c01-a27b-6ecde2051c6b.jpeg",
+      "hash": "UXI:g3xD},Wr$|oe=@xW^KR,sos-=@s.s.NI",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-17T08:35:56.940Z",
-      "postId": 14273461,
+      "createdAt": "2025-08-11T01:05:00.000Z",
+      "postId": 20733960,
       "stats": {
-        "cryCount": 567,
-        "laughCount": 821,
-        "likeCount": 6352,
+        "cryCount": 492,
+        "laughCount": 803,
+        "likeCount": 6096,
         "dislikeCount": 0,
-        "heartCount": 2205,
-        "commentCount": 14
+        "heartCount": 2549,
+        "commentCount": 15
       },
-      "meta": null,
-      "username": "Thrack",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1949294366,
+        "draft": false,
+        "extra": {
+          "remixOfId": 93272643
+        },
+        "steps": 39,
+        "width": 832,
+        "height": 1216,
+        "prompt": "ILXLpos, blood Hazard Aesthetic, 1girl, jewelry, yellow and blood background, solo, necklace, blood-tinted eyewear, mythological memorabilia, looking at viewer, round eyewear, blood theme, blood eyes, simple background, black hair, earrings, necklace, parted lips, tinted eyewear, medium hair, sunglasses, upper body, blunt bangs, blood-framed eyewear, looking over eyewear, glasses, lips, eyelashes, long hair.",
+        "process": "txt2img",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "quantity": 3,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-08-10T1652:47.2717240Z",
+        "experimental": false,
+        "negativePrompt": "ILXLneg,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1714002,
+            "modelVersionName": "Walnut"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 1762608,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 1762724,
+            "modelVersionName": "ILXLneg"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1970091,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "CandyAddict",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1714002,
+        1762608,
+        1762724,
+        1970091
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "181|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=181%7C1744925337225"
+    "nextCursor": "182|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=182%7C1744925337225"
   }
 }
