@@ -1,67 +1,40 @@
 {
   "items": [
     {
-      "id": 16176843,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32ee04ac-06bf-4b92-8d67-ed4be6314e6d/width=832/32ee04ac-06bf-4b92-8d67-ed4be6314e6d.jpeg",
-      "hash": "UIP#l|%Lysxu?bjFNHoeKkoLrWae-TX8ixj[",
-      "width": 832,
-      "height": 1216,
+      "id": 75885517,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1d783b8-39bc-437b-bc5e-02ccd2ffa9b6/width=1800/e1d783b8-39bc-437b-bc5e-02ccd2ffa9b6.jpeg",
+      "hash": "UDJ[YgOa~l-BC9xW14oM1ANxv$Ne=]rr^gt6",
+      "width": 2688,
+      "height": 3840,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-06-17T23:46:07.800Z",
-      "postId": 3617981,
+      "createdAt": "2025-05-18T07:14:20.643Z",
+      "postId": 16849399,
       "stats": {
-        "cryCount": 384,
-        "laughCount": 882,
-        "likeCount": 6467,
+        "cryCount": 552,
+        "laughCount": 1040,
+        "likeCount": 6539,
         "dislikeCount": 0,
-        "heartCount": 2670,
-        "commentCount": 4
+        "heartCount": 2254,
+        "commentCount": 5
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 58971670,
-        "steps": 30,
-        "prompt": "score_9, score_8_up, score_7_up, source_anime, solo, Charmander, looking at the viewer, (Feral Charmander, chibi body, covered in peanut butter:1.3), scared, simple background, (detailed image, high resolution, 5k resolution:1.0), (chibi art style:1.1)",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-06-17T2342:38.9584475Z",
-        "negativePrompt": "score_6_up, score_5_up, score_4_up, 3D, text, watermark, low-quality, signature, moir pattern, downsampling, aliasing, distorted, blurry, glossy, jpeg artifacts, compression artifacts, poorly drawn, low-resolution, bad, distortion, twisted, exaggerated pose, exaggerated limbs, duplicate, error, pattern, beginner, pixelated, hyper, glitch, overexposed, high-contrast, bad-contrast, censorship, monochrome",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 574758,
-            "modelVersionName": "v4"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 522995,
-            "modelVersionName": "Pony"
-          }
-        ]
-      },
-      "username": "KingViking2236",
-      "baseModel": "Pony",
+      "meta": null,
+      "username": "Yurooo",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        382152,
-        522995,
-        574758
+        164821,
+        1240288,
+        1380520,
+        1455983,
+        1470451,
+        1591915
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "139|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=139%7C1744925337225"
+    "nextCursor": "140|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=140%7C1744925337225"
   }
 }
