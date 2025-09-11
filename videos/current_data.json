@@ -1,62 +1,65 @@
 {
   "items": [
     {
-      "id": 93901738,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af560887-e50a-458b-a751-f65e6a8686eb/width=1216/af560887-e50a-458b-a751-f65e6a8686eb.jpeg",
-      "hash": "UI9*[+t90JM^%%V?RktTn5ogR#NGMytSj:IS",
-      "width": 1216,
-      "height": 832,
+      "id": 67509992,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/552d38ff-cde3-4a55-aeb4-e4404fe9e575/width=1080/552d38ff-cde3-4a55-aeb4-e4404fe9e575.jpeg",
+      "hash": "UOMj2Kt,%rWA~CkQkXn$NMIUN3oe_3jKoynQ",
+      "width": 1080,
+      "height": 1440,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-12T22:03:56.789Z",
-      "postId": 20831034,
+      "createdAt": "2025-04-03T00:14:58.921Z",
+      "postId": 15010736,
       "stats": {
-        "cryCount": 617,
-        "laughCount": 977,
-        "likeCount": 6384,
+        "cryCount": 556,
+        "laughCount": 978,
+        "likeCount": 6156,
         "dislikeCount": 0,
-        "heartCount": 2468,
-        "commentCount": 5
+        "heartCount": 2759,
+        "commentCount": 13
       },
       "meta": {
-        "Size": "1216x832",
-        "seed": 1739813491,
-        "draft": false,
-        "steps": 30,
-        "width": 1216,
-        "height": 832,
-        "prompt": "a strange alien forest, plants and trees made of nerves and brain tissue, dendrite vines, nerve grass, biotech fantasy landscape, surreal, macrophotogrpahy, vibrant, bioluminescent, sparks of cibrant colors jump form nerve cluster to nerve cluster, surreal > render of a, hyper realistic, 4k, artistic, ultra detailed, octane render, photorealistic, glowing, ultra realistic:: a plesiosaurus that is standing in the water, a detailed matte painting, by Darek Zabrocki, loch ness monster, metal dragon tail, digital art 4k unsettling, coiled realistic serpents, black glossy xenomorph, digital matte painting, highly realistic digital art, twilight ; digital painting, flat matte painting, high res render, highly photographic render --ar 2:3 --v 6.0",
-        "process": "txt2img",
-        "sampler": "Euler a",
-        "cfgScale": 7,
+        "Size": "1080x1440",
+        "seed": 681960160,
+        "Model": "Magic_ILL",
+        "steps": 50,
+        "hashes": {
+          "model": "e32dfcca8a",
+          "lora:CivChan": "295906106644"
+        },
+        "prompt": "<lora:CivChan:1>, civchan, 1girl, furry, anthro, cat, Dagasi, solo, cute, purple eyes, pink hair, white fur, fangs, adorable, wholesome, looking at viewer, blush, smile, giddy, excited, scrunched nose, whiskers, paws, dress, waving, field of flowers, pastel, dynamic angle, beautiful lighting",
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 4,
         "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "19:13",
-        "Created Date": "2025-08-12T2158:22.6542217Z",
-        "experimental": false,
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1714002,
-            "modelVersionName": "Walnut"
+            "hash": "295906106644",
+            "name": "CivChan",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "e32dfcca8a",
+            "name": "Magic_ILL",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "e32dfcca8a",
+        "Schedule type": "Karras"
       },
-      "username": "zafegity407",
+      "username": "Titan_Uranus",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        1714002
+        1521207,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "135|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=135%7C1744925337225"
+    "nextCursor": "136|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=136%7C1744925337225"
   }
 }
