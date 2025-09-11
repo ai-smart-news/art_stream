@@ -1,33 +1,71 @@
 {
   "items": [
     {
-      "id": 86240018,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a271ed3-9f19-4293-bcde-7f3ba7e45ce2/width=1024/0a271ed3-9f19-4293-bcde-7f3ba7e45ce2.jpeg",
-      "hash": "UPJZVY=^={=_.mI=X9t6ctWWI@I@%gj[WBWV",
-      "width": 1024,
-      "height": 1536,
+      "id": 64729567,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21cb9dc2-26e8-4af5-b4c4-8d7bc86912b8/width=1536/21cb9dc2-26e8-4af5-b4c4-8d7bc86912b8.jpeg",
+      "hash": "UhLzT]MdtlEL_NIUM{iv%LS~WBxa%2oLkDoz",
+      "width": 1536,
+      "height": 2016,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-04T14:22:53.812Z",
-      "postId": 19137408,
+      "createdAt": "2025-03-20T20:35:02.745Z",
+      "postId": 14426698,
       "stats": {
-        "cryCount": 541,
-        "laughCount": 1746,
-        "likeCount": 5676,
+        "cryCount": 473,
+        "laughCount": 854,
+        "likeCount": 6009,
         "dislikeCount": 0,
-        "heartCount": 2149,
-        "commentCount": 20
+        "heartCount": 2785,
+        "commentCount": 12
       },
-      "meta": null,
-      "username": "Fujido",
-      "baseModel": "OpenAI",
+      "meta": {
+        "Size": "1536x2016",
+        "seed": 2004384211,
+        "Model": "waiNSFWIllustrious_v120",
+        "steps": 30,
+        "hashes": {
+          "model": "b9044b28d6",
+          "lora:Zelda": "84eff1849778"
+        },
+        "prompt": "masterpiece, best quality, amazing quality BREAK zelda1x, tunicleggings, smile, riding epona, white background <lora:Zelda:1>",
+        "Version": "f2.0.1v1.10.1-previous-646-ga9e247eb",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "resources": [
+          {
+            "hash": "84eff1849778",
+            "name": "Zelda",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "b9044b28d6",
+            "name": "waiNSFWIllustrious_v120",
+            "type": "model"
+          }
+        ],
+        "Model hash": "b9044b28d6",
+        "Schedule type": "Automatic",
+        "negativePrompt": "bad quality, worst quality, worst detail, sketch, censor",
+        "ADetailer model": "face_yolov8s.pt",
+        "ADetailer version": "24.11.1",
+        "Denoising strength": "0.15",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.35",
+        "ADetailer inpaint only masked": "True"
+      },
+      "username": "Zikickix",
+      "baseModel": null,
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "162|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=162%7C1744925337225"
+    "nextCursor": "163|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=163%7C1744925337225"
   }
 }
