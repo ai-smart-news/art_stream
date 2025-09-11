@@ -1,63 +1,69 @@
 {
   "items": [
     {
-      "id": 77242611,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76bde3de-ac5e-48fa-aae6-728bd3efa1ea/width=1664/76bde3de-ac5e-48fa-aae6-728bd3efa1ea.jpeg",
-      "hash": "UtKdoE%2xtRk~qozkCae%LoKWBR*RjRjM{t6",
-      "width": 1664,
-      "height": 2560,
+      "id": 89964690,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/677161aa-1a05-45fe-8235-d42e9e846dcd/width=1800/677161aa-1a05-45fe-8235-d42e9e846dcd.jpeg",
+      "hash": "U5G8izt74,-p00NH0LIo00%1t-R%EcS1~p-p",
+      "width": 2560,
+      "height": 3712,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-19T15:01:13.791Z",
-      "postId": 15869178,
+      "createdAt": "2025-07-23T10:33:00.000Z",
+      "postId": 19953526,
       "stats": {
-        "cryCount": 490,
-        "laughCount": 921,
-        "likeCount": 6373,
+        "cryCount": 457,
+        "laughCount": 893,
+        "likeCount": 6265,
         "dislikeCount": 0,
-        "heartCount": 2479,
-        "commentCount": 11
+        "heartCount": 2647,
+        "commentCount": 16
       },
       "meta": {
-        "Size": "832x1280",
-        "seed": 1146559365,
-        "Model": "ramthrustsNSFWPINK_alchemyMix012",
-        "steps": 35,
-        "hashes": {
-          "model": "490d8efa4d"
-        },
-        "prompt": "masterpiece, best quality, newest, absurdres, highres,\nfemale, petite, cat ears, ear tufts, fluffy tail,\n(armor:1.5), faulds, armored gloves, vambraces, armored pants, (ornate:1.5), white, praying",
-        "Version": "f2.0.1v1.10.1-previous-663-g17a42e58",
-        "sampler": "Euler",
-        "cfgScale": 4,
-        "resources": [
+        "seed": 1761147208,
+        "vaes": [],
+        "extra": {},
+        "steps": 34,
+        "models": [],
+        "prompt": "witch, botanist, herbs, plants, fungus,\n\ngrab basket,\nlight, pastel,\n\ninside, magical plants, herbs, plant-pots,\n\ninkyo, masterpiece, best quality, highres, absurdres, newest, aesthetic, very awa",
+        "denoise": 0.4,
+        "sampler": "Euler a",
+        "cfgScale": 3.5,
+        "modelIds": [],
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "4 toes, 6 toes, merged toes, 4 digits, 6 digits, merged_fingers,\n\nlogo, name, text,",
+        "civitaiResources": [
           {
-            "hash": "490d8efa4d",
-            "name": "ramthrustsNSFWPINK_alchemyMix012",
-            "type": "model"
+            "weight": 1,
+            "modelVersionId": 1761560
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1953811
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
         ],
-        "Model hash": "490d8efa4d",
-        "Hires steps": "15",
-        "Hires upscale": "2",
-        "Schedule type": "Karras",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "lollypop",
-        "negativePrompt": "(extra ears:1.5), window, blurry, watermark, smudgy, (bad quality:1.15), (worst quality:1.3), censored, (multiple views:1.2), jpeg artifacts, (patreon username, patreon logo:1.1), Halo",
-        "Hires CFG Scale": "5",
-        "Denoising strength": "0.35"
+        "additionalResources": []
       },
-      "username": "johnnys365",
+      "username": "Silvana_",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        1682833
+        164821,
+        1761560,
+        1953811
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "150|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=150%7C1744925337225"
+    "nextCursor": "151|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=151%7C1744925337225"
   }
 }
