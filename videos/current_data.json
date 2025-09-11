@@ -1,79 +1,159 @@
 {
   "items": [
     {
-      "id": 20001650,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c4e7587-b093-4f2f-92e2-cc0876571f2a/width=1800/1c4e7587-b093-4f2f-92e2-cc0876571f2a.jpeg",
-      "hash": "U9HBIx^#NH~mE{IV?F--04E5s:9H4;-n0NxC",
-      "width": 3072,
-      "height": 5440,
+      "id": 62464358,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21e4ec2a-01d6-4856-98b6-5adedbd8fb25/width=1280/21e4ec2a-01d6-4856-98b6-5adedbd8fb25.jpeg",
+      "hash": "UEG[1]Lb;DnP.9~D00My0vHa0cOmk.FW^+c7",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-24T14:57:02.567Z",
-      "postId": 4463249,
+      "createdAt": "2025-03-09T12:08:25.039Z",
+      "postId": 13949338,
       "stats": {
-        "cryCount": 442,
-        "laughCount": 873,
-        "likeCount": 6797,
+        "cryCount": 394,
+        "laughCount": 736,
+        "likeCount": 6364,
         "dislikeCount": 0,
-        "heartCount": 2203,
-        "commentCount": 7
+        "heartCount": 2811,
+        "commentCount": 14
       },
       "meta": {
-        "Size": "768x1360",
-        "seed": 3191814863,
-        "Model": "level4XL_alphaV03",
-        "steps": 10,
-        "hashes": {
-          "model": "b4609f2c0c",
-          "lora:add-detail-xl": "9c783c8ce46c",
-          "lora:lcm-lora-sdxl": "2fa7e8e56b09",
-          "lora:When_Life_Gives_You_Lemons": "2128e6758197"
+        "nsfw": false,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:140272@1240288",
+        "extra": {
+          "remixOfId": 60177069
         },
-        "prompt": "<lora:lcm-lora-sdxl:1>,<lora:add-detail-xl:1>,<lora:When_Life_Gives_You_Lemons:1>,wl_lemons,a butterfly,",
-        "Version": "v1.9.4",
-        "sampler": "LCM",
-        "cfgScale": 1,
-        "resources": [
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:140272@1240288"
+        ],
+        "prompt": "<lora:ck-shadow-circuit-IL:0.78>, Frieren, smiling, holding black cat, enchanted forest,no hand in frame,\nmasterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject,\n close up, stylized, wabi sabi, 1girl,  looking at viewer, dynamic angle, from below, from side, relaxing\n<lora:MoriiMee_Gothic_Niji_Style_Illustrious_r1:0.45>\n<lora:ck-nc-cyberpunk-IL-000011:0.4>\n<lora:ck-neon-retrowave-IL:0.8> , in the style of cksc, in the style of cknc, artist:moriimee, in the style of ck-rw",
+        "denoise": 0.4,
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-hires",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/XGQD7Y9R44SP1WP46ZW722Q7Q0.jpeg",
+          "width": 832,
+          "height": 1216
+        },
+        "experimental": false,
+        "negativePrompt": "civit_nsfw, score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry, window, holding, headphones,",
+        "civitaiResources": [
           {
-            "hash": "2fa7e8e56b09",
-            "name": "lcm-lora-sdxl",
-            "type": "lora",
-            "weight": 1
+            "weight": 1,
+            "modelVersionId": 1240288
           },
           {
-            "hash": "9c783c8ce46c",
-            "name": "add-detail-xl",
-            "type": "lora",
-            "weight": 1
+            "weight": 1,
+            "modelVersionId": 1240288
           },
           {
-            "hash": "2128e6758197",
-            "name": "When_Life_Gives_You_Lemons",
-            "type": "lora",
-            "weight": 1
+            "weight": 0.78,
+            "modelVersionId": 1380520
           },
           {
-            "hash": "b4609f2c0c",
-            "name": "level4XL_alphaV03",
-            "type": "model"
+            "weight": 0.4,
+            "modelVersionId": 1410611
+          },
+          {
+            "weight": 0.45,
+            "modelVersionId": 1244133
+          },
+          {
+            "weight": 0.8,
+            "modelVersionId": 1384132
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 106916
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1240288
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          },
+          {
+            "type": "lora",
+            "weight": 0.78,
+            "modelVersionId": 1380520
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1410611
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 1244133
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 1384132
           }
         ],
-        "Model hash": "b4609f2c0c",
-        "Schedule type": "Automatic"
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:938811@1380520",
+            "type": "lora",
+            "strength": 0.78,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:903057@1410611",
+            "type": "lora",
+            "strength": 0.4,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:915918@1244133",
+            "type": "lora",
+            "strength": 0.45,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:816857@1384132",
+            "type": "lora",
+            "strength": 0.8,
+            "strengthClip": 1
+          }
+        ]
       },
-      "username": "AIArtsChannel",
-      "baseModel": "SDXL Turbo",
+      "username": "Meower2024",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        135867,
-        517886,
-        646312
+        164821,
+        1240288,
+        1244133,
+        1380520,
+        1384132,
+        1410611
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "147|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=147%7C1744925337225"
+    "nextCursor": "148|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=148%7C1744925337225"
   }
 }
