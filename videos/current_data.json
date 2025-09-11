@@ -1,61 +1,37 @@
 {
   "items": [
     {
-      "id": 83276085,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f92c767c-a07b-4f5b-a6bc-33c5b6fef869/width=1024/f92c767c-a07b-4f5b-a6bc-33c5b6fef869.jpeg",
-      "hash": "UC7x]|%%8^D%$+s,XSX89ER%%Nxv5TM|#js8",
-      "width": 1024,
-      "height": 1536,
+      "id": 91400397,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d7b67a2-2501-4e43-9103-7460e8808659/width=832/3d7b67a2-2501-4e43-9103-7460e8808659.jpeg",
+      "hash": "UDH-rkm+-;$*_2vMkCEkO@NH~BXSwaOsVY%1",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-19T16:48:31.823Z",
-      "postId": 18494694,
+      "createdAt": "2025-07-31T11:00:00.000Z",
+      "postId": 20276037,
       "stats": {
-        "cryCount": 484,
-        "laughCount": 830,
-        "likeCount": 6331,
+        "cryCount": 478,
+        "laughCount": 907,
+        "likeCount": 5963,
         "dislikeCount": 0,
-        "heartCount": 2395,
-        "commentCount": 8
+        "heartCount": 2686,
+        "commentCount": 19
       },
-      "meta": {
-        "Size": "512x768",
-        "seed": 3664052084,
-        "Model": "damnednationspell_v10",
-        "steps": 20,
-        "hashes": {
-          "model": "e720b40586"
-        },
-        "prompt": "painting_\\(medium\\),moon,cloud,tree,night,shore,scenery,full_moon,dawn,slow_d,stone_wall,grass,sky,cloudy_sky,night_sky,1other,traditional_media,highres,horizon,ocean,outdoors,solo",
-        "Version": "v1.10.1-89-g2174ce5a",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 7,
-        "resources": [
-          {
-            "hash": "e720b40586",
-            "name": "damnednationspell_v10",
-            "type": "model"
-          }
-        ],
-        "Model hash": "e720b40586",
-        "Hires prompt": {},
-        "Hires upscale": "2",
-        "Schedule type": "Karras",
-        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
-        "negativePrompt": "bad quality, worst quality, low quality, lowres",
-        "Denoising strength": "0.7"
-      },
-      "username": "Dark_Schneider",
-      "baseModel": "Illustrious",
+      "meta": null,
+      "username": "vishnarjk",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1384898
+        691639,
+        806265,
+        914935
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "170|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=170%7C1744925337225"
+    "nextCursor": "171|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=171%7C1744925337225"
   }
 }
