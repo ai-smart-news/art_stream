@@ -1,80 +1,33 @@
 {
   "items": [
     {
-      "id": 64321194,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed81ad27-3a5e-424d-b163-5d3dc037ac02/width=832/ed81ad27-3a5e-424d-b163-5d3dc037ac02.jpeg",
-      "hash": "U7Iz6C%2039v$}wf03%K02DQ?Y~U0Ntjx@0$",
-      "width": 832,
-      "height": 1216,
+      "id": 64007437,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38bafc1a-e7b4-4d0b-9ab8-f7ae1ac9581e/width=1792/38bafc1a-e7b4-4d0b-9ab8-f7ae1ac9581e.jpeg",
+      "hash": "UFE{e6kC00M{_Nof9FM|4.ayxuog-=WBV@of",
+      "width": 1792,
+      "height": 2288,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-09T07:50:38.553Z",
-      "postId": 14340518,
+      "createdAt": "2025-03-17T08:35:56.940Z",
+      "postId": 14273461,
       "stats": {
-        "cryCount": 495,
-        "laughCount": 810,
-        "likeCount": 6513,
+        "cryCount": 567,
+        "laughCount": 821,
+        "likeCount": 6352,
         "dislikeCount": 0,
-        "heartCount": 2133,
-        "commentCount": 1
+        "heartCount": 2205,
+        "commentCount": 14
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 1612824657,
-        "steps": 25,
-        "prompt": "in the style of ck-mgs, nistyle, Special Ink-drawing mode, intricate linework with expressive contrasts, Mh1$AgThS2, Inkplash art on rice paper, sepia, henna , Silhouette Art, magnificent, inksplash image of stunning japanese woman, gold and red cheongsam, sitting in front of tori gate, facing viewer, dappled sunlight",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-03-18T1049:42.6536584Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1232251,
-            "modelVersionName": "v1.0 FLUX"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 976226,
-            "modelVersionName": "v.01 - e13 flux"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1023569,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 791149,
-            "modelVersionName": "V1"
-          }
-        ]
-      },
-      "username": "Stu42",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        791149,
-        976226,
-        1023569,
-        1232251
-      ]
+      "meta": null,
+      "username": "Thrack",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "180|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=180%7C1744925337225"
+    "nextCursor": "181|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=181%7C1744925337225"
   }
 }
