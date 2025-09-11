@@ -1,87 +1,68 @@
 {
   "items": [
     {
-      "id": 60108563,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b67bfa5-3fda-4655-968e-df68ac215fcb/width=832/3b67bfa5-3fda-4655-968e-df68ac215fcb.jpeg",
-      "hash": "UDCN,c]={#r:PBExEJs82mWE5kJ.}8wIogOs",
-      "width": 832,
-      "height": 1216,
+      "id": 63968749,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43280b4e-3449-4719-9118-90f619bebbde/width=1200/43280b4e-3449-4719-9118-90f619bebbde.jpeg",
+      "hash": "UIRMPSRO_4_4-;D$D%%M.9j@jEjZ%M-;xuIU",
+      "width": 1200,
+      "height": 1600,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-25T22:00:59.548Z",
-      "postId": 13440426,
+      "createdAt": "2025-03-17T01:47:58.798Z",
+      "postId": 14265155,
       "stats": {
-        "cryCount": 432,
-        "laughCount": 752,
-        "likeCount": 6724,
+        "cryCount": 571,
+        "laughCount": 1011,
+        "likeCount": 6114,
         "dislikeCount": 0,
-        "heartCount": 2265,
-        "commentCount": 4
+        "heartCount": 2475,
+        "commentCount": 22
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1391259044,
-        "steps": 40,
-        "prompt": "A Vintage Sci-fi head photo featuring a surreal, abstract Busty woman set against a vibrant, cosmic background. The woman is a sleek, featureless humanoid with a metallic, reflective head that resembles a helmet or mask. The head is a polished, iridescent surface that reflects and refracts light, showing a mesmerizing mix of colors including deep blues, purples, and hints of gold, suggesting a blend of nebulae and cosmic phenomena. The body is clad in a dark, sleek suit, which appears to be made of a material that matches the reflective quality of the head.",
-        "sampler": "Undefined",
-        "cfgScale": 3.4,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-02-17T1544:46.4975482Z",
-        "civitaiResources": [
+        "Size": "1200x1600",
+        "seed": 2525986208,
+        "Model": "KNK LumiNAI (Illustrious)_v1-Konoko",
+        "steps": 30,
+        "hashes": {
+          "model": "542630ef93",
+          "lora:Beanie Babies-Ty (IL)-freckledvixon": "b7eea6865768"
+        },
+        "prompt": "sheep, \nsolo, animal, (no human:1.1), (animal focus:1.2), messy fur, long fur, seams, intricate fur\n(simple white background:1.2)\nstuffed animals, ty, multiple animals, \n<lora:Beanie Babies-Ty (IL)-freckledvixon:1>",
+        "Version": "f2.0.1v1.10.1-previous-652-g184bb04f",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "Mask blur": "4",
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "hash": "b7eea6865768",
+            "name": "Beanie Babies-Ty (IL)-freckledvixon",
+            "type": "lora"
           },
           {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 801005,
-            "modelVersionName": "Flux.1 D v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 1278791,
-            "modelVersionName": "v1.0 for Flux"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 1423189,
-            "modelVersionName": "m200-0.1e09"
-          },
-          {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 1423177,
-            "modelVersionName": "m200-0.1b"
+            "hash": "542630ef93",
+            "name": "KNK LumiNAI (Illustrious)_v1-Konoko",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "542630ef93",
+        "Inpaint area": "Only masked",
+        "Schedule type": "Karras",
+        "negativePrompt": "holding person, sitting on lap, \n1girl, 1boy, man, woman, girl, boy, adult, male, female",
+        "Denoising strength": "0.58",
+        "Masked area padding": "32"
       },
-      "username": "Ajuro",
-      "baseModel": "Flux.1 D",
+      "username": "SD_AI_2025",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        720252,
-        801005,
-        1278791,
-        1423177,
-        1423189
+        1117381,
+        1378081
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "157|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=157%7C1744925337225"
+    "nextCursor": "158|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=158%7C1744925337225"
   }
 }
