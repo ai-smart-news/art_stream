@@ -1,64 +1,98 @@
 {
   "items": [
     {
-      "id": 63656891,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5c5e3a49-bd03-479d-bd0b-0a025ec70b8a/width=1248/5c5e3a49-bd03-479d-bd0b-0a025ec70b8a.jpeg",
-      "hash": "UNJkAnxZ00ax-;9ZMyozs.4.Io?H?^s:Dis:",
+      "id": 56995455,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f570fad2-1880-4978-a1cd-8f1e4e6e5494/width=1248/f570fad2-1880-4978-a1cd-8f1e4e6e5494.jpeg",
+      "hash": "UGA+?*ogxbNF^Us=$,R%9ps=s=xb5Mf6EJ%4",
       "width": 1248,
-      "height": 1824,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-15T13:26:46.366Z",
-      "postId": 14199465,
+      "createdAt": "2025-02-10T17:17:53.717Z",
+      "postId": 12760107,
       "stats": {
-        "cryCount": 471,
-        "laughCount": 866,
-        "likeCount": 6018,
+        "cryCount": 456,
+        "laughCount": 787,
+        "likeCount": 6473,
         "dislikeCount": 0,
-        "heartCount": 2755,
-        "commentCount": 9
+        "heartCount": 2376,
+        "commentCount": 14
       },
       "meta": {
-        "VAE": "lunaXLVAE_luna.safetensors",
-        "Size": "832x1216",
-        "seed": 753783114,
-        "Model": "plantMilk_flax",
-        "steps": 28,
+        "Size": "1248x1728",
+        "seed": 592009000507619,
+        "Model": "noobaiXLNAIXL_vPred10Version",
+        "steps": 32,
         "hashes": {
-          "vae": "63aeecb90f",
-          "model": "98924aac66"
+          "model": "ea349eeae8",
+          "LORA:XXX667": "23f0ace9a1",
+          "LORA:748cmSDXL": "85715eb695",
+          "LORA:114558v4df2fsdf5": "68455d58ba",
+          "LORA:ponyv6_noobV1_2_adamW-000017": "ba79d5302b",
+          "LORA:748cm-NoobEPS100-lokr-v03-000080": "f80fc9d86c",
+          "LORA:noobai_ep11_stabilizer_v0.114_fp16": "a22bd4a285"
         },
-        "prompt": "1girl, action pose, fox_mask, fox fire, mechanical eye, holding sword, school uniform, harness, thigh pouch, silhouette art, glitch art, virtual, colored shadow, geometry, monochrome, local color adaptation, hdr, (disintegration effect:1.4), (chromatic aberration, polarized:1.2), (blurry:1.4), masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest,",
-        "Version": "v1.10.1",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 6,
-        "clipSkip": 2,
+        "prompt": "very awa,  <lora:748cmSDXL:0.3>, 748cmstyle, <lora:748cm-NoobEPS100-lokr-v03-000080:0.6>, 748cm, <lora:ponyv6_noobV1_2_adamW-000017:0.35>, (taro-k:0.5), (opossumachine:0.3), (maccha \\mochancc\\:0.25), <lora:noobai_ep11_stabilizer_v0.114_fp16:0.4>,  <lora:XXX667:0.75>, xxx667_illu, <lora:114558v4df2fsdf5:0.8>, 15546+456868,  1girl, long hair, black hair, facing away, mechanical wings, mechanical spine,  black hole, from behind,  no lineart, realistic, blurry,  masterpiece, [best quality:0.25], newest, absurdres, very aesthetic, best quality, year 2024, newest,",
+        "Version": "ComfyUI",
+        "sampler": "Euler",
+        "cfgScale": 3.5,
         "resources": [
           {
-            "hash": "98924aac66",
-            "name": "plantMilk_flax",
+            "name": "748cmSDXL",
+            "type": "lora",
+            "weight": 0.3
+          },
+          {
+            "name": "748cm-NoobEPS100-lokr-v03-000080",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "name": "ponyv6_noobV1_2_adamW-000017",
+            "type": "lora",
+            "weight": 0.35
+          },
+          {
+            "name": "noobai_ep11_stabilizer_v0.114_fp16",
+            "type": "lora",
+            "weight": 0.4
+          },
+          {
+            "name": "XXX667",
+            "type": "lora",
+            "weight": 0.75
+          },
+          {
+            "name": "114558v4df2fsdf5",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "ea349eeae8",
+            "name": "noobaiXLNAIXL_vPred10Version",
             "type": "model"
           }
         ],
-        "Model hash": "98924aac66",
-        "Hires steps": "15",
-        "Hires upscale": "1.5",
-        "Schedule type": "Karras",
-        "Hires upscaler": "SwinIR_4x",
-        "negativePrompt": "lowres, (worst quality, bad quality:1.2), bad anatomy, (bad hands, missing fingers, extra fingers:1.4), sketch, jpeg artifacts, text, signature, watermark, old, oldest,",
-        "Denoising strength": "0.5"
+        "Model hash": "ea349eeae8",
+        "negativePrompt": "worst aesthetic, worst quality, low quality, lowres, sketch,  [bad hands:0.2], [mutated hands:0.2], mammal, anthro, furry, feral, semi-anthro, oldest, old, loli, child, ai-generated, signature, nsfw,"
       },
-      "username": "amani",
-      "baseModel": "Illustrious",
+      "username": "iviyaa",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        1331188
+        1356500,
+        1195582,
+        1056404,
+        1265270,
+        1247042,
+        1190596,
+        1354541
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "164|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=164%7C1744925337225"
+    "nextCursor": "165|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=165%7C1744925337225"
   }
 }
