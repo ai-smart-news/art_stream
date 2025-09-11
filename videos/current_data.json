@@ -1,33 +1,72 @@
 {
   "items": [
     {
-      "id": 95869136,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1116475-3c67-492b-8e1c-02ac2272fcd0/width=688/f1116475-3c67-492b-8e1c-02ac2272fcd0.jpeg",
-      "hash": "UCCG-}?vkCaK?]%zxusn00R+t7V[9GRjV@xu",
-      "width": 688,
-      "height": 1024,
+      "id": 66398361,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e32388a-f856-43fe-a9c6-9160aa986f03/width=864/0e32388a-f856-43fe-a9c6-9160aa986f03.jpeg",
+      "hash": "UGG8W3000-~T_M9GWAxuO[M{$eoh-UoeIpxt",
+      "width": 864,
+      "height": 1872,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-22T18:53:03.978Z",
-      "postId": 21265096,
+      "createdAt": "2025-03-28T11:02:08.637Z",
+      "postId": 14775993,
       "stats": {
-        "cryCount": 576,
-        "laughCount": 882,
-        "likeCount": 6293,
+        "cryCount": 454,
+        "laughCount": 1048,
+        "likeCount": 6318,
         "dislikeCount": 0,
-        "heartCount": 2230,
-        "commentCount": 8
+        "heartCount": 2151,
+        "commentCount": 10
       },
-      "meta": null,
-      "username": "John_A_Poe_993",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "864x1872",
+        "seed": 1984367578,
+        "Model": "flux1-Dev-Hyper-NF4-v2",
+        "steps": 20,
+        "hashes": {
+          "model": "d6b002afb6",
+          "lora:Rostpunk": "854c6b5c6eae",
+          "lora:Fantasy_Novel_Art_Style": "28397453a9ed"
+        },
+        "prompt": "(indoors,indoor,isometric view,side view,tilt-shift lens:2), (fna_style,miniature,miniature,diorama,miniature,diorama,PVC,plastic:2),sunset,winter giant (randomly multi stack up,multi layer of cheese cake cubic vertical:2.5)  is located center, people are climbing with ropes, (in wooden square plate:3) (on table at study:3) <lora:Fantasy_Novel_Art_Style:1> <lora:Rostpunk:0.3>",
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "28397453a9ed",
+            "name": "Fantasy_Novel_Art_Style",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "854c6b5c6eae",
+            "name": "Rostpunk",
+            "type": "lora",
+            "weight": 0.3
+          },
+          {
+            "hash": "d6b002afb6",
+            "name": "flux1-Dev-Hyper-NF4-v2",
+            "type": "model"
+          }
+        ],
+        "Model hash": "d6b002afb6",
+        "Schedule type": "Simple",
+        "Distilled CFG Scale": "3.5"
+      },
+      "username": "gtkff9021_sub",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        829996,
+        862188
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "175|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=175%7C1744925337225"
+    "nextCursor": "176|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=176%7C1744925337225"
   }
 }
