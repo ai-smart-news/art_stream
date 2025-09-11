@@ -1,65 +1,73 @@
 {
   "items": [
     {
-      "id": 67509992,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/552d38ff-cde3-4a55-aeb4-e4404fe9e575/width=1080/552d38ff-cde3-4a55-aeb4-e4404fe9e575.jpeg",
-      "hash": "UOMj2Kt,%rWA~CkQkXn$NMIUN3oe_3jKoynQ",
-      "width": 1080,
-      "height": 1440,
+      "id": 60406963,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/907c4d7a-1d3c-4e39-ac36-35e67e21f89c/width=832/907c4d7a-1d3c-4e39-ac36-35e67e21f89c.jpeg",
+      "hash": "UOH-+JV?9Y%L~Wt8bJWVxtS#t8t7xuSxbbt6",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-03T00:14:58.921Z",
-      "postId": 15010736,
+      "createdAt": "2025-02-27T09:21:00.000Z",
+      "postId": 13512292,
       "stats": {
-        "cryCount": 556,
-        "laughCount": 978,
-        "likeCount": 6156,
+        "cryCount": 483,
+        "laughCount": 756,
+        "likeCount": 6659,
         "dislikeCount": 0,
-        "heartCount": 2759,
-        "commentCount": 13
+        "heartCount": 2542,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "1080x1440",
-        "seed": 681960160,
-        "Model": "Magic_ILL",
-        "steps": 50,
-        "hashes": {
-          "model": "e32dfcca8a",
-          "lora:CivChan": "295906106644"
-        },
-        "prompt": "<lora:CivChan:1>, civchan, 1girl, furry, anthro, cat, Dagasi, solo, cute, purple eyes, pink hair, white fur, fangs, adorable, wholesome, looking at viewer, blush, smile, giddy, excited, scrunched nose, whiskers, paws, dress, waving, field of flowers, pastel, dynamic angle, beautiful lighting",
-        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 4,
+        "Size": "832x1216",
+        "seed": 1697381741,
+        "steps": 45,
+        "prompt": "Mh1$AgThS2, intricate linework with expressive contrasts, soft lighting with dynamic highlights, a tranquil large lake in the uplands, sakura trees, blossom, mist, dawn, reflection, with mount fuji in the distance, no humans, In the style of ff-td",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [
+        "resources": [],
+        "Created Date": "2025-02-27T0814:47.6192857Z",
+        "civitaiResources": [
           {
-            "hash": "295906106644",
-            "name": "CivChan",
-            "type": "lora",
-            "weight": 1
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
-            "hash": "e32dfcca8a",
-            "name": "Magic_ILL",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 951509,
+            "modelVersionName": "Variant 2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1232251,
+            "modelVersionName": "v1.0 FLUX"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1358337,
+            "modelVersionName": "V1"
           }
-        ],
-        "Model hash": "e32dfcca8a",
-        "Schedule type": "Karras"
+        ]
       },
-      "username": "Titan_Uranus",
-      "baseModel": "Illustrious",
+      "username": "Stu42",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1521207,
-        1597055
+        691639,
+        951509,
+        1232251,
+        1358337
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "136|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=136%7C1744925337225"
+    "nextCursor": "137|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=137%7C1744925337225"
   }
 }
