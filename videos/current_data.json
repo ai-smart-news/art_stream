@@ -1,73 +1,79 @@
 {
   "items": [
     {
-      "id": 67261908,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d131f9ec-3a02-41d2-aeaa-642b96e8601e/width=1792/d131f9ec-3a02-41d2-aeaa-642b96e8601e.jpeg",
-      "hash": "U8Fhq*5jTC^O.T4[IVVzW9-pxUX900=|%2Ee",
-      "width": 1792,
-      "height": 2304,
+      "id": 20001650,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c4e7587-b093-4f2f-92e2-cc0876571f2a/width=1800/1c4e7587-b093-4f2f-92e2-cc0876571f2a.jpeg",
+      "hash": "U9HBIx^#NH~mE{IV?F--04E5s:9H4;-n0NxC",
+      "width": 3072,
+      "height": 5440,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T12:56:38.164Z",
-      "postId": 14958795,
+      "createdAt": "2025-03-24T14:57:02.567Z",
+      "postId": 4463249,
       "stats": {
-        "cryCount": 564,
-        "laughCount": 1517,
-        "likeCount": 5974,
+        "cryCount": 442,
+        "laughCount": 873,
+        "likeCount": 6797,
         "dislikeCount": 0,
-        "heartCount": 2269,
-        "commentCount": 9
+        "heartCount": 2203,
+        "commentCount": 7
       },
       "meta": {
-        "VAE": "sdxl_vae",
-        "Size": "896x1152",
-        "seed": 857643285431197,
-        "Model": "waiNSFWIllustrious_v120",
-        "steps": 30,
+        "Size": "768x1360",
+        "seed": 3191814863,
+        "Model": "level4XL_alphaV03",
+        "steps": 10,
         "hashes": {
-          "vae": "235745af8d",
-          "model": "89cb4ec0a9",
-          "lora:CivChan": "adf956abf9",
-          "lora:QueensGrave": "160fffe09b"
+          "model": "b4609f2c0c",
+          "lora:add-detail-xl": "9c783c8ce46c",
+          "lora:lcm-lora-sdxl": "2fa7e8e56b09",
+          "lora:When_Life_Gives_You_Lemons": "2128e6758197"
         },
-        "prompt": "[Base Prompt] 1girl, CivChan, oll13gr4v3, peace sign, grass, squatting, tombstone, pink hair, purple eyes, thigh highs, black boots, grinning,  masterpiece, best quality, amazing detail, high definition // [Regional Prompting] [Region 1] tombstone, logo, civitai logo, C, [Region 2] text, tombstone, RIP, CivBot,",
-        "Version": "ComfyUI",
-        "sampler": "dpmpp_2m_",
-        "cfgScale": 5,
-        "TI hashes": {},
+        "prompt": "<lora:lcm-lora-sdxl:1>,<lora:add-detail-xl:1>,<lora:When_Life_Gives_You_Lemons:1>,wl_lemons,a butterfly,",
+        "Version": "v1.9.4",
+        "sampler": "LCM",
+        "cfgScale": 1,
         "resources": [
           {
-            "hash": "adf956abf9",
-            "name": "CivChan",
-            "type": "lora"
+            "hash": "2fa7e8e56b09",
+            "name": "lcm-lora-sdxl",
+            "type": "lora",
+            "weight": 1
           },
           {
-            "hash": "160fffe09b",
-            "name": "QueensGrave",
-            "type": "lora"
+            "hash": "9c783c8ce46c",
+            "name": "add-detail-xl",
+            "type": "lora",
+            "weight": 1
           },
           {
-            "hash": "89cb4ec0a9",
-            "name": "waiNSFWIllustrious_v120",
+            "hash": "2128e6758197",
+            "name": "When_Life_Gives_You_Lemons",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "b4609f2c0c",
+            "name": "level4XL_alphaV03",
             "type": "model"
           }
         ],
-        "Model hash": "89cb4ec0a9",
-        "negativePrompt": "bad quality, worst quality, worst detail, patreon, signature, steam,"
+        "Model hash": "b4609f2c0c",
+        "Schedule type": "Automatic"
       },
-      "username": "PressWagon",
-      "baseModel": "Illustrious",
+      "username": "AIArtsChannel",
+      "baseModel": "SDXL Turbo",
       "modelVersionIds": [
-        1490781,
-        1555525,
-        1597055
+        135867,
+        517886,
+        646312
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "146|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=146%7C1744925337225"
+    "nextCursor": "147|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=147%7C1744925337225"
   }
 }
