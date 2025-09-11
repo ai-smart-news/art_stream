@@ -1,80 +1,65 @@
 {
   "items": [
     {
-      "id": 60122462,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ea74dcc-8b5a-443f-850a-56a73e21fd3a/width=1800/1ea74dcc-8b5a-443f-850a-56a73e21fd3a.jpeg",
-      "hash": "U47L7d^n8^0LyqxcvfR300E*^l-o-aTcKjOu",
-      "width": 3328,
-      "height": 4864,
+      "id": 73513612,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa8facc6-5c3e-4fd6-b920-2bf8a198b303/width=832/fa8facc6-5c3e-4fd6-b920-2bf8a198b303.jpeg",
+      "hash": "UC5~e2oeMwaK*0o#MxaKXTS5ROjFpJV@ROof",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-25T23:50:25.986Z",
-      "postId": 13444207,
+      "createdAt": "2025-05-01T15:24:37.670Z",
+      "postId": 16327508,
       "stats": {
-        "cryCount": 433,
-        "laughCount": 796,
-        "likeCount": 6484,
+        "cryCount": 792,
+        "laughCount": 806,
+        "likeCount": 6258,
         "dislikeCount": 0,
-        "heartCount": 2426,
-        "commentCount": 16
+        "heartCount": 2265,
+        "commentCount": 5
       },
       "meta": {
-        "VAE": "ae.safetensors",
+        "VAE": "ae",
         "Size": "832x1216",
-        "seed": 1073922410582824,
-        "Model": "flux1-dev.safetensors",
-        "steps": 25,
+        "seed": 891797935047911,
+        "Model": "flux_dev",
+        "steps": 30,
         "hashes": {
           "vae": "afc8e28272",
           "model": "4610115bb0",
-          "lora:RM_Artistify_v1.0M": "701ab7f2fe",
-          "lora:Cozy_Paradise-000004": "09304d35d9",
-          "lora:Vibrantly_sharp_style_v.2": "4ff2f4fbbf",
-          "lora:flux-ghibsky-illustration": "41010aee95"
+          "lora:FluxDFaeTasticDetails": "4259dc3287"
         },
-        "prompt": "A tiny alien snail, its shell made of prismatic, ever-shifting crystal that reflects the light in dazzling colors. Its antennae have tiny glowing orbs at the tips, and its slimy, semi-transparent body leaves behind a faint glowing trail. It tilts its head curiously, examining the person holding it. The background is an alien garden filled with softly glowing plants and bokeh light specks floating like fireflies.",
-        "sampler": "euler_simple",
+        "prompt": "Dark post-apocalyptic seascape with a ghostly wooden pirate ship sailing through stormy waters. Burning wreckage in the background, magic towers shrouded in mist and smoke. Foreground shows human skulls entangled in ancient ropes. Cinematic lighting, dramatic shadows, dystopian atmosphere, high detail.",
+        "Version": "ComfyUI",
+        "sampler": "euler_cfg_pp",
+        "cfgScale": 3.5,
+        "TI hashes": {},
         "resources": [
           {
+            "hash": "4259dc3287",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora"
+          },
+          {
             "hash": "4610115bb0",
-            "name": "flux1-dev.safetensors",
+            "name": "flux_dev",
             "type": "model"
           }
         ],
-        "Batch size": "4",
-        "Model hash": "4610115bb0",
-        "Batch index": "3",
-        "Lora_0 Model hash": "701ab7f2fe",
-        "Lora_0 Model name": "RM_Artistify_v1.0M.safetensors",
-        "Lora_1 Model hash": "4ff2f4fbbf",
-        "Lora_1 Model name": "Vibrantly_sharp_style_v.2.safetensors",
-        "Lora_2 Model hash": "09304d35d9",
-        "Lora_2 Model name": "Cozy_Paradise-000004.safetensors",
-        "Lora_3 Model hash": "41010aee95",
-        "Lora_3 Model name": "flux-ghibsky-illustration.safetensors",
-        "Lora_0 Strength clip": "0",
-        "Lora_1 Strength clip": "0",
-        "Lora_2 Strength clip": "0",
-        "Lora_3 Strength clip": "0",
-        "Lora_0 Strength model": "0.5",
-        "Lora_1 Strength model": "0.5",
-        "Lora_2 Strength model": "0.5",
-        "Lora_3 Strength model": "0.5"
+        "Model hash": "4610115bb0"
       },
-      "username": "Grymauch",
+      "username": "MikeLike",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        928718,
         691639,
-        1365363,
-        1075587
+        720252
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "159|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=159%7C1744925337225"
+    "nextCursor": "160|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=160%7C1744925337225"
   }
 }
