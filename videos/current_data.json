@@ -1,41 +1,77 @@
 {
   "items": [
     {
-      "id": 86867621,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0324246d-7299-49de-8bb2-6ad4d864ce08/width=1536/0324246d-7299-49de-8bb2-6ad4d864ce08.jpeg",
-      "hash": "U98|-C0LD+^*~oD+M|-.xtRkxtWBx[Rjj?s:",
-      "width": 1536,
-      "height": 2688,
+      "id": 67375791,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34271741-5cc9-408e-a765-daf26e91027d/width=832/34271741-5cc9-408e-a765-daf26e91027d.jpeg",
+      "hash": "UGKT=D4T00%1}sxuFeD%4:tl00%gKNM|nOxH",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-08T17:01:00.000Z",
-      "postId": 19273905,
+      "createdAt": "2025-04-02T00:52:27.891Z",
+      "postId": 14982989,
       "stats": {
-        "cryCount": 405,
-        "laughCount": 744,
-        "likeCount": 6456,
+        "cryCount": 538,
+        "laughCount": 1845,
+        "likeCount": 5582,
         "dislikeCount": 0,
-        "heartCount": 2451,
-        "commentCount": 7
+        "heartCount": 2086,
+        "commentCount": 8
       },
-      "meta": null,
-      "username": "lordstjohn",
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 1812381719,
+        "draft": false,
+        "extra": {
+          "remixOfId": 59239087
+        },
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "masterpiece, best quality, abusrdres, amazing quality, 1girl, solo, CivChan, purple eyes, pink hair, maid, handsomize, meme, beautiful face, lips, meme, parody, inside, house, blurry background, Dutch angle",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "Created Date": "2025-04-02T0052:00.6950859Z",
+        "negativePrompt": "source_pony, realistic, sketch, painting, blender, worst quality, low quality, lowres, blurry foreground, cropped, bad anatomy, bad perspective, (bad hands, missing fingers, extra digit, fewer digits), error, worst quality, low quality, normal quality, jpeg artifacts, Humpbacked, deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long neck, long body, monochrome, (watermark), signature, logo, name, (mosaic censoring), bar censor, sketch, (blurry), bokeh, motion blur, color bleed, Base:bad quality,worst quality,worst detail,sketch,censor",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1151831,
+            "modelVersionName": "v1.0 Illustrious"
+          },
+          {
+            "type": "lora",
+            "weight": 1.5,
+            "modelVersionId": 1443745,
+            "modelVersionName": "Illustrious: V1"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1597055,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "Mlaofmd",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        145907,
-        541905,
-        1506690,
-        1558765,
-        1736373,
-        1772645,
-        1860423
+        1151831,
+        1443745,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "168|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=168%7C1744925337225"
+    "nextCursor": "169|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=169%7C1744925337225"
   }
 }
