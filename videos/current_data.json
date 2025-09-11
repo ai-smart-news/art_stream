@@ -1,71 +1,64 @@
 {
   "items": [
     {
-      "id": 64729567,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21cb9dc2-26e8-4af5-b4c4-8d7bc86912b8/width=1536/21cb9dc2-26e8-4af5-b4c4-8d7bc86912b8.jpeg",
-      "hash": "UhLzT]MdtlEL_NIUM{iv%LS~WBxa%2oLkDoz",
-      "width": 1536,
-      "height": 2016,
+      "id": 63656891,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5c5e3a49-bd03-479d-bd0b-0a025ec70b8a/width=1248/5c5e3a49-bd03-479d-bd0b-0a025ec70b8a.jpeg",
+      "hash": "UNJkAnxZ00ax-;9ZMyozs.4.Io?H?^s:Dis:",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-20T20:35:02.745Z",
-      "postId": 14426698,
+      "createdAt": "2025-03-15T13:26:46.366Z",
+      "postId": 14199465,
       "stats": {
-        "cryCount": 473,
-        "laughCount": 854,
-        "likeCount": 6009,
+        "cryCount": 471,
+        "laughCount": 866,
+        "likeCount": 6018,
         "dislikeCount": 0,
-        "heartCount": 2785,
-        "commentCount": 12
+        "heartCount": 2755,
+        "commentCount": 9
       },
       "meta": {
-        "Size": "1536x2016",
-        "seed": 2004384211,
-        "Model": "waiNSFWIllustrious_v120",
-        "steps": 30,
+        "VAE": "lunaXLVAE_luna.safetensors",
+        "Size": "832x1216",
+        "seed": 753783114,
+        "Model": "plantMilk_flax",
+        "steps": 28,
         "hashes": {
-          "model": "b9044b28d6",
-          "lora:Zelda": "84eff1849778"
+          "vae": "63aeecb90f",
+          "model": "98924aac66"
         },
-        "prompt": "masterpiece, best quality, amazing quality BREAK zelda1x, tunicleggings, smile, riding epona, white background <lora:Zelda:1>",
-        "Version": "f2.0.1v1.10.1-previous-646-ga9e247eb",
-        "sampler": "Euler a",
-        "cfgScale": 5,
+        "prompt": "1girl, action pose, fox_mask, fox fire, mechanical eye, holding sword, school uniform, harness, thigh pouch, silhouette art, glitch art, virtual, colored shadow, geometry, monochrome, local color adaptation, hdr, (disintegration effect:1.4), (chromatic aberration, polarized:1.2), (blurry:1.4), masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest,",
+        "Version": "v1.10.1",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 6,
+        "clipSkip": 2,
         "resources": [
           {
-            "hash": "84eff1849778",
-            "name": "Zelda",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "b9044b28d6",
-            "name": "waiNSFWIllustrious_v120",
+            "hash": "98924aac66",
+            "name": "plantMilk_flax",
             "type": "model"
           }
         ],
-        "Model hash": "b9044b28d6",
-        "Schedule type": "Automatic",
-        "negativePrompt": "bad quality, worst quality, worst detail, sketch, censor",
-        "ADetailer model": "face_yolov8s.pt",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.15",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.35",
-        "ADetailer inpaint only masked": "True"
+        "Model hash": "98924aac66",
+        "Hires steps": "15",
+        "Hires upscale": "1.5",
+        "Schedule type": "Karras",
+        "Hires upscaler": "SwinIR_4x",
+        "negativePrompt": "lowres, (worst quality, bad quality:1.2), bad anatomy, (bad hands, missing fingers, extra fingers:1.4), sketch, jpeg artifacts, text, signature, watermark, old, oldest,",
+        "Denoising strength": "0.5"
       },
-      "username": "Zikickix",
-      "baseModel": null,
-      "modelVersionIds": []
+      "username": "amani",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1331188
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "163|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=163%7C1744925337225"
+    "nextCursor": "164|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=164%7C1744925337225"
   }
 }
