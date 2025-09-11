@@ -1,73 +1,65 @@
 {
   "items": [
     {
-      "id": 60406963,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/907c4d7a-1d3c-4e39-ac36-35e67e21f89c/width=832/907c4d7a-1d3c-4e39-ac36-35e67e21f89c.jpeg",
-      "hash": "UOH-+JV?9Y%L~Wt8bJWVxtS#t8t7xuSxbbt6",
+      "id": 97017376,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a966322f-21cd-4c85-89c5-3f1a6f77fd63/width=832/a966322f-21cd-4c85-89c5-3f1a6f77fd63.jpeg",
+      "hash": "U48=Ww8w00t-.AtSHqtR%%WBRjMb%hHqH;yE",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-27T09:21:00.000Z",
-      "postId": 13512292,
+      "createdAt": "2025-08-28T16:20:55.269Z",
+      "postId": 21520881,
       "stats": {
-        "cryCount": 483,
-        "laughCount": 756,
-        "likeCount": 6659,
+        "cryCount": 546,
+        "laughCount": 851,
+        "likeCount": 6273,
         "dislikeCount": 0,
-        "heartCount": 2542,
-        "commentCount": 6
+        "heartCount": 2738,
+        "commentCount": 10
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1697381741,
-        "steps": 45,
-        "prompt": "Mh1$AgThS2, intricate linework with expressive contrasts, soft lighting with dynamic highlights, a tranquil large lake in the uplands, sakura trees, blossom, mist, dawn, reflection, with mount fuji in the distance, no humans, In the style of ff-td",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
+        "seed": 1622034501,
+        "draft": false,
+        "extra": {
+          "remixOfId": 97016625
+        },
+        "steps": 40,
+        "width": 832,
+        "height": 1216,
+        "prompt": "1800s masked hero with sad face, from the side, small natural breasts, sagging breasts, cape, floppy hat, hand on her rapier in the scabbard, in rain, a small stream of water running down over her face, high contrast shadowing,\n candid style. high contrast, grain effect prominent throughout image, high contrast lighting creating dramatic shadows, grainy film-like texture",
+        "process": "txt2img",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7,
         "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
         "resources": [],
-        "Created Date": "2025-02-27T0814:47.6192857Z",
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-08-28T1617:56.9328302Z",
+        "experimental": false,
+        "negativePrompt": "photo , photography, bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, ugly, jpeg artifacts, deformed, noisy image",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 951509,
-            "modelVersionName": "Variant 2"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 1232251,
-            "modelVersionName": "v1.0 FLUX"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 1358337,
-            "modelVersionName": "V1"
+            "modelVersionId": 1714314
           }
         ]
       },
-      "username": "Stu42",
-      "baseModel": "Flux.1 D",
+      "username": "3skulls",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        951509,
-        1232251,
-        1358337
+        1714314
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "137|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=137%7C1744925337225"
+    "nextCursor": "138|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=138%7C1744925337225"
   }
 }
