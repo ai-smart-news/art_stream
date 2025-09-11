@@ -1,33 +1,73 @@
 {
   "items": [
     {
-      "id": 87461975,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/654eb96e-93ae-4b4a-a959-429a32e03930/width=832/654eb96e-93ae-4b4a-a959-429a32e03930.jpeg",
-      "hash": "UPCgifR*S#$P|_W;Ezw{#SoLJ7a|SgsAOXNa",
-      "width": 832,
-      "height": 1211,
+      "id": 67261908,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d131f9ec-3a02-41d2-aeaa-642b96e8601e/width=1792/d131f9ec-3a02-41d2-aeaa-642b96e8601e.jpeg",
+      "hash": "U8Fhq*5jTC^O.T4[IVVzW9-pxUX900=|%2Ee",
+      "width": 1792,
+      "height": 2304,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-10T22:00:00.000Z",
-      "postId": 19402708,
+      "createdAt": "2025-04-01T12:56:38.164Z",
+      "postId": 14958795,
       "stats": {
-        "cryCount": 493,
-        "laughCount": 855,
-        "likeCount": 6504,
+        "cryCount": 564,
+        "laughCount": 1517,
+        "likeCount": 5974,
         "dislikeCount": 0,
-        "heartCount": 2473,
-        "commentCount": 8
+        "heartCount": 2269,
+        "commentCount": 9
       },
-      "meta": null,
-      "username": "Freako0",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "VAE": "sdxl_vae",
+        "Size": "896x1152",
+        "seed": 857643285431197,
+        "Model": "waiNSFWIllustrious_v120",
+        "steps": 30,
+        "hashes": {
+          "vae": "235745af8d",
+          "model": "89cb4ec0a9",
+          "lora:CivChan": "adf956abf9",
+          "lora:QueensGrave": "160fffe09b"
+        },
+        "prompt": "[Base Prompt] 1girl, CivChan, oll13gr4v3, peace sign, grass, squatting, tombstone, pink hair, purple eyes, thigh highs, black boots, grinning,  masterpiece, best quality, amazing detail, high definition // [Regional Prompting] [Region 1] tombstone, logo, civitai logo, C, [Region 2] text, tombstone, RIP, CivBot,",
+        "Version": "ComfyUI",
+        "sampler": "dpmpp_2m_",
+        "cfgScale": 5,
+        "TI hashes": {},
+        "resources": [
+          {
+            "hash": "adf956abf9",
+            "name": "CivChan",
+            "type": "lora"
+          },
+          {
+            "hash": "160fffe09b",
+            "name": "QueensGrave",
+            "type": "lora"
+          },
+          {
+            "hash": "89cb4ec0a9",
+            "name": "waiNSFWIllustrious_v120",
+            "type": "model"
+          }
+        ],
+        "Model hash": "89cb4ec0a9",
+        "negativePrompt": "bad quality, worst quality, worst detail, patreon, signature, steam,"
+      },
+      "username": "PressWagon",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1490781,
+        1555525,
+        1597055
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "145|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=145%7C1744925337225"
+    "nextCursor": "146|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=146%7C1744925337225"
   }
 }
