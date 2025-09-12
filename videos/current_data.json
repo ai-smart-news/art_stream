@@ -1,70 +1,65 @@
 {
   "items": [
     {
-      "id": 58777550,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f6e3500-a280-492d-bdc4-c39a650cd38e/width=832/6f6e3500-a280-492d-bdc4-c39a650cd38e.jpeg",
-      "hash": "UVR{oat7?w%N%Nofn~j@%ij]ROWBska{NHWB",
-      "width": 832,
-      "height": 1216,
+      "id": 54636609,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1417789-9c18-4d99-825c-428f4a3a2a45/width=1536/d1417789-9c18-4d99-825c-428f4a3a2a45.jpeg",
+      "hash": "UH6w4dMKVFl8*JVtVub]I9xbVsXOIUr?kUo}",
+      "width": 1536,
+      "height": 2560,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-19T09:21:38.289Z",
-      "postId": 13150432,
+      "createdAt": "2025-01-29T20:30:00.000Z",
+      "postId": 12250462,
       "stats": {
-        "cryCount": 451,
-        "laughCount": 977,
-        "likeCount": 5995,
+        "cryCount": 400,
+        "laughCount": 645,
+        "likeCount": 6387,
         "dislikeCount": 0,
-        "heartCount": 2294,
-        "commentCount": 16
+        "heartCount": 2278,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 991413638,
-        "draft": false,
-        "extra": {
-          "remixOfId": 56547310
+        "Size": "768x1280",
+        "seed": 2237280196891669,
+        "Model": "flux",
+        "steps": 20,
+        "hashes": {
+          "model": "",
+          "LORA:flux_dev": "2eda627c8a",
+          "LORA:Anime v1.3": "0d061b16de",
+          "LORA:Illustration_Style_IV": "66bb6c51f2"
         },
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "prompt": "ppstorybook, The image features a cartoon cat with a fur texture that resembles that of a Persian cat, characterized by its long, bushy tail and thick, white whiskers. The cat has a somewhat grumpy expression, with its eyes narrowed and a slight frown, giving it an angry or frustrated look. Its ears are perked up, and it has a small, pink nose. The cat's arms are raised in a defensive or aggressive posture, with the hands spread apart. The background is plain white, which makes the cat stand out prominently. The text above the cat reads \"Go here, I'll embrace you\".",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-02-17T1500:30.9493532Z",
-        "civitaiResources": [
+        "prompt": "A majestic humpback whale breaches the surface of a shimmering, turquoise Arctic sea, its massive form silhouetted against the ethereal glow of the Northern Lights. Iridescent green and purple auroras dance across the night sky, casting an otherworldly light on the whale's glistening skin. Nearby, a pod of narwhals glides gracefully, their spiraled tusks gleaming in the celestial radiance. Floating ice floes dot the water's surface, reflecting the auroral display and creating a dreamlike mosaic. In the distance, jagged ice cliffs loom, their crystalline faces etched with millennia of history. A curious Arctic fox perches atop a nearby ice chunk, its white fur tinged with the surreal colors of the aurora. Schools of silvery Arctic cod dart beneath the surface, their scales catching flashes of the celestial light show. The scene captures the raw beauty and harmony of Arctic marine life, rendered in stunning 8K detail, with an atmosphere that blends the magical with the majestic. Intricate patterns of refracted light play across the whale's barnacle-encrusted skin, while the auroral glow casts long, ethereal shadows across the icy seascape. <lora:Anime v1.3:0.4> <lora:Illustration_Style_IV:0.5> <lora:flux_dev:1>",
+        "Version": "ComfyUI",
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "name": "Illustration_Style_IV",
+            "type": "lora",
+            "weight": 0.5
           },
           {
+            "name": "flux_dev",
             "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1387174,
-            "modelVersionName": "v1.0"
+            "weight": 1
           }
-        ]
+        ],
+        "Model hash": ""
       },
-      "username": "vladimirizh70581",
+      "username": "ma2s",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
         691639,
-        1387174
+        951509,
+        1224481
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "200|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=200%7C1744925337225"
+    "nextCursor": "201|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=201%7C1744925337225"
   }
 }
