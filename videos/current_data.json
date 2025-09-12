@@ -1,67 +1,85 @@
 {
   "items": [
     {
-      "id": 58458300,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a0d24d9-0838-4016-9ae0-6b7e24d55424/width=1800/5a0d24d9-0838-4016-9ae0-6b7e24d55424.jpeg",
-      "hash": "UJCY%to~rAELlCNyiur;0#WAR%oen4xCxbSi",
-      "width": 2304,
-      "height": 3456,
+      "id": 89605341,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c625deaa-15b3-45c9-ae94-3d51132af458/width=832/c625deaa-15b3-45c9-ae94-3d51132af458.jpeg",
+      "hash": "UAA9TU$%0iNH~9t659NIt6j[ENf8IXWE%0j@",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-18T00:17:00.000Z",
-      "postId": 13080961,
+      "createdAt": "2025-07-21T14:30:26.445Z",
+      "postId": 19876710,
       "stats": {
-        "cryCount": 441,
-        "laughCount": 687,
-        "likeCount": 6405,
+        "cryCount": 532,
+        "laughCount": 852,
+        "likeCount": 6238,
         "dislikeCount": 0,
-        "heartCount": 2276,
-        "commentCount": 5
+        "heartCount": 2181,
+        "commentCount": 9
       },
       "meta": {
-        "Size": "1024x1536",
-        "seed": 372343871558686,
-        "Model": "Flux dev",
-        "steps": 20,
+        "Size": "832x1216",
+        "seed": 820716736,
+        "Model": "flux1_dev-bnb",
+        "steps": 22,
         "hashes": {
-          "model": "",
-          "LORA:FluxDFaeTasticDetails": "4259dc3287",
-          "LORA:PinkieFluxProUltraFantasia": "f375cc3839",
-          "LORA:aidmaImageUpgrader-FLUX-V0.2": "3879d63298"
+          "model": "13895696ee",
+          "lora:DarkGhibliMJ7": "f8896592f466",
+          "lora:FLUX-daubrez-DB4RZ-v2": "9A6DFC274BBD",
+          "lora:The_Dark_Side_Of_The_Future": "2ab4b8f56e8e"
         },
-        "prompt": "A chaotic cityscape bathed in the neon glow of streetlights is torn apart by a wild street race, cars launching off ramps and skidding through intersections at breakneck speed. In the foreground, a tricked-out muscle car with oversized rear tires and flaming exhaust burns rubber, leaving a trail of smoke and sparks. The city skyline behind is shattered, as if the force of the speed has cracked reality itself. A metal skull with a checkered bandana grins wickedly from the hood of the lead car, its empty sockets reflecting the chaos. <lora:aidmaImageUpgrader-FLUX-V0.2:0.5><lora:PinkieFluxProUltraFantasia><lora:FluxDFaeTasticDetails:0.7>",
-        "Version": "ComfyUI",
+        "prompt": "oil painting style, Fantasy scene of a woman in a glittering red gown flowing like a river over dark rocks. \nShe sits under a glowing full moon framed by twisted trees. Surrounded by six vivid flamingos, near a golden-lit stream in a surreal, twilight landscape.\n<lora:FLUX-daubrez-DB4RZ-v2:0.72>,\n<lora:The_Dark_Side_Of_The_Future:0.4>,\n<lora:DarkGhibliMJ7:0.77>,",
+        "Version": "f2.0.1v1.10.1-previous-669-gdfdcbab6",
         "sampler": "Euler",
-        "cfgScale": 4,
-        "clipSkip": 1,
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "Mask blur": "20",
         "resources": [
           {
-            "name": "aidmaImageUpgrader-FLUX-V0.2",
+            "hash": "9A6DFC274BBD",
+            "name": "FLUX-daubrez-DB4RZ-v2",
             "type": "lora",
-            "weight": 0.5
+            "weight": 0.72
           },
           {
-            "name": "FluxDFaeTasticDetails",
+            "hash": "2ab4b8f56e8e",
+            "name": "The_Dark_Side_Of_The_Future",
             "type": "lora",
-            "weight": 0.7
+            "weight": 0.4
+          },
+          {
+            "hash": "f8896592f466",
+            "name": "DarkGhibliMJ7",
+            "type": "lora",
+            "weight": 0.77
+          },
+          {
+            "hash": "13895696ee",
+            "name": "flux1_dev-bnb",
+            "type": "model"
           }
         ],
-        "Model hash": "",
-        "negativePrompt": "unknown"
+        "Model hash": "13895696ee",
+        "Schedule type": "Simple",
+        "Denoising strength": "0.75",
+        "Distilled CFG Scale": "3.5"
       },
-      "username": "impossiblebearcl4060",
-      "baseModel": "Flux.1 D",
+      "username": "DxDRG",
+      "baseModel": null,
       "modelVersionIds": [
-        863991,
-        720252,
-        1279996
+        778925,
+        831763,
+        1774383
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "190|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=190%7C1744925337225"
+    "nextCursor": "191|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=191%7C1744925337225"
   }
 }
