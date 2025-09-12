@@ -1,35 +1,55 @@
 {
   "items": [
     {
-      "id": 80608562,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3a8f3d9-97fb-4d44-adc5-5f03aa3d2853/width=1024/a3a8f3d9-97fb-4d44-adc5-5f03aa3d2853.jpeg",
-      "hash": "UB9i-gxZ0iR+EOWCxXoL0OR+};s.^hs.ENR+",
-      "width": 1024,
-      "height": 1536,
+      "id": 87250549,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fad846fe-bf28-484c-b5aa-5fad7215e28d/width=832/fad846fe-bf28-484c-b5aa-5fad7215e28d.jpeg",
+      "hash": "UOH]R=;2#QS*{?#lwaS%0pW,R-S#3fW-nnoI",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-05T19:22:32.264Z",
-      "postId": 17903384,
+      "createdAt": "2025-07-09T16:21:28.946Z",
+      "postId": 18560798,
       "stats": {
-        "cryCount": 427,
-        "laughCount": 904,
-        "likeCount": 5969,
+        "cryCount": 431,
+        "laughCount": 778,
+        "likeCount": 6129,
         "dislikeCount": 0,
-        "heartCount": 2165,
-        "commentCount": 11
+        "heartCount": 2108,
+        "commentCount": 6
       },
       "meta": {
-        "prompt": "A frying pan with tiny planets sizzling like eggs, Saturn bubbling, the Sun leaking yolk, steam forming constellations, surreal breakfast universe, high-res concept art"
+        "Size": "832x1216",
+        "seed": 3428796292,
+        "Model": "stableDiffusion35_large",
+        "steps": 20,
+        "hashes": {
+          "model": "ffef7a279d"
+        },
+        "prompt": "A solitary horse, bathed in the electric glow of a surreal sunset, grazes amidst a vibrant, fragmented field. A weathered farmhouse and a tilting barn loom in the background, rendered with bold, defined lines and a dramatic Dutch-angle perspective. The scene explodes with a bold contrast of sapphire blues and hot pinks, punctuated by splashes of fiery orange and cadmium yellow. Paint splash textures overlay the image, creating a sense of raw energy and movement. A subtle fading effect hints at a fleeting, ephemeral moment. Comic book art influence, dynamic composition, cinematic lighting, raw power, surreal dreamscape, hyperdetailed, 8k resolution.",
+        "Version": "ComfyUI",
+        "sampler": "Euler",
+        "cfgScale": 3.5,
+        "resources": [
+          {
+            "hash": "ffef7a279d",
+            "name": "stableDiffusion35_large",
+            "type": "model"
+          }
+        ],
+        "Model hash": "ffef7a279d"
       },
-      "username": "kareslav",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "username": "Weak_Examination",
+      "baseModel": "SD 3.5 Large",
+      "modelVersionIds": [
+        983309
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "227|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=227%7C1744925337225"
+    "nextCursor": "228|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=228%7C1744925337225"
   }
 }
