@@ -1,35 +1,64 @@
 {
   "items": [
     {
-      "id": 85954467,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9da908f-f1bb-4848-a7c8-dd4e20b3175b/width=1024/a9da908f-f1bb-4848-a7c8-dd4e20b3175b.jpeg",
-      "hash": "UIBM;@%2%2t6~oWBa|ofxaIoIooft7RkM|s:",
-      "width": 1024,
-      "height": 1536,
+      "id": 85496874,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4dafeed2-e410-4510-9c9d-75195fa2aeea/width=1248/4dafeed2-e410-4510-9c9d-75195fa2aeea.jpeg",
+      "hash": "U2BDym000000~q_4004n00?ct6?wNHMx-=tl",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-03T17:00:00.000Z",
-      "postId": 19075220,
+      "createdAt": "2025-06-30T18:48:45.372Z",
+      "postId": 18975509,
       "stats": {
-        "cryCount": 567,
-        "laughCount": 1250,
-        "likeCount": 5574,
+        "cryCount": 370,
+        "laughCount": 810,
+        "likeCount": 6014,
         "dislikeCount": 0,
-        "heartCount": 2186,
-        "commentCount": 17
+        "heartCount": 2383,
+        "commentCount": 7
       },
       "meta": {
-        "prompt": "Hyper-realistic, super detailed image of the Statue of Liberty sitting down looking depressed. Her head is bowed with one hand covering her face in sorrow. She sits on a stone pedestal under a cloudy, overcast sky. Realistic textures of oxidized copper, deep folds in her robe, and weathered surface. Dramatic, moody lighting, cinematic tone."
+        "Size": "832x1216",
+        "seed": 3447273082,
+        "Model": "sijren_no1",
+        "steps": 40,
+        "hashes": {
+          "model": "cd98fc5e8a"
+        },
+        "prompt": "masterpiece, best quality, high quality, absurdres, very aesthetic, 8k.\nred, black, white, woman, angular, crystalline, loose clothes, wrapped, fabric texture, plastic, chrome, latex, dramatic,\ndetailed, dynamic, cinematic, subject focus, depth of field.",
+        "Version": "f2.0.1v1.10.1-previous-665-gae278f79",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "resources": [
+          {
+            "hash": "cd98fc5e8a",
+            "name": "sijren_no1",
+            "type": "model"
+          }
+        ],
+        "Model hash": "cd98fc5e8a",
+        "Hires steps": "15",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x-UltraSharp",
+        "negativePrompt": "lowres, bad anatomy, deformed face",
+        "Hires CFG Scale": "7",
+        "Denoising strength": "0.3",
+        "Diffusion in Low Bits": "float8-e4m3fn (fp16 LoRA)"
       },
-      "username": "OcelotAi",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "username": "fotonhugger",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1938539
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "216|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=216%7C1744925337225"
+    "nextCursor": "217|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=217%7C1744925337225"
   }
 }
