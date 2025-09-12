@@ -1,91 +1,39 @@
 {
   "items": [
     {
-      "id": 61448245,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/591c855d-d676-4286-ba2a-482e502e070d/width=1792/591c855d-d676-4286-ba2a-482e502e070d.jpeg",
-      "hash": "UKOf#;4.01t8~AWB%MWXI@IU-pxu%L?aE1Rj",
-      "width": 1792,
-      "height": 2560,
+      "id": 50357896,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b7dc894c-c4eb-4f81-bfef-2cfeef49d556/width=1800/b7dc894c-c4eb-4f81-bfef-2cfeef49d556.jpeg",
+      "hash": "U35hMkbI00V@?Go#9Zn#0LRj~Vs:01WA^*kD",
+      "width": 2080,
+      "height": 2880,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-04T11:24:27.695Z",
-      "postId": 13736457,
+      "createdAt": "2025-01-08T17:43:00.000Z",
+      "postId": 11334516,
       "stats": {
-        "cryCount": 373,
-        "laughCount": 749,
-        "likeCount": 6291,
+        "cryCount": 434,
+        "laughCount": 657,
+        "likeCount": 6243,
         "dislikeCount": 0,
-        "heartCount": 2153,
-        "commentCount": 3
+        "heartCount": 2219,
+        "commentCount": 28
       },
-      "meta": {
-        "Size": "896x1280",
-        "seed": 15562190524806,
-        "Model": "flux",
-        "steps": 20,
-        "hashes": {
-          "model": "",
-          "LORA:flux_dev": "2eda627c8a",
-          "LORA:MushyFunk": "cdc012dfec",
-          "LORA:RM_Animefy_v1.0M": "7ebbee6776",
-          "LORA:FluxDFaeTasticDetails": "4259dc3287",
-          "LORA:flux_semifluid_pigments": "dbfea1ff2b",
-          "LORA:ck-shadow-circuit-000021": "e60d216bd7"
-        },
-        "prompt": "A tranquil winter garden scene in the meticulous gongbi style, depicting a lone scholar contemplating snowflakes falling on plum blossoms. The composition features delicate white plum flowers blooming on gnarled branches against a backdrop of elegant garden rocks dusted with snow. Rendered with fine mineral pigments on silk, the artwork employs precise brushwork to capture the scholar's contemplative expression and the intricate details of his traditional robes. The scene embodies the Confucian virtue of perseverance through hardship, with the plum blossoms symbolizing resilience and purity. Subtle ink wash techniques create atmospheric depth, with negative space suggesting falling snow. The color palette consists of muted whites, pale pinks, deep browns, and subtle indigo accents. A small red seal mark in the corner bears classical calligraphy, enhancing the scholarly atmosphere of this refined Song dynasty-inspired masterpiece. <lora:ck-shadow-circuit-000021:0.5> <lora:RM_Animefy_v1.0M:0.5> <lora:FluxDFaeTasticDetails:0.5> <lora:flux_semifluid_pigments:0.6> <lora:MushyFunk:0.5> <lora:flux_dev:1>",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "name": "ck-shadow-circuit-000021",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "name": "RM_Animefy_v1.0M",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "name": "FluxDFaeTasticDetails",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "name": "flux_semifluid_pigments",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "name": "MushyFunk",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "name": "flux_dev",
-            "type": "lora",
-            "weight": 1
-          }
-        ],
-        "Model hash": ""
-      },
-      "username": "ma2s",
+      "meta": null,
+      "username": "Abrakzas",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
         691639,
-        720252,
-        1183977,
-        1137985,
-        846653,
-        1050932
+        759880,
+        806265,
+        863655,
+        976226
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "220|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=220%7C1744925337225"
+    "nextCursor": "221|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=221%7C1744925337225"
   }
 }
