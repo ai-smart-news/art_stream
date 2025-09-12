@@ -1,74 +1,52 @@
 {
   "items": [
     {
-      "id": 58342886,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/790f26cf-8f35-425a-85bd-67742f621ca6/width=832/790f26cf-8f35-425a-85bd-67742f621ca6.jpeg",
-      "hash": "UKGlIkxt4TE4.Ts,DjNKn5enkU-o59NH$ynl",
+      "id": 73340831,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fea47b42-eb41-4ceb-b718-a948f627d4fa/width=832/fea47b42-eb41-4ceb-b718-a948f627d4fa.jpeg",
+      "hash": "UPF}[w~p~VtR-pxtRkR*~UW=fkM|-:bIs:Rk",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-17T20:10:00.000Z",
-      "postId": 13056213,
+      "createdAt": "2025-04-30T20:51:00.000Z",
+      "postId": 16291281,
       "stats": {
-        "cryCount": 423,
-        "laughCount": 586,
-        "likeCount": 6262,
+        "cryCount": 704,
+        "laughCount": 771,
+        "likeCount": 5868,
         "dislikeCount": 0,
-        "heartCount": 2158,
-        "commentCount": 4
+        "heartCount": 2078,
+        "commentCount": 8
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": true,
-        "seed": 335196056,
-        "draft": false,
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Midday in a Greek Island Village\nThe whitewashed terraces of a Greek island village gleam under the relentless midday sun. A woven sun hat, long abandoned, rests on a stone ledge, its brim fluttering in the warm breeze. The deep blue Aegean Sea stretches endlessly below, shimmering beneath the bright sky. Pink bougainvillea cascades down sun-bleached walls, their petals drifting lazily across empty streets. A wooden door stands ajar, revealing only shadows within. The scent of salt and jasmine fills the air, but the village remains utterly still, as if waiting. The scene is bathed in warm golden and orange hues, with soft light reflecting off the rippling water. The foreground features grand buildings with ornate domes and towers, surrounded by lush greenery. A bustling waterfront with small boats and bridges connects various districts, filled with people dressed in elegant attire. The background displays rolling hills and distant mountains under a sky dotted with fluffy clouds. The overall aesthetic combines a painterly impressionism with hyperrealist details, evoking a sense of wonder and vibrant life.",
+        "seed": 1289765802,
+        "steps": 31,
+        "prompt": "poster art, photorealistic ink art image, portrait of predator from the movie (Predator), menacing, dark fantasy, masterpiece",
         "sampler": "Undefined",
-        "cfgScale": 3,
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
         "resources": [],
-        "Created Date": "2025-02-16T2153:08.0378604Z",
+        "Created Date": "2025-04-30T2031:30.1940046Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 1366431,
-            "modelVersionName": "Vibrantly Sharp style v.3"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1419425,
-            "modelVersionName": "Vibrantly Dark style v.4"
+            "modelVersionId": 699332,
+            "modelVersionName": "Pro"
           }
         ]
       },
-      "username": "SummerA",
+      "username": "Stu42",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639,
-        1366431,
-        1419425
+        699332
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "231|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=231%7C1744925337225"
+    "nextCursor": "232|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=232%7C1744925337225"
   }
 }
