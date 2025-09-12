@@ -1,67 +1,91 @@
 {
   "items": [
     {
-      "id": 57150058,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91895e3e-ebe7-4094-af06-958b055522d9/width=1800/91895e3e-ebe7-4094-af06-958b055522d9.jpeg",
-      "hash": "U990_.n600D5x]R6pujbx[oyS1Rjy:kp8wtQ",
-      "width": 2304,
-      "height": 3456,
+      "id": 61448245,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/591c855d-d676-4286-ba2a-482e502e070d/width=1792/591c855d-d676-4286-ba2a-482e502e070d.jpeg",
+      "hash": "UKOf#;4.01t8~AWB%MWXI@IU-pxu%L?aE1Rj",
+      "width": 1792,
+      "height": 2560,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-11T22:40:00.000Z",
-      "postId": 12793636,
+      "createdAt": "2025-03-04T11:24:27.695Z",
+      "postId": 13736457,
       "stats": {
-        "cryCount": 447,
-        "laughCount": 1054,
-        "likeCount": 5878,
+        "cryCount": 373,
+        "laughCount": 749,
+        "likeCount": 6291,
         "dislikeCount": 0,
-        "heartCount": 2194,
-        "commentCount": 12
+        "heartCount": 2153,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "1024x1536",
-        "seed": 1044856319646929,
-        "Model": "Flux dev",
+        "Size": "896x1280",
+        "seed": 15562190524806,
+        "Model": "flux",
         "steps": 20,
         "hashes": {
           "model": "",
+          "LORA:flux_dev": "2eda627c8a",
+          "LORA:MushyFunk": "cdc012dfec",
+          "LORA:RM_Animefy_v1.0M": "7ebbee6776",
           "LORA:FluxDFaeTasticDetails": "4259dc3287",
-          "LORA:PinkieFluxProUltraFantasia": "f375cc3839",
-          "LORA:aidmaImageUpgrader-FLUX-V0.2": "3879d63298"
+          "LORA:flux_semifluid_pigments": "dbfea1ff2b",
+          "LORA:ck-shadow-circuit-000021": "e60d216bd7"
         },
-        "prompt": "The Matrix, but All Characters are Cats \u00e2\u0080\u0093 In the stark, green-tinged office hallway, a sleek black cat in a tiny trench coat leaps gracefully into the air, dodging bullets that streak past in slow motion. Its feline body twists with impossible precision, each bullet leaving a rippling distortion in the air behind it. The suited agents\u00e2\u0080\u0094tall, imposing tabby cats with dark sunglasses perched on their whiskered noses\u00e2\u0080\u0094stand at the end of the hall, their paws gripping tiny pistols with perfectly steady aim. The walls are a sterile, fluorescent-lit white, but faint scratch marks and tufts of fur litter the floor, revealing the battle that has already taken place. As the airborne cat completes its mid-air spin, its emerald-green eyes flash with defiance, reflecting the binary code subtly scrolling across the glassy floor beneath it. The scene is frozen in time, a moment of impossible elegance and absurd feline grace. , detailed background  Fantastic lighting. Detailed shadows.intricate details, vivid colors, hyper-detailed, ultra-sharp, , <lora:aidmaImageUpgrader-FLUX-V0.2:0.5><lora:PinkieFluxProUltraFantasia><lora:FluxDFaeTasticDetails:0.7>",
+        "prompt": "A tranquil winter garden scene in the meticulous gongbi style, depicting a lone scholar contemplating snowflakes falling on plum blossoms. The composition features delicate white plum flowers blooming on gnarled branches against a backdrop of elegant garden rocks dusted with snow. Rendered with fine mineral pigments on silk, the artwork employs precise brushwork to capture the scholar's contemplative expression and the intricate details of his traditional robes. The scene embodies the Confucian virtue of perseverance through hardship, with the plum blossoms symbolizing resilience and purity. Subtle ink wash techniques create atmospheric depth, with negative space suggesting falling snow. The color palette consists of muted whites, pale pinks, deep browns, and subtle indigo accents. A small red seal mark in the corner bears classical calligraphy, enhancing the scholarly atmosphere of this refined Song dynasty-inspired masterpiece. <lora:ck-shadow-circuit-000021:0.5> <lora:RM_Animefy_v1.0M:0.5> <lora:FluxDFaeTasticDetails:0.5> <lora:flux_semifluid_pigments:0.6> <lora:MushyFunk:0.5> <lora:flux_dev:1>",
         "Version": "ComfyUI",
         "sampler": "Euler",
-        "cfgScale": 4,
-        "clipSkip": 1,
+        "cfgScale": 1,
         "resources": [
           {
-            "name": "aidmaImageUpgrader-FLUX-V0.2",
+            "name": "ck-shadow-circuit-000021",
+            "type": "lora",
+            "weight": 0.5
+          },
+          {
+            "name": "RM_Animefy_v1.0M",
             "type": "lora",
             "weight": 0.5
           },
           {
             "name": "FluxDFaeTasticDetails",
             "type": "lora",
-            "weight": 0.7
+            "weight": 0.5
+          },
+          {
+            "name": "flux_semifluid_pigments",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "name": "MushyFunk",
+            "type": "lora",
+            "weight": 0.5
+          },
+          {
+            "name": "flux_dev",
+            "type": "lora",
+            "weight": 1
           }
         ],
-        "Model hash": "",
-        "negativePrompt": "unknown"
+        "Model hash": ""
       },
-      "username": "impossiblebearcl4060",
+      "username": "ma2s",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        863991,
+        691639,
         720252,
-        1279996
+        1183977,
+        1137985,
+        846653,
+        1050932
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "219|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=219%7C1744925337225"
+    "nextCursor": "220|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=220%7C1744925337225"
   }
 }
