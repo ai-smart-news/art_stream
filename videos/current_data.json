@@ -1,66 +1,50 @@
 {
   "items": [
     {
-      "id": 41550710,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70d91fcb-a775-49b1-8b5a-f76a7bb57bb8/width=832/70d91fcb-a775-49b1-8b5a-f76a7bb57bb8.jpeg",
-      "hash": "UqJI@W^j~pbc$zxuo#RPwINbnibGxtaeofkD",
-      "width": 832,
-      "height": 1216,
+      "id": 74834112,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/142161b2-b6f6-4098-b6b6-c651bbe8d7d8/width=1024/142161b2-b6f6-4098-b6b6-c651bbe8d7d8.jpeg",
+      "hash": "U87,_IIp0N^i~TM|9b-oWXo1jsWq9bxZ-oIp",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-11-22T22:51:58.702Z",
-      "postId": 9460999,
+      "createdAt": "2025-05-07T19:22:47.152Z",
+      "postId": 16616383,
       "stats": {
-        "cryCount": 427,
-        "laughCount": 613,
-        "likeCount": 6305,
+        "cryCount": 547,
+        "laughCount": 769,
+        "likeCount": 6277,
         "dislikeCount": 0,
-        "heartCount": 2520,
-        "commentCount": 10
+        "heartCount": 2257,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1025922460,
-        "steps": 33,
-        "prompt": "Silhouette Art, magnificent. female water elemental, long blue hair, bangs, pulsing with water and blue electrical energy",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-11-21T2108:18.7199728Z",
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "oil-painting with rough brush strokes on old vintage canvas, vintage, old, dusty, scratches, moody, grainy, minimalism, expressionism, surrealism, anime, white silhouette of a geisha wearing a hoodie and porcelain mask with a black raven on her shoulder, bordeaux red and white colors",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 737284,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 914935,
-            "modelVersionName": "ink-dynamic"
+            "weight": 1,
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "Stu43",
-      "baseModel": "Flux.1 D",
+      "username": "Krawuzzn",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        691639,
-        737284,
-        914935
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "186|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=186%7C1744925337225"
+    "nextCursor": "187|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=187%7C1744925337225"
   }
 }
