@@ -1,85 +1,33 @@
 {
   "items": [
     {
-      "id": 89605341,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c625deaa-15b3-45c9-ae94-3d51132af458/width=832/c625deaa-15b3-45c9-ae94-3d51132af458.jpeg",
-      "hash": "UAA9TU$%0iNH~9t659NIt6j[ENf8IXWE%0j@",
-      "width": 832,
-      "height": 1216,
+      "id": 86270497,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9292b257-56bc-4568-ae17-150ccb7e2a37/width=1632/9292b257-56bc-4568-ae17-150ccb7e2a37.jpeg",
+      "hash": "UBDvND-p?bV[D%~q-p?bX7kVoLV@tRD%s:xu",
+      "width": 1632,
+      "height": 2912,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-21T14:30:26.445Z",
-      "postId": 19876710,
+      "createdAt": "2025-07-04T17:57:38.869Z",
+      "postId": 19144026,
       "stats": {
-        "cryCount": 532,
-        "laughCount": 852,
-        "likeCount": 6238,
+        "cryCount": 473,
+        "laughCount": 816,
+        "likeCount": 6094,
         "dislikeCount": 0,
-        "heartCount": 2181,
-        "commentCount": 9
+        "heartCount": 2411,
+        "commentCount": 13
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 820716736,
-        "Model": "flux1_dev-bnb",
-        "steps": 22,
-        "hashes": {
-          "model": "13895696ee",
-          "lora:DarkGhibliMJ7": "f8896592f466",
-          "lora:FLUX-daubrez-DB4RZ-v2": "9A6DFC274BBD",
-          "lora:The_Dark_Side_Of_The_Future": "2ab4b8f56e8e"
-        },
-        "prompt": "oil painting style, Fantasy scene of a woman in a glittering red gown flowing like a river over dark rocks. \nShe sits under a glowing full moon framed by twisted trees. Surrounded by six vivid flamingos, near a golden-lit stream in a surreal, twilight landscape.\n<lora:FLUX-daubrez-DB4RZ-v2:0.72>,\n<lora:The_Dark_Side_Of_The_Future:0.4>,\n<lora:DarkGhibliMJ7:0.77>,",
-        "Version": "f2.0.1v1.10.1-previous-669-gdfdcbab6",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "Mask blur": "20",
-        "resources": [
-          {
-            "hash": "9A6DFC274BBD",
-            "name": "FLUX-daubrez-DB4RZ-v2",
-            "type": "lora",
-            "weight": 0.72
-          },
-          {
-            "hash": "2ab4b8f56e8e",
-            "name": "The_Dark_Side_Of_The_Future",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "hash": "f8896592f466",
-            "name": "DarkGhibliMJ7",
-            "type": "lora",
-            "weight": 0.77
-          },
-          {
-            "hash": "13895696ee",
-            "name": "flux1_dev-bnb",
-            "type": "model"
-          }
-        ],
-        "Model hash": "13895696ee",
-        "Schedule type": "Simple",
-        "Denoising strength": "0.75",
-        "Distilled CFG Scale": "3.5"
-      },
-      "username": "DxDRG",
-      "baseModel": null,
-      "modelVersionIds": [
-        778925,
-        831763,
-        1774383
-      ]
+      "meta": null,
+      "username": "SergVidocq",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "191|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=191%7C1744925337225"
+    "nextCursor": "192|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=192%7C1744925337225"
   }
 }
