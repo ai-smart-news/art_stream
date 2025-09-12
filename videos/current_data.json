@@ -1,52 +1,40 @@
 {
   "items": [
     {
-      "id": 85494934,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1965049a-b736-46aa-a3c4-fdbf53c403f6/width=832/1965049a-b736-46aa-a3c4-fdbf53c403f6.jpeg",
-      "hash": "U99j:6D42jvJA~VWyGQ,4:t8?JNMQ8pwitb{",
-      "width": 832,
-      "height": 1216,
+      "id": 9528006,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b9bd264-1a6b-45a2-bf76-0867bdd8c327/width=896/4b9bd264-1a6b-45a2-bf76-0867bdd8c327.jpeg",
+      "hash": "UZI59=i{tQ%g~VaKt6xun$t7RjIVxuoLM{IV",
+      "width": 896,
+      "height": 1280,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-30T18:35:33.367Z",
-      "postId": 18974899,
+      "createdAt": "2024-04-09T20:45:33.978Z",
+      "postId": 2063726,
       "stats": {
-        "cryCount": 482,
-        "laughCount": 875,
-        "likeCount": 6038,
+        "cryCount": 366,
+        "laughCount": 874,
+        "likeCount": 5423,
         "dislikeCount": 0,
-        "heartCount": 2311,
-        "commentCount": 7
+        "heartCount": 3039,
+        "commentCount": 19
       },
       "meta": {
-        "seed": 35889481,
-        "vaes": [
-          "sdxl_vae.safetensors"
-        ],
-        "comfy": "{\"prompt\": {\"10001\": {\"class_type\": \"ECHOCheckpointLoaderSimple\", \"inputs\": {\"ckpt_name\": \"EMS-582724-EMS.safetensors\"}, \"_properties\": null}, \"10020\": {\"class_type\": \"LoraTagLoader\", \"inputs\": {\"clip\": [\"10001\", 1], \"model\": [\"10001\", 0], \"text\": \"<lora:EMS-1072345-EMS.safetensors:0.800000>\"}, \"_properties\": null}, \"10021\": {\"class_type\": \"VAELoader\", \"inputs\": {\"vae_name\": \"sdxl_vae.safetensors\"}, \"_properties\": null}, \"10022\": {\"class_type\": \"CLIPSetLastLayer\", \"inputs\": {\"clip\": [\"10020\", 1], \"stop_at_clip_layer\": -2}, \"_properties\": null}, \"10034\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10022\", 0], \"text\": \"(pixel_art), mina0noita, purple robe, hood, cape, retro_artstyle, hug animal, animal sheep, 1girl, dungeon, minecraft pixels, dutch ange, on knee\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10035\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10022\", 0], \"text\": \"lowres, (bad quality,worst quality:1.2), bad anatomy,blurry,watermark,simple background,transparent background, sketch,jpeg artifacts,ugly, poorly drawn,(censor)\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10062\": {\"class_type\": \"EmptyLatentImage\", \"inputs\": {\"batch_size\": 2, \"height\": 1216, \"width\": 832}, \"_properties\": null}, \"11001\": {\"class_type\": \"SetSubseeds\", \"inputs\": {\"latent\": [\"10062\", 0]}, \"_properties\": null}, \"11002\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 5.5, \"denoise\": 1.0, \"ensd\": 31337, \"latent_image\": [\"11001\", 0], \"model\": [\"10020\", 0], \"negative\": [\"10035\", 0], \"positive\": [\"10034\", 0], \"sampler_name\": \"euler_ancestral\", \"scheduler\": \"normal\", \"seed\": 35889481, \"seed_mode\": \"A1111\", \"steps\": 25}, \"_properties\": null}, \"11019\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"11002\", 0], \"vae\": [\"10021\", 0]}, \"_properties\": null}, \"12004\": {\"class_type\": \"SetSubseeds_Image\", \"inputs\": {\"images\": [\"11019\", 0]}, \"_properties\": null}, \"12005\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"880616686938489076\", \"images\": [\"12004\", 0]}, \"_properties\": null}}, \"workflow\": undefined}",
-        "steps": 25,
-        "models": [],
-        "prompt": "(pixel_art), mina0noita, purple robe, hood, cape, retro_artstyle, hug animal, animal sheep, 1girl, dungeon, minecraft pixels, dutch ange, on knee",
-        "denoise": 1,
+        "seed": 1867017557,
+        "steps": 60,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, solo,  cute  alien girl engineer, long ears, (big evil eyes) , stripes, cute ,pupilless , close up, half closed eyes, wearing futuristic jumpsuit, dirty skin,  skinny, engine room of a spaceship, detailed background, medium chest, indoor,(from behind), presenting her back, looking at viewer, sweating, holographic terminals, cleavage\n<lora:ToraFurry_XL_PonyV6_p1-t1:0.5>",
         "sampler": "Euler a",
-        "cfgScale": 5.5,
-        "modelIds": [],
-        "scheduler": "normal",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "lowres, (bad quality,worst quality:1.2), bad anatomy,blurry,watermark,simple background,transparent background, sketch,jpeg artifacts,ugly, poorly drawn,(censor)",
-        "additionalResources": []
+        "cfgScale": 11,
+        "negativePrompt": "(signature:1.3)"
       },
-      "username": "DuglasKele",
-      "baseModel": "Illustrious",
+      "username": "GrayArtist",
+      "baseModel": "Pony",
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "202|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=202%7C1744925337225"
+    "nextCursor": "203|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=203%7C1744925337225"
   }
 }
