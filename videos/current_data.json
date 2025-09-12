@@ -1,58 +1,37 @@
 {
   "items": [
     {
-      "id": 81745020,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/746a8496-dacf-4f80-9b8c-15ffb03878d6/width=1536/746a8496-dacf-4f80-9b8c-15ffb03878d6.jpeg",
-      "hash": "U5D9qk~c0}a*x=SuIWT0EIW[#ER%x8o|N5iJ",
-      "width": 1536,
-      "height": 2752,
+      "id": 81337710,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a8c298-473d-4434-a58c-a0ad80729150/width=832/47a8c298-473d-4434-a58c-a0ad80729150.jpeg",
+      "hash": "U8CZMN{O0J7J7:I9,[tm00V?$]PB#G-XaxN1",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-11T19:41:00.000Z",
-      "postId": 18158713,
+      "createdAt": "2025-06-26T18:03:00.000Z",
+      "postId": 18066802,
       "stats": {
-        "cryCount": 463,
-        "laughCount": 770,
-        "likeCount": 6257,
+        "cryCount": 465,
+        "laughCount": 889,
+        "likeCount": 5952,
         "dislikeCount": 0,
-        "heartCount": 2249,
-        "commentCount": 5
+        "heartCount": 2427,
+        "commentCount": 6
       },
-      "meta": {
-        "Size": "1536x2752",
-        "seed": 134245795,
-        "steps": 30,
-        "width": 1536,
-        "height": 2752,
-        "prompt": "magnificent, photography, Eurasian kingfisher",
-        "sampler": "Undefined",
-        "cfgScale": 7.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@1088507",
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-06-11T1900:33.4899337Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1088507,
-            "modelVersionName": "Pro 1.1 Ultra"
-          }
-        ]
-      },
-      "username": "Stu42",
+      "meta": null,
+      "username": "DoreenAI",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1088507
+        793777,
+        803128,
+        978472
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "198|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=198%7C1744925337225"
+    "nextCursor": "199|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=199%7C1744925337225"
   }
 }
