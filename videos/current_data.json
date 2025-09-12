@@ -1,78 +1,52 @@
 {
   "items": [
     {
-      "id": 94937804,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/262362be-f203-4248-a630-4ab284ab5be8/width=1800/262362be-f203-4248-a630-4ab284ab5be8.jpeg",
-      "hash": "UJFsr~ETJX%L00s9j;RP00xVVYIt}*M{%Mx]",
-      "width": 2688,
-      "height": 3840,
+      "id": 77652248,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/18da8652-3769-4318-bdbc-5f9ed9c75a7a/width=1024/18da8652-3769-4318-bdbc-5f9ed9c75a7a.jpeg",
+      "hash": "UFJ~fa=x8{wd}soeayoe00WCxsoLv~ofWVR*",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-18T04:45:00.000Z",
-      "postId": 21060228,
+      "createdAt": "2025-05-21T17:41:44.567Z",
+      "postId": 17248763,
       "stats": {
-        "cryCount": 519,
-        "laughCount": 848,
-        "likeCount": 6020,
+        "cryCount": 589,
+        "laughCount": 1101,
+        "likeCount": 5790,
         "dislikeCount": 0,
-        "heartCount": 2284,
-        "commentCount": 5
+        "heartCount": 2190,
+        "commentCount": 7
       },
       "meta": {
-        "seed": 932680442,
-        "draft": false,
-        "extra": {},
-        "steps": 34,
-        "width": 832,
-        "height": 1216,
-        "prompt": "masterpiece, best_quality, absurdres, amazing_quality, 1girl, blonde_hair, long_hair, closed_eyes, sleeping, curled_up, peaceful, small_girl, trapped_in_bottle, sideways_glass_bottle, floating_in_clouds, fluffy_clouds, pastel_sky, whimsical, watercolor_style, painterly, soft_brushstrokes, gentle_colors, pastel_palette, dreamy, surreal, fantasy, skirt, long_sleeves, blouse, bare_legs, delicate, cute, alone, ethereal, light_particles, soft_lighting",
-        "process": "img2img",
-        "sampler": "Euler a",
-        "cfgScale": 5.5,
-        "clipSkip": 2,
-        "quantity": 4,
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "Photographi\u00e9 avec un Sony A7R V et un objectif FE 24-70mm f/2.8 GM II r\u00e9gl\u00e9 \u00e0 40mm, cette composition vue du dessus est \u00e9clair\u00e9e par des panneaux LED continus plac\u00e9s au-dessus, diffus\u00e9s pour \u00e9viter tout reflet g\u00eanant. Un plateau de caf\u00e9t\u00e9ria rouge pomme d'amour constitue l'arri\u00e8re-plan\u2014une esth\u00e9tique classique de food court, en plastique marqu\u00e9 de l\u00e9g\u00e8res \u00e9gratignures d\u2019ustensiles et de petites bosses accumul\u00e9es au fil des ann\u00e9es.\nAu centre du plateau se trouve une assiette en papier blanc l\u00e9g\u00e8rement incurv\u00e9e, bord\u00e9e d\u2019un anneau rouge imprim\u00e9. Cet anneau se rompt au sommet pour r\u00e9v\u00e9ler une typographie affirm\u00e9e et moderne : CIVITAI : Feed Your Imagination\nAu c\u0153ur de l'assiette, le logo de Civitai appara\u00eet en trois dimensions, r\u00e9alis\u00e9 enti\u00e8rement en pain de bretzel plut\u00f4t qu'en p\u00e2te plate traditionnelle. La forme hexagonale est conserv\u00e9e avec un contour arrondi et doux, \u00e9voquant une texture moelleuse. Le \u00ab C \u00bb blanc au centre est fa\u00e7onn\u00e9 en un n\u0153ud typique de bretzel. Des nuances dor\u00e9es, semblables \u00e0 celles d\u2019une p\u00e2te fra\u00eechement cuite, pr\u00e9sentent un l\u00e9ger d\u00e9grad\u00e9 pour renforcer l'attrait visuel. De petits grains blancs, \u00e9voquant des cristaux de sel, pars\u00e8ment subtilement la surface tout en pr\u00e9servant la pr\u00e9cision g\u00e9om\u00e9trique distinctive.\nCe bretzel-logo ressemble \u00e0 une sculpture comestible, moul\u00e9e avec pr\u00e9cision\u2014comme une incarnation physique de l\u2019intelligence elle-m\u00eame, parfaitement grill\u00e9e.",
+        "process": "txt2img",
+        "quality": "high",
+        "quantity": 1,
         "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "experimental": false,
-        "negativePrompt": "worst quality, bad quality, low quality, anatomical nonsense, bad anatomy,interlocked fingers, extra fingers,watermark, toddler, child, baby,floor, ground, reflection",
+        "background": "opaque",
         "civitaiResources": [
           {
+            "type": "checkpoint",
             "weight": 1,
-            "modelVersionId": 2069051
-          },
-          {
-            "weight": 4,
-            "modelVersionId": 1498986
-          },
-          {
-            "weight": 4,
-            "modelVersionId": 1506032
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "klaabu",
-      "baseModel": "Illustrious",
+      "username": "elisa_toy",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        164821,
-        1498986,
-        1506032,
-        2069051
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "208|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=208%7C1744925337225"
+    "nextCursor": "209|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=209%7C1744925337225"
   }
 }
