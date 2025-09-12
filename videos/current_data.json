@@ -1,91 +1,68 @@
 {
   "items": [
     {
-      "id": 67336637,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2b34767-83ca-4b48-b395-038b0cd53c2e/width=1280/e2b34767-83ca-4b48-b395-038b0cd53c2e.jpeg",
-      "hash": "UUJkyRaJLNx^Rsn%J.X9Xos.McW=Kkoc%2ay",
-      "width": 1280,
-      "height": 1856,
+      "id": 85891913,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dca9a2c3-aaf7-4b1a-b876-b3cd29bcc312/width=1040/dca9a2c3-aaf7-4b1a-b876-b3cd29bcc312.jpeg",
+      "hash": "U330pdbwQ,Q,HXZ~VVt.pyo~o#Q+R4Rjt.tm",
+      "width": 1040,
+      "height": 1392,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T21:03:05.085Z",
-      "postId": 14974896,
+      "createdAt": "2025-07-02T20:12:36.043Z",
+      "postId": 19062171,
       "stats": {
-        "cryCount": 505,
-        "laughCount": 873,
-        "likeCount": 5850,
+        "cryCount": 430,
+        "laughCount": 754,
+        "likeCount": 6059,
         "dislikeCount": 0,
-        "heartCount": 2319,
-        "commentCount": 4
+        "heartCount": 2282,
+        "commentCount": 5
       },
       "meta": {
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:1224788@1379960",
-        "extra": {},
-        "steps": 28,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:1224788@1379960"
-        ],
-        "prompt": "CivChan NEEDS YOUR BUZZ,\nsolo, (floating, midair), [bent over], reaching out to viewer, dangling legs, spring, outside, meadow, carrying basket,\n(bee costume bee onesie), insect wings,\npurple eyes, pink hair, curvy,\nwind, happy, wink, red pupil,\n(takashia \\(akimototakashia\\):0.5), (sam yang:0.5), (ciloranko:0.5), (moshimoshibe:0.5), \nmasterpiece, newest, highres, absurdres, amazing quality, best quality, ultra-detailed",
-        "sampler": "Euler",
-        "cfgScale": 5,
-        "modelIds": [],
-        "workflow": "img2img-hires",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "worst quality, worst detail, signature, artist name, oldest, bad hands, child, aged down, loli, simple background, border, nipples",
-        "civitaiResources": [
+        "Size": "1044x1392",
+        "seed": 165079719,
+        "Model": "Lustoria",
+        "steps": 35,
+        "hashes": {
+          "model": "d52dc5b926"
+        },
+        "prompt": "masterpiece, best quality, very awa, absurdres, Good quality, very aesthetic, newest,\nink splash, panoramic view, Flowing, dynamic feel, dynamic scene, heterochromia eyes, cat,\nwhite abstract background, black backdrop with soft gradient, floating black feathers, glowing blue embers, neon reflections, dramatic lighting from below, blue and black mystical atmosphere, ember particles in the air, sharp blue accents, moody cyber ritual glow, cinematic dark city ambiance",
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "resources": [
           {
-            "weight": 1,
-            "modelVersionId": 1379960
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1379960
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1597055
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1379960
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055
+            "hash": "d52dc5b926",
+            "name": "Lustoria",
+            "type": "model"
           }
         ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:1412708@1597055",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          }
-        ]
+        "Model hash": "d52dc5b926",
+        "Schedule type": "Automatic",
+        "negativePrompt": "low quality, worst quality, normal quality, jpeg artifacts, watermark, signature, text, error, bad anatomy, glowing eyes, muscular woman, bad hands, distorted, ugly",
+        "ADetailer model": "face_yolov8s.pt",
+        "ADetailer version": "25.3.0",
+        "ADetailer mask blur": "5",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint width": "800",
+        "ADetailer inpaint height": "800",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer use inpaint width height": "True"
       },
-      "username": "kastakanin",
+      "username": "Neural_Lens",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        164821,
-        1379960,
-        1597055
+        1959674
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "224|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=224%7C1744925337225"
+    "nextCursor": "225|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=225%7C1744925337225"
   }
 }
