@@ -1,102 +1,35 @@
 {
   "items": [
     {
-      "id": 61698618,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/93c19223-1394-47d0-81b1-21e71cae64ad/width=832/93c19223-1394-47d0-81b1-21e71cae64ad.jpeg",
-      "hash": "U58pr;ZhzV$*cYOX0KO?0ycE57$j-B#8~Bv~",
-      "width": 832,
-      "height": 1216,
+      "id": 85954467,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9da908f-f1bb-4848-a7c8-dd4e20b3175b/width=1024/a9da908f-f1bb-4848-a7c8-dd4e20b3175b.jpeg",
+      "hash": "UIBM;@%2%2t6~oWBa|ofxaIoIooft7RkM|s:",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-05T17:55:55.281Z",
-      "postId": 13789641,
+      "createdAt": "2025-07-03T17:00:00.000Z",
+      "postId": 19075220,
       "stats": {
-        "cryCount": 450,
-        "laughCount": 770,
-        "likeCount": 6093,
+        "cryCount": 567,
+        "laughCount": 1250,
+        "likeCount": 5574,
         "dislikeCount": 0,
-        "heartCount": 2277,
-        "commentCount": 6
+        "heartCount": 2186,
+        "commentCount": 17
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 1138553916,
-        "draft": false,
-        "extra": {
-          "remixOfId": 14930865
-        },
-        "steps": 36,
-        "width": 832,
-        "height": 1216,
-        "prompt": "sinozick style, fiery aura, 1girl, cyberpunk, dark theme, metal mask, metal three quarters face mask, solo, cyborg, skull, looking at viewer, multi-colored hair, white eyes, bloody, large breasts, claws, \"sinozick style\", \"g4n1m3\"",
-        "sampler": "Euler a",
-        "cfgScale": 4,
-        "clipSkip": 2,
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
-        "resources": [],
-        "Created Date": "2025-03-05T1706:38.6619368Z",
-        "negativePrompt": "score_5, score_4, watermark, signature, artist name, 3d, easynegative, neutral, angry, mean, intense, ugly, old, , striped face, black stripes,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 464939,
-            "modelVersionName": "v1.1"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 481798,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 501154,
-            "modelVersionName": "Gothic Retro Anime v1.0"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 106916,
-            "modelVersionName": "v1.0"
-          }
-        ]
+        "prompt": "Hyper-realistic, super detailed image of the Statue of Liberty sitting down looking depressed. Her head is bowed with one hand covering her face in sorrow. She sits on a stone pedestal under a cloudy, overcast sky. Realistic textures of oxidized copper, deep folds in her robe, and weathered surface. Dramatic, moody lighting, cinematic tone."
       },
-      "username": "Dimaya",
-      "baseModel": "Pony",
-      "modelVersionIds": [
-        9208,
-        464939,
-        481798,
-        501154
-      ]
+      "username": "OcelotAi",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "215|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=215%7C1744925337225"
+    "nextCursor": "216|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=216%7C1744925337225"
   }
 }
