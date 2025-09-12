@@ -1,64 +1,98 @@
 {
   "items": [
     {
-      "id": 85496874,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4dafeed2-e410-4510-9c9d-75195fa2aeea/width=1248/4dafeed2-e410-4510-9c9d-75195fa2aeea.jpeg",
-      "hash": "U2BDym000000~q_4004n00?ct6?wNHMx-=tl",
-      "width": 1248,
-      "height": 1824,
+      "id": 90877549,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1458d269-9dde-4811-ad42-dba24a4aaa19/width=832/1458d269-9dde-4811-ad42-dba24a4aaa19.jpeg",
+      "hash": "U6C5^*0M00^iz.9t.8%1u4-V8{NaNxIoWC~B",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-30T18:48:45.372Z",
-      "postId": 18975509,
+      "createdAt": "2025-07-28T01:20:00.000Z",
+      "postId": 20152895,
       "stats": {
-        "cryCount": 370,
-        "laughCount": 810,
-        "likeCount": 6014,
+        "cryCount": 441,
+        "laughCount": 761,
+        "likeCount": 5716,
         "dislikeCount": 0,
-        "heartCount": 2383,
-        "commentCount": 7
+        "heartCount": 2658,
+        "commentCount": 3
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 3447273082,
-        "Model": "sijren_no1",
-        "steps": 40,
-        "hashes": {
-          "model": "cd98fc5e8a"
-        },
-        "prompt": "masterpiece, best quality, high quality, absurdres, very aesthetic, 8k.\nred, black, white, woman, angular, crystalline, loose clothes, wrapped, fabric texture, plastic, chrome, latex, dramatic,\ndetailed, dynamic, cinematic, subject focus, depth of field.",
-        "Version": "f2.0.1v1.10.1-previous-665-gae278f79",
-        "sampler": "Euler a",
+        "seed": 947916930,
+        "draft": false,
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "score_9_up, score_9, score_8_up, score_8, score_7_up, score_7, cinematic lighting, raw, high quality, 4k resolution, absurdres, masterpiece, dynamic lighting, high contrast,\n1girl, solo, cute, blonde hair, (long hairs:1.2),  ponytail hairstyle, (loose hairs:1.4), (freckles:1.4), black makeup, black lipstick, (big breasts:0.8), white top, (leather jacket:1.1), (ruined makeup:0.8), devils horns, \n(close view:1.4), closed eyes, smiling, \n(dark blue background:1.2), (bubbles:1.3)",
+        "process": "txt2img",
+        "sampler": "DPM++ 2M Karras",
         "cfgScale": 7,
-        "resources": [
+        "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Pony",
+        "resources": [],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-07-26T0009:31.4171946Z",
+        "experimental": false,
+        "negativePrompt": "score_4, score_5, score_6, (shaved head:1.5), (curly hair:1.5), (curly hairstyle:1.5), (cleavage:1.5), (exposed breasts:1.5), (long neck:1.5),\nfutanari, extra fingers, distorted hands, distorted fingers, deformed face, deformed hands, deformed fingers, poorly drawn face, poorly drawn hands, poorly drawn feet, bad anatomy, exaggerated anatomy, exaggerated limbs, exaggerated pose, long neck, twisted, symmetrical, mixed characters, low quality, lowres, low-resolution, worst quality, blurry, blur, distorted, distortion, bad, messy, old, sketch, draft, beginner, fake, hyper, glossy, aliasing, moir pattern, compression artifacts, jpeg artifacts, downsampling, pixelated, glitch, grainy, kitsch, black and white, lineless, censored, text, signature, watermark, logo, easynegative, SimpleNegativeV3, zPDXLxxx",
+        "civitaiResources": [
           {
-            "hash": "cd98fc5e8a",
-            "name": "sijren_no1",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 287973,
+            "modelVersionName": "V3"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 380277,
+            "modelVersionName": "XXX Rating"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "lora",
+            "weight": 3,
+            "modelVersionId": 1242203,
+            "modelVersionName": "v1.0"
           }
-        ],
-        "Model hash": "cd98fc5e8a",
-        "Hires steps": "15",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x-UltraSharp",
-        "negativePrompt": "lowres, bad anatomy, deformed face",
-        "Hires CFG Scale": "7",
-        "Denoising strength": "0.3",
-        "Diffusion in Low Bits": "float8-e4m3fn (fp16 LoRA)"
+        ]
       },
-      "username": "fotonhugger",
-      "baseModel": "Illustrious",
+      "username": "Pijjiot",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1938539
+        287973,
+        290640,
+        380277,
+        398847,
+        436219,
+        1242203
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "217|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=217%7C1744925337225"
+    "nextCursor": "218|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=218%7C1744925337225"
   }
 }
