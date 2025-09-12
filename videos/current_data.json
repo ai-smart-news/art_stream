@@ -1,62 +1,68 @@
 {
   "items": [
     {
-      "id": 90375755,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/053879a3-5165-4108-a222-b85aa63956d1/width=832/053879a3-5165-4108-a222-b85aa63956d1.jpeg",
-      "hash": "U69HCLDiRj~VD*t7%0M|00%ME29a%MR+M|kC",
+      "id": 95257185,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/059980af-9539-467c-bc41-35ba36c31e8c/width=832/059980af-9539-467c-bc41-35ba36c31e8c.jpeg",
+      "hash": "UEAS~8MH%QI,3gR4kC%4-qMvOQORX,R4-Yn,",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-25T10:42:07.342Z",
-      "postId": 20042118,
+      "createdAt": "2025-08-19T17:40:00.000Z",
+      "postId": 21129568,
       "stats": {
-        "cryCount": 490,
-        "laughCount": 763,
-        "likeCount": 5908,
+        "cryCount": 504,
+        "laughCount": 713,
+        "likeCount": 5884,
         "dislikeCount": 0,
-        "heartCount": 2229,
-        "commentCount": 6
+        "heartCount": 2283,
+        "commentCount": 11
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1556124360,
+        "seed": 836037434,
         "draft": false,
-        "steps": 25,
+        "steps": 35,
         "width": 832,
         "height": 1216,
-        "prompt": "a white half-formed ghostwoman-shape candle melting into drops, wax trees candles glowing faintly like a memory, quiet night scene, soft full moonlight, subtle reflection with light misty aura, best quality, detailed hyperrealism, pencil sketch, artistic blur, vibrant palette, fractal art, stunning",
+        "prompt": "A mysterious warrior stands in silhouette against a large, glowing blue moon. She has long, flowing hair and striking blue eyes that shine with intensity. Dressed in dark attire with intricate designs, she wields a jagged, glowing weapon with pink energy emanating from it. The background features shadowy outlines of trees and ruins, enhancing the ominous atmosphere. Multicolor gradient Splashes of light accentuate her dynamic pose, suggesting powerful magical energy. Dynamic fighting pose, dynamic low angle",
+        "process": "txt2img",
         "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3.5,
+        "cfgScale": 4,
         "clipSkip": 2,
-        "quantity": 4,
+        "quantity": 1,
         "workflow": "txt2img",
-        "baseModel": "SDXL",
+        "baseModel": "Illustrious",
         "resources": [],
         "disablePoi": true,
         "aspectRatio": "13:19",
-        "Created Date": "2025-07-25T1040:41.8107763Z",
+        "Created Date": "2025-08-19T0357:01.6248886Z",
         "experimental": false,
-        "negativePrompt": "jpeg artifacts, blur, distortion, watermark, signature, extra fingers, fewer fingers, lowres, bad hands, duplicate heads, bad anatomy, bad crop",
+        "negativePrompt": "no watermark, no text, no extra limbs, no bad anatomy, no blurry, no low quality, no modern objects, no urban elements, no deformed, no disfigured, no poorly drawn face, no poorly drawn hands, no poorly drawn feet, no duplicate, no cropped, no mutated, no out of frame, no signature, penis, sexual content",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1645671,
-            "modelVersionName": "v2-base"
+            "modelVersionId": 889818
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 2121494
           }
         ]
       },
-      "username": "Necr0x0Der",
-      "baseModel": "SDXL 1.0",
+      "username": "dultrap",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1645671
+        889818,
+        2121494
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "234|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=234%7C1744925337225"
+    "nextCursor": "235|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=235%7C1744925337225"
   }
 }
