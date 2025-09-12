@@ -1,33 +1,66 @@
 {
   "items": [
     {
-      "id": 86270497,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9292b257-56bc-4568-ae17-150ccb7e2a37/width=1632/9292b257-56bc-4568-ae17-150ccb7e2a37.jpeg",
-      "hash": "UBDvND-p?bV[D%~q-p?bX7kVoLV@tRD%s:xu",
-      "width": 1632,
-      "height": 2912,
+      "id": 15234021,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a0e6638-1a3f-491e-a730-9100260d79ac/width=832/0a0e6638-1a3f-491e-a730-9100260d79ac.jpeg",
+      "hash": "U8CF@j~BE1%M4n9GX.Ne]#xt0fD*iGWVS4%L",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-04T17:57:38.869Z",
-      "postId": 19144026,
+      "createdAt": "2024-06-10T00:06:28.731Z",
+      "postId": 3382397,
       "stats": {
-        "cryCount": 473,
-        "laughCount": 816,
-        "likeCount": 6094,
+        "cryCount": 451,
+        "laughCount": 723,
+        "likeCount": 6271,
         "dislikeCount": 0,
-        "heartCount": 2411,
-        "commentCount": 13
+        "heartCount": 2332,
+        "commentCount": 21
       },
-      "meta": null,
-      "username": "SergVidocq",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 9088391,
+        "steps": 25,
+        "prompt": "a dementor, levitating ominously. BREAK inside a dimly lit bell tower. vibrant, photo realism, Masterpiece, (8k), (32k), UHD, highest-quality, intricate details, highly detailed, best artist, immaculate micro-details, sharp edges, detailed textures, full body shot, full body cinematic, atmospheric lighting, visually stunning, perfect composition, trending on artstation",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 8,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-06-10T0004:17.7713861Z",
+        "negativePrompt": "ImgFixerPre0.3, glowing face, bad proportions, (blurry:1.3), blurred composition, low resolution, bad, ugly, bad composition, terrible, 3d, render, comic, manga, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, extra legs, inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cinnadust, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human, blurry, blurred composition, blurry foreground, blurry background",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 291443,
+            "modelVersionName": "v24"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 159184,
+            "modelVersionName": "ImgFixer PreV0.3"
+          },
+          {
+            "type": "vae",
+            "weight": 1,
+            "modelVersionId": 333245,
+            "modelVersionName": "SDXL-VAE"
+          }
+        ]
+      },
+      "username": "Cinnadust",
+      "baseModel": "SDXL 1.0",
+      "modelVersionIds": [
+        291443,
+        159184
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "192|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=192%7C1744925337225"
+    "nextCursor": "193|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=193%7C1744925337225"
   }
 }
