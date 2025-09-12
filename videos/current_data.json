@@ -1,65 +1,52 @@
 {
   "items": [
     {
-      "id": 54636609,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1417789-9c18-4d99-825c-428f4a3a2a45/width=1536/d1417789-9c18-4d99-825c-428f4a3a2a45.jpeg",
-      "hash": "UH6w4dMKVFl8*JVtVub]I9xbVsXOIUr?kUo}",
-      "width": 1536,
-      "height": 2560,
+      "id": 85494934,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1965049a-b736-46aa-a3c4-fdbf53c403f6/width=832/1965049a-b736-46aa-a3c4-fdbf53c403f6.jpeg",
+      "hash": "U99j:6D42jvJA~VWyGQ,4:t8?JNMQ8pwitb{",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-29T20:30:00.000Z",
-      "postId": 12250462,
+      "createdAt": "2025-06-30T18:35:33.367Z",
+      "postId": 18974899,
       "stats": {
-        "cryCount": 400,
-        "laughCount": 645,
-        "likeCount": 6387,
+        "cryCount": 482,
+        "laughCount": 875,
+        "likeCount": 6038,
         "dislikeCount": 0,
-        "heartCount": 2278,
-        "commentCount": 3
+        "heartCount": 2311,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "768x1280",
-        "seed": 2237280196891669,
-        "Model": "flux",
-        "steps": 20,
-        "hashes": {
-          "model": "",
-          "LORA:flux_dev": "2eda627c8a",
-          "LORA:Anime v1.3": "0d061b16de",
-          "LORA:Illustration_Style_IV": "66bb6c51f2"
-        },
-        "prompt": "A majestic humpback whale breaches the surface of a shimmering, turquoise Arctic sea, its massive form silhouetted against the ethereal glow of the Northern Lights. Iridescent green and purple auroras dance across the night sky, casting an otherworldly light on the whale's glistening skin. Nearby, a pod of narwhals glides gracefully, their spiraled tusks gleaming in the celestial radiance. Floating ice floes dot the water's surface, reflecting the auroral display and creating a dreamlike mosaic. In the distance, jagged ice cliffs loom, their crystalline faces etched with millennia of history. A curious Arctic fox perches atop a nearby ice chunk, its white fur tinged with the surreal colors of the aurora. Schools of silvery Arctic cod dart beneath the surface, their scales catching flashes of the celestial light show. The scene captures the raw beauty and harmony of Arctic marine life, rendered in stunning 8K detail, with an atmosphere that blends the magical with the majestic. Intricate patterns of refracted light play across the whale's barnacle-encrusted skin, while the auroral glow casts long, ethereal shadows across the icy seascape. <lora:Anime v1.3:0.4> <lora:Illustration_Style_IV:0.5> <lora:flux_dev:1>",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "name": "Illustration_Style_IV",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "name": "flux_dev",
-            "type": "lora",
-            "weight": 1
-          }
+        "seed": 35889481,
+        "vaes": [
+          "sdxl_vae.safetensors"
         ],
-        "Model hash": ""
+        "comfy": "{\"prompt\": {\"10001\": {\"class_type\": \"ECHOCheckpointLoaderSimple\", \"inputs\": {\"ckpt_name\": \"EMS-582724-EMS.safetensors\"}, \"_properties\": null}, \"10020\": {\"class_type\": \"LoraTagLoader\", \"inputs\": {\"clip\": [\"10001\", 1], \"model\": [\"10001\", 0], \"text\": \"<lora:EMS-1072345-EMS.safetensors:0.800000>\"}, \"_properties\": null}, \"10021\": {\"class_type\": \"VAELoader\", \"inputs\": {\"vae_name\": \"sdxl_vae.safetensors\"}, \"_properties\": null}, \"10022\": {\"class_type\": \"CLIPSetLastLayer\", \"inputs\": {\"clip\": [\"10020\", 1], \"stop_at_clip_layer\": -2}, \"_properties\": null}, \"10034\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10022\", 0], \"text\": \"(pixel_art), mina0noita, purple robe, hood, cape, retro_artstyle, hug animal, animal sheep, 1girl, dungeon, minecraft pixels, dutch ange, on knee\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10035\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10022\", 0], \"text\": \"lowres, (bad quality,worst quality:1.2), bad anatomy,blurry,watermark,simple background,transparent background, sketch,jpeg artifacts,ugly, poorly drawn,(censor)\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10062\": {\"class_type\": \"EmptyLatentImage\", \"inputs\": {\"batch_size\": 2, \"height\": 1216, \"width\": 832}, \"_properties\": null}, \"11001\": {\"class_type\": \"SetSubseeds\", \"inputs\": {\"latent\": [\"10062\", 0]}, \"_properties\": null}, \"11002\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 5.5, \"denoise\": 1.0, \"ensd\": 31337, \"latent_image\": [\"11001\", 0], \"model\": [\"10020\", 0], \"negative\": [\"10035\", 0], \"positive\": [\"10034\", 0], \"sampler_name\": \"euler_ancestral\", \"scheduler\": \"normal\", \"seed\": 35889481, \"seed_mode\": \"A1111\", \"steps\": 25}, \"_properties\": null}, \"11019\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"11002\", 0], \"vae\": [\"10021\", 0]}, \"_properties\": null}, \"12004\": {\"class_type\": \"SetSubseeds_Image\", \"inputs\": {\"images\": [\"11019\", 0]}, \"_properties\": null}, \"12005\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"880616686938489076\", \"images\": [\"12004\", 0]}, \"_properties\": null}}, \"workflow\": undefined}",
+        "steps": 25,
+        "models": [],
+        "prompt": "(pixel_art), mina0noita, purple robe, hood, cape, retro_artstyle, hug animal, animal sheep, 1girl, dungeon, minecraft pixels, dutch ange, on knee",
+        "denoise": 1,
+        "sampler": "Euler a",
+        "cfgScale": 5.5,
+        "modelIds": [],
+        "scheduler": "normal",
+        "upscalers": [],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "lowres, (bad quality,worst quality:1.2), bad anatomy,blurry,watermark,simple background,transparent background, sketch,jpeg artifacts,ugly, poorly drawn,(censor)",
+        "additionalResources": []
       },
-      "username": "ma2s",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        951509,
-        1224481
-      ]
+      "username": "DuglasKele",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "201|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=201%7C1744925337225"
+    "nextCursor": "202|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=202%7C1744925337225"
   }
 }
