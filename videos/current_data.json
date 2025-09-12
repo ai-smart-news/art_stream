@@ -1,37 +1,70 @@
 {
   "items": [
     {
-      "id": 81337710,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a8c298-473d-4434-a58c-a0ad80729150/width=832/47a8c298-473d-4434-a58c-a0ad80729150.jpeg",
-      "hash": "U8CZMN{O0J7J7:I9,[tm00V?$]PB#G-XaxN1",
+      "id": 58777550,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f6e3500-a280-492d-bdc4-c39a650cd38e/width=832/6f6e3500-a280-492d-bdc4-c39a650cd38e.jpeg",
+      "hash": "UVR{oat7?w%N%Nofn~j@%ij]ROWBska{NHWB",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-26T18:03:00.000Z",
-      "postId": 18066802,
+      "createdAt": "2025-02-19T09:21:38.289Z",
+      "postId": 13150432,
       "stats": {
-        "cryCount": 465,
-        "laughCount": 889,
-        "likeCount": 5952,
+        "cryCount": 451,
+        "laughCount": 977,
+        "likeCount": 5995,
         "dislikeCount": 0,
-        "heartCount": 2427,
-        "commentCount": 6
+        "heartCount": 2294,
+        "commentCount": 16
       },
-      "meta": null,
-      "username": "DoreenAI",
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 991413638,
+        "draft": false,
+        "extra": {
+          "remixOfId": 56547310
+        },
+        "steps": 25,
+        "width": 832,
+        "height": 1216,
+        "prompt": "ppstorybook, The image features a cartoon cat with a fur texture that resembles that of a Persian cat, characterized by its long, bushy tail and thick, white whiskers. The cat has a somewhat grumpy expression, with its eyes narrowed and a slight frown, giving it an angry or frustrated look. Its ears are perked up, and it has a small, pink nose. The cat's arms are raised in a defensive or aggressive posture, with the hands spread apart. The background is plain white, which makes the cat stand out prominently. The text above the cat reads \"Go here, I'll embrace you\".",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-02-17T1500:30.9493532Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 1387174,
+            "modelVersionName": "v1.0"
+          }
+        ]
+      },
+      "username": "vladimirizh70581",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        793777,
-        803128,
-        978472
+        691639,
+        1387174
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "199|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=199%7C1744925337225"
+    "nextCursor": "200|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=200%7C1744925337225"
   }
 }
