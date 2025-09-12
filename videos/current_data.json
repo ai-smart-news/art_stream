@@ -1,72 +1,58 @@
 {
   "items": [
     {
-      "id": 37414606,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e8f5c74-acd7-48af-ba23-3a7de14db372/width=992/1e8f5c74-acd7-48af-ba23-3a7de14db372.jpeg",
-      "hash": "U99kKs$Q9@9?-qO?SdEJ@|S}M{S~Q7N?vMnP",
-      "width": 992,
-      "height": 1456,
+      "id": 81745020,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/746a8496-dacf-4f80-9b8c-15ffb03878d6/width=1536/746a8496-dacf-4f80-9b8c-15ffb03878d6.jpeg",
+      "hash": "U5D9qk~c0}a*x=SuIWT0EIW[#ER%x8o|N5iJ",
+      "width": 1536,
+      "height": 2752,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-30T17:07:10.334Z",
-      "postId": 8545198,
+      "createdAt": "2025-06-11T19:41:00.000Z",
+      "postId": 18158713,
       "stats": {
-        "cryCount": 442,
-        "laughCount": 764,
-        "likeCount": 6144,
+        "cryCount": 463,
+        "laughCount": 770,
+        "likeCount": 6257,
         "dislikeCount": 0,
-        "heartCount": 2396,
-        "commentCount": 14
+        "heartCount": 2249,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 2924664149,
-        "Model": "flux1-dev-fp8",
+        "Size": "1536x2752",
+        "seed": 134245795,
         "steps": 30,
-        "hashes": {
-          "model": "275ef623d3",
-          "lora:ck-nc-pastel-cyberpunk": "5efbdb9383f5"
-        },
-        "prompt": "<lora:ck-nc-pastel-cyberpunk:1>, A digital artwork in the style of cknc, A half-body shot of a beautiful cyborg girl in her futuristic workshop. She has neon pink hair cascading down her shoulders, contrasting sharply with her black lipstick. The top of her face, from under the nose to the forehead, is removed like a mask, revealing a detailed mechanical skull underneath. With intense focus, she uses a glowing soldering iron to carefully repair the cracks on a detached skull, which rests in her other hand. Her exposed robotic eye glows a brilliant blue, illuminating the intricate cybernetic components beneath the skull. The workshop is cluttered with futuristic tools, wires, and neon-lit gadgets, all bathed in vibrant cyberpunk hue, electric pinks, deep blues, and fluorescent greens. The neon light reflects off her sleek metallic parts, casting dynamic shadows, while the scene radiates a blend of gritty industrial and high-tech futurism. The art style is highly detailed, in the vein of futurist anime, capturing the beauty of the cyborg girl and the mechanical complexity of her exposed skull.",
-        "Version": "f2.0.1v1.10.1-1.10.1",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "t5xxl_fp16",
-        "Module 3": "clip_l",
-        "cfgScale": 1,
-        "resources": [
+        "width": 1536,
+        "height": 2752,
+        "prompt": "magnificent, photography, Eurasian kingfisher",
+        "sampler": "Undefined",
+        "cfgScale": 7.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@1088507",
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-06-11T1900:33.4899337Z",
+        "civitaiResources": [
           {
-            "hash": "5efbdb9383f5",
-            "name": "ck-nc-pastel-cyberpunk",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "275ef623d3",
-            "name": "flux1-dev-fp8",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 1088507,
+            "modelVersionName": "Pro 1.1 Ultra"
           }
-        ],
-        "Model hash": "275ef623d3",
-        "Hires steps": "10",
-        "Hires upscale": "1.2",
-        "Schedule type": "Simple",
-        "Hires upscaler": "4x-AnimeSharp",
-        "Hires CFG Scale": "1",
-        "Denoising strength": "0.2",
-        "Distilled CFG Scale": "3.5",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "Hires Distilled CFG Scale": "3.5"
+        ]
       },
-      "username": "ChronoKnight",
-      "baseModel": null,
-      "modelVersionIds": []
+      "username": "Stu42",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        1088507
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "197|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=197%7C1744925337225"
+    "nextCursor": "198|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=198%7C1744925337225"
   }
 }
