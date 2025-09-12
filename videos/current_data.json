@@ -1,98 +1,67 @@
 {
   "items": [
     {
-      "id": 90877549,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1458d269-9dde-4811-ad42-dba24a4aaa19/width=832/1458d269-9dde-4811-ad42-dba24a4aaa19.jpeg",
-      "hash": "U6C5^*0M00^iz.9t.8%1u4-V8{NaNxIoWC~B",
-      "width": 832,
-      "height": 1216,
+      "id": 57150058,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91895e3e-ebe7-4094-af06-958b055522d9/width=1800/91895e3e-ebe7-4094-af06-958b055522d9.jpeg",
+      "hash": "U990_.n600D5x]R6pujbx[oyS1Rjy:kp8wtQ",
+      "width": 2304,
+      "height": 3456,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-28T01:20:00.000Z",
-      "postId": 20152895,
+      "createdAt": "2025-02-11T22:40:00.000Z",
+      "postId": 12793636,
       "stats": {
-        "cryCount": 441,
-        "laughCount": 761,
-        "likeCount": 5716,
+        "cryCount": 447,
+        "laughCount": 1054,
+        "likeCount": 5878,
         "dislikeCount": 0,
-        "heartCount": 2658,
-        "commentCount": 3
+        "heartCount": 2194,
+        "commentCount": 12
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 947916930,
-        "draft": false,
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "score_9_up, score_9, score_8_up, score_8, score_7_up, score_7, cinematic lighting, raw, high quality, 4k resolution, absurdres, masterpiece, dynamic lighting, high contrast,\n1girl, solo, cute, blonde hair, (long hairs:1.2),  ponytail hairstyle, (loose hairs:1.4), (freckles:1.4), black makeup, black lipstick, (big breasts:0.8), white top, (leather jacket:1.1), (ruined makeup:0.8), devils horns, \n(close view:1.4), closed eyes, smiling, \n(dark blue background:1.2), (bubbles:1.3)",
-        "process": "txt2img",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
-        "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-07-26T0009:31.4171946Z",
-        "experimental": false,
-        "negativePrompt": "score_4, score_5, score_6, (shaved head:1.5), (curly hair:1.5), (curly hairstyle:1.5), (cleavage:1.5), (exposed breasts:1.5), (long neck:1.5),\nfutanari, extra fingers, distorted hands, distorted fingers, deformed face, deformed hands, deformed fingers, poorly drawn face, poorly drawn hands, poorly drawn feet, bad anatomy, exaggerated anatomy, exaggerated limbs, exaggerated pose, long neck, twisted, symmetrical, mixed characters, low quality, lowres, low-resolution, worst quality, blurry, blur, distorted, distortion, bad, messy, old, sketch, draft, beginner, fake, hyper, glossy, aliasing, moir pattern, compression artifacts, jpeg artifacts, downsampling, pixelated, glitch, grainy, kitsch, black and white, lineless, censored, text, signature, watermark, logo, easynegative, SimpleNegativeV3, zPDXLxxx",
-        "civitaiResources": [
+        "Size": "1024x1536",
+        "seed": 1044856319646929,
+        "Model": "Flux dev",
+        "steps": 20,
+        "hashes": {
+          "model": "",
+          "LORA:FluxDFaeTasticDetails": "4259dc3287",
+          "LORA:PinkieFluxProUltraFantasia": "f375cc3839",
+          "LORA:aidmaImageUpgrader-FLUX-V0.2": "3879d63298"
+        },
+        "prompt": "The Matrix, but All Characters are Cats \u00e2\u0080\u0093 In the stark, green-tinged office hallway, a sleek black cat in a tiny trench coat leaps gracefully into the air, dodging bullets that streak past in slow motion. Its feline body twists with impossible precision, each bullet leaving a rippling distortion in the air behind it. The suited agents\u00e2\u0080\u0094tall, imposing tabby cats with dark sunglasses perched on their whiskered noses\u00e2\u0080\u0094stand at the end of the hall, their paws gripping tiny pistols with perfectly steady aim. The walls are a sterile, fluorescent-lit white, but faint scratch marks and tufts of fur litter the floor, revealing the battle that has already taken place. As the airborne cat completes its mid-air spin, its emerald-green eyes flash with defiance, reflecting the binary code subtly scrolling across the glassy floor beneath it. The scene is frozen in time, a moment of impossible elegance and absurd feline grace. , detailed background  Fantastic lighting. Detailed shadows.intricate details, vivid colors, hyper-detailed, ultra-sharp, , <lora:aidmaImageUpgrader-FLUX-V0.2:0.5><lora:PinkieFluxProUltraFantasia><lora:FluxDFaeTasticDetails:0.7>",
+        "Version": "ComfyUI",
+        "sampler": "Euler",
+        "cfgScale": 4,
+        "clipSkip": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 287973,
-            "modelVersionName": "V3"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 380277,
-            "modelVersionName": "XXX Rating"
-          },
-          {
+            "name": "aidmaImageUpgrader-FLUX-V0.2",
             "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
+            "weight": 0.5
           },
           {
+            "name": "FluxDFaeTasticDetails",
             "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "lora",
-            "weight": 3,
-            "modelVersionId": 1242203,
-            "modelVersionName": "v1.0"
+            "weight": 0.7
           }
-        ]
+        ],
+        "Model hash": "",
+        "negativePrompt": "unknown"
       },
-      "username": "Pijjiot",
-      "baseModel": "Pony",
+      "username": "impossiblebearcl4060",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        287973,
-        290640,
-        380277,
-        398847,
-        436219,
-        1242203
+        863991,
+        720252,
+        1279996
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "218|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=218%7C1744925337225"
+    "nextCursor": "219|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=219%7C1744925337225"
   }
 }
