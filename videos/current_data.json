@@ -1,35 +1,78 @@
 {
   "items": [
     {
-      "id": 86025686,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d3f1f61-7927-43eb-b2c4-23cb2f69eacb/width=1024/7d3f1f61-7927-43eb-b2c4-23cb2f69eacb.jpeg",
-      "hash": "UOE{2#-:xut7~q%Lxaoe-;xYRjRkk=jFV@WB",
-      "width": 1024,
-      "height": 1536,
+      "id": 94937804,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/262362be-f203-4248-a630-4ab284ab5be8/width=1800/262362be-f203-4248-a630-4ab284ab5be8.jpeg",
+      "hash": "UJFsr~ETJX%L00s9j;RP00xVVYIt}*M{%Mx]",
+      "width": 2688,
+      "height": 3840,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-04T16:00:00.000Z",
-      "postId": 19090507,
+      "createdAt": "2025-08-18T04:45:00.000Z",
+      "postId": 21060228,
       "stats": {
-        "cryCount": 483,
-        "laughCount": 1479,
-        "likeCount": 5572,
+        "cryCount": 519,
+        "laughCount": 848,
+        "likeCount": 6020,
         "dislikeCount": 0,
-        "heartCount": 2139,
-        "commentCount": 7
+        "heartCount": 2284,
+        "commentCount": 5
       },
       "meta": {
-        "prompt": "Hyper-realistic, super detailed oil painting of a muscular Sasquatch standing in a rugged mountain landscape, holding a large American flag. The Sasquatch has lifelike fur texture and real skin detail, with one hand gripping the flagpole and the other making the rock-and-roll hand gesture. Behind him are snow-capped mountains and pine trees under a partly cloudy sky. Cinematic lighting, no text, realistic proportions, dramatic and patriotic atmosphere."
+        "seed": 932680442,
+        "draft": false,
+        "extra": {},
+        "steps": 34,
+        "width": 832,
+        "height": 1216,
+        "prompt": "masterpiece, best_quality, absurdres, amazing_quality, 1girl, blonde_hair, long_hair, closed_eyes, sleeping, curled_up, peaceful, small_girl, trapped_in_bottle, sideways_glass_bottle, floating_in_clouds, fluffy_clouds, pastel_sky, whimsical, watercolor_style, painterly, soft_brushstrokes, gentle_colors, pastel_palette, dreamy, surreal, fantasy, skirt, long_sleeves, blouse, bare_legs, delicate, cute, alone, ethereal, light_particles, soft_lighting",
+        "process": "img2img",
+        "sampler": "Euler a",
+        "cfgScale": 5.5,
+        "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "experimental": false,
+        "negativePrompt": "worst quality, bad quality, low quality, anatomical nonsense, bad anatomy,interlocked fingers, extra fingers,watermark, toddler, child, baby,floor, ground, reflection",
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 2069051
+          },
+          {
+            "weight": 4,
+            "modelVersionId": 1498986
+          },
+          {
+            "weight": 4,
+            "modelVersionId": 1506032
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          }
+        ]
       },
-      "username": "OcelotAi",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "username": "klaabu",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        164821,
+        1498986,
+        1506032,
+        2069051
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "207|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=207%7C1744925337225"
+    "nextCursor": "208|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=208%7C1744925337225"
   }
 }
