@@ -1,35 +1,98 @@
 {
   "items": [
     {
-      "id": 87245502,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/626f6e04-bb09-4fcf-b4c0-ac6221e7bba4/width=1536/626f6e04-bb09-4fcf-b4c0-ac6221e7bba4.jpeg",
-      "hash": "U5A]BL%M3;oL_OIU00WB~C%2FvkCyXRP-VNG",
-      "width": 1536,
-      "height": 2752,
+      "id": 44539474,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d0719b7-c2d1-441d-b497-6ca2ba856d88/width=1024/8d0719b7-c2d1-441d-b497-6ca2ba856d88.jpeg",
+      "hash": "UPBMf0t6Ipof~VofRkof?HofjZay%MofjZWB",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-09T16:23:50.261Z",
-      "postId": 19355616,
+      "createdAt": "2024-12-09T19:25:00.000Z",
+      "postId": 10100731,
       "stats": {
-        "cryCount": 434,
-        "laughCount": 746,
-        "likeCount": 6123,
+        "cryCount": 357,
+        "laughCount": 641,
+        "likeCount": 6141,
         "dislikeCount": 0,
-        "heartCount": 2247,
-        "commentCount": 6
+        "heartCount": 2410,
+        "commentCount": 12
       },
-      "meta": null,
-      "username": "Ai_Collector",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "512x768",
+        "seed": 1200830436,
+        "Model": "re-mix0.5.fp16",
+        "steps": 25,
+        "hashes": {
+          "model": "7085666322"
+        },
+        "prompt": "1girl, weapon, sword, solo, armor, holding, holding weapon, holding sword, earrings, cape, jewelry, blurry background, shoulder armor, brown hair, blurry, breasts, medium breasts, long hair, , lips, pauldrons, profile, science fiction, outdoors, from side, parted lips, artist name, zPDXL3, detailxl,  Score_PnyReal,",
+        "Version": "f0.0.17v1.8.0rc-latest-277-g0af28699",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "TI hashes": {
+          "zPDXL3": "1727c6cddf61",
+          "detailxl": "cad765d41c8a",
+          "zPDXL-neg": "31a5da9018b9",
+          "negativeXL_D": "fff5d51ab655",
+          "Score_PnyReal": "63e618ba9fc7",
+          "unaestheticXL_bp5": "ea3af2932609",
+          "PDXLneg-NoAniPny_-neg": "9a5caeded086"
+        },
+        "resources": [
+          {
+            "hash": "7085666322",
+            "name": "re-mix0.5.fp16",
+            "type": "model"
+          }
+        ],
+        "Model hash": "7085666322",
+        "ControlNet 0": {
+          "Model": "thibaud_xl_openpose [c7b9cadd]",
+          "Module": "openpose_full",
+          "Weight": "1.25",
+          "Hr Option": "Both",
+          "Resize Mode": "Just Resize",
+          "Threshold A": "0.5",
+          "Threshold B": "0.5",
+          "Control Mode": "Balanced",
+          "Guidance End": "1",
+          "Pixel Perfect": "False",
+          "Processor Res": "512",
+          "Guidance Start": "0"
+        },
+        "ControlNet 1": {
+          "Model": "diffusers_xl_depth_full [2f51180b]",
+          "Module": "depth_midas",
+          "Weight": "0.5",
+          "Hr Option": "Both",
+          "Resize Mode": "Just Resize",
+          "Threshold A": "0.5",
+          "Threshold B": "0.5",
+          "Control Mode": "Balanced",
+          "Guidance End": "1",
+          "Pixel Perfect": "False",
+          "Processor Res": "512",
+          "Guidance Start": "0"
+        },
+        "Hires prompt": {},
+        "Hires upscale": "2",
+        "Hires upscaler": "None",
+        "negativePrompt": "negativeXL_D, zPDXL-neg, PDXLneg-NoAniPny_-neg, unaestheticXL_bp5, , mole, deformed fingers, long fingers, extra fingers, fused fingers, too many fingers, grainy,  half-closed eyes,",
+        "Denoising strength": "0.25"
+      },
+      "username": "phinjo",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1088507
+        1116753
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "222|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=222%7C1744925337225"
+    "nextCursor": "223|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=223%7C1744925337225"
   }
 }
