@@ -1,41 +1,81 @@
 {
   "items": [
     {
-      "id": 26541023,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd837536-0671-4348-b657-701fd0e9b4fc/width=832/bd837536-0671-4348-b657-701fd0e9b4fc.jpeg",
-      "hash": "U56*z4kC4Tw]?us+9HX9cYWEH@R*~UayD*nl",
+      "id": 58558782,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/065d59c2-82a6-4ba3-bf44-4685752ec65e/width=832/065d59c2-82a6-4ba3-bf44-4685752ec65e.jpeg",
+      "hash": "UeNTROnj~q%MVss:kCRk_3s:RjRkx[kCxaay",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-08-28T14:00:00.000Z",
-      "postId": 5931849,
+      "createdAt": "2025-02-18T07:52:34.106Z",
+      "postId": 13102432,
       "stats": {
-        "cryCount": 409,
-        "laughCount": 788,
-        "likeCount": 5966,
+        "cryCount": 413,
+        "laughCount": 625,
+        "likeCount": 6127,
         "dislikeCount": 0,
-        "heartCount": 2211,
-        "commentCount": 2
+        "heartCount": 2185,
+        "commentCount": 4
       },
-      "meta": null,
-      "username": "NatureBoyBihar",
-      "baseModel": "SDXL 1.0",
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 714199992,
+        "draft": false,
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Now I have no regrets, I have no regrets from birth, you have no regrets, I also have no regrets, why ask my mind? In the end, there is no regret, heaven and earth have no joy, life and death have no regrets, without regret ask my mind, ask my mind there is no regret.\nink painting, ink art, splash, traditional media, classic painting, colorful, scenery, very aesthetic, \nepic, majestic, fantasy art, dreamy, perspective, moody, magical,\nintricate details, highly detailed, ultra-detailed, absurdres, beautiful, painterly, detailed, textural, artistic, vivid, vibrant,\naidmamj6.1, aidmainkstyle",
+        "sampler": "Undefined",
+        "cfgScale": 2,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-02-18T0749:07.1233343Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1249246,
+            "modelVersionName": "FLUX v0.5"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 877120,
+            "modelVersionName": "FLUX"
+          }
+        ]
+      },
+      "username": "Grimm0",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        135867,
-        233092,
-        383563,
-        554793,
-        258416,
-        283697,
-        539032
+        691639,
+        720252,
+        877120,
+        1249246
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "236|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=236%7C1744925337225"
+    "nextCursor": "237|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=237%7C1744925337225"
   }
 }
