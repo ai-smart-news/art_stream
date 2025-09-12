@@ -1,112 +1,35 @@
 {
   "items": [
     {
-      "id": 87489098,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4979926d-58b1-4ef2-9df2-a7f33d51a801/width=1216/4979926d-58b1-4ef2-9df2-a7f33d51a801.jpeg",
-      "hash": "UPHwriD+E2tk~Vni-6Ekbv$%r?E3JBjFxDNI",
-      "width": 1216,
-      "height": 832,
+      "id": 82112179,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71dbde46-ad3b-4324-9733-b225e7402f32/width=1792/71dbde46-ad3b-4324-9733-b225e7402f32.jpeg",
+      "hash": "U396?f}*OF[T=|02~V-Q0;03^j03-;0gxaR6",
+      "width": 1792,
+      "height": 2560,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-10T21:57:55.564Z",
-      "postId": 19408628,
+      "createdAt": "2025-06-13T16:50:00.000Z",
+      "postId": 18239414,
       "stats": {
-        "cryCount": 497,
-        "laughCount": 748,
-        "likeCount": 6217,
+        "cryCount": 517,
+        "laughCount": 799,
+        "likeCount": 6044,
         "dislikeCount": 0,
-        "heartCount": 2204,
-        "commentCount": 2
+        "heartCount": 2288,
+        "commentCount": 12
       },
       "meta": {
-        "Size": "1216x832",
-        "seed": 853060536,
-        "draft": false,
-        "steps": 40,
-        "width": 1216,
-        "height": 832,
-        "prompt": "<lora:Disney_Style:.7>  <lora:princess_xl_v2:.6> <lora:Expressive_H:.8> <lora:add-detail-xl:.7> \nscore_9, score_8_up, score_7_up, zPDXL, DisneyRenstyle, score_9,score_8_up,score_7_up,score_6_up, forest of gigantic monuments, monuments depict standing men, monuments are carved in rock, monuments have simplified forms, mist, red grass",
-        "process": "txt2img",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
-        "resources": [
-          {
-            "name": "Disney_Style",
-            "type": "lora",
-            "weight": 0.7
-          },
-          {
-            "name": "princess_xl_v2",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "name": "Expressive_H",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "name": "add-detail-xl",
-            "type": "lora",
-            "weight": 0.7
-          }
-        ],
-        "disablePoi": true,
-        "aspectRatio": "19:13",
-        "Created Date": "2025-07-10T2157:06.7249290Z",
-        "experimental": false,
-        "negativePrompt": "easynegative, 3D, simple background,score_6, score_5, score_4, censored, monochrome, text, watermark,(worst quality, low quality),blurry face, clipping, bad face, deformed hands, (bad hands),bad feet, extra toes, extra fingers, heels, strabismus, zPDXL-neg, doamarie, twintails score_6, score_5, score_4, ugly face, low res, blurry face, black and white, score_4, score_5, score_6, (muscular female), greyscale, man, penis",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 135867,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 244808,
-            "modelVersionName": "v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 825923,
-            "modelVersionName": "Disney PonyXL"
-          }
-        ]
+        "prompt": "A sultry, film-noir style portrait of a glamorous 1950s jazz lounge singer leaning on a grand piano, a lit cigarette between her lips sending wisps of smoke curling into the warm, golden pool of lamp light; dramatic chiaroscuro shadows, shallow depth of field as if shot on an 85 mm lens, rich vintage color grading with subtle film grain for a cinematic, high-resolution finish."
       },
-      "username": "FilipBak_PL",
-      "baseModel": "Pony",
-      "modelVersionIds": [
-        135867,
-        244808,
-        290640,
-        382152,
-        825923
-      ]
+      "username": "AutoPastel",
+      "baseModel": "Imagen4",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "211|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=211%7C1744925337225"
+    "nextCursor": "212|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=212%7C1744925337225"
   }
 }
