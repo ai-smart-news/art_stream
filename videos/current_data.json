@@ -1,68 +1,102 @@
 {
   "items": [
     {
-      "id": 58822338,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922def6d-6110-4706-bdeb-335dc8349a9e/width=1344/922def6d-6110-4706-bdeb-335dc8349a9e.jpeg",
-      "hash": "UcJ6i@ayM|n*{ej[R-jb;Of6XSaysEWVEMbG",
-      "width": 1344,
-      "height": 1728,
+      "id": 61698618,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/93c19223-1394-47d0-81b1-21e71cae64ad/width=832/93c19223-1394-47d0-81b1-21e71cae64ad.jpeg",
+      "hash": "U58pr;ZhzV$*cYOX0KO?0ycE57$j-B#8~Bv~",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-19T15:36:36.959Z",
-      "postId": 13160161,
+      "createdAt": "2025-03-05T17:55:55.281Z",
+      "postId": 13789641,
       "stats": {
-        "cryCount": 468,
-        "laughCount": 1106,
-        "likeCount": 5947,
+        "cryCount": 450,
+        "laughCount": 770,
+        "likeCount": 6093,
         "dislikeCount": 0,
-        "heartCount": 2088,
-        "commentCount": 5
+        "heartCount": 2277,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "1344x1728",
-        "seed": 934616762,
-        "Model": "artsyDream_v6FP8",
-        "steps": 20,
-        "hashes": {
-          "model": "c85ebdc818",
-          "lora:pp-storybook_rank2_bf16": "34a22376739d"
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 1138553916,
+        "draft": false,
+        "extra": {
+          "remixOfId": 14930865
         },
-        "prompt": "Happy t-rex wearing an apron is making breakfast in a kitchen close to an exploding volcano, the t-rex is happy while holding a pan with some slices of meat,\nwith a very detailed background, dynamic angle, dust particles,colorful happy scene,\n<lora:pp-storybook_rank2_bf16:1> ppstorybook, whimsical, fantastical, stylized",
-        "Version": "f2.0.1v1.10.1-previous-650-ged0dc79a",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "t5xxl_fp8_e4m3fn",
-        "Module 3": "clip_l",
-        "cfgScale": 1,
-        "resources": [
+        "steps": 36,
+        "width": 832,
+        "height": 1216,
+        "prompt": "sinozick style, fiery aura, 1girl, cyberpunk, dark theme, metal mask, metal three quarters face mask, solo, cyborg, skull, looking at viewer, multi-colored hair, white eyes, bloody, large breasts, claws, \"sinozick style\", \"g4n1m3\"",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Pony",
+        "resources": [],
+        "Created Date": "2025-03-05T1706:38.6619368Z",
+        "negativePrompt": "score_5, score_4, watermark, signature, artist name, 3d, easynegative, neutral, angry, mean, intense, ugly, old, , striped face, black stripes,",
+        "civitaiResources": [
           {
-            "hash": "34a22376739d",
-            "name": "pp-storybook_rank2_bf16",
-            "type": "lora",
-            "weight": 1
+            "type": "checkpoint",
+            "modelVersionId": 464939,
+            "modelVersionName": "v1.1"
           },
           {
-            "hash": "c85ebdc818",
-            "name": "artsyDream_v6FP8",
-            "type": "model"
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 481798,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 501154,
+            "modelVersionName": "Gothic Retro Anime v1.0"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 106916,
+            "modelVersionName": "v1.0"
           }
-        ],
-        "Model hash": "c85ebdc818",
-        "Schedule type": "Simple",
-        "Denoising strength": "0.22",
-        "Distilled CFG Scale": "3.5"
+        ]
       },
-      "username": "Spamilgton",
-      "baseModel": null,
+      "username": "Dimaya",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1387174
+        9208,
+        464939,
+        481798,
+        501154
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "214|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=214%7C1744925337225"
+    "nextCursor": "215|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=215%7C1744925337225"
   }
 }
