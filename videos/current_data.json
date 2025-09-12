@@ -1,33 +1,94 @@
 {
   "items": [
     {
-      "id": 73542194,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/533f1457-6091-466b-93e4-feb5f63c75ed/width=684/533f1457-6091-466b-93e4-feb5f63c75ed.jpeg",
-      "hash": "U67wR2Dg0]%%K%MvwitT0c%P$TRh{px_9pni",
-      "width": 684,
-      "height": 1000,
+      "id": 84218397,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d48c9d19-6789-44d9-bb2b-f67242a6e9b4/width=832/d48c9d19-6789-44d9-bb2b-f67242a6e9b4.jpeg",
+      "hash": "U7BD7iIpH[^PY#bb4qEgn.$%03xZs=TH$ext",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-01T19:05:00.000Z",
-      "postId": 16333758,
+      "createdAt": "2025-06-24T09:00:34.991Z",
+      "postId": 18695519,
       "stats": {
-        "cryCount": 630,
-        "laughCount": 783,
-        "likeCount": 6036,
+        "cryCount": 479,
+        "laughCount": 857,
+        "likeCount": 5906,
         "dislikeCount": 0,
-        "heartCount": 2228,
-        "commentCount": 4
+        "heartCount": 2433,
+        "commentCount": 7
       },
-      "meta": null,
-      "username": "Pinkielicious",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 776613086,
+        "draft": false,
+        "steps": 39,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Studio Ghibli Dark Fairytale, masterpiece, best quality, A hyper-realistic Close up shot of a figure completely made of grass and red flowers in cat form, full body zoomed in, ultra sharp focus photo, 3d render, architecture, dark fantasy, vibrant (photography, high-resolution, dynamic, energetic,hyper-realistic, dramatic lighting, shallow depth of field.), dramatic lights, Cinematic, beautiful, vibrant, masterpiece, 32k, ultra HD, ultra-detailed, amazing quality, amazing artist, sharp edges, detailed textures, full view, atmospheric lighting, amazing visuals",
+        "sampler": "Undefined",
+        "cfgScale": 4.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-06-24T0629:35.6799250Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1524423,
+            "modelVersionName": "Flux"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1444743,
+            "modelVersionName": "test - m200a09"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1909850,
+            "modelVersionName": "Flux Vivid Realism"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1244911,
+            "modelVersionName": "FLUX v0.3"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          }
+        ]
+      },
+      "username": "Graf137",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        691639,
+        720252,
+        1244911,
+        1444743,
+        1524423,
+        1909850
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "205|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=205%7C1744925337225"
+    "nextCursor": "206|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=206%7C1744925337225"
   }
 }
