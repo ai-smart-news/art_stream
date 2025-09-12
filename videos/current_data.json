@@ -1,50 +1,90 @@
 {
   "items": [
     {
-      "id": 74834112,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/142161b2-b6f6-4098-b6b6-c651bbe8d7d8/width=1024/142161b2-b6f6-4098-b6b6-c651bbe8d7d8.jpeg",
-      "hash": "U87,_IIp0N^i~TM|9b-oWXo1jsWq9bxZ-oIp",
-      "width": 1024,
-      "height": 1536,
+      "id": 90006745,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ad09dd6-472e-4b02-8ba6-aa321baa67d4/width=1664/5ad09dd6-472e-4b02-8ba6-aa321baa67d4.jpeg",
+      "hash": "U25Xx,RQEiM|W;t6IUj[0LxtwIt7^*RjXTR*",
+      "width": 1664,
+      "height": 2560,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-07T19:22:47.152Z",
-      "postId": 16616383,
+      "createdAt": "2025-07-23T14:50:10.490Z",
+      "postId": 16650628,
       "stats": {
-        "cryCount": 547,
-        "laughCount": 769,
-        "likeCount": 6277,
+        "cryCount": 508,
+        "laughCount": 906,
+        "likeCount": 6201,
         "dislikeCount": 0,
-        "heartCount": 2257,
-        "commentCount": 5
+        "heartCount": 2205,
+        "commentCount": 11
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "oil-painting with rough brush strokes on old vintage canvas, vintage, old, dusty, scratches, moody, grainy, minimalism, expressionism, surrealism, anime, white silhouette of a geisha wearing a hoodie and porcelain mask with a black raven on her shoulder, bordeaux red and white colors",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
+        "Size": "128x128",
+        "seed": 1003302409,
+        "Model": "rillusmRealisticIL_v21",
+        "steps": 1,
+        "hashes": {
+          "model": "291da84b38",
+          "lora:Dark (Illustrious) v1": "c7194168cb7a",
+          "lora:Knight_Armor_for_Pony_V2": "00a34a0123f7",
+          "lora:Exp._Warframe_CGI_Illu_Edition": "ce6ed9f5a9a7"
+        },
+        "prompt": "masterpiece, best quality, amazing quality, (realistic:1.3),\n1girl, blonde hair, crown braid, (horns:1.4),\narmor, pauldrons, (gauntlets:1.1), gold trim,\nglowing heart,\nfaceless mask, white mask,\n(looking at viewer:1.2), blue eyes, expressionless,\nWCG-Illu,\ndark background, sidelighting, atmospheric perspective, dim lighting, underlighting\n<lora:Knight_Armor_for_Pony_V2:0.85>\n<lora:Exp._Warframe_CGI_Illu_Edition:0.35>\n<lora:Dark (Illustrious) v1:1>",
+        "Version": "f2.0.1v1.10.1-previous-669-gdfdcbab6",
+        "sampler": "Euler",
+        "cfgScale": 5,
+        "resources": [
           {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
+            "hash": "00a34a0123f7",
+            "name": "Knight_Armor_for_Pony_V2",
+            "type": "lora",
+            "weight": 0.85
+          },
+          {
+            "hash": "ce6ed9f5a9a7",
+            "name": "Exp._Warframe_CGI_Illu_Edition",
+            "type": "lora",
+            "weight": 0.35
+          },
+          {
+            "hash": "c7194168cb7a",
+            "name": "Dark (Illustrious) v1",
+            "type": "lora"
+          },
+          {
+            "hash": "291da84b38",
+            "name": "rillusmRealisticIL_v21",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "291da84b38",
+        "Schedule type": "Karras",
+        "negativePrompt": "cleavage, (nose, lips, mouth, cheeks:1.3), walls, (3d, anime, 2d:1.3), bad quality, worst quality, worst detail, sketch, censor, simple background",
+        "ADetailer model": "face_yolov8n.pt",
+        "ADetailer version": "25.3.0",
+        "Denoising strength": "0.75",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "1.0",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
       },
-      "username": "Krawuzzn",
-      "baseModel": "OpenAI",
+      "username": "johnnys365",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1733399
+        524601,
+        1509906,
+        1761662,
+        1936270
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "187|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=187%7C1744925337225"
+    "nextCursor": "188|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=188%7C1744925337225"
   }
 }
