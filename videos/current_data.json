@@ -1,33 +1,68 @@
 {
   "items": [
     {
-      "id": 63492684,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/271d5fc4-6d65-4e6d-ab43-30b3e253eb46/width=896/271d5fc4-6d65-4e6d-ab43-30b3e253eb46.jpeg",
-      "hash": "UQHUeWDh+G%N{yX.NGZ~x]R%t7V@5+j?x]bI",
-      "width": 896,
-      "height": 1152,
+      "id": 58822338,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922def6d-6110-4706-bdeb-335dc8349a9e/width=1344/922def6d-6110-4706-bdeb-335dc8349a9e.jpeg",
+      "hash": "UcJ6i@ayM|n*{ej[R-jb;Of6XSaysEWVEMbG",
+      "width": 1344,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-14T16:19:56.711Z",
-      "postId": 14163557,
+      "createdAt": "2025-02-19T15:36:36.959Z",
+      "postId": 13160161,
       "stats": {
-        "cryCount": 470,
-        "laughCount": 926,
-        "likeCount": 5872,
+        "cryCount": 468,
+        "laughCount": 1106,
+        "likeCount": 5947,
         "dislikeCount": 0,
-        "heartCount": 2353,
-        "commentCount": 9
+        "heartCount": 2088,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "AmberFog",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "1344x1728",
+        "seed": 934616762,
+        "Model": "artsyDream_v6FP8",
+        "steps": 20,
+        "hashes": {
+          "model": "c85ebdc818",
+          "lora:pp-storybook_rank2_bf16": "34a22376739d"
+        },
+        "prompt": "Happy t-rex wearing an apron is making breakfast in a kitchen close to an exploding volcano, the t-rex is happy while holding a pan with some slices of meat,\nwith a very detailed background, dynamic angle, dust particles,colorful happy scene,\n<lora:pp-storybook_rank2_bf16:1> ppstorybook, whimsical, fantastical, stylized",
+        "Version": "f2.0.1v1.10.1-previous-650-ged0dc79a",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "t5xxl_fp8_e4m3fn",
+        "Module 3": "clip_l",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "34a22376739d",
+            "name": "pp-storybook_rank2_bf16",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "c85ebdc818",
+            "name": "artsyDream_v6FP8",
+            "type": "model"
+          }
+        ],
+        "Model hash": "c85ebdc818",
+        "Schedule type": "Simple",
+        "Denoising strength": "0.22",
+        "Distilled CFG Scale": "3.5"
+      },
+      "username": "Spamilgton",
+      "baseModel": null,
+      "modelVersionIds": [
+        1387174
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "213|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=213%7C1744925337225"
+    "nextCursor": "214|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=214%7C1744925337225"
   }
 }
