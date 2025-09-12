@@ -1,55 +1,103 @@
 {
   "items": [
     {
-      "id": 87250549,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fad846fe-bf28-484c-b5aa-5fad7215e28d/width=832/fad846fe-bf28-484c-b5aa-5fad7215e28d.jpeg",
-      "hash": "UOH]R=;2#QS*{?#lwaS%0pW,R-S#3fW-nnoI",
-      "width": 832,
-      "height": 1216,
+      "id": 75633694,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a31e02b-8c1d-41f8-a9c9-7bd3a3ba6f65/width=1800/6a31e02b-8c1d-41f8-a9c9-7bd3a3ba6f65.jpeg",
+      "hash": "U8Gi+R}tw411aPJ9I;$g03OFAW-5^R-AxYI@",
+      "width": 2688,
+      "height": 3840,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-09T16:21:28.946Z",
-      "postId": 18560798,
+      "createdAt": "2025-05-11T15:35:00.000Z",
+      "postId": 16795479,
       "stats": {
-        "cryCount": 431,
-        "laughCount": 778,
-        "likeCount": 6129,
+        "cryCount": 475,
+        "laughCount": 1156,
+        "likeCount": 5760,
         "dislikeCount": 0,
-        "heartCount": 2108,
-        "commentCount": 6
+        "heartCount": 2041,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 3428796292,
-        "Model": "stableDiffusion35_large",
-        "steps": 20,
-        "hashes": {
-          "model": "ffef7a279d"
+        "nsfw": true,
+        "vaes": [],
+        "extra": {},
+        "steps": 25,
+        "width": 1280,
+        "height": 1856,
+        "models": [],
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, Expressiveh, g0th1c, zPDXL3, colorful, detailed, high quality, bird, ((((european robin bird)))), european robin, robin, cute bird, cartoon bird, ((cartoony background)), (((small and fat))), ((wearing detective hat)) detective, ((wearing monocle glasses)), close-up, bright colours, on a tree, forest, daytime, sunlight, background dominant colours brown and yellow, brown and yellow leaves, (((fog))), ((mist)), autumn fog, autumn, tree, branches, detailed background, from front, tired eyes, exhausted eyes, magical, alone, large eyes, concentrating face, ((wearing detective badge on chest)), blue wing, smoking cigar, (((cigar between beaks))), (((open beaks))), cigar smoke, lots of smoke, dark orange eyes",
+        "denoise": 0.15,
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 4,
+        "workflow": "img2img",
+        "baseModel": "Pony",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "disablePoi": true,
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/71W1913AWSWKYVEZBBHSP08DF0",
+          "width": 1280,
+          "height": 1856
         },
-        "prompt": "A solitary horse, bathed in the electric glow of a surreal sunset, grazes amidst a vibrant, fragmented field. A weathered farmhouse and a tilting barn loom in the background, rendered with bold, defined lines and a dramatic Dutch-angle perspective. The scene explodes with a bold contrast of sapphire blues and hot pinks, punctuated by splashes of fiery orange and cadmium yellow. Paint splash textures overlay the image, creating a sense of raw energy and movement. A subtle fading effect hints at a fleeting, ephemeral moment. Comic book art influence, dynamic composition, cinematic lighting, raw power, surreal dreamscape, hyperdetailed, 8k resolution.",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 3.5,
-        "resources": [
+        "experimental": false,
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, deformed, bad limbs, sepia, monochrome, greyscale, flat color, blurry, (watermark), (((humanoid bird))), ((humanoid)), empty background, ((multiple birds)), arms, humans, ((((human)))), long eyelashes, blushing, hair, ((lips)), sunglasses, cigarette",
+        "civitaiResources": [
           {
-            "hash": "ffef7a279d",
-            "name": "stableDiffusion35_large",
-            "type": "model"
+            "weight": 1,
+            "modelVersionId": 290640
+          },
+          {
+            "weight": 0.8,
+            "modelVersionId": 382152
+          },
+          {
+            "weight": 0.6,
+            "modelVersionId": 1029540
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 720175
+          },
+          {
+            "weight": 0.7,
+            "modelVersionId": 704723
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 333245
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
         ],
-        "Model hash": "ffef7a279d"
+        "additionalResources": []
       },
-      "username": "Weak_Examination",
-      "baseModel": "SD 3.5 Large",
+      "username": "Seismoh",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        983309
+        164821,
+        290640,
+        333245,
+        382152,
+        704723,
+        720175,
+        1029540
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "228|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=228%7C1744925337225"
+    "nextCursor": "229|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=229%7C1744925337225"
   }
 }
