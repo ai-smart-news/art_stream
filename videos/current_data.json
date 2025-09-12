@@ -1,80 +1,112 @@
 {
   "items": [
     {
-      "id": 83034783,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5029a708-998f-4ae8-ba7c-c8f841c05be0/width=1800/5029a708-998f-4ae8-ba7c-c8f841c05be0.jpeg",
-      "hash": "U8BgJC01Oa~o4TxtD%of9bt6oIE2IUx[_2Rj",
-      "width": 3328,
-      "height": 4864,
+      "id": 87489098,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4979926d-58b1-4ef2-9df2-a7f33d51a801/width=1216/4979926d-58b1-4ef2-9df2-a7f33d51a801.jpeg",
+      "hash": "UPHwriD+E2tk~Vni-6Ekbv$%r?E3JBjFxDNI",
+      "width": 1216,
+      "height": 832,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-18T11:09:47.083Z",
-      "postId": 18441249,
+      "createdAt": "2025-07-10T21:57:55.564Z",
+      "postId": 19408628,
       "stats": {
-        "cryCount": 411,
-        "laughCount": 776,
-        "likeCount": 6169,
+        "cryCount": 497,
+        "laughCount": 748,
+        "likeCount": 6217,
         "dislikeCount": 0,
-        "heartCount": 2311,
-        "commentCount": 10
+        "heartCount": 2204,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1674115028,
-        "steps": 30,
-        "prompt": "Portriat of A menacing large ferocious polar bear with battle scars, growling and snarling, lunges forward under the cover of a nocturnal snow storm, snowy ground and snow powder, illuminated by a striking Rembrandt-style spotlight. An enraged female viking warrior, riding the beast, clutches a sword triumphantly in one hand and a shield in her other hand, her intense eyes ablaze with victory. Their dynamic pose against the backdrop of an ultra-high-contrast HDR night sky, creates an epic, moody tableau immortalizing the clash of power and determination.",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
+        "Size": "1216x832",
+        "seed": 853060536,
+        "draft": false,
+        "steps": 40,
+        "width": 1216,
+        "height": 832,
+        "prompt": "<lora:Disney_Style:.7>  <lora:princess_xl_v2:.6> <lora:Expressive_H:.8> <lora:add-detail-xl:.7> \nscore_9, score_8_up, score_7_up, zPDXL, DisneyRenstyle, score_9,score_8_up,score_7_up,score_6_up, forest of gigantic monuments, monuments depict standing men, monuments are carved in rock, monuments have simplified forms, mist, red grass",
+        "process": "txt2img",
+        "sampler": "Euler a",
+        "cfgScale": 5,
         "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-06-17T1022:46.2582306Z",
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Pony",
+        "resources": [
+          {
+            "name": "Disney_Style",
+            "type": "lora",
+            "weight": 0.7
+          },
+          {
+            "name": "princess_xl_v2",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "name": "Expressive_H",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "name": "add-detail-xl",
+            "type": "lora",
+            "weight": 0.7
+          }
+        ],
+        "disablePoi": true,
+        "aspectRatio": "19:13",
+        "Created Date": "2025-07-10T2157:06.7249290Z",
+        "experimental": false,
+        "negativePrompt": "easynegative, 3D, simple background,score_6, score_5, score_4, censored, monochrome, text, watermark,(worst quality, low quality),blurry face, clipping, bad face, deformed hands, (bad hands),bad feet, extra toes, extra fingers, heels, strabismus, zPDXL-neg, doamarie, twintails score_6, score_5, score_4, ugly face, low res, blurry face, black and white, score_4, score_5, score_6, (muscular female), greyscale, man, penis",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
             "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1909850,
-            "modelVersionName": "Flux Vivid Realism"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 806265,
+            "weight": 0.7,
+            "modelVersionId": 135867,
             "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
             "weight": 0.6,
-            "modelVersionId": 978472,
+            "modelVersionId": 244808,
             "modelVersionName": "v2.0"
           },
           {
             "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 1202162,
-            "modelVersionName": "Flux Gothic Lines"
+            "weight": 0.8,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 825923,
+            "modelVersionName": "Disney PonyXL"
           }
         ]
       },
-      "username": "VelvetS",
-      "baseModel": "Flux.1 D",
+      "username": "FilipBak_PL",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        691639,
-        806265,
-        978472,
-        1202162,
-        1909850
+        135867,
+        244808,
+        290640,
+        382152,
+        825923
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "210|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=210%7C1744925337225"
+    "nextCursor": "211|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=211%7C1744925337225"
   }
 }
