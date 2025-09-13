@@ -1,67 +1,59 @@
 {
   "items": [
     {
-      "id": 64513168,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f56da912-0192-48fb-848a-36b04cccadf4/width=832/f56da912-0192-48fb-848a-36b04cccadf4.jpeg",
-      "hash": "U14-|rxbL##X}^j[@%#r,^OAImwh0vJ5t8og",
+      "id": 85495966,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f8bad59-ab25-4f14-8862-830ffd26bebd/width=832/3f8bad59-ab25-4f14-8862-830ffd26bebd.jpeg",
+      "hash": "U00vo1adQ*o%tnfPR3f8MHkEo#VqR2kDtnac",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-19T20:57:12.042Z",
-      "postId": 14380929,
+      "createdAt": "2025-06-30T18:40:05.458Z",
+      "postId": 18975361,
       "stats": {
-        "cryCount": 571,
-        "laughCount": 854,
-        "likeCount": 5832,
+        "cryCount": 404,
+        "laughCount": 692,
+        "likeCount": 5987,
         "dislikeCount": 0,
-        "heartCount": 2059,
-        "commentCount": 6
+        "heartCount": 2229,
+        "commentCount": 3
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": false,
-        "seed": 767352536,
-        "draft": false,
-        "steps": 42,
-        "width": 832,
-        "height": 1216,
-        "prompt": "*Channel_42*\n*It is pitch black; you are likely to be eaten by a Grue*\n*neon* *glitchy* *drone* *crystaline* \n*Shutting Down*\n*Going Dark*\n*Offline*",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 4.2,
+        "seed": 1808361123,
+        "steps": 12,
+        "prompt": "High quality,high resolution,\n\nLong hair, black skin,stars, black background, glowing eyes, shadowed skin, shadowed body,",
+        "sampler": "Euler",
+        "cfgScale": 5.5,
         "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "SDXL",
         "resources": [],
-        "Created Date": "2025-03-17T2147:45.0147674Z",
-        "negativePrompt": "*I* *Do* *Not* *Use* *Negative* *Prompts*",
+        "Created Date": "2025-06-30T1838:55.7078396Z",
+        "negativePrompt": "(poorly drawn:1.3),4 breasts,bad hands, disfigured hands,\nPoorly drawn,bad quality, worst quality,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 182077,
-            "modelVersionName": "v3"
+            "modelVersionId": 1761560,
+            "modelVersionName": "v14.0"
           },
           {
-            "type": "lora",
-            "weight": 0.42,
-            "modelVersionId": 471526,
-            "modelVersionName": "Channel_42 - Home Edition"
+            "type": "vae",
+            "weight": 1,
+            "modelVersionId": 333245,
+            "modelVersionName": "SDXL-VAE"
           }
         ]
       },
-      "username": "Channel_42",
-      "baseModel": "SDXL 1.0",
+      "username": "Purple_pink",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        182077,
-        471526
+        1761560
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "244|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=244%7C1744925337225"
+    "nextCursor": "245|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=245%7C1744925337225"
   }
 }
