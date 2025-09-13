@@ -1,55 +1,54 @@
 {
   "items": [
     {
-      "id": 63437336,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98e5513a-e259-4a68-a79f-5abe999a4cff/width=1024/98e5513a-e259-4a68-a79f-5abe999a4cff.jpeg",
-      "hash": "UIG8vK~qve?b5st8=x%g[RxA%$%19YIqJWnM",
-      "width": 1024,
-      "height": 1024,
+      "id": 34605284,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4702d77b-bc7c-4d84-996f-72347584a858/width=1664/4702d77b-bc7c-4d84-996f-72347584a858.jpeg",
+      "hash": "UB7ywS{A.t?uxxrfvoxvDBM,T^S%OYa5YNOE",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-14T08:51:02.133Z",
-      "postId": 14151506,
+      "createdAt": "2024-10-14T19:55:50.092Z",
+      "postId": 7907473,
       "stats": {
-        "cryCount": 434,
-        "laughCount": 1290,
-        "likeCount": 5426,
+        "cryCount": 666,
+        "laughCount": 917,
+        "likeCount": 5677,
         "dislikeCount": 0,
-        "heartCount": 2185,
-        "commentCount": 5
+        "heartCount": 2074,
+        "commentCount": 53
       },
       "meta": {
-        "Size": "1024x1024",
-        "seed": 1063974154935117,
-        "steps": 40,
+        "Size": "832x1216",
+        "seed": 885119774219067,
+        "Model": "FLUX\\flux1-dev-fp8",
+        "steps": 20,
         "hashes": {
-          "model": "29dd7b2a74",
-          "embed:IllusN3g": "dbecff3f60",
-          "embed:IllusP0s": "da04b1767d",
-          "Model:animij_v10": "29dd7b2a74",
-          "LORA:spaghetti_eating.safetensors": "d163f5e1da"
+          "model": "8e91b68084"
         },
-        "prompt": "embedding:IllusP0s, marill_\\(pokemon\\), eating spaghetti, no humans, cute, aiming,<lora:spaghetti_eating.safetensors:0.5:0.5>",
         "Version": "ComfyUI",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "resources": [],
-        "negativePrompt": "embedding:IllusN3g, uncensored, wet, sweaty, lewd, nsfw"
+        "sampler": "euler_beta",
+        "CFG Scale": "1.0",
+        "resources": [
+          {
+            "hash": "8e91b68084",
+            "name": "FLUX\\flux1-dev-fp8",
+            "type": "model"
+          }
+        ],
+        "Model hash": "8e91b68084"
       },
-      "username": "schmede",
-      "baseModel": "Illustrious",
+      "username": "shadowfaxPC",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1192334,
-        1192359,
-        1440593,
-        1528632
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "242|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=242%7C1744925337225"
+    "nextCursor": "243|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=243%7C1744925337225"
   }
 }
