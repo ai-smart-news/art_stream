@@ -1,33 +1,64 @@
 {
   "items": [
     {
-      "id": 95870001,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c095dd42-5b2e-4745-bdf1-1c478373949c/width=1800/c095dd42-5b2e-4745-bdf1-1c478373949c.jpeg",
-      "hash": "U5EKMrxZ1c=x039]ENjsKv^O}XEgH{V]-TbH",
-      "width": 3328,
-      "height": 4864,
+      "id": 87264463,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7276350b-6540-46f2-b036-86631a833143/width=896/7276350b-6540-46f2-b036-86631a833143.jpeg",
+      "hash": "UA9=qES%5hwI2pS$+]jvI-,uxcJ-{wFGKQ$R",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-22T18:58:59.060Z",
-      "postId": 21265283,
+      "createdAt": "2025-07-09T18:29:36.867Z",
+      "postId": 19360142,
       "stats": {
-        "cryCount": 447,
-        "laughCount": 920,
-        "likeCount": 5749,
+        "cryCount": 452,
+        "laughCount": 781,
+        "likeCount": 5956,
         "dislikeCount": 0,
-        "heartCount": 2196,
-        "commentCount": 7
+        "heartCount": 2119,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "Igor_39ru",
+      "meta": {
+        "Size": "896x1152",
+        "seed": 3750036859,
+        "Model": "flux_dev",
+        "steps": 30,
+        "hashes": {
+          "model": "06f96f89f6",
+          "lora:Vibrantly_sharp_style_v.1": "a7c2467e05bc"
+        },
+        "prompt": "A digital illustration shoot from the side about a mysterious and fantastical scene featuring a man sitting atop a large mushroom-like structure surrounded by glowing red mushrooms and vibrant flowers. the scene is set against a dark, starry night sky with glowing lanterns, creating a mystical atmosphere. on the middle of the image, a man, who appears to be in his mid-twenties, is sitting on the mushroom, wearing a blue jacket, pants, shoes, and a cap, with a backpack on his back. he is facing away from the viewer, and is holding a laptop in his hands. the man is surrounded by a dense forest filled with trees and flowers, with pink flowers blooming around him. the mushroom has a glowing red light emanating from its base, and the surrounding area is filled with smaller mushrooms and glowing red lanterns. the overall atmosphere is one of wonder and adventure, with the man's presence commanding attention. <lora:Vibrantly_sharp_style_v.1:1> VibrantlySharp style.",
+        "Version": "f2.0.1v1.10.1-previous-640-g21c907ef",
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "a7c2467e05bc",
+            "name": "Vibrantly_sharp_style_v.1",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "06f96f89f6",
+            "name": "flux_dev",
+            "type": "model"
+          }
+        ],
+        "Model hash": "06f96f89f6",
+        "Schedule type": "Simple",
+        "Distilled CFG Scale": "3.5"
+      },
+      "username": "NekoTheCat",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        1366431
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "246|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=246%7C1744925337225"
+    "nextCursor": "247|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=247%7C1744925337225"
   }
 }
