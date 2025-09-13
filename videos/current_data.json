@@ -1,54 +1,67 @@
 {
   "items": [
     {
-      "id": 34605284,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4702d77b-bc7c-4d84-996f-72347584a858/width=1664/4702d77b-bc7c-4d84-996f-72347584a858.jpeg",
-      "hash": "UB7ywS{A.t?uxxrfvoxvDBM,T^S%OYa5YNOE",
-      "width": 1664,
-      "height": 2432,
+      "id": 64513168,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f56da912-0192-48fb-848a-36b04cccadf4/width=832/f56da912-0192-48fb-848a-36b04cccadf4.jpeg",
+      "hash": "U14-|rxbL##X}^j[@%#r,^OAImwh0vJ5t8og",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-14T19:55:50.092Z",
-      "postId": 7907473,
+      "createdAt": "2025-03-19T20:57:12.042Z",
+      "postId": 14380929,
       "stats": {
-        "cryCount": 666,
-        "laughCount": 917,
-        "likeCount": 5677,
+        "cryCount": 571,
+        "laughCount": 854,
+        "likeCount": 5832,
         "dislikeCount": 0,
-        "heartCount": 2074,
-        "commentCount": 53
+        "heartCount": 2059,
+        "commentCount": 6
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 885119774219067,
-        "Model": "FLUX\\flux1-dev-fp8",
-        "steps": 20,
-        "hashes": {
-          "model": "8e91b68084"
-        },
-        "Version": "ComfyUI",
-        "sampler": "euler_beta",
-        "CFG Scale": "1.0",
-        "resources": [
+        "nsfw": false,
+        "seed": 767352536,
+        "draft": false,
+        "steps": 42,
+        "width": 832,
+        "height": 1216,
+        "prompt": "*Channel_42*\n*It is pitch black; you are likely to be eaten by a Grue*\n*neon* *glitchy* *drone* *crystaline* \n*Shutting Down*\n*Going Dark*\n*Offline*",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 4.2,
+        "clipSkip": 2,
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "SDXL",
+        "resources": [],
+        "Created Date": "2025-03-17T2147:45.0147674Z",
+        "negativePrompt": "*I* *Do* *Not* *Use* *Negative* *Prompts*",
+        "civitaiResources": [
           {
-            "hash": "8e91b68084",
-            "name": "FLUX\\flux1-dev-fp8",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 182077,
+            "modelVersionName": "v3"
+          },
+          {
+            "type": "lora",
+            "weight": 0.42,
+            "modelVersionId": 471526,
+            "modelVersionName": "Channel_42 - Home Edition"
           }
-        ],
-        "Model hash": "8e91b68084"
+        ]
       },
-      "username": "shadowfaxPC",
-      "baseModel": "Flux.1 D",
+      "username": "Channel_42",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        691639
+        182077,
+        471526
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "243|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=243%7C1744925337225"
+    "nextCursor": "244|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=244%7C1744925337225"
   }
 }
