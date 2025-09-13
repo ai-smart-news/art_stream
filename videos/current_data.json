@@ -1,35 +1,61 @@
 {
   "items": [
     {
-      "id": 77081070,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3abbf29d-4fa3-462c-bfe2-f15d2ba69980/width=1024/3abbf29d-4fa3-462c-bfe2-f15d2ba69980.jpeg",
-      "hash": "U5CPa}Rk01xt_1WBM|Ip01Rk~UE2?FRjNH%1",
-      "width": 1024,
-      "height": 1536,
+      "id": 91790240,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa8c3f76-2be0-4829-a9ff-cbc73711b96e/width=1728/fa8c3f76-2be0-4829-a9ff-cbc73711b96e.jpeg",
+      "hash": "U5Acf4=w0JTf00M{ngoI0}T1=Z,-~CxaEPEM",
+      "width": 1728,
+      "height": 1344,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-18T20:07:55.272Z",
-      "postId": 17119638,
+      "createdAt": "2025-08-01T17:55:06.707Z",
+      "postId": 20364404,
       "stats": {
-        "cryCount": 511,
-        "laughCount": 1391,
-        "likeCount": 5218,
+        "cryCount": 437,
+        "laughCount": 753,
+        "likeCount": 5600,
         "dislikeCount": 0,
-        "heartCount": 2181,
-        "commentCount": 28
+        "heartCount": 2501,
+        "commentCount": 12
       },
       "meta": {
-        "prompt": "a giant goose with many necks and heads like a hydra, aggressively honking with all"
+        "TI": {},
+        "RNG": "NV",
+        "Size": "1728x1344",
+        "seed": 10,
+        "Model": "Pohjolantaika_v1.2b",
+        "steps": 30,
+        "hashes": {
+          "model": "110a269eac"
+        },
+        "prompt": "masterpiece, best quality, aesthetic, absurdres, masterpiece, (high quality), (high resolution), (incredibly detailed), (flat colors), gradient, beautiful, scenery, zPDXL2, fixl-art, Smooth Quality+",
+        "Version": "f2.0.1v1.10.1-v0.0.1-alpha-757-gb00d9b67",
+        "sampler": "Euler a",
+        "Emphasis": "No norm",
+        "Module 1": "aaaAnimeSDXLVAE_v15",
+        "cfgScale": 5,
+        "resources": [
+          {
+            "hash": "110a269eac",
+            "name": "Pohjolantaika_v1.2b",
+            "type": "model"
+          }
+        ],
+        "Model hash": "110a269eac",
+        "Schedule type": "Automatic",
+        "negativePrompt": "anatomical nonsense,interlocked fingers,extra fingers,watermark,simple background,transparent,low quality,logo,text,signature,(worst quality, bad quality:1.2),jpeg artifacts,username,extra digit,ugly,bad_hands,bad_feet,bad_anatomy,deformed anatomy,bad proportions,lowres,bad_quality , Smooth Negative"
       },
-      "username": "schmede",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "username": "Ongelmanratkoja",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1991081
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "248|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=248%7C1744925337225"
+    "nextCursor": "249|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=249%7C1744925337225"
   }
 }
