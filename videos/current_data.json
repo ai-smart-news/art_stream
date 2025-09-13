@@ -1,63 +1,33 @@
 {
   "items": [
     {
-      "id": 82601925,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c453ca5-ba1c-46e6-87fe-11b73376137c/width=832/0c453ca5-ba1c-46e6-87fe-11b73376137c.jpeg",
-      "hash": "UFDJ9qOY.9Rj.Tn+S$X9-;S4jFogNGaKn$jE",
-      "width": 832,
-      "height": 1216,
+      "id": 71375113,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aea2196c-b13e-4b2b-9a5c-7543219efac3/width=780/aea2196c-b13e-4b2b-9a5c-7543219efac3.jpeg",
+      "hash": "UAIhc}g3ZNaJ*INaDPaey=oz~VS2n4S1tlNa",
+      "width": 780,
+      "height": 1080,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-26T00:00:00.000Z",
-      "postId": 17183349,
+      "createdAt": "2025-04-21T19:05:00.000Z",
+      "postId": 15855477,
       "stats": {
-        "cryCount": 521,
-        "laughCount": 841,
-        "likeCount": 5910,
+        "cryCount": 478,
+        "laughCount": 1020,
+        "likeCount": 5703,
         "dislikeCount": 0,
-        "heartCount": 2066,
-        "commentCount": 6
+        "heartCount": 2141,
+        "commentCount": 4
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 487799090,
-        "extra": {
-          "remixOfId": 82533889
-        },
-        "steps": 34,
-        "prompt": "EXTREME CLOSEUP, face portrait,face closeup,beautiful lighting, beautiful skin, beautiful shadows,detailed eyes, beautiful eyes, BREAK\nscenario, hell, rock posters,punk bedroom, bed,\nBREAK \nLoona Hellhound,1girl,solo,Wolf Girl,White-Dark Gray Fur,Light Grey Hair,Red Scelera,Wolf Tail,White eyes,Black Pupils,Slit pupils, furry female, white eyes, red sclera, wolf girl, white fur, grey fur, two-tone fur, asymmetrical hair, long hair, grey hair, animal nose, animal ears, wolf tail, spiked collar, criss-cross halter, crop top, off-shoulder shirt, blue shirt, midriff, navel, black gloves, fingerless gloves,  torn clothes, slim, plantigrade anthro, electric guitar, playing electric guitar, smirk,\n white outline white borders,",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-06-16T0414:16.7753098Z",
-        "negativePrompt": "score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands,censored, worst quality, low quality, normal quality, sketch, jpeg artifacts, fewer digits, extra digits, censored, siblings, bad legs, clones, monochrome, bar censoring, mosaic censoring, clones, sketch, rought lines, patreon username, logo, bad proportions, artist signature, artist name, pubic hair, nsfw, naked, cleavage",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1697082,
-            "modelVersionName": "v2.2"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1810178,
-            "modelVersionName": "V1"
-          }
-        ]
-      },
-      "username": "unempty",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1697082,
-        1810178
-      ]
+      "meta": null,
+      "username": "PiPimBom",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "240|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=240%7C1744925337225"
+    "nextCursor": "241|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=241%7C1744925337225"
   }
 }
