@@ -1,64 +1,35 @@
 {
   "items": [
     {
-      "id": 87264463,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7276350b-6540-46f2-b036-86631a833143/width=896/7276350b-6540-46f2-b036-86631a833143.jpeg",
-      "hash": "UA9=qES%5hwI2pS$+]jvI-,uxcJ-{wFGKQ$R",
-      "width": 896,
-      "height": 1152,
+      "id": 77081070,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3abbf29d-4fa3-462c-bfe2-f15d2ba69980/width=1024/3abbf29d-4fa3-462c-bfe2-f15d2ba69980.jpeg",
+      "hash": "U5CPa}Rk01xt_1WBM|Ip01Rk~UE2?FRjNH%1",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-09T18:29:36.867Z",
-      "postId": 19360142,
+      "createdAt": "2025-05-18T20:07:55.272Z",
+      "postId": 17119638,
       "stats": {
-        "cryCount": 452,
-        "laughCount": 781,
-        "likeCount": 5956,
+        "cryCount": 511,
+        "laughCount": 1391,
+        "likeCount": 5218,
         "dislikeCount": 0,
-        "heartCount": 2119,
-        "commentCount": 5
+        "heartCount": 2181,
+        "commentCount": 28
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 3750036859,
-        "Model": "flux_dev",
-        "steps": 30,
-        "hashes": {
-          "model": "06f96f89f6",
-          "lora:Vibrantly_sharp_style_v.1": "a7c2467e05bc"
-        },
-        "prompt": "A digital illustration shoot from the side about a mysterious and fantastical scene featuring a man sitting atop a large mushroom-like structure surrounded by glowing red mushrooms and vibrant flowers. the scene is set against a dark, starry night sky with glowing lanterns, creating a mystical atmosphere. on the middle of the image, a man, who appears to be in his mid-twenties, is sitting on the mushroom, wearing a blue jacket, pants, shoes, and a cap, with a backpack on his back. he is facing away from the viewer, and is holding a laptop in his hands. the man is surrounded by a dense forest filled with trees and flowers, with pink flowers blooming around him. the mushroom has a glowing red light emanating from its base, and the surrounding area is filled with smaller mushrooms and glowing red lanterns. the overall atmosphere is one of wonder and adventure, with the man's presence commanding attention. <lora:Vibrantly_sharp_style_v.1:1> VibrantlySharp style.",
-        "Version": "f2.0.1v1.10.1-previous-640-g21c907ef",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "a7c2467e05bc",
-            "name": "Vibrantly_sharp_style_v.1",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "06f96f89f6",
-            "name": "flux_dev",
-            "type": "model"
-          }
-        ],
-        "Model hash": "06f96f89f6",
-        "Schedule type": "Simple",
-        "Distilled CFG Scale": "3.5"
+        "prompt": "a giant goose with many necks and heads like a hydra, aggressively honking with all"
       },
-      "username": "NekoTheCat",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        1366431
-      ]
+      "username": "schmede",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "247|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=247%7C1744925337225"
+    "nextCursor": "248|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=248%7C1744925337225"
   }
 }
