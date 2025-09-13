@@ -1,66 +1,33 @@
 {
   "items": [
     {
-      "id": 74972532,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/244bc929-9bbc-44b2-8a26-7622a1669f4a/width=1536/244bc929-9bbc-44b2-8a26-7622a1669f4a.jpeg",
-      "hash": "UGIPJU~BVG-pkS^jDjI.01MyeSI;ng0LM{oe",
-      "width": 1536,
-      "height": 2040,
+      "id": 97016897,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/280e016e-b7d2-4399-ab10-a955b84f0b5f/width=1664/280e016e-b7d2-4399-ab10-a955b84f0b5f.jpeg",
+      "hash": "U58W?fB:3Wxv3?-p}WIUxGXnRh$grsxD4.F{",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-08T11:01:30.512Z",
-      "postId": 16646466,
+      "createdAt": "2025-08-28T16:16:37.914Z",
+      "postId": 21520784,
       "stats": {
-        "cryCount": 530,
-        "laughCount": 814,
-        "likeCount": 5514,
+        "cryCount": 476,
+        "laughCount": 753,
+        "likeCount": 5756,
         "dislikeCount": 0,
-        "heartCount": 2411,
-        "commentCount": 3
+        "heartCount": 2277,
+        "commentCount": 4
       },
-      "meta": {
-        "Eta": "0.67",
-        "RNG": "NV",
-        "ENSD": "31337",
-        "Size": "1024x1360",
-        "seed": 3430906941,
-        "Model": "WAI-Nsfw-Illustrious-14",
-        "steps": 30,
-        "hashes": {
-          "model": "bdb59bac77"
-        },
-        "prompt": "1girl, hatsune miku, white pupils, power elements, microphone, vibrant blue color palette, abstract,abstract background, dreamlike atmosphere, delicate linework, wind-swept hair, energy\n,masterpiece,best quality,amazing quality,",
-        "Version": "v1.10.1-89-g2174ce5af",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "bdb59bac77",
-            "name": "WAI-Nsfw-Illustrious-14",
-            "type": "model"
-          }
-        ],
-        "Model hash": "bdb59bac77",
-        "Hires steps": "20",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
-        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,",
-        "Denoising strength": "0.5",
-        "Discard penultimate sigma": "True"
-      },
-      "username": "WAI0731",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1761560
-      ]
+      "meta": null,
+      "username": "RG_Thicklover",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "251|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=251%7C1744925337225"
+    "nextCursor": "252|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=252%7C1744925337225"
   }
 }
