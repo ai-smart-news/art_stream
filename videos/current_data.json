@@ -1,35 +1,68 @@
 {
   "items": [
     {
-      "id": 77505838,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/80a23514-eec3-40d9-a897-83a482666a70/width=1024/80a23514-eec3-40d9-a897-83a482666a70.jpeg",
-      "hash": "UOK7SJwKENOmj]WF,a$%9vR-kVV]|KowShaM",
-      "width": 1024,
-      "height": 1536,
+      "id": 54093214,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7aaa5abe-54e3-4eac-a68b-fbceda129dfd/width=1456/7aaa5abe-54e3-4eac-a68b-fbceda129dfd.jpeg",
+      "hash": "U20,I|Q*tpR2RMtURMtUi[bee,fntURLtVRM",
+      "width": 1456,
+      "height": 2128,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-20T22:49:18.993Z",
-      "postId": 17216476,
+      "createdAt": "2025-01-26T23:02:30.004Z",
+      "postId": 12136406,
       "stats": {
-        "cryCount": 504,
-        "laughCount": 866,
-        "likeCount": 5657,
+        "cryCount": 475,
+        "laughCount": 625,
+        "likeCount": 6105,
         "dislikeCount": 0,
-        "heartCount": 2313,
-        "commentCount": 9
+        "heartCount": 2137,
+        "commentCount": 5
       },
       "meta": {
-        "prompt": "Tight, oversaturated anime close-up where the frame slashes across only half a smirking mouth and a glitching neon eye, color palette bleeding with hot pink, chrome yellow, and cobalt-graffiti textures and scanlines scarring the frame, ink halftone dots and hand-drawn speed lines clashing with pixelated overlays, torn cel edges showing behind clean lines, loud, rebellious, manga meets VHS-punk chaos aesthetic, feels like a ripped page that\u2019s alive"
+        "RNG": "NV",
+        "Size": "832x1216",
+        "seed": 1319504444,
+        "Model": "PaSanctuary_v5",
+        "steps": 30,
+        "hashes": {
+          "model": "b8616b3a8f"
+        },
+        "prompt": "masterpiece, best quality, newest, absurdres, highres, night, realistic, dim light, dark, 1girl, spotlight,glowing eyes,",
+        "Version": "f2.0.1v1.10.1-previous-633-ge073e4ec",
+        "sampler": "Euler a",
+        "Module 1": "fixFP16ErrorsSDXLLowerMemoryUse_v10",
+        "cfgScale": 6,
+        "resources": [
+          {
+            "hash": "b8616b3a8f",
+            "name": "PaSanctuary_v5",
+            "type": "model"
+          }
+        ],
+        "Model hash": "b8616b3a8f",
+        "Hires steps": "10",
+        "Hires upscale": "1.75",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x-AnimeSharp",
+        "negativePrompt": "worst quality, old, early, low quality, lowres, bad hands, mutated hands,",
+        "Hires CFG Scale": "6",
+        "Denoising strength": "0.4",
+        "SGM noise multiplier": "True",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "Discard penultimate sigma": "True"
       },
-      "username": "Ravianc",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "username": "FallenIncursio",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1335110
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "238|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=238%7C1744925337225"
+    "nextCursor": "239|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=239%7C1744925337225"
   }
 }
