@@ -1,33 +1,55 @@
 {
   "items": [
     {
-      "id": 71375113,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aea2196c-b13e-4b2b-9a5c-7543219efac3/width=780/aea2196c-b13e-4b2b-9a5c-7543219efac3.jpeg",
-      "hash": "UAIhc}g3ZNaJ*INaDPaey=oz~VS2n4S1tlNa",
-      "width": 780,
-      "height": 1080,
+      "id": 63437336,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98e5513a-e259-4a68-a79f-5abe999a4cff/width=1024/98e5513a-e259-4a68-a79f-5abe999a4cff.jpeg",
+      "hash": "UIG8vK~qve?b5st8=x%g[RxA%$%19YIqJWnM",
+      "width": 1024,
+      "height": 1024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-21T19:05:00.000Z",
-      "postId": 15855477,
+      "createdAt": "2025-03-14T08:51:02.133Z",
+      "postId": 14151506,
       "stats": {
-        "cryCount": 478,
-        "laughCount": 1020,
-        "likeCount": 5703,
+        "cryCount": 434,
+        "laughCount": 1290,
+        "likeCount": 5426,
         "dislikeCount": 0,
-        "heartCount": 2141,
-        "commentCount": 4
+        "heartCount": 2185,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "PiPimBom",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "1024x1024",
+        "seed": 1063974154935117,
+        "steps": 40,
+        "hashes": {
+          "model": "29dd7b2a74",
+          "embed:IllusN3g": "dbecff3f60",
+          "embed:IllusP0s": "da04b1767d",
+          "Model:animij_v10": "29dd7b2a74",
+          "LORA:spaghetti_eating.safetensors": "d163f5e1da"
+        },
+        "prompt": "embedding:IllusP0s, marill_\\(pokemon\\), eating spaghetti, no humans, cute, aiming,<lora:spaghetti_eating.safetensors:0.5:0.5>",
+        "Version": "ComfyUI",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "resources": [],
+        "negativePrompt": "embedding:IllusN3g, uncensored, wet, sweaty, lewd, nsfw"
+      },
+      "username": "schmede",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1192334,
+        1192359,
+        1440593,
+        1528632
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "241|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=241%7C1744925337225"
+    "nextCursor": "242|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=242%7C1744925337225"
   }
 }
