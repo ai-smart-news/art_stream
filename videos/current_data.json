@@ -1,59 +1,33 @@
 {
   "items": [
     {
-      "id": 85495966,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f8bad59-ab25-4f14-8862-830ffd26bebd/width=832/3f8bad59-ab25-4f14-8862-830ffd26bebd.jpeg",
-      "hash": "U00vo1adQ*o%tnfPR3f8MHkEo#VqR2kDtnac",
-      "width": 832,
-      "height": 1216,
+      "id": 95870001,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c095dd42-5b2e-4745-bdf1-1c478373949c/width=1800/c095dd42-5b2e-4745-bdf1-1c478373949c.jpeg",
+      "hash": "U5EKMrxZ1c=x039]ENjsKv^O}XEgH{V]-TbH",
+      "width": 3328,
+      "height": 4864,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-30T18:40:05.458Z",
-      "postId": 18975361,
+      "createdAt": "2025-08-22T18:58:59.060Z",
+      "postId": 21265283,
       "stats": {
-        "cryCount": 404,
-        "laughCount": 692,
-        "likeCount": 5987,
+        "cryCount": 447,
+        "laughCount": 920,
+        "likeCount": 5749,
         "dislikeCount": 0,
-        "heartCount": 2229,
-        "commentCount": 3
+        "heartCount": 2196,
+        "commentCount": 7
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 1808361123,
-        "steps": 12,
-        "prompt": "High quality,high resolution,\n\nLong hair, black skin,stars, black background, glowing eyes, shadowed skin, shadowed body,",
-        "sampler": "Euler",
-        "cfgScale": 5.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-06-30T1838:55.7078396Z",
-        "negativePrompt": "(poorly drawn:1.3),4 breasts,bad hands, disfigured hands,\nPoorly drawn,bad quality, worst quality,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1761560,
-            "modelVersionName": "v14.0"
-          },
-          {
-            "type": "vae",
-            "weight": 1,
-            "modelVersionId": 333245,
-            "modelVersionName": "SDXL-VAE"
-          }
-        ]
-      },
-      "username": "Purple_pink",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1761560
-      ]
+      "meta": null,
+      "username": "Igor_39ru",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "245|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=245%7C1744925337225"
+    "nextCursor": "246|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=246%7C1744925337225"
   }
 }
