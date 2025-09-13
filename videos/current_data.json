@@ -1,58 +1,66 @@
 {
   "items": [
     {
-      "id": 38556739,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6fafd4ec-a94f-4814-977a-efa563423039/width=896/6fafd4ec-a94f-4814-977a-efa563423039.jpeg",
-      "hash": "U14-na={020z}@xa5REM0gNb}@-U9[Na-V-U",
-      "width": 896,
-      "height": 1152,
+      "id": 74972532,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/244bc929-9bbc-44b2-8a26-7622a1669f4a/width=1536/244bc929-9bbc-44b2-8a26-7622a1669f4a.jpeg",
+      "hash": "UGIPJU~BVG-pkS^jDjI.01MyeSI;ng0LM{oe",
+      "width": 1536,
+      "height": 2040,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-11-17T13:48:09.351Z",
-      "postId": 8799847,
+      "createdAt": "2025-05-08T11:01:30.512Z",
+      "postId": 16646466,
       "stats": {
-        "cryCount": 440,
-        "laughCount": 701,
-        "likeCount": 6049,
+        "cryCount": 530,
+        "laughCount": 814,
+        "likeCount": 5514,
         "dislikeCount": 0,
-        "heartCount": 2082,
-        "commentCount": 9
+        "heartCount": 2411,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 4091974088,
-        "Model": "iNiverseMix_F1D_fp8_real_NSFW_V21",
-        "steps": 31,
+        "Eta": "0.67",
+        "RNG": "NV",
+        "ENSD": "31337",
+        "Size": "1024x1360",
+        "seed": 3430906941,
+        "Model": "WAI-Nsfw-Illustrious-14",
+        "steps": 30,
         "hashes": {
-          "model": "15ab0381d1"
+          "model": "bdb59bac77"
         },
-        "prompt": "a 18 y.o french pretty modeling,(from_above:1.2),from_side,soft lighting,high resolution,professional grade,RAW photography,evocative composition,Cinematic Lighting,moody lighting,(freckles:0.7),perfect eyes,depth of field,virtual background,eyes_focus,",
-        "Version": "f2.0.1v1.10.1-previous-581-ge4ad1140",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp8_e4m3fn",
-        "cfgScale": 1,
+        "prompt": "1girl, hatsune miku, white pupils, power elements, microphone, vibrant blue color palette, abstract,abstract background, dreamlike atmosphere, delicate linework, wind-swept hair, energy\n,masterpiece,best quality,amazing quality,",
+        "Version": "v1.10.1-89-g2174ce5af",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
         "resources": [
           {
-            "hash": "15ab0381d1",
-            "name": "iNiverseMix_F1D_fp8_real_NSFW_V21",
+            "hash": "bdb59bac77",
+            "name": "WAI-Nsfw-Illustrious-14",
             "type": "model"
           }
         ],
-        "Model hash": "15ab0381d1",
-        "Schedule type": "Simple",
-        "Distilled CFG Scale": "3.5"
+        "Model hash": "bdb59bac77",
+        "Hires steps": "20",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,",
+        "Denoising strength": "0.5",
+        "Discard penultimate sigma": "True"
       },
-      "username": "JinnGames",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "username": "WAI0731",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1761560
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "250|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=250%7C1744925337225"
+    "nextCursor": "251|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=251%7C1744925337225"
   }
 }
