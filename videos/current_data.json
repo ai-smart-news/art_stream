@@ -1,61 +1,58 @@
 {
   "items": [
     {
-      "id": 91790240,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa8c3f76-2be0-4829-a9ff-cbc73711b96e/width=1728/fa8c3f76-2be0-4829-a9ff-cbc73711b96e.jpeg",
-      "hash": "U5Acf4=w0JTf00M{ngoI0}T1=Z,-~CxaEPEM",
-      "width": 1728,
-      "height": 1344,
+      "id": 38556739,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6fafd4ec-a94f-4814-977a-efa563423039/width=896/6fafd4ec-a94f-4814-977a-efa563423039.jpeg",
+      "hash": "U14-na={020z}@xa5REM0gNb}@-U9[Na-V-U",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-01T17:55:06.707Z",
-      "postId": 20364404,
+      "createdAt": "2024-11-17T13:48:09.351Z",
+      "postId": 8799847,
       "stats": {
-        "cryCount": 437,
-        "laughCount": 753,
-        "likeCount": 5600,
+        "cryCount": 440,
+        "laughCount": 701,
+        "likeCount": 6049,
         "dislikeCount": 0,
-        "heartCount": 2501,
-        "commentCount": 12
+        "heartCount": 2082,
+        "commentCount": 9
       },
       "meta": {
-        "TI": {},
-        "RNG": "NV",
-        "Size": "1728x1344",
-        "seed": 10,
-        "Model": "Pohjolantaika_v1.2b",
-        "steps": 30,
+        "Size": "896x1152",
+        "seed": 4091974088,
+        "Model": "iNiverseMix_F1D_fp8_real_NSFW_V21",
+        "steps": 31,
         "hashes": {
-          "model": "110a269eac"
+          "model": "15ab0381d1"
         },
-        "prompt": "masterpiece, best quality, aesthetic, absurdres, masterpiece, (high quality), (high resolution), (incredibly detailed), (flat colors), gradient, beautiful, scenery, zPDXL2, fixl-art, Smooth Quality+",
-        "Version": "f2.0.1v1.10.1-v0.0.1-alpha-757-gb00d9b67",
-        "sampler": "Euler a",
-        "Emphasis": "No norm",
-        "Module 1": "aaaAnimeSDXLVAE_v15",
-        "cfgScale": 5,
+        "prompt": "a 18 y.o french pretty modeling,(from_above:1.2),from_side,soft lighting,high resolution,professional grade,RAW photography,evocative composition,Cinematic Lighting,moody lighting,(freckles:0.7),perfect eyes,depth of field,virtual background,eyes_focus,",
+        "Version": "f2.0.1v1.10.1-previous-581-ge4ad1140",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp8_e4m3fn",
+        "cfgScale": 1,
         "resources": [
           {
-            "hash": "110a269eac",
-            "name": "Pohjolantaika_v1.2b",
+            "hash": "15ab0381d1",
+            "name": "iNiverseMix_F1D_fp8_real_NSFW_V21",
             "type": "model"
           }
         ],
-        "Model hash": "110a269eac",
-        "Schedule type": "Automatic",
-        "negativePrompt": "anatomical nonsense,interlocked fingers,extra fingers,watermark,simple background,transparent,low quality,logo,text,signature,(worst quality, bad quality:1.2),jpeg artifacts,username,extra digit,ugly,bad_hands,bad_feet,bad_anatomy,deformed anatomy,bad proportions,lowres,bad_quality , Smooth Negative"
+        "Model hash": "15ab0381d1",
+        "Schedule type": "Simple",
+        "Distilled CFG Scale": "3.5"
       },
-      "username": "Ongelmanratkoja",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1991081
-      ]
+      "username": "JinnGames",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "249|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=249%7C1744925337225"
+    "nextCursor": "250|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=250%7C1744925337225"
   }
 }
