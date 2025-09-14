@@ -1,33 +1,60 @@
 {
   "items": [
     {
-      "id": 69474696,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1f6b05e-fdb8-43d2-801d-746980ed7c50/width=1152/a1f6b05e-fdb8-43d2-801d-746980ed7c50.jpeg",
-      "hash": "U795vPnREhxYE}S3f7Wp0jkU-9NI|w$Poesn",
-      "width": 1152,
-      "height": 1920,
+      "id": 69392812,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eeaa0c5e-8d13-4efc-aca0-776ecb45d44b/width=1024/eeaa0c5e-8d13-4efc-aca0-776ecb45d44b.jpeg",
+      "hash": "URECzz-;o#Ipu6tRt7ogXAofIoa#xat8slRP",
+      "width": 1024,
+      "height": 1024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-12T00:53:32.351Z",
-      "postId": 15435313,
+      "createdAt": "2025-04-11T16:04:23.314Z",
+      "postId": 15417370,
       "stats": {
-        "cryCount": 461,
-        "laughCount": 830,
-        "likeCount": 5770,
+        "cryCount": 433,
+        "laughCount": 929,
+        "likeCount": 5803,
         "dislikeCount": 0,
-        "heartCount": 2205,
-        "commentCount": 5
+        "heartCount": 2082,
+        "commentCount": 4
       },
-      "meta": null,
-      "username": "kunge",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "1024x1024",
+        "nsfw": true,
+        "seed": 1476202880,
+        "draft": false,
+        "steps": 30,
+        "width": 1024,
+        "height": 1024,
+        "prompt": "score_9, score_8_up, score_7_up,score_9, score_8_up, score_7_up, scenery, apocalyptic world, BREAK, cats and dogs fighting with laser guns, ((High fantasy art style)), ((Masterpiece), (absurdres), (shadowy), (mysterious)",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "Created Date": "2025-04-09T1853:38.7697002Z",
+        "negativePrompt": "comic, (worst quality, low quality:1.4), (monochrome:1.4), worst quality, low quality, text, censored, blurry, deformed, bad hand, blurry, (watermark,text), small breasts, colorful makeup, cartoon,wrinkle, (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, bar censor, highheels",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1581171,
+            "modelVersionName": "v3.0"
+          }
+        ]
+      },
+      "username": "AltLoverAI",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1581171
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "253|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=253%7C1744925337225"
+    "nextCursor": "254|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=254%7C1744925337225"
   }
 }
