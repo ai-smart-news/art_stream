@@ -1,78 +1,38 @@
 {
   "items": [
     {
-      "id": 45101745,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4ce1dae-7e2d-4584-a47f-0d2bb2751766/width=1248/b4ce1dae-7e2d-4584-a47f-0d2bb2751766.jpeg",
-      "hash": "UUK^jK~qShxu_3%NX8t79as:xaWB_2oLIURj",
-      "width": 1248,
-      "height": 1824,
+      "id": 57009345,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3153d837-e028-4b1b-8781-02378d9eb1c9/width=1664/3153d837-e028-4b1b-8781-02378d9eb1c9.jpeg",
+      "hash": "U24{9%V?00o~pJWAR3of0LR5~Vx].TaKNIkX",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-12T19:00:00.000Z",
-      "postId": 10220709,
+      "createdAt": "2025-02-10T19:15:06.030Z",
+      "postId": 12763078,
       "stats": {
-        "cryCount": 305,
-        "laughCount": 609,
+        "cryCount": 366,
+        "laughCount": 713,
         "likeCount": 5889,
         "dislikeCount": 0,
-        "heartCount": 2397,
-        "commentCount": 8
+        "heartCount": 2221,
+        "commentCount": 6
       },
-      "meta": {
-        "VAE": "aaaAnimeSDXLVAE_v10.safetensors",
-        "Size": "832x1216",
-        "seed": 2752284259,
-        "Model": "madlyMixVerNightnoob_v2",
-        "steps": 24,
-        "hashes": {
-          "vae": "ce4bbf40fa",
-          "model": "39ec29b8a4",
-          "lora:ChamNanashiMumeiIllustriousXL": "4a3e887c54c2"
-        },
-        "prompt": "masterpiece, best quality, 1girl, solo, N4nashiCas, brown eyes, brown hair, long hair, streaked sidelocks, ahoge, cherry earrings, black choker, oversized hoodie, beige hoodie, animal hood, wide sleeves, long skirt, high-waist skirt, plaid skirt, brown skirt, indoors, cafe, sitting, table, cup, coffee mug, arm rest, smile, head tilt, <lora:ChamNanashiMumeiIllustriousXL:1>",
-        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "4a3e887c54c2",
-            "name": "ChamNanashiMumeiIllustriousXL",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "39ec29b8a4",
-            "name": "madlyMixVerNightnoob_v2",
-            "type": "model"
-          }
-        ],
-        "Model hash": "39ec29b8a4",
-        "Hires steps": "10",
-        "Hires upscale": "1.5",
-        "Hires upscaler": "4x-UltraSharp",
-        "negativePrompt": "(lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), bad hands, multiple views, comic, jpeg artifacts, patreon logo, patreon username, web address, signature, watermark, text, logo, artist name, censored",
-        "ADetailer model": "Anzhc Face -seg.pt",
-        "ADetailer version": "24.4.2",
-        "Denoising strength": "0.4",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
-      },
-      "username": "ChameleonAI",
+      "meta": null,
+      "username": "Unstable_Specularity",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        1070934
+        1381278,
+        1383204,
+        1392521,
+        1396529
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "257|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=257%7C1744925337225"
+    "nextCursor": "258|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=258%7C1744925337225"
   }
 }
