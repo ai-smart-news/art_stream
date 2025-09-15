@@ -1,61 +1,33 @@
 {
   "items": [
     {
-      "id": 84645090,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e10f3c12-0438-49e8-aab2-5b214e1bb6a5/width=1248/e10f3c12-0438-49e8-aab2-5b214e1bb6a5.jpeg",
-      "hash": "U5HUUf004;-;~oRj01x]00xu9G%201xu^iRj",
-      "width": 1248,
-      "height": 1824,
+      "id": 88848146,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44bdf391-e493-44a3-baa6-7811eb331c34/width=1024/44bdf391-e493-44a3-baa6-7811eb331c34.jpeg",
+      "hash": "U.JjYPNHt6xZ~UWCoeoeg4oeafR+I@kBR*R+",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-26T12:40:18.419Z",
-      "postId": 18791143,
+      "createdAt": "2025-07-17T20:30:00.000Z",
+      "postId": 19709406,
       "stats": {
-        "cryCount": 407,
-        "laughCount": 913,
-        "likeCount": 5545,
+        "cryCount": 412,
+        "laughCount": 1328,
+        "likeCount": 5358,
         "dislikeCount": 0,
-        "heartCount": 2199,
-        "commentCount": 2
+        "heartCount": 1960,
+        "commentCount": 7
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 868306396186511,
-        "Model": "VISIONARYILLUSTRIOUSNEWERAOriginal.safetensors",
-        "steps": 27,
-        "hashes": {
-          "model": "4ecc0fc25e",
-          "lora:versuchblackgold1234": "d2fb99eec7"
-        },
-        "prompt": "masterpiece, best quality, Creature, funny face, round, skin, metal, shiny, black and gold, no human,  porcelain teacup with elegant cracks, filled with rolling clouds and lightning flashes, tiny raindrops escaping over brim, spoon carved like a weather vane, [placed on antique map, steam forming isobar lines, wind marks etched on table], macro shot, top-down, teacup swirling slowly, (mini storm intensity:0.9), (ceramic crack texture:0.8), (steam geometry:0.7)",
-        "sampler": "euler_ancestral",
-        "cfgScale": 5.01,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "4ecc0fc25e",
-            "name": "VISIONARYILLUSTRIOUSNEWERAOriginal.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "4ecc0fc25e",
-        "negativePrompt": "(bad quality:1, worst quality:1, bad eyes:1), lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, ugly, messy, child, teen,",
-        "Lora_0 Model hash": "d2fb99eec7",
-        "Lora_0 Model name": "versuchblackgold1234.safetensors",
-        "Lora_0 Strength clip": "1.0000000000000002",
-        "Lora_0 Strength model": "1.0000000000000002"
-      },
-      "username": "VisionaryAI_Studio",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1909771
-      ]
+      "meta": null,
+      "username": "UnstableGen",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "273|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=273%7C1744925337225"
+    "nextCursor": "274|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=274%7C1744925337225"
   }
 }
