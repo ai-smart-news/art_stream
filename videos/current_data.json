@@ -1,33 +1,87 @@
 {
   "items": [
     {
-      "id": 88848146,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44bdf391-e493-44a3-baa6-7811eb331c34/width=1024/44bdf391-e493-44a3-baa6-7811eb331c34.jpeg",
-      "hash": "U.JjYPNHt6xZ~UWCoeoeg4oeafR+I@kBR*R+",
-      "width": 1024,
-      "height": 1536,
+      "id": 82854847,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33dee316-5e52-4c8a-b795-dad8e8f3ecd4/width=832/33dee316-5e52-4c8a-b795-dad8e8f3ecd4.jpeg",
+      "hash": "U5AeX3*000Hr@qxv9aQ-00NHTK%1-gMwWA%M",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-17T20:30:00.000Z",
-      "postId": 19709406,
+      "createdAt": "2025-06-17T12:07:32.441Z",
+      "postId": 18402065,
       "stats": {
-        "cryCount": 412,
-        "laughCount": 1328,
-        "likeCount": 5358,
+        "cryCount": 418,
+        "laughCount": 768,
+        "likeCount": 5839,
         "dislikeCount": 0,
-        "heartCount": 1960,
-        "commentCount": 7
+        "heartCount": 2020,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "UnstableGen",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 196933070,
+        "steps": 27,
+        "prompt": "Create a highly detailed and imaginative digital artwork featuring a majestic white horse emerging from a mystical, circular portal framed with ornate, gold-embellished baroque-style decorations. The portal is filled with swirling, ethereal blue water, giving the impression of a magical gateway. The horse is depicted mid-gallop, with its mane and tail flowing dramatically, blending with the water's motion, and its hooves splashing as it breaks through the surface. The scene is set against a reflective pool of water on the ground, mirroring the horse and the portal with intricate ripples. The color palette should emphasize deep blues and shimmering golds, creating a fantastical and otherworldly atmosphere. Ensure the lighting highlights the horse's muscular form and the intricate details of the portal's frame, with subtle water droplets and splashes adding to the dynamic effect.",
+        "sampler": "Undefined",
+        "cfgScale": 8.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-06-17T1206:45.3200275Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 880134,
+            "modelVersionName": "Flux V2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 753339,
+            "modelVersionName": "Phlux_V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1850943,
+            "modelVersionName": "V4"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 1249246,
+            "modelVersionName": "FLUX v0.5"
+          }
+        ]
+      },
+      "username": "FenixDX7",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        720252,
+        753339,
+        880134,
+        1249246,
+        1850943
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "274|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=274%7C1744925337225"
+    "nextCursor": "275|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=275%7C1744925337225"
   }
 }
