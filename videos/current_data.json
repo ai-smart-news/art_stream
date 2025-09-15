@@ -1,76 +1,39 @@
 {
   "items": [
     {
-      "id": 82647838,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3afcfdbc-8134-466d-82b3-20d3b310b262/width=1536/3afcfdbc-8134-466d-82b3-20d3b310b262.jpeg",
-      "hash": "U24WOupIK,q[00b^yWNeHYe-rX$ey?lUL#Me",
-      "width": 1536,
-      "height": 2120,
+      "id": 73111779,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/112764b4-7517-475a-a698-9afecbd9e14e/width=832/112764b4-7517-475a-a698-9afecbd9e14e.jpeg",
+      "hash": "UCD+_N8H8w:RS.9tH;v|00[p-~G8x.?IpcJC",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-16T10:34:09.250Z",
-      "postId": 18356871,
+      "createdAt": "2025-04-29T18:21:46.148Z",
+      "postId": 16240729,
       "stats": {
-        "cryCount": 396,
-        "laughCount": 681,
-        "likeCount": 5835,
+        "cryCount": 566,
+        "laughCount": 679,
+        "likeCount": 5844,
         "dislikeCount": 0,
-        "heartCount": 2217,
+        "heartCount": 2033,
         "commentCount": 5
       },
-      "meta": {
-        "Size": "1536x2124",
-        "seed": 719016729737825,
-        "Model": "flux1-dev-fp8",
-        "steps": 20,
-        "prompt": "VibrantlySharp style,\nanimeniji,\n3pic_vist4, A pair of glowing teal eyes emerge just above the midnight ocean surface, framed by wet lashes and tangled black hair, rain trailing in golden strands from the sky, while dim embers drift across the rippling water like a drowned constellation whispering secrets in silence.",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "clipSkip": 1,
-        "resources": [],
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639
-          },
-          {
-            "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 720252
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 937875
-          },
-          {
-            "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 1047245
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1483395
-          }
-        ]
-      },
-      "username": "Kanwa",
+      "meta": null,
+      "username": "Palindrome",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
         691639,
         720252,
-        937875,
-        1047245,
-        1483395
+        1244911,
+        1524423,
+        1639190
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "268|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=268%7C1744925337225"
+    "nextCursor": "269|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=269%7C1744925337225"
   }
 }
