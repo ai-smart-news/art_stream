@@ -1,59 +1,76 @@
 {
   "items": [
     {
-      "id": 33530948,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2f20417f-5f67-445c-bae4-15ca9846ea8f/width=832/2f20417f-5f67-445c-bae4-15ca9846ea8f.jpeg",
-      "hash": "U8GQwQnOs,Ir_I=Z59ENTBtQAHI[Xf5S,;wJ",
-      "width": 832,
-      "height": 1216,
+      "id": 82647838,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3afcfdbc-8134-466d-82b3-20d3b310b262/width=1536/3afcfdbc-8134-466d-82b3-20d3b310b262.jpeg",
+      "hash": "U24WOupIK,q[00b^yWNeHYe-rX$ey?lUL#Me",
+      "width": 1536,
+      "height": 2120,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-08T18:29:31.233Z",
-      "postId": 7669476,
+      "createdAt": "2025-06-16T10:34:09.250Z",
+      "postId": 18356871,
       "stats": {
-        "cryCount": 438,
-        "laughCount": 1221,
-        "likeCount": 5565,
+        "cryCount": 396,
+        "laughCount": 681,
+        "likeCount": 5835,
         "dislikeCount": 0,
-        "heartCount": 1912,
-        "commentCount": 12
+        "heartCount": 2217,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 3742927916,
-        "steps": 36,
-        "prompt": "A professional photograph of a quirky squirrel with a fiery red mohawk, energetically playing a whimsical drum set in a vibrant autumn forest. The drum kit is entirely imagined, with bass drums made from hollowed, oversized chestnuts that have been polished to a gleaming finish. The snare drum is crafted from a woven basket of intertwined twigs and leaves, producing a crisp, earthy sound. Cymbals are formed from large, dry maple leaves, their edges curled and textured, hanging on thin branch stands. Smaller acorns serve as tom-toms, and the hi-hat is composed of overlapping oak leaves, delicately stacked on a twig frame. Every element of the drum set is organic, blending seamlessly into the forest floor, which is blanketed in a rich layer of autumn leaves, as the squirrel\u2019s paws expertly tap the instruments, filling the scene with the imagined rhythm of nature",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
+        "Size": "1536x2124",
+        "seed": 719016729737825,
+        "Model": "flux1-dev-fp8",
+        "steps": 20,
+        "prompt": "VibrantlySharp style,\nanimeniji,\n3pic_vist4, A pair of glowing teal eyes emerge just above the midnight ocean surface, framed by wet lashes and tangled black hair, rain trailing in golden strands from the sky, while dim embers drift across the rippling water like a drowned constellation whispering secrets in silence.",
+        "Version": "ComfyUI",
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "clipSkip": 1,
         "resources": [],
-        "Created Date": "2024-10-08T1825:36.2602178Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "modelVersionId": 691639
           },
           {
             "type": "lora",
-            "weight": 1.1,
-            "modelVersionId": 706528,
-            "modelVersionName": "Converted for Comfyui"
+            "weight": 0.35,
+            "modelVersionId": 720252
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 937875
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 1047245
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1483395
           }
         ]
       },
-      "username": "CybrainZo",
+      "username": "Kanwa",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
         691639,
-        706528
+        720252,
+        937875,
+        1047245,
+        1483395
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "267|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=267%7C1744925337225"
+    "nextCursor": "268|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=268%7C1744925337225"
   }
 }
