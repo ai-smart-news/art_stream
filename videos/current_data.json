@@ -1,35 +1,71 @@
 {
   "items": [
     {
-      "id": 74811302,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d267cd55-58eb-4c30-b632-3b22f05c2211/width=1024/d267cd55-58eb-4c30-b632-3b22f05c2211.jpeg",
-      "hash": "UA8C]d}r$$xFxZs:WqR+oLs.fkWqf6n%ayS3",
-      "width": 1024,
-      "height": 1536,
+      "id": 67195037,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/592b946f-4042-4a15-9793-8e30f07ea41a/width=1664/592b946f-4042-4a15-9793-8e30f07ea41a.jpeg",
+      "hash": "U8HUX]sq00={:5R*Bo%MDi9ZEzNIYRE1H=%M",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-07T17:00:00.000Z",
-      "postId": 16611268,
+      "createdAt": "2025-04-01T04:10:35.974Z",
+      "postId": 14944280,
       "stats": {
-        "cryCount": 466,
-        "laughCount": 811,
-        "likeCount": 5766,
+        "cryCount": 483,
+        "laughCount": 872,
+        "likeCount": 5503,
         "dislikeCount": 0,
-        "heartCount": 1990,
-        "commentCount": 5
+        "heartCount": 2171,
+        "commentCount": 3
       },
-      "meta": null,
-      "username": "PiPimBom",
-      "baseModel": "OpenAI",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1985768229,
+        "Model": "catTowerNoobaiXL_v17Vpred",
+        "steps": 30,
+        "hashes": {
+          "model": "d19478e78c",
+          "lora:CivChan": "295906106644"
+        },
+        "prompt": "masterpiece, best quality, safe, \ngirl, CivChan, solo, petite, pink hair, medium hair, (hair hair between eyes:1.2), purple eyes, snake mouth, looking at viewer, happy, :d, blush, medium breasts, (shaded face:0.8), \nblack maid, short sleeves, maid headdress, thighhighs, white legwear, standing, hand on own cheek, holding, baseball bat over shoulder, cowboy shot, dark background \n<lora:CivChan:1>",
+        "Version": "f1.1.5-v1.10.1RC-latest-857-g51f1a6c3",
+        "sampler": "Euler a",
+        "cfgScale": 2.5,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "295906106644",
+            "name": "CivChan",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "d19478e78c",
+            "name": "catTowerNoobaiXL_v17Vpred",
+            "type": "model"
+          }
+        ],
+        "Model hash": "d19478e78c",
+        "Time taken": "48.5 sec.",
+        "Hardware Info": {},
+        "Hires upscale": "2",
+        "Schedule type": "Automatic",
+        "Hires upscaler": "4x-AnimeSharp",
+        "negativePrompt": "nsfw, worst quality, low quality, official art, signature, artist name, logo, watermark",
+        "Denoising strength": "0.3"
+      },
+      "username": "Lisarfa",
+      "baseModel": "NoobAI",
       "modelVersionIds": [
-        1733399
+        1495826,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "277|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=277%7C1744925337225"
+    "nextCursor": "278|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=278%7C1744925337225"
   }
 }
