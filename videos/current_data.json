@@ -1,92 +1,59 @@
 {
   "items": [
     {
-      "id": 63547655,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aea1c7ef-ae10-4e6a-b5d3-2be066e73491/width=1800/aea1c7ef-ae10-4e6a-b5d3-2be066e73491.jpeg",
-      "hash": "UMBXJ^j=m,S3*JaKV?kBGGi_adaeADaKozae",
-      "width": 1920,
-      "height": 2560,
+      "id": 33530948,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2f20417f-5f67-445c-bae4-15ca9846ea8f/width=832/2f20417f-5f67-445c-bae4-15ca9846ea8f.jpeg",
+      "hash": "U8GQwQnOs,Ir_I=Z59ENTBtQAHI[Xf5S,;wJ",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-15T00:10:00.000Z",
-      "postId": 14175486,
+      "createdAt": "2024-10-08T18:29:31.233Z",
+      "postId": 7669476,
       "stats": {
-        "cryCount": 482,
-        "laughCount": 781,
-        "likeCount": 5667,
+        "cryCount": 438,
+        "laughCount": 1221,
+        "likeCount": 5565,
         "dislikeCount": 0,
-        "heartCount": 2213,
-        "commentCount": 15
+        "heartCount": 1912,
+        "commentCount": 12
       },
       "meta": {
-        "RNG": "CPU",
-        "Size": "960x1280",
-        "seed": 88888888,
-        "Model": "artsy_vibe-flux-fp8",
-        "steps": 48,
-        "hashes": {
-          "model": "d5894b84fa",
-          "lora:futucars-flux-by_ciro_negrogni": "d37543907a",
-          "lora:faetastic_details-flux-by_faeia": "4259dc3287",
-          "lora:style-80s_fantasy_movie-v3-flux-by_arsmachina": "d344db1462"
-        },
-        "prompt": "professional magazine photo, cinematic composition, 8k, 4k, 1950s retro-futurism, science fiction, perfect reflections, ray tracing, a highly detailed, high-resolution photo of an exciting luxurious, retro-futuristic supercar gleaming under the neon glow of a vintage gas station, a vision of 1950s-inspired atomic-age design, fused with cutting-edge technology, its sleek, aerodynamic bodywork features flowing curves, pronounced tailfins, and a bubble-shaped canopy, reminiscent of classic mid-century concept cars, polished chrome trim reflects the ambient light, while its vibrant metallic paint - indigo blue with polished chrome accents - shimmers with a soft pearlescent finish, whitewall tires with turbine-styled hubcaps complete its striking silhouette, the car's headlights are on, casting bright beams onto the rain-slick pavement, the light refracting in shimmering reflections. the setting is an atmospheric retro-futuristic gas station, bold red and white signage displays the text: \"Red Rocket\" in classic americana typography, its iconic towering rocket-shaped sign glowing softly against the twilight sky, red vintage fuel pumps stand in a row, showcasing the golden age of optimistic engineering, the concrete forecourt is slick from a recent rain shower, casting shimmering reflections of neon, the sky is a rich blend of twilight hues, with the last golden light of sunset fading into a deep blue, the first stars appearing above, the composition is cinematic, shot at a dramatic low angle to emphasize the power and elegance of the car, the car is positioned in the lower third of the frame, drawing the eye toward the red rocket sign in the background, giving the image a sense of grandeur and depth, captured with a hasselblad h6d-100c medium format camera on kodak ektar 100 film, f/2.8 aperture, iso 200, the soft film grain enhances the vintage aesthetic, while the crisp details ensure a modern, high-end car magazine quality, the lighting is a mix of soft natural dusk light and the warm artificial glow of gas station signage, combining to create a dynamic, luxurious atmosphere, a perfect blend of classic americana and retro-futuristic optimism, framed with masterful precision to evoke a sense of nostalgia and wonder, <lora:faetastic_details-flux-by_faeia:1.0> arsmoviestill, 80s fantasy movie still, <lora:style-80s_fantasy_movie-v3-flux-by_arsmachina:0.88> <lora:futucars-flux-by_ciro_negrogni:1.0>",
-        "Version": "f2.0.1v1.10.1-previous-657-g4f825bc07",
-        "sampler": "LMS",
-        "Module 1": "ae",
-        "Module 2": "vit-l-14-reg-gated-balanced-ckpt12",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "resources": [
+        "Size": "832x1216",
+        "seed": 3742927916,
+        "steps": 36,
+        "prompt": "A professional photograph of a quirky squirrel with a fiery red mohawk, energetically playing a whimsical drum set in a vibrant autumn forest. The drum kit is entirely imagined, with bass drums made from hollowed, oversized chestnuts that have been polished to a gleaming finish. The snare drum is crafted from a woven basket of intertwined twigs and leaves, producing a crisp, earthy sound. Cymbals are formed from large, dry maple leaves, their edges curled and textured, hanging on thin branch stands. Smaller acorns serve as tom-toms, and the hi-hat is composed of overlapping oak leaves, delicately stacked on a twig frame. Every element of the drum set is organic, blending seamlessly into the forest floor, which is blanketed in a rich layer of autumn leaves, as the squirrel\u2019s paws expertly tap the instruments, filling the scene with the imagined rhythm of nature",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-10-08T1825:36.2602178Z",
+        "civitaiResources": [
           {
-            "name": "faetastic_details-flux-by_faeia",
-            "type": "lora",
-            "weight": 1
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
-            "name": "style-80s_fantasy_movie-v3-flux-by_arsmachina",
             "type": "lora",
-            "weight": 0.88
-          },
-          {
-            "name": "futucars-flux-by_ciro_negrogni",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "d5894b84fa",
-            "name": "artsy_vibe-flux-fp8",
-            "type": "model"
+            "weight": 1.1,
+            "modelVersionId": 706528,
+            "modelVersionName": "Converted for Comfyui"
           }
-        ],
-        "Model hash": "d5894b84fa",
-        "Hires steps": "36",
-        "Hires upscale": "2",
-        "Schedule type": "Beta",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x_nomos_8k_hat-l_otf",
-        "Hires CFG Scale": "1",
-        "Beta schedule beta": "0.6",
-        "Denoising strength": "0.36",
-        "Beta schedule alpha": "0.6",
-        "Distilled CFG Scale": "4.8",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "Hires Distilled CFG Scale": "3.6"
+        ]
       },
-      "username": "OneViolentGentleman",
+      "username": "CybrainZo",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        720252,
-        1287297,
-        1371192,
-        1308180
+        691639,
+        706528
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "266|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=266%7C1744925337225"
+    "nextCursor": "267|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=267%7C1744925337225"
   }
 }
