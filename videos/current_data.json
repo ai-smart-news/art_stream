@@ -1,105 +1,78 @@
 {
   "items": [
     {
-      "id": 73090031,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72250d53-2ae9-448f-ac08-125d87240826/width=832/72250d53-2ae9-448f-ac08-125d87240826.jpeg",
-      "hash": "UFBD~6R400t7.TR5Mxs:4oRO-;tRD$aJ%go#",
-      "width": 832,
-      "height": 1216,
+      "id": 45101745,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4ce1dae-7e2d-4584-a47f-0d2bb2751766/width=1248/b4ce1dae-7e2d-4584-a47f-0d2bb2751766.jpeg",
+      "hash": "UUK^jK~qShxu_3%NX8t79as:xaWB_2oLIURj",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-29T15:55:54.416Z",
-      "postId": 16236013,
+      "createdAt": "2024-12-12T19:00:00.000Z",
+      "postId": 10220709,
       "stats": {
-        "cryCount": 536,
-        "laughCount": 762,
-        "likeCount": 5875,
+        "cryCount": 305,
+        "laughCount": 609,
+        "likeCount": 5889,
         "dislikeCount": 0,
-        "heartCount": 2052,
-        "commentCount": 11
+        "heartCount": 2397,
+        "commentCount": 8
       },
       "meta": {
+        "VAE": "aaaAnimeSDXLVAE_v10.safetensors",
         "Size": "832x1216",
-        "nsfw": false,
-        "seed": 2078139364,
-        "draft": false,
-        "extra": {
-          "remixOfId": 72108822
+        "seed": 2752284259,
+        "Model": "madlyMixVerNightnoob_v2",
+        "steps": 24,
+        "hashes": {
+          "vae": "ce4bbf40fa",
+          "model": "39ec29b8a4",
+          "lora:ChamNanashiMumeiIllustriousXL": "4a3e887c54c2"
         },
-        "steps": 38,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Studio Ghibli Dark Fairytale, moody ethdysty, fantastical, ethereal aesthetic. The image is a high-resolution macro photograph of a small, Ghibli-inspired Kodama forest spirit, showcasing intricate details of its tiny, otherworldly body. The Kodama has a smooth, desaturated white surface with faint, faded markings that give it an aged, ghost-like appearance. Its large, hollow black eyes are glossy and reflective, hinting at a silent wisdom. The delicate limbs and subtle textures, almost translucent, catch the ambient light in a soft glow. Fine, mist-like particles drift around it, adding to its eerie, serene presence. Cracks and tiny mossy growths adorn parts of its body, as if it's partially formed from the forest itself. The background is blurred, filled with diffused forest light and glowing spores, creating a dreamlike depth that makes the Kodama appear to hover silently in a realm between life and spirit.",
-        "sampler": "Undefined",
-        "cfgScale": 5.5,
+        "prompt": "masterpiece, best quality, 1girl, solo, N4nashiCas, brown eyes, brown hair, long hair, streaked sidelocks, ahoge, cherry earrings, black choker, oversized hoodie, beige hoodie, animal hood, wide sleeves, long skirt, high-waist skirt, plaid skirt, brown skirt, indoors, cafe, sitting, table, cup, coffee mug, arm rest, smile, head tilt, <lora:ChamNanashiMumeiIllustriousXL:1>",
+        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+        "sampler": "Euler a",
+        "cfgScale": 6,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-04-29T1537:58.5930736Z",
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "hash": "4a3e887c54c2",
+            "name": "ChamNanashiMumeiIllustriousXL",
+            "type": "lora",
+            "weight": 1
           },
           {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 1524423,
-            "modelVersionName": "Flux"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 1625735,
-            "modelVersionName": "v0.1"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1427117,
-            "modelVersionName": "moody-fog01"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 1557053,
-            "modelVersionName": "v0.1 - Flux"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 1702338,
-            "modelVersionName": "v1.0"
+            "hash": "39ec29b8a4",
+            "name": "madlyMixVerNightnoob_v2",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "39ec29b8a4",
+        "Hires steps": "10",
+        "Hires upscale": "1.5",
+        "Hires upscaler": "4x-UltraSharp",
+        "negativePrompt": "(lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), bad hands, multiple views, comic, jpeg artifacts, patreon logo, patreon username, web address, signature, watermark, text, logo, artist name, censored",
+        "ADetailer model": "Anzhc Face -seg.pt",
+        "ADetailer version": "24.4.2",
+        "Denoising strength": "0.4",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
       },
-      "username": "FredRocks",
-      "baseModel": "Flux.1 D",
+      "username": "ChameleonAI",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        720252,
-        1427117,
-        1524423,
-        1557053,
-        1625735,
-        1702338
+        1070934
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "256|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=256%7C1744925337225"
+    "nextCursor": "257|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=257%7C1744925337225"
   }
 }
