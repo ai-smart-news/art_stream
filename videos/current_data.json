@@ -1,35 +1,52 @@
 {
   "items": [
     {
-      "id": 86182941,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/528349e1-9ef0-44ec-a226-753db36fc83d/width=1024/528349e1-9ef0-44ec-a226-753db36fc83d.jpeg",
-      "hash": "U98M$:%1ozxZ~9%1xtt6xtxt%0bbShoyofs.",
+      "id": 77272624,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c1c66cc-86b0-4cd4-b20f-d3500b175491/width=1024/8c1c66cc-86b0-4cd4-b20f-d3500b175491.jpeg",
+      "hash": "ULF#K%~U?Foeo}S4RkjY^%f+M|adxut6RjV@",
       "width": 1024,
-      "height": 1536,
+      "height": 1024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-04T06:08:15.214Z",
-      "postId": 19124718,
+      "createdAt": "2025-05-19T19:08:12.315Z",
+      "postId": 17162541,
       "stats": {
-        "cryCount": 423,
-        "laughCount": 1577,
-        "likeCount": 5049,
+        "cryCount": 433,
+        "laughCount": 853,
+        "likeCount": 5500,
         "dislikeCount": 0,
-        "heartCount": 1951,
-        "commentCount": 5
+        "heartCount": 2212,
+        "commentCount": 7
       },
       "meta": {
-        "prompt": "painting of Leonardo da Vinci painting the Mona Lisa"
+        "width": 1024,
+        "engine": "openai",
+        "height": 1024,
+        "prompt": "A small furry mammoth pet looks out from a cat house",
+        "process": "txt2img",
+        "quality": "high",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
+          }
+        ]
       },
-      "username": "0l1v1aR0551",
+      "username": "Buerz",
       "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        1733399
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "281|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=281%7C1744925337225"
+    "nextCursor": "282|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=282%7C1744925337225"
   }
 }
