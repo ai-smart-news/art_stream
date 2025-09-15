@@ -1,103 +1,33 @@
 {
   "items": [
     {
-      "id": 60528420,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba745a8d-475e-4060-9590-870302076a56/width=1248/ba745a8d-475e-4060-9590-870302076a56.jpeg",
-      "hash": "U9M%Zc0000NY}[0fI[Iq00k?-=ai.7^*zo?a",
-      "width": 1248,
-      "height": 1824,
+      "id": 91582516,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/985c3476-f0e4-4a09-8bdf-88e78166b353/width=1800/985c3476-f0e4-4a09-8bdf-88e78166b353.jpeg",
+      "hash": "U88NhC}[-;Sz0}9[OX%MM{t7Vtsp,s$PjFIo",
+      "width": 2048,
+      "height": 3072,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-28T00:00:00.000Z",
-      "postId": 13541138,
+      "createdAt": "2025-07-31T14:41:03.363Z",
+      "postId": 20317863,
       "stats": {
-        "cryCount": 395,
-        "laughCount": 953,
-        "likeCount": 5474,
+        "cryCount": 545,
+        "laughCount": 1112,
+        "likeCount": 5354,
         "dislikeCount": 0,
-        "heartCount": 2342,
+        "heartCount": 2143,
         "commentCount": 5
       },
-      "meta": {
-        "": {},
-        "RNG": "CPU",
-        "Size": "832x1216",
-        "seed": 775994888,
-        "Model": "SmoothMix_Illustrious_v3",
-        "model": {},
-        "steps": 30,
-        "Hashes": {
-          "{embed": "Smooth Quality"
-        },
-        "hashes": {
-          "model": "3c204fb52f",
-          "embed:Smooth Quality": "d4a83433e5",
-          "embed:Smooth Negative": "636f58fdcd",
-          "lora:Smooth_Booster_v2": "29d2c4e17740",
-          "lora:Smooth_Lighting_Enhancer": "987c3430ff13"
-        },
-        "prompt": "Smooth Quality, 1girl, solo, cat girl, classroom, >_<, holding drawing of chibi cat girl with >_< expression, classroom,  <lora:Smooth_Lighting_Enhancer:0.5>\u200b\u200b\u200b <lora:Smooth_Booster_v2:1>\u200b\u200b",
-        "Version": "f1.3.0-v1.10.1RC-latest-1025-g314b3ae5",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 4,
-        "TI hashes": {
-          "Smooth Quality": "d4a83433e57a",
-          "Smooth Negative": "636f58fdcdcb"
-        },
-        "resources": [
-          {
-            "hash": "987c3430ff13",
-            "name": "Smooth_Lighting_Enhancer",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "hash": "29d2c4e17740",
-            "name": "Smooth_Booster_v2",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "3c204fb52f",
-            "name": "SmoothMix_Illustrious_v3",
-            "type": "model"
-          }
-        ],
-        "Model hash": "3c204fb52f",
-        "Hires steps": "10",
-        "Hires upscale": "1.5",
-        "Schedule type": "Karras",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "negativePrompt": "Smooth Negative\u200b\u200b\u200b",
-        "ADetailer model": "face_yolov8s.pt",
-        "Hires CFG Scale": "4",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.2",
-        "ADetailer mask blur": "6",
-        "ADetailer confidence": "0.3",
-        "{embed:Smooth Quality": {},
-        "ADetailer dilate erode": "4",
-        "lora:Smooth_Booster_v2": {},
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.3",
-        "ADetailer inpaint only masked": "True",
-        "lora:Smooth_Lighting_Enhancer": {}
-      },
-      "username": "DigitalPastel",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1195487,
-        1356009,
-        1470541,
-        1470544,
-        1470551
-      ]
+      "meta": null,
+      "username": "Valentinedesigns",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "263|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=263%7C1744925337225"
+    "nextCursor": "264|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=264%7C1744925337225"
   }
 }
