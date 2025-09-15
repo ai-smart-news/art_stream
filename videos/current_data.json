@@ -1,35 +1,101 @@
 {
   "items": [
     {
-      "id": 76561648,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d54f877-6773-47a1-96e6-2ce98a2389cc/width=1024/3d54f877-6773-47a1-96e6-2ce98a2389cc.jpeg",
-      "hash": "U596,R={OskW~AoLEMbH0%S4=txD9}S3-7oJ",
-      "width": 1024,
-      "height": 1536,
+      "id": 79121652,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/283b58f2-1ec7-4e3e-a36b-db6b43e20bec/width=888/283b58f2-1ec7-4e3e-a36b-db6b43e20bec.jpeg",
+      "hash": "UMCP5_WVIps,~9oKV[ayIqoJxYWW9djs%0bH",
+      "width": 888,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-16T07:00:03.434Z",
-      "postId": 17005398,
+      "createdAt": "2025-05-29T04:26:59.766Z",
+      "postId": 17576910,
       "stats": {
-        "cryCount": 435,
-        "laughCount": 1115,
-        "likeCount": 5516,
+        "cryCount": 488,
+        "laughCount": 760,
+        "likeCount": 5839,
         "dislikeCount": 0,
-        "heartCount": 2103,
-        "commentCount": 19
+        "heartCount": 2077,
+        "commentCount": 7
       },
-      "meta": null,
-      "username": "Graf137",
-      "baseModel": "OpenAI",
+      "meta": {
+        "Size": "888x1216",
+        "seed": 4050927943,
+        "Model": "flux1_dev-bnb",
+        "steps": 22,
+        "hashes": {
+          "model": "13895696ee",
+          "lora:Midjourney": "e72b63420a74",
+          "lora:DxDRG_Journey": "a3215ce5c878",
+          "lora:fantasy-flux-v1": "8F8D82656937",
+          "lora:paintart-style-006": "952454545989",
+          "lora:Artify\u00b4s Fantasy and Sci-Fi Art Flux": "2097f7b0e740"
+        },
+        "prompt": "DxDRG, masterpiece, full body portrait of a fairy, skeleton, wing skeleton and anatomical details, breathtaking fairytale theme illustration, magic luminous swirling smoke and particles, low neon effects, \n<lora:DxDRG_Journey:0.9>\n<lora:paintart-style-006:0.35>\n<lora:Midjourney:0.7>\n<lora:Artify\u00b4s Fantasy and Sci-Fi Art Flux:0.77>\n<lora:fantasy-flux-v1:0.4>",
+        "Version": "f2.0.1v1.10.1-previous-664-gd557aef9",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "Mask blur": "4",
+        "resources": [
+          {
+            "hash": "a3215ce5c878",
+            "name": "DxDRG_Journey",
+            "type": "lora",
+            "weight": 0.9
+          },
+          {
+            "hash": "952454545989",
+            "name": "paintart-style-006",
+            "type": "lora",
+            "weight": 0.35
+          },
+          {
+            "hash": "e72b63420a74",
+            "name": "Midjourney",
+            "type": "lora",
+            "weight": 0.7
+          },
+          {
+            "hash": "8F8D82656937",
+            "name": "fantasy-flux-v1",
+            "type": "lora",
+            "weight": 0.4
+          },
+          {
+            "hash": "2097f7b0e740",
+            "name": "Artify\u00b4s Fantasy and Sci-Fi Art Flux",
+            "type": "lora"
+          },
+          {
+            "hash": "13895696ee",
+            "name": "flux1_dev-bnb",
+            "type": "model"
+          }
+        ],
+        "Model hash": "13895696ee",
+        "Schedule type": "Beta",
+        "Beta schedule beta": "0.6",
+        "Denoising strength": "0.75",
+        "Beta schedule alpha": "0.6",
+        "Distilled CFG Scale": "3.5"
+      },
+      "username": "DxDRG",
+      "baseModel": null,
       "modelVersionIds": [
-        1733399
+        738878,
+        799456,
+        840288,
+        1074048
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "261|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=261%7C1744925337225"
+    "nextCursor": "262|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=262%7C1744925337225"
   }
 }
