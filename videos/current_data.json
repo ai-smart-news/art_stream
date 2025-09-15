@@ -1,38 +1,80 @@
 {
   "items": [
     {
-      "id": 57009345,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3153d837-e028-4b1b-8781-02378d9eb1c9/width=1664/3153d837-e028-4b1b-8781-02378d9eb1c9.jpeg",
-      "hash": "U24{9%V?00o~pJWAR3of0LR5~Vx].TaKNIkX",
-      "width": 1664,
-      "height": 2432,
+      "id": 70025335,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0fcb6574-dd50-4866-b221-06fa9486333c/width=1800/0fcb6574-dd50-4866-b221-06fa9486333c.jpeg",
+      "hash": "U6D0P=tR?v?H~qM{00Mx_N%MITM{o}RjMxoz",
+      "width": 3328,
+      "height": 4864,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-10T19:15:06.030Z",
-      "postId": 12763078,
+      "createdAt": "2025-04-14T23:30:00.000Z",
+      "postId": 15557848,
       "stats": {
-        "cryCount": 366,
-        "laughCount": 713,
-        "likeCount": 5889,
+        "cryCount": 428,
+        "laughCount": 762,
+        "likeCount": 5647,
         "dislikeCount": 0,
-        "heartCount": 2221,
+        "heartCount": 2346,
         "commentCount": 6
       },
-      "meta": null,
-      "username": "Unstable_Specularity",
-      "baseModel": "Illustrious",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1262496703,
+        "steps": 30,
+        "prompt": "a highly detailed, digital art illustration in a semi-realistic anime style. The central figure is a young woman with light olive skin and dark, shoulder-length hair styled in a messy bob. She is wearing a traditional Japanese outfit that includes a wide-brimmed hat with a ribbon tied around it, and a black kimono-like top that exposes her midriff. Her attire is accessorized with a red ribbon tied around her neck and a pair of large, glowing amber earrings. She holds a traditional Japanese katana in her right hand.\nThe background features a large, mystical white tiger with piercing orange eyes, which is partially obscured by a misty, ethereal atmosphere. The tiger's presence suggests a supernatural or otherworldly element. The scene is set against a backdrop of an ancient, multi-tiered stone building with intricate carvings, enhancing the mystical ambiance. The color palette is predominantly muted with shades of grey, black, and soft white, contrasted by the vibrant glow of the woman's earrings and the tiger's eyes.",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-04-14T1828:26.9955952Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 978472,
+            "modelVersionName": "v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1227179,
+            "modelVersionName": "Flux Realistic Fantasy"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1202162,
+            "modelVersionName": "Flux Gothic Lines"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1470588,
+            "modelVersionName": "Flux Retro"
+          }
+        ]
+      },
+      "username": "VelvetS",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1381278,
-        1383204,
-        1392521,
-        1396529
+        691639,
+        978472,
+        1202162,
+        1227179,
+        1470588
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "258|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=258%7C1744925337225"
+    "nextCursor": "259|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=259%7C1744925337225"
   }
 }
