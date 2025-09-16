@@ -1,77 +1,33 @@
 {
   "items": [
     {
-      "id": 80194566,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9df3d5f6-77f0-49a6-8178-4c7bf1acd3b6/width=1664/9df3d5f6-77f0-49a6-8178-4c7bf1acd3b6.jpeg",
-      "hash": "UCB{}Yz?02B-AEb]*}s80MSz}Zr?yARQX,sD",
-      "width": 1664,
-      "height": 2432,
+      "id": 56948842,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd413f8c-5571-48ab-b0f3-c6a997d272a3/width=1800/bd413f8c-5571-48ab-b0f3-c6a997d272a3.jpeg",
+      "hash": "ULG0FKtR?vt7~qofInWBWWj[4nRjtRt7DiRj",
+      "width": 1920,
+      "height": 3360,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-03T16:30:00.000Z",
-      "postId": 17812350,
+      "createdAt": "2025-04-29T01:52:04.743Z",
+      "postId": 12749122,
       "stats": {
-        "cryCount": 475,
-        "laughCount": 767,
-        "likeCount": 5519,
+        "cryCount": 618,
+        "laughCount": 639,
+        "likeCount": 5663,
         "dislikeCount": 0,
-        "heartCount": 2042,
-        "commentCount": 8
+        "heartCount": 1877,
+        "commentCount": 13
       },
-      "meta": {
-        "seed": 1102234865557625,
-        "Model": "flux\\flux1-dev-fp8.safetensors",
-        "steps": 16,
-        "hashes": {
-          "model": "8e91b68084",
-          "lora:glass_shard_flux": "f085086010",
-          "lora:Hyper-FLUX.1-dev-16steps-lora": "6461f67dfc",
-          "lora:Challenge Winnifier ENTERPRISE EDITION_epoch_5": "c3bdf454e6",
-          "lora:Challenge_Winnifier_ENTERPRISE_EDITION_epoch_5": "c3bdf454e6"
-        },
-        "prompt": "A vibrant green snake made of glass shards coiled around a glowing bright red apple on a dark backdrop. The snake is looking at the viewer and has its tongue out. <lora:Hyper-FLUX.1-dev-16steps-lora:0.15> <lora:Challenge_Winnifier_ENTERPRISE_EDITION_epoch_5:0> <lora:glass_shard_flux:1>",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "6461f67dfc",
-            "name": "Hyper-FLUX.1-dev-16steps-lora",
-            "type": "lora",
-            "weight": 0.15
-          },
-          {
-            "hash": "c3bdf454e6",
-            "name": "Challenge_Winnifier_ENTERPRISE_EDITION_epoch_5",
-            "type": "lora",
-            "weight": 0
-          },
-          {
-            "hash": "f085086010",
-            "name": "glass_shard_flux",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "8e91b68084",
-            "name": "flux\\flux1-dev-fp8.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "8e91b68084"
-      },
-      "username": "John_KSampler",
-      "baseModel": null,
-      "modelVersionIds": [
-        773858,
-        784278,
-        1648449
-      ]
+      "meta": null,
+      "username": "Clear_Note",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "314|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=314%7C1744925337225"
+    "nextCursor": "315|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=315%7C1744925337225"
   }
 }
