@@ -1,46 +1,95 @@
 {
   "items": [
     {
-      "id": 56105870,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a5af4555-8227-48c8-9f5d-d70e12f5e421/width=896/a5af4555-8227-48c8-9f5d-d70e12f5e421.jpeg",
-      "hash": "UB8;V=%N%gxu~WxuM{xu~qozozt6?btRIUjZ",
-      "width": 896,
-      "height": 1152,
+      "id": 62906362,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/adf5e409-c090-4b6e-8b62-74624041cd89/width=832/adf5e409-c090-4b6e-8b62-74624041cd89.jpeg",
+      "hash": "U5B3XEvY00cipbMwD#Sw00y3~Cik0?K%=9v#",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-06T04:56:53.192Z",
-      "postId": 12566516,
+      "createdAt": "2025-03-11T18:39:50.259Z",
+      "postId": 14039933,
       "stats": {
-        "cryCount": 424,
-        "laughCount": 657,
-        "likeCount": 5712,
+        "cryCount": 317,
+        "laughCount": 579,
+        "likeCount": 5821,
         "dislikeCount": 0,
-        "heartCount": 2114,
-        "commentCount": 22
+        "heartCount": 2180,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 934100943193926,
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 4294967295,
+        "draft": false,
         "steps": 20,
-        "hashes": {
-          "model": "8e91b68084",
-          "Model:flux1-dev-fp8": "8e91b68084"
-        },
-        "prompt": "front view, samsung king mackerel, Robotic Terror, Large Format Photography, selective color, subdued nightlight, leica m3 analog, muted low grain, ((a close-up portrait)) robocop, a dilapidated Awful with mechanical Peplum dress, stained with blood and dust. advanced cinematic perfect light metal textures, scars, damaged implants. futuristic dystopian atmosphere, Edgy lighting with cold glare. darksyber aesthetic, photorealistic style, portrait, (tuvaluan:1.15) , (Gray eyes:1.05) , ( pink lips:1.05) , (thin lips:1.05) , long face-shape, (bushy hair style:1.05) , (multicolored hair color:1.05) , (Knotty hair length:1.05) , A close up view of the face of a robot. The robot's face is covered in Amaranth and white paint. The eyes of the Journalist are covered in Flamboyant deep purple paint. There is a Absurd circle in the center of the head that is black in color. There are ridges of the metal around the robot's neck and around the neck. The figure's neck is made up of a series of ridges and bumps that run vertically. The face of the figure is covered by the silhouette paint.",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 3.5,
-        "resources": []
+        "width": 832,
+        "height": 1216,
+        "prompt": "masterpiece, best quality, good quality, very awa, newest, highres, absurdres, 1girl, solo, dress, standing, flower, outdoors, water, white flower, pink flower, scenery, reflection, rain, dark, ripples, yellow flower, puddle, colorful, abstract, standing on liquidi\u00bc\u008c\nvery Wide Shot, limited palette,",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "Created Date": "2025-03-11T1313:41.3759964Z",
+        "negativePrompt": "lowres, (worst quality,bad quality,low quality:1.2), bad anatomy, old",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1240288,
+            "modelVersionName": "v1.3 - Style A"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1240413,
+            "modelVersionName": "v6_noobEv1.1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1356500,
+            "modelVersionName": "Style_A"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1195582,
+            "modelVersionName": "\ud835\udd17"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1345990,
+            "modelVersionName": "illus01 v1.23"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1150423,
+            "modelVersionName": "v1.0"
+          }
+        ]
       },
-      "username": "noorhamadani",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "username": "mommymia",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1150423,
+        1195582,
+        1240288,
+        1240413,
+        1345990,
+        1356500
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "297|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=297%7C1744925337225"
+    "nextCursor": "298|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=298%7C1744925337225"
   }
 }
