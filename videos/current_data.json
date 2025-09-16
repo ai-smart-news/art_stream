@@ -1,107 +1,63 @@
 {
   "items": [
     {
-      "id": 67393792,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e377e9f-02b4-41cb-966b-7b479e0cbedc/width=1280/6e377e9f-02b4-41cb-966b-7b479e0cbedc.jpeg",
-      "hash": "U6Ci2bxu00IowOaeO9t600R*~qxt0ct7WFD%",
-      "width": 1280,
-      "height": 1856,
+      "id": 62955341,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/343580fd-e994-456b-bc70-cad1723d94c6/width=896/343580fd-e994-456b-bc70-cad1723d94c6.jpeg",
+      "hash": "UGCFbRt60ME55lxY-9Ir}8oJAbWX5SR+$gs,",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-02T02:25:00.000Z",
-      "postId": 14986336,
+      "createdAt": "2025-03-11T21:25:05.394Z",
+      "postId": 14050478,
       "stats": {
-        "cryCount": 421,
-        "laughCount": 759,
-        "likeCount": 5470,
+        "cryCount": 364,
+        "laughCount": 619,
+        "likeCount": 5736,
         "dislikeCount": 0,
-        "heartCount": 2171,
-        "commentCount": 4
+        "heartCount": 2100,
+        "commentCount": 6
       },
       "meta": {
-        "nsfw": true,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:1224788@1379960",
-        "extra": {
-          "remixOfId": 67367418
+        "Size": "896x1152",
+        "seed": 776641034,
+        "Model": "flux_dev",
+        "steps": 20,
+        "hashes": {
+          "model": "06f96f89f6"
         },
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:1224788@1379960"
-        ],
-        "prompt": "CivChan, purple eyes, pink hair, , score_9, score_8_up, score_7_up, Female, PG, Physical characteristics: Elegant facial features, pale skin, striking purple eyes, flowing pink hair composed of heart shapes, full body, full body shot Clothing and accessories: Red, heart-shaped elements enveloping her body and head; intricate earrings visible, Position: Reclining or emerging from the playing card, with one hand extended gracefully, Background: Dark backdrop with smoky, ethereal effects, scattered red hearts and poker chips enhancing the thematic composition, Main element: Queen of Hearts playing card, creatively designed with a vivid, surreal touch, Art style: Hyper-realistic with fantasy elements, emphasizing red tones and a luxurious, dramatic atmosphere,",
-        "denoise": 0.4,
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 2,
-        "workflow": "img2img-hires",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/FYYXE224GS43MPV0V249ZVTNH0.jpeg",
-          "width": 832,
-          "height": 1216
-        },
-        "experimental": false,
-        "negativePrompt": "score_5,score_4,  jpeg artifacts, signature,low detail,buff, muscular, black and white, colored skin",
-        "civitaiResources": [
+        "prompt": "art nouveau style, Aether Shadow Phoenix of Moon, Celestial Palace, Graphite in Robert McGinnis style, Whimsical, Galactic, intricate and detailed, Pop Art Colors,\n,\n,\nMinotaur with Wand of Cosmic Dust, Galactic Gateway, Hyperrealism in Bernie Wrightson style, Nimble, Galactic, intricate and detailed, Night Colors,\nZombie Dragon of Spirit mystifying, Crystal Lagoon, Frame in Jessica Rossier style, Melancholic, Abstract, trending on deviantart, Complimentary-Colors,\nMind Flayer of Water, Haunted Mansion, Hand-Drawn in Tetsuya Nomura style, Minimalist, Cosmic, masterpiece, trending on artstation, Yellow Monochrome,\n,\nSylph of Memory, Post-Apocalyptic City, Comic Book in Madhouse style, Neon, Sculptural, surreal masterpiece, Warm Tones,\nYokai of Nature, Vampire Castle, Street Art in Charlie Bowater style, Prismatic, Nebulous, trending on deviantart, Metallic Colors,\nElectric Sphinx of Lava eating, Retro Arcade, Hand-Drawn in Peter Mohrbacher style, Cosmic, Intricate, intricate and detailed, Rainbow,, elegant, decorative, curvilinear forms, nature-inspired, ornate, detailed",
+        "Version": "f2.0.1v1.10.1-previous-224-g90019688",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_g",
+        "Module 3": "clip_l",
+        "Module 4": "t5xxl_fp16",
+        "cfgScale": 1,
+        "resources": [
           {
-            "weight": 1,
-            "modelVersionId": 1379960
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1379960
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1597055
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1379960
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055
+            "hash": "06f96f89f6",
+            "name": "flux_dev",
+            "type": "model"
           }
         ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:1412708@1597055",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          }
-        ]
+        "Model hash": "06f96f89f6",
+        "Schedule type": "Simple",
+        "negativePrompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist",
+        "Distilled CFG Scale": "3.5",
+        "Style Selector Style": "Art Nouveau",
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "False"
       },
-      "username": "Pacifica",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        164821,
-        1379960,
-        1597055
-      ]
+      "username": "rickenhausen834",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "309|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=309%7C1744925337225"
+    "nextCursor": "310|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=310%7C1744925337225"
   }
 }
