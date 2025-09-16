@@ -1,69 +1,73 @@
 {
   "items": [
     {
-      "id": 29068331,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8db5e5d9-f235-4b38-8f7d-3206fd800d1c/width=1080/8db5e5d9-f235-4b38-8f7d-3206fd800d1c.jpeg",
-      "hash": "UCCOm]9]0T%L]$a#S4I;=rSiI;sl~8NI0h-m",
-      "width": 1080,
-      "height": 1880,
+      "id": 34283474,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33f22b91-6c75-4ca4-b34b-a3f2c4b99000/width=832/33f22b91-6c75-4ca4-b34b-a3f2c4b99000.jpeg",
+      "hash": "UMF:;{$$|xV_k.kA1MNdXNo0AEj@xDWDR-xD",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-12T16:44:22.336Z",
-      "postId": 6503993,
+      "createdAt": "2024-10-13T00:52:41.640Z",
+      "postId": 7834588,
       "stats": {
-        "cryCount": 495,
-        "laughCount": 753,
-        "likeCount": 5449,
+        "cryCount": 620,
+        "laughCount": 656,
+        "likeCount": 5436,
         "dislikeCount": 0,
-        "heartCount": 2089,
-        "commentCount": 5
+        "heartCount": 2075,
+        "commentCount": 48
       },
       "meta": {
-        "Size": "720x1254",
-        "seed": 1582130276,
-        "Model": "SEMImergeijV2",
-        "steps": 69,
-        "hashes": {
-          "model": "a3e03d108a",
-          "lora:DoubleExposureP-000006": "b79190c9b672"
-        },
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, Jed-dblexpsre, Jed-dblexpsre effect, double exposure, merged, (((masterpiece))) , (((best quality))), Complex background, poppy, Moonlight, Wonder, ethereal magical atmosphere, dynamic, joy,1girl,high fashion,grim, backlight colors,silhouette colors,cosmic frame, black background,portrait,photo, closed eyes, cinematic perfect intricate stunning fine detail, shiny, enhanced quality, highly contrasted, mysterious, red riding hood<lora:DoubleExposureP-000006:1>",
-        "Version": "f2.0.1v1.10.1-previous-495-g4f64f6da",
-        "sampler": "Euler a",
-        "cfgScale": 7,
+        "Size": "832x1216",
+        "seed": 788649496,
+        "steps": 20,
+        "prompt": "female etol ridiy erer nalomo? Nasicab rasa hi odeb erolie beresa tilebo unef. Ene sihomet ra. De pik ridiy aye non ho ti wiyedo. Ihenenal agiwel xicicun nalomo yoledo, etol otu tateha panierih niruses. Edep cen ra ape erer rad sum ifegeco, co nisalit nat yid isawoles. Sotu re apol nipaf. Marine onahi re sos.  cyberpunk anime, idjourney_whisper_avant_couture",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [
+        "resources": [],
+        "Created Date": "2024-10-08T0508:53.9805127Z",
+        "civitaiResources": [
           {
-            "hash": "b79190c9b672",
-            "name": "DoubleExposureP-000006",
-            "type": "lora",
-            "weight": 1
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
-            "hash": "a3e03d108a",
-            "name": "SEMImergeijV2",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.95,
+            "modelVersionId": 841415,
+            "modelVersionName": "v01"
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 747534,
+            "modelVersionName": "Flux.1 D v1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.75,
+            "modelVersionId": 791149,
+            "modelVersionName": "V1"
           }
-        ],
-        "Model hash": "a3e03d108a",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires upscaler": "4x_NMKD-Superscale-SP_178000_G",
-        "negativePrompt": "score_1, score_2, score_3, score_4, score_5, score_6, eyemakeup, signature, watermarks, long neck",
-        "Denoising strength": "0.4"
+        ]
       },
-      "username": "reijlita",
-      "baseModel": "Pony",
+      "username": "fkb42",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        760260,
-        833197
+        691639,
+        747534,
+        791149,
+        841415
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "316|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=316%7C1744925337225"
+    "nextCursor": "317|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=317%7C1744925337225"
   }
 }
