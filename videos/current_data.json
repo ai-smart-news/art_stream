@@ -1,81 +1,71 @@
 {
   "items": [
     {
-      "id": 63729173,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00a52cf8-d4dc-4c06-8cf4-b7b58330bc8b/width=832/00a52cf8-d4dc-4c06-8cf4-b7b58330bc8b.jpeg",
-      "hash": "UbHCAdWC~pt7R*bFRjayM{ayIVay~poft6t6",
-      "width": 832,
-      "height": 1216,
+      "id": 59222517,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a543a8a-c57d-448b-9be2-2110604ffe77/width=1248/4a543a8a-c57d-448b-9be2-2110604ffe77.jpeg",
+      "hash": "UPFF]PWBOGay_Nj[D$ay.9j[i^j[t8aytQj[",
+      "width": 1248,
+      "height": 1608,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-15T21:45:40.872Z",
-      "postId": 14214802,
+      "createdAt": "2025-02-21T17:00:46.689Z",
+      "postId": 13247950,
       "stats": {
-        "cryCount": 517,
-        "laughCount": 792,
-        "likeCount": 5470,
+        "cryCount": 409,
+        "laughCount": 640,
+        "likeCount": 5785,
         "dislikeCount": 0,
-        "heartCount": 2083,
-        "commentCount": 10
+        "heartCount": 2015,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 1834207287,
-        "draft": false,
-        "steps": 39,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Studio Ghibli Dark Fairytale, intricate cyborg Portrait of a female Robotic entity with Long billowing Hair Made of leafs, black hollow eerie head, No Face, DARK moody",
-        "sampler": "Undefined",
-        "cfgScale": 4.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-03-15T1448:37.7028869Z",
-        "civitaiResources": [
+        "VAE": "FLUX1\\ae.sft",
+        "Size": "896x1152",
+        "seed": 612910882265460,
+        "Model": "flux_dev.safetensors",
+        "steps": 60,
+        "hashes": {
+          "vae": "afc8e28272",
+          "model": "2eda627c8a",
+          "lora:fechin-FLUX": "11058aac17",
+          "lora:FluxDFaeTasticDetails": "4259dc3287"
+        },
+        "prompt": "A hyper-detailed, biomechanical butterfly with wings that appear almost porcelain-like, transitioning from a pure, ghostly white at the center to inky black at the tips, adorned with fine, golden veins that glow faintly. The insect\u2019s thorax and lower body morph into an intricate mass of elongated, sinewy tendrils resembling neural pathways or delicate roots, cascading downward into an abyss of darkness. The background consists of an ethereal, almost liquid expanse of swirling white and gray textures, resembling flowing marble or organic tissue, infused with an enigmatic, glowing energy. The butterfly exudes an eerie yet mesmerizing presence, as if it is a celestial being suspended between worlds, both fragile and powerful in its surreal elegance.\n <lora:FluxDFaeTasticDetails:0.25> <lora:fechin-FLUX:0.75>",
+        "sampler": "DPM++ 2M",
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "hash": "4259dc3287",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora",
+            "weight": 0.25
           },
           {
+            "hash": "11058aac17",
+            "name": "fechin-FLUX",
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1524423,
-            "modelVersionName": "Flux"
+            "weight": 0.75
           },
           {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1473885,
-            "modelVersionName": "v0.1 cpstyle flux"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 1444743,
-            "modelVersionName": "test - m200a09"
+            "hash": "2eda627c8a",
+            "name": "flux_dev.safetensors",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "2eda627c8a"
       },
-      "username": "Ajuro",
+      "username": "amre92YH",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
+        1128686,
         691639,
-        1444743,
-        1473885,
-        1524423
+        720252
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "306|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=306%7C1744925337225"
+    "nextCursor": "307|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=307%7C1744925337225"
   }
 }
