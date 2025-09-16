@@ -1,62 +1,73 @@
 {
   "items": [
     {
-      "id": 84235902,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aea8f043-a0df-4dd3-a2e3-b2634a251a88/width=832/aea8f043-a0df-4dd3-a2e3-b2634a251a88.jpeg",
-      "hash": "UGDbzP9XDg?G?dI.Vs-nMI%4StM_D$%4tLnB",
+      "id": 67195505,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba3520a9-6e78-420d-8a17-f15f08ffe69f/width=832/ba3520a9-6e78-420d-8a17-f15f08ffe69f.jpeg",
+      "hash": "UGM$[T8{uOo$}?JAIot7JR%~R*-ptmR5RONx",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-24T11:17:36.954Z",
-      "postId": 18699333,
+      "createdAt": "2025-04-01T04:20:00.000Z",
+      "postId": 14944369,
       "stats": {
-        "cryCount": 479,
-        "laughCount": 981,
-        "likeCount": 5335,
+        "cryCount": 421,
+        "laughCount": 783,
+        "likeCount": 5569,
         "dislikeCount": 0,
-        "heartCount": 2167,
-        "commentCount": 1
+        "heartCount": 2189,
+        "commentCount": 3
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 248466947,
+        "nsfw": true,
+        "seed": 1194519566,
         "draft": false,
-        "extra": {
-          "remixOfId": 25915130
-        },
-        "steps": 39,
+        "steps": 60,
         "width": 832,
         "height": 1216,
-        "prompt": "A trippy portrait of the Cheshire Cat from *Alice in Wonderland*, featuring its iconic wide grin floating in a swirl of vibrant, neon colors. The cat's body fades into a swirling vortex of purples, pinks, and blues, with its large, glowing eyes piercing through the psychedelic background. The entire scene is filled with floating playing cards, mushrooms, and other whimsical elements from Wonderland, all rendered in a dreamlike, distorted style that captures the surreal essence of the character.",
-        "sampler": "Undefined",
-        "cfgScale": 6,
+        "prompt": "masterpiece, best quality, very aesthetic, absurdres, newest, detailed skin,\n1girl, solo,\n28 years old,\nCivChan, purple eyes, pink hair,\npastel colors,\nlying on her bed, hugging a pink cat plushie,\nanimal plushies on bed,\nclosed eyes, drooling on her pillow,\ndetailed background, bedroom, on bed,",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 4,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@922358",
-        "quantity": 2,
+        "quantity": 4,
         "workflow": "txt2img",
-        "baseModel": "Flux1",
+        "baseModel": "Illustrious",
         "resources": [],
-        "Created Date": "2025-06-24T1113:50.3486134Z",
+        "Created Date": "2025-04-01T0359:19.4985866Z",
+        "negativePrompt": "lowres, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, old, oldest, artist name, signature, watermark, logo, patreon username, censored, black bars, monochrome,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 922358,
-            "modelVersionName": "Pro 1.1"
+            "modelVersionId": 1410435,
+            "modelVersionName": "v11.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1597055,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "vae",
+            "weight": 1,
+            "modelVersionId": 572204,
+            "modelVersionName": "PPPAnimixVAE_XL"
           }
         ]
       },
-      "username": "Koda300",
-      "baseModel": "Flux.1 D",
+      "username": "Silvana_",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        922358
+        1410435,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "285|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=285%7C1744925337225"
+    "nextCursor": "286|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=286%7C1744925337225"
   }
 }
