@@ -1,51 +1,74 @@
 {
   "items": [
     {
-      "id": 75839123,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de8586b5-91fa-496a-8101-f926b0e000b3/width=1024/de8586b5-91fa-496a-8101-f926b0e000b3.jpeg",
-      "hash": "UYIE|g%M~qIU~qxut7M{j[t7RjayRjM{Rjxu",
-      "width": 1024,
-      "height": 1536,
+      "id": 22904303,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/532db63d-85da-4cce-977c-358a116700e7/width=832/532db63d-85da-4cce-977c-358a116700e7.jpeg",
+      "hash": "U59%6c-:004ozVRjTxxu0gRj^Pxu0~t7}YM{",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-12T13:52:09.788Z",
-      "postId": 16839331,
+      "createdAt": "2024-08-05T17:14:16.711Z",
+      "postId": 5100137,
       "stats": {
-        "cryCount": 473,
-        "laughCount": 938,
-        "likeCount": 5486,
+        "cryCount": 322,
+        "laughCount": 675,
+        "likeCount": 5628,
         "dislikeCount": 0,
-        "heartCount": 1871,
-        "commentCount": 6
+        "heartCount": 2139,
+        "commentCount": 4
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "A black and white photograph shows the blurred silhouette of an alien , behind a frosted or translucent surface. The hand is sharply defined and pressed against the surface, creating a stark contrast with the rest of the hazy, indistinct figure. The background is a soft gradient of gray tones, enhancing the mysterious and artistic atmosphere",
-        "quality": "high",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
+        "Size": "832x1216",
+        "seed": 1017081195,
+        "steps": 22,
+        "prompt": "Stylized digital portrait of a person with fair skin and short, dark hair. The subject is wearing red-tinted sunglasses, a white shirt, and a black blazer. They have a confident expression with slightly parted lips and a relaxed posture. The background is a solid, vibrant red, which contrasts with the subject's attire. The person is accessorized with gold jewelry, including a necklace with a pendant and small hoop earrings. The overall composition is bold and striking, with a focus on the subject's face and upper body. easynegative, sinozick style, flat color, dark theme, g4n1m3",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-08-04T1759:33.5748231Z",
+        "negativePrompt": "score_5, score_4, watermark, signature, artist name, 3d, easynegative, neutral, angry, mean, intense, ugly, old, , striped face, black stripes,",
         "civitaiResources": [
           {
             "type": "checkpoint",
+            "modelVersionId": 464939,
+            "modelVersionName": "v1.1"
+          },
+          {
+            "type": "embed",
             "weight": 1,
-            "modelVersionId": 1733399
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 481798,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 501154,
+            "modelVersionName": "Gothic Retro Anime v1.0"
           }
         ]
       },
-      "username": "Leeroyyy",
-      "baseModel": "OpenAI",
+      "username": "paijohernandez",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1733399
+        9208,
+        464939,
+        481798,
+        501154
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "319|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=319%7C1744925337225"
+    "nextCursor": "320|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=320%7C1744925337225"
   }
 }
