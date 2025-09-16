@@ -1,74 +1,74 @@
 {
   "items": [
     {
-      "id": 22904303,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/532db63d-85da-4cce-977c-358a116700e7/width=832/532db63d-85da-4cce-977c-358a116700e7.jpeg",
-      "hash": "U59%6c-:004ozVRjTxxu0gRj^Pxu0~t7}YM{",
-      "width": 832,
-      "height": 1216,
+      "id": 16255071,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/203f6c45-e2d9-4db0-82e4-dab478120a3a/width=1344/203f6c45-e2d9-4db0-82e4-dab478120a3a.jpeg",
+      "hash": "UODJYHIUxa%L%%IooKbIEMofRjM{D*ozoIV@",
+      "width": 1344,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-08-05T17:14:16.711Z",
-      "postId": 5100137,
+      "createdAt": "2024-06-18T16:11:41.482Z",
+      "postId": 3637175,
       "stats": {
-        "cryCount": 322,
-        "laughCount": 675,
-        "likeCount": 5628,
+        "cryCount": 315,
+        "laughCount": 596,
+        "likeCount": 5709,
         "dislikeCount": 0,
-        "heartCount": 2139,
-        "commentCount": 4
+        "heartCount": 2141,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1017081195,
-        "steps": 22,
-        "prompt": "Stylized digital portrait of a person with fair skin and short, dark hair. The subject is wearing red-tinted sunglasses, a white shirt, and a black blazer. They have a confident expression with slightly parted lips and a relaxed posture. The background is a solid, vibrant red, which contrasts with the subject's attire. The person is accessorized with gold jewelry, including a necklace with a pendant and small hoop earrings. The overall composition is bold and striking, with a focus on the subject's face and upper body. easynegative, sinozick style, flat color, dark theme, g4n1m3",
-        "sampler": "Euler a",
-        "cfgScale": 4,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-08-04T1759:33.5748231Z",
-        "negativePrompt": "score_5, score_4, watermark, signature, artist name, 3d, easynegative, neutral, angry, mean, intense, ugly, old, , striped face, black stripes,",
-        "civitaiResources": [
+        "Size": "896x1152",
+        "seed": 3519880462,
+        "Model": "forrealxl_v05",
+        "steps": 16,
+        "hashes": {
+          "model": "6f228e128a"
+        },
+        "prompt": "In a serene sunlit meadow filled with vibrant wildflowers, a massive dragon skull lies partially buried, the skull's formidable horns stretch upward, adorned with climbing vines and blooming flowers, The intricate details of the skull\u00e2\u0080\u0099s structure with large hollow eye sockets and sharp teeth, The soft hills and distant mountains under a clear blue sky provide a peaceful backdrop",
+        "Version": "f0.0.17v1.8.0rc-latest-277-g0af28699",
+        "sampler": "DDPM",
+        "cfgScale": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 464939,
-            "modelVersionName": "v1.1"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 481798,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 501154,
-            "modelVersionName": "Gothic Retro Anime v1.0"
+            "hash": "6f228e128a",
+            "name": "forrealxl_v05",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "6f228e128a",
+        "Hires steps": "8",
+        "ControlNet 0": {
+          "Model": "diffusers_xl_canny_full [2b69fca4]",
+          "Module": "canny",
+          "Weight": "1.5",
+          "Hr Option": "Both",
+          "Resize Mode": "Resize and Fill",
+          "Threshold A": "35",
+          "Threshold B": "71",
+          "Control Mode": "My prompt is more important",
+          "Guidance End": "0.8",
+          "Pixel Perfect": "True",
+          "Processor Res": "512",
+          "Guidance Start": "0"
+        },
+        "Hires upscale": "1.5",
+        "Hires upscaler": "4x_NMKD-Siax_200k",
+        "negativePrompt": "blurry, low quality",
+        "Denoising strength": "0.5"
       },
-      "username": "paijohernandez",
-      "baseModel": "Pony",
+      "username": "DreamCk",
+      "baseModel": "SDXL Lightning",
       "modelVersionIds": [
-        9208,
-        464939,
-        481798,
-        501154
+        518881
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "320|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=320%7C1744925337225"
+    "nextCursor": "321|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=321%7C1744925337225"
   }
 }
