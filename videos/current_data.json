@@ -1,74 +1,50 @@
 {
   "items": [
     {
-      "id": 16255071,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/203f6c45-e2d9-4db0-82e4-dab478120a3a/width=1344/203f6c45-e2d9-4db0-82e4-dab478120a3a.jpeg",
-      "hash": "UODJYHIUxa%L%%IooKbIEMofRjM{D*ozoIV@",
-      "width": 1344,
-      "height": 1728,
+      "id": 74933645,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f1a0b13-fe38-4dae-a09f-ef2f0b07cc72/width=1024/4f1a0b13-fe38-4dae-a09f-ef2f0b07cc72.jpeg",
+      "hash": "UPDtnhEgJA-9}sNbS4s.E+oJs-NcAbo0snR+",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-06-18T16:11:41.482Z",
-      "postId": 3637175,
+      "createdAt": "2025-05-08T05:43:21.920Z",
+      "postId": 16637474,
       "stats": {
-        "cryCount": 315,
-        "laughCount": 596,
-        "likeCount": 5709,
+        "cryCount": 469,
+        "laughCount": 831,
+        "likeCount": 5483,
         "dislikeCount": 0,
-        "heartCount": 2141,
-        "commentCount": 6
+        "heartCount": 1969,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 3519880462,
-        "Model": "forrealxl_v05",
-        "steps": 16,
-        "hashes": {
-          "model": "6f228e128a"
-        },
-        "prompt": "In a serene sunlit meadow filled with vibrant wildflowers, a massive dragon skull lies partially buried, the skull's formidable horns stretch upward, adorned with climbing vines and blooming flowers, The intricate details of the skull\u00e2\u0080\u0099s structure with large hollow eye sockets and sharp teeth, The soft hills and distant mountains under a clear blue sky provide a peaceful backdrop",
-        "Version": "f0.0.17v1.8.0rc-latest-277-g0af28699",
-        "sampler": "DDPM",
-        "cfgScale": 1,
-        "resources": [
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "a frog jumping from a lily pad to another lily pad on a sunny evening where the sun is low in the sky with dusk and vibrant colors, hdr  photograph, professional photography, best lighting and contrast, high fidelity detail and realistic texturing, colorful and accurate real frog.",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
+        "civitaiResources": [
           {
-            "hash": "6f228e128a",
-            "name": "forrealxl_v05",
-            "type": "model"
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
           }
-        ],
-        "Model hash": "6f228e128a",
-        "Hires steps": "8",
-        "ControlNet 0": {
-          "Model": "diffusers_xl_canny_full [2b69fca4]",
-          "Module": "canny",
-          "Weight": "1.5",
-          "Hr Option": "Both",
-          "Resize Mode": "Resize and Fill",
-          "Threshold A": "35",
-          "Threshold B": "71",
-          "Control Mode": "My prompt is more important",
-          "Guidance End": "0.8",
-          "Pixel Perfect": "True",
-          "Processor Res": "512",
-          "Guidance Start": "0"
-        },
-        "Hires upscale": "1.5",
-        "Hires upscaler": "4x_NMKD-Siax_200k",
-        "negativePrompt": "blurry, low quality",
-        "Denoising strength": "0.5"
+        ]
       },
-      "username": "DreamCk",
-      "baseModel": "SDXL Lightning",
+      "username": "Ocean3",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        518881
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "321|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=321%7C1744925337225"
+    "nextCursor": "322|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=322%7C1744925337225"
   }
 }
