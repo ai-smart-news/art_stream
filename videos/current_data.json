@@ -1,58 +1,38 @@
 {
   "items": [
     {
-      "id": 98146039,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16ac77e2-f519-499f-a438-7d1ce10f80d3/width=1800/16ac77e2-f519-499f-a438-7d1ce10f80d3.jpeg",
-      "hash": "UGF=XnM{~DR+yEIAInoz0yv}Ioxv?IxGRksl",
-      "width": 2496,
-      "height": 3648,
+      "id": 85875880,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4650123e-5409-49fd-890a-56bf1d0ed289/width=832/4650123e-5409-49fd-890a-56bf1d0ed289.jpeg",
+      "hash": "U5BVhXt81RxW}vRj14WY00slELJ80dbJ^ht5",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-05T09:29:32.411Z",
-      "postId": 21775886,
+      "createdAt": "2025-07-02T18:10:00.000Z",
+      "postId": 19058801,
       "stats": {
-        "cryCount": 387,
-        "laughCount": 687,
-        "likeCount": 5615,
+        "cryCount": 430,
+        "laughCount": 708,
+        "likeCount": 5702,
         "dislikeCount": 0,
-        "heartCount": 2244,
-        "commentCount": 10
+        "heartCount": 2089,
+        "commentCount": 5
       },
-      "meta": {
-        "seed": 110383515912076,
-        "Model": "Illustrious/illustrijEVO_lvl2.safetensors",
-        "steps": 14,
-        "hashes": {
-          "model": "26e849d38a",
-          "upscaler": "e7a7de2daf"
-        },
-        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, very awa, bokeh, depth_of_field,  cyberpunk_background, outside,  gradient hair, white hair, pink hair, dual buns, twintails, sidelocks, blunt bangs, colorful tattoo, shoulder_tattoo flowers, cybernetics, bare_shoulder, freckles,  side view, looking towards viewer, eye focus, blue eye, detailed eye, foreshortening,  from below,",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3.5,
-        "clipSkip": 1,
-        "resources": [
-          {
-            "hash": "26e849d38a",
-            "name": "Illustrious/illustrijEVO_lvl2.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "26e849d38a",
-        "Hires upscaler": "4x-AnimeSharp.pth",
-        "negativePrompt": "Watermark, signature, bad anatomy, bad quality, low quality, text, english, letters, chibi, child, loli, underage, merged_fingers, 4 fingers, 6 fingers, 4 toes, 6 toes, merged toes, chains, chain,",
-        "Denoising strength": "0.4"
-      },
-      "username": "Silvana_",
-      "baseModel": "Illustrious",
+      "meta": null,
+      "username": "Suvenir",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        2091617
+        135867,
+        560995,
+        1529480,
+        1920523
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "291|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=291%7C1744925337225"
+    "nextCursor": "292|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=292%7C1744925337225"
   }
 }
