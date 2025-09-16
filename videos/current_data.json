@@ -1,97 +1,88 @@
 {
   "items": [
     {
-      "id": 67297832,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52d9b87e-71e0-4709-a56b-7b7035c0b87a/width=1800/52d9b87e-71e0-4709-a56b-7b7035c0b87a.jpeg",
-      "hash": "UHIXg]]|_JD+:*]-WA9a4.oIM0R%F#4:Mu-o",
-      "width": 7616,
-      "height": 7616,
+      "id": 71797043,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5404a11c-bb23-4f11-a912-82f36a40ae49/width=832/5404a11c-bb23-4f11-a912-82f36a40ae49.jpeg",
+      "hash": "U8An0#4TA0?t_0D+Nawg_Iw0IrIqyWicwgS6",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T16:51:04.471Z",
-      "postId": 14966146,
+      "createdAt": "2025-04-23T07:12:14.751Z",
+      "postId": 15948247,
       "stats": {
-        "cryCount": 478,
-        "laughCount": 824,
-        "likeCount": 5424,
+        "cryCount": 494,
+        "laughCount": 693,
+        "likeCount": 5638,
         "dislikeCount": 0,
-        "heartCount": 2148,
-        "commentCount": 5
+        "heartCount": 2043,
+        "commentCount": 10
       },
       "meta": {
-        "Size": "764x764",
-        "seed": 2431563891,
-        "Model": "kokioIllu_v20",
-        "steps": 20,
-        "hashes": {
-          "model": "003d685569",
-          "lora:CivChan": "295906106644",
-          "lora:add-detail-xl": "9c783c8ce46c",
-          "lora:civitlogoIllustrious": "799acbc4c585"
-        },
-        "prompt": "smooth positive, masterpiece, best quality, good quality, newest, highres, absurdres, 8K, bright colors, multicolored background, from above, neon palette, wide angle,  1girl, (glitch effect:1.2), CivChan, crazy smile, purple eyes, pink hair, maid headdress, maid, civitailogo on screen, coming out of monitor, dutch angle, (through screen:1.5), (coming out of television), speech bubble, asking buzz, yellow lightning bolt symbol, \nmasterpiece, best quality, good quality, newest, highres, absurdres, 8K, bright colors, <lora:add-detail-xl:2> <lora:CivChan:0.8> <lora:civitlogoIllustrious:1>",
-        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "resources": [
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 447962877,
+        "draft": false,
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "masterpiece, best quality, A hyper-realistic Close up shot of a figure completely made of grass and red flowers in female form, full body zoomed in, ultra sharp focus photo, 3d render, architecture, dark fantasy, vibrant (photography, high-resolution, dynamic, energetic,hyper-realistic, dramatic lighting, shallow depth of field.), dramatic lights, Cinematic, beautiful, vibrant, masterpiece, 32k, ultra HD, ultra-detailed, amazing quality, amazing artist, sharp edges, detailed textures, full view, atmospheric lighting, amazing visuals",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-04-09T0959:53.5208686Z",
+        "civitaiResources": [
           {
-            "hash": "9c783c8ce46c",
-            "name": "add-detail-xl",
-            "type": "lora",
-            "weight": 2
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
-            "hash": "295906106644",
-            "name": "CivChan",
             "type": "lora",
-            "weight": 0.8
+            "weight": 0.2,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
           },
           {
-            "hash": "799acbc4c585",
-            "name": "civitlogoIllustrious",
             "type": "lora",
-            "weight": 1
+            "weight": 0.4,
+            "modelVersionId": 1639190,
+            "modelVersionName": "V01a - Flux.1 D"
           },
           {
-            "hash": "003d685569",
-            "name": "kokioIllu_v20",
-            "type": "model"
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1524423,
+            "modelVersionName": "Flux"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1244911,
+            "modelVersionName": "FLUX v0.3"
           }
-        ],
-        "Model hash": "003d685569",
-        "Extra noise": "0.1",
-        "Hires steps": "10",
-        "Hires upscale": "2.5",
-        "Schedule type": "Automatic",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
-        "negativePrompt": "smooth negative, 6fingers, bad hands, body dismorphia,",
-        "ADetailer model": "face_yolov8n.pt",
-        "Hires CFG Scale": "5",
-        "ADetailer prompt": {},
-        "ADetailer version": "25.3.0",
-        "Denoising strength": "0.4",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
+        ]
       },
-      "username": "Undetermined_Terrorful69",
-      "baseModel": "Illustrious",
+      "username": "Graf137",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        135867,
-        1298658,
-        1531436,
-        1597055
+        691639,
+        720252,
+        1244911,
+        1524423,
+        1639190
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "303|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=303%7C1744925337225"
+    "nextCursor": "304|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=304%7C1744925337225"
   }
 }
