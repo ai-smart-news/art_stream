@@ -1,52 +1,37 @@
 {
   "items": [
     {
-      "id": 77272624,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c1c66cc-86b0-4cd4-b20f-d3500b175491/width=1024/8c1c66cc-86b0-4cd4-b20f-d3500b175491.jpeg",
-      "hash": "ULF#K%~U?Foeo}S4RkjY^%f+M|adxut6RjV@",
-      "width": 1024,
-      "height": 1024,
+      "id": 64410569,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb4a23b4-f87d-4dbd-87d8-4c54f9e87bd1/width=832/eb4a23b4-f87d-4dbd-87d8-4c54f9e87bd1.jpeg",
+      "hash": "UdKBK;xZ?btRuPj]S$t7RjtQIVM{IUofsSRP",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-19T19:08:12.315Z",
-      "postId": 17162541,
+      "createdAt": "2025-03-19T10:03:44.652Z",
+      "postId": 14358728,
       "stats": {
-        "cryCount": 433,
-        "laughCount": 853,
-        "likeCount": 5500,
+        "cryCount": 552,
+        "laughCount": 815,
+        "likeCount": 5512,
         "dislikeCount": 0,
-        "heartCount": 2212,
-        "commentCount": 7
+        "heartCount": 2119,
+        "commentCount": 5
       },
-      "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1024,
-        "prompt": "A small furry mammoth pet looks out from a cat house",
-        "process": "txt2img",
-        "quality": "high",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
-          }
-        ]
-      },
-      "username": "Buerz",
-      "baseModel": "OpenAI",
+      "meta": null,
+      "username": "Lora_Craft",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        691639,
+        720252,
+        859666
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "283|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=283%7C1744925337225"
+    "nextCursor": "284|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=284%7C1744925337225"
   }
 }
