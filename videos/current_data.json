@@ -1,63 +1,51 @@
 {
   "items": [
     {
-      "id": 18179615,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c4b4fb3-d02c-4ded-93ca-c45b148369dd/width=1152/2c4b4fb3-d02c-4ded-93ca-c45b148369dd.jpeg",
-      "hash": "UAF=dT4;%g-o}7EN-pMy-T5701Ip~pI;WFIp",
-      "width": 1152,
-      "height": 1728,
+      "id": 75839123,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de8586b5-91fa-496a-8101-f926b0e000b3/width=1024/de8586b5-91fa-496a-8101-f926b0e000b3.jpeg",
+      "hash": "UYIE|g%M~qIU~qxut7M{j[t7RjayRjM{Rjxu",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-07-02T21:28:17.086Z",
-      "postId": 4063592,
+      "createdAt": "2025-05-12T13:52:09.788Z",
+      "postId": 16839331,
       "stats": {
-        "cryCount": 327,
-        "laughCount": 708,
-        "likeCount": 5722,
+        "cryCount": 473,
+        "laughCount": 938,
+        "likeCount": 5486,
         "dislikeCount": 0,
-        "heartCount": 2028,
-        "commentCount": 4
+        "heartCount": 1871,
+        "commentCount": 6
       },
       "meta": {
-        "VAE": "sdxl_vae_0.9.safetensors",
-        "Size": "768x1152",
-        "seed": 3869678683,
-        "Model": "Cor-Epica_by-Zovya_V0",
-        "steps": 20,
-        "hashes": {
-          "vae": "63aeecb90f",
-          "model": "fcf7d472d9"
-        },
-        "prompt": "strong and powerful dungeons and dragons epic movie poster barbarian woman with cape charging into battle violent roar riding a vicious ice [wolf|tiger] beast leather and fur boots warriors and red banners (windy dust debris storm:1.1) volumetric lighting fog depth mist pass z pass great stone castle very bright morning sunlight from side",
-        "Version": "v1.9.3",
-        "sampler": "DPM++ 2S a",
-        "cfgScale": 7,
-        "resources": [
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "A black and white photograph shows the blurred silhouette of an alien , behind a frosted or translucent surface. The hand is sharply defined and pressed against the surface, creating a stark contrast with the rest of the hazy, indistinct figure. The background is a soft gradient of gray tones, enhancing the mysterious and artistic atmosphere",
+        "quality": "high",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
+        "civitaiResources": [
           {
-            "hash": "fcf7d472d9",
-            "name": "Cor-Epica_by-Zovya_V0",
-            "type": "model"
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
           }
-        ],
-        "Model hash": "fcf7d472d9",
-        "Hires upscale": "1.5",
-        "Schedule type": "Karras",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "negativePrompt": "(wings, horse weapon axe club sword staff:1.3), (nude) (lowres) (lowpoly) (blurry) (out-of-focus) (duplicate) (frame) (border) (watermark) (label) (signature) (text) (cropped) (artifacts)",
-        "Denoising strength": "0.4",
-        "Downcast alphas_cumprod": "True"
+        ]
       },
-      "username": "Zovya",
-      "baseModel": "SDXL 1.0",
+      "username": "Leeroyyy",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        615266
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "318|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=318%7C1744925337225"
+    "nextCursor": "319|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=319%7C1744925337225"
   }
 }
