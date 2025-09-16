@@ -1,59 +1,58 @@
 {
   "items": [
     {
-      "id": 55981039,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d012c6c-9101-4853-9608-956a843220d5/width=720/0d012c6c-9101-4853-9608-956a843220d5.jpeg",
-      "hash": "URG[pY9Z58%L]{Rk9uxtRgNdM|xB~TIon-xa",
-      "width": 720,
-      "height": 1080,
+      "id": 98146039,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16ac77e2-f519-499f-a438-7d1ce10f80d3/width=1800/16ac77e2-f519-499f-a438-7d1ce10f80d3.jpeg",
+      "hash": "UGF=XnM{~DR+yEIAInoz0yv}Ioxv?IxGRksl",
+      "width": 2496,
+      "height": 3648,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-05T14:46:18.013Z",
-      "postId": 12538249,
+      "createdAt": "2025-09-05T09:29:32.411Z",
+      "postId": 21775886,
       "stats": {
-        "cryCount": 377,
-        "laughCount": 651,
-        "likeCount": 5891,
+        "cryCount": 387,
+        "laughCount": 687,
+        "likeCount": 5615,
         "dislikeCount": 0,
-        "heartCount": 2019,
-        "commentCount": 8
+        "heartCount": 2244,
+        "commentCount": 10
       },
       "meta": {
-        "Size": "720x1080",
-        "seed": 2544810901,
-        "Model": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
-        "steps": 12,
+        "seed": 110383515912076,
+        "Model": "Illustrious/illustrijEVO_lvl2.safetensors",
+        "steps": 14,
         "hashes": {
-          "model": "7cacd3ba4b",
-          "model:flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975": "7cacd3ba4b"
+          "model": "26e849d38a",
+          "upscaler": "e7a7de2daf"
         },
-        "prompt": "Picture a delicate purple crocus flower pushing through a blanket of glistening snow in a serene open field. The scene is illuminated by the soft glow of twilight, with light cascading in hues of gold and lavender. In the distance, a mystical forest stands shrouded in gentle mist, its towering trees adorned with a faint shimmer of frost. The composition, rendered as a detailed oil painting, captures the quiet magic of nature\u00e2\u0080\u0099s resilience and the promise of spring.\u00e2\u0080\u008b\u00e2\u0080\u008b\u00e2\u0080\u008b",
-        "Version": "f2.0.1v1.10.1-previous-608-ge2fe29c1",
-        "sampler": "Euler",
-        "Module 1": "flux1DevVAE_safetensors",
-        "cfgScale": 1,
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, very awa, bokeh, depth_of_field,  cyberpunk_background, outside,  gradient hair, white hair, pink hair, dual buns, twintails, sidelocks, blunt bangs, colorful tattoo, shoulder_tattoo flowers, cybernetics, bare_shoulder, freckles,  side view, looking towards viewer, eye focus, blue eye, detailed eye, foreshortening,  from below,",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 3.5,
+        "clipSkip": 1,
         "resources": [
           {
-            "hash": "7cacd3ba4b",
-            "name": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
+            "hash": "26e849d38a",
+            "name": "Illustrious/illustrijEVO_lvl2.safetensors",
             "type": "model"
           }
         ],
-        "Model hash": "7cacd3ba4b",
-        "Schedule type": "Simple",
-        "Distilled CFG Scale": "4"
+        "Model hash": "26e849d38a",
+        "Hires upscaler": "4x-AnimeSharp.pth",
+        "negativePrompt": "Watermark, signature, bad anatomy, bad quality, low quality, text, english, letters, chibi, child, loli, underage, merged_fingers, 4 fingers, 6 fingers, 4 toes, 6 toes, merged toes, chains, chain,",
+        "Denoising strength": "0.4"
       },
-      "username": "PBtheCreator",
-      "baseModel": "Flux.1 D",
+      "username": "Silvana_",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        819165
+        2091617
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "290|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=290%7C1744925337225"
+    "nextCursor": "291|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=291%7C1744925337225"
   }
 }
