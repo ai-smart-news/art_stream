@@ -1,33 +1,69 @@
 {
   "items": [
     {
-      "id": 56948842,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd413f8c-5571-48ab-b0f3-c6a997d272a3/width=1800/bd413f8c-5571-48ab-b0f3-c6a997d272a3.jpeg",
-      "hash": "ULG0FKtR?vt7~qofInWBWWj[4nRjtRt7DiRj",
-      "width": 1920,
-      "height": 3360,
+      "id": 29068331,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8db5e5d9-f235-4b38-8f7d-3206fd800d1c/width=1080/8db5e5d9-f235-4b38-8f7d-3206fd800d1c.jpeg",
+      "hash": "UCCOm]9]0T%L]$a#S4I;=rSiI;sl~8NI0h-m",
+      "width": 1080,
+      "height": 1880,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-29T01:52:04.743Z",
-      "postId": 12749122,
+      "createdAt": "2024-09-12T16:44:22.336Z",
+      "postId": 6503993,
       "stats": {
-        "cryCount": 618,
-        "laughCount": 639,
-        "likeCount": 5663,
+        "cryCount": 495,
+        "laughCount": 753,
+        "likeCount": 5449,
         "dislikeCount": 0,
-        "heartCount": 1877,
-        "commentCount": 13
+        "heartCount": 2089,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "Clear_Note",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "720x1254",
+        "seed": 1582130276,
+        "Model": "SEMImergeijV2",
+        "steps": 69,
+        "hashes": {
+          "model": "a3e03d108a",
+          "lora:DoubleExposureP-000006": "b79190c9b672"
+        },
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, Jed-dblexpsre, Jed-dblexpsre effect, double exposure, merged, (((masterpiece))) , (((best quality))), Complex background, poppy, Moonlight, Wonder, ethereal magical atmosphere, dynamic, joy,1girl,high fashion,grim, backlight colors,silhouette colors,cosmic frame, black background,portrait,photo, closed eyes, cinematic perfect intricate stunning fine detail, shiny, enhanced quality, highly contrasted, mysterious, red riding hood<lora:DoubleExposureP-000006:1>",
+        "Version": "f2.0.1v1.10.1-previous-495-g4f64f6da",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "b79190c9b672",
+            "name": "DoubleExposureP-000006",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "a3e03d108a",
+            "name": "SEMImergeijV2",
+            "type": "model"
+          }
+        ],
+        "Model hash": "a3e03d108a",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires upscaler": "4x_NMKD-Superscale-SP_178000_G",
+        "negativePrompt": "score_1, score_2, score_3, score_4, score_5, score_6, eyemakeup, signature, watermarks, long neck",
+        "Denoising strength": "0.4"
+      },
+      "username": "reijlita",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        760260,
+        833197
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "315|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=315%7C1744925337225"
+    "nextCursor": "316|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=316%7C1744925337225"
   }
 }
