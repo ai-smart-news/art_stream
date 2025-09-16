@@ -1,33 +1,80 @@
 {
   "items": [
     {
-      "id": 86250507,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40694b74-c240-43d8-860f-e7c4dd784bf8/width=1024/40694b74-c240-43d8-860f-e7c4dd784bf8.jpeg",
-      "hash": "UAAS^?0hxsWC~TE3ozoKxuWBI=xZS5n$W=t6",
-      "width": 1024,
-      "height": 1536,
+      "id": 73554279,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b3897c-f2fe-41a4-979a-4470a2bc7783/width=1800/68b3897c-f2fe-41a4-979a-4470a2bc7783.jpeg",
+      "hash": "U984-=00_NM{-;D%%LM{%gDioftR-;M{a{x]",
+      "width": 3328,
+      "height": 4864,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-04T15:18:42.553Z",
-      "postId": 19139666,
+      "createdAt": "2025-05-01T23:30:00.000Z",
+      "postId": 16336504,
       "stats": {
-        "cryCount": 439,
-        "laughCount": 1419,
-        "likeCount": 5129,
+        "cryCount": 574,
+        "laughCount": 642,
+        "likeCount": 5586,
         "dislikeCount": 0,
-        "heartCount": 1939,
-        "commentCount": 16
+        "heartCount": 2115,
+        "commentCount": 6
       },
-      "meta": null,
-      "username": "Akalabeth",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 420446676,
+        "steps": 30,
+        "prompt": "a woman with long, straight black hair and pointed ears, suggesting an elven or mythical character. Her skin is pale, and she has a serious expression. She is dressed in a dark, flowing garment. Behind her, a large, menacing dragon with black scales and glowing red eyes looms, its mouth open to reveal sharp teeth. The background is a muted, foggy landscape, enhancing the mystical and dramatic atmosphere. The composition is vertical, with the woman and dragon positioned centrally, creating a striking contrast between the human and mythical elements.",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-05-01T1754:14.9831046Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1227179,
+            "modelVersionName": "Flux Realistic Fantasy"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1202162,
+            "modelVersionName": "Flux Gothic Lines"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1470588,
+            "modelVersionName": "Flux Retro"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 978472,
+            "modelVersionName": "v2.0"
+          }
+        ]
+      },
+      "username": "VelvetS",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        978472,
+        1202162,
+        1227179,
+        1470588
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "293|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=293%7C1744925337225"
+    "nextCursor": "294|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=294%7C1744925337225"
   }
 }
