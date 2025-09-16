@@ -1,85 +1,87 @@
 {
   "items": [
     {
-      "id": 80212016,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/578d51c1-3fe3-4cf4-b29c-4c07a781cde5/width=800/578d51c1-3fe3-4cf4-b29c-4c07a781cde5.jpeg",
-      "hash": "UMCGiDxA8^tlyZV@MckXRpRlNGR*xT%0tRIp",
-      "width": 800,
-      "height": 1200,
+      "id": 53082991,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/087c31e8-e8d2-4077-a4b9-1bc6231c512a/width=832/087c31e8-e8d2-4077-a4b9-1bc6231c512a.jpeg",
+      "hash": "U58f.PNIE2^%}Xv~v~AG,:$$X8sm0$^P-oEM",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-04T01:04:00.000Z",
-      "postId": 17816153,
+      "createdAt": "2025-01-21T21:30:30.323Z",
+      "postId": 11923055,
       "stats": {
-        "cryCount": 411,
-        "laughCount": 708,
-        "likeCount": 5570,
+        "cryCount": 392,
+        "laughCount": 631,
+        "likeCount": 5752,
         "dislikeCount": 0,
-        "heartCount": 2126,
-        "commentCount": 7
+        "heartCount": 2034,
+        "commentCount": 6
       },
       "meta": {
-        "TI": {},
-        "Size": "640x960",
-        "Model": "ZhongShi XL v4 BEST",
-        "steps": 24,
-        "hashes": {
-          "model": "5ab0b9520f",
-          "lora:add-detail-xl": "9c783c8ce46c",
-          "lora:detailed_notrigger": "a6443748ebc1"
-        },
-        "prompt": "vibrant summer forest clearing with wooden bench ,celestial forges where star-metal flows like mercury, the anvils ringing with primordial creation myths, mountain, rainbow noon,weather dry heat by the wall cinematic view, epic sky, detailed, concept art, low angle, high detail, warm lighting, volumetric, godrays, vivid, beautiful, trending on artstation, by wlop, huge scene, grass,flower, art greg rutkowski,",
-        "Version": "f2.0.1v1.10.1-previous-662-g0ced1d0c",
-        "sampler": "DPM++ 2M",
-        "Module 1": "sdxl_vae",
-        "cfgScale": 7,
+        "Size": "832x1216",
+        "seed": 1968567698,
+        "steps": 40,
+        "prompt": "This is a highly detailed, hyper-realistic CGI artwork depicting an otherworldly, futuristic figure. The subject is a skeletal woman with a human skull for a head, adorned with intricate, ornate accessories. Her face is a hollow, white skull with glowing, amber eyes that give an eerie, lifelike appearance. Her skin is painted with a fine, intricate pattern of gold and black lines, adding to the mechanical aesthetic.\nShe wears a helmet-like headpiece that features a stylized, ornate design with a central skull motif, flanked by large, intricate wings of a butterfly, colored in a gradient from deep orange to a fiery red. These wings are adorned with intricate, glowing details, enhancing the fantastical, otherworldly feel of the image. Her hair is long and dark, cascading down her shoulders, blending seamlessly with the ornate headpiece.\nThe figure's body is covered in a sleek, black and gold armor with a futuristic, mechanical appearance. The armor features intricate, glowing circuits and a chest piece adorned with a glowing, golden lion's head. Small, glowing butterflies are scattered around her, adding to the surreal atmosphere., vantablack",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [
+        "resources": [],
+        "Created Date": "2025-01-21T2124:03.5037562Z",
+        "civitaiResources": [
           {
-            "hash": "a6443748ebc1",
-            "name": "detailed_notrigger",
-            "type": "lora",
-            "weight": 0.7
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
-            "hash": "9c783c8ce46c",
-            "name": "add-detail-xl",
             "type": "lora",
-            "weight": 0.3
+            "weight": 0.3,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
           },
           {
-            "hash": "5ab0b9520f",
-            "name": "ZhongShi XL v4 BEST",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 737325,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.15,
+            "modelVersionId": 1277410,
+            "modelVersionName": "Ethereal Brush Anime v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 823881,
+            "modelVersionName": "character_flux_v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 801005,
+            "modelVersionName": "Flux.1 D v2.0"
           }
-        ],
-        "Model hash": "5ab0b9520f",
-        "Hires prompt": {
-          "add-detail-xl": "0.3>",
-          "detailed_notrigger": "0.7>"
-        },
-        "Hires upscale": "1.25",
-        "Schedule type": "Karras",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "Latent",
-        "negativePrompt": "FastNegativeV2-SDXL, mushroom, sunflower,, painting frame, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts, signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts",
-        "Hires CFG Scale": "7",
-        "Denoising strength": "0.7",
-        "Token merging ratio": "0.3",
-        "Token merging ratio hr": "0.3"
+        ]
       },
-      "username": "Omega_Xlll",
-      "baseModel": "SDXL 1.0",
+      "username": "Adiana_Loveless",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        135867,
-        1794944
+        691639,
+        720252,
+        737325,
+        801005,
+        823881,
+        1277410
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "311|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=311%7C1744925337225"
+    "nextCursor": "312|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=312%7C1744925337225"
   }
 }
