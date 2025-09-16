@@ -1,73 +1,63 @@
 {
   "items": [
     {
-      "id": 34283474,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33f22b91-6c75-4ca4-b34b-a3f2c4b99000/width=832/33f22b91-6c75-4ca4-b34b-a3f2c4b99000.jpeg",
-      "hash": "UMF:;{$$|xV_k.kA1MNdXNo0AEj@xDWDR-xD",
-      "width": 832,
-      "height": 1216,
+      "id": 18179615,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c4b4fb3-d02c-4ded-93ca-c45b148369dd/width=1152/2c4b4fb3-d02c-4ded-93ca-c45b148369dd.jpeg",
+      "hash": "UAF=dT4;%g-o}7EN-pMy-T5701Ip~pI;WFIp",
+      "width": 1152,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-13T00:52:41.640Z",
-      "postId": 7834588,
+      "createdAt": "2024-07-02T21:28:17.086Z",
+      "postId": 4063592,
       "stats": {
-        "cryCount": 620,
-        "laughCount": 656,
-        "likeCount": 5436,
+        "cryCount": 327,
+        "laughCount": 708,
+        "likeCount": 5722,
         "dislikeCount": 0,
-        "heartCount": 2075,
-        "commentCount": 48
+        "heartCount": 2028,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 788649496,
+        "VAE": "sdxl_vae_0.9.safetensors",
+        "Size": "768x1152",
+        "seed": 3869678683,
+        "Model": "Cor-Epica_by-Zovya_V0",
         "steps": 20,
-        "prompt": "female etol ridiy erer nalomo? Nasicab rasa hi odeb erolie beresa tilebo unef. Ene sihomet ra. De pik ridiy aye non ho ti wiyedo. Ihenenal agiwel xicicun nalomo yoledo, etol otu tateha panierih niruses. Edep cen ra ape erer rad sum ifegeco, co nisalit nat yid isawoles. Sotu re apol nipaf. Marine onahi re sos.  cyberpunk anime, idjourney_whisper_avant_couture",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-10-08T0508:53.9805127Z",
-        "civitaiResources": [
+        "hashes": {
+          "vae": "63aeecb90f",
+          "model": "fcf7d472d9"
+        },
+        "prompt": "strong and powerful dungeons and dragons epic movie poster barbarian woman with cape charging into battle violent roar riding a vicious ice [wolf|tiger] beast leather and fur boots warriors and red banners (windy dust debris storm:1.1) volumetric lighting fog depth mist pass z pass great stone castle very bright morning sunlight from side",
+        "Version": "v1.9.3",
+        "sampler": "DPM++ 2S a",
+        "cfgScale": 7,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.95,
-            "modelVersionId": 841415,
-            "modelVersionName": "v01"
-          },
-          {
-            "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 747534,
-            "modelVersionName": "Flux.1 D v1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 791149,
-            "modelVersionName": "V1"
+            "hash": "fcf7d472d9",
+            "name": "Cor-Epica_by-Zovya_V0",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "fcf7d472d9",
+        "Hires upscale": "1.5",
+        "Schedule type": "Karras",
+        "Hires upscaler": "4x_foolhardy_Remacri",
+        "negativePrompt": "(wings, horse weapon axe club sword staff:1.3), (nude) (lowres) (lowpoly) (blurry) (out-of-focus) (duplicate) (frame) (border) (watermark) (label) (signature) (text) (cropped) (artifacts)",
+        "Denoising strength": "0.4",
+        "Downcast alphas_cumprod": "True"
       },
-      "username": "fkb42",
-      "baseModel": "Flux.1 D",
+      "username": "Zovya",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        691639,
-        747534,
-        791149,
-        841415
+        615266
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "317|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=317%7C1744925337225"
+    "nextCursor": "318|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=318%7C1744925337225"
   }
 }
