@@ -1,35 +1,97 @@
 {
   "items": [
     {
-      "id": 60338344,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4a73263-813c-4c35-a81a-3d949894eb79/width=768/c4a73263-813c-4c35-a81a-3d949894eb79.jpeg",
-      "hash": "U9AdcRNrE1E5_Mv~4nbdf-NIQ-%KOtIp$$$x",
-      "width": 768,
-      "height": 1024,
+      "id": 67297832,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52d9b87e-71e0-4709-a56b-7b7035c0b87a/width=1800/52d9b87e-71e0-4709-a56b-7b7035c0b87a.jpeg",
+      "hash": "UHIXg]]|_JD+:*]-WA9a4.oIM0R%F#4:Mu-o",
+      "width": 7616,
+      "height": 7616,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-27T01:09:57.917Z",
-      "postId": 13495214,
+      "createdAt": "2025-04-01T16:51:04.471Z",
+      "postId": 14966146,
       "stats": {
-        "cryCount": 413,
-        "laughCount": 814,
-        "likeCount": 5633,
+        "cryCount": 478,
+        "laughCount": 824,
+        "likeCount": 5424,
         "dislikeCount": 0,
-        "heartCount": 2017,
-        "commentCount": 11
+        "heartCount": 2148,
+        "commentCount": 5
       },
       "meta": {
-        "prompt": "w1z_m4ch1n4. gentleman cyborg robot with a fish bowl head, with a small goldfish\n"
+        "Size": "764x764",
+        "seed": 2431563891,
+        "Model": "kokioIllu_v20",
+        "steps": 20,
+        "hashes": {
+          "model": "003d685569",
+          "lora:CivChan": "295906106644",
+          "lora:add-detail-xl": "9c783c8ce46c",
+          "lora:civitlogoIllustrious": "799acbc4c585"
+        },
+        "prompt": "smooth positive, masterpiece, best quality, good quality, newest, highres, absurdres, 8K, bright colors, multicolored background, from above, neon palette, wide angle,  1girl, (glitch effect:1.2), CivChan, crazy smile, purple eyes, pink hair, maid headdress, maid, civitailogo on screen, coming out of monitor, dutch angle, (through screen:1.5), (coming out of television), speech bubble, asking buzz, yellow lightning bolt symbol, \nmasterpiece, best quality, good quality, newest, highres, absurdres, 8K, bright colors, <lora:add-detail-xl:2> <lora:CivChan:0.8> <lora:civitlogoIllustrious:1>",
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "resources": [
+          {
+            "hash": "9c783c8ce46c",
+            "name": "add-detail-xl",
+            "type": "lora",
+            "weight": 2
+          },
+          {
+            "hash": "295906106644",
+            "name": "CivChan",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "799acbc4c585",
+            "name": "civitlogoIllustrious",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "003d685569",
+            "name": "kokioIllu_v20",
+            "type": "model"
+          }
+        ],
+        "Model hash": "003d685569",
+        "Extra noise": "0.1",
+        "Hires steps": "10",
+        "Hires upscale": "2.5",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+        "negativePrompt": "smooth negative, 6fingers, bad hands, body dismorphia,",
+        "ADetailer model": "face_yolov8n.pt",
+        "Hires CFG Scale": "5",
+        "ADetailer prompt": {},
+        "ADetailer version": "25.3.0",
+        "Denoising strength": "0.4",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
       },
-      "username": "WizardWhitebeard",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "username": "Undetermined_Terrorful69",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        135867,
+        1298658,
+        1531436,
+        1597055
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "302|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=302%7C1744925337225"
+    "nextCursor": "303|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=303%7C1744925337225"
   }
 }
