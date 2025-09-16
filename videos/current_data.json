@@ -1,88 +1,37 @@
 {
   "items": [
     {
-      "id": 71797043,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5404a11c-bb23-4f11-a912-82f36a40ae49/width=832/5404a11c-bb23-4f11-a912-82f36a40ae49.jpeg",
-      "hash": "U8An0#4TA0?t_0D+Nawg_Iw0IrIqyWicwgS6",
-      "width": 832,
-      "height": 1216,
+      "id": 78632690,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/974c2fe7-bfd0-46e6-964c-5bc1ddb712bb/width=888/974c2fe7-bfd0-46e6-964c-5bc1ddb712bb.jpeg",
+      "hash": "U36[2Q8^00_4?dI8cFj]D$s8%hD$Tft8MxMc",
+      "width": 888,
+      "height": 1360,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-23T07:12:14.751Z",
-      "postId": 15948247,
+      "createdAt": "2025-05-26T16:49:45.905Z",
+      "postId": 17465722,
       "stats": {
-        "cryCount": 494,
-        "laughCount": 693,
-        "likeCount": 5638,
+        "cryCount": 465,
+        "laughCount": 742,
+        "likeCount": 5484,
         "dislikeCount": 0,
-        "heartCount": 2043,
-        "commentCount": 10
+        "heartCount": 2166,
+        "commentCount": 8
       },
-      "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 447962877,
-        "draft": false,
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "masterpiece, best quality, A hyper-realistic Close up shot of a figure completely made of grass and red flowers in female form, full body zoomed in, ultra sharp focus photo, 3d render, architecture, dark fantasy, vibrant (photography, high-resolution, dynamic, energetic,hyper-realistic, dramatic lighting, shallow depth of field.), dramatic lights, Cinematic, beautiful, vibrant, masterpiece, 32k, ultra HD, ultra-detailed, amazing quality, amazing artist, sharp edges, detailed textures, full view, atmospheric lighting, amazing visuals",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-04-09T0959:53.5208686Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 1639190,
-            "modelVersionName": "V01a - Flux.1 D"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1524423,
-            "modelVersionName": "Flux"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1244911,
-            "modelVersionName": "FLUX v0.3"
-          }
-        ]
-      },
-      "username": "Graf137",
-      "baseModel": "Flux.1 D",
+      "meta": null,
+      "username": "DxDRG",
+      "baseModel": null,
       "modelVersionIds": [
-        691639,
-        720252,
-        1244911,
-        1524423,
-        1639190
+        728041,
+        796377,
+        803128
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "304|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=304%7C1744925337225"
+    "nextCursor": "305|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=305%7C1744925337225"
   }
 }
