@@ -1,83 +1,35 @@
 {
   "items": [
     {
-      "id": 68530211,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bccdae8-bafa-4dde-9721-beb6551b12b0/width=832/7bccdae8-bafa-4dde-9721-beb6551b12b0.jpeg",
-      "hash": "UUJPk~Rk~9xFJRxrxWodOYafNKoLXlWDs:n%",
-      "width": 832,
-      "height": 1216,
+      "id": 86043319,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a5d01a16-7242-4829-8d0e-1de831b84d9c/width=1024/a5d01a16-7242-4829-8d0e-1de831b84d9c.jpeg",
+      "hash": "UuMs_,t7Rkoe*0RjWBWB%NRkf+kBj]x[t7kB",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-07T11:49:52.159Z",
-      "postId": 15229007,
+      "createdAt": "2025-07-03T20:50:00.000Z",
+      "postId": 19094521,
       "stats": {
-        "cryCount": 434,
-        "laughCount": 734,
-        "likeCount": 5585,
+        "cryCount": 477,
+        "laughCount": 1485,
+        "likeCount": 4964,
         "dislikeCount": 0,
-        "heartCount": 2135,
-        "commentCount": 8
+        "heartCount": 1957,
+        "commentCount": 9
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1417391617,
-        "extra": {
-          "remixOfId": 67437138
-        },
-        "steps": 24,
-        "prompt": "A close-up scene of an Indian woman\u2019s face and neck, her brown Rajasthani skin glowing with a soft, oily, glossy sheen under golden light. She wears a transparent, intricate golden veil draped over her head, detailed like fine lace, shimmering with delicate patterns. Her black eyes are deep and calm, framed with sharp black eyeliner extending elegantly. Her lips are full, painted rich red, contrasting her luminous skin. Traditional Rajasthani clothing wraps her neck and shoulders, adorned with sparkling gold ornaments \u2014 layered necklaces, ornate earrings, and forehead jewelry, each piece reflecting warm light with detailed craftsmanship. A soft white cotton flower rests within the frame near her neck, its texture delicate against the brilliance of her jewelry. Behind her, the background stretches into a blurred wheat paddy, golden fields swaying softly, merging with the sunlit atmosphere. The scene radiates timeless beauty, nature, and the regal grace of Rajasthani tradition.",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-04-07T1135:28.4639425Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 791149,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 804967,
-            "modelVersionName": "Hand F1D v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 827995,
-            "modelVersionName": "V2"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 908156,
-            "modelVersionName": "v1.0"
-          }
-        ]
+        "prompt": "The picture shows a white rooster and a brown hen, with a poultry yard in the background. The rooster is holding a wicker basket filled with chicken eggs. He has a guilty expression on his face. Opposite the rooster stands an irritated hen, who indignantly says to him: \"How many times have I told you not to put all the children in one basket?!\""
       },
-      "username": "Nixst3r",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        791149,
-        804967,
-        827995,
-        908156
-      ]
+      "username": "Raylom",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "300|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=300%7C1744925337225"
+    "nextCursor": "301|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=301%7C1744925337225"
   }
 }
