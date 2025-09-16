@@ -1,62 +1,33 @@
 {
   "items": [
     {
-      "id": 80617511,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/608b8950-5fa3-4f01-97ec-9206fcae1386/width=1536/608b8950-5fa3-4f01-97ec-9206fcae1386.jpeg",
-      "hash": "U5AlnI}mAHOF^%s,RkS5Ki9_M|s,^Oj[J9WC",
-      "width": 1536,
-      "height": 2688,
+      "id": 58881054,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/196b78d4-e9eb-4ed1-8574-d588c396994f/width=768/196b78d4-e9eb-4ed1-8574-d588c396994f.jpeg",
+      "hash": "UHE9Jc$5AX$6}En%AXWWofE}1wS3]nSME#a|",
+      "width": 768,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-05T20:32:16.844Z",
-      "postId": 17905360,
+      "createdAt": "2025-02-19T22:23:53.710Z",
+      "postId": 13173496,
       "stats": {
-        "cryCount": 366,
-        "laughCount": 740,
-        "likeCount": 5708,
+        "cryCount": 404,
+        "laughCount": 562,
+        "likeCount": 5871,
         "dislikeCount": 0,
-        "heartCount": 2099,
-        "commentCount": 4
+        "heartCount": 2076,
+        "commentCount": 8
       },
-      "meta": {
-        "Size": "3328x4864",
-        "seed": 25559114040928,
-        "Model": "Illustrious\\waiNSFWIllustrious_v120",
-        "steps": 20,
-        "hashes": {
-          "model": "89cb4ec0a9",
-          "lora:buster_sword_IL": "1.0>"
-        },
-        "prompt": "BSSINCASE,,    holding weapon, fighting stance, holding  buster sword,huge weapon masterpiece, best quality, high quality, ultra-detailed, realistic,  Create a detailed digital artwork of a heavily armored knight in a dynamic pose. The knight is clad in dark, intricately designed armor with gold accents, and a helmet with a visor. The armor is adorned with skulls and crosses, and the knight wields a large, ornate sword with a golden hilt. The background is a chaotic blend of dark and fiery hues, with a smoky atmosphere that adds to the intensity of the scene. The color palette is dominated by dark shades of gray, black, and gold, with occasional bursts of yellow and orange, creating a sense of urgency and danger. The style of the artwork leans towards dark fantasy or gothic themes. solo, 1boy, holding, standing, male_focus, weapon, sword, holding_weapon, cape, armor, holding_sword, helmet, shoulder_armor, gauntlets, pauldrons, skull, breastplate, knight, full_armor, ambiguous_gender, helm, BSSINCASE,,    holding weapon, fighting stance, holding  buster sword,huge weapon",
-        "Version": "ComfyUI",
-        "sampler": "euler",
-        "CFG Scale": "8.0",
-        "resources": [
-          {
-            "hash": "1.0>",
-            "name": "buster_sword_IL",
-            "type": "lora"
-          },
-          {
-            "hash": "89cb4ec0a9",
-            "name": "Illustrious\\waiNSFWIllustrious_v120",
-            "type": "model"
-          }
-        ],
-        "Model hash": "89cb4ec0a9",
-        "negativePrompt": "score_6, score_5, score_4, text, watermark, signature, pubic hair"
-      },
-      "username": "serget2",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1490781
-      ]
+      "meta": null,
+      "username": "Luis_Davidson",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "295|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=295%7C1744925337225"
+    "nextCursor": "296|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=296%7C1744925337225"
   }
 }
