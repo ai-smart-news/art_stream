@@ -1,39 +1,59 @@
 {
   "items": [
     {
-      "id": 78775903,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e295a94-b683-45a9-a139-7dc8e0183d33/width=832/0e295a94-b683-45a9-a139-7dc8e0183d33.jpeg",
-      "hash": "U98Y6T%14Uxx*Fx]MMM_R6TWNXMLRStktQMg",
-      "width": 832,
-      "height": 1216,
+      "id": 55981039,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d012c6c-9101-4853-9608-956a843220d5/width=720/0d012c6c-9101-4853-9608-956a843220d5.jpeg",
+      "hash": "URG[pY9Z58%L]{Rk9uxtRgNdM|xB~TIon-xa",
+      "width": 720,
+      "height": 1080,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-27T09:19:36.951Z",
-      "postId": 17498071,
+      "createdAt": "2025-02-05T14:46:18.013Z",
+      "postId": 12538249,
       "stats": {
-        "cryCount": 458,
-        "laughCount": 763,
-        "likeCount": 5699,
+        "cryCount": 377,
+        "laughCount": 651,
+        "likeCount": 5891,
         "dislikeCount": 0,
-        "heartCount": 2017,
-        "commentCount": 7
+        "heartCount": 2019,
+        "commentCount": 8
       },
-      "meta": null,
-      "username": "Graf137",
+      "meta": {
+        "Size": "720x1080",
+        "seed": 2544810901,
+        "Model": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
+        "steps": 12,
+        "hashes": {
+          "model": "7cacd3ba4b",
+          "model:flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975": "7cacd3ba4b"
+        },
+        "prompt": "Picture a delicate purple crocus flower pushing through a blanket of glistening snow in a serene open field. The scene is illuminated by the soft glow of twilight, with light cascading in hues of gold and lavender. In the distance, a mystical forest stands shrouded in gentle mist, its towering trees adorned with a faint shimmer of frost. The composition, rendered as a detailed oil painting, captures the quiet magic of nature\u00e2\u0080\u0099s resilience and the promise of spring.\u00e2\u0080\u008b\u00e2\u0080\u008b\u00e2\u0080\u008b",
+        "Version": "f2.0.1v1.10.1-previous-608-ge2fe29c1",
+        "sampler": "Euler",
+        "Module 1": "flux1DevVAE_safetensors",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "7cacd3ba4b",
+            "name": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
+            "type": "model"
+          }
+        ],
+        "Model hash": "7cacd3ba4b",
+        "Schedule type": "Simple",
+        "Distilled CFG Scale": "4"
+      },
+      "username": "PBtheCreator",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639,
-        720252,
-        1244911,
-        1524423,
-        1639190
+        819165
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "289|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=289%7C1744925337225"
+    "nextCursor": "290|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=290%7C1744925337225"
   }
 }
