@@ -1,63 +1,85 @@
 {
   "items": [
     {
-      "id": 62955341,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/343580fd-e994-456b-bc70-cad1723d94c6/width=896/343580fd-e994-456b-bc70-cad1723d94c6.jpeg",
-      "hash": "UGCFbRt60ME55lxY-9Ir}8oJAbWX5SR+$gs,",
-      "width": 896,
-      "height": 1152,
+      "id": 80212016,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/578d51c1-3fe3-4cf4-b29c-4c07a781cde5/width=800/578d51c1-3fe3-4cf4-b29c-4c07a781cde5.jpeg",
+      "hash": "UMCGiDxA8^tlyZV@MckXRpRlNGR*xT%0tRIp",
+      "width": 800,
+      "height": 1200,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-11T21:25:05.394Z",
-      "postId": 14050478,
+      "createdAt": "2025-06-04T01:04:00.000Z",
+      "postId": 17816153,
       "stats": {
-        "cryCount": 364,
-        "laughCount": 619,
-        "likeCount": 5736,
+        "cryCount": 411,
+        "laughCount": 708,
+        "likeCount": 5570,
         "dislikeCount": 0,
-        "heartCount": 2100,
-        "commentCount": 6
+        "heartCount": 2126,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 776641034,
-        "Model": "flux_dev",
-        "steps": 20,
+        "TI": {},
+        "Size": "640x960",
+        "Model": "ZhongShi XL v4 BEST",
+        "steps": 24,
         "hashes": {
-          "model": "06f96f89f6"
+          "model": "5ab0b9520f",
+          "lora:add-detail-xl": "9c783c8ce46c",
+          "lora:detailed_notrigger": "a6443748ebc1"
         },
-        "prompt": "art nouveau style, Aether Shadow Phoenix of Moon, Celestial Palace, Graphite in Robert McGinnis style, Whimsical, Galactic, intricate and detailed, Pop Art Colors,\n,\n,\nMinotaur with Wand of Cosmic Dust, Galactic Gateway, Hyperrealism in Bernie Wrightson style, Nimble, Galactic, intricate and detailed, Night Colors,\nZombie Dragon of Spirit mystifying, Crystal Lagoon, Frame in Jessica Rossier style, Melancholic, Abstract, trending on deviantart, Complimentary-Colors,\nMind Flayer of Water, Haunted Mansion, Hand-Drawn in Tetsuya Nomura style, Minimalist, Cosmic, masterpiece, trending on artstation, Yellow Monochrome,\n,\nSylph of Memory, Post-Apocalyptic City, Comic Book in Madhouse style, Neon, Sculptural, surreal masterpiece, Warm Tones,\nYokai of Nature, Vampire Castle, Street Art in Charlie Bowater style, Prismatic, Nebulous, trending on deviantart, Metallic Colors,\nElectric Sphinx of Lava eating, Retro Arcade, Hand-Drawn in Peter Mohrbacher style, Cosmic, Intricate, intricate and detailed, Rainbow,, elegant, decorative, curvilinear forms, nature-inspired, ornate, detailed",
-        "Version": "f2.0.1v1.10.1-previous-224-g90019688",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "clip_g",
-        "Module 3": "clip_l",
-        "Module 4": "t5xxl_fp16",
-        "cfgScale": 1,
+        "prompt": "vibrant summer forest clearing with wooden bench ,celestial forges where star-metal flows like mercury, the anvils ringing with primordial creation myths, mountain, rainbow noon,weather dry heat by the wall cinematic view, epic sky, detailed, concept art, low angle, high detail, warm lighting, volumetric, godrays, vivid, beautiful, trending on artstation, by wlop, huge scene, grass,flower, art greg rutkowski,",
+        "Version": "f2.0.1v1.10.1-previous-662-g0ced1d0c",
+        "sampler": "DPM++ 2M",
+        "Module 1": "sdxl_vae",
+        "cfgScale": 7,
+        "clipSkip": 2,
         "resources": [
           {
-            "hash": "06f96f89f6",
-            "name": "flux_dev",
+            "hash": "a6443748ebc1",
+            "name": "detailed_notrigger",
+            "type": "lora",
+            "weight": 0.7
+          },
+          {
+            "hash": "9c783c8ce46c",
+            "name": "add-detail-xl",
+            "type": "lora",
+            "weight": 0.3
+          },
+          {
+            "hash": "5ab0b9520f",
+            "name": "ZhongShi XL v4 BEST",
             "type": "model"
           }
         ],
-        "Model hash": "06f96f89f6",
-        "Schedule type": "Simple",
-        "negativePrompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist",
-        "Distilled CFG Scale": "3.5",
-        "Style Selector Style": "Art Nouveau",
-        "Style Selector Enabled": "True",
-        "Style Selector Randomize": "False"
+        "Model hash": "5ab0b9520f",
+        "Hires prompt": {
+          "add-detail-xl": "0.3>",
+          "detailed_notrigger": "0.7>"
+        },
+        "Hires upscale": "1.25",
+        "Schedule type": "Karras",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "Latent",
+        "negativePrompt": "FastNegativeV2-SDXL, mushroom, sunflower,, painting frame, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts, signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts",
+        "Hires CFG Scale": "7",
+        "Denoising strength": "0.7",
+        "Token merging ratio": "0.3",
+        "Token merging ratio hr": "0.3"
       },
-      "username": "rickenhausen834",
-      "baseModel": "",
-      "modelVersionIds": []
+      "username": "Omega_Xlll",
+      "baseModel": "SDXL 1.0",
+      "modelVersionIds": [
+        135867,
+        1794944
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "310|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=310%7C1744925337225"
+    "nextCursor": "311|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=311%7C1744925337225"
   }
 }
