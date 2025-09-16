@@ -1,113 +1,39 @@
 {
   "items": [
     {
-      "id": 85789450,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ced6b392-1689-4b67-90b7-68436d9db7e4/width=832/ced6b392-1689-4b67-90b7-68436d9db7e4.jpeg",
-      "hash": "UGRW0bf7~q_3IUt7WBM{%M_3Rj4nE1-;?bRj",
+      "id": 78775903,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e295a94-b683-45a9-a139-7dc8e0183d33/width=832/0e295a94-b683-45a9-a139-7dc8e0183d33.jpeg",
+      "hash": "U98Y6T%14Uxx*Fx]MMM_R6TWNXMLRStktQMg",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-02T08:03:07.056Z",
-      "postId": 19040072,
+      "createdAt": "2025-05-27T09:19:36.951Z",
+      "postId": 17498071,
       "stats": {
-        "cryCount": 432,
-        "laughCount": 718,
-        "likeCount": 5491,
+        "cryCount": 458,
+        "laughCount": 763,
+        "likeCount": 5699,
         "dislikeCount": 0,
-        "heartCount": 2297,
-        "commentCount": 11
+        "heartCount": 2017,
+        "commentCount": 7
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 3113647997,
-        "Model": "plantMilkModelSuite_walnut",
-        "steps": 30,
-        "hashes": {
-          "model": "1704e50726",
-          "lora:RavenScript": "1e9b6e83d314",
-          "lora:NEGATIVE_HANDS": "67a0b9310462",
-          "lora:DetailedEyes_V3": "91cb46658523",
-          "lora:ka_marukogedago": "b4df8a8b1fd5",
-          "lora:ink-style_A3.1_XL": "3598460b100a",
-          "lora:wasabi_natsume_style_r1": "b6886da0fe26",
-          "lora:nest virgo_illustriousXL": "1f4eaa9dfcaf"
-        },
-        "prompt": "masterpiece, ultra-HD, very aesthetic, 8K, high detail, depth of field, score_9, score_8_up, \nBREAK\ndetailed background, dynamic background, \nBREAK\nink splash, panoramic view, Flowing, dynamic feel, dynamic scene, monochrome, cat, \nBREAK\n<lora:wasabi_natsume_style_r1:0.8>, <lora:nest virgo_illustriousXL:0.6>, <lora:ka_marukogedago:0.6>, <lora:DetailedEyes_V3:0.8>, <lora:NEGATIVE_HANDS:1>, <lora:RavenScript :0.8>, <lora:ink-style_A3.1_XL:0.6>,",
-        "Version": "v1.10.1",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 9,
-        "Mask blur": "4",
-        "resources": [
-          {
-            "hash": "b6886da0fe26",
-            "name": "wasabi_natsume_style_r1",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "b4df8a8b1fd5",
-            "name": "ka_marukogedago",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "91cb46658523",
-            "name": "DetailedEyes_V3",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "67a0b9310462",
-            "name": "NEGATIVE_HANDS",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "3598460b100a",
-            "name": "ink-style_A3.1_XL",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "1f4eaa9dfcaf",
-            "name": "nest virgo_illustriousXL",
-            "type": "lora"
-          },
-          {
-            "hash": "1e9b6e83d314",
-            "name": "RavenScript",
-            "type": "lora"
-          },
-          {
-            "hash": "1704e50726",
-            "name": "plantMilkModelSuite_walnut",
-            "type": "model"
-          }
-        ],
-        "Model hash": "1704e50726",
-        "Schedule type": "Karras",
-        "negativePrompt": "safe_neg, score_6, score_5, score_4, low resolution, worst quality, bad anatomy, blurry, old, ugly face, mutated hands, deformed, bad hands, censored, watermark, extra hands, easynegative, piercing, muscles, signature, text, logo, artist name, patreon username, family-friendly, distorted tubes, broken cables, Revealing clothes, extra fingers, deformed hands, distorted feet, too many fingers, extra legs, bad feet, bad fingers, girl, boy,",
-        "Denoising strength": "0.5"
-      },
-      "username": "KONI22NIANAKY",
-      "baseModel": "Illustrious",
+      "meta": null,
+      "username": "Graf137",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        145907,
-        471081,
-        651075,
-        1320975,
-        1591774,
-        1592120,
-        1714002,
-        1861107
+        691639,
+        720252,
+        1244911,
+        1524423,
+        1639190
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "288|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=288%7C1744925337225"
+    "nextCursor": "289|1744925337225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=289%7C1744925337225"
   }
 }
