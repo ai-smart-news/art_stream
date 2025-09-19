@@ -1,37 +1,6 @@
 {
   "items": [
     {
-      "id": 65661021,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a95f390-57ef-484c-8a26-a9e26184aa23/width=832/9a95f390-57ef-484c-8a26-a9e26184aa23.jpeg",
-      "hash": "UiJR$|?I~q-;-:IUkBRj%LxtM{ay?b%3RjWB",
-      "width": 832,
-      "height": 1216,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-03-25T03:30:00.000Z",
-      "postId": 14620445,
-      "stats": {
-        "cryCount": 451,
-        "laughCount": 712,
-        "likeCount": 5618,
-        "dislikeCount": 0,
-        "heartCount": 1891,
-        "commentCount": 9
-      },
-      "meta": null,
-      "username": "Andikaufman",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        973417,
-        1053285,
-        1444743,
-        1524423
-      ]
-    },
-    {
       "id": 63949551,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10972de9-390a-41aa-9a9c-8d71a9614e0f/width=768/10972de9-390a-41aa-9a9c-8d71a9614e0f.jpeg",
       "hash": "U79ZyE~Vo#M|?H%2RjM|0fM|%1s.9a4:jukC",
@@ -95,10 +64,70 @@
       "modelVersionIds": [
         1116447
       ]
+    },
+    {
+      "id": 38470092,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf908925-cceb-4800-b072-a6cd2e8c537f/width=1792/bf908925-cceb-4800-b072-a6cd2e8c537f.jpeg",
+      "hash": "U8Fh|Q~R-nM$9vIY4r-n4;%KnQD,0OD+?YkW",
+      "width": 1792,
+      "height": 1792,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2024-11-05T19:00:00.000Z",
+      "postId": 8781403,
+      "stats": {
+        "cryCount": 442,
+        "laughCount": 1267,
+        "likeCount": 5088,
+        "dislikeCount": 0,
+        "heartCount": 1866,
+        "commentCount": 13
+      },
+      "meta": {
+        "RNG": "NV",
+        "Size": "1024x1024",
+        "seed": 2730398526,
+        "Model": "PSanctuary_v2.5",
+        "steps": 16,
+        "hashes": {
+          "model": "eb131815a2"
+        },
+        "prompt": "masterpiece, best quality, spongebob squarepants, stand \\(jojo\\), jojo pose, hat, aura, glowing, power-up, angry, foreshortening, zoom layer, jacket, pointing at viewer, from side, yellow aura",
+        "Version": "f2.0.1v1.10.1-previous-584-g9a698e26",
+        "sampler": "Restart",
+        "Emphasis": "No norm",
+        "Module 1": "sdxl_vae",
+        "cfgScale": 6,
+        "resources": [
+          {
+            "hash": "eb131815a2",
+            "name": "PSanctuary_v2.5",
+            "type": "model"
+          }
+        ],
+        "Model hash": "eb131815a2",
+        "Hires steps": "10",
+        "Hires sampler": "Euler a",
+        "Hires upscale": "1.75",
+        "Schedule type": "SGM Uniform",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "2x-AnimeSharpV3",
+        "negativePrompt": "lowres, worst quality, low quality, bad anatomy, bad proportions, extra limbs, extra digit, extra legs, extra legs and arms, disfigured, missing arms, too many fingers, fused fingers, missing fingers, unclear eyes, username, simple background, 4koma, kujo jotaro,",
+        "Hires CFG Scale": "6",
+        "Denoising strength": "0.4",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
+      },
+      "username": "FallenIncursio",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1029914
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "324|1742170298054",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=324%7C1742170298054"
+    "nextCursor": "325|1730833200000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=325%7C1730833200000"
   }
 }
