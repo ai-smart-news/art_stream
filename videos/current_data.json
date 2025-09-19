@@ -1,38 +1,6 @@
 {
   "items": [
     {
-      "id": 80606295,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6a96453-1402-47bd-b45a-d256ccf2d4d5/width=1664/b6a96453-1402-47bd-b45a-d256ccf2d4d5.jpeg",
-      "hash": "U37+}0F{1G{x,t+^I.OE[B,X70OX=ewcr=Ez",
-      "width": 1664,
-      "height": 2432,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-06-05T19:06:21.951Z",
-      "postId": 17902899,
-      "stats": {
-        "cryCount": 356,
-        "laughCount": 662,
-        "likeCount": 5468,
-        "dislikeCount": 0,
-        "heartCount": 2203,
-        "commentCount": 12
-      },
-      "meta": {
-        "seed": 3105532375846297000,
-        "steps": 30,
-        "prompt": "cinematic, McFarlane style, dark medieval fantasy, incredibly absurdres, highres, masterpiece, newest, realistic, amazing angle, 1boy, black knight, dark armor, dripping smeared blood, bloody swamp, tattered cloth, cape, chainmail, (detailed dark abstract stylized background), armet helmet, covered face, dark sword, imposing stance, extremely realistic, highly detailed, gripping sword",
-        "sampler": "Euler a",
-        "cfgScale": 4,
-        "negativePrompt": "worst quality, bad quality, low quality, lowres, cartoon, anime, horns, eyes, wide sword, religious cross symbology, unrealistic, archway, swirling, 1girl, sweat"
-      },
-      "username": "TurinBjorn",
-      "baseModel": "Illustrious",
-      "modelVersionIds": []
-    },
-    {
       "id": 65661021,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a95f390-57ef-484c-8a26-a9e26184aa23/width=832/9a95f390-57ef-484c-8a26-a9e26184aa23.jpeg",
       "hash": "UiJR$|?I~q-;-:IUkBRj%LxtM{ay?b%3RjWB",
@@ -62,10 +30,75 @@
         1444743,
         1524423
       ]
+    },
+    {
+      "id": 63949551,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10972de9-390a-41aa-9a9c-8d71a9614e0f/width=768/10972de9-390a-41aa-9a9c-8d71a9614e0f.jpeg",
+      "hash": "U79ZyE~Vo#M|?H%2RjM|0fM|%1s.9a4:jukC",
+      "width": 768,
+      "height": 1280,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-03-17T00:11:38.054Z",
+      "postId": 14261445,
+      "stats": {
+        "cryCount": 566,
+        "laughCount": 739,
+        "likeCount": 5393,
+        "dislikeCount": 0,
+        "heartCount": 1972,
+        "commentCount": 12
+      },
+      "meta": {
+        "Size": "768x1280",
+        "seed": 747490595,
+        "Model": "noobaiXLNAIXL_epsilonPred11Version",
+        "steps": 25,
+        "hashes": {
+          "model": "6681e8e4b1",
+          "lora:- NAI - ac_illustration_V1.0-step00011000": "81375030bffe",
+          "lora:- NAI - PdJ_highres_counterweight_V.2.0-step00021000": "84a125e0509a"
+        },
+        "prompt": "A hyper-realistic cgi profile of a skeletal wolf with gaping jaws sharp teeth and a yellow eye  disheveled fur fused half with a (human:1.1) set against a dark smoky background. The lighting accentuates the bone's texture and eerie atmosphere., <lora:- NAI - ac_illustration_V1.0-step00011000:.2>  <lora:- NAI - PdJ_highres_counterweight_V.2.0-step00021000:0.7>",
+        "Version": "v1.10.1-73-g57e15ec9",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "81375030bffe",
+            "name": "- NAI - ac_illustration_V1.0-step00011000",
+            "type": "lora"
+          },
+          {
+            "hash": "84a125e0509a",
+            "name": "- NAI - PdJ_highres_counterweight_V.2.0-step00021000",
+            "type": "lora"
+          },
+          {
+            "hash": "6681e8e4b1",
+            "name": "noobaiXLNAIXL_epsilonPred11Version",
+            "type": "model"
+          }
+        ],
+        "Model hash": "6681e8e4b1",
+        "Schedule type": "Karras",
+        "CFG Rescale phi": "0",
+        "Noise multiplier": "1.033",
+        "Denoising strength": "0.65",
+        "Token merging ratio": "0.4"
+      },
+      "username": "TijuanaSlumlord",
+      "baseModel": "NoobAI",
+      "modelVersionIds": [
+        1116447
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "323|1742873400000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=323%7C1742873400000"
+    "nextCursor": "324|1742170298054",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=324%7C1742170298054"
   }
 }
