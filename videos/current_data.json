@@ -1,63 +1,6 @@
 {
   "items": [
     {
-      "id": 81913821,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a69e34d9-e75d-4117-9a4a-411a8e53140c/width=728/a69e34d9-e75d-4117-9a4a-411a8e53140c.jpeg",
-      "hash": "UTIYF8?b?b%N?wjEtRRj~qn$IUbGV?bHV@bH",
-      "width": 728,
-      "height": 1024,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-06-12T16:22:22.448Z",
-      "postId": 18196147,
-      "stats": {
-        "cryCount": 413,
-        "laughCount": 684,
-        "likeCount": 5647,
-        "dislikeCount": 0,
-        "heartCount": 1908,
-        "commentCount": 7
-      },
-      "meta": {
-        "Size": "728x1024",
-        "seed": 481434910,
-        "Model": "25-AAAAA-(_._)ParFurr.6_bArtbR9RRgC-uiuiui-megarealistic-uiuiperfectrealismYYYYY-uiuiuimegaperfect",
-        "steps": 20,
-        "hashes": {
-          "model": "8c1ff6bb73"
-        },
-        "prompt": "Architectural style Polynesian civilization, Hawaiian Islands, Indigenous Hawaiian cultural legacy, ancestral Polynesian origins, intricate island traditions, layered Hawaiian cultural heritage, enduring Polynesian influence, Kauai featuring Lihue and Hanapepe regional cultural identity, resilient Hawaiian presence, shared island cultural fabric, vibrant Polynesian continuity . Clean lines, geometric shapes, minimalist, modern, architectural drawing, highly detailed",
-        "Version": "v1.10.1",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 4.5,
-        "resources": [
-          {
-            "hash": "8c1ff6bb73",
-            "name": "25-AAAAA-(_._)ParFurr.6_bArtbR9RRgC-uiuiui-megarealistic-uiuiperfectrealismYYYYY-uiuiuimegaperfect",
-            "type": "model"
-          }
-        ],
-        "Model hash": "8c1ff6bb73",
-        "Mimic scale": "7",
-        "Schedule type": "Karras",
-        "negativePrompt": "slurred, curved lines, ornate, baroque, abstract, grunge",
-        "Interpolate Phi": "1",
-        "Scaling Startpoint": "MEAN",
-        "Variability Measure": "AD",
-        "Style Selector Style": "Architectural",
-        "Threshold percentile": "100",
-        "Style Selector Enabled": "True",
-        "Style Selector Randomize": "False",
-        "Separate Feature Channels": "True",
-        "Dynamic thresholding enabled": "True"
-      },
-      "username": "_CreAi_",
-      "baseModel": "",
-      "modelVersionIds": []
-    },
-    {
       "id": 99858586,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b7ce9fce-6d61-4756-814c-5b9138a373ac/width=832/b7ce9fce-6d61-4756-814c-5b9138a373ac.jpeg",
       "hash": "UdLNY.X9~q%1yEt6R+WXKks.nOR+M}R*s,sm",
@@ -74,7 +17,7 @@
         "laughCount": 687,
         "likeCount": 5272,
         "dislikeCount": 0,
-        "heartCount": 2165,
+        "heartCount": 2166,
         "commentCount": 9
       },
       "meta": {
@@ -117,10 +60,90 @@
       "username": "MontanaSilver",
       "baseModel": "Flux.1 D",
       "modelVersionIds": []
+    },
+    {
+      "id": 67296612,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40fc3fde-2a86-414e-afe7-b3bc6bedcbb1/width=1344/40fc3fde-2a86-414e-afe7-b3bc6bedcbb1.jpeg",
+      "hash": "UWEVa7M{9sxa~WV@NFoz-pWBjZWBt8WBoLWB",
+      "width": 1344,
+      "height": 2400,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-04-01T17:00:00.000Z",
+      "postId": 14965866,
+      "stats": {
+        "cryCount": 429,
+        "laughCount": 703,
+        "likeCount": 5420,
+        "dislikeCount": 0,
+        "heartCount": 2095,
+        "commentCount": 2
+      },
+      "meta": {
+        "Size": "900x1600",
+        "seed": 1344656474,
+        "Model": "waiNSFWIllustrious_v110",
+        "steps": 35,
+        "hashes": {
+          "model": "c3688ee04c",
+          "lora:CivChan": "295906106644",
+          "lora:PinkieNeonAnimeIL": "65cbcdc44c21"
+        },
+        "prompt": "1girl, glowing scythe, full moon, mist, ethereal, dark fantasy, dramatic lighting, night sky, mysterious atmosphere, fantasy setting masterpiece, best quality, amazing quality, very aesthetic, absurdres, detailed eyes, newest, <lora:CivChan:1>, CivChan, purple eyes, pink hair, maid outfit, <lora:PinkieNeonAnimeIL:0.5>, neon illustration in the style of pinkneonanime,",
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "resources": [
+          {
+            "hash": "295906106644",
+            "name": "CivChan",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "65cbcdc44c21",
+            "name": "PinkieNeonAnimeIL",
+            "type": "lora",
+            "weight": 0.5
+          },
+          {
+            "hash": "c3688ee04c",
+            "name": "waiNSFWIllustrious_v110",
+            "type": "model"
+          }
+        ],
+        "Model hash": "c3688ee04c",
+        "Hires steps": "20",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x_NMKD-Siax_200k",
+        "negativePrompt": "bad quality, worst quality, worst detail, sketch, censor, watermark, text, bad anatomy, sweat,",
+        "ADetailer model": "face_yolov8n.pt",
+        "Hires CFG Scale": "5",
+        "ADetailer prompt": {},
+        "ADetailer version": "25.3.0",
+        "Denoising strength": "0.35",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
+      },
+      "username": "Pinkielicious",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1410435,
+        1580974,
+        1597055
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "327|1757710800000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=327%7C1757710800000"
+    "nextCursor": "328|1743526800000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=328%7C1743526800000"
   }
 }
