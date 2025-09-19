@@ -1,71 +1,6 @@
 {
   "items": [
     {
-      "id": 63949551,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10972de9-390a-41aa-9a9c-8d71a9614e0f/width=768/10972de9-390a-41aa-9a9c-8d71a9614e0f.jpeg",
-      "hash": "U79ZyE~Vo#M|?H%2RjM|0fM|%1s.9a4:jukC",
-      "width": 768,
-      "height": 1280,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-03-17T00:11:38.054Z",
-      "postId": 14261445,
-      "stats": {
-        "cryCount": 566,
-        "laughCount": 739,
-        "likeCount": 5393,
-        "dislikeCount": 0,
-        "heartCount": 1972,
-        "commentCount": 12
-      },
-      "meta": {
-        "Size": "768x1280",
-        "seed": 747490595,
-        "Model": "noobaiXLNAIXL_epsilonPred11Version",
-        "steps": 25,
-        "hashes": {
-          "model": "6681e8e4b1",
-          "lora:- NAI - ac_illustration_V1.0-step00011000": "81375030bffe",
-          "lora:- NAI - PdJ_highres_counterweight_V.2.0-step00021000": "84a125e0509a"
-        },
-        "prompt": "A hyper-realistic cgi profile of a skeletal wolf with gaping jaws sharp teeth and a yellow eye  disheveled fur fused half with a (human:1.1) set against a dark smoky background. The lighting accentuates the bone's texture and eerie atmosphere., <lora:- NAI - ac_illustration_V1.0-step00011000:.2>  <lora:- NAI - PdJ_highres_counterweight_V.2.0-step00021000:0.7>",
-        "Version": "v1.10.1-73-g57e15ec9",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "81375030bffe",
-            "name": "- NAI - ac_illustration_V1.0-step00011000",
-            "type": "lora"
-          },
-          {
-            "hash": "84a125e0509a",
-            "name": "- NAI - PdJ_highres_counterweight_V.2.0-step00021000",
-            "type": "lora"
-          },
-          {
-            "hash": "6681e8e4b1",
-            "name": "noobaiXLNAIXL_epsilonPred11Version",
-            "type": "model"
-          }
-        ],
-        "Model hash": "6681e8e4b1",
-        "Schedule type": "Karras",
-        "CFG Rescale phi": "0",
-        "Noise multiplier": "1.033",
-        "Denoising strength": "0.65",
-        "Token merging ratio": "0.4"
-      },
-      "username": "TijuanaSlumlord",
-      "baseModel": "NoobAI",
-      "modelVersionIds": [
-        1116447
-      ]
-    },
-    {
       "id": 38470092,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf908925-cceb-4800-b072-a6cd2e8c537f/width=1792/bf908925-cceb-4800-b072-a6cd2e8c537f.jpeg",
       "hash": "U8Fh|Q~R-nM$9vIY4r-n4;%KnQD,0OD+?YkW",
@@ -124,10 +59,67 @@
       "modelVersionIds": [
         1029914
       ]
+    },
+    {
+      "id": 81913821,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a69e34d9-e75d-4117-9a4a-411a8e53140c/width=728/a69e34d9-e75d-4117-9a4a-411a8e53140c.jpeg",
+      "hash": "UTIYF8?b?b%N?wjEtRRj~qn$IUbGV?bHV@bH",
+      "width": 728,
+      "height": 1024,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-06-12T16:22:22.448Z",
+      "postId": 18196147,
+      "stats": {
+        "cryCount": 413,
+        "laughCount": 684,
+        "likeCount": 5647,
+        "dislikeCount": 0,
+        "heartCount": 1908,
+        "commentCount": 7
+      },
+      "meta": {
+        "Size": "728x1024",
+        "seed": 481434910,
+        "Model": "25-AAAAA-(_._)ParFurr.6_bArtbR9RRgC-uiuiui-megarealistic-uiuiperfectrealismYYYYY-uiuiuimegaperfect",
+        "steps": 20,
+        "hashes": {
+          "model": "8c1ff6bb73"
+        },
+        "prompt": "Architectural style Polynesian civilization, Hawaiian Islands, Indigenous Hawaiian cultural legacy, ancestral Polynesian origins, intricate island traditions, layered Hawaiian cultural heritage, enduring Polynesian influence, Kauai featuring Lihue and Hanapepe regional cultural identity, resilient Hawaiian presence, shared island cultural fabric, vibrant Polynesian continuity . Clean lines, geometric shapes, minimalist, modern, architectural drawing, highly detailed",
+        "Version": "v1.10.1",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 4.5,
+        "resources": [
+          {
+            "hash": "8c1ff6bb73",
+            "name": "25-AAAAA-(_._)ParFurr.6_bArtbR9RRgC-uiuiui-megarealistic-uiuiperfectrealismYYYYY-uiuiuimegaperfect",
+            "type": "model"
+          }
+        ],
+        "Model hash": "8c1ff6bb73",
+        "Mimic scale": "7",
+        "Schedule type": "Karras",
+        "negativePrompt": "slurred, curved lines, ornate, baroque, abstract, grunge",
+        "Interpolate Phi": "1",
+        "Scaling Startpoint": "MEAN",
+        "Variability Measure": "AD",
+        "Style Selector Style": "Architectural",
+        "Threshold percentile": "100",
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "False",
+        "Separate Feature Channels": "True",
+        "Dynamic thresholding enabled": "True"
+      },
+      "username": "_CreAi_",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "325|1730833200000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=325%7C1730833200000"
+    "nextCursor": "326|1749745342448",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=326%7C1749745342448"
   }
 }
