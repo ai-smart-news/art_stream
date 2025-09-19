@@ -1,50 +1,71 @@
 {
   "items": [
     {
-      "id": 74933645,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f1a0b13-fe38-4dae-a09f-ef2f0b07cc72/width=1024/4f1a0b13-fe38-4dae-a09f-ef2f0b07cc72.jpeg",
-      "hash": "UPDtnhEgJA-9}sNbS4s.E+oJs-NcAbo0snR+",
-      "width": 1024,
-      "height": 1536,
+      "id": 80606295,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6a96453-1402-47bd-b45a-d256ccf2d4d5/width=1664/b6a96453-1402-47bd-b45a-d256ccf2d4d5.jpeg",
+      "hash": "U37+}0F{1G{x,t+^I.OE[B,X70OX=ewcr=Ez",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-08T05:43:21.920Z",
-      "postId": 16637474,
+      "createdAt": "2025-06-05T19:06:21.951Z",
+      "postId": 17902899,
       "stats": {
-        "cryCount": 469,
-        "laughCount": 831,
-        "likeCount": 5483,
+        "cryCount": 356,
+        "laughCount": 662,
+        "likeCount": 5468,
         "dislikeCount": 0,
-        "heartCount": 1969,
-        "commentCount": 3
+        "heartCount": 2203,
+        "commentCount": 12
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "a frog jumping from a lily pad to another lily pad on a sunny evening where the sun is low in the sky with dusk and vibrant colors, hdr  photograph, professional photography, best lighting and contrast, high fidelity detail and realistic texturing, colorful and accurate real frog.",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
-          }
-        ]
+        "seed": 3105532375846297000,
+        "steps": 30,
+        "prompt": "cinematic, McFarlane style, dark medieval fantasy, incredibly absurdres, highres, masterpiece, newest, realistic, amazing angle, 1boy, black knight, dark armor, dripping smeared blood, bloody swamp, tattered cloth, cape, chainmail, (detailed dark abstract stylized background), armet helmet, covered face, dark sword, imposing stance, extremely realistic, highly detailed, gripping sword",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "negativePrompt": "worst quality, bad quality, low quality, lowres, cartoon, anime, horns, eyes, wide sword, religious cross symbology, unrealistic, archway, swirling, 1girl, sweat"
       },
-      "username": "Ocean3",
-      "baseModel": "OpenAI",
+      "username": "TurinBjorn",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
+    },
+    {
+      "id": 65661021,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a95f390-57ef-484c-8a26-a9e26184aa23/width=832/9a95f390-57ef-484c-8a26-a9e26184aa23.jpeg",
+      "hash": "UiJR$|?I~q-;-:IUkBRj%LxtM{ay?b%3RjWB",
+      "width": 832,
+      "height": 1216,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-03-25T03:30:00.000Z",
+      "postId": 14620445,
+      "stats": {
+        "cryCount": 451,
+        "laughCount": 712,
+        "likeCount": 5618,
+        "dislikeCount": 0,
+        "heartCount": 1891,
+        "commentCount": 9
+      },
+      "meta": null,
+      "username": "Andikaufman",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        691639,
+        973417,
+        1053285,
+        1444743,
+        1524423
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "322|1744925337225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=322%7C1744925337225"
+    "nextCursor": "323|1742873400000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=323%7C1742873400000"
   }
 }
