@@ -1,70 +1,6 @@
 {
   "items": [
     {
-      "id": 61262891,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c68122c-6266-4e7c-8ddc-84b5f1e0a401/width=1800/4c68122c-6266-4e7c-8ddc-84b5f1e0a401.jpeg",
-      "hash": "UkHe|1IoJDoI~Vo#NHWVso%MenR+$*ofs:e.",
-      "width": 2304,
-      "height": 3456,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-03-04T00:22:00.000Z",
-      "postId": 13698422,
-      "stats": {
-        "cryCount": 351,
-        "laughCount": 954,
-        "likeCount": 5307,
-        "dislikeCount": 0,
-        "heartCount": 1893,
-        "commentCount": 8
-      },
-      "meta": {
-        "Size": "1024x1536",
-        "seed": 790952063352168,
-        "Model": "Flux dev",
-        "steps": 20,
-        "hashes": {
-          "model": "",
-          "LORA:XRSTYLE_FLUX": "bcbeb101df",
-          "LORA:black_fantasy_1.0": "c1712dae28",
-          "LORA:FluxDFaeTasticDetails": "4259dc3287"
-        },
-        "prompt": "A bright yellow duck, wearing oversized mirrored sunglasses and a tropical flower necklace, balances expertly on a surfboard, cutting through the crest of an enormous wave. The water is a swirling mix of blues and greens, foamy spray frozen in time as it arcs around the duck\u00e2\u0080\u0099s outstretched wings. A small crowd of bewildered seagulls watches mid-flight, their heads tilted in disbelief. The horizon stretches endlessly in the background, where the setting sun casts a golden glow across the ocean\u00e2\u0080\u0099s surface.<lora:XRSTYLE_FLUX:0.5><lora:black_fantasy_1.0:0.5><lora:FluxDFaeTasticDetails:0.7>",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 4,
-        "clipSkip": 1,
-        "resources": [
-          {
-            "name": "XRSTYLE_FLUX",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "name": "black_fantasy_1.0",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "name": "FluxDFaeTasticDetails",
-            "type": "lora",
-            "weight": 0.7
-          }
-        ],
-        "Model hash": "",
-        "negativePrompt": "unknown"
-      },
-      "username": "impossiblebearcl4060",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        720252,
-        1408411,
-        889675
-      ]
-    },
-    {
       "id": 62561117,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2baa4ca-0a05-4091-afd3-2f5b9d549485/width=1800/b2baa4ca-0a05-4091-afd3-2f5b9d549485.jpeg",
       "hash": "U9BE8uXAE2-=00xuMvMwx].A.9RPROo~WAkD",
@@ -136,10 +72,35 @@
         1189748,
         1296986
       ]
+    },
+    {
+      "id": 96886025,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1d189f06-5010-4984-9fde-eca10ff5eb3f/width=1800/1d189f06-5010-4984-9fde-eca10ff5eb3f.jpeg",
+      "hash": "U98;0_~pyD.8.8.8-:?H%L-n-oSzbq%L%2k8",
+      "width": 1976,
+      "height": 2952,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-08-28T00:23:09.655Z",
+      "postId": 21490975,
+      "stats": {
+        "cryCount": 453,
+        "laughCount": 642,
+        "likeCount": 5238,
+        "dislikeCount": 0,
+        "heartCount": 2154,
+        "commentCount": 5
+      },
+      "meta": null,
+      "username": "Unsherlock",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "344|1741561133142",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=344%7C1741561133142"
+    "nextCursor": "345|1756340589655",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=345%7C1756340589655"
   }
 }
