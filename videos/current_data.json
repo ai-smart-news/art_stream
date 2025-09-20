@@ -1,70 +1,6 @@
 {
   "items": [
     {
-      "id": 48886090,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65fbb75b-5fca-4d46-be38-766e8def3eed/width=1664/65fbb75b-5fca-4d46-be38-766e8def3eed.jpeg",
-      "hash": "ULE-UP}XwI5+yXRPIoW=PUI:RQxG^+$%V@xF",
-      "width": 1664,
-      "height": 2432,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-01-01T12:13:58.925Z",
-      "postId": 11015770,
-      "stats": {
-        "cryCount": 322,
-        "laughCount": 604,
-        "likeCount": 5735,
-        "dislikeCount": 0,
-        "heartCount": 1989,
-        "commentCount": 7
-      },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 367757033,
-        "Model": "flux1-dev-bnb-nf4-v2",
-        "steps": 30,
-        "hashes": {
-          "model": "bea01d51bd",
-          "lora:FluxMythR3alisticF": "1e20d80fc2e7"
-        },
-        "prompt": "R3alisticF, samurai girl wearing a kimono with shoulder armor, she's holding a katana glowing with red energy, her long hair is flowing in the wind, she stands in a dojo training for her next battle. (maximum ultra high definition image quality and rendering:3), maximum image detail, maximum realistic render, (((ultra realist style))), realist side lighting, , 8K high definition, realist soft lighting, <lora:FluxMythR3alisticF:1>",
-        "Version": "f2.0.1v1.10.1-previous-519-g44eb4ea8",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "1e20d80fc2e7",
-            "name": "FluxMythR3alisticF",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "bea01d51bd",
-            "name": "flux1-dev-bnb-nf4-v2",
-            "type": "model"
-          }
-        ],
-        "Model hash": "bea01d51bd",
-        "Schedule type": "Simple",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer version": "24.8.0",
-        "ADetailer mask blur": "4",
-        "Distilled CFG Scale": "3.5",
-        "ADetailer confidence": "0.3",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer mask only top k largest": "1"
-      },
-      "username": "VelvetS",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
-    },
-    {
       "id": 74931904,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/234cf0c2-4b12-4377-8ade-6fad59b1ee0a/width=1024/234cf0c2-4b12-4377-8ade-6fad59b1ee0a.jpeg",
       "hash": "UDCE]+}@xts:}?%1kCoLEhSMWCn%R*R*WBNH",
@@ -105,10 +41,52 @@
       "modelVersionIds": [
         1733399
       ]
+    },
+    {
+      "id": 74905401,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/264e13da-a237-4bd8-908b-347d1f5d5ed7/width=1024/264e13da-a237-4bd8-908b-347d1f5d5ed7.jpeg",
+      "hash": "U8BLw$}rF159%2%1oJoJ050#,;-TM{IoENSO",
+      "width": 1024,
+      "height": 1536,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-05-08T02:39:03.401Z",
+      "postId": 16631306,
+      "stats": {
+        "cryCount": 410,
+        "laughCount": 740,
+        "likeCount": 5434,
+        "dislikeCount": 0,
+        "heartCount": 2046,
+        "commentCount": 10
+      },
+      "meta": {
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "Delicious bowl of steamy ramen, egg, thick cuts of meat, veggies, noodles, salty broth",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
+          }
+        ]
+      },
+      "username": "OdiousStooge",
+      "baseModel": "OpenAI",
+      "modelVersionIds": [
+        1733399
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "330|1746682282052",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=330%7C1746682282052"
+    "nextCursor": "331|1746671943401",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=331%7C1746671943401"
   }
 }
