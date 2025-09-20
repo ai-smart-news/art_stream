@@ -1,86 +1,6 @@
 {
   "items": [
     {
-      "id": 67296612,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40fc3fde-2a86-414e-afe7-b3bc6bedcbb1/width=1344/40fc3fde-2a86-414e-afe7-b3bc6bedcbb1.jpeg",
-      "hash": "UWEVa7M{9sxa~WV@NFoz-pWBjZWBt8WBoLWB",
-      "width": 1344,
-      "height": 2400,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-04-01T17:00:00.000Z",
-      "postId": 14965866,
-      "stats": {
-        "cryCount": 429,
-        "laughCount": 703,
-        "likeCount": 5420,
-        "dislikeCount": 0,
-        "heartCount": 2095,
-        "commentCount": 2
-      },
-      "meta": {
-        "Size": "900x1600",
-        "seed": 1344656474,
-        "Model": "waiNSFWIllustrious_v110",
-        "steps": 35,
-        "hashes": {
-          "model": "c3688ee04c",
-          "lora:CivChan": "295906106644",
-          "lora:PinkieNeonAnimeIL": "65cbcdc44c21"
-        },
-        "prompt": "1girl, glowing scythe, full moon, mist, ethereal, dark fantasy, dramatic lighting, night sky, mysterious atmosphere, fantasy setting masterpiece, best quality, amazing quality, very aesthetic, absurdres, detailed eyes, newest, <lora:CivChan:1>, CivChan, purple eyes, pink hair, maid outfit, <lora:PinkieNeonAnimeIL:0.5>, neon illustration in the style of pinkneonanime,",
-        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "resources": [
-          {
-            "hash": "295906106644",
-            "name": "CivChan",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "65cbcdc44c21",
-            "name": "PinkieNeonAnimeIL",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "hash": "c3688ee04c",
-            "name": "waiNSFWIllustrious_v110",
-            "type": "model"
-          }
-        ],
-        "Model hash": "c3688ee04c",
-        "Hires steps": "20",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x_NMKD-Siax_200k",
-        "negativePrompt": "bad quality, worst quality, worst detail, sketch, censor, watermark, text, bad anatomy, sweat,",
-        "ADetailer model": "face_yolov8n.pt",
-        "Hires CFG Scale": "5",
-        "ADetailer prompt": {},
-        "ADetailer version": "25.3.0",
-        "Denoising strength": "0.35",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
-      },
-      "username": "Pinkielicious",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1410435,
-        1580974,
-        1597055
-      ]
-    },
-    {
       "id": 48886090,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65fbb75b-5fca-4d46-be38-766e8def3eed/width=1664/65fbb75b-5fca-4d46-be38-766e8def3eed.jpeg",
       "hash": "ULE-UP}XwI5+yXRPIoW=PUI:RQxG^+$%V@xF",
@@ -93,11 +13,11 @@
       "createdAt": "2025-01-01T12:13:58.925Z",
       "postId": 11015770,
       "stats": {
-        "cryCount": 321,
-        "laughCount": 603,
-        "likeCount": 5734,
+        "cryCount": 322,
+        "laughCount": 604,
+        "likeCount": 5735,
         "dislikeCount": 0,
-        "heartCount": 1988,
+        "heartCount": 1989,
         "commentCount": 7
       },
       "meta": {
@@ -143,10 +63,52 @@
       "username": "VelvetS",
       "baseModel": "Flux.1 D",
       "modelVersionIds": []
+    },
+    {
+      "id": 74931904,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/234cf0c2-4b12-4377-8ade-6fad59b1ee0a/width=1024/234cf0c2-4b12-4377-8ade-6fad59b1ee0a.jpeg",
+      "hash": "UDCE]+}@xts:}?%1kCoLEhSMWCn%R*R*WBNH",
+      "width": 1024,
+      "height": 1536,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-05-08T05:31:22.052Z",
+      "postId": 16637079,
+      "stats": {
+        "cryCount": 426,
+        "laughCount": 755,
+        "likeCount": 5482,
+        "dislikeCount": 0,
+        "heartCount": 1975,
+        "commentCount": 9
+      },
+      "meta": {
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "macro image of high quality bread, detailed, realistic, 8k uhd, high quality",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
+          }
+        ]
+      },
+      "username": "Ocean3",
+      "baseModel": "OpenAI",
+      "modelVersionIds": [
+        1733399
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "329|1735733638925",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=329%7C1735733638925"
+    "nextCursor": "330|1746682282052",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=330%7C1746682282052"
   }
 }
