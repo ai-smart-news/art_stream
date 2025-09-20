@@ -1,38 +1,6 @@
 {
   "items": [
     {
-      "id": 96742910,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78a0c933-48a5-45d8-a0a3-34171baf7996/width=832/78a0c933-48a5-45d8-a0a3-34171baf7996.jpeg",
-      "hash": "ULFr-JNLE2xu~VR%-:%2Iot7?ajXx^xZt6Iq",
-      "width": 832,
-      "height": 1216,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-08-27T06:29:50.054Z",
-      "postId": 21458884,
-      "stats": {
-        "cryCount": 534,
-        "laughCount": 743,
-        "likeCount": 5262,
-        "dislikeCount": 0,
-        "heartCount": 2029,
-        "commentCount": 7
-      },
-      "meta": null,
-      "username": "Graf137",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252,
-        806265,
-        863655,
-        1308497,
-        1470588
-      ]
-    },
-    {
       "id": 64320513,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f4cbfdf-40e5-4ea7-be37-8669b00dfb9a/width=832/4f4cbfdf-40e5-4ea7-be37-8669b00dfb9a.jpeg",
       "hash": "UMH9Hk],1JE$}XjZa}SgRTnjkBX7AFsBr@bG",
@@ -96,10 +64,40 @@
         976226,
         1549230
       ]
+    },
+    {
+      "id": 84078435,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/264ebbf1-5e83-4174-864d-4ac60cbc3ab3/width=960/264ebbf1-5e83-4174-864d-4ac60cbc3ab3.jpeg",
+      "hash": "UEKnxV_N%fM{?u4n00RPoy00-;?b0J-qxbae",
+      "width": 960,
+      "height": 1680,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-06-23T17:49:59.073Z",
+      "postId": 18667388,
+      "stats": {
+        "cryCount": 424,
+        "laughCount": 670,
+        "likeCount": 5516,
+        "dislikeCount": 0,
+        "heartCount": 1935,
+        "commentCount": 1
+      },
+      "meta": {
+        "steps": 30,
+        "prompt": "ink-77, Majestic ink wash painting of lone wolf howling on mountain cliff during storm, dynamic brush strokes suggesting wind-blown fur texture, dramatic atmospheric effects with ink bleeding and flowing to create stormy sky, traditional Japanese sumi-e technique with confident single-stroke applications, silhouetted figure against turbulent weather patterns, stippling and dry brush methods for rocky cliff texture, emotional intensity of wild animal's call captured through gestural mark-making, monochromatic palette with rich blacks fading to misty grays, powerful composition emphasizing isolation and primal connection to nature",
+        "sampler": "DDIM",
+        "cfgScale": 5
+      },
+      "username": "77ossam",
+      "baseModel": null,
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "337|1744185042294",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=337%7C1744185042294"
+    "nextCursor": "338|1750700999073",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=338%7C1750700999073"
   }
 }
