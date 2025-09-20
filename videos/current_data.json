@@ -1,79 +1,6 @@
 {
   "items": [
     {
-      "id": 62561117,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2baa4ca-0a05-4091-afd3-2f5b9d549485/width=1800/b2baa4ca-0a05-4091-afd3-2f5b9d549485.jpeg",
-      "hash": "U9BE8uXAE2-=00xuMvMwx].A.9RPROo~WAkD",
-      "width": 3328,
-      "height": 4864,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-03-09T22:58:53.142Z",
-      "postId": 13969486,
-      "stats": {
-        "cryCount": 349,
-        "laughCount": 603,
-        "likeCount": 5473,
-        "dislikeCount": 0,
-        "heartCount": 2078,
-        "commentCount": 11
-      },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 2915846669,
-        "Model": "flux1-dev-bnb-nf4-v2",
-        "steps": 30,
-        "hashes": {
-          "model": "bea01d51bd",
-          "lora:FluxMythAn1meL1nes": "7bdc05ef12b5",
-          "lora:flux.1_lora_flyway_Epic-detail_v2": "2DBB61AC85E1",
-          "lora:MoriiMee_Gothic_Niji_Style__FLUX_LoRA_Test_2": "72e97af0c851"
-        },
-        "prompt": "A female warrior of ice and vengeance, the Frostbound Valkyrie emerges from the frozen tundras clad in glistening armor forged from enchanted permafrost. Her braided silver hair carries the chill of eternal winter, and her breath fogs the air with each exhale. Her piercing ice-blue eyes shine with the determination of a thousand battles. In her hand, she wields a colossal frost-encrusted warhammer, its head shimmering with a frozen aura capable of shattering even the strongest defenses. A spectral wolf, composed of swirling snow and ice, stalks at her side, its eyes glowing with a feral light. Wherever she treads, frost blooms and the whispers of fallen warriors drift on the icy wind.\n <lora:flux.1_lora_flyway_Epic-detail_v2:0.85> <lora:FluxMythAn1meL1nes:0.8> <lora:MoriiMee_Gothic_Niji_Style__FLUX_LoRA_Test_2:0.65>",
-        "Version": "f2.0.1v1.10.1-previous-519-g44eb4ea8",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "2DBB61AC85E1",
-            "name": "flux.1_lora_flyway_Epic-detail_v2",
-            "type": "lora",
-            "weight": 0.85
-          },
-          {
-            "hash": "7bdc05ef12b5",
-            "name": "FluxMythAn1meL1nes",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "72e97af0c851",
-            "name": "MoriiMee_Gothic_Niji_Style__FLUX_LoRA_Test_2",
-            "type": "lora",
-            "weight": 0.65
-          },
-          {
-            "hash": "bea01d51bd",
-            "name": "flux1-dev-bnb-nf4-v2",
-            "type": "model"
-          }
-        ],
-        "Model hash": "bea01d51bd",
-        "Schedule type": "SGM Uniform",
-        "Distilled CFG Scale": "3.5",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
-      },
-      "username": "VelvetS",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        863655,
-        1189748,
-        1296986
-      ]
-    },
-    {
       "id": 96886025,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1d189f06-5010-4984-9fde-eca10ff5eb3f/width=1800/1d189f06-5010-4984-9fde-eca10ff5eb3f.jpeg",
       "hash": "U98;0_~pyD.8.8.8-:?H%L-n-oSzbq%L%2k8",
@@ -97,10 +24,35 @@
       "username": "Unsherlock",
       "baseModel": "Flux.1 D",
       "modelVersionIds": []
+    },
+    {
+      "id": 83275423,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7a25200-8d51-49eb-b63d-e829d72684c6/width=1800/e7a25200-8d51-49eb-b63d-e829d72684c6.jpeg",
+      "hash": "UAGbx0={00I;~XxZ4oIW00M{MeNGx-odNLs-",
+      "width": 2048,
+      "height": 1909,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-06-19T16:32:11.349Z",
+      "postId": 18494506,
+      "stats": {
+        "cryCount": 390,
+        "laughCount": 1025,
+        "likeCount": 5169,
+        "dislikeCount": 0,
+        "heartCount": 1897,
+        "commentCount": 6
+      },
+      "meta": null,
+      "username": "AIDigitalMediaAgency",
+      "baseModel": "Imagen4",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "345|1756340589655",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=345%7C1756340589655"
+    "nextCursor": "346|1750350731349",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=346%7C1750350731349"
   }
 }
