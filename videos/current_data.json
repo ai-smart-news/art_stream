@@ -1,48 +1,6 @@
 {
   "items": [
     {
-      "id": 74905401,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/264e13da-a237-4bd8-908b-347d1f5d5ed7/width=1024/264e13da-a237-4bd8-908b-347d1f5d5ed7.jpeg",
-      "hash": "U8BLw$}rF159%2%1oJoJ050#,;-TM{IoENSO",
-      "width": 1024,
-      "height": 1536,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-05-08T02:39:03.401Z",
-      "postId": 16631306,
-      "stats": {
-        "cryCount": 410,
-        "laughCount": 740,
-        "likeCount": 5434,
-        "dislikeCount": 0,
-        "heartCount": 2046,
-        "commentCount": 10
-      },
-      "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "Delicious bowl of steamy ramen, egg, thick cuts of meat, veggies, noodles, salty broth",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
-          }
-        ]
-      },
-      "username": "OdiousStooge",
-      "baseModel": "OpenAI",
-      "modelVersionIds": [
-        1733399
-      ]
-    },
-    {
       "id": 93604885,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc7ca22b-9317-404d-928d-5240407a96b4/width=1024/fc7ca22b-9317-404d-928d-5240407a96b4.jpeg",
       "hash": "U2FY$2-;Rj_3~qM{4nxu~q%M%MM{D%%M_3M{",
@@ -85,10 +43,42 @@
       "modelVersionIds": [
         1733399
       ]
+    },
+    {
+      "id": 94666708,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/681737b8-39f7-4b34-ae69-8422d3fea2cd/width=1800/681737b8-39f7-4b34-ae69-8422d3fea2cd.jpeg",
+      "hash": "U58;Y{4._3X8J8~VIpkW^kyXaKRj0K-VD%M{",
+      "width": 3424,
+      "height": 6144,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-08-16T19:55:44.685Z",
+      "postId": 21002018,
+      "stats": {
+        "cryCount": 419,
+        "laughCount": 706,
+        "likeCount": 5402,
+        "dislikeCount": 0,
+        "heartCount": 2091,
+        "commentCount": 0
+      },
+      "meta": {
+        "seed": 1652810290,
+        "steps": 25,
+        "prompt": "Masterpiece, best quality, amazing quality, newest, very aesthetic, absurdres, (scenery:1.4), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, Dark_Niji_Style, XUER guangying, CRYOS2.\n\n(artist:shinkai makoto:0.75), (artist:mazjojo:0.83), (artist:pigeon666:0.67), (artist:zawar379:0.77), (artist:remsrar:0.65), (artist:yoneyama mai:0.74), (artist:chimmyming:0.72), (artist:konya karasue:0.55), (artist:remsrar:0.65), nub1mo, (artist:Yomu:0.3),(dino_(dinoartforame):0.5),(artist:quasarcake:0.4),(artist:wlop:0.3), (artist:ebifurya:0.52), (artist:as109:0.82), (artist:krekkov:0.68), (artist:mossacannibalis:0.56), (artist:tianliang duohe fangdongye:0.8), (artist:z-ton:1.04), (photorealistic:1.2), (illustration:1.3), high resolution, sharp focus, soft lighting, 1girl, solo, facing viewer, long hair, blonde hair, long sleeves, holding, very long hair, closed mouth, jacket, weapon, pantyhose,sword, holding weapon, high heels, black jacket, black pantyhose, holding sword, squatting, katana, mechanical arms, one knee, cyborg, prosthesis, robot joints, head-mounted display, cyberpunk, stiletto heels, motion blur, (dutch angle:1.1), (depth of field:1.3), (blurry edges:1.5), (medium\\), tesun \\(g noh\\).",
+        "sampler": "DPM++ 3M SDE",
+        "cfgScale": 4,
+        "negativePrompt": "lowres, (bad quality,worst quality:1.2), long neck, bad anatomy,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross"
+      },
+      "username": "Yoruuu",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "332|1754903355501",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=332%7C1754903355501"
+    "nextCursor": "333|1755374144685",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=333%7C1755374144685"
   }
 }
