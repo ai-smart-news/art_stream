@@ -1,57 +1,6 @@
 {
   "items": [
     {
-      "id": 58399173,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caa2baeb-3ea6-4ff5-9cbb-24e61fc4157e/width=720/caa2baeb-3ea6-4ff5-9cbb-24e61fc4157e.jpeg",
-      "hash": "USI;k]Mw{LcEuOS$H=ayEl-Arqt7ibEhxWW=",
-      "width": 720,
-      "height": 1080,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-02-17T14:49:17.540Z",
-      "postId": 13068123,
-      "stats": {
-        "cryCount": 363,
-        "laughCount": 703,
-        "likeCount": 5618,
-        "dislikeCount": 0,
-        "heartCount": 1907,
-        "commentCount": 2
-      },
-      "meta": {
-        "Size": "720x1080",
-        "seed": 842265430,
-        "Model": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
-        "steps": 12,
-        "hashes": {
-          "model": "7cacd3ba4b",
-          "model:flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975": "7cacd3ba4b"
-        },
-        "prompt": "Yoshi in a red kart speeding through a swirling, psychedelic landscape of iridescent balloons and warped surfaces, vibrant colors, dynamic lighting, highly detailed, 8k resolution, cinematic lighting, hyperrealistic, --ar 16:9 --zoom 1.5 --style sdxl Yoshi's Balloon Bonanza\naidmafluxpro1.1,Fantasy detailers\u00e2\u0080\u008b\u00e2\u0080\u008b\u00e2\u0080\u008b",
-        "Version": "f2.0.1v1.10.1-previous-608-ge2fe29c1",
-        "sampler": "Euler",
-        "Module 1": "flux1DevVAE_safetensors",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "7cacd3ba4b",
-            "name": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
-            "type": "model"
-          }
-        ],
-        "Model hash": "7cacd3ba4b",
-        "Schedule type": "Simple",
-        "Distilled CFG Scale": "4"
-      },
-      "username": "PBtheCreator",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        819165
-      ]
-    },
-    {
       "id": 96742910,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78a0c933-48a5-45d8-a0a3-34171baf7996/width=832/78a0c933-48a5-45d8-a0a3-34171baf7996.jpeg",
       "hash": "ULFr-JNLE2xu~VR%-:%2Iot7?ajXx^xZt6Iq",
@@ -68,7 +17,7 @@
         "laughCount": 743,
         "likeCount": 5262,
         "dislikeCount": 0,
-        "heartCount": 2028,
+        "heartCount": 2029,
         "commentCount": 7
       },
       "meta": null,
@@ -82,10 +31,75 @@
         1308497,
         1470588
       ]
+    },
+    {
+      "id": 64320513,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f4cbfdf-40e5-4ea7-be37-8669b00dfb9a/width=832/4f4cbfdf-40e5-4ea7-be37-8669b00dfb9a.jpeg",
+      "hash": "UMH9Hk],1JE$}XjZa}SgRTnjkBX7AFsBr@bG",
+      "width": 832,
+      "height": 1216,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-04-09T07:50:42.294Z",
+      "postId": 14340379,
+      "stats": {
+        "cryCount": 410,
+        "laughCount": 611,
+        "likeCount": 5773,
+        "dislikeCount": 0,
+        "heartCount": 1763,
+        "commentCount": 4
+      },
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1874816902,
+        "steps": 25,
+        "prompt": "nistyle, inksketch of a Chinese Junk sailing into a south-east asian medieval harbour, sunset",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-03-18T1823:42.4024789Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 976226,
+            "modelVersionName": "v.01 - e13 flux"
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 1549230,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 791149,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "Stu42",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        791149,
+        976226,
+        1549230
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "336|1756276190054",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=336%7C1756276190054"
+    "nextCursor": "337|1744185042294",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=337%7C1744185042294"
   }
 }
