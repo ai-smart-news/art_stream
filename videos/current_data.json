@@ -1,72 +1,6 @@
 {
   "items": [
     {
-      "id": 58607593,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ddacad5-23b0-4e24-90f5-233c2054558e/width=832/1ddacad5-23b0-4e24-90f5-233c2054558e.jpeg",
-      "hash": "UC8|FeNd58$z}9S4EjxD$*WCI;xYt3azNIt5",
-      "width": 832,
-      "height": 1216,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-02-18T14:08:23.465Z",
-      "postId": 13112333,
-      "stats": {
-        "cryCount": 420,
-        "laughCount": 642,
-        "likeCount": 5558,
-        "dislikeCount": 0,
-        "heartCount": 1913,
-        "commentCount": 2
-      },
-      "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 4294967296,
-        "draft": false,
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Ultra-realistic 8K resolution, Octane render, Unreal Engine 5 masterpiece, dark academia aesthetic, enchanted glass terrarium containing: two hybrid heliotrope-roses with translucent ruby gemstone petals (vitreous refraction), metallic obsidian stems (bioluminescent vascular system), liquid mercury dewdrops suspended mid-fall, spiral cerulean nebula core emitting plasma tendrils, fractured amber glass veins pulsing with trapped starlight, quantum foam escaping through dimensional cracks, non-Euclidean spacetime geometry, vantablack void background with gravitational lensing distortion, chrono-crystalline lattice framework, volumetric photon mapping event horizon glow, subsurface scattering in petal nanostructures, temporal anomaly causing timeline overlaps, hyperdetailed microbiology under gemstone epidermis, gothic biodigitalpunk style blending Zdzis\u0142aw Beksi\u0144ski and Ernst Haeckel, photorealistic macro photography meets celestial cartography, trending on ArtStation --ar 16:9 --v 6.0 --no cartoonish, flat colors, symmetry, human elements",
-        "sampler": "Undefined",
-        "cfgScale": 2,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-02-17T0446:13.6076132Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1227179,
-            "modelVersionName": "Flux Realistic Fantasy"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          }
-        ]
-      },
-      "username": "SCV_682",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252,
-        1227179
-      ]
-    },
-    {
       "id": 71782547,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0fcd979-753b-48a5-8bd4-0a2730f7ef4b/width=896/a0fcd979-753b-48a5-8bd4-0a2730f7ef4b.jpeg",
       "hash": "UDF=aS0j9XMwH=0P~T,.:hS^=r0:WH%e$RAJ",
@@ -90,10 +24,74 @@
       "username": "Meower2024",
       "baseModel": "Flux.1 D",
       "modelVersionIds": []
+    },
+    {
+      "id": 61262891,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c68122c-6266-4e7c-8ddc-84b5f1e0a401/width=1800/4c68122c-6266-4e7c-8ddc-84b5f1e0a401.jpeg",
+      "hash": "UkHe|1IoJDoI~Vo#NHWVso%MenR+$*ofs:e.",
+      "width": 2304,
+      "height": 3456,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-03-04T00:22:00.000Z",
+      "postId": 13698422,
+      "stats": {
+        "cryCount": 351,
+        "laughCount": 954,
+        "likeCount": 5307,
+        "dislikeCount": 0,
+        "heartCount": 1893,
+        "commentCount": 8
+      },
+      "meta": {
+        "Size": "1024x1536",
+        "seed": 790952063352168,
+        "Model": "Flux dev",
+        "steps": 20,
+        "hashes": {
+          "model": "",
+          "LORA:XRSTYLE_FLUX": "bcbeb101df",
+          "LORA:black_fantasy_1.0": "c1712dae28",
+          "LORA:FluxDFaeTasticDetails": "4259dc3287"
+        },
+        "prompt": "A bright yellow duck, wearing oversized mirrored sunglasses and a tropical flower necklace, balances expertly on a surfboard, cutting through the crest of an enormous wave. The water is a swirling mix of blues and greens, foamy spray frozen in time as it arcs around the duck\u00e2\u0080\u0099s outstretched wings. A small crowd of bewildered seagulls watches mid-flight, their heads tilted in disbelief. The horizon stretches endlessly in the background, where the setting sun casts a golden glow across the ocean\u00e2\u0080\u0099s surface.<lora:XRSTYLE_FLUX:0.5><lora:black_fantasy_1.0:0.5><lora:FluxDFaeTasticDetails:0.7>",
+        "Version": "ComfyUI",
+        "sampler": "Euler",
+        "cfgScale": 4,
+        "clipSkip": 1,
+        "resources": [
+          {
+            "name": "XRSTYLE_FLUX",
+            "type": "lora",
+            "weight": 0.5
+          },
+          {
+            "name": "black_fantasy_1.0",
+            "type": "lora",
+            "weight": 0.5
+          },
+          {
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora",
+            "weight": 0.7
+          }
+        ],
+        "Model hash": "",
+        "negativePrompt": "unknown"
+      },
+      "username": "impossiblebearcl4060",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        720252,
+        1408411,
+        889675
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "342|1745386330078",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=342%7C1745386330078"
+    "nextCursor": "343|1741047720000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=343%7C1741047720000"
   }
 }
