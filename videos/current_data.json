@@ -1,31 +1,6 @@
 {
   "items": [
     {
-      "id": 71782547,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0fcd979-753b-48a5-8bd4-0a2730f7ef4b/width=896/a0fcd979-753b-48a5-8bd4-0a2730f7ef4b.jpeg",
-      "hash": "UDF=aS0j9XMwH=0P~T,.:hS^=r0:WH%e$RAJ",
-      "width": 896,
-      "height": 1152,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-04-23T05:32:10.078Z",
-      "postId": 15944840,
-      "stats": {
-        "cryCount": 453,
-        "laughCount": 858,
-        "likeCount": 5275,
-        "dislikeCount": 0,
-        "heartCount": 1920,
-        "commentCount": 9
-      },
-      "meta": null,
-      "username": "Meower2024",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
-    },
-    {
       "id": 61262891,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c68122c-6266-4e7c-8ddc-84b5f1e0a401/width=1800/4c68122c-6266-4e7c-8ddc-84b5f1e0a401.jpeg",
       "hash": "UkHe|1IoJDoI~Vo#NHWVso%MenR+$*ofs:e.",
@@ -88,10 +63,83 @@
         1408411,
         889675
       ]
+    },
+    {
+      "id": 62561117,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2baa4ca-0a05-4091-afd3-2f5b9d549485/width=1800/b2baa4ca-0a05-4091-afd3-2f5b9d549485.jpeg",
+      "hash": "U9BE8uXAE2-=00xuMvMwx].A.9RPROo~WAkD",
+      "width": 3328,
+      "height": 4864,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-03-09T22:58:53.142Z",
+      "postId": 13969486,
+      "stats": {
+        "cryCount": 349,
+        "laughCount": 603,
+        "likeCount": 5473,
+        "dislikeCount": 0,
+        "heartCount": 2078,
+        "commentCount": 11
+      },
+      "meta": {
+        "Size": "832x1216",
+        "seed": 2915846669,
+        "Model": "flux1-dev-bnb-nf4-v2",
+        "steps": 30,
+        "hashes": {
+          "model": "bea01d51bd",
+          "lora:FluxMythAn1meL1nes": "7bdc05ef12b5",
+          "lora:flux.1_lora_flyway_Epic-detail_v2": "2DBB61AC85E1",
+          "lora:MoriiMee_Gothic_Niji_Style__FLUX_LoRA_Test_2": "72e97af0c851"
+        },
+        "prompt": "A female warrior of ice and vengeance, the Frostbound Valkyrie emerges from the frozen tundras clad in glistening armor forged from enchanted permafrost. Her braided silver hair carries the chill of eternal winter, and her breath fogs the air with each exhale. Her piercing ice-blue eyes shine with the determination of a thousand battles. In her hand, she wields a colossal frost-encrusted warhammer, its head shimmering with a frozen aura capable of shattering even the strongest defenses. A spectral wolf, composed of swirling snow and ice, stalks at her side, its eyes glowing with a feral light. Wherever she treads, frost blooms and the whispers of fallen warriors drift on the icy wind.\n <lora:flux.1_lora_flyway_Epic-detail_v2:0.85> <lora:FluxMythAn1meL1nes:0.8> <lora:MoriiMee_Gothic_Niji_Style__FLUX_LoRA_Test_2:0.65>",
+        "Version": "f2.0.1v1.10.1-previous-519-g44eb4ea8",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "2DBB61AC85E1",
+            "name": "flux.1_lora_flyway_Epic-detail_v2",
+            "type": "lora",
+            "weight": 0.85
+          },
+          {
+            "hash": "7bdc05ef12b5",
+            "name": "FluxMythAn1meL1nes",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "72e97af0c851",
+            "name": "MoriiMee_Gothic_Niji_Style__FLUX_LoRA_Test_2",
+            "type": "lora",
+            "weight": 0.65
+          },
+          {
+            "hash": "bea01d51bd",
+            "name": "flux1-dev-bnb-nf4-v2",
+            "type": "model"
+          }
+        ],
+        "Model hash": "bea01d51bd",
+        "Schedule type": "SGM Uniform",
+        "Distilled CFG Scale": "3.5",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
+      },
+      "username": "VelvetS",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        863655,
+        1189748,
+        1296986
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "343|1741047720000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=343%7C1741047720000"
+    "nextCursor": "344|1741561133142",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=344%7C1741561133142"
   }
 }
