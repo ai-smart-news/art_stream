@@ -1,38 +1,6 @@
 {
   "items": [
     {
-      "id": 94666708,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/681737b8-39f7-4b34-ae69-8422d3fea2cd/width=1800/681737b8-39f7-4b34-ae69-8422d3fea2cd.jpeg",
-      "hash": "U58;Y{4._3X8J8~VIpkW^kyXaKRj0K-VD%M{",
-      "width": 3424,
-      "height": 6144,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-08-16T19:55:44.685Z",
-      "postId": 21002018,
-      "stats": {
-        "cryCount": 419,
-        "laughCount": 706,
-        "likeCount": 5402,
-        "dislikeCount": 0,
-        "heartCount": 2091,
-        "commentCount": 0
-      },
-      "meta": {
-        "seed": 1652810290,
-        "steps": 25,
-        "prompt": "Masterpiece, best quality, amazing quality, newest, very aesthetic, absurdres, (scenery:1.4), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, Dark_Niji_Style, XUER guangying, CRYOS2.\n\n(artist:shinkai makoto:0.75), (artist:mazjojo:0.83), (artist:pigeon666:0.67), (artist:zawar379:0.77), (artist:remsrar:0.65), (artist:yoneyama mai:0.74), (artist:chimmyming:0.72), (artist:konya karasue:0.55), (artist:remsrar:0.65), nub1mo, (artist:Yomu:0.3),(dino_(dinoartforame):0.5),(artist:quasarcake:0.4),(artist:wlop:0.3), (artist:ebifurya:0.52), (artist:as109:0.82), (artist:krekkov:0.68), (artist:mossacannibalis:0.56), (artist:tianliang duohe fangdongye:0.8), (artist:z-ton:1.04), (photorealistic:1.2), (illustration:1.3), high resolution, sharp focus, soft lighting, 1girl, solo, facing viewer, long hair, blonde hair, long sleeves, holding, very long hair, closed mouth, jacket, weapon, pantyhose,sword, holding weapon, high heels, black jacket, black pantyhose, holding sword, squatting, katana, mechanical arms, one knee, cyborg, prosthesis, robot joints, head-mounted display, cyberpunk, stiletto heels, motion blur, (dutch angle:1.1), (depth of field:1.3), (blurry edges:1.5), (medium\\), tesun \\(g noh\\).",
-        "sampler": "DPM++ 3M SDE",
-        "cfgScale": 4,
-        "negativePrompt": "lowres, (bad quality,worst quality:1.2), long neck, bad anatomy,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross"
-      },
-      "username": "Yoruuu",
-      "baseModel": "Illustrious",
-      "modelVersionIds": []
-    },
-    {
       "id": 56205732,
       "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/362ab4fb-c7ff-4718-a3cf-9d7fb468a425/width=1088/362ab4fb-c7ff-4718-a3cf-9d7fb468a425.jpeg",
       "hash": "UCF;G#+P}l5:4{]j5oKN5XkU1JEg]~OX-nX7",
@@ -56,10 +24,61 @@
       "username": "Lunakrita",
       "baseModel": "Flux.1 D",
       "modelVersionIds": []
+    },
+    {
+      "id": 58399173,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caa2baeb-3ea6-4ff5-9cbb-24e61fc4157e/width=720/caa2baeb-3ea6-4ff5-9cbb-24e61fc4157e.jpeg",
+      "hash": "USI;k]Mw{LcEuOS$H=ayEl-Arqt7ibEhxWW=",
+      "width": 720,
+      "height": 1080,
+      "nsfwLevel": "None",
+      "type": "image",
+      "nsfw": false,
+      "browsingLevel": 1,
+      "createdAt": "2025-02-17T14:49:17.540Z",
+      "postId": 13068123,
+      "stats": {
+        "cryCount": 363,
+        "laughCount": 703,
+        "likeCount": 5618,
+        "dislikeCount": 0,
+        "heartCount": 1907,
+        "commentCount": 2
+      },
+      "meta": {
+        "Size": "720x1080",
+        "seed": 842265430,
+        "Model": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
+        "steps": 12,
+        "hashes": {
+          "model": "7cacd3ba4b",
+          "model:flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975": "7cacd3ba4b"
+        },
+        "prompt": "Yoshi in a red kart speeding through a swirling, psychedelic landscape of iridescent balloons and warped surfaces, vibrant colors, dynamic lighting, highly detailed, 8k resolution, cinematic lighting, hyperrealistic, --ar 16:9 --zoom 1.5 --style sdxl Yoshi's Balloon Bonanza\naidmafluxpro1.1,Fantasy detailers\u00e2\u0080\u008b\u00e2\u0080\u008b\u00e2\u0080\u008b",
+        "Version": "f2.0.1v1.10.1-previous-608-ge2fe29c1",
+        "sampler": "Euler",
+        "Module 1": "flux1DevVAE_safetensors",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "7cacd3ba4b",
+            "name": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
+            "type": "model"
+          }
+        ],
+        "Model hash": "7cacd3ba4b",
+        "Schedule type": "Simple",
+        "Distilled CFG Scale": "4"
+      },
+      "username": "PBtheCreator",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        819165
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "334|1738862367820",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=334%7C1738862367820"
+    "nextCursor": "335|1739803757540",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=335%7C1739803757540"
   }
 }
