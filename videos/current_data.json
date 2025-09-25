@@ -1,108 +1,93 @@
 {
   "items": [
     {
-      "id": 101093244,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fc7aa93-16b3-4bd3-b88b-7a02bf053fa6/original=true/5fc7aa93-16b3-4bd3-b88b-7a02bf053fa6.jpeg",
-      "hash": "UQCZw+.7t6of_Nx]t7tR%gt7oftQx]t6ofWC",
-      "width": 1408,
-      "height": 2048,
+      "id": 9173928,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc242d6c-f960-4274-aa1d-f22a71e705ef/original=true/cc242d6c-f960-4274-aa1d-f22a71e705ef.jpeg",
+      "hash": "UA8N5},:Ioni~C#laKxaoznNwvx]XmRkVstR",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-18T19:58:46.411Z",
-      "postId": 22428594,
+      "createdAt": "2025-04-17T21:28:57.225Z",
+      "postId": 1981754,
       "stats": {
-        "cryCount": 447,
-        "laughCount": 678,
-        "likeCount": 5436,
+        "cryCount": 1730,
+        "laughCount": 2708,
+        "likeCount": 21031,
         "dislikeCount": 0,
-        "heartCount": 1934,
-        "commentCount": 6
+        "heartCount": 7758,
+        "commentCount": 58
       },
       "meta": {
-        "seed": 1539806058,
-        "draft": false,
-        "extra": {},
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Set in medieval times. A woman is riding a horse down a village street. She is riding away from the viewer. there is a large foreboding castle in the distance. Lightning can be seen streaking across the sky. She has long messy auburn hair. She is wearing dark leather armor. The horse has a saddle and saddle bags. It is raining and there are puddles forming in the dirt. sharp scenery, lush background, ultra-detailed environment, natural textures, vibrant lighting, crisp clouds, realistic water surface, vivid skies, photo-real terrain, fantstyle, MythP0rt, raz'sscenesmith-mk.1",
-        "sampler": "undefined",
-        "cfgScale": 2.5,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "experimental": false,
-        "fluxUltraRaw": false,
+        "Size": "832x1216",
+        "seed": 1938345220,
+        "steps": 45,
+        "prompt": "AtomicHeartTwinsCosplay in absolute darkness, profoundly no light, holding black-pink heart shaped orbstaff, \npointed hat, translucent skin, Describe the captivating scene captured in the vintage photograph featuring a Bedouin artist skillfully swallowing a massive sword in the style of Final Fantasy, amidst a mesmerized audience. Provide details about the artist's attire, the sword's intricate design, and the expressions of the onlookers as they witness this extraordinary performance., amazing quality, masterpiece, best quality, hyper detailed, ultra detailed, UHD, perfect anatomy, portrait, dof, hyper-realism, majestic, awesome, inspiring, closeup, an weathered outworn old Fantasy cape, smooth, Closeup, by Dring, rust paint peelz, atmospheric haze, cinamatic composition, soft shadows, national geographic style",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "resources": [],
+        "negativePrompt": "easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
         "civitaiResources": [
           {
-            "weight": 1,
-            "modelVersionId": 691639
+            "type": "checkpoint",
+            "modelVersionId": 345685
           },
           {
+            "type": "embed",
             "weight": 1,
-            "modelVersionId": 1227179
+            "modelVersionId": 9208
           },
           {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 249861
+          },
+          {
+            "type": "lora",
             "weight": 0.6,
-            "modelVersionId": 1940311
+            "modelVersionId": 258687
           },
           {
-            "weight": 1,
-            "modelVersionId": 900870
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 332071
           },
           {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 413566
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 421757
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 426333
           }
-        ],
-        "fluxUltraAspectRatio": "4"
+        ]
       },
-      "username": "Tanaker",
-      "baseModel": "Flux.1 D",
+      "username": "Ajuro",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        164821,
-        691639,
-        900870,
-        1227179,
-        1940311
+        9208,
+        249861,
+        258687,
+        332071,
+        345685,
+        413566,
+        421757,
+        426333
       ]
-    },
-    {
-      "id": 83275423,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7a25200-8d51-49eb-b63d-e829d72684c6/original=true/e7a25200-8d51-49eb-b63d-e829d72684c6.jpeg",
-      "hash": "UAGbx0={00I;~XxZ4oIW00M{MeNGx-odNLs-",
-      "width": 2048,
-      "height": 1909,
-      "nsfwLevel": "None",
-      "type": "image",
-      "nsfw": false,
-      "browsingLevel": 1,
-      "createdAt": "2025-06-19T16:32:11.349Z",
-      "postId": 18494506,
-      "stats": {
-        "cryCount": 391,
-        "laughCount": 1027,
-        "likeCount": 5171,
-        "dislikeCount": 0,
-        "heartCount": 1898,
-        "commentCount": 6
-      },
-      "meta": null,
-      "username": "AIDigitalMediaAgency",
-      "baseModel": "Imagen4",
-      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "351|1750350731349",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=351%7C1750350731349"
+    "nextCursor": "352|1715376819009",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=352%7C1715376819009"
   }
 }
