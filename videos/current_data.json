@@ -1,97 +1,42 @@
 {
   "items": [
     {
-      "id": 67196552,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9730c8b3-cc74-4ad6-b492-25e1797bfe97/original=true/9730c8b3-cc74-4ad6-b492-25e1797bfe97.jpeg",
-      "hash": "UCDRm;0v8^-rp_mmIUx]|M9@Nw^RA,X8+$A9",
-      "width": 2560,
-      "height": 3712,
+      "id": 51121248,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74afb9e6-fe37-45c2-8ea1-3fe0f7a1e2a4/original=true/74afb9e6-fe37-45c2-8ea1-3fe0f7a1e2a4.jpeg",
+      "hash": "UpM87~oy~qt7?aofWBae%gj[NGfktRWBWBoL",
+      "width": 2432,
+      "height": 1664,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T04:21:06.022Z",
-      "postId": 14944565,
+      "createdAt": "2025-01-17T06:30:00.000Z",
+      "postId": 11498768,
       "stats": {
-        "cryCount": 428,
-        "laughCount": 691,
-        "likeCount": 5071,
+        "cryCount": 297,
+        "laughCount": 495,
+        "likeCount": 5533,
         "dislikeCount": 0,
-        "heartCount": 2055,
-        "commentCount": 7
+        "heartCount": 1895,
+        "commentCount": 17
       },
-      "meta": {
-        "vaes": [],
-        "extra": {},
-        "steps": 50,
-        "models": [],
-        "prompt": "iro_mugen_illu, masterpiece, ultra-detailed, action style, radical motion, extreme perspective, CivChan, purple eyes, pink hair, maid outfit, combat boots, leaping through the air, swinging a whip, vibrant colors, whimsical but dangerous scene, night shot, late night, exterior, dark alleyway, dynamic composition, Smooth Quality",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "modelIds": [],
-        "workflow": "img2img-upscale",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "Smooth Negative, low quality, blurry, text, watermark, extra limbs, deformed anatomy, unrealistic proportions, bad composition\n",
-        "civitaiResources": [
-          {
-            "weight": 1,
-            "modelVersionId": 1470541
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1470541
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1597055
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 135867
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1470551
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1195487
-          },
-          {
-            "weight": -0.5,
-            "modelVersionId": 1444863
-          },
-          {
-            "weight": 0.8,
-            "modelVersionId": 1459280
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          }
-        ],
-        "additionalResources": []
-      },
-      "username": "nemosenchou798",
-      "baseModel": "Illustrious",
+      "meta": null,
+      "username": "xtcONE",
+      "baseModel": null,
       "modelVersionIds": [
+        1137323,
+        959419,
+        947535,
         135867,
-        164821,
-        1195487,
-        1444863,
-        1459280,
-        1470541,
-        1470551,
-        1597055
+        1056404,
+        384629,
+        1032397,
+        922178
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "402|1737095400000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=402%7C1737095400000"
+    "nextCursor": "403|1752850634351",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=403%7C1752850634351"
   }
 }
