@@ -1,105 +1,97 @@
 {
   "items": [
     {
-      "id": 85860445,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/722c8e12-f0a7-4079-bd82-8c6d2dcfe7d0/original=true/722c8e12-f0a7-4079-bd82-8c6d2dcfe7d0.jpeg",
-      "hash": "UCG*pHrp5mIU00~WIUN^K*56^kxaD%E1xu$k",
-      "width": 832,
-      "height": 1216,
+      "id": 67196552,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9730c8b3-cc74-4ad6-b492-25e1797bfe97/original=true/9730c8b3-cc74-4ad6-b492-25e1797bfe97.jpeg",
+      "hash": "UCDRm;0v8^-rp_mmIUx]|M9@Nw^RA,X8+$A9",
+      "width": 2560,
+      "height": 3712,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-02T16:36:00.000Z",
-      "postId": 19055483,
+      "createdAt": "2025-04-01T04:21:06.022Z",
+      "postId": 14944565,
       "stats": {
-        "cryCount": 412,
-        "laughCount": 796,
-        "likeCount": 5162,
+        "cryCount": 428,
+        "laughCount": 691,
+        "likeCount": 5071,
         "dislikeCount": 0,
-        "heartCount": 1876,
+        "heartCount": 2055,
         "commentCount": 7
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 770533577,
-        "draft": false,
-        "steps": 28,
-        "width": 832,
-        "height": 1216,
-        "prompt": "lazypos, Elegant high heel sculpted from sponge cake layers, sole glazed with raspberry jelly, frosting piped along the heel like filigree, strawberry slice on the toe, resting on a macaron runway, golden soft lighting, pastel palette",
-        "process": "txt2img",
+        "vaes": [],
+        "extra": {},
+        "steps": 50,
+        "models": [],
+        "prompt": "iro_mugen_illu, masterpiece, ultra-detailed, action style, radical motion, extreme perspective, CivChan, purple eyes, pink hair, maid outfit, combat boots, leaping through the air, swinging a whip, vibrant colors, whimsical but dangerous scene, night shot, late night, exterior, dark alleyway, dynamic composition, Smooth Quality",
         "sampler": "Euler a",
         "cfgScale": 6,
-        "clipSkip": 2,
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "SDXL",
-        "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-07-02T1554:45.3267965Z",
-        "experimental": false,
-        "negativePrompt": "lazyneg",
+        "modelIds": [],
+        "workflow": "img2img-upscale",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "Smooth Negative, low quality, blurry, text, watermark, extra limbs, deformed anatomy, unrealistic proportions, bad composition\n",
         "civitaiResources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1910174,
-            "modelVersionName": "v5.8"
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 656553,
-            "modelVersionName": "V1"
+            "modelVersionId": 1470541
           },
           {
-            "type": "lora",
-            "weight": 1.3,
-            "modelVersionId": 135867,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "embed",
             "weight": 1,
-            "modelVersionId": 1833157,
-            "modelVersionName": "lazypos v2"
+            "modelVersionId": 1470541
           },
           {
-            "type": "embed",
             "weight": 1,
-            "modelVersionId": 1860747,
-            "modelVersionName": "lazyneg v3"
+            "modelVersionId": 1597055
           },
           {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1962350,
-            "modelVersionName": "BEST VALUE!"
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 193712,
-            "modelVersionName": "Boots Rebooted v1.0"
+            "modelVersionId": 135867
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1470551
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1195487
+          },
+          {
+            "weight": -0.5,
+            "modelVersionId": 1444863
+          },
+          {
+            "weight": 0.8,
+            "modelVersionId": 1459280
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
-        ]
+        ],
+        "additionalResources": []
       },
-      "username": "ScratchyStar",
-      "baseModel": "SDXL 1.0",
+      "username": "nemosenchou798",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
         135867,
-        193712,
-        656553,
-        1833157,
-        1860747,
-        1910174,
-        1962350
+        164821,
+        1195487,
+        1444863,
+        1459280,
+        1470541,
+        1470551,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "401|1743481266022",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=401%7C1743481266022"
+    "nextCursor": "402|1737095400000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=402%7C1737095400000"
   }
 }
