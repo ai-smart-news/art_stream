@@ -1,35 +1,45 @@
 {
   "items": [
     {
-      "id": 52023069,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/774f90da-e12b-4c37-826c-0d32a7d07862/original=true/774f90da-e12b-4c37-826c-0d32a7d07862.jpeg",
-      "hash": "UQI}R:?u~qxu9FIUads:bFjFIoRPaexuWBR*",
-      "width": 1536,
-      "height": 2752,
+      "id": 48553207,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19fd407c-0e02-4b5c-a0cb-d6cd44f120ce/original=true/19fd407c-0e02-4b5c-a0cb-d6cd44f120ce.jpeg",
+      "hash": "UUI}R[9aTKi^NFIUVrR*?^WXxFt6$zNGIpxa",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-16T17:42:21.990Z",
-      "postId": 11697143,
+      "createdAt": "2024-12-30T17:54:48.187Z",
+      "postId": 10944773,
       "stats": {
-        "cryCount": 301,
-        "laughCount": 486,
-        "likeCount": 5537,
+        "cryCount": 316,
+        "laughCount": 558,
+        "likeCount": 5446,
         "dislikeCount": 0,
-        "heartCount": 1960,
-        "commentCount": 11
+        "heartCount": 1961,
+        "commentCount": 10
       },
       "meta": {
-        "prompt": "A woman with Medusa-like snakes in her hair, close-up portrait.  Hyperrealistic style, with painterly, impressionistic brushstrokes and texture.  The woman's face has a serious, intense expression, and her eyes are striking.  Her skin is a pale, muted tone with subtle freckles and streaks of dark, bloody texture.  The snakes are a mixture of muted grays, browns, and tans, with detailed scales, and are draped over her head and neck in a flowing pattern.  Dripping, dark red blood or crimson stains appear in places, adding drama and enhancing the mythological theme.  Paint is loosely applied, yet precise in details about the texture on the face, snakes, and skin tone.  The background is a soft, muted color scheme, with splashed, watercolor-like effects in browns, beiges, and grays.  The overall composition is dramatic and evocative of a mythical creature.   Heavy use of texture and shading."
+        "seed": 188805232,
+        "Model": "juggernautXL_juggXIByRundiffusion",
+        "steps": 30,
+        "width": 896,
+        "height": 1152,
+        "prompt": "improved cinematic photo, 35mm photograph, film, professional, 4k, highly detailed,\nAn amber fragment enclosing a Human Heart,\nThe amber fragment is a smooth, slightly irregular sphere, roughly the size of a marble, with a warm golden-brown hue. Its surface is polished, gleaming softly under light, revealing a mesmerizing play of golden, honey, and orange tones. Tiny air bubbles and organic inclusions are scattered throughout, lending it a sense of antiquity and natural complexity.\nInside, a perfectly preserved Human Heart lies suspended in time, its delicate body encased in the translucent amber.\nAround the Human Heart, subtle striations and minute organic fragments, possibly plant material or dust, create a vignette that frames the insect. The amber\u2019s clarity varies in places, with some sections slightly cloudy, further accentuating the Human Heart as the focal point. The fragment feels timeless, a tiny time capsule offering a glimpse into a prehistoric world millions of years ago",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 5,
+        "scheduler": "karras",
+        "negativePrompt": "female, woman, girl",
+        "originalSampler": "dpmpp_2m"
       },
-      "username": "Tank0EL",
-      "baseModel": "Flux.1 D",
+      "username": "jjhacker",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "389|1735581288187",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=389%7C1735581288187"
+    "nextCursor": "390|1737572700000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=390%7C1737572700000"
   }
 }
