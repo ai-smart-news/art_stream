@@ -1,94 +1,33 @@
 {
   "items": [
     {
-      "id": 47963299,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e20786ff-0044-4c95-b72b-620a818c6b0f/original=true/e20786ff-0044-4c95-b72b-620a818c6b0f.jpeg",
-      "hash": "UbI#fV-;DiV@~qj[Mxt8x[bIRkof%MxuNGRj",
-      "width": 1712,
-      "height": 2200,
+      "id": 69014819,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f4bec2d-8451-43d0-a866-bdfe52a14032/original=true/6f4bec2d-8451-43d0-a866-bdfe52a14032.jpeg",
+      "hash": "U82j6^pfRQQ+mii^bGb{WAacj=n#T2XUo#n#",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-27T19:08:34.130Z",
-      "postId": 10820437,
+      "createdAt": "2025-04-09T19:16:23.524Z",
+      "postId": 15332310,
       "stats": {
-        "cryCount": 347,
-        "laughCount": 574,
-        "likeCount": 5437,
+        "cryCount": 402,
+        "laughCount": 680,
+        "likeCount": 5333,
         "dislikeCount": 0,
-        "heartCount": 1890,
-        "commentCount": 3
+        "heartCount": 1833,
+        "commentCount": 4
       },
-      "meta": {
-        "VAE": "sdxl_vae.safetensors",
-        "Size": "1072x1376",
-        "seed": 1707709222,
-        "Model": "KonbiniMix-Illustrious",
-        "steps": 30,
-        "hashes": {
-          "vae": "9d65a7d086",
-          "model": "c82003d4cb",
-          "lora:b4pes4": "e8e58db8c10b",
-          "lora:69yottea_illu": "3ac8e4e89aff",
-          "lora:HaranikalaXLP": "5b9ddcd2c300"
-        },
-        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest,<lora:HaranikalaXLP:1.2>,<lora:69yottea_illu:1>,clothes writing,dragon_embroidered,from side,69yotte4_style,1girl,solo,pale skin,long hair,detailed hands,harajuku rabbit ear jacket,cross rabbit ears, hoodie, hood up, rabbit ears, detailed fingers,floating hair, sitting, looking at viewer,text on clothes, long sleeves, grey eyes,tokkoufuku,bosozoku,clothes writing,outdoors, white footwear, shoes, grey hair, blurry, white shirt, wind,scenery view,8k,intricate details,dutch angle,fisheye,from below,\n, <lora:b4pes4:1>,sneakers,",
-        "Version": "v1.10.1-amd-17-g745b20b7",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 5,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "5b9ddcd2c300",
-            "name": "HaranikalaXLP",
-            "type": "lora",
-            "weight": 1.2
-          },
-          {
-            "hash": "3ac8e4e89aff",
-            "name": "69yottea_illu",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "e8e58db8c10b",
-            "name": "b4pes4",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "c82003d4cb",
-            "name": "KonbiniMix-Illustrious",
-            "type": "model"
-          }
-        ],
-        "Model hash": "c82003d4cb",
-        "Schedule type": "Karras",
-        "negativePrompt": "loli,young,petite,worst quality, low quality,patreon, lowres, bad anatomy, bad hands,  error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,long legs,",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.2",
-        "SD upscale overlap": "64",
-        "ADetailer mask blur": "4",
-        "SD upscale upscaler": "4x_foolhardy_Remacri",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
-      },
-      "username": "Shiiro0",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        939725,
-        1014358,
-        1209635
-      ]
+      "meta": null,
+      "username": "botrumata506",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "399|1744226183524",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=399%7C1744226183524"
+    "nextCursor": "400|1751474160000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=400%7C1751474160000"
   }
 }
