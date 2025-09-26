@@ -1,61 +1,74 @@
 {
   "items": [
     {
-      "id": 94442925,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c924b3f-51ca-4c30-ab61-7f9986d2d2de/original=true/7c924b3f-51ca-4c30-ab61-7f9986d2d2de.jpeg",
-      "hash": "UOHy5wtR0gj^PAWBZ~r?4nk9v}W.}DW=t6bb",
-      "width": 1664,
-      "height": 2432,
+      "id": 53983990,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c59ddfe-1e13-4297-b402-fc355fd930eb/original=true/4c59ddfe-1e13-4297-b402-fc355fd930eb.jpeg",
+      "hash": "ULBMulIWDioJ~BE3X8of=^IptRae?FIpofjY",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-15T17:54:06.988Z",
-      "postId": 20953765,
+      "createdAt": "2025-02-04T16:30:00.000Z",
+      "postId": 12113463,
       "stats": {
-        "cryCount": 513,
-        "laughCount": 845,
-        "likeCount": 4867,
+        "cryCount": 320,
+        "laughCount": 571,
+        "likeCount": 5584,
         "dislikeCount": 0,
-        "heartCount": 2029,
-        "commentCount": 8
+        "heartCount": 1776,
+        "commentCount": 4
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 367838046,
-        "Model": "JANKU v5.0 By JANXD",
-        "steps": 30,
-        "hashes": {
-          "model": "217daae812",
-          "embed:lazyneg": "ba21023c70",
-          "embed:lazypos": "3086669265"
-        },
-        "prompt": "lazypos, Hatsune Miku, colorful,abstract background,colorful,vibrant,glowing outline,neon,blacklight,looking at viewer, smug, half closed eyes, heart eyes, middle finger, anime",
-        "Version": "ComfyUI",
-        "sampler": "Euler a",
-        "cfgScale": 3,
+        "nsfw": true,
+        "seed": 1979982631,
+        "draft": false,
+        "steps": 25,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Improved cinematic photo, 35mm photograph, film, professional, 4k, highly detailed, aidmaMJ6.1,\nA colossal hourglass embedded in the side of a mountain, spilling glowing sand into a valley,\nThe hourglass is made of crystalline glass, its edges rimmed with intricate golden engravings that glint in the sunlight. The sand within glows with an ethereal blue light, spilling out from a crack at its base and cascading down the rocky mountain slope into the valley below, where it pools like liquid starlight.\nThe surrounding landscape is vast and rugged, with jagged cliffs and patches of wildflowers growing in defiance of the rocky terrain. The sky above is dramatic, with swirling clouds tinted in shades of amber, purple, and gray, hinting at an approaching storm.\nFlocks of tiny, glowing birds can be seen circling the hourglass, their soft light adding a magical touch to the scene. The atmosphere is a blend of grandiose and mystical, capturing a moment that feels both ancient and otherworldly, as though the hourglass has been counting time since the dawn of existence.",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-01-18T1518:08.1018987Z",
+        "civitaiResources": [
           {
-            "hash": "217daae812",
-            "name": "JANKU v5.0 By JANXD",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 981456,
+            "modelVersionName": "FLUX v0.4"
           }
-        ],
-        "Model hash": "217daae812",
-        "negativePrompt": "lazyneg"
+        ]
       },
-      "username": "janxd",
-      "baseModel": "Illustrious",
+      "username": "burnersime443",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1833157,
-        1860747,
-        1896532
+        691639,
+        720252,
+        981456
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "397|1738686600000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=397%7C1738686600000"
+    "nextCursor": "398|1735326514130",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=398%7C1735326514130"
   }
 }
