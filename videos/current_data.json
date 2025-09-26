@@ -1,72 +1,77 @@
 {
   "items": [
     {
-      "id": 85502812,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/02917822-be1f-4831-b1c1-47e6835eb8c2/original=true/02917822-be1f-4831-b1c1-47e6835eb8c2.jpeg",
-      "hash": "U78qZ=0M8x^$_NE2IB-.rCR*S~%fD%s.t5SP",
-      "width": 896,
-      "height": 1152,
+      "id": 67537144,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/841e872a-de41-4619-9725-d2e82769de0a/original=true/841e872a-de41-4619-9725-d2e82769de0a.jpeg",
+      "hash": "UBJ7LP}uD6X,RhKJ5P0KD*?bKKwO^ReoIoVZ",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-30T19:31:14.020Z",
-      "postId": 18976780,
+      "createdAt": "2025-04-02T19:35:53.399Z",
+      "postId": 15016797,
       "stats": {
-        "cryCount": 403,
-        "laughCount": 649,
-        "likeCount": 5227,
+        "cryCount": 406,
+        "laughCount": 773,
+        "likeCount": 4963,
         "dislikeCount": 0,
-        "heartCount": 1993,
-        "commentCount": 5
+        "heartCount": 2122,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 2745709515,
-        "Model": "flux1-dev-bnb-nf4-v2",
-        "steps": 30,
-        "hashes": {
-          "model": "bea01d51bd",
-          "lora:FluxMythD1gitalL1nes": "12418b5b1e56",
-          "lora:- Flux1 - soothing_atmo_V2.0": "6cb3ee7d0ffb"
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 1797281680,
+        "draft": false,
+        "extra": {
+          "remixOfId": 67443348
         },
-        "prompt": "hyperrealistic art <lora:FluxMythD1gitalL1nes:1.4> D1gitalL1nes, \nNight in the garden of the samurai castle. Moonlight breaks through the branches of cherry blossoms. In the background, there are dark silhouettes of towers and andon lanterns.\n <lora:- Flux1 - soothing_atmo_V2.0:1> atmospheric, moody, mysterious, assorted,\nNinja (Attacking):\nAt the highest point of a powerful jump, diving down at an angle of 45 degrees. The body is stretched into a string, the legs are grouped for impact.\nClassic black shinobi shozoku (ninja costume) with a mask covering the entire face except the eyes. The fabric is torn by the wind.\nA short sharp kunai or tanto (ninja dagger) is held in the right hand in a reverse grip (the blade along the forearm), pointing the tip down at the target. The blade glitters coldly in the moonlight.\nincredible speed and power of the jump. Behind him is a plume of dust and falling sakura petals, lifted by a push. \n Sharp focus on the ninja especially on the dagger and the faces. The background is slightly blurred,\nContrasting. Bright moonlight illuminates the stage from above, creating harsh shadows. The warm glow of the andon lanterns illuminates the general from below.\nFlying sakura petals, dust, perhaps sparks from the incipient movement of the general's sword. Textures of fabric, metal of armor and wood of scabbard.\nEpic, dynamic, in the style of action anime (senen) or historical manga. The emphasis is on speed, danger and skill of warriors. . extremely high-resolution details, photographic, realism pushed to extreme, fine texture, incredibly lifelike",
-        "Version": "f2.0.1v1.10.1-previous-669-gdfdcbab6",
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "resources": [
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, CivChan, artist:moriimee, 1girl  ((holding oversized pink stuffed bulbasaur toy)) crazy_eyes, ((uwu)), glowing eyes, heart-shaped_pupils , maniacal grin, laughing, hair_ribbon  magical_girl open_mouth pink_hair purple_eyes ribbon maid_headdress maid_uniform skirt smile yandere, Dynamic angle, best quality, halftone_background, pink_background, black_background, ethereal_aura,",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "Created Date": "2025-04-02T1932:04.0190254Z",
+        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, young,",
+        "civitaiResources": [
           {
-            "hash": "12418b5b1e56",
-            "name": "FluxMythD1gitalL1nes",
+            "type": "checkpoint",
+            "modelVersionId": 1528632,
+            "modelVersionName": "v1.0"
+          },
+          {
             "type": "lora",
-            "weight": 1.4
+            "weight": 1,
+            "modelVersionId": 1597055,
+            "modelVersionName": "V1"
           },
           {
-            "hash": "6cb3ee7d0ffb",
-            "name": "- Flux1 - soothing_atmo_V2.0",
-            "type": "lora"
-          },
-          {
-            "hash": "bea01d51bd",
-            "name": "flux1-dev-bnb-nf4-v2",
-            "type": "model"
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1072773,
+            "modelVersionName": "V1"
           }
-        ],
-        "Model hash": "bea01d51bd",
-        "Schedule type": "Simple",
-        "negativePrompt": "uncensored, clothes on legs, double hand, panties, overexposed, blurred details, subtitles, style, artwork, painting, picture, still, overall gray, worst quality, low quality, JPEG compression residue, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn faces, deformed, disfigured, deformed limbs, fused fingers, still picture, cluttered background, three legs, many people in the background, walking backwards, zoom in, zoom out, talking, (((small breast size))), fat,  big pussy, ((girl without head on image)), tattoo, nipples on clothes,, simplified, abstract, unrealistic, impressionistic, low resolution",
-        "Distilled CFG Scale": "3.5"
+        ]
       },
-      "username": "Nicetime",
-      "baseModel": null,
+      "username": "Imanobody213",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        856921,
-        1957771
+        1072773,
+        1528632,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "394|1743622553399",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=394%7C1743622553399"
+    "nextCursor": "395|1734471235246",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=395%7C1734471235246"
   }
 }
