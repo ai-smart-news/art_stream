@@ -13,7 +13,7 @@
       "createdAt": "2025-04-17T21:28:57.225Z",
       "postId": 1981754,
       "stats": {
-        "cryCount": 1731,
+        "cryCount": 1732,
         "laughCount": 2711,
         "likeCount": 21042,
         "dislikeCount": 0,
@@ -87,7 +87,7 @@
     }
   ],
   "metadata": {
-    "nextCursor": "362|1715376819009",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=362%7C1715376819009"
+    "nextCursor": "363|1715376819009",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=363%7C1715376819009"
   }
 }
