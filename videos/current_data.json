@@ -1,33 +1,93 @@
 {
   "items": [
     {
-      "id": 127,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ddd9312-b080-4c70-b8ae-72a3d6bfd400/original=true/2ddd9312-b080-4c70-b8ae-72a3d6bfd400.jpeg",
-      "hash": "U9Hwum%10K9t~Ba#02V@9vs.VMNJ%eWoItso",
-      "width": 512,
-      "height": 512,
+      "id": 9173928,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc242d6c-f960-4274-aa1d-f22a71e705ef/original=true/cc242d6c-f960-4274-aa1d-f22a71e705ef.jpeg",
+      "hash": "UA8N5},:Ioni~C#laKxaoznNwvx]XmRkVstR",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2023-09-22T22:26:35.777Z",
-      "postId": 55288,
+      "createdAt": "2025-04-17T21:28:57.225Z",
+      "postId": 1981754,
       "stats": {
-        "cryCount": 90,
-        "laughCount": 162,
-        "likeCount": 874,
+        "cryCount": 1732,
+        "laughCount": 2712,
+        "likeCount": 21043,
         "dislikeCount": 0,
-        "heartCount": 331,
-        "commentCount": 4
+        "heartCount": 7764,
+        "commentCount": 58
       },
-      "meta": null,
-      "username": "civitai",
-      "baseModel": "SD 1.5",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1938345220,
+        "steps": 45,
+        "prompt": "AtomicHeartTwinsCosplay in absolute darkness, profoundly no light, holding black-pink heart shaped orbstaff, \npointed hat, translucent skin, Describe the captivating scene captured in the vintage photograph featuring a Bedouin artist skillfully swallowing a massive sword in the style of Final Fantasy, amidst a mesmerized audience. Provide details about the artist's attire, the sword's intricate design, and the expressions of the onlookers as they witness this extraordinary performance., amazing quality, masterpiece, best quality, hyper detailed, ultra detailed, UHD, perfect anatomy, portrait, dof, hyper-realism, majestic, awesome, inspiring, closeup, an weathered outworn old Fantasy cape, smooth, Closeup, by Dring, rust paint peelz, atmospheric haze, cinamatic composition, soft shadows, national geographic style",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "resources": [],
+        "negativePrompt": "easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 345685
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 249861
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 258687
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 332071
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 413566
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 421757
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 426333
+          }
+        ]
+      },
+      "username": "Ajuro",
+      "baseModel": "SDXL 1.0",
+      "modelVersionIds": [
+        9208,
+        249861,
+        258687,
+        332071,
+        345685,
+        413566,
+        421757,
+        426333
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "364|1695421624983",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=364%7C1695421624983"
+    "nextCursor": "365|1715376819009",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=365%7C1715376819009"
   }
 }
