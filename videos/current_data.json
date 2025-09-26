@@ -1,88 +1,62 @@
 {
   "items": [
     {
-      "id": 44678813,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/602837e7-26f0-4bdc-8e07-11e547ee36ab/original=true/602837e7-26f0-4bdc-8e07-11e547ee36ab.jpeg",
-      "hash": "UsIO63s:W;of~WayWpj[IUayofjtNGoft7kC",
-      "width": 832,
-      "height": 1216,
+      "id": 37216672,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/842afca4-9449-4863-a2c6-d7213f390aa1/original=true/842afca4-9449-4863-a2c6-d7213f390aa1.jpeg",
+      "hash": "UTKfE$%fF}T19]kVJCsS}q=?xBt4Tc-O$%kC",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-10T03:39:12.485Z",
-      "postId": 10128449,
+      "createdAt": "2024-10-29T14:58:59.168Z",
+      "postId": 8499036,
       "stats": {
-        "cryCount": 303,
+        "cryCount": 328,
         "laughCount": 600,
-        "likeCount": 5485,
+        "likeCount": 5270,
         "dislikeCount": 0,
-        "heartCount": 1930,
-        "commentCount": 5
+        "heartCount": 2111,
+        "commentCount": 0
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": true,
-        "seed": 926532002,
-        "draft": false,
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "prompt": "aidmaimageupgrader, monki, hill, back view stave, shadow, silhouette, black and white, monochrome, red accents, dramatic lighting, atmospheric, foggy background, japanese culture, minimalist, moody, contrast, sunset glow, isolated figure, reflective pose,pscho_4rt",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
+        "seed": 2121430228,
+        "Model": "TIWM_V1",
+        "steps": 30,
+        "hashes": {
+          "model": "20bd972e5d"
+        },
+        "prompt": "(masterpiece, best quality, high quality, good quality), 1girl, solo, petite, twintails, raincoat, backpack, frilled skirt, rubber boots, blue sky, walking, on cloud, happy, humming, musical note, rainbow, sparkle, sunlight, bird, full body, pastel colors, colorful",
+        "Version": "f2.0.1v1.10.1-previous-592-g623778a3",
+        "sampler": "Euler a",
+        "cfgScale": 7,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 5,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2024-12-10T0259:16.1049837Z",
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.9,
-            "modelVersionId": 914935,
-            "modelVersionName": "ink-dynamic"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 984672,
-            "modelVersionName": "FLUX v0.3"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1072372,
-            "modelVersionName": "Psychedelic/Glitch"
+            "hash": "20bd972e5d",
+            "name": "TIWM_V1",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "20bd972e5d",
+        "Hires steps": "10",
+        "Hires upscale": "2",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "None",
+        "negativePrompt": "(bad quality, low quality, worst quality:1.4), bad anatomy, bad hands, bad feet",
+        "Hires CFG Scale": "7",
+        "Denoising strength": "0.4"
       },
-      "username": "Reisoma",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252,
-        914935,
-        984672,
-        1072372
-      ]
+      "username": "Lorim",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "387|1730213939168",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=387%7C1730213939168"
+    "nextCursor": "388|1737049341990",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=388%7C1737049341990"
   }
 }
