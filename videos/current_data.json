@@ -1,99 +1,50 @@
 {
   "items": [
     {
-      "id": 89570850,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/768c2e02-e63f-4289-9e31-84ac4eee76cd/original=true/768c2e02-e63f-4289-9e31-84ac4eee76cd.jpeg",
-      "hash": "UaF}_lM|IWt6~UIpNHt6%1WXR+oes:t6s-j@",
-      "width": 2688,
-      "height": 3840,
+      "id": 74735034,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e94aa92-d5d0-486c-a134-7064152225b4/original=true/6e94aa92-d5d0-486c-a134-7064152225b4.jpeg",
+      "hash": "U23bwByZ%hoz*0%hx^kDX9t8WCkCM_n$V@V@",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-22T01:35:00.000Z",
-      "postId": 19868476,
+      "createdAt": "2025-05-07T07:30:58.301Z",
+      "postId": 16594710,
       "stats": {
-        "cryCount": 398,
-        "laughCount": 692,
-        "likeCount": 5010,
+        "cryCount": 444,
+        "laughCount": 667,
+        "likeCount": 5103,
         "dislikeCount": 0,
-        "heartCount": 1942,
-        "commentCount": 8
+        "heartCount": 1819,
+        "commentCount": 1
       },
       "meta": {
-        "seed": 915222474,
-        "vaes": [],
-        "draft": false,
-        "extra": {},
-        "steps": 35,
-        "width": 832,
-        "height": 1216,
-        "models": [],
-        "prompt": "The sun hangs low in the sky, casting molten gold across the waves that lap gently at the crescent-shaped bay below. From the hill\u2019s lush, flowering crest, the young woman stands in stillness\u2014pale as moonlight against the vivid greens and teals of the tropical paradise around her. Her long blonde hair, nearly white in the amber glow, catches the warm breeze, trailing like silk behind her. A flowing dress of seafoam blue and ivory wraps around her like mist, the hem brushing sun-drenched grass and curling ferns.\n\nBelow, the city stretches wide along the turquoise coast, its white-stone buildings gleaming like scattered shells. Tiled roofs in coral red and aquamarine shimmer in the distance, and slender towers rise like spears into the sky. At its heart, the harbor is a tangle of ships\u2014sails furled, masts bobbing, gulls wheeling lazily above the scent of brine and spice. Beyond the port, narrow streets wind uphill toward the cliffs where the keep reigns\u2014an ancient fortress of pale stone, its banner streaming high above like a defiant flame.",
-        "process": "txt2img",
-        "sampler": "undefined",
-        "cfgScale": 7,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "modelIds": [],
-        "quantity": 2,
-        "baseModel": "Flux1",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "versionIds": [],
-        "aspectRatio": "13:19",
-        "controlNets": [],
-        "experimental": false,
-        "fluxUltraRaw": false,
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "A wide action shot taken with a phone camera during an intense battle at evening. The scene captures Ember from Elder Scrolls Online, an anthro khajiit with black and white fur, yellow glowing eyes, black hair, and a cat tail, in the middle of a devastated battlefield. She's bracing herself against a magic staff with one arm, while wiping blood from her mouth with the back of her other hand. Her leather armor is torn and scorched, her fur matted with rain and blood.\n\nAround her, ruined weapons and shattered shields are scattered across the mud and broken marble tiles.\n\nAbove the battlefield, a heavy storm brews:\n\n(left) Jagged lightning tears across the sky, illuminating Ember's fierce, defiant expression.\n\n(right) Burning wreckage glows faintly in the distance, casting eerie, flickering shadows across the ruined columns.\n\n\nFaint magical glyphs flicker and crackle across her bruised arms and gloves, barely holding their form. Her yellow eyes glow fiercely against the black storm clouds, refusing to yield.\n\nNear the bottom edge of the image, someone has quickly scrawled magical coordinates and battle notations, half-blurred by the rain.",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
         "civitaiResources": [
           {
+            "type": "checkpoint",
             "weight": 1,
-            "modelVersionId": 691639
-          },
-          {
-            "weight": 0.6,
-            "modelVersionId": 863655
-          },
-          {
-            "weight": 0.5,
-            "modelVersionId": 1249246
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1376386
-          },
-          {
-            "weight": 0.75,
-            "modelVersionId": 1596151
-          },
-          {
-            "weight": 0.75,
-            "modelVersionId": 1940311
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "modelVersionId": 1733399
           }
-        ],
-        "additionalResources": [],
-        "fluxUltraAspectRatio": "4"
+        ]
       },
-      "username": "Uberocarina",
-      "baseModel": "Flux.1 D",
+      "username": "EmberTheSorcerer",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        164821,
-        691639,
-        863655,
-        1249246,
-        1376386,
-        1596151,
-        1940311
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "433|1746603058301",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=433%7C1746603058301"
+    "nextCursor": "434|1743627502942",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=434%7C1743627502942"
   }
 }
