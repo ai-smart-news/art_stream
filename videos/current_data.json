@@ -1,68 +1,51 @@
 {
   "items": [
     {
-      "id": 95753049,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd2b42a9-d105-4f2e-95ef-d270997ab82b/original=true/cd2b42a9-d105-4f2e-95ef-d270997ab82b.jpeg",
-      "hash": "UZKA4x?G9Zoz^*-pt7jZx[%2xuWB~Vs:RPRk",
-      "width": 2688,
-      "height": 3840,
+      "id": 63708512,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac2f768d-e637-424e-976e-6bc561e8f7d4/original=true/ac2f768d-e637-424e-976e-6bc561e8f7d4.jpeg",
+      "hash": "U9AwrX:+GiyrHWNGu5%g00W8x|RqzBR:XoMJ",
+      "width": 768,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-22T22:48:17.173Z",
-      "postId": 21238886,
+      "createdAt": "2025-03-15T19:32:48.504Z",
+      "postId": 14210733,
       "stats": {
-        "cryCount": 431,
-        "laughCount": 594,
-        "likeCount": 5179,
+        "cryCount": 407,
+        "laughCount": 707,
+        "likeCount": 4910,
         "dislikeCount": 0,
-        "heartCount": 1770,
-        "commentCount": 2
+        "heartCount": 1948,
+        "commentCount": 10
       },
       "meta": {
-        "seed": 620297138,
-        "draft": false,
-        "extra": {},
-        "steps": 31,
-        "width": 832,
-        "height": 1216,
-        "prompt": "masterpiece, newest,absurdres,incredibly absurdres, best quality, amazing quality, very aesthetic,\n1girl, standing under streetlamp, translucent blouse, tight skirt,tousled hair, (double_exposure:2), (blending:2.5), mountain, silhouette, tree, colorful, ",
-        "process": "txt2img",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "experimental": false,
-        "negativePrompt": "worst quality, bad quality, low quality, anatomical nonsense, bad anatomy,interlocked fingers, extra fingers,watermark, jacket, screen, phone, ",
-        "civitaiResources": [
-          {
-            "weight": 1,
-            "modelVersionId": 2069051
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          }
-        ]
+        "seed": 2730723599,
+        "vaes": [],
+        "comfy": "{\"prompt\": {\"10001\": {\"class_type\": \"ECHOCheckpointLoaderSimple\", \"inputs\": {\"ckpt_name\": \"EMS-656956-FP8-EMS.safetensors\"}, \"_properties\": null}, \"10012\": {\"class_type\": \"LoraTagLoader\", \"inputs\": {\"clip\": [\"10001\", 1], \"model\": [\"10001\", 0], \"text\": \"<lora:EMS-788744-FP8-EMS.safetensors:0.750000>\"}, \"_properties\": null}, \"10015\": {\"class_type\": \"EmptySD3LatentImage\", \"inputs\": {\"batch_size\": 1, \"height\": 1152, \"width\": 768}, \"_properties\": null}, \"10026\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10012\", 1], \"text\": \"A tiny alien gecko with translucent, crystalline skin that refracts light into dazzling rainbow colors. It has six delicate limbs, two of which are curled in a cute resting position. Its tail has a jelly-like glow, shifting in hues of cyan and fuchsia. It clings lightly to the person\\u00e2\\u0080\\u0099s fingertip, looking up with bright, intelligent eyes. The background is a blurred futuristic cityscape, filled with neon holograms and colorful bokeh lights.\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10027\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10012\", 1], \"text\": \"\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10028\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"10026\", 0], \"guidance\": 3.5}, \"_properties\": null}, \"11002\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"ensd\": 31337, \"latent_image\": [\"10015\", 0], \"model\": [\"10012\", 0], \"negative\": [\"10027\", 0], \"positive\": [\"10028\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 2730723599, \"seed_mode\": \"A1111\", \"steps\": 25}, \"_properties\": null}, \"11019\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"11002\", 0], \"vae\": [\"10001\", 2]}, \"_properties\": null}, \"12005\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"840932769671590030\", \"images\": [\"11019\", 0]}, \"_properties\": null}}, \"workflow\": undefined}",
+        "steps": 25,
+        "width": 768,
+        "height": 1152,
+        "models": [],
+        "prompt": "A tiny alien gecko with translucent, crystalline skin that refracts light into dazzling rainbow colors. It has six delicate limbs, two of which are curled in a cute resting position. Its tail has a jelly-like glow, shifting in hues of cyan and fuchsia. It clings lightly to the person\u00e2\u0080\u0099s fingertip, looking up with bright, intelligent eyes. The background is a blurred futuristic cityscape, filled with neon holograms and colorful bokeh lights.",
+        "denoise": 1,
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "modelIds": [],
+        "scheduler": "simple",
+        "upscalers": [],
+        "versionIds": [],
+        "controlNets": [],
+        "additionalResources": []
       },
-      "username": "klaabu",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        164821,
-        2069051
-      ]
+      "username": "mommymia",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "444|1742067168504",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=444%7C1742067168504"
+    "nextCursor": "445|1724340893857",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=445%7C1724340893857"
   }
 }
