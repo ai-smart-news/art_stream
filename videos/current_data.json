@@ -1,66 +1,84 @@
 {
   "items": [
     {
-      "id": 51384714,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f26dd8c5-18c4-459a-8456-c1a70c7007a7/original=true/f26dd8c5-18c4-459a-8456-c1a70c7007a7.jpeg",
-      "hash": "U41#0seoL%aLafZ%kBafQ9b[uhkCo2gMVtf*",
-      "width": 1328,
-      "height": 1944,
+      "id": 69080671,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d40b223-663f-4fad-8dc5-0d29071a2ba5/original=true/7d40b223-663f-4fad-8dc5-0d29071a2ba5.jpeg",
+      "hash": "UIDlfvxs02M|~p%1IVIVt6xtXTIVNGt6xtRk",
+      "width": 1440,
+      "height": 2304,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-13T15:49:22.306Z",
-      "postId": 11557573,
+      "createdAt": "2025-04-10T03:19:48.352Z",
+      "postId": 15348587,
       "stats": {
-        "cryCount": 328,
-        "laughCount": 596,
-        "likeCount": 5280,
+        "cryCount": 395,
+        "laughCount": 668,
+        "likeCount": 4960,
         "dislikeCount": 0,
-        "heartCount": 1745,
-        "commentCount": 7
+        "heartCount": 1920,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 156294947311005,
-        "Model": "FLUX1-Dev",
-        "steps": 40,
+        "Size": "1440x2304",
+        "seed": 56926761,
+        "Model": "flux1-dev",
+        "steps": 25,
         "hashes": {
-          "model": "",
-          "LORA:Glitchcore_Flux.safetensors": "4e895334d4",
-          "LORA:Dark side of light.safetensors": "3d443b88f4",
-          "LORA:aidmaFLUXPro1.1-FLUX-v0.3.safetensors": "3f3e39bb45"
+          "model": "3f97fdc57a",
+          "lora:aidmaMJ6.1v0.4": "88027fe63c88",
+          "lora:detailifier_sd3.5": "4abeda69c3f9"
         },
-        "prompt": "A hyper-detailed, futuristic close-up of a human fingertip illuminated by a soft green glow, revealing a complex, holographic circuit pattern etched into the skin, resembling a digital fingerprint. The intricate lines and nodes of the circuitry shimmer with a faint white and blue light, symbolizing advanced biometric technology. Surrounding the finger, a semi-transparent user interface displays scanning progress indicators, synchronization bars, and faint text overlays, adding to the high-tech aesthetic. The background is softly blurred, suggesting a sleek, digital environment while emphasizing the focus on the finger and its augmented details. <lora:aidmaFLUXPro1.1-FLUX-v0.3.safetensors:1.0>,  <lora:Dark side of light.safetensors:0.55>, <lora:Glitchcore_Flux.safetensors:0.8>,",
-        "Version": "ComfyUI",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 3.5,
-        "clipSkip": 1,
+        "prompt": "an ornate floating airship garden where Victorian ladies in pastel dresses sip tea surrounded by potted flowers and hovering brass dragonflies,view opens up to reveal an immense gear-filled city below,steam rising between rooftops,glowing signs and rotating cogs creating rhythmic shadows,vibrant lighting with backlit clouds,vivid storybook style,\n<lora:aidmaMJ6.1v0.4:0.6>,aidmaMJ6.1,<lora:detailifier_sd3.5:0.8>,detailifier,",
+        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
+        "sampler": "Euler",
+        "Module 1": "flux_ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "Mask blur": "2",
         "resources": [
           {
-            "name": "aidmaFLUXPro1.1-FLUX-v0.3.safetensors",
+            "hash": "88027fe63c88",
+            "name": "aidmaMJ6.1v0.4",
             "type": "lora",
-            "weight": 1
+            "weight": 0.6
           },
           {
-            "name": "Glitchcore_Flux.safetensors",
+            "hash": "4abeda69c3f9",
+            "name": "detailifier_sd3.5",
             "type": "lora",
             "weight": 0.8
+          },
+          {
+            "hash": "3f97fdc57a",
+            "name": "flux1-dev",
+            "type": "model"
           }
         ],
-        "Model hash": ""
+        "Model hash": "3f97fdc57a",
+        "Schedule type": "Simple",
+        "Denoising strength": "0.5",
+        "Distilled CFG Scale": "3.5",
+        "Soft inpainting enabled": "True",
+        "Soft inpainting schedule bias": "1",
+        "Soft inpainting mask influence": "0",
+        "Soft inpainting difference contrast": "2",
+        "Soft inpainting difference threshold": "0.5",
+        "Soft inpainting preservation strength": "0.5",
+        "Soft inpainting transition contrast boost": "4"
       },
-      "username": "zidius",
+      "username": "karlcrane2015",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1215423,
-        1244911,
-        877992
+        981456,
+        1031573
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "454|1744255188352",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=454%7C1744255188352"
+    "nextCursor": "455|1728900389796",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=455%7C1728900389796"
   }
 }
