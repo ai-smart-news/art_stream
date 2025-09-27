@@ -1,84 +1,37 @@
 {
   "items": [
     {
-      "id": 69080671,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d40b223-663f-4fad-8dc5-0d29071a2ba5/original=true/7d40b223-663f-4fad-8dc5-0d29071a2ba5.jpeg",
-      "hash": "UIDlfvxs02M|~p%1IVIVt6xtXTIVNGt6xtRk",
-      "width": 1440,
-      "height": 2304,
+      "id": 34532348,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ce785bd-8bc4-429a-8f32-a243cec20c53/original=true/5ce785bd-8bc4-429a-8f32-a243cec20c53.jpeg",
+      "hash": "UAAKgWXT4TVr.mx]McIU4otRtRMx-pxuM|RP",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-10T03:19:48.352Z",
-      "postId": 15348587,
+      "createdAt": "2024-10-14T10:06:29.796Z",
+      "postId": 7889935,
       "stats": {
-        "cryCount": 395,
-        "laughCount": 668,
-        "likeCount": 4960,
+        "cryCount": 454,
+        "laughCount": 609,
+        "likeCount": 5054,
         "dislikeCount": 0,
-        "heartCount": 1920,
-        "commentCount": 4
+        "heartCount": 1814,
+        "commentCount": 49
       },
-      "meta": {
-        "Size": "1440x2304",
-        "seed": 56926761,
-        "Model": "flux1-dev",
-        "steps": 25,
-        "hashes": {
-          "model": "3f97fdc57a",
-          "lora:aidmaMJ6.1v0.4": "88027fe63c88",
-          "lora:detailifier_sd3.5": "4abeda69c3f9"
-        },
-        "prompt": "an ornate floating airship garden where Victorian ladies in pastel dresses sip tea surrounded by potted flowers and hovering brass dragonflies,view opens up to reveal an immense gear-filled city below,steam rising between rooftops,glowing signs and rotating cogs creating rhythmic shadows,vibrant lighting with backlit clouds,vivid storybook style,\n<lora:aidmaMJ6.1v0.4:0.6>,aidmaMJ6.1,<lora:detailifier_sd3.5:0.8>,detailifier,",
-        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
-        "sampler": "Euler",
-        "Module 1": "flux_ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "Mask blur": "2",
-        "resources": [
-          {
-            "hash": "88027fe63c88",
-            "name": "aidmaMJ6.1v0.4",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "4abeda69c3f9",
-            "name": "detailifier_sd3.5",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "3f97fdc57a",
-            "name": "flux1-dev",
-            "type": "model"
-          }
-        ],
-        "Model hash": "3f97fdc57a",
-        "Schedule type": "Simple",
-        "Denoising strength": "0.5",
-        "Distilled CFG Scale": "3.5",
-        "Soft inpainting enabled": "True",
-        "Soft inpainting schedule bias": "1",
-        "Soft inpainting mask influence": "0",
-        "Soft inpainting difference contrast": "2",
-        "Soft inpainting difference threshold": "0.5",
-        "Soft inpainting preservation strength": "0.5",
-        "Soft inpainting transition contrast boost": "4"
-      },
-      "username": "karlcrane2015",
+      "meta": null,
+      "username": "AmberFog",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        981456,
-        1031573
+        691639,
+        720252,
+        803128
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "455|1728900389796",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=455%7C1728900389796"
+    "nextCursor": "456|1757322117162",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=456%7C1757322117162"
   }
 }
