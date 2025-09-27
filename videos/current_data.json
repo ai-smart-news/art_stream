@@ -1,94 +1,60 @@
 {
   "items": [
     {
-      "id": 90971548,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a06553c8-3805-4423-9d85-f972b2fe9a41/original=true/a06553c8-3805-4423-9d85-f972b2fe9a41.jpeg",
-      "hash": "U24xrTog9GxuInM{jbxuIAMxn$tR?wxuR5M{",
-      "width": 1040,
-      "height": 1520,
+      "id": 58447129,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67a585ba-fa75-446e-81dc-3f71d0a0ebec/original=true/67a585ba-fa75-446e-81dc-3f71d0a0ebec.jpeg",
+      "hash": "UDE{?m-;?]??Vu?vRY.69=D-MO%JyND$spV=",
+      "width": 1344,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-28T20:30:00.000Z",
-      "postId": 20174920,
+      "createdAt": "2025-02-17T20:06:20.602Z",
+      "postId": 13077821,
       "stats": {
-        "cryCount": 334,
-        "laughCount": 634,
-        "likeCount": 4824,
+        "cryCount": 372,
+        "laughCount": 707,
+        "likeCount": 5126,
         "dislikeCount": 0,
-        "heartCount": 2123,
-        "commentCount": 4
+        "heartCount": 1708,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 535140843,
-        "Model": "waiNSFWIllustrious_v140",
+        "VAE": "flux1DevVAE.safetensors",
+        "seed": 1105631991140159,
+        "Model": "flux_dev.safetensors",
         "steps": 30,
         "hashes": {
-          "model": "bdb59bac77",
-          "lora:114558v4df2fsdf5": "66fa452c3a7d",
-          "lora:Shiiro0_Sinozick": "96c0bc7e3269",
-          "lora:ChronoKnight_Neurocore_Shadow_Circuit": "88e247aa8c3d"
+          "vae": "f5b59a2685",
+          "model": "4610115bb0",
+          "lora:Chocolate_Style_-_FLUX": "31d6891eef"
         },
-        "prompt": "1woman, sexy, serious, confident, focused, tense, piercing gaze, looking at viewer, close up, beautiful, intense, \nforshortening,\ndark background, fantasy setting, magical, \nsubtle horror, scary, dangerous, dark, evil, monster, two-faced, tilted, dutch angle, reaching for viewer, clawed hand, claws, hand_focus,\ntwo- face, old and young, left side young, right side old,, masterpiece, best_quality, amazing_quality, very_aesthetic, 8k, high_quality, highres, absurdres, subject_focus,, blurry background, detailed shadows, atmospheric haze, ambient occlusion, shallow depth of field,\nfilm grain, vignette, motion blur, chromatic aberration,, detailed eyes, perfect eyes, realistic eyes,, 15546+456868, in the style of cksc, Sinozick_illu, <lora:114558v4df2fsdf5:0.25> <lora:ChronoKnight_Neurocore_Shadow_Circuit:0.25> <lora:Shiiro0_Sinozick:0.5>",
-        "Version": "v1.10.1",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "clipSkip": 2,
+        "prompt": "chocolate style.  The image presents a close-up view of a chocolate cricket, meticulously crafted with attention to detail. The cricket is perched on a single leaf, which adds a touch of realism to the scene. The leaf, adorned with small veins and a vibrant green color, contrasts beautifully with the rich brown hue of the chocolate cricket.\nThe cricket itself is a delightful treat for the eyes. It has been made from what appears to be dark chocolate, giving it a glossy finish that enhances its visual appeal. The cricket's body and legs are clearly visible, while its antennae and wings are slightly less distinct. This gives the impression of a small creature poised in motion, ready to spring into action at any moment.\nThe background is blurred, ensuring that the focus remains solely on the chocolate cricket and its leafy perch. This effect creates a sense of depth and perspective, making the image appear even more lifelike and realistic. Overall, this image captures the essence of a chocolate cricket in an eye-catching and detailed manner.",
+        "sampler": "euler_beta",
         "resources": [
           {
-            "hash": "66fa452c3a7d",
-            "name": "114558v4df2fsdf5",
-            "type": "lora",
-            "weight": 0.25
-          },
-          {
-            "hash": "88e247aa8c3d",
-            "name": "ChronoKnight_Neurocore_Shadow_Circuit",
-            "type": "lora",
-            "weight": 0.25
-          },
-          {
-            "hash": "96c0bc7e3269",
-            "name": "Shiiro0_Sinozick",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "hash": "bdb59bac77",
-            "name": "waiNSFWIllustrious_v140",
+            "hash": "4610115bb0",
+            "name": "flux_dev.safetensors",
             "type": "model"
           }
         ],
-        "Model hash": "bdb59bac77",
-        "Hires steps": "25",
-        "Hires upscale": "1.25",
-        "Schedule type": "Karras",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "negativePrompt": "bad_quality, worst_quality, worst_detail, sketch, censor, poorly_detailed, jpeg_artifacts, (signature, watermark:1.4), print, logo, loli, minor, underage, child,",
-        "ADetailer model": "face_yolov9c.pt",
-        "ADetailer version": "25.3.0",
-        "Denoising strength": "0.45",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
+        "Model hash": "4610115bb0",
+        "Lora_0 Model hash": "31d6891eef",
+        "Lora_0 Model name": "Chocolate_Style_-_FLUX.safetensors",
+        "Lora_0 Strength clip": "1",
+        "Lora_0 Strength model": "1"
       },
-      "username": "AmurisGen",
-      "baseModel": "Illustrious",
+      "username": "Standspurfahrer",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1195582,
-        1380520,
-        1495543,
-        1761560
+        1422761,
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "458|1739822780602",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=458%7C1739822780602"
+    "nextCursor": "459|1751271170900",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=459%7C1751271170900"
   }
 }
