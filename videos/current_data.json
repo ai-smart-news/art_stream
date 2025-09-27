@@ -1,80 +1,33 @@
 {
   "items": [
     {
-      "id": 82654393,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/351408e1-2728-4e5a-b5ba-eaa1fecaea5a/original=true/351408e1-2728-4e5a-b5ba-eaa1fecaea5a.jpeg",
-      "hash": "UbFF7]GHIWrp~TJCIWr;$yRkM}xCaxWVf+s.",
-      "width": 832,
-      "height": 1216,
+      "id": 58362161,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f53e249-1504-4bbd-9fc0-0f4ba52979bc/original=true/1f53e249-1504-4bbd-9fc0-0f4ba52979bc.jpeg",
+      "hash": "UhHCG;Rj9Fxu~qWBRjj[ozt7M{WBIUjZRjay",
+      "width": 1920,
+      "height": 3360,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-16T11:22:09.724Z",
-      "postId": 18358242,
+      "createdAt": "2025-02-17T10:15:17.959Z",
+      "postId": 13060440,
       "stats": {
-        "cryCount": 375,
-        "laughCount": 719,
-        "likeCount": 5263,
+        "cryCount": 417,
+        "laughCount": 587,
+        "likeCount": 5359,
         "dislikeCount": 0,
-        "heartCount": 1834,
+        "heartCount": 1815,
         "commentCount": 12
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 1152828888,
-        "draft": false,
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Highly detailed, left hand side white smoke and fog/right hand side lava fire and ashes highly cinematic, close-up image of a goddess cat over the fractal fog world, perfect composition, dark colours, green leaves, forest, lots of details, flowers, metallic ink, beautifully lit, fire and smoke, a fine art painting by drew struzan and karol bak, gothic art, dark and mysterious, in the playful scribble drawing style. triadic complementary colors, dark and moody surreal nightmare of an eerie laugh, a mouth distorted, wide grin, and full of sharp nails, in the realm of the damned dreaded souls, teal and orange color grading, yellow abstract geometric gradients stain the orangish background",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-06-16T0914:20.1911357Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 747534,
-            "modelVersionName": "Flux.1 D v1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1249246,
-            "modelVersionName": "FLUX v0.5"
-          }
-        ]
-      },
-      "username": "Graf137",
+      "meta": null,
+      "username": "Clear_Note",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252,
-        747534,
-        1249246
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "408|1739787317959",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=408%7C1739787317959"
+    "nextCursor": "409|1755626400000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=409%7C1755626400000"
   }
 }
