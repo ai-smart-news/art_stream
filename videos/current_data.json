@@ -1,71 +1,76 @@
 {
   "items": [
     {
-      "id": 34583909,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26144282-7089-4cb7-b51c-9ace016f17a0/original=true/26144282-7089-4cb7-b51c-9ace016f17a0.jpeg",
-      "hash": "UcL;g7t6^+s:_NoenNbH_3j[RPoejFWVR+WB",
-      "width": 768,
-      "height": 1344,
+      "id": 81280874,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9afb9eb8-e0ed-44f2-a2fc-8f304c4e7f55/original=true/9afb9eb8-e0ed-44f2-a2fc-8f304c4e7f55.jpeg",
+      "hash": "UTKm0E^l9aE1}@RjE1a$iwjF$*%1%MWVRjj[",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-14T17:16:45.287Z",
-      "postId": 7902386,
+      "createdAt": "2025-06-09T09:24:05.005Z",
+      "postId": 18053715,
       "stats": {
-        "cryCount": 594,
-        "laughCount": 1115,
-        "likeCount": 4695,
+        "cryCount": 344,
+        "laughCount": 647,
+        "likeCount": 5203,
         "dislikeCount": 0,
-        "heartCount": 1690,
-        "commentCount": 50
+        "heartCount": 1882,
+        "commentCount": 6
       },
       "meta": {
-        "seed": 8008550,
-        "vaes": [
-          "ae.sft"
-        ],
-        "comfy": "{\"prompt\": {\"1\": {\"inputs\": {\"unet_name\": \"flux\\\\flux1-dev.sft\", \"weight_dtype\": \"fp8_e4m3fn\"}, \"class_type\": \"UNETLoader\"}, \"2\": {\"inputs\": {\"vae_name\": \"ae.sft\"}, \"class_type\": \"VAELoader\"}, \"3\": {\"inputs\": {\"text\": \"cy04, a book titled \\\"The Search For More Buzz\\\", an illustration of a man working at a computer in a dark room Text at the top \\\"Choose from over 59 possible endings!\\\"\", \"clip\": [\"13\", 0]}, \"class_type\": \"CLIPTextEncode\"}, \"4\": {\"inputs\": {\"text\": \"\", \"clip\": [\"13\", 0]}, \"class_type\": \"CLIPTextEncode\"}, \"5\": {\"inputs\": {\"guidance\": 3, \"conditioning\": [\"3\", 0]}, \"class_type\": \"FluxGuidance\"}, \"7\": {\"inputs\": {\"seed\": [\"44\", 3], \"steps\": 25, \"cfg\": 1.0, \"sampler_name\": \"euler\", \"scheduler\": \"beta\", \"denoise\": 1.0, \"model\": [\"45\", 0], \"positive\": [\"3\", 0], \"negative\": [\"43\", 0], \"latent_image\": [\"8\", 0]}, \"class_type\": \"KSampler\"}, \"8\": {\"inputs\": {\"width\": [\"9\", 0], \"height\": [\"10\", 0], \"batch_size\": 1}, \"class_type\": \"EmptyLatentImage\"}, \"9\": {\"inputs\": {\"int\": 768}, \"class_type\": \"Primitive integer [Crystools]\"}, \"10\": {\"inputs\": {\"int\": 1344}, \"class_type\": \"Primitive integer [Crystools]\"}, \"11\": {\"inputs\": {\"samples\": [\"7\", 0], \"vae\": [\"2\", 0]}, \"class_type\": \"VAEDecode\"}, \"12\": {\"inputs\": {\"filename_prefix\": \"Flux_Stream\\\\flux\", \"images\": [\"11\", 0]}, \"class_type\": \"SaveImage\"}, \"13\": {\"inputs\": {\"clip_name1\": \"t5xxl_fp8_e4m3fn.safetensors\", \"clip_name2\": \"clip_l.safetensors\", \"type\": \"flux\"}, \"class_type\": \"DualCLIPLoader\"}, \"43\": {\"inputs\": {\"conditioning\": [\"4\", 0]}, \"class_type\": \"ConditioningZeroOut\"}, \"44\": {\"inputs\": {\"seed\": 8008550}, \"class_type\": \"Seed\"}, \"45\": {\"inputs\": {\"lora_name\": \"flux\\\\private\\\\purz-cy04-choose_your_own_adventure.safetensors\", \"strength_model\": 1.0, \"model\": [\"1\", 0]}, \"class_type\": \"LoraLoaderModelOnly\"}}, \"workflow\": {\"last_node_id\": 48, \"last_link_id\": 115, \"nodes\": [{\"id\": 2, \"type\": \"VAELoader\", \"pos\": {\"0\": 140, \"1\": 580}, \"size\": {\"0\": 315, \"1\": 58}, \"flags\": {}, \"order\": 0, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"VAE\", \"type\": \"VAE\", \"links\": [9, 97], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"VAELoader\"}, \"widgets_values\": [\"ae.sft\"], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 13, \"type\": \"DualCLIPLoader\", \"pos\": {\"0\": 140, \"1\": 690}, \"size\": {\"0\": 315, \"1\": 106}, \"flags\": {}, \"order\": 1, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [12, 13], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"DualCLIPLoader\"}, \"widgets_values\": [\"t5xxl_fp8_e4m3fn.safetensors\", \"clip_l.safetensors\", \"flux\"], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 11, \"type\": \"VAEDecode\", \"pos\": {\"0\": 1050, \"1\": 950}, \"size\": {\"0\": 210, \"1\": 46}, \"flags\": {}, \"order\": 14, \"mode\": 0, \"inputs\": [{\"name\": \"samples\", \"type\": \"LATENT\", \"link\": 10}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 9}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [56], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"VAEDecode\"}, \"widgets_values\": [], \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 40, \"type\": \"LatentUpscaleBy\", \"pos\": {\"0\": 1670, \"1\": 280}, \"size\": {\"0\": 315, \"1\": 82}, \"flags\": {\"collapsed\": false}, \"order\": 15, \"mode\": 4, \"inputs\": [{\"name\": \"samples\", \"type\": \"LATENT\", \"link\": 90}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": [91], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LatentUpscaleBy\"}, \"widgets_values\": [\"nearest-exact\", 1.5], \"color\": \"#323\", \"bgcolor\": \"#535\"}, {\"id\": 1, \"type\": \"UNETLoader\", \"pos\": {\"0\": 140, \"1\": 440}, \"size\": {\"0\": 315, \"1\": 82}, \"flags\": {}, \"order\": 2, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [107, 110], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"UNETLoader\"}, \"widgets_values\": [\"flux\\\\flux1-dev.sft\", \"fp8_e4m3fn\"], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 44, \"type\": \"Seed\", \"pos\": {\"0\": 140, \"1\": 230}, \"size\": {\"0\": 315, \"1\": 142}, \"flags\": {}, \"order\": 3, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"seed\", \"type\": \"SEED\", \"links\": null, \"shape\": 3}, {\"name\": \"number\", \"type\": \"NUMBER\", \"links\": null, \"shape\": 3}, {\"name\": \"float\", \"type\": \"FLOAT\", \"links\": null, \"shape\": 3}, {\"name\": \"int\", \"type\": \"INT\", \"links\": [108, 109], \"slot_index\": 3, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"Seed\"}, \"widgets_values\": [8008550, \"increment\"], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 42, \"type\": \"VAEDecode\", \"pos\": {\"0\": 1770, \"1\": 960}, \"size\": {\"0\": 210, \"1\": 46}, \"flags\": {}, \"order\": 18, \"mode\": 4, \"inputs\": [{\"name\": \"samples\", \"type\": \"LATENT\", \"link\": 96}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 97}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [98], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"VAEDecode\"}, \"widgets_values\": [], \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 8, \"type\": \"EmptyLatentImage\", \"pos\": {\"0\": 950, \"1\": 270}, \"size\": {\"0\": 320, \"1\": 110}, \"flags\": {}, \"order\": 9, \"mode\": 0, \"inputs\": [{\"name\": \"width\", \"type\": \"INT\", \"link\": 5, \"widget\": {\"name\": \"width\"}}, {\"name\": \"height\", \"type\": \"INT\", \"link\": 6, \"widget\": {\"name\": \"height\"}}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": [7], \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"EmptyLatentImage\"}, \"widgets_values\": [768, 1344, 1], \"color\": \"#323\", \"bgcolor\": \"#535\"}, {\"id\": 39, \"type\": \"KSampler\", \"pos\": {\"0\": 1670, \"1\": 430}, \"size\": {\"0\": 320, \"1\": 470}, \"flags\": {}, \"order\": 17, \"mode\": 4, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 107}, {\"name\": \"positive\", \"type\": \"CONDITIONING\", \"link\": 101}, {\"name\": \"negative\", \"type\": \"CONDITIONING\", \"link\": 106}, {\"name\": \"latent_image\", \"type\": \"LATENT\", \"link\": 91}, {\"name\": \"seed\", \"type\": \"INT\", \"link\": 109, \"widget\": {\"name\": \"seed\"}}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": [96], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"KSampler\"}, \"widgets_values\": [688059666516907, \"fixed\", 20, 1, \"euler\", \"beta\", 0.5], \"color\": \"#323\", \"bgcolor\": \"#535\"}, {\"id\": 41, \"type\": \"SaveImage\", \"pos\": {\"0\": 2030, \"1\": 360}, \"size\": {\"0\": 360, \"1\": 480}, \"flags\": {}, \"order\": 19, \"mode\": 4, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 98}], \"outputs\": [], \"properties\": {}, \"widgets_values\": [\"Flux_Stream\\\\flux_2nd\"], \"color\": \"#223\", \"bgcolor\": \"#335\"}, {\"id\": 4, \"type\": \"CLIPTextEncode\", \"pos\": {\"0\": 500, \"1\": 710}, \"size\": {\"0\": 400, \"1\": 76}, \"flags\": {}, \"order\": 6, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 12}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [104], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}, \"widgets_values\": [\"\"], \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 43, \"type\": \"ConditioningZeroOut\", \"pos\": {\"0\": 610, \"1\": 850}, \"size\": {\"0\": 290, \"1\": 30}, \"flags\": {}, \"order\": 10, \"mode\": 0, \"inputs\": [{\"name\": \"conditioning\", \"type\": \"CONDITIONING\", \"link\": 104}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [105, 106], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"ConditioningZeroOut\"}, \"widgets_values\": [], \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 5, \"type\": \"FluxGuidance\", \"pos\": {\"0\": 580, \"1\": 590}, \"size\": {\"0\": 317.4000244140625, \"1\": 58}, \"flags\": {}, \"order\": 11, \"mode\": 0, \"inputs\": [{\"name\": \"conditioning\", \"type\": \"CONDITIONING\", \"link\": 1}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [101], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"FluxGuidance\"}, \"widgets_values\": [3], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 46, \"type\": \"LoraLoaderModelOnly\", \"pos\": {\"0\": 510, \"1\": 280}, \"size\": {\"0\": 315, \"1\": 82}, \"flags\": {}, \"order\": 12, \"mode\": 4, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 112}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [113], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LoraLoaderModelOnly\"}, \"widgets_values\": [\"flux\\\\private\\\\purz.safetensors\", 0.75]}, {\"id\": 7, \"type\": \"KSampler\", \"pos\": {\"0\": 950, \"1\": 430}, \"size\": {\"0\": 320, \"1\": 470}, \"flags\": {}, \"order\": 13, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 113}, {\"name\": \"positive\", \"type\": \"CONDITIONING\", \"link\": 115}, {\"name\": \"negative\", \"type\": \"CONDITIONING\", \"link\": 105}, {\"name\": \"latent_image\", \"type\": \"LATENT\", \"link\": 7}, {\"name\": \"seed\", \"type\": \"INT\", \"link\": 108, \"widget\": {\"name\": \"seed\"}}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": [10, 90], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"KSampler\"}, \"widgets_values\": [1086272534326984, \"fixed\", 25, 1, \"euler\", \"beta\", 1], \"color\": \"#323\", \"bgcolor\": \"#535\"}, {\"id\": 12, \"type\": \"SaveImage\", \"pos\": {\"0\": 1290, \"1\": 570}, \"size\": {\"0\": 370, \"1\": 320}, \"flags\": {}, \"order\": 16, \"mode\": 0, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 56}], \"outputs\": [], \"properties\": {}, \"widgets_values\": [\"Flux_Stream\\\\flux\"], \"color\": \"#223\", \"bgcolor\": \"#335\"}, {\"id\": 45, \"type\": \"LoraLoaderModelOnly\", \"pos\": {\"0\": 500, \"1\": 140}, \"size\": {\"0\": 315, \"1\": 82}, \"flags\": {}, \"order\": 8, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 110}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [112], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LoraLoaderModelOnly\"}, \"widgets_values\": [\"flux\\\\private\\\\purz-cy04-choose_your_own_adventure.safetensors\", 1]}, {\"id\": 9, \"type\": \"Primitive integer [Crystools]\", \"pos\": {\"0\": 140, \"1\": 850}, \"size\": {\"0\": 315, \"1\": 58}, \"flags\": {}, \"order\": 4, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"int\", \"type\": \"INT\", \"links\": [5], \"slot_index\": 0, \"shape\": 3}], \"title\": \"Width\", \"properties\": {\"Node name for S&R\": \"Primitive integer [Crystools]\"}, \"widgets_values\": [768], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 10, \"type\": \"Primitive integer [Crystools]\", \"pos\": {\"0\": 140, \"1\": 970}, \"size\": {\"0\": 315, \"1\": 58}, \"flags\": {}, \"order\": 5, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"int\", \"type\": \"INT\", \"links\": [6], \"slot_index\": 0, \"shape\": 3}], \"title\": \"Height\", \"properties\": {\"Node name for S&R\": \"Primitive integer [Crystools]\"}, \"widgets_values\": [1344], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 3, \"type\": \"CLIPTextEncode\", \"pos\": {\"0\": 500, \"1\": 430}, \"size\": {\"0\": 400, \"1\": 110}, \"flags\": {}, \"order\": 7, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 13}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [1, 115], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}, \"widgets_values\": [\"cy04, a book titled \\\"The Search For More Buzz\\\", an illustration of a man working at a computer in a dark room Text at the top \\\"Choose from over 59 possible endings!\\\"\"], \"color\": \"#232\", \"bgcolor\": \"#353\"}], \"links\": [[1, 3, 0, 5, 0, \"CONDITIONING\"], [5, 9, 0, 8, 0, \"INT\"], [6, 10, 0, 8, 1, \"INT\"], [7, 8, 0, 7, 3, \"LATENT\"], [9, 2, 0, 11, 1, \"VAE\"], [10, 7, 0, 11, 0, \"LATENT\"], [12, 13, 0, 4, 0, \"CLIP\"], [13, 13, 0, 3, 0, \"CLIP\"], [56, 11, 0, 12, 0, \"IMAGE\"], [90, 7, 0, 40, 0, \"LATENT\"], [91, 40, 0, 39, 3, \"LATENT\"], [96, 39, 0, 42, 0, \"LATENT\"], [97, 2, 0, 42, 1, \"VAE\"], [98, 42, 0, 41, 0, \"IMAGE\"], [101, 5, 0, 39, 1, \"CONDITIONING\"], [104, 4, 0, 43, 0, \"CONDITIONING\"], [105, 43, 0, 7, 2, \"CONDITIONING\"], [106, 43, 0, 39, 2, \"CONDITIONING\"], [107, 1, 0, 39, 0, \"MODEL\"], [108, 44, 3, 7, 4, \"INT\"], [109, 44, 3, 39, 4, \"INT\"], [110, 1, 0, 45, 0, \"MODEL\"], [112, 45, 0, 46, 0, \"MODEL\"], [113, 46, 0, 7, 0, \"MODEL\"], [115, 3, 0, 7, 1, \"CONDITIONING\"]], \"groups\": [], \"config\": {}, \"extra\": {\"ds\": {\"scale\": 1.6350799082656386, \"offset\": [-445.49552439588183, -363.5331570998416]}}, \"version\": 0.4}}",
-        "steps": 25,
-        "width": {
-          "inputs": {
-            "int": 768
-          },
-          "class_type": "Primitive integer [Crystools]"
-        },
-        "height": {
-          "inputs": {
-            "int": 1344
-          },
-          "class_type": "Primitive integer [Crystools]"
-        },
-        "models": [],
-        "prompt": "cy04, a book titled \"The Search For More Buzz\", an illustration of a man working at a computer in a dark room Text at the top \"Choose from over 59 possible endings!\"",
-        "denoise": 1,
+        "Size": "1248x1824",
+        "seed": 292221196820473,
+        "Model": "flux1-dev-fp8",
+        "steps": 20,
+        "prompt": "3pic_vist4,\nanimeniji,\nVibrantlySharp style, in a romantic painterly cel-shaded style, humanoid tree spirit with cherry blossom antlers, delicate limbs entwined with petals and bark, graceful sideways pose with hands releasing glowing butterflies \u00e2\u0080\u0094 background: dreamy pink and peach forest clearing with swirling petals, soft pastel gradients, ambient godrays and a serene springtime glow",
+        "Version": "ComfyUI",
         "sampler": "Euler",
         "cfgScale": 1,
-        "modelIds": [],
-        "scheduler": "beta",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "additionalResources": [
+        "clipSkip": 1,
+        "resources": [],
+        "civitaiResources": [
           {
-            "name": "flux\\private\\purz-cy04-choose_your_own_adventure.safetensors",
+            "type": "checkpoint",
+            "modelVersionId": 691639
+          },
+          {
             "type": "lora",
-            "strength": 1
+            "weight": 0.35,
+            "modelVersionId": 720252
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 937875
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 1047245
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1483395
           }
         ]
       },
-      "username": "purz",
-      "baseModel": null,
+      "username": "Kanwa",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        956209
+        691639,
+        720252,
+        937875,
+        1047245,
+        1483395
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "425|1749461045005",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=425%7C1749461045005"
+    "nextCursor": "426|1739277512470",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=426%7C1739277512470"
   }
 }
