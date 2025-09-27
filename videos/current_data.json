@@ -1,33 +1,136 @@
 {
   "items": [
     {
-      "id": 68971105,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c2379168-12a8-40e8-88bc-d3cc8c18c209/original=true/c2379168-12a8-40e8-88bc-d3cc8c18c209.jpeg",
-      "hash": "UpMQ*Jt7M{t7~qj[ayj[D%j[WBj[xuofWBof",
+      "id": 47965916,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e5934ac3-e6ba-45ac-b40c-41390eabdc11/original=true/e5934ac3-e6ba-45ac-b40c-41390eabdc11.jpeg",
+      "hash": "UDAUKsXm%%.8VpWBDiRO8wR5DhaeIC%g%zoz",
       "width": 832,
-      "height": 1248,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-09T14:00:34.537Z",
-      "postId": 15324710,
+      "createdAt": "2024-12-27T19:23:27.971Z",
+      "postId": 10820994,
       "stats": {
-        "cryCount": 512,
-        "laughCount": 736,
-        "likeCount": 5019,
+        "cryCount": 320,
+        "laughCount": 501,
+        "likeCount": 5197,
         "dislikeCount": 0,
-        "heartCount": 1718,
-        "commentCount": 11
+        "heartCount": 1967,
+        "commentCount": 4
       },
-      "meta": null,
-      "username": "6vidit9",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 2101208291,
+        "draft": false,
+        "extra": {
+          "remixOfId": 47686251
+        },
+        "steps": 40,
+        "width": 832,
+        "height": 1216,
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, volumetric lighting, holographic colors, cute, gradient colors, dark background, masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, volumetric lighting,1man, \nBREAK\nnsfw, \n ambient occlusion, raytracing, soft lighting, blum effect, masterpiece, absolutely eye-catching, particles, glow, shining, intricate cinematic background, (beautiful face),  \nBREAK\nmasterpiece, highly detailed,detailed eyes, 1man, Loki, God of mischief, Loki god of mischief, detached virtual horns, Putting on a virtual  holographic helmet with green glowing eyes and wielding 2 glowing  green neon daggers while throwing several daggers with the other hand while covering his face in defense position , Shinobi shozoku, cyber ninja wear,, from front , detailed background, full body,dynamic ninja pose, , short hair, , closed mouth, ring, see-through, , gloves, ,, jewelry, cyberpunk shrine, shrine background, neon straight virtual cyber horns, wide sleeves, red eyes, lace, (glowing kunai:1.5), neon kunai, glowing, zPDXL3, detailxl,  Score_PnyReal,",
+        "sampler": "Euler a",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "Created Date": "2024-12-27T1919:53.0767240Z",
+        "negativePrompt": "lowres, (worst quality,bad quality,low quality:1.2),\nbad anatomy, old, bad hands, bad fingers, low quality eyes, bad eyes,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1200105,
+            "modelVersionName": "v1.2 - Style"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 69507,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 362359,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 567119,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lycoris",
+            "weight": 0.7,
+            "modelVersionId": 947535,
+            "modelVersionName": "v0.2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 959419,
+            "modelVersionName": "SDXL_Illustrious-XL"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1030394,
+            "modelVersionName": "V5.1 - illustrious"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 1056404,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 1137323,
+            "modelVersionName": "v5_noobVv0.65S"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1032397,
+            "modelVersionName": "Illustrious"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
+          }
+        ]
+      },
+      "username": "endhon",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        69507,
+        362359,
+        567119,
+        947535,
+        959419,
+        1030394,
+        1032397,
+        1056404,
+        1137323,
+        1200105
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "440|1735327407971",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=440%7C1735327407971"
+    "nextCursor": "441|1742166000000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=441%7C1742166000000"
   }
 }
