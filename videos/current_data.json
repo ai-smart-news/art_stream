@@ -1,35 +1,66 @@
 {
   "items": [
     {
-      "id": 76256710,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed47eaf1-e40b-42b5-97b9-70496538dcd8/original=true/ed47eaf1-e40b-42b5-97b9-70496538dcd8.jpeg",
-      "hash": "UBD[j{^i-n-n}?OWaexYqvjEIoRQ9H={xtWB",
-      "width": 1024,
-      "height": 1536,
+      "id": 51384714,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f26dd8c5-18c4-459a-8456-c1a70c7007a7/original=true/f26dd8c5-18c4-459a-8456-c1a70c7007a7.jpeg",
+      "hash": "U41#0seoL%aLafZ%kBafQ9b[uhkCo2gMVtf*",
+      "width": 1328,
+      "height": 1944,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-14T16:45:16.529Z",
-      "postId": 16935141,
+      "createdAt": "2025-01-13T15:49:22.306Z",
+      "postId": 11557573,
       "stats": {
-        "cryCount": 507,
-        "laughCount": 971,
-        "likeCount": 4794,
+        "cryCount": 328,
+        "laughCount": 596,
+        "likeCount": 5280,
         "dislikeCount": 0,
-        "heartCount": 1676,
-        "commentCount": 4
+        "heartCount": 1745,
+        "commentCount": 7
       },
-      "meta": null,
-      "username": "AnimePorn",
-      "baseModel": "OpenAI",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 156294947311005,
+        "Model": "FLUX1-Dev",
+        "steps": 40,
+        "hashes": {
+          "model": "",
+          "LORA:Glitchcore_Flux.safetensors": "4e895334d4",
+          "LORA:Dark side of light.safetensors": "3d443b88f4",
+          "LORA:aidmaFLUXPro1.1-FLUX-v0.3.safetensors": "3f3e39bb45"
+        },
+        "prompt": "A hyper-detailed, futuristic close-up of a human fingertip illuminated by a soft green glow, revealing a complex, holographic circuit pattern etched into the skin, resembling a digital fingerprint. The intricate lines and nodes of the circuitry shimmer with a faint white and blue light, symbolizing advanced biometric technology. Surrounding the finger, a semi-transparent user interface displays scanning progress indicators, synchronization bars, and faint text overlays, adding to the high-tech aesthetic. The background is softly blurred, suggesting a sleek, digital environment while emphasizing the focus on the finger and its augmented details. <lora:aidmaFLUXPro1.1-FLUX-v0.3.safetensors:1.0>,  <lora:Dark side of light.safetensors:0.55>, <lora:Glitchcore_Flux.safetensors:0.8>,",
+        "Version": "ComfyUI",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 3.5,
+        "clipSkip": 1,
+        "resources": [
+          {
+            "name": "aidmaFLUXPro1.1-FLUX-v0.3.safetensors",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "name": "Glitchcore_Flux.safetensors",
+            "type": "lora",
+            "weight": 0.8
+          }
+        ],
+        "Model hash": ""
+      },
+      "username": "zidius",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        1215423,
+        1244911,
+        877992
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "453|1736783362306",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=453%7C1736783362306"
+    "nextCursor": "454|1744255188352",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=454%7C1744255188352"
   }
 }
