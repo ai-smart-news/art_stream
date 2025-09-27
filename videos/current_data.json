@@ -1,88 +1,140 @@
 {
   "items": [
     {
-      "id": 44024216,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e61937f5-3807-4f1a-86ec-bed0de2eb46c/original=true/e61937f5-3807-4f1a-86ec-bed0de2eb46c.jpeg",
-      "hash": "UTM7GPRk~q%MIAa}x]RjtRxaRjNH%MxZ%LSO",
-      "width": 1328,
-      "height": 1944,
+      "id": 59313868,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b813d40-9b95-4c6d-a56e-6739b939647a/original=true/3b813d40-9b95-4c6d-a56e-6739b939647a.jpeg",
+      "hash": "UTB^3Co1E|fQ|Jo1ODa|#-jtsoa|oLjtn%a|",
+      "width": 1568,
+      "height": 2016,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-06T17:27:31.957Z",
-      "postId": 9994914,
+      "createdAt": "2025-02-22T02:15:00.000Z",
+      "postId": 13268228,
       "stats": {
-        "cryCount": 267,
-        "laughCount": 520,
-        "likeCount": 5457,
+        "cryCount": 368,
+        "laughCount": 567,
+        "likeCount": 5132,
         "dislikeCount": 0,
-        "heartCount": 1819,
-        "commentCount": 16
+        "heartCount": 1989,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1010572591504247,
-        "Model": "FLUX1-Dev",
-        "steps": 40,
+        "Size": "896x1152",
+        "seed": 3166444945,
+        "Model": "smoothMixIllustrious_illustriousV2",
+        "steps": 28,
         "hashes": {
-          "model": "",
-          "LORA:ancient.safetensors": "70dd10a979",
-          "LORA:Ethereal Grace - s1 g4.safetensors": "3869a86340",
-          "LORA:FluxCyberpunkAnimeStyle.safetensors": "7c838ac356",
-          "LORA:aiai-Glimra-Flux-Dev-v2.safetensors": "79ae2e0830",
-          "LORA:Elden_Ring_-_Yoshitaka_Amano.safetensors": "c660c4c553",
-          "LORA:paintart-style-006-v1-0-flux.safetensors": "93c360f4e1"
+          "model": "cb39f56617",
+          "lora:XXX477": "080d12c718b3",
+          "lora:114558v4df2fsdf5": "66fa452c3a7d",
+          "lora:illustrious_best_quality_v1": "b2861f71ebf6",
+          "lora:illustrious_very_aesthetic_v1": "02e7e383ce97",
+          "lora:illustrious_quality_modifiers_masterpieces_v1": "05d5aef99b63"
         },
-        "prompt": "A striking artistic depiction of a serene monk balanced gracefully on one leg in a classic yoga pose, embodying harmony and inner peace. The monk's flowing robes and calm expression mirror the balance of the large, intricately designed yin and yang symbol dominating the background, its swirling patterns filled with ornate details. . The composition exudes tranquility and balance, with the monk positioned at the center of this mesmerizing interplay of opposites. <lora:ancient.safetensors:0.75>,  <lora:Elden_Ring_-_Yoshitaka_Amano.safetensors:1.0>,  <lora:FluxCyberpunkAnimeStyle.safetensors:1.0>,  <lora:aiai-Glimra-Flux-Dev-v2.safetensors:0.25>,  <lora:Ethereal Grace - s1 g4.safetensors:0.5>,  <lora:paintart-style-006-v1-0-flux.safetensors:0.5>,",
-        "Version": "ComfyUI",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 3.5,
-        "clipSkip": 1,
+        "prompt": "xxx667_illu, Smooth Quality,volumetric lighting,detailed,masterpiece, best quality, amazing quality, very aesthetic, absurdres\n,ADDCOMM,\nbackground of gothic church, background of stained glass, red godrays,detailed lighitng,red theme, red background\n,ADDROW,\nblack feathery wings, black fog, many eyes, eldritch horrors, nightmare fuel, cosmic_horror, shadow, surreal, glowing eyes,15546+456868, abstract, glowing, no humans,distortion, corrupted, void, formless, eerie, haunting, chaos, ominous, warped, horror, dark mist, terror, black theme, black background, pitch black\n,ADDCOL,\n1girl, arms up, stretching, vampire, fangs, beautiful, black hair, red eyes, visible breath, very pale, goth fashion,black dress, renaissance clothes, clothes covered in blood,happy, open mouth,red theme, red background,black nails\n,ADDCOL,\nblack feathery wings, black fog, many eyes, eldritch horrors, nightmare fuel, cosmic_horror, shadow, surreal, glowing eyes,15546+456868, abstract, glowing, no humans,distortion, corrupted, void, formless, eerie, haunting, chaos, ominous, warped, horror, dark mist, terror, black theme, black background, pitch black\n, <lora:illustrious_quality_modifiers_masterpieces_v1:0.25> <lora:illustrious_best_quality_v1:0.25> <lora:illustrious_very_aesthetic_v1:0.25> <lora:XXX477:1> <lora:114558v4df2fsdf5:1>",
+        "RP Flip": "False",
+        "Version": "v1.10.1",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "RP Active": "True",
+        "RP Ratios": {},
+        "TI hashes": {
+          "Smooth Quality": "0388be1500af",
+          "Smooth Negative-neg": "636f58fdcdcb"
+        },
         "resources": [
           {
-            "name": "ancient.safetensors",
-            "type": "lora",
-            "weight": 0.75
-          },
-          {
-            "name": "Elden_Ring_-_Yoshitaka_Amano.safetensors",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "name": "FluxCyberpunkAnimeStyle.safetensors",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "name": "aiai-Glimra-Flux-Dev-v2.safetensors",
+            "hash": "05d5aef99b63",
+            "name": "illustrious_quality_modifiers_masterpieces_v1",
             "type": "lora",
             "weight": 0.25
           },
           {
-            "name": "paintart-style-006-v1-0-flux.safetensors",
+            "hash": "b2861f71ebf6",
+            "name": "illustrious_best_quality_v1",
             "type": "lora",
-            "weight": 0.5
+            "weight": 0.25
+          },
+          {
+            "hash": "02e7e383ce97",
+            "name": "illustrious_very_aesthetic_v1",
+            "type": "lora",
+            "weight": 0.25
+          },
+          {
+            "hash": "080d12c718b3",
+            "name": "XXX477",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "66fa452c3a7d",
+            "name": "114558v4df2fsdf5",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "cb39f56617",
+            "name": "smoothMixIllustrious_illustriousV2",
+            "type": "model"
           }
         ],
-        "Model hash": ""
+        "Model hash": "cb39f56617",
+        "RP Options": "F",
+        "Hires steps": "28",
+        "RP Use Base": "False",
+        "Hires prompt": {
+          "114558v4df2fsdf5": "1>"
+        },
+        "RP Calc Mode": "Attention",
+        "RP threshold": "0.4",
+        "Hires upscale": "1.75",
+        "RP Use Common": "True",
+        "Schedule type": "Automatic",
+        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+        "RP Base Ratios": "0",
+        "RP Divide mode": "Matrix",
+        "RP Use Ncommon": "False",
+        "negativePrompt": "Smooth Negative-neg, lowres, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, old, oldest, censored, bar_censor",
+        "ADetailer model": "face_yolov8n.pt",
+        "RP Mask submode": "Mask",
+        "ADetailer prompt": {
+          "illustrious_very_aesthetic_v1": "0.25>"
+        },
+        "ADetailer version": "24.9.0",
+        "RP LoRA Stop Step": "0",
+        "RP Matrix submode": "Columns",
+        "RP Prompt submode": "Prompt",
+        "Denoising strength": "0.6",
+        "ADetailer mask blur": "3",
+        "ADetailer confidence": "0.4",
+        "RP LoRA Neg U Ratios": "0",
+        "RP LoRA Neg Te Ratios": "0",
+        "ADetailer dilate erode": "4",
+        "RP LoRA Hires Stop Step": "0",
+        "ADetailer inpaint padding": "64",
+        "ADetailer negative prompt": {},
+        "ADetailer denoising strength": "0.5",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer mask only top k largest": "1"
       },
-      "username": "zidius",
-      "baseModel": "Flux.1 D",
+      "username": "ThreeLetterCode",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        863984,
-        691639,
-        799872,
-        789301,
-        747534,
-        1074048,
-        746484
+        1128623,
+        1050644,
+        1356500,
+        1195582,
+        1116960,
+        1401686
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "428|1740190500000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=428%7C1740190500000"
+    "nextCursor": "429|1726726840342",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=429%7C1726726840342"
   }
 }
