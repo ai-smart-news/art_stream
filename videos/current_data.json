@@ -1,33 +1,67 @@
 {
   "items": [
     {
-      "id": 75973162,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d3d6a7a-0b22-4d5e-82cd-af40b3dcece6/original=true/8d3d6a7a-0b22-4d5e-82cd-af40b3dcece6.jpeg",
-      "hash": "ULBfhCNG0fxZ~VWB9akC%gV[R6X8-:NGRjt6",
-      "width": 1024,
-      "height": 1536,
+      "id": 38952393,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e21bda3-cb6c-4ed4-8703-9cd8ff553ea1/original=true/7e21bda3-cb6c-4ed4-8703-9cd8ff553ea1.jpeg",
+      "hash": "U9DI2kMx0Nx]EgR+E2xFNeR+$ixY}=xD9|NG",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-13T03:43:59.948Z",
-      "postId": 16868057,
+      "createdAt": "2024-11-08T03:38:56.987Z",
+      "postId": 8889364,
       "stats": {
-        "cryCount": 442,
-        "laughCount": 864,
-        "likeCount": 4906,
+        "cryCount": 353,
+        "laughCount": 595,
+        "likeCount": 5074,
         "dislikeCount": 0,
-        "heartCount": 1811,
-        "commentCount": 6
+        "heartCount": 1996,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "ImpishGhost",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 3279018798,
+        "steps": 25,
+        "prompt": "score_9, score_8_up, score_7_up,\n Android girl, pixel face, screen face, robot body, metal skin,",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 6.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-11-08T0254:43.2604306Z",
+        "negativePrompt": "score_6, score_5, score_4, source_cartoon, 3d\n, (censor),monochrome,blurry, lowres,watermark,(lamia,scales,mermaid,snake tail),(worst quality:1.4),(low quality:1.4),ugly,bad face,morbid,extra fingers,mutilated,mutilated hands,poorly drawn hands,poorly drawn face,blurry,extra limbs,cloned face,gross proportion,malformed limbs,missing arms,missing legs,missing fingers,(extra hands:1.1),too many fingers,extra legs,extra feet,fused fingers,censored,EasyNegative,pubic hair,scales, muscle, ,, four toes, four fingers, extra fingers, six fingers, Imperfect eyes, bad eyes, badly drawn eyes, distorted pupils, bad pupils, NEGATIVE_HANDS, human, humans, human girl",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 828380,
+            "modelVersionName": "v3"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 651075,
+            "modelVersionName": "v0.1-Pony"
+          }
+        ]
+      },
+      "username": "ValArt",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        9208,
+        651075,
+        828380
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "436|1731037136987",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=436%7C1731037136987"
+    "nextCursor": "437|1756115837763",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=437%7C1756115837763"
   }
 }
