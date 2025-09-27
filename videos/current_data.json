@@ -1,58 +1,87 @@
 {
   "items": [
     {
-      "id": 54980797,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afe1090c-fe48-4873-8333-694ec6d0cf0c/original=true/afe1090c-fe48-4873-8333-694ec6d0cf0c.jpeg",
-      "hash": "U25$0tyEDNaxI9MxRORPMy.TR5DO.TM_H=x^",
-      "width": 1536,
-      "height": 2752,
+      "id": 80606960,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/50dcdb19-d52c-4b00-bca7-162c68d14719/original=true/50dcdb19-d52c-4b00-bca7-162c68d14719.jpeg",
+      "hash": "U6Aw9kMyVt~p~UIB%2oyWA00ELE1NZE2xutQ",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-31T15:59:15.407Z",
-      "postId": 12325159,
+      "createdAt": "2025-06-05T19:07:24.239Z",
+      "postId": 17903028,
       "stats": {
-        "cryCount": 278,
-        "laughCount": 467,
-        "likeCount": 5522,
+        "cryCount": 531,
+        "laughCount": 785,
+        "likeCount": 4942,
         "dislikeCount": 0,
-        "heartCount": 1837,
-        "commentCount": 5
+        "heartCount": 1845,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "1536x2752",
-        "seed": 526765834,
-        "steps": 30,
-        "width": 1536,
-        "height": 2752,
-        "prompt": "A sleek, midnight-black panther with glowing silver eyes and spectral, misty fur prowls through a highland jungle, half-concealed by the creeping fog. Its form appears to flicker between solid and shadow, giving it an ethereal presence. Bioluminescent fungi glow faintly in the background, illuminating ancient twisted roots and stones. Ink drips and painterly smudges blur the line between the physical and the spectral, making the panther feel like a guardian of unseen realms",
-        "sampler": "Undefined",
-        "cfgScale": 7.5,
+        "Size": "832x1216",
+        "seed": 860415659,
+        "draft": false,
+        "steps": 25,
+        "width": 832,
+        "height": 1216,
+        "prompt": "score_9, score_8_up,\nscore_7_up, score_6_up\nscore_5_up, score_4_up, sexy, source pony, unicorn, solo, indoors, Lyra Heartstrings, halfbody,  lying down, close eyes,  peaceful face ,  floppy ears, fur, fluff, cute, ear fluff, chest fluff. Bedroom,  lie on bed, covered with a blanket, night, darkness, window, nightstand. One light source, volumetrik lightning, bright colors, cold light,  cold tones. High detailed, scenery porn, high res, high quality, high detailed backround.",
+        "sampler": "Euler a",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@1088507",
-        "quantity": 1,
+        "quantity": 4,
         "workflow": "txt2img",
-        "baseModel": "Flux1",
+        "baseModel": "Pony",
         "resources": [],
-        "Created Date": "2025-01-31T1555:46.5604937Z",
+        "Created Date": "2025-06-05T1848:51.1746117Z",
+        "negativePrompt": "Ugly, messy backround, bad anatomy, bad proportions, human",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1088507,
-            "modelVersionName": "Pro 1.1 Ultra"
+            "modelVersionId": 1763661,
+            "modelVersionName": "\u2728v2.3"
+          },
+          {
+            "type": "lora",
+            "weight": 6,
+            "modelVersionId": 712947,
+            "modelVersionName": "v1.4"
+          },
+          {
+            "type": "lora",
+            "weight": 3.25,
+            "modelVersionId": 1242203,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 550787,
+            "modelVersionName": "MFP V2"
+          },
+          {
+            "type": "lora",
+            "weight": 1.35,
+            "modelVersionId": 356467,
+            "modelVersionName": "v1.0-XL-pony"
           }
         ]
       },
-      "username": "Jedas",
-      "baseModel": "Flux.1 D",
+      "username": "valdemarpatutko829",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1088507
+        356467,
+        550787,
+        712947,
+        1242203,
+        1763661
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "422|1749150444239",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=422%7C1749150444239"
+    "nextCursor": "423|1741968543955",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=423%7C1741968543955"
   }
 }
