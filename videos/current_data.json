@@ -1,67 +1,35 @@
 {
   "items": [
     {
-      "id": 95233703,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/685bc265-19ed-4568-af7a-13883db65cf4/original=true/685bc265-19ed-4568-af7a-13883db65cf4.jpeg",
-      "hash": "USC~@mE29vx[~oE3Rk%0?ZI?jFs+=^NeNeax",
-      "width": 896,
-      "height": 1592,
+      "id": 63489733,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5811e0e7-729f-4d78-b672-bdb469c98b93/original=true/5811e0e7-729f-4d78-b672-bdb469c98b93.jpeg",
+      "hash": "U7E2hC?KqwID?@3SICJ6ICI_Jzt80L;T~C-p",
+      "width": 1792,
+      "height": 2368,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-19T17:47:00.000Z",
-      "postId": 21124358,
+      "createdAt": "2025-03-14T15:55:18.012Z",
+      "postId": 14162845,
       "stats": {
-        "cryCount": 397,
-        "laughCount": 634,
-        "likeCount": 5098,
+        "cryCount": 377,
+        "laughCount": 696,
+        "likeCount": 5164,
         "dislikeCount": 0,
-        "heartCount": 1824,
-        "commentCount": 7
+        "heartCount": 1716,
+        "commentCount": 6
       },
-      "meta": {
-        "Size": "896x1593",
-        "seed": 378856629,
-        "Model": "flux1-dev",
-        "steps": 30,
-        "hashes": {
-          "model": "3f97fdc57a",
-          "lora:Surrealist_CFH": "735937acf986"
-        },
-        "prompt": "Create a Surr3@l Design a deep valley shaped like a violin, with its wooden curves forming terraced hills. The strings stretch from cliff to cliff, and children swing on them like vines. Rivers follow the violin's contours, glowing faintly in twilight. Include distant mountain ranges and mist rolling over the chinrest. Style the scene like a romantic landscape oil painting infused with fantastical design, warm lighting, and flowing movement.  <lora:Surrealist_CFH:0.8>",
-        "Version": "f2.0.1v1.10.1-previous-661-g0b261213",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "735937acf986",
-            "name": "Surrealist_CFH",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "3f97fdc57a",
-            "name": "flux1-dev",
-            "type": "model"
-          }
-        ],
-        "Model hash": "3f97fdc57a",
-        "Schedule type": "Simple",
-        "Distilled CFG Scale": "3.5"
-      },
-      "username": "misterX258",
-      "baseModel": null,
+      "meta": null,
+      "username": "angryangel81",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        769779
+        1088507
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "450|1741967718012",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=450%7C1741967718012"
+    "nextCursor": "451|1748754325364",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=451%7C1748754325364"
   }
 }
