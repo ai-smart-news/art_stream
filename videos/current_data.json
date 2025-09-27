@@ -1,35 +1,80 @@
 {
   "items": [
     {
-      "id": 34602112,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f570ee4-413b-4aa4-8139-81333521784d/original=true/1f570ee4-413b-4aa4-8139-81333521784d.jpeg",
-      "hash": "UCC}t]XNNDXTO2ImImoNBqr:NYxG,1JRoHoM",
-      "width": 834,
-      "height": 1219,
+      "id": 82654393,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/351408e1-2728-4e5a-b5ba-eaa1fecaea5a/original=true/351408e1-2728-4e5a-b5ba-eaa1fecaea5a.jpeg",
+      "hash": "UbFF7]GHIWrp~TJCIWr;$yRkM}xCaxWVf+s.",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-14T19:32:51.386Z",
-      "postId": 7906608,
+      "createdAt": "2025-06-16T11:22:09.724Z",
+      "postId": 18358242,
       "stats": {
-        "cryCount": 661,
-        "laughCount": 828,
-        "likeCount": 4906,
+        "cryCount": 375,
+        "laughCount": 719,
+        "likeCount": 5263,
         "dislikeCount": 0,
-        "heartCount": 1802,
-        "commentCount": 53
+        "heartCount": 1834,
+        "commentCount": 12
       },
-      "meta": null,
-      "username": "Lo_Fi",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1152828888,
+        "draft": false,
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Highly detailed, left hand side white smoke and fog/right hand side lava fire and ashes highly cinematic, close-up image of a goddess cat over the fractal fog world, perfect composition, dark colours, green leaves, forest, lots of details, flowers, metallic ink, beautifully lit, fire and smoke, a fine art painting by drew struzan and karol bak, gothic art, dark and mysterious, in the playful scribble drawing style. triadic complementary colors, dark and moody surreal nightmare of an eerie laugh, a mouth distorted, wide grin, and full of sharp nails, in the realm of the damned dreaded souls, teal and orange color grading, yellow abstract geometric gradients stain the orangish background",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-06-16T0914:20.1911357Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 747534,
+            "modelVersionName": "Flux.1 D v1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1249246,
+            "modelVersionName": "FLUX v0.5"
+          }
+        ]
+      },
+      "username": "Graf137",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639
+        691639,
+        720252,
+        747534,
+        1249246
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "407|1750072929724",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=407%7C1750072929724"
+    "nextCursor": "408|1739787317959",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=408%7C1739787317959"
   }
 }
