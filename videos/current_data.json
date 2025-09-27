@@ -1,33 +1,62 @@
 {
   "items": [
     {
-      "id": 59416731,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26fa40c9-8d16-4e44-b185-d7829e7ebc1d/original=true/26fa40c9-8d16-4e44-b185-d7829e7ebc1d.jpeg",
-      "hash": "UBDbW;$Y01NP}*={NMRl00-s~CM^S8xanyIn",
-      "width": 896,
-      "height": 1280,
+      "id": 28769117,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/304c3489-3cbc-4a1f-a891-5aca5609d25c/original=true/304c3489-3cbc-4a1f-a891-5aca5609d25c.jpeg",
+      "hash": "UABf65kq01M|}FnP9[w^].kC5RM|MeW;x[s:",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-22T14:36:32.453Z",
-      "postId": 13291141,
+      "createdAt": "2024-09-10T22:05:03.311Z",
+      "postId": 6435857,
       "stats": {
-        "cryCount": 314,
-        "laughCount": 545,
-        "likeCount": 5247,
+        "cryCount": 417,
+        "laughCount": 746,
+        "likeCount": 4949,
         "dislikeCount": 0,
-        "heartCount": 2001,
-        "commentCount": 13
+        "heartCount": 1993,
+        "commentCount": 10
       },
-      "meta": null,
-      "username": "SamLiu",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 4294967295,
+        "extra": {
+          "remixOfId": 28301408
+        },
+        "steps": 25,
+        "prompt": "frank frazetta dark fantasy oil painting, (extremely closeup portrait of face and top of chest) of woman with pale skin and bright red hair wearing chainmail.  She is holding a sword up in front of her which divides the portrait of her into 2 sides, the reflection of the sword shows a monstrous face",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-09-10T2159:12.8544560Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 792756,
+            "modelVersionName": "flux v2.0"
+          }
+        ]
+      },
+      "username": "darmox",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        792756
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "420|1726005903311",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=420%7C1726005903311"
+    "nextCursor": "421|1738339155407",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=421%7C1738339155407"
   }
 }
