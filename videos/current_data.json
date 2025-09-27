@@ -1,76 +1,51 @@
 {
   "items": [
     {
-      "id": 81280874,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9afb9eb8-e0ed-44f2-a2fc-8f304c4e7f55/original=true/9afb9eb8-e0ed-44f2-a2fc-8f304c4e7f55.jpeg",
-      "hash": "UTKm0E^l9aE1}@RjE1a$iwjF$*%1%MWVRjj[",
-      "width": 1248,
-      "height": 1824,
+      "id": 57157183,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60acd31f-9bf5-44a2-b2f9-92243da171db/original=true/60acd31f-9bf5-44a2-b2f9-92243da171db.jpeg",
+      "hash": "UeD[q6azIWoe~9WWMzj[%KfkV[fkSha}xDf6",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-09T09:24:05.005Z",
-      "postId": 18053715,
+      "createdAt": "2025-02-11T12:38:32.470Z",
+      "postId": 12795214,
       "stats": {
-        "cryCount": 344,
-        "laughCount": 647,
-        "likeCount": 5203,
+        "cryCount": 324,
+        "laughCount": 633,
+        "likeCount": 5195,
         "dislikeCount": 0,
-        "heartCount": 1882,
-        "commentCount": 6
+        "heartCount": 1922,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "1248x1824",
-        "seed": 292221196820473,
-        "Model": "flux1-dev-fp8",
-        "steps": 20,
-        "prompt": "3pic_vist4,\nanimeniji,\nVibrantlySharp style, in a romantic painterly cel-shaded style, humanoid tree spirit with cherry blossom antlers, delicate limbs entwined with petals and bark, graceful sideways pose with hands releasing glowing butterflies \u00e2\u0080\u0094 background: dreamy pink and peach forest clearing with swirling petals, soft pastel gradients, ambient godrays and a serene springtime glow",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
+        "seed": 943305458196254,
+        "vaes": [
+          "ae.sft"
+        ],
+        "comfy": "{\"prompt\": {\"1\": {\"inputs\": {\"context_expand_pixels\": 20, \"context_expand_factor\": 2.0, \"fill_mask_holes\": true, \"blur_mask_pixels\": 16.0, \"invert_mask\": false, \"blend_pixels\": 16.0, \"rescale_algorithm\": \"lanczos\", \"mode\": \"forced size\", \"force_width\": 2048, \"force_height\": 2048, \"rescale_factor\": 1.0, \"min_width\": 2048, \"min_height\": 2048, \"max_width\": 2048, \"max_height\": 2048, \"padding\": 32, \"image\": [\"3\", 0], \"mask\": [\"3\", 1]}, \"class_type\": \"InpaintCrop\", \"_meta\": {\"title\": \"\\u2702\\ufe0f Inpaint Crop\"}}, \"2\": {\"inputs\": {\"rescale_algorithm\": \"lanczos\", \"stitch\": [\"1\", 0], \"inpainted_image\": [\"15\", 0]}, \"class_type\": \"InpaintStitch\", \"_meta\": {\"title\": \"\\u2702\\ufe0f Inpaint Stitch\"}}, \"3\": {\"inputs\": {\"image\": \"clipspace/clipspace-mask-91597.40000000224.png [input]\", \"upload\": \"image\"}, \"class_type\": \"LoadImage\", \"_meta\": {\"title\": \"Load Image\"}, \"is_changed\": [\"c245daeeccdfd1829af92ed30b06bf71df3e6fdf58217f2b2aff1eedf13158b8\"]}, \"7\": {\"inputs\": {\"images\": [\"2\", 0]}, \"class_type\": \"PreviewImage\", \"_meta\": {\"title\": \"Preview Image\"}}, \"14\": {\"inputs\": {\"seed\": 1086845953031854, \"steps\": 20, \"cfg\": 1.0, \"sampler_name\": \"deis\", \"scheduler\": \"ddim_uniform\", \"denoise\": 1.0, \"model\": [\"25\", 0], \"positive\": [\"19\", 0], \"negative\": [\"19\", 1], \"latent_image\": [\"19\", 2]}, \"class_type\": \"KSampler\", \"_meta\": {\"title\": \"KSampler\"}}, \"15\": {\"inputs\": {\"samples\": [\"14\", 0], \"vae\": [\"30\", 0]}, \"class_type\": \"VAEDecode\", \"_meta\": {\"title\": \"VAE Decode\"}}, \"19\": {\"inputs\": {\"noise_mask\": true, \"positive\": [\"28\", 0], \"negative\": [\"29\", 0], \"vae\": [\"30\", 0], \"pixels\": [\"1\", 1], \"mask\": [\"1\", 2]}, \"class_type\": \"InpaintModelConditioning\", \"_meta\": {\"title\": \"InpaintModelConditioning\"}}, \"25\": {\"inputs\": {\"unet_name\": \"flux1-dev-Q5_K_S.gguf\"}, \"class_type\": \"UnetLoaderGGUF\", \"_meta\": {\"title\": \"Unet Loader (GGUF)\"}}, \"26\": {\"inputs\": {\"clip_name1\": \"Long-ViT-L-14-BEST-GmP-smooth-ft-state_dict.pt\", \"clip_name2\": \"t5-v1_1-xxl-encoder-Q8_0.gguf\", \"type\": \"flux\"}, \"class_type\": \"DualCLIPLoaderGGUF\", \"_meta\": {\"title\": \"DualCLIPLoader (GGUF)\"}}, \"27\": {\"inputs\": {\"clip_l\": \"\", \"t5xxl\": \"\", \"guidance\": 1.0, \"clip\": [\"26\", 0]}, \"class_type\": \"CLIPTextEncodeFlux\", \"_meta\": {\"title\": \"CLIPTextEncodeFlux\"}}, \"28\": {\"inputs\": {\"guidance\": 4.0, \"conditioning\": [\"27\", 0]}, \"class_type\": \"FluxGuidance\", \"_meta\": {\"title\": \"FluxGuidance\"}}, \"29\": {\"inputs\": {\"text\": \"\", \"clip\": [\"26\", 0]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Prompt)\"}}, \"30\": {\"inputs\": {\"vae_name\": \"ae.sft\"}, \"class_type\": \"VAELoader\", \"_meta\": {\"title\": \"Load VAE\"}}}, \"workflow\": {\"last_node_id\": 31, \"last_link_id\": 57, \"nodes\": [{\"id\": 22, \"type\": \"Note\", \"pos\": [40, 680], \"size\": [500, 470], \"flags\": {}, \"order\": 0, \"mode\": 0, \"inputs\": [], \"outputs\": [], \"title\": \"Instructions\", \"properties\": {\"text\": \"\"}, \"widgets_values\": [\"Simplest way to run:\\n\\n1. Load desired image in the \\\"Load Image\\\" node and mask the area you want to replace.\\n\\n2. Select a checkpoint for inpainting in the \\\"Load Checkpoint\\\" node.\\n\\n3. Write the positive and negative prompts in the green and red boxes. These prompts do not have to match the whole image, but only the masked area.\\n\\n4. Adjust denoise (e.g. 1 to fully replace the content, ~0.8 to keep part of it, 0.1 to match around.\\n\\n5. Run!\\n\\n\\n\\nHow to increase the context area for the model to know better what to draw:\\n- Option 1: Increase context_expand_factor, e.g. set it to 2.\\n- Option 2: Increase context_expand_pixels, e.g. set it to 100.\\n- Option 3: Duplicate the load image node and connect its mask to \\\"optional_context_mask\\\" in the \\\"Inpaint Crop node\\\". Mask the area that is relevant for context (no need to fill it, only the corners of the masked area matter.\\n\\n\\n\\nThe default parameters for Inpaint Crop and Inpaint Stitch work well for most inpainting tasks.\\n\\nFor SDXL, try the \\\"forced size\\\" mode which forces 1024x1024.\"], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 15, \"type\": \"VAEDecode\", \"pos\": [1520, 360], \"size\": [210, 46], \"flags\": {}, \"order\": 11, \"mode\": 0, \"inputs\": [{\"name\": \"samples\", \"type\": \"LATENT\", \"link\": 33, \"slot_index\": 0, \"label\": \"samples\"}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 50, \"slot_index\": 1, \"label\": \"vae\"}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [34], \"slot_index\": 0, \"shape\": 3, \"label\": \"IMAGE\"}], \"properties\": {\"Node name for S&R\": \"VAEDecode\"}, \"widgets_values\": []}, {\"id\": 25, \"type\": \"UnetLoaderGGUF\", \"pos\": [622.2548828125, 1026.571533203125], \"size\": [315, 58], \"flags\": {}, \"order\": 1, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [49], \"slot_index\": 0, \"shape\": 3, \"label\": \"MODEL\"}], \"properties\": {\"Node name for S&R\": \"UnetLoaderGGUF\"}, \"widgets_values\": [\"flux1-dev-Q5_K_S.gguf\"]}, {\"id\": 30, \"type\": \"VAELoader\", \"pos\": [551.9483642578125, 1347.571533203125], \"size\": [315, 58], \"flags\": {}, \"order\": 2, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"VAE\", \"type\": \"VAE\", \"links\": [50, 51], \"slot_index\": 0, \"shape\": 3, \"label\": \"VAE\"}], \"properties\": {\"Node name for S&R\": \"VAELoader\"}, \"widgets_values\": [\"ae.sft\"]}, {\"id\": 19, \"type\": \"InpaintModelConditioning\", \"pos\": [1130, 340], \"size\": [216.59999084472656, 138], \"flags\": {}, \"order\": 9, \"mode\": 0, \"inputs\": [{\"name\": \"positive\", \"type\": \"CONDITIONING\", \"link\": 52, \"label\": \"positive\"}, {\"name\": \"negative\", \"type\": \"CONDITIONING\", \"link\": 53, \"label\": \"negative\"}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 51, \"label\": \"vae\"}, {\"name\": \"pixels\", \"type\": \"IMAGE\", \"link\": 42, \"label\": \"pixels\"}, {\"name\": \"mask\", \"type\": \"MASK\", \"link\": 43, \"label\": \"mask\"}], \"outputs\": [{\"name\": \"positive\", \"type\": \"CONDITIONING\", \"links\": [39], \"slot_index\": 0, \"shape\": 3, \"label\": \"positive\"}, {\"name\": \"negative\", \"type\": \"CONDITIONING\", \"links\": [40], \"slot_index\": 1, \"shape\": 3, \"label\": \"negative\"}, {\"name\": \"latent\", \"type\": \"LATENT\", \"links\": [41], \"slot_index\": 2, \"shape\": 3, \"label\": \"latent\"}], \"properties\": {\"Node name for S&R\": \"InpaintModelConditioning\"}, \"widgets_values\": [true]}, {\"id\": 29, \"type\": \"CLIPTextEncode\", \"pos\": [890.2548828125, 1578.571533203125], \"size\": [400, 200], \"flags\": {\"collapsed\": true}, \"order\": 6, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 56, \"label\": \"clip\"}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [53], \"slot_index\": 0, \"shape\": 3, \"label\": \"CONDITIONING\"}], \"properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}, \"widgets_values\": [\"\"]}, {\"id\": 2, \"type\": \"InpaintStitch\", \"pos\": [1670, 110], \"size\": [210, 78], \"flags\": {}, \"order\": 12, \"mode\": 0, \"inputs\": [{\"name\": \"stitch\", \"type\": \"STITCH\", \"link\": 8, \"label\": \"stitch\"}, {\"name\": \"inpainted_image\", \"type\": \"IMAGE\", \"link\": 34, \"label\": \"inpainted_image\"}], \"outputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"links\": [12], \"slot_index\": 0, \"shape\": 3, \"label\": \"image\"}], \"properties\": {\"Node name for S&R\": \"InpaintStitch\"}, \"widgets_values\": [\"lanczos\"]}, {\"id\": 26, \"type\": \"DualCLIPLoaderGGUF\", \"pos\": [551.9483032226562, 1154.7078857421875], \"size\": [315, 106], \"flags\": {}, \"order\": 3, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [55, 56], \"slot_index\": 0, \"shape\": 3, \"label\": \"CLIP\"}], \"properties\": {\"Node name for S&R\": \"DualCLIPLoaderGGUF\"}, \"widgets_values\": [\"Long-ViT-L-14-BEST-GmP-smooth-ft-state_dict.pt\", \"t5-v1_1-xxl-encoder-Q8_0.gguf\", \"flux\"]}, {\"id\": 7, \"type\": \"PreviewImage\", \"pos\": [1844.1376953125, 258.5047912597656], \"size\": [724.7933959960938, 829.504150390625], \"flags\": {}, \"order\": 13, \"mode\": 0, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 12, \"label\": \"images\"}], \"outputs\": [], \"properties\": {\"Node name for S&R\": \"PreviewImage\"}, \"widgets_values\": []}, {\"id\": 1, \"type\": \"InpaintCrop\", \"pos\": [570, 110], \"size\": [320, 314], \"flags\": {}, \"order\": 7, \"mode\": 0, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 1, \"label\": \"image\"}, {\"name\": \"mask\", \"type\": \"MASK\", \"link\": 2, \"label\": \"mask\"}, {\"name\": \"optional_context_mask\", \"type\": \"MASK\", \"link\": null, \"shape\": 7, \"label\": \"optional_context_mask\"}], \"outputs\": [{\"name\": \"stitch\", \"type\": \"STITCH\", \"links\": [8], \"slot_index\": 0, \"shape\": 3, \"label\": \"stitch\"}, {\"name\": \"cropped_image\", \"type\": \"IMAGE\", \"links\": [42], \"slot_index\": 1, \"shape\": 3, \"label\": \"cropped_image\"}, {\"name\": \"cropped_mask\", \"type\": \"MASK\", \"links\": [43], \"slot_index\": 2, \"shape\": 3, \"label\": \"cropped_mask\"}], \"properties\": {\"Node name for S&R\": \"InpaintCrop\"}, \"widgets_values\": [20, 2, true, 16, false, 16, \"lanczos\", \"forced size\", 2048, 2048, 1, 2048, 2048, 2048, 2048, 32]}, {\"id\": 28, \"type\": \"FluxGuidance\", \"pos\": [1378.2548828125, 1242.571533203125], \"size\": [317.4000244140625, 58], \"flags\": {}, \"order\": 8, \"mode\": 0, \"inputs\": [{\"name\": \"conditioning\", \"type\": \"CONDITIONING\", \"link\": 48, \"label\": \"conditioning\"}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [52], \"slot_index\": 0, \"shape\": 3, \"label\": \"CONDITIONING\"}], \"properties\": {\"Node name for S&R\": \"FluxGuidance\"}, \"widgets_values\": [4]}, {\"id\": 27, \"type\": \"CLIPTextEncodeFlux\", \"pos\": [900.685791015625, 1133.3641357421875], \"size\": [463.80401611328125, 382.84832763671875], \"flags\": {}, \"order\": 5, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 55, \"label\": \"clip\"}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [48], \"slot_index\": 0, \"shape\": 3, \"label\": \"CONDITIONING\"}], \"properties\": {\"Node name for S&R\": \"CLIPTextEncodeFlux\"}, \"widgets_values\": [\"\", \"\", 1]}, {\"id\": 14, \"type\": \"KSampler\", \"pos\": [1492.65478515625, 612.1430053710938], \"size\": [320, 470], \"flags\": {}, \"order\": 10, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 49, \"label\": \"model\"}, {\"name\": \"positive\", \"type\": \"CONDITIONING\", \"link\": 39, \"label\": \"positive\"}, {\"name\": \"negative\", \"type\": \"CONDITIONING\", \"link\": 40, \"label\": \"negative\"}, {\"name\": \"latent_image\", \"type\": \"LATENT\", \"link\": 41, \"slot_index\": 3, \"label\": \"latent_image\"}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": [33], \"slot_index\": 0, \"shape\": 3, \"label\": \"LATENT\"}], \"properties\": {\"Node name for S&R\": \"KSampler\"}, \"widgets_values\": [1086845953031854, \"randomize\", 20, 1, \"deis\", \"ddim_uniform\", 1]}, {\"id\": 3, \"type\": \"LoadImage\", \"pos\": [90, 110], \"size\": [400, 500], \"flags\": {}, \"order\": 4, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [1], \"slot_index\": 0, \"shape\": 3, \"label\": \"IMAGE\"}, {\"name\": \"MASK\", \"type\": \"MASK\", \"links\": [2], \"slot_index\": 1, \"shape\": 3, \"label\": \"MASK\"}], \"properties\": {\"Node name for S&R\": \"LoadImage\"}, \"widgets_values\": [\"clipspace/clipspace-mask-91597.40000000224.png [input]\", \"image\"]}], \"links\": [[1, 3, 0, 1, 0, \"IMAGE\"], [2, 3, 1, 1, 1, \"MASK\"], [8, 1, 0, 2, 0, \"STITCH\"], [12, 2, 0, 7, 0, \"IMAGE\"], [33, 14, 0, 15, 0, \"LATENT\"], [34, 15, 0, 2, 1, \"IMAGE\"], [39, 19, 0, 14, 1, \"CONDITIONING\"], [40, 19, 1, 14, 2, \"CONDITIONING\"], [41, 19, 2, 14, 3, \"LATENT\"], [42, 1, 1, 19, 3, \"IMAGE\"], [43, 1, 2, 19, 4, \"MASK\"], [48, 27, 0, 28, 0, \"CONDITIONING\"], [49, 25, 0, 14, 0, \"MODEL\"], [50, 30, 0, 15, 1, \"VAE\"], [51, 30, 0, 19, 2, \"VAE\"], [52, 28, 0, 19, 0, \"CONDITIONING\"], [53, 29, 0, 19, 1, \"CONDITIONING\"], [55, 26, 0, 27, 0, \"CLIP\"], [56, 26, 0, 29, 0, \"CLIP\"]], \"groups\": [], \"config\": {}, \"extra\": {\"ds\": {\"scale\": 1.3513057093104008, \"offset\": [356.46422672564967, 77.944921744283]}, \"node_versions\": {\"comfy-core\": \"0.3.14\", \"ComfyUI-GGUF\": \"5875c52f59baca3a9372d68c43a3775e21846fe0\", \"ComfyUI-Inpaint-CropAndStitch\": \"2abf837822d761110ac383d9a1cdffcc7ebfab36\"}}, \"version\": 0.4}}",
+        "steps": 30,
+        "models": [],
+        "prompt": "Anime art, dim light, Low key, Chiaroscuro, partially covered in shadow, dramatic shadow. A beautiful black cat with silky fur prowls through a vast field of sunflowers at sunset, its sleek form weaving gracefully between the towering stalks. The golden blooms sway gently in the evening breeze, their broad faces tilting toward the sun's waning light. The cat's midnight-black coat gleams subtly in the dim glow, absorbing the last golden rays. Its eyes, a striking shade of luminous green, reflect the fiery hues of the sky, shimmering with curiosity and wonder. Each deliberate step carries a quiet elegance, as if the feline dances between worlds\u2014half-shadow, half-light.\n\nThe dimming sky paints the scene in rich contrasts\u2014sharp beams of gold slice through the dense forest of stems, illuminating patches of soil and fallen petals, while shadowy alcoves cradle the mysteries of the field. Chiaroscuro emerges vividly in the interplay of light and darkness, accentuating the cat\u2019s fluid, sinuous form as it moves with feline grace. The velvety black of its fur stands out against the muted yellow of the sunflower petals, creating a mesmerizing harmony between the softness of nature and the sharp definition of twilight shadows. The cat, both ethereal and grounded, seems to command the landscape simply by existing within it.\n\nColor grading imbues the scene with cinematic depth, enhancing the tension between the fading warmth of the sunset and the encroaching coolness of night. The cat pauses momentarily, ears flicking toward a distant rustle as the sky bleeds from gold to deep indigo. Its whiskers catch the faint light, shimmering like silver threads in the fading glow. Amid the towering sunflowers and the last embers of daylight, the black cat becomes a living embodiment of grace and mystery\u2014a fleeting presence in a timeless field, where the dance between light and shadow holds endless wonder.",
+        "denoise": 1,
+        "sampler": "deis",
         "cfgScale": 1,
-        "clipSkip": 1,
-        "resources": [],
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639
-          },
-          {
-            "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 720252
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 937875
-          },
-          {
-            "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 1047245
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1483395
-          }
-        ]
+        "modelIds": [],
+        "scheduler": "ddim_uniform",
+        "upscalers": [],
+        "versionIds": [],
+        "controlNets": [],
+        "additionalResources": []
       },
-      "username": "Kanwa",
+      "username": "bnnnslt123",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252,
-        937875,
-        1047245,
-        1483395
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "426|1739277512470",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=426%7C1739277512470"
+    "nextCursor": "427|1733506051957",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=427%7C1733506051957"
   }
 }
