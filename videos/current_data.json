@@ -1,59 +1,102 @@
 {
   "items": [
     {
-      "id": 90251915,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2457c785-402e-497c-b5aa-edb372ed6c73/original=true/2457c785-402e-497c-b5aa-edb372ed6c73.jpeg",
-      "hash": "UB9RFC8_4T_N?^IUIA%fWURQt7oz?vIURjxu",
-      "width": 3328,
-      "height": 4864,
+      "id": 98868831,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/57b526d4-1b94-41dd-a84d-39d01043f86f/original=true/57b526d4-1b94-41dd-a84d-39d01043f86f.jpeg",
+      "hash": "UAEL.{9G9@b{RkI]NNM|00xV~AMw9wIU={xv",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-24T19:26:23.384Z",
-      "postId": 20015316,
+      "createdAt": "2025-09-07T19:58:26.745Z",
+      "postId": 21937049,
       "stats": {
-        "cryCount": 399,
-        "laughCount": 667,
-        "likeCount": 4973,
+        "cryCount": 348,
+        "laughCount": 648,
+        "likeCount": 4990,
         "dislikeCount": 0,
-        "heartCount": 1923,
-        "commentCount": 5
+        "heartCount": 1978,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1675683835,
-        "steps": 30,
-        "prompt": "SR3al, a highly detailed digital painting in a dark fantasy style, depicting a mystical scene. The central figure is a pale, slender woman with long, flowing white hair, standing on a rocky terrain that appears wet and reflective, possibly near a body of water. She is wearing a long, flowing white gown that billows around her, creating a ghostly effect. The gown's fabric looks ethereal and delicate, almost translucent, blending seamlessly with the misty atmosphere.\nTo the left of the woman, there is a massive, dark raven with wings spread wide, casting a shadow over the scene. The raven's feathers are depicted with intricate detail, appearing almost black and slightly iridescent, catching the faint light that filters through the mist. The background is a dense, dark forest with towering trees and a heavy, overcast sky, creating a somber, eerie ambiance. The colors are predominantly dark greys and blacks, contrasted by the bright white of the woman and her gown. The painting uses a realistic yet fantastical style, with a focus on textures and atmospheric lighting to evoke a sense of mystery and otherworldliness.",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
+        "seed": 903128894,
+        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1761560",
+        "extra": {},
+        "steps": 24,
+        "width": 832,
+        "height": 1216,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:827184@1761560"
+        ],
+        "prompt": "HDR, 8K, high contrast, masterpiece, best quality, amazing quality, very aesthetic, retro artstyle, realistic, promotional art, newest, volumetric lighting, (flat colors:2), haiz_ai, no lineart, no outline,\n(artist:incase:0.5), (artist:tsuaii:0.5), \nwoman, blue gray eyes, silver armor, blonde hair, silver and gold metal, braided hair, flower crown, gold jewelry, holding sword,\nhead turned to the side, looking up at the viewer,\ndramatic lighting, dappled lighting,  \nblurred background, grassy field, stone castle,",
+        "denoise": 0.5,
+        "process": "txt2img",
+        "sampler": "Euler",
+        "cfgScale": 5,
         "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-07-23T0427:16.2757554Z",
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-hires",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/ZK6J5TFSDVM11SA8EGZHA8QJF0.jpeg?sig=CfDJ8J868rbHQQlNuTOL2qbAsuS4rzuHZpUIxQLGuTTzNPGMybrie9sbBOl9vfSzvslmF-LMh7vRdaMlrCr6wbi5FFHnRsrRcnF5lrftuV1KHgKKzHvzWRPXErUNlOoP4hY8hmH2ynP5KfPA2PxMOvYI5SfMGt7oKEfpCQoDHealsJzDQJPCoCC9JLEB88anb0_AqmCQhUZbfgcE8kKtSdwfivlReGCGOQ5whhbOIKsfTzxVf_i8pB7H9D7OawBwONRCYdjmPfoVA_Wlku6Nm9xt2Q-dSjjBcVPRfJqNA4qgPtzt&exp=2026-09-07T06:09:05.2108081Z",
+          "width": 832,
+          "height": 1216
+        },
+        "experimental": false,
+        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,\nworst quality, low quality, displeasing, text, watermark, \nbad anatomy, artist name, signature,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "modelVersionId": 1761560
           },
           {
             "type": "lora",
             "weight": 1,
-            "modelVersionId": 2038864,
-            "modelVersionName": "v1.0"
+            "modelVersionId": 2034730
+          },
+          {
+            "type": "lora",
+            "weight": 3,
+            "modelVersionId": 1268294
+          },
+          {
+            "type": "lora",
+            "weight": 2.5,
+            "modelVersionId": 1681903
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 1253047
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
         ]
       },
-      "username": "VelvetS",
-      "baseModel": "Flux.1 D",
+      "username": "FEMPERIUM",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        2038864
+        164821,
+        1253047,
+        1268294,
+        1681903,
+        1761560,
+        2034730
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "447|1757275106745",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=447%7C1757275106745"
+    "nextCursor": "448|1725913124803",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=448%7C1725913124803"
   }
 }
