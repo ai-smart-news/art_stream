@@ -1,40 +1,125 @@
 {
   "items": [
     {
-      "id": 96088900,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/675a8996-e309-4464-a2ae-1be2be4c1d09/original=true/675a8996-e309-4464-a2ae-1be2be4c1d09.jpeg",
-      "hash": "U78Oe~.8DNMvMHMwIURN4TtTs*b|%jxtj[jY",
-      "width": 3424,
-      "height": 6144,
+      "id": 78589694,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3894b041-f196-4993-ba03-ad48d4a2c09c/original=true/3894b041-f196-4993-ba03-ad48d4a2c09c.jpeg",
+      "hash": "U7CX.vNI0$kB05xZ}=WC-nNHwcs.R*oeI=nj",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-25T09:57:17.763Z",
-      "postId": 21313575,
+      "createdAt": "2025-05-26T11:20:09.114Z",
+      "postId": 17456263,
       "stats": {
-        "cryCount": 402,
-        "laughCount": 756,
-        "likeCount": 4967,
+        "cryCount": 365,
+        "laughCount": 605,
+        "likeCount": 5184,
         "dislikeCount": 0,
-        "heartCount": 1884,
-        "commentCount": 8
+        "heartCount": 1833,
+        "commentCount": 3
       },
       "meta": {
-        "seed": 2353098535,
-        "steps": 25,
-        "prompt": "Masterpiece, best quality, amazing quality, newest, very aesthetic, absurdres, (scenery:1.4), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, G0zeNA_illu,abstract,surreal, XUER guangying,748cmstyle.\n\n(shinkai makoto:0.75), (mazjojo:0.83), (artist:pigeon666:0.67), (artist:zawar379:0.77), (artist:remsrar:0.65), (artist:yoneyama mai:0.74), (chimmyming:0.72), (konya karasue:0.55), (remsrar:0.65), nub1mo, (Yomu:0.3),(dino_(dinoartforame):0.5),(quasarcake:0.4),(wlop:0.3), (ebifurya:0.52), (as109:0.82), (krekkov:0.68), (mossacannibalis:0.56), (tianliang duohe fangdongye:0.8), (z-ton:1.04), (photorealistic:1.2), (illustration:1.3), high resolution, sharp focus, soft lighting, aged up, 1girl, long hair, blue eyes, blue hair, off shoulder, black hair, bare shoulders, sidelocks, very long hair, blush, half-closed eyes, hair flower, expressionless, hair between eyes, glowing hair, straight hair, parted lips, looking down, purple eyes, dress, white dress, hair ornament, floral print, off-shoulder dress, see-through, frills, frilled dress, blue dress, sitting, knee up, looking at viewer, flower, water, glowing, solo, blue theme, black background, from side, simple background, feet out of frame, dark, tattoo, closed mouth, white flower, arm tattoo, blue flower, dark background, flower tattoo, light particles, (medium\\), tesun \\(g noh\\).",
-        "sampler": "DPM++ 3M SDE",
-        "cfgScale": 4,
-        "negativePrompt": "lowres, (bad quality,worst quality:1.2), long neck, bad anatomy,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross, loli"
+        "nsfw": false,
+        "seed": 536026379,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1761560",
+        "extra": {
+          "remixOfId": 57966260
+        },
+        "steps": 20,
+        "width": 832,
+        "height": 1216,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:827184@1761560"
+        ],
+        "prompt": "DisneyRenstyle, DISNEY_ANIMATION,\nmasterpiece, best quality, hyper-realistic, ultra-HD, luminous lighting, cinematic ambiance, shimmering gradients, ethereal glow, deep contrast, rich color tones, seductive atmosphere, captivating sensuality, Cinematic Lighting, (belle \\(beauty and the beast\\),:1.3)\nraytracing, volumetric lighting, ambient occlusion, Background, girl, solo, dress, sitting,leaning forward,\n",
+        "denoise": 0.5,
+        "sampler": "DPM++ 2M",
+        "cfgScale": 3,
+        "clipSkip": 2,
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-hires",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "disablePoi": true,
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/45CG9BDK6DG1Y911FP0KC5VFT0.jpeg",
+          "width": 832,
+          "height": 1216
+        },
+        "experimental": false,
+        "negativePrompt": "low quality, worst quality, bad anatomy, bad composition, poor, low effort, large subject,",
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 1761560
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1761560
+          },
+          {
+            "weight": 0.3,
+            "modelVersionId": 1833977
+          },
+          {
+            "weight": 0.7000000000000002,
+            "modelVersionId": 1416874
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1761560
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1833977
+          },
+          {
+            "type": "lora",
+            "weight": 0.7000000000000002,
+            "modelVersionId": 1416874
+          }
+        ],
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:738537@1833977",
+            "type": "lora",
+            "strength": 0.3,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:1256683@1416874",
+            "type": "lora",
+            "strength": 0.7000000000000002,
+            "strengthClip": 1
+          }
+        ]
       },
-      "username": "Yoruuu",
+      "username": "Murf_",
       "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        164821,
+        1416874,
+        1761560,
+        1833977
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "438|1748258409114",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=438%7C1748258409114"
+    "nextCursor": "439|1744207234537",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=439%7C1744207234537"
   }
 }
