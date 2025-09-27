@@ -1,105 +1,59 @@
 {
   "items": [
     {
-      "id": 81794261,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/070e7023-e3fe-4e96-b904-8c7ae32ef1d0/original=true/070e7023-e3fe-4e96-b904-8c7ae32ef1d0.jpeg",
-      "hash": "U984ue-;4n9F_Nxu9EIURPRjIUj[IoM{ae%M",
-      "width": 1248,
-      "height": 1880,
+      "id": 80587716,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1761ea3-b520-460f-b28d-64754701ed3c/original=true/a1761ea3-b520-460f-b28d-64754701ed3c.jpeg",
+      "hash": "USF#?mMw~VRjxvIVRlM{s:WBn%WB%LWBtQWC",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-12T01:02:59.090Z",
-      "postId": 18169907,
+      "createdAt": "2025-06-05T16:41:39.996Z",
+      "postId": 17898822,
       "stats": {
-        "cryCount": 377,
-        "laughCount": 681,
-        "likeCount": 5171,
+        "cryCount": 373,
+        "laughCount": 718,
+        "likeCount": 5138,
         "dislikeCount": 0,
-        "heartCount": 1901,
-        "commentCount": 9
+        "heartCount": 1883,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "1248x1880",
-        "seed": 1964650600,
-        "Model": "ilustmix_v55",
-        "steps": 30,
-        "hashes": {
-          "lora:high_detailILL": "9ab9fb33b2d2",
-          "lora:Smooth_Booster_v3": "61d7ee6c08bd",
-          "lora:Dark_Fantasy_1.5_IL": "6289174351d6",
-          "lora:ILLMythP0rtr4itStyle": "13f1f7e235ca"
-        },
-        "prompt": "masterpiece,best quality,amazing quality, anime coloring, 2d, anime style, <lora:high_detailILL:0.6>, high_detail,   <lora:Smooth_Booster_v3:0.2><lora:Dark_Fantasy_1.5_IL:0.4>dfav1.5,  <lora:Smooth_Booster_v3:0.4> <lora:ILLMythP0rtr4itStyle:0.6>mythp0rt\n1girl, pale, white skin, colored skin, pale skin, soft lips, glossy lips, elf, pointy ears, detailed eyes, glowing eyes, muscular woman, armor, cape, leather armor, scar, scars on face, white hair, long hair, messy hair, black armor, black leather\nmasterpiece,best quality,amazing quality,",
-        "Version": "f0.0.17v1.8.0rc-1.7.0",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 5,
-        "resources": [
+        "Size": "832x1216",
+        "seed": 680465388,
+        "draft": false,
+        "steps": 50,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Depth of field and focus in face, cinematic shot, realistic, masterpiece, (This is a highly detailed CGI (computer-generated imagery) rendering of a small, anthropomorphic happy cat character with an anime-inspired design). The character has a soft, plush-like texture with a predominantly silver gray fur coat that appears smooth and fluffy. The cat's large, expressive eyes are a striking (topaz blue) color, with detailed irises and reflections, giving them a lifelike quality. The character's nose is a gentle pink, matching the blush on its cheeks, adding to its cute and endearing appearance. The cat is wearing a light beige hooded cloak that covers its head and shoulders, with the hood flopped forward, showing off its large, pointed ears that have a pinkish hue inside. The cloak appears to be made of a soft, knitted material, adding to the character's cozy and warm aesthetic. Background room is softly blurred, with a gradient of light gray to white, suggesting an indoor setting with soft, diffused lighting. The overall style is whimsical and adorable, reminiscent of popular animated characters or plush toys. The attention to detail in the fur texture, realistic eye reflections, and the soft color palette all contribute to a charming and inviting visual experience. The overall mood of the photograph is sensual and intimate, with a focus on the models physical attributes and happy smiling attitude, Chiaroscuro warm reflective surface light ,by Rembrandt style, Caravaggio style.",
+        "sampler": "Undefined",
+        "cfgScale": 3,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@699332",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-05-30T2028:59.0276426Z",
+        "civitaiResources": [
           {
-            "hash": "9ab9fb33b2d2",
-            "name": "high_detailILL",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "61d7ee6c08bd",
-            "name": "Smooth_Booster_v3",
-            "type": "lora",
-            "weight": 0.2
-          },
-          {
-            "hash": "6289174351d6",
-            "name": "Dark_Fantasy_1.5_IL",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "name": "Smooth_Booster_v3",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "hash": "13f1f7e235ca",
-            "name": "ILLMythP0rtr4itStyle",
-            "type": "lora",
-            "weight": 0.6
+            "type": "checkpoint",
+            "modelVersionId": 699332,
+            "modelVersionName": "Pro"
           }
-        ],
-        "negativePrompt": "nsfw, rating_explicit, Loli, chibi, bad feet,missing toes,extra toes,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,cencor,sketch, watermark\u00ef\u00bc\u008cmammal, anthro, furry, (patreon watermark:2), (patreon username:2), (logo:1.5), (website:1.5), link, patreon author, signature,watermark,username,artist name,text, logo,patreon username,patreon logo,sign,twitter username",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer prompt": {
-          "high_detailILL": "0.6>",
-          "Dark_Fantasy_1.5_IL": "0.4>dfav1.5",
-          "ILLMythP0rtr4itStyle": "0.6>mythp0rt"
-        },
-        "ADetailer version": "25.3.0",
-        "Denoising strength": "0.35",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "multidiffusion_method": "Mixture of Diffusers",
-        "ADetailer dilate erode": "4",
-        "multidiffusion_enabled": "True",
-        "ADetailer inpaint padding": "32",
-        "multidiffusion_tile_width": "896",
-        "multidiffusion_tile_height": "1344",
-        "multidiffusion_tile_overlap": "64",
-        "ADetailer denoising strength": "0.2",
-        "ADetailer inpaint only masked": "True",
-        "multidiffusion_tile_batch_size": "4"
+        ]
       },
-      "username": "XDDDAI",
-      "baseModel": null,
+      "username": "mn9595",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1373674,
-        1598431,
-        1776503,
-        1784760
+        699332
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "418|1749141699996",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=418%7C1749141699996"
+    "nextCursor": "419|1740234992453",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=419%7C1740234992453"
   }
 }
