@@ -1,67 +1,40 @@
 {
   "items": [
     {
-      "id": 38952393,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e21bda3-cb6c-4ed4-8703-9cd8ff553ea1/original=true/7e21bda3-cb6c-4ed4-8703-9cd8ff553ea1.jpeg",
-      "hash": "U9DI2kMx0Nx]EgR+E2xFNeR+$ixY}=xD9|NG",
-      "width": 832,
-      "height": 1216,
+      "id": 96088900,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/675a8996-e309-4464-a2ae-1be2be4c1d09/original=true/675a8996-e309-4464-a2ae-1be2be4c1d09.jpeg",
+      "hash": "U78Oe~.8DNMvMHMwIURN4TtTs*b|%jxtj[jY",
+      "width": 3424,
+      "height": 6144,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-11-08T03:38:56.987Z",
-      "postId": 8889364,
+      "createdAt": "2025-08-25T09:57:17.763Z",
+      "postId": 21313575,
       "stats": {
-        "cryCount": 353,
-        "laughCount": 595,
-        "likeCount": 5074,
+        "cryCount": 402,
+        "laughCount": 756,
+        "likeCount": 4967,
         "dislikeCount": 0,
-        "heartCount": 1996,
-        "commentCount": 2
+        "heartCount": 1884,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 3279018798,
+        "seed": 2353098535,
         "steps": 25,
-        "prompt": "score_9, score_8_up, score_7_up,\n Android girl, pixel face, screen face, robot body, metal skin,",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 6.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-11-08T0254:43.2604306Z",
-        "negativePrompt": "score_6, score_5, score_4, source_cartoon, 3d\n, (censor),monochrome,blurry, lowres,watermark,(lamia,scales,mermaid,snake tail),(worst quality:1.4),(low quality:1.4),ugly,bad face,morbid,extra fingers,mutilated,mutilated hands,poorly drawn hands,poorly drawn face,blurry,extra limbs,cloned face,gross proportion,malformed limbs,missing arms,missing legs,missing fingers,(extra hands:1.1),too many fingers,extra legs,extra feet,fused fingers,censored,EasyNegative,pubic hair,scales, muscle, ,, four toes, four fingers, extra fingers, six fingers, Imperfect eyes, bad eyes, badly drawn eyes, distorted pupils, bad pupils, NEGATIVE_HANDS, human, humans, human girl",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 828380,
-            "modelVersionName": "v3"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 651075,
-            "modelVersionName": "v0.1-Pony"
-          }
-        ]
+        "prompt": "Masterpiece, best quality, amazing quality, newest, very aesthetic, absurdres, (scenery:1.4), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, G0zeNA_illu,abstract,surreal, XUER guangying,748cmstyle.\n\n(shinkai makoto:0.75), (mazjojo:0.83), (artist:pigeon666:0.67), (artist:zawar379:0.77), (artist:remsrar:0.65), (artist:yoneyama mai:0.74), (chimmyming:0.72), (konya karasue:0.55), (remsrar:0.65), nub1mo, (Yomu:0.3),(dino_(dinoartforame):0.5),(quasarcake:0.4),(wlop:0.3), (ebifurya:0.52), (as109:0.82), (krekkov:0.68), (mossacannibalis:0.56), (tianliang duohe fangdongye:0.8), (z-ton:1.04), (photorealistic:1.2), (illustration:1.3), high resolution, sharp focus, soft lighting, aged up, 1girl, long hair, blue eyes, blue hair, off shoulder, black hair, bare shoulders, sidelocks, very long hair, blush, half-closed eyes, hair flower, expressionless, hair between eyes, glowing hair, straight hair, parted lips, looking down, purple eyes, dress, white dress, hair ornament, floral print, off-shoulder dress, see-through, frills, frilled dress, blue dress, sitting, knee up, looking at viewer, flower, water, glowing, solo, blue theme, black background, from side, simple background, feet out of frame, dark, tattoo, closed mouth, white flower, arm tattoo, blue flower, dark background, flower tattoo, light particles, (medium\\), tesun \\(g noh\\).",
+        "sampler": "DPM++ 3M SDE",
+        "cfgScale": 4,
+        "negativePrompt": "lowres, (bad quality,worst quality:1.2), long neck, bad anatomy,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross, loli"
       },
-      "username": "ValArt",
-      "baseModel": "Pony",
-      "modelVersionIds": [
-        9208,
-        651075,
-        828380
-      ]
+      "username": "Yoruuu",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "437|1756115837763",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=437%7C1756115837763"
+    "nextCursor": "438|1748258409114",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=438%7C1748258409114"
   }
 }
