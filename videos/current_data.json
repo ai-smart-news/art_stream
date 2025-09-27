@@ -1,102 +1,89 @@
 {
   "items": [
     {
-      "id": 98868831,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/57b526d4-1b94-41dd-a84d-39d01043f86f/original=true/57b526d4-1b94-41dd-a84d-39d01043f86f.jpeg",
-      "hash": "UAEL.{9G9@b{RkI]NNM|00xV~AMw9wIU={xv",
-      "width": 1280,
-      "height": 1856,
+      "id": 28598467,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c384d821-59d8-44ba-9a77-64abf7cafd76/original=true/c384d821-59d8-44ba-9a77-64abf7cafd76.jpeg",
+      "hash": "UKDa#q};s,njNcNIsAj[NII=WCWq=^-TkBf6",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-07T19:58:26.745Z",
-      "postId": 21937049,
+      "createdAt": "2024-09-09T20:18:44.803Z",
+      "postId": 6397474,
       "stats": {
-        "cryCount": 348,
-        "laughCount": 648,
-        "likeCount": 4990,
+        "cryCount": 395,
+        "laughCount": 823,
+        "likeCount": 4943,
         "dislikeCount": 0,
-        "heartCount": 1978,
-        "commentCount": 4
+        "heartCount": 1796,
+        "commentCount": 7
       },
       "meta": {
-        "seed": 903128894,
-        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1761560",
-        "extra": {},
-        "steps": 24,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:827184@1761560"
-        ],
-        "prompt": "HDR, 8K, high contrast, masterpiece, best quality, amazing quality, very aesthetic, retro artstyle, realistic, promotional art, newest, volumetric lighting, (flat colors:2), haiz_ai, no lineart, no outline,\n(artist:incase:0.5), (artist:tsuaii:0.5), \nwoman, blue gray eyes, silver armor, blonde hair, silver and gold metal, braided hair, flower crown, gold jewelry, holding sword,\nhead turned to the side, looking up at the viewer,\ndramatic lighting, dappled lighting,  \nblurred background, grassy field, stone castle,",
-        "denoise": 0.5,
-        "process": "txt2img",
-        "sampler": "Euler",
-        "cfgScale": 5,
-        "clipSkip": 2,
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/ZK6J5TFSDVM11SA8EGZHA8QJF0.jpeg?sig=CfDJ8J868rbHQQlNuTOL2qbAsuS4rzuHZpUIxQLGuTTzNPGMybrie9sbBOl9vfSzvslmF-LMh7vRdaMlrCr6wbi5FFHnRsrRcnF5lrftuV1KHgKKzHvzWRPXErUNlOoP4hY8hmH2ynP5KfPA2PxMOvYI5SfMGt7oKEfpCQoDHealsJzDQJPCoCC9JLEB88anb0_AqmCQhUZbfgcE8kKtSdwfivlReGCGOQ5whhbOIKsfTzxVf_i8pB7H9D7OawBwONRCYdjmPfoVA_Wlku6Nm9xt2Q-dSjjBcVPRfJqNA4qgPtzt&exp=2026-09-07T06:09:05.2108081Z",
-          "width": 832,
-          "height": 1216
+        "RNG": "NV",
+        "Size": "896x1152",
+        "seed": 4085068466,
+        "Model": "flux1-dev",
+        "steps": 27,
+        "hashes": {
+          "model": "",
+          "lora:MidjourneyV6.1": "33c5c6cbb146",
+          "lora:Dever_Flux_Enhancer": "6be64a302443",
+          "lora:FluxDFaeTasticDetails": "4259dc3287",
+          "lora:- Flux1 - vanta_black_V2.0": "5d8cf3724039"
         },
-        "experimental": false,
-        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,\nworst quality, low quality, displeasing, text, watermark, \nbad anatomy, artist name, signature,",
-        "civitaiResources": [
+        "Version": "f2.0.1v1.10.1-previous-526-gc13b26ba",
+        "sampler": "Euler",
+        "Module 1": "clip_l",
+        "Module 2": "ae",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1761560
+            "hash": "4259dc3287",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora"
           },
           {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 2034730
+            "hash": "5d8cf3724039",
+            "name": "- Flux1 - vanta_black_V2.0",
+            "type": "lora"
           },
           {
-            "type": "lora",
-            "weight": 3,
-            "modelVersionId": 1268294
+            "hash": "6be64a302443",
+            "name": "Dever_Flux_Enhancer",
+            "type": "lora"
           },
           {
-            "type": "lora",
-            "weight": 2.5,
-            "modelVersionId": 1681903
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1253047
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "hash": "33c5c6cbb146",
+            "name": "MidjourneyV6.1",
+            "type": "lora"
           }
-        ]
+        ],
+        "Model hash": "",
+        "Schedule type": "Beta",
+        "Beta schedule beta": "0.6",
+        "Beta schedule alpha": "0.6",
+        "Distilled CFG Scale": "3.5",
+        "Style Selector Style": "base",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "False"
       },
-      "username": "FEMPERIUM",
-      "baseModel": "Illustrious",
+      "username": "sunnytiersen",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        164821,
-        1253047,
-        1268294,
-        1681903,
-        1761560,
-        2034730
+        745845,
+        720252,
+        691639,
+        801005,
+        737284
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "448|1725913124803",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=448%7C1725913124803"
+    "nextCursor": "449|1755625620000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=449%7C1755625620000"
   }
 }
