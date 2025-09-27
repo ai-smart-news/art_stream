@@ -1,59 +1,33 @@
 {
   "items": [
     {
-      "id": 80587716,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1761ea3-b520-460f-b28d-64754701ed3c/original=true/a1761ea3-b520-460f-b28d-64754701ed3c.jpeg",
-      "hash": "USF#?mMw~VRjxvIVRlM{s:WBn%WB%LWBtQWC",
-      "width": 832,
-      "height": 1216,
+      "id": 59416731,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26fa40c9-8d16-4e44-b185-d7829e7ebc1d/original=true/26fa40c9-8d16-4e44-b185-d7829e7ebc1d.jpeg",
+      "hash": "UBDbW;$Y01NP}*={NMRl00-s~CM^S8xanyIn",
+      "width": 896,
+      "height": 1280,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-05T16:41:39.996Z",
-      "postId": 17898822,
+      "createdAt": "2025-02-22T14:36:32.453Z",
+      "postId": 13291141,
       "stats": {
-        "cryCount": 373,
-        "laughCount": 718,
-        "likeCount": 5138,
+        "cryCount": 314,
+        "laughCount": 545,
+        "likeCount": 5247,
         "dislikeCount": 0,
-        "heartCount": 1883,
-        "commentCount": 8
+        "heartCount": 2001,
+        "commentCount": 13
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 680465388,
-        "draft": false,
-        "steps": 50,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Depth of field and focus in face, cinematic shot, realistic, masterpiece, (This is a highly detailed CGI (computer-generated imagery) rendering of a small, anthropomorphic happy cat character with an anime-inspired design). The character has a soft, plush-like texture with a predominantly silver gray fur coat that appears smooth and fluffy. The cat's large, expressive eyes are a striking (topaz blue) color, with detailed irises and reflections, giving them a lifelike quality. The character's nose is a gentle pink, matching the blush on its cheeks, adding to its cute and endearing appearance. The cat is wearing a light beige hooded cloak that covers its head and shoulders, with the hood flopped forward, showing off its large, pointed ears that have a pinkish hue inside. The cloak appears to be made of a soft, knitted material, adding to the character's cozy and warm aesthetic. Background room is softly blurred, with a gradient of light gray to white, suggesting an indoor setting with soft, diffused lighting. The overall style is whimsical and adorable, reminiscent of popular animated characters or plush toys. The attention to detail in the fur texture, realistic eye reflections, and the soft color palette all contribute to a charming and inviting visual experience. The overall mood of the photograph is sensual and intimate, with a focus on the models physical attributes and happy smiling attitude, Chiaroscuro warm reflective surface light ,by Rembrandt style, Caravaggio style.",
-        "sampler": "Undefined",
-        "cfgScale": 3,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@699332",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-05-30T2028:59.0276426Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 699332,
-            "modelVersionName": "Pro"
-          }
-        ]
-      },
-      "username": "mn9595",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        699332
-      ]
+      "meta": null,
+      "username": "SamLiu",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "419|1740234992453",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=419%7C1740234992453"
+    "nextCursor": "420|1726005903311",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=420%7C1726005903311"
   }
 }
