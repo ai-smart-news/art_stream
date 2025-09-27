@@ -1,87 +1,58 @@
 {
   "items": [
     {
-      "id": 80606960,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/50dcdb19-d52c-4b00-bca7-162c68d14719/original=true/50dcdb19-d52c-4b00-bca7-162c68d14719.jpeg",
-      "hash": "U6Aw9kMyVt~p~UIB%2oyWA00ELE1NZE2xutQ",
-      "width": 832,
-      "height": 1216,
+      "id": 63491229,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cefd03a7-2bc8-45ca-8154-26d1f097de1f/original=true/cefd03a7-2bc8-45ca-8154-26d1f097de1f.jpeg",
+      "hash": "U57V14Y600$kk=ROL#s:3Csm|@I;_Nx]5RNH",
+      "width": 720,
+      "height": 1080,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-05T19:07:24.239Z",
-      "postId": 17903028,
+      "createdAt": "2025-03-14T16:09:03.955Z",
+      "postId": 14163194,
       "stats": {
-        "cryCount": 531,
-        "laughCount": 785,
-        "likeCount": 4942,
+        "cryCount": 406,
+        "laughCount": 661,
+        "likeCount": 5251,
         "dislikeCount": 0,
-        "heartCount": 1845,
-        "commentCount": 6
+        "heartCount": 1785,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 860415659,
-        "draft": false,
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "prompt": "score_9, score_8_up,\nscore_7_up, score_6_up\nscore_5_up, score_4_up, sexy, source pony, unicorn, solo, indoors, Lyra Heartstrings, halfbody,  lying down, close eyes,  peaceful face ,  floppy ears, fur, fluff, cute, ear fluff, chest fluff. Bedroom,  lie on bed, covered with a blanket, night, darkness, window, nightstand. One light source, volumetrik lightning, bright colors, cold light,  cold tones. High detailed, scenery porn, high res, high quality, high detailed backround.",
-        "sampler": "Euler a",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
-        "resources": [],
-        "Created Date": "2025-06-05T1848:51.1746117Z",
-        "negativePrompt": "Ugly, messy backround, bad anatomy, bad proportions, human",
-        "civitaiResources": [
+        "Size": "720x1080",
+        "seed": 3206367108,
+        "Model": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
+        "steps": 12,
+        "hashes": {
+          "model": "7cacd3ba4b"
+        },
+        "prompt": "VintageSketch style, YFG-Asak, A hyper-detailed miniature diorama of a futuristic cyberpunk city built inside a broken light bulb. Neon-lit skyscrapers rise within the glass, with tiny flying cars zipping between buildings. The streets are bustling with miniature figures, glowing billboards, and tiny street vendors selling holographic goods. Electrical sparks flicker from the bulb's shattered edges, blending technology with an otherworldly vibe. Mist swirls around the base, giving a sense of depth and mystery. The background is dark, enhancing the neon reflections on the glass, creating a mesmerizing sci-fi atmosphere.\u00e2\u0080\u008b\u00e2\u0080\u008b\u00e2\u0080\u008b",
+        "Version": "f2.0.1v1.10.1-previous-608-ge2fe29c1",
+        "sampler": "Euler",
+        "Module 1": "flux1DevVAE_safetensors",
+        "cfgScale": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1763661,
-            "modelVersionName": "\u2728v2.3"
-          },
-          {
-            "type": "lora",
-            "weight": 6,
-            "modelVersionId": 712947,
-            "modelVersionName": "v1.4"
-          },
-          {
-            "type": "lora",
-            "weight": 3.25,
-            "modelVersionId": 1242203,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 550787,
-            "modelVersionName": "MFP V2"
-          },
-          {
-            "type": "lora",
-            "weight": 1.35,
-            "modelVersionId": 356467,
-            "modelVersionName": "v1.0-XL-pony"
+            "hash": "7cacd3ba4b",
+            "name": "flux1DevHyperNF4Flux1DevBNB_flux1DevHyperNF4_732975",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "7cacd3ba4b",
+        "Schedule type": "Simple",
+        "Distilled CFG Scale": "5"
       },
-      "username": "valdemarpatutko829",
-      "baseModel": "Pony",
+      "username": "PBtheCreator",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        356467,
-        550787,
-        712947,
-        1242203,
-        1763661
+        819165
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "423|1741968543955",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=423%7C1741968543955"
+    "nextCursor": "424|1728926205287",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=424%7C1728926205287"
   }
 }
