@@ -1,70 +1,84 @@
 {
   "items": [
     {
-      "id": 63881547,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68972a89-ee08-475b-98d7-250727a0c512/original=true/68972a89-ee08-475b-98d7-250727a0c512.jpeg",
-      "hash": "U8B:jH_3^+_N?u_2oz%gIUM|?uof00XSWEaK",
-      "width": 832,
-      "height": 1216,
+      "id": 76003952,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d0509de1-75b1-4816-9b5e-912cc2bf1a2f/original=true/d0509de1-75b1-4816-9b5e-912cc2bf1a2f.jpeg",
+      "hash": "UHC=i7=sOAS$}at7ELR%D*Ip5lR+-BWBJBS5",
+      "width": 1440,
+      "height": 2304,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-16T23:00:00.000Z",
-      "postId": 14247000,
+      "createdAt": "2025-05-13T07:26:55.862Z",
+      "postId": 16874891,
       "stats": {
-        "cryCount": 440,
-        "laughCount": 765,
-        "likeCount": 4908,
+        "cryCount": 391,
+        "laughCount": 800,
+        "likeCount": 4993,
         "dislikeCount": 0,
-        "heartCount": 1865,
-        "commentCount": 7
+        "heartCount": 1791,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 632566616,
-        "draft": false,
-        "extra": {
-          "remixOfId": 43677569
+        "Size": "1440x2304",
+        "seed": 781267741,
+        "Model": "flux1-dev",
+        "steps": 25,
+        "hashes": {
+          "model": "3f97fdc57a",
+          "lora:aidmaMJ6.1_v0.5_3": "248c70f4d245",
+          "lora:detailifier_sd3.5": "4abeda69c3f9"
         },
-        "steps": 33,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Create an image of a futuristic robot sitting at an antique wooden desk in an office, enthusiastically typing on an old-fashioned typewriter. Piles of neatly typed pages surround the robot, adding a humorous twist to the scene.",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-03-16T1522:10.5926400Z",
-        "civitaiResources": [
+        "prompt": "A vivid steampunk scene above the clouds in the floating city of Ishtar,centered on a female watcher with a mechanical arm and an old pilot suit,standing atop a colossal gear tower. She peers into a thunderstorm with a brass telescope. Behind her,flying whale-shaped airships carry glass domes filled with ancient plants,circling the glowing mechanical heart that powers the city. The background glows with crimson light from steam vents and rotating gear circuits,while electric arcs dance across a storm beast shaped like a dragon. Feathered mechanical doves dart through the clouds carrying scrolls. A mechanical angel with golden wings awakens in the misty distance. (vivid style, cinematic lighting, wide angle, high detail),\n<lora:detailifier_sd3.5:1>,detailifier,<lora:aidmaMJ6.1_v0.5_3:0.5>,aidmaMJ6.1,",
+        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
+        "sampler": "Euler",
+        "Module 1": "flux_ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "Mask blur": "2",
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "hash": "4abeda69c3f9",
+            "name": "detailifier_sd3.5",
+            "type": "lora",
+            "weight": 1
           },
           {
+            "hash": "248c70f4d245",
+            "name": "aidmaMJ6.1_v0.5_3",
             "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
+            "weight": 0.5
+          },
+          {
+            "hash": "3f97fdc57a",
+            "name": "flux1-dev",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "3f97fdc57a",
+        "Schedule type": "Simple",
+        "Denoising strength": "0.5",
+        "Distilled CFG Scale": "3.5",
+        "Soft inpainting enabled": "True",
+        "Soft inpainting schedule bias": "1",
+        "Soft inpainting mask influence": "0",
+        "Soft inpainting difference contrast": "2",
+        "Soft inpainting difference threshold": "0.5",
+        "Soft inpainting preservation strength": "0.5",
+        "Soft inpainting transition contrast boost": "4"
       },
-      "username": "CptnChaos",
+      "username": "karlcrane2015",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639,
-        720252
+        1031573,
+        1249246
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "442|1747121215862",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=442%7C1747121215862"
+    "nextCursor": "443|1755902897173",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=443%7C1755902897173"
   }
 }
