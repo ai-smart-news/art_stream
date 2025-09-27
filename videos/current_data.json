@@ -1,33 +1,83 @@
 {
   "items": [
     {
-      "id": 89003116,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e49aa720-d2c9-477e-90be-98c1a8a5c9a6/original=true/e49aa720-d2c9-477e-90be-98c1a8a5c9a6.jpeg",
-      "hash": "UHGbr2Rj00WC%LD%Io-;00t7~pxu4.t7jGE1",
-      "width": 864,
-      "height": 1536,
+      "id": 50942809,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8cc277fd-318b-4666-acb1-8ee6d51769cc/original=true/8cc277fd-318b-4666-acb1-8ee6d51769cc.jpeg",
+      "hash": "U57eu8I900x]t0t+IUQ-00yW-;MxIAXm?wZ~",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-18T14:57:14.351Z",
-      "postId": 19745110,
+      "createdAt": "2025-01-11T13:36:11.137Z",
+      "postId": 11459412,
       "stats": {
-        "cryCount": 325,
-        "laughCount": 692,
-        "likeCount": 5317,
+        "cryCount": 337,
+        "laughCount": 574,
+        "likeCount": 5340,
         "dislikeCount": 0,
-        "heartCount": 1878,
-        "commentCount": 5
+        "heartCount": 1958,
+        "commentCount": 4
       },
-      "meta": null,
-      "username": "suduji",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1178862730,
+        "Model": "[IL] ilustmix_v10",
+        "steps": 30,
+        "hashes": {
+          "model": "3e63a8cfe3",
+          "lora:GBF_Illustrious": "e7450d76b275",
+          "lora:Dramatic Lighting Slider": "c7fc2cd4c9ee"
+        },
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, detailed eyes, perfect eyes, realistic eyes, depth of field,\nfacing viewer, full body, dramatic, (fighting stance:0.7),\n1girl, cyborg, sword, unsheathing, katana, white kimono, black hair, (mechanical legs:1.2),\ncyberpunk city, night, starry sky, aurora,\ncinematic, epic, bloom,\nvolumetric lighting, (dark background:1.4), vibrant colours, high contrast,\n<lora:Dramatic Lighting Slider:3>, <lora:GBF_Illustrious:0.6>, gbf_style",
+        "Version": "v1.10.1",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "resources": [
+          {
+            "hash": "e7450d76b275",
+            "name": "GBF_Illustrious",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "hash": "c7fc2cd4c9ee",
+            "name": "Dramatic Lighting Slider",
+            "type": "lora"
+          },
+          {
+            "hash": "3e63a8cfe3",
+            "name": "[IL] ilustmix_v10",
+            "type": "model"
+          }
+        ],
+        "Model hash": "3e63a8cfe3",
+        "Schedule type": "SGM Uniform",
+        "negativePrompt": "loli, young, multiple, bad quality, worst quality, worst detail, sketch, closed eyes,",
+        "ADetailer model": "face_yolov8s.pt",
+        "ADetailer steps": "20",
+        "ADetailer version": "24.11.1",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.2",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "Discard penultimate sigma": "True",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer use separate steps": "True",
+        "ADetailer inpaint only masked": "True"
+      },
+      "username": "Unstable_Specularity",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1248100,
+        1242203,
+        1032397
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "404|1736602571137",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=404%7C1736602571137"
+    "nextCursor": "405|1747426653943",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=405%7C1747426653943"
   }
 }
