@@ -1,39 +1,100 @@
 {
   "items": [
     {
-      "id": 54559146,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7db8713-e734-4130-abeb-a693e2036c5b/original=true/f7db8713-e734-4130-abeb-a693e2036c5b.jpeg",
-      "hash": "UC7L$I.TV=ROHqtR%ho#tRV?VstRM|Mwoet8",
-      "width": 832,
-      "height": 1216,
+      "id": 90234908,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21f39c3a-1fb2-4f5a-9c21-28e60552f2fc/original=true/21f39c3a-1fb2-4f5a-9c21-28e60552f2fc.jpeg",
+      "hash": "UI2?|AR1tVXBkJfye?kYVUo$WGi@fdaJksVp",
+      "width": 2392,
+      "height": 3928,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-29T09:09:12.964Z",
-      "postId": 12233496,
+      "createdAt": "2025-07-24T17:29:36.933Z",
+      "postId": 20011970,
       "stats": {
-        "cryCount": 324,
-        "laughCount": 539,
-        "likeCount": 5148,
+        "cryCount": 406,
+        "laughCount": 715,
+        "likeCount": 4730,
         "dislikeCount": 0,
-        "heartCount": 1767,
-        "commentCount": 4
+        "heartCount": 1925,
+        "commentCount": 6
       },
-      "meta": null,
-      "username": null,
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "2393x3929",
+        "seed": 771576745,
+        "Model": "JANKUV4NSFWTrainedNoobaiEPS_v40",
+        "steps": 35,
+        "hashes": {
+          "model": "59225eddc3",
+          "lora:HeavyFogIllXL": "5a9df9762250",
+          "lora:darkness_xl_v20": "cd20ac3d70b9",
+          "lora:d\\\\EnvyZoomSliderXL01": "ed47526bdf74"
+        },
+        "prompt": "masterpiece, sharp detail, intricate detail, 1girl, (urin, rella, konya karasue), pale skin,  pointy ears, long eyelashes, black sclera, vivid golden eyes, silver hair, long hair, straight hair, (hair flaps), (petite, small height), medium breasts, victorian, official coat, black pants, top hat, ribbon on hat, black gloves, adjusting gloves,  shirt, black outfit, belt, looking at viewer, full body, BREAK fog, dense fog, city street, medieval city, night, upper body,  half-closed eyes, expressionless, evening, medieval city, buildings, stone road, high-key lighting, light rays, hard lighting, BREAK chiaroscuro, dramatic shadows, detailed background,  <lora:darkness_xl_v20:0.7>,  <lora:HeavyFogIllXL:0.6> heavy fog, rolling fog, <lora:d\\EnvyZoomSliderXL01:4>",
+        "Version": "f1.7.0-v1.10.1RC-latest-2190-g8731f1e9",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "cd20ac3d70b9",
+            "name": "darkness_xl_v20",
+            "type": "lora",
+            "weight": 0.7
+          },
+          {
+            "hash": "5a9df9762250",
+            "name": "HeavyFogIllXL",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "hash": "ed47526bdf74",
+            "name": "d\\\\EnvyZoomSliderXL01",
+            "type": "lora"
+          },
+          {
+            "hash": "59225eddc3",
+            "name": "JANKUV4NSFWTrainedNoobaiEPS_v40",
+            "type": "model"
+          }
+        ],
+        "Model hash": "59225eddc3",
+        "VAE Decoder": "TAESD",
+        "Schedule type": "Align Your Steps",
+        "negativePrompt": "worst quality, low quality, normal quality, bad hands, bad feet, bad anatomy, bad proportions, cropped image, missing fingers, jpeg artifacts, signature, watermark, username, artist name, high heels,",
+        "ADetailer model": "Anzhc Face seg 640 v2 y8n.pt",
+        "ADetailer prompt": {},
+        "ADetailer version": "25.3.0",
+        "Denoising strength": "0.32",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "multidiffusion_method": "Mixture of Diffusers",
+        "ADetailer dilate erode": "4",
+        "multidiffusion_enabled": "True",
+        "ADetailer inpaint width": "1620",
+        "ADetailer inpaint height": "1620",
+        "ADetailer inpaint padding": "32",
+        "multidiffusion_tile_width": "1496",
+        "multidiffusion_tile_height": "2456",
+        "multidiffusion_tile_overlap": "64",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True",
+        "multidiffusion_tile_batch_size": "4",
+        "ADetailer use inpaint width height": "True"
+      },
+      "username": "Celebyss",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        737325,
-        738658,
-        951509,
-        1249246
+        1214744,
+        1481160,
+        1772645
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "484|1753378176933",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=484%7C1753378176933"
+    "nextCursor": "485|1749143449422",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=485%7C1749143449422"
   }
 }
