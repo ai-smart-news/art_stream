@@ -1,51 +1,87 @@
 {
   "items": [
     {
-      "id": 75710182,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c702ef03-7b75-41b2-aa61-114d0416d25f/original=true/c702ef03-7b75-41b2-aa61-114d0416d25f.jpeg",
-      "hash": "UMEf0{D+63-U_KM|IXofPlM|z@SN-.Rkt6WC",
-      "width": 1024,
-      "height": 1536,
+      "id": 84039392,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4908eab-7564-467a-a041-fffe24c22405/original=true/f4908eab-7564-467a-a041-fffe24c22405.jpeg",
+      "hash": "UYD,vDR,RO-;%%jcs+tR%gxvV@WBtSbwadsk",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-11T23:42:08.816Z",
-      "postId": 16811846,
+      "createdAt": "2025-06-23T13:09:23.561Z",
+      "postId": 18658765,
       "stats": {
-        "cryCount": 408,
-        "laughCount": 869,
-        "likeCount": 4676,
+        "cryCount": 376,
+        "laughCount": 642,
+        "likeCount": 4888,
         "dislikeCount": 0,
-        "heartCount": 1858,
-        "commentCount": 3
+        "heartCount": 1901,
+        "commentCount": 1
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "A breathtaking, ultra high-resolution (8K) macro photograph of a small Kodama forest spirit inspired by Studio Ghibli, standing on a mossy forest floor. This Kodama has the whimsical body shape of a classic Kodama, but its skin resembles the surface of a ripe strawberry\u2014vivid red with tiny yellow seeds and a glossy texture. On top of its head, a small cluster of fresh green leaves forms a leafy crown, reminiscent of a strawberry stem. The Kodama\u2019s large, expressive, dark eyes gaze curiously at the viewer, radiating innocence and wonder. Dewdrops glisten on the vibrant green moss and miniature mushrooms surround the Kodama, enhancing the sense of magical realism. Soft, ethereal rays of sunlight filter through lush, out-of-focus foliage in the background, creating a dreamy, enchanting atmosphere. The photo is hyper-detailed, with shallow depth of field and beautiful bokeh, capturing every tiny detail of the Kodama\u2019s strawberry-textured skin, the moss, and the natural environment. The mood is whimsical, mysterious, and enchanting, evoking the spirit of classic Ghibli animation.",
-        "quality": "high",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
+        "Size": "832x1216",
+        "seed": 1941141120,
+        "steps": 26,
+        "prompt": "\"Create a breathtaking fantasy scene featuring a majestic castle perched atop a rocky cliff, surrounded by lush evergreen forests and towering snow-capped mountains. The castle boasts intricate Gothic architecture with multiple spires, arched windows, and golden accents glinting under a partly cloudy sky. In the foreground, a serene lake reflects the castle and the surrounding landscape, adding a mirror-like quality to the scene. A young woman with long, flowing hair stands gracefully on an oversized, open book that rests on the ground, her elegant, flowing gown cascading over the pages. The book appears ancient, with weathered edges and detailed illustrations that blend seamlessly into the natural environment. The overall atmosphere should evoke a sense of wonder and magical storytelling, with vibrant colors and a harmonious blend of nature and fantasy elements. Ensure the lighting is soft and ethereal, enhancing the dreamlike quality of the composition.\"",
+        "sampler": "Undefined",
+        "cfgScale": 9,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-06-23T1303:05.0423245Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 753339,
+            "modelVersionName": "Phlux_V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 880134,
+            "modelVersionName": "Flux V2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 1249246,
+            "modelVersionName": "FLUX v0.5"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 1850943,
+            "modelVersionName": "V4"
           }
         ]
       },
-      "username": "Leeroyyy",
-      "baseModel": "OpenAI",
+      "username": "FenixDX7",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        691639,
+        720252,
+        753339,
+        880134,
+        1249246,
+        1850943
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "477|1750684163561",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=477%7C1750684163561"
+    "nextCursor": "478|1749034286205",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=478%7C1749034286205"
   }
 }
