@@ -1,100 +1,56 @@
 {
   "items": [
     {
-      "id": 67190327,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd479e40-b7ad-42cc-b657-98099ab3e786/original=true/dd479e40-b7ad-42cc-b657-98099ab3e786.jpeg",
-      "hash": "U79HO?E100=}I.r;s,R*0Kx^_4Inm6o~IVxb",
+      "id": 85290327,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26657a6c-c4a3-46f0-b86f-e673306348ce/original=true/26657a6c-c4a3-46f0-b86f-e673306348ce.jpeg",
+      "hash": "UQH:aTJ;G^bw9dxHx^pcLNMf+IWA~AOmt,#k",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T03:43:42.108Z",
-      "postId": 14943321,
+      "createdAt": "2025-07-21T07:02:00.000Z",
+      "postId": 18930633,
       "stats": {
-        "cryCount": 453,
-        "laughCount": 963,
-        "likeCount": 4678,
+        "cryCount": 414,
+        "laughCount": 844,
+        "likeCount": 4701,
         "dislikeCount": 0,
-        "heartCount": 1789,
-        "commentCount": 8
+        "heartCount": 1914,
+        "commentCount": 13
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": false,
-        "seed": 3803841481,
-        "draft": false,
-        "extra": {
-          "remixOfId": 66505539
+        "seed": 356825784482772,
+        "steps": 30,
+        "hashes": {
+          "model": "3761477265",
+          "LORA:CharmeleonPokedex_IXL_v1": "5cbb203e51"
         },
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "prompt": "masterpiece, best quality, amazing quality,, <lora:CivChan_Illustrious:0.9> quality: masterpiece, extremely aesthetic, highly detailed, vibrant colors, vivid colors, saturated, crazy smile, <lora:pennywise-in-the-sewer-ponyxl-lora-nochekaiser:1>, pennywise in the sewer, pennywise in the sewer (meme), storm drain, sewer grate, grate, sewer, meme, concrete, grass, sidewalk,, <lora:evil-grin-ponyxl-lora-nochekaiser:1>, evil grin, evil smile, grin, evil eyes, crazy eyes, teeth, shaded face,,, , cowboy shot, solo",
-        "sampler": "Euler a",
+        "prompt": "masterpiece, best quality, anime screencap, solo,   zzCharmeleon, surfing, ocean, sunglasses,     ,<lora:CharmeleonPokedex_IXL_v1:1.0>,",
+        "sampler": "DPM++ 2M Karras",
         "cfgScale": 7,
-        "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
         "resources": [
           {
-            "name": "CivChan_Illustrious",
-            "type": "lora",
-            "weight": 0.9
-          },
-          {
-            "name": "pennywise-in-the-sewer-ponyxl-lora-nochekaiser",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "name": "evil-grin-ponyxl-lora-nochekaiser",
+            "name": "CharmeleonPokedex_IXL_v1",
             "type": "lora",
             "weight": 1
           }
         ],
-        "Created Date": "2025-04-01T0338:41.5103587Z",
-        "negativePrompt": "bad quality, worst quality, worst detail, censor,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1367422,
-            "modelVersionName": "v10.0"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 653028,
-            "modelVersionName": "booru"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1238772,
-            "modelVersionName": "booru"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055,
-            "modelVersionName": "V1"
-          }
-        ]
+        "Model hash": "3761477265",
+        "negativePrompt": "(blurry), (lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), bad hands, multiple views, jpeg artifacts, signature, watermark, text, logo, artist name,",
+        "CAT_IL_CitronAnimeTreasure_v9 Version": "ComfyUI"
       },
-      "username": "cedridx568",
+      "username": "CitronLegacy",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        653028,
-        1238772,
-        1367422,
-        1597055
+        1945419
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "464|1753081320000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=464%7C1753081320000"
+    "nextCursor": "465|1741763981279",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=465%7C1741763981279"
   }
 }
