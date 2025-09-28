@@ -1,33 +1,88 @@
 {
   "items": [
     {
-      "id": 80591243,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/691be57c-2959-4e9b-b863-1fb0d141b2cb/original=true/691be57c-2959-4e9b-b863-1fb0d141b2cb.jpeg",
-      "hash": "UYC;00R*|bnj}EWV;NsB$QW;nikCWXj[NakB",
-      "width": 896,
-      "height": 1152,
+      "id": 16653620,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e02b2d2-9864-47a4-b14c-d56faf2aaef3/original=true/8e02b2d2-9864-47a4-b14c-d56faf2aaef3.jpeg",
+      "hash": "U5A0wNrq4mxv~BVsRQxsXpn#$~ogXSIokDr=",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-05T17:10:49.422Z",
-      "postId": 17899531,
+      "createdAt": "2024-06-21T21:04:56.347Z",
+      "postId": 3735886,
       "stats": {
-        "cryCount": 344,
-        "laughCount": 673,
-        "likeCount": 5036,
+        "cryCount": 0,
+        "laughCount": 0,
+        "likeCount": 4989,
         "dislikeCount": 0,
-        "heartCount": 1719,
-        "commentCount": 4
+        "heartCount": 1966,
+        "commentCount": 0
       },
-      "meta": null,
-      "username": "JPP01",
-      "baseModel": "SD 3.5 Large",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1737173171,
+        "steps": 19,
+        "prompt": "score_9, score_8_up, score_8, (solo), (solo:2), (fluffy:0.8), (feral), outdoors, furry, (((mouse))), female, bright green eyes, grey fur, grey ears, claws, (fluffy cheeks:0.4), grey hooded cape, hood up, (blue dress), cute, in the style of beatrix potter, cel-shading, fca style, village, night, rain, (dark:1.5), backlit,  (side view:1.3), (upper body shot), look back",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-06-14T2228:30.8622125Z",
+        "negativePrompt": "ng_deepnegative_v1_75t, score_6, score_5, score_4, (cub, young, child, chibi:1.5), busty, ugly face, low res, blurry face, ugly hands, pumped body, black and white, penis, clothing, breasts, big ears, ((hair)), nipples, green fur, belly, extra ears, human, blue fur, panties, simple background, signature",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 5637,
+            "modelVersionName": "V1 75T"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 314058,
+            "modelVersionName": "v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 423178,
+            "modelVersionName": "Beatrix potter drawing style"
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 450029,
+            "modelVersionName": "LineArt Mono"
+          }
+        ]
+      },
+      "username": "JustAMouse",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        5637,
+        290640,
+        314058,
+        382152,
+        423178,
+        450029
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "486|1719003896347",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=486%7C1719003896347"
+    "nextCursor": "487|1747669225711",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=487%7C1747669225711"
   }
 }
