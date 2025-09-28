@@ -1,88 +1,76 @@
 {
   "items": [
     {
-      "id": 16653620,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e02b2d2-9864-47a4-b14c-d56faf2aaef3/original=true/8e02b2d2-9864-47a4-b14c-d56faf2aaef3.jpeg",
-      "hash": "U5A0wNrq4mxv~BVsRQxsXpn#$~ogXSIokDr=",
-      "width": 832,
-      "height": 1216,
+      "id": 77248378,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b99fbdd7-762f-4153-b79d-11991faf6283/original=true/b99fbdd7-762f-4153-b79d-11991faf6283.jpeg",
+      "hash": "UDCi2F~VtlWq^%t7NdjbMxM{M|t7E1M{V@Ip",
+      "width": 2688,
+      "height": 3840,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-06-21T21:04:56.347Z",
-      "postId": 3735886,
+      "createdAt": "2025-05-19T15:40:25.711Z",
+      "postId": 17157320,
       "stats": {
-        "cryCount": 0,
-        "laughCount": 0,
-        "likeCount": 4989,
+        "cryCount": 328,
+        "laughCount": 690,
+        "likeCount": 4878,
         "dislikeCount": 0,
-        "heartCount": 1966,
-        "commentCount": 0
+        "heartCount": 1858,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1737173171,
-        "steps": 19,
-        "prompt": "score_9, score_8_up, score_8, (solo), (solo:2), (fluffy:0.8), (feral), outdoors, furry, (((mouse))), female, bright green eyes, grey fur, grey ears, claws, (fluffy cheeks:0.4), grey hooded cape, hood up, (blue dress), cute, in the style of beatrix potter, cel-shading, fca style, village, night, rain, (dark:1.5), backlit,  (side view:1.3), (upper body shot), look back",
-        "sampler": "Euler a",
-        "cfgScale": 4,
+        "nsfw": false,
+        "seed": 204185684,
+        "vaes": [],
+        "draft": false,
+        "extra": {},
+        "steps": 32,
+        "width": 832,
+        "height": 1216,
+        "models": [],
+        "prompt": "(masterpiece), (ultra realistic), (8k, cinematic lighting), (ambient_occlusion), (volumetric shadows), (rim lighting), ((exceptionally beautiful red-haired woman)), 22 years old, fair skin, soft hourglass figure, long red curls pinned up in a braided crown, wearing an opulent crimson velvet gown with gold embroidery and a full skirt pooling around her feet, sitting gracefully on a carved wooden bench in a stone chamber lit by candlelight, arched stone walls and chandelier above, serene expression, candle glow highlighting the folds of her gown",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 11.5,
         "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-06-14T2228:30.8622125Z",
-        "negativePrompt": "ng_deepnegative_v1_75t, score_6, score_5, score_4, (cub, young, child, chibi:1.5), busty, ugly face, low res, blurry face, ugly hands, pumped body, black and white, penis, clothing, breasts, big ears, ((hair)), nipples, green fur, belly, extra ears, human, blue fur, panties, simple background, signature",
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@699332",
+        "modelIds": [],
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "disablePoi": true,
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": "",
+        "experimental": false,
+        "openAIQuality": "medium",
         "civitaiResources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "embed",
             "weight": 1,
-            "modelVersionId": 5637,
-            "modelVersionName": "V1 75T"
+            "modelVersionId": 699332
           },
           {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 314058,
-            "modelVersionName": "v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 423178,
-            "modelVersionName": "Beatrix potter drawing style"
-          },
-          {
-            "type": "lora",
-            "weight": 0.9,
-            "modelVersionId": 450029,
-            "modelVersionName": "LineArt Mono"
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
-        ]
+        ],
+        "additionalResources": [],
+        "fluxUltraAspectRatio": "3"
       },
-      "username": "JustAMouse",
-      "baseModel": "Pony",
+      "username": "JonTerboven",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        5637,
-        290640,
-        314058,
-        382152,
-        423178,
-        450029
+        164821,
+        699332
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "487|1747669225711",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=487%7C1747669225711"
+    "nextCursor": "488|1739316900000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=488%7C1739316900000"
   }
 }
