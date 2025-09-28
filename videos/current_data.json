@@ -1,105 +1,108 @@
 {
   "items": [
     {
-      "id": 63044822,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78a499bf-97f5-4a29-b2b2-e917e40a0959/original=true/78a499bf-97f5-4a29-b2b2-e917e40a0959.jpeg",
-      "hash": "U8AcSa5601~UOXs:aeof00-:~B9anloIxuRQ",
-      "width": 896,
-      "height": 1152,
+      "id": 96405944,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca4103e6-c1f7-488a-a68a-1853c231759d/original=true/ca4103e6-c1f7-488a-a68a-1853c231759d.jpeg",
+      "hash": "UHL;gg^*C8NGBY-:PCt60LkUE2t6yGxu#RkC",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-12T07:19:41.279Z",
-      "postId": 14068089,
+      "createdAt": "2025-08-27T10:48:05.948Z",
+      "postId": 21382537,
       "stats": {
-        "cryCount": 314,
-        "laughCount": 1268,
-        "likeCount": 4569,
+        "cryCount": 559,
+        "laughCount": 724,
+        "likeCount": 4721,
         "dislikeCount": 0,
-        "heartCount": 1722,
-        "commentCount": 9
+        "heartCount": 1865,
+        "commentCount": 1
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 1394326287,
-        "Model": "fluxmania_IV",
-        "steps": 30,
-        "hashes": {
-          "model": "cfcc61db21",
-          "lora:funnys": "dc53211320dc"
+        "seed": 618950683,
+        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1761560",
+        "extra": {},
+        "steps": 28,
+        "width": 832,
+        "height": 1216,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:827184@1761560"
+        ],
+        "prompt": "(EyesHD:1.2), (4k,8k,Ultra HD), masterpiece, best quality, ultra-detailed, very aesthetic, sharp focus, depth of field, ray tracing, best lighting, detailed illustration, detailed background, cinematic, beautiful face, beautiful eyes, ma1ma1helmes_b_illu,sketch, XUER guangying\nBREAK\nambient occlusion, raytracing, soft lighting, absolutely eye-catching, intricate cinematic background, \nBREAK\n8K, illustrating, CG, clear skin, ultra-detailed-eyes, detailed background, cute girl, eyelashes\nBREAK\nromantic eyes, clothes with neckline, ((full lips)), bangs, she is wearing a white hat with a pink bow, white choker with pink bow, and a white dress, bangs, thick thighs pink rose bushes, she has bangs, pastoral style hat, lolitagothic hat, decorated with flowers, pastel colors, a young pretty korean woman wearing a flower on her head, 1girl, cute, busty, flower, long hair, holding, blue eyes, solo, light brown hair, bare back, luxurious clothes, beautiful jewelry, sophisticated look, soft light, shine, blue sky, clouds, wavy hair, sitting on floor, sheer sleeves, decoltee, separated sleeves, cottagecore dress, short dress, bare legs, ((soft jewelry)), silver jewelry, smirk, pink bow, pink ribbon, look at viewer, standing, cowboy shot, hands on hips, foreshorting, front view,\nbokeh, light effects, lens flare, golden hour, masterpiece, watercolor, soft lines, harmonious color palette,",
+        "denoise": 0.4,
+        "process": "txt2img",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-hires",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/9J9Q16TKPP17TWNWNPDAPBHSR0.jpeg",
+          "width": 832,
+          "height": 1216
         },
-        "prompt": "<lora:funnys:1>, This is a high-resolution, CGI-rendered photograph of a fluffy, orange and white Persian cat dressed in a ballet tutu. The cat is depicted mid-ballet pose, with one paw raised elegantly in the air, and the other firmly planted on the floor. The tutu is a soft, pastel pink, adding a whimsical and playful element to the image. The cat's fur is meticulously detailed, showcasing its fluffy texture and the intricate patterns of its fur, including the distinctive markings on its face., \nThe background features a dark green wall with elegant wainscoting, adding a classic and sophisticated atmosphere to the scene. On the wall to the left, there is a framed photograph of another cat, which adds to the whimsical and humorous theme of the image. The floor is made of polished, dark wooden planks, which contrast with the light colors of the cat and tutu. The overall composition and lighting create a warm and inviting environment, emphasizing the playful and humorous nature of the scene. The image captures the essence of a cat's natural grace and charm, combined with a whimsical, human-like pose and attire, making it a humorous and endearing portrayal.",
-        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
-        "sampler": "DEIS",
-        "Module 1": "ae",
-        "Module 2": "t5xxl_fp8_e4m3fn",
-        "Module 3": "clip_l",
-        "cfgScale": 1,
-        "bc_method": "TeaCache",
-        "resources": [
+        "experimental": false,
+        "negativePrompt": "negativeXL_D, (worst quality, low quality, extra digits:1.4),(extra fingers), (bad hands), missing fingers, unaestheticXL2v10, child, loli, (watermark), censored, sagging breasts",
+        "civitaiResources": [
           {
-            "hash": "dc53211320dc",
-            "name": "funnys",
-            "type": "lora",
-            "weight": 1
+            "type": "checkpoint",
+            "modelVersionId": 1761560
           },
           {
-            "hash": "cfcc61db21",
-            "name": "fluxmania_IV",
-            "type": "model"
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1209350
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 1447126
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 2034730
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1278054
+          },
+          {
+            "type": "lycoris",
+            "weight": 1,
+            "modelVersionId": 1724183
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
-        ],
-        "Model hash": "cfcc61db21",
-        "bc_enabled": "True",
-        "bc_threshold": "0.1",
-        "Schedule type": "Beta",
-        "bc_skip_limit": "0",
-        "bc_always_last": "False",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer prompt": "detailed",
-        "bc_nocache_steps": "1",
-        "ADetailer version": "24.11.1",
-        "Beta schedule beta": "0.6",
-        "ADetailer mask blur": "4",
-        "ADetailer model 2nd": "mediapipe_face_mesh_eyes_only",
-        "ADetailer model 3rd": "hand_yolov8n.pt",
-        "Beta schedule alpha": "0.6",
-        "Distilled CFG Scale": "3.5",
-        "ADetailer confidence": "0.3",
-        "ADetailer prompt 2nd": "detailed",
-        "ADetailer prompt 3rd": "realistic",
-        "Style Selector Style": "base",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "ADetailer dilate erode": "4",
-        "Style Selector Enabled": "True",
-        "ADetailer mask blur 2nd": "4",
-        "ADetailer mask blur 3rd": "4",
-        "ADetailer confidence 2nd": "0.3",
-        "ADetailer confidence 3rd": "0.3",
-        "Style Selector Randomize": "False",
-        "ADetailer inpaint padding": "32",
-        "ADetailer dilate erode 2nd": "4",
-        "ADetailer dilate erode 3rd": "4",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 2nd": "32",
-        "ADetailer inpaint padding 3rd": "32",
-        "ADetailer denoising strength 2nd": "0.4",
-        "ADetailer denoising strength 3rd": "0.4",
-        "ADetailer inpaint only masked 2nd": "True",
-        "ADetailer inpaint only masked 3rd": "True"
+        ]
       },
-      "username": "FASCIUM",
-      "baseModel": "Flux.1 D",
+      "username": "Vasagralem",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1454928,
-        1463804
+        164821,
+        1209350,
+        1278054,
+        1447126,
+        1724183,
+        1761560,
+        2034730
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "466|1756291685948",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=466%7C1756291685948"
+    "nextCursor": "467|1736540576806",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=467%7C1736540576806"
   }
 }
