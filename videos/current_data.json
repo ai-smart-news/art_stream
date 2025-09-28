@@ -1,108 +1,70 @@
 {
   "items": [
     {
-      "id": 96405944,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca4103e6-c1f7-488a-a68a-1853c231759d/original=true/ca4103e6-c1f7-488a-a68a-1853c231759d.jpeg",
-      "hash": "UHL;gg^*C8NGBY-:PCt60LkUE2t6yGxu#RkC",
-      "width": 1280,
-      "height": 1856,
+      "id": 50789808,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/989c17e2-7e35-44b4-b7b2-8bfaa006c1a4/original=true/989c17e2-7e35-44b4-b7b2-8bfaa006c1a4.jpeg",
+      "hash": "U4BC+Jt700IUEdxvnQD%00t7~DRP9ZM{%2-;",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-27T10:48:05.948Z",
-      "postId": 21382537,
+      "createdAt": "2025-01-10T20:22:56.806Z",
+      "postId": 11426932,
       "stats": {
-        "cryCount": 559,
-        "laughCount": 724,
-        "likeCount": 4721,
+        "cryCount": 337,
+        "laughCount": 527,
+        "likeCount": 5212,
         "dislikeCount": 0,
-        "heartCount": 1865,
-        "commentCount": 1
+        "heartCount": 1790,
+        "commentCount": 7
       },
       "meta": {
-        "seed": 618950683,
-        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1761560",
-        "extra": {},
-        "steps": 28,
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 1523423305,
+        "draft": false,
+        "extra": {
+          "remixOfId": 36886928
+        },
+        "steps": 30,
         "width": 832,
         "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:827184@1761560"
-        ],
-        "prompt": "(EyesHD:1.2), (4k,8k,Ultra HD), masterpiece, best quality, ultra-detailed, very aesthetic, sharp focus, depth of field, ray tracing, best lighting, detailed illustration, detailed background, cinematic, beautiful face, beautiful eyes, ma1ma1helmes_b_illu,sketch, XUER guangying\nBREAK\nambient occlusion, raytracing, soft lighting, absolutely eye-catching, intricate cinematic background, \nBREAK\n8K, illustrating, CG, clear skin, ultra-detailed-eyes, detailed background, cute girl, eyelashes\nBREAK\nromantic eyes, clothes with neckline, ((full lips)), bangs, she is wearing a white hat with a pink bow, white choker with pink bow, and a white dress, bangs, thick thighs pink rose bushes, she has bangs, pastoral style hat, lolitagothic hat, decorated with flowers, pastel colors, a young pretty korean woman wearing a flower on her head, 1girl, cute, busty, flower, long hair, holding, blue eyes, solo, light brown hair, bare back, luxurious clothes, beautiful jewelry, sophisticated look, soft light, shine, blue sky, clouds, wavy hair, sitting on floor, sheer sleeves, decoltee, separated sleeves, cottagecore dress, short dress, bare legs, ((soft jewelry)), silver jewelry, smirk, pink bow, pink ribbon, look at viewer, standing, cowboy shot, hands on hips, foreshorting, front view,\nbokeh, light effects, lens flare, golden hour, masterpiece, watercolor, soft lines, harmonious color palette,",
-        "denoise": 0.4,
-        "process": "txt2img",
-        "sampler": "DPM++ 2M",
+        "prompt": "(masterpiece), best quality, Anime, Illustration, (Floating Sphere, Crystal, Magic, Reflection, Melting, Dripping, Pink Rose), Black Background, No Humans, Starry Theme, (Light Refraction), White and Pink Theme, Natural Lighting, Verynsty",
+        "sampler": "Euler a",
         "cfgScale": 6,
         "clipSkip": 2,
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/9J9Q16TKPP17TWNWNPDAPBHSR0.jpeg",
-          "width": 832,
-          "height": 1216
-        },
-        "experimental": false,
-        "negativePrompt": "negativeXL_D, (worst quality, low quality, extra digits:1.4),(extra fingers), (bad hands), missing fingers, unaestheticXL2v10, child, loli, (watermark), censored, sagging breasts",
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "SDXL",
+        "resources": [],
+        "Created Date": "2025-01-10T2015:41.0192953Z",
+        "negativePrompt": "Ugly, lipstick, makeup, hair intakes",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1761560
+            "modelVersionId": 128078,
+            "modelVersionName": "v1.0 VAE fix"
           },
           {
             "type": "lora",
             "weight": 1,
-            "modelVersionId": 1209350
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 1447126
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 2034730
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1278054
-          },
-          {
-            "type": "lycoris",
-            "weight": 1,
-            "modelVersionId": 1724183
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "modelVersionId": 1242251,
+            "modelVersionName": "v6.0"
           }
         ]
       },
-      "username": "Vasagralem",
-      "baseModel": "Illustrious",
+      "username": "Arctenox",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        164821,
-        1209350,
-        1278054,
-        1447126,
-        1724183,
-        1761560,
-        2034730
+        128078,
+        1242251
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "467|1736540576806",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=467%7C1736540576806"
+    "nextCursor": "468|1758225811600",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=468%7C1758225811600"
   }
 }
