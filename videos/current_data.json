@@ -1,60 +1,129 @@
 {
   "items": [
     {
-      "id": 9022765,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48ef5485-ded4-4fb1-935b-0e59ac13d197/original=true/48ef5485-ded4-4fb1-935b-0e59ac13d197.jpeg",
-      "hash": "U8A^8v0L~pNHRQMyIVNH8wNHnhM{9a_2kWn$",
-      "width": 1024,
-      "height": 1680,
+      "id": 43833513,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58d10a40-01ca-47d9-96cf-37d8ea6de88a/original=true/58d10a40-01ca-47d9-96cf-37d8ea6de88a.jpeg",
+      "hash": "U7Ga:]S}00}@0fM{RPIU00%g~VMx00tR.8w^",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-04-02T15:54:01.545Z",
-      "postId": 1948573,
+      "createdAt": "2024-12-05T17:39:06.789Z",
+      "postId": 9955795,
       "stats": {
-        "cryCount": 252,
-        "laughCount": 580,
-        "likeCount": 5073,
+        "cryCount": 321,
+        "laughCount": 680,
+        "likeCount": 5047,
         "dislikeCount": 0,
-        "heartCount": 1895,
-        "commentCount": 9
+        "heartCount": 1747,
+        "commentCount": 11
       },
       "meta": {
-        "Size": "512x840",
-        "seed": 3758834251,
-        "Model": "Dices_DreamDiffusion_XL_Lightning_v0.2",
-        "steps": 2,
-        "hashes": {
-          "model": "d50bfd647c"
-        },
-        "prompt": "A  glass sphere sculpture, concealed inside the sphere is a large Pirate Ship in a Lightning storm, large waves, in the dark, detailed image, 8k high quality detailed, the moon, shaped sphere, amazing wallpaper, digital painting highly detailed, 8k UHD detailed oil painting, beautiful art UHD, focus on full glass sphere, bokeh,  background Modifiers: extremely detailed Award winning photography, fantasy studio lighting, photorealistic very attractive beautiful imperial colours ultra detailed 3D, (Very Intricate)",
-        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
-        "sampler": "DPM++ 2M Turbo",
-        "cfgScale": 1,
-        "clipSkip": 3,
-        "resources": [
+        "seed": 603067912,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:404154@1085338",
+        "extra": {},
+        "steps": 24,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:404154@1085338"
+        ],
+        "prompt": "score_9, score_8_up, score_7_up, masterpiece, best quality, zzPadoru, blush, smile, open mouth, meme, holding sack, santa hat, dress,\nsolo, 1girl, anthro Targath, very fluffy mane, fluffy tail, ",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "modelIds": [],
+        "workflow": "img2img-hires",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "poor quality, big ass, thick thighs, canine, horns, short ears",
+        "civitaiResources": [
           {
-            "hash": "d50bfd647c",
-            "name": "Dices_DreamDiffusion_XL_Lightning_v0.2",
-            "type": "model"
+            "weight": 1,
+            "modelVersionId": 1085338
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1085338
+          },
+          {
+            "weight": 0.8,
+            "modelVersionId": 1117149
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 60938
+          },
+          {
+            "weight": 0.2,
+            "modelVersionId": 585460
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1115239
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1085338
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 1117149
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 585460
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1115239
           }
         ],
-        "Model hash": "d50bfd647c",
-        "Hires steps": "8",
-        "Hires upscale": "2",
-        "Hires upscaler": "RealESRGAN_x4plus",
-        "Denoising strength": "0.61"
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:996948@1117149",
+            "type": "lora",
+            "strength": 0.8,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:526924@585460",
+            "type": "lora",
+            "strength": 0.2,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:217348@1115239",
+            "type": "lora",
+            "strength": 1,
+            "strengthClip": 1
+          }
+        ]
       },
-      "username": "DiceAiDevelopment",
-      "baseModel": "SDXL Lightning",
+      "username": "RedactedPaws",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        383566
+        60938,
+        164821,
+        585460,
+        1085338,
+        1115239,
+        1117149
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "481|1733420346789",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=481%7C1733420346789"
+    "nextCursor": "482|1753224420000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=482%7C1753224420000"
   }
 }
