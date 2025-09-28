@@ -1,37 +1,100 @@
 {
   "items": [
     {
-      "id": 64410461,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9692e6d5-1ef2-4c57-8220-6729593b0456/original=true/9692e6d5-1ef2-4c57-8220-6729593b0456.jpeg",
-      "hash": "UPF?nU_Nbct7p{xu-;tQ?bWBIBV@cGNanNt6",
+      "id": 67190327,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd479e40-b7ad-42cc-b657-98099ab3e786/original=true/dd479e40-b7ad-42cc-b657-98099ab3e786.jpeg",
+      "hash": "U79HO?E100=}I.r;s,R*0Kx^_4Inm6o~IVxb",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-19T10:02:53.597Z",
-      "postId": 14358713,
+      "createdAt": "2025-04-01T03:43:42.108Z",
+      "postId": 14943321,
       "stats": {
-        "cryCount": 446,
-        "laughCount": 911,
-        "likeCount": 4731,
+        "cryCount": 453,
+        "laughCount": 963,
+        "likeCount": 4678,
         "dislikeCount": 0,
-        "heartCount": 1798,
-        "commentCount": 12
+        "heartCount": 1789,
+        "commentCount": 8
       },
-      "meta": null,
-      "username": "Lora_Craft",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 3803841481,
+        "draft": false,
+        "extra": {
+          "remixOfId": 66505539
+        },
+        "steps": 25,
+        "width": 832,
+        "height": 1216,
+        "prompt": "masterpiece, best quality, amazing quality,, <lora:CivChan_Illustrious:0.9> quality: masterpiece, extremely aesthetic, highly detailed, vibrant colors, vivid colors, saturated, crazy smile, <lora:pennywise-in-the-sewer-ponyxl-lora-nochekaiser:1>, pennywise in the sewer, pennywise in the sewer (meme), storm drain, sewer grate, grate, sewer, meme, concrete, grass, sidewalk,, <lora:evil-grin-ponyxl-lora-nochekaiser:1>, evil grin, evil smile, grin, evil eyes, crazy eyes, teeth, shaded face,,, , cowboy shot, solo",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [
+          {
+            "name": "CivChan_Illustrious",
+            "type": "lora",
+            "weight": 0.9
+          },
+          {
+            "name": "pennywise-in-the-sewer-ponyxl-lora-nochekaiser",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "name": "evil-grin-ponyxl-lora-nochekaiser",
+            "type": "lora",
+            "weight": 1
+          }
+        ],
+        "Created Date": "2025-04-01T0338:41.5103587Z",
+        "negativePrompt": "bad quality, worst quality, worst detail, censor,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1367422,
+            "modelVersionName": "v10.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 653028,
+            "modelVersionName": "booru"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1238772,
+            "modelVersionName": "booru"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1597055,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "cedridx568",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        720252,
-        859666
+        653028,
+        1238772,
+        1367422,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "463|1743479022108",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=463%7C1743479022108"
+    "nextCursor": "464|1753081320000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=464%7C1753081320000"
   }
 }
