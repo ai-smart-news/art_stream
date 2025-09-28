@@ -1,70 +1,33 @@
 {
   "items": [
     {
-      "id": 50789808,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/989c17e2-7e35-44b4-b7b2-8bfaa006c1a4/original=true/989c17e2-7e35-44b4-b7b2-8bfaa006c1a4.jpeg",
-      "hash": "U4BC+Jt700IUEdxvnQD%00t7~DRP9ZM{%2-;",
-      "width": 832,
-      "height": 1216,
+      "id": 101048331,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d568f31f-abb2-4e1b-ba8c-0e722fa62eae/original=true/d568f31f-abb2-4e1b-ba8c-0e722fa62eae.jpeg",
+      "hash": "UPM%}|?b~qD%M{ayRjM{_3IURj%M?boft7t6",
+      "width": 2816,
+      "height": 4096,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-10T20:22:56.806Z",
-      "postId": 11426932,
+      "createdAt": "2025-09-18T20:03:31.600Z",
+      "postId": 22418325,
       "stats": {
-        "cryCount": 337,
-        "laughCount": 527,
-        "likeCount": 5212,
+        "cryCount": 380,
+        "laughCount": 636,
+        "likeCount": 5071,
         "dislikeCount": 0,
-        "heartCount": 1790,
-        "commentCount": 7
+        "heartCount": 1766,
+        "commentCount": 5
       },
-      "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 1523423305,
-        "draft": false,
-        "extra": {
-          "remixOfId": 36886928
-        },
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "(masterpiece), best quality, Anime, Illustration, (Floating Sphere, Crystal, Magic, Reflection, Melting, Dripping, Pink Rose), Black Background, No Humans, Starry Theme, (Light Refraction), White and Pink Theme, Natural Lighting, Verynsty",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "SDXL",
-        "resources": [],
-        "Created Date": "2025-01-10T2015:41.0192953Z",
-        "negativePrompt": "Ugly, lipstick, makeup, hair intakes",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 128078,
-            "modelVersionName": "v1.0 VAE fix"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1242251,
-            "modelVersionName": "v6.0"
-          }
-        ]
-      },
-      "username": "Arctenox",
-      "baseModel": "SDXL 1.0",
-      "modelVersionIds": [
-        128078,
-        1242251
-      ]
+      "meta": null,
+      "username": "okamuron",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "468|1758225811600",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=468%7C1758225811600"
+    "nextCursor": "469|1732592782592",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=469%7C1732592782592"
   }
 }
