@@ -1,37 +1,56 @@
 {
   "items": [
     {
-      "id": 51823612,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b30128bf-b673-4b82-83bd-8b9c90af45a4/original=true/b30128bf-b673-4b82-83bd-8b9c90af45a4.jpeg",
-      "hash": "UUFYP*3?D[;9?aOYRQn$tQW;WCkCEMv}jDWn",
-      "width": 832,
-      "height": 1456,
+      "id": 73684601,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a2dc3014-06c5-41a4-998b-ca0d618e6638/original=true/a2dc3014-06c5-41a4-998b-ca0d618e6638.jpeg",
+      "hash": "UFIXHZ00~pwIyDRPEjxr0KyEm+n,mkx^$1M|",
+      "width": 1344,
+      "height": 2400,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-15T19:05:00.000Z",
-      "postId": 11652876,
+      "createdAt": "2025-05-02T10:35:00.000Z",
+      "postId": 16365322,
       "stats": {
-        "cryCount": 300,
-        "laughCount": 463,
-        "likeCount": 5277,
+        "cryCount": 412,
+        "laughCount": 645,
+        "likeCount": 4831,
         "dislikeCount": 0,
-        "heartCount": 1681,
-        "commentCount": 12
+        "heartCount": 1819,
+        "commentCount": 20
       },
-      "meta": null,
-      "username": "Pinkielicious",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "896x1600",
+        "seed": 414176756130478,
+        "Model": "plantMilk_almond.safetensors",
+        "steps": 28,
+        "hashes": {
+          "model": "24f68a5155"
+        },
+        "prompt": "1girl, solo, hatsune miku, turquoise hair, twintails, hair ribbon, forehead bangs, hair between eyes, heterochromia, detailed eyes, blue eyes, pink eye, \ngrey t-shirt, short sleeves, loose shirt,\npointing, hand focus, forced perspective, hand gesture, dynamic pose, hand close-up, finger gun, in your face pose, playful pose, \nfocused expression, intense stare, slight smile, dramatic perspective, meme style, soft lighting, blurred background, bokeh, depth of field, focused foreground,     \nmasterpiece,best quality,amazing quality,very aesthetic,absurdres,newest, anime coloring, flat color",
+        "sampler": "Euler a",
+        "cfgScale": 3,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "24f68a5155",
+            "name": "plantMilk_almond.safetensors",
+            "type": "model"
+          }
+        ],
+        "Model hash": "24f68a5155",
+        "negativePrompt": "worst quality, bad quality, low quality, 3d, light particles,  lowres, anatomical nonsense, artistic error, bad anatomy,watermark"
+      },
+      "username": "IceB2",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        863991,
-        720252,
-        1279996
+        1494714
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "496|1746182100000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=496%7C1746182100000"
+    "nextCursor": "497|1747835532027",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=497%7C1747835532027"
   }
 }
