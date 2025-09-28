@@ -1,33 +1,77 @@
 {
   "items": [
     {
-      "id": 57241077,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0997a6f2-e5df-4a00-a3dd-e492859f8ff3/original=true/0997a6f2-e5df-4a00-a3dd-e492859f8ff3.jpeg",
-      "hash": "UWMFIU^l?0%1~D%2I:RjnSWBNYadMxRjS0j]",
-      "width": 2496,
-      "height": 3648,
+      "id": 90371072,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/93097073-b8eb-4c7f-8e2f-be2987a2386f/original=true/93097073-b8eb-4c7f-8e2f-be2987a2386f.jpeg",
+      "hash": "USMZt4~q00Di-:tRRPRQTJ-:s;tR$jWCS#t7",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-11T23:35:00.000Z",
-      "postId": 12814136,
+      "createdAt": "2025-07-31T16:00:00.000Z",
+      "postId": 20040920,
       "stats": {
-        "cryCount": 320,
-        "laughCount": 1382,
-        "likeCount": 4469,
+        "cryCount": 434,
+        "laughCount": 778,
+        "likeCount": 4582,
         "dislikeCount": 0,
-        "heartCount": 1582,
-        "commentCount": 15
+        "heartCount": 1958,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "UnstableGen",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1685240345,
+        "draft": false,
+        "steps": 19,
+        "width": 832,
+        "height": 1216,
+        "prompt": "\"(masterpiece, best quality, high quality, highres), very awa, highres, absurdres, \n(chii-kun \\(seedyoulater\\):0.7), (naguru \\(cyoroama\\):0.7)water color painting, rough canvas, rough surface, \n(axolotl:1.1), \n(no humans:1.1), (cute:1.2), comfy, solo, cozy, \nindoors, shoping, market, sunny day, consumer goods, supermarket, frown, \noil painting, depth of field, cinematic, \n\"",
+        "process": "txt2img",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-07-24T1314:53.3215548Z",
+        "experimental": false,
+        "negativePrompt": "bad quality, worst quality, worst detail, censor, lowres, worst aesthetic, bad anatomy, signature, watermark, logo, \n(hair:1.2), (furry:1.2),",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1240288,
+            "modelVersionName": "v1.3 - Style A"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1420890,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1.2,
+            "modelVersionId": 1661954,
+            "modelVersionName": "Illustrious v1.0"
+          }
+        ]
+      },
+      "username": "Neuronomicon",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1240288,
+        1420890,
+        1661954
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "489|1753977600000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=489%7C1753977600000"
+    "nextCursor": "490|1740117746969",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=490%7C1740117746969"
   }
 }
