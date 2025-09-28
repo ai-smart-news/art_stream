@@ -1,129 +1,33 @@
 {
   "items": [
     {
-      "id": 43833513,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58d10a40-01ca-47d9-96cf-37d8ea6de88a/original=true/58d10a40-01ca-47d9-96cf-37d8ea6de88a.jpeg",
-      "hash": "U7Ga:]S}00}@0fM{RPIU00%g~VMx00tR.8w^",
-      "width": 1280,
-      "height": 1856,
+      "id": 89853807,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a6b4cce-478b-4ea8-8dde-42e9b23161cf/original=true/1a6b4cce-478b-4ea8-8dde-42e9b23161cf.jpeg",
+      "hash": "UOCZO$KkjE%1_NO@NHxFD*xuWVRP8{s:X8Ri",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-05T17:39:06.789Z",
-      "postId": 9955795,
+      "createdAt": "2025-07-22T22:47:00.000Z",
+      "postId": 19930205,
       "stats": {
-        "cryCount": 321,
-        "laughCount": 680,
-        "likeCount": 5047,
+        "cryCount": 395,
+        "laughCount": 605,
+        "likeCount": 4918,
         "dislikeCount": 0,
-        "heartCount": 1747,
-        "commentCount": 11
+        "heartCount": 1862,
+        "commentCount": 6
       },
-      "meta": {
-        "seed": 603067912,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:404154@1085338",
-        "extra": {},
-        "steps": 24,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:404154@1085338"
-        ],
-        "prompt": "score_9, score_8_up, score_7_up, masterpiece, best quality, zzPadoru, blush, smile, open mouth, meme, holding sack, santa hat, dress,\nsolo, 1girl, anthro Targath, very fluffy mane, fluffy tail, ",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "modelIds": [],
-        "workflow": "img2img-hires",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "poor quality, big ass, thick thighs, canine, horns, short ears",
-        "civitaiResources": [
-          {
-            "weight": 1,
-            "modelVersionId": 1085338
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1085338
-          },
-          {
-            "weight": 0.8,
-            "modelVersionId": 1117149
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 60938
-          },
-          {
-            "weight": 0.2,
-            "modelVersionId": 585460
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1115239
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1085338
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1117149
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 585460
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1115239
-          }
-        ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:996948@1117149",
-            "type": "lora",
-            "strength": 0.8,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:526924@585460",
-            "type": "lora",
-            "strength": 0.2,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:217348@1115239",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          }
-        ]
-      },
-      "username": "RedactedPaws",
-      "baseModel": "Pony",
-      "modelVersionIds": [
-        60938,
-        164821,
-        585460,
-        1085338,
-        1115239,
-        1117149
-      ]
+      "meta": null,
+      "username": "Freako0",
+      "baseModel": "OpenAI",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "482|1753224420000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=482%7C1753224420000"
+    "nextCursor": "483|1738141752964",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=483%7C1738141752964"
   }
 }
