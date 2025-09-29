@@ -1,100 +1,61 @@
 {
   "items": [
     {
-      "id": 38471121,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ef0834b-ed84-465d-87b2-e6aad8e09218/original=true/5ef0834b-ed84-465d-87b2-e6aad8e09218.jpeg",
-      "hash": "U35#bD~WcZJB.9-pxuM{9ZjEnNR4=_-pi^WB",
-      "width": 2048,
-      "height": 3072,
+      "id": 94443323,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26cc1829-9146-41f5-8674-f7fdcd06eb1f/original=true/26cc1829-9146-41f5-8674-f7fdcd06eb1f.jpeg",
+      "hash": "UgOy-QNM_N%g%2s;kWRPIon,xvsn?HogMxS~",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-01T10:19:05.963Z",
-      "postId": 8781461,
+      "createdAt": "2025-08-15T17:54:06.988Z",
+      "postId": 20953765,
       "stats": {
-        "cryCount": 313,
-        "laughCount": 536,
-        "likeCount": 5161,
+        "cryCount": 333,
+        "laughCount": 674,
+        "likeCount": 4714,
         "dislikeCount": 0,
-        "heartCount": 1677,
-        "commentCount": 2
+        "heartCount": 1964,
+        "commentCount": 14
       },
       "meta": {
-        "Size": "128x128",
-        "seed": 2205367953,
-        "Model": "pasanctuarySDXL_v20",
-        "steps": 1,
+        "Size": "832x1216",
+        "seed": 1582378184,
+        "Model": "JANKU v5.0 By JANXD",
+        "steps": 30,
         "hashes": {
-          "model": "584347c64e",
-          "lora:kingsstyle-illu-beta2-25": "d597a498cc6d"
+          "model": "217daae812",
+          "embed:lazyneg": "ba21023c70",
+          "embed:lazypos": "3086669265"
         },
-        "prompt": "masterpiece, best quality, hangar, factory, neon, size difference,  spotlight, dark theme, (portrait, close-up:1.2),  (in palm:0.7), <lora:kingsstyle-illu-beta2-25:0.4> \nBREAK (mecha,humanoid:0.7), cupping hand, (armor:1.2),science-fiction, (portrait:1.4), glowing eyes, knight, facing viewer, visor, front view, foreshortening, (close-up:1.3), (hand up:1.1), (face focus:1.2), gauntlets,\nBREAK 1girl, solo, minigirl,sitting,bodysuit, chest harness, overskirt, full body, (brown skin:1.1), short hair, single earring, dark-skinned female, looking at viewer, pants, tomboy, knee boots, smirk, gloves, brown jacket, fur-trimmed jacket, headphones,  hand between legs, smirk, black hair,",
-        "RP Flip": "False",
-        "Version": "f1.0.2-v1.10.1RC-latest-691-g37223711",
-        "sampler": "Euler",
-        "Emphasis": "No norm",
-        "cfgScale": 7,
+        "prompt": "lazypos, 1girl, ayase_momo, oval earrings, brown hair, brown eyes, short hair, simple background, fighting stance, colorful, dynamic pose, dreamlike atmosphere, energy",
+        "Version": "ComfyUI",
+        "sampler": "Euler a Karras",
+        "cfgScale": 3,
         "clipSkip": 2,
-        "RP Active": "True",
-        "RP Ratios": {},
         "resources": [
           {
-            "hash": "d597a498cc6d",
-            "name": "kingsstyle-illu-beta2-25",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "hash": "584347c64e",
-            "name": "pasanctuarySDXL_v20",
+            "hash": "217daae812",
+            "name": "JANKU v5.0 By JANXD",
             "type": "model"
           }
         ],
-        "Model hash": "584347c64e",
-        "RP Options": "False",
-        "RP Use Base": "False",
-        "RP Calc Mode": "Attention",
-        "RP threshold": "0.4",
-        "RP Use Common": "True",
-        "Schedule type": "Align Your Steps",
-        "RP Base Ratios": "0.2",
-        "RP Divide mode": "Matrix",
-        "RP Use Ncommon": "False",
-        "negativePrompt": "worst quality, low quality, lowres, bad anatomy, bad hands, multiple views, comic, jpeg artifacts, patreon logo, patreon username, web address, signature, watermark, text, logo, artist name, censored, blurry background, loli, child, headwear, monster, cropped, standing, ears, hard hat, cowboy shot, upper body,head out of frame, neon genesis evangelion, fake animal ears, animal ears, (own hands together:1.4), pov, pov hands, fingernails, halo, extra digits,",
-        "ADetailer model": "AnzhcFace-seg-v2.pt",
-        "RP Mask submode": "Mask",
-        "ADetailer prompt": {
-          "kingsstyle-illu-beta2-25": "0.9>"
-        },
-        "ADetailer version": "24.8.0",
-        "RP LoRA Stop Step": "0",
-        "RP Matrix submode": "Columns",
-        "RP Prompt submode": "Prompt",
-        "Denoising strength": "0.75",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.6",
-        "RP LoRA Neg U Ratios": "0",
-        "RP LoRA Neg Te Ratios": "0",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint width": "1024",
-        "RP LoRA Hires Stop Step": "0",
-        "ADetailer inpaint height": "1024",
-        "ADetailer inpaint padding": "32",
-        "ADetailer negative prompt": {},
-        "ADetailer denoising strength": "0.65",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer use inpaint width height": "True"
+        "Model hash": "217daae812",
+        "negativePrompt": "lazyneg"
       },
-      "username": "Bshi",
-      "baseModel": "SDXL 1.0",
+      "username": "janxd",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        987116
+        1833157,
+        1860747,
+        1896532
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "502|1755280446988",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=502%7C1755280446988"
+    "nextCursor": "503|1727366964841",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=503%7C1727366964841"
   }
 }
