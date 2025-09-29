@@ -1,52 +1,81 @@
 {
   "items": [
     {
-      "id": 76315603,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3096e4f3-abb4-4578-96b4-f8148097345d/original=true/3096e4f3-abb4-4578-96b4-f8148097345d.jpeg",
-      "hash": "URIN~t.8?GIqGdJDNHt7T2xHM{xtTL%1w[Rk",
-      "width": 1024,
-      "height": 1536,
+      "id": 64886592,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa5b69bc-1558-4f79-acbe-f535f60a1ccc/original=true/aa5b69bc-1558-4f79-acbe-f535f60a1ccc.jpeg",
+      "hash": "U5AKN^xZ00-o01%2n3RPb{Rj-:Ip~VazIoX9",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-15T00:57:00.000Z",
-      "postId": 16948678,
+      "createdAt": "2025-03-21T13:02:29.703Z",
+      "postId": 14458478,
       "stats": {
-        "cryCount": 392,
-        "laughCount": 898,
-        "likeCount": 4660,
+        "cryCount": 379,
+        "laughCount": 629,
+        "likeCount": 4703,
         "dislikeCount": 0,
-        "heartCount": 1714,
-        "commentCount": 15
+        "heartCount": 1950,
+        "commentCount": 2
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "Generate me a  tiny cute fluffy penguin with a hawaiian shirt and sunglasses drinking a margarita on the beach in a resort town.  cute, fluffy, realistic, 8k, uhd, high quality, depth of field,",
-        "process": "txt2img",
-        "quality": "medium",
-        "quantity": 3,
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 597715743,
+        "draft": false,
+        "steps": 32,
+        "width": 832,
+        "height": 1216,
+        "prompt": "diclrpp, A cinematic black and white portrait of a woman with an elaborate architectural updo hairstyle, photographed against textured gray velvet. Her skin, couture gown, and surroundings are rendered in rich monochromatic tones with dramatic lighting that creates deep shadows and bright highlights. The only color comes from a cluster of vibrant butterflies emerging from within her sculptural hairstyle - their wings displaying jewel tones of glowing cyan that appear almost luminous against the grayscale setting. Some butterflies rest partially in her hair while others have just taken flight, creating a fluttering halo of color around her otherwise monochrome appearance. The contrast is heightened by the perfectly still, serene expression on the woman's face, as if the chromatic emergence is a natural extension of her being rather than something extraordinary. Tiny particles of dust or pollen visible in the dramatic lighting appear temporarily colored when passing through the butterfly cloud. .j_art",
+        "sampler": "Undefined",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
         "workflow": "txt2img",
-        "background": "opaque",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-03-21T1302:01.7723272Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 1387661,
+            "modelVersionName": "first approach"
+          },
+          {
+            "type": "lora",
             "weight": 1,
-            "modelVersionId": 1733399
+            "modelVersionId": 1293244,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
           }
         ]
       },
-      "username": "Eva4321",
-      "baseModel": "OpenAI",
+      "username": "Akimizu",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        691639,
+        720252,
+        1293244,
+        1387661
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "508|1742562149703",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=508%7C1742562149703"
+    "nextCursor": "509|1747852062692",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=509%7C1747852062692"
   }
 }
