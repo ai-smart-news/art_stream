@@ -1,56 +1,81 @@
 {
   "items": [
     {
-      "id": 73684601,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a2dc3014-06c5-41a4-998b-ca0d618e6638/original=true/a2dc3014-06c5-41a4-998b-ca0d618e6638.jpeg",
-      "hash": "UFIXHZ00~pwIyDRPEjxr0KyEm+n,mkx^$1M|",
-      "width": 1344,
-      "height": 2400,
+      "id": 53181445,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a744b8d-1740-48de-bc87-0bd26fba40c6/original=true/0a744b8d-1740-48de-bc87-0bd26fba40c6.jpeg",
+      "hash": "U342SbRNDg%OxwayskjX9Xogx_M_ThWAMvkX",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-02T10:35:00.000Z",
-      "postId": 16365322,
+      "createdAt": "2025-01-22T08:21:13.013Z",
+      "postId": 11943048,
       "stats": {
-        "cryCount": 412,
-        "laughCount": 645,
-        "likeCount": 4831,
+        "cryCount": 286,
+        "laughCount": 511,
+        "likeCount": 5077,
         "dislikeCount": 0,
-        "heartCount": 1819,
-        "commentCount": 20
+        "heartCount": 1824,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "896x1600",
-        "seed": 414176756130478,
-        "Model": "plantMilk_almond.safetensors",
-        "steps": 28,
-        "hashes": {
-          "model": "24f68a5155"
-        },
-        "prompt": "1girl, solo, hatsune miku, turquoise hair, twintails, hair ribbon, forehead bangs, hair between eyes, heterochromia, detailed eyes, blue eyes, pink eye, \ngrey t-shirt, short sleeves, loose shirt,\npointing, hand focus, forced perspective, hand gesture, dynamic pose, hand close-up, finger gun, in your face pose, playful pose, \nfocused expression, intense stare, slight smile, dramatic perspective, meme style, soft lighting, blurred background, bokeh, depth of field, focused foreground,     \nmasterpiece,best quality,amazing quality,very aesthetic,absurdres,newest, anime coloring, flat color",
-        "sampler": "Euler a",
-        "cfgScale": 3,
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 840658819,
+        "draft": false,
+        "steps": 20,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A close-up of the Sorceress' enigmatic eyes, swirling with intricate celestial patterns of galaxies, stars, and nebulas, their glowing light casting delicate highlights on her brows and lashes. The chiaroscuro style heightens the drama, with intense shadows framing her face and a soft celestial glow illuminating her features. The color palette of rich blues, purples, and shimmering golds contrasts beautifully with the deep shadows, creating a visually arresting image of infinite mystery and allure.",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-01-22T0820:22.0721834Z",
+        "civitaiResources": [
           {
-            "hash": "24f68a5155",
-            "name": "plantMilk_almond.safetensors",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 926161,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 911089,
+            "modelVersionName": "FLUX VERSION"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 922827,
+            "modelVersionName": "v1.0"
           }
-        ],
-        "Model hash": "24f68a5155",
-        "negativePrompt": "worst quality, bad quality, low quality, 3d, light particles,  lowres, anatomical nonsense, artistic error, bad anatomy,watermark"
+        ]
       },
-      "username": "IceB2",
-      "baseModel": "Illustrious",
+      "username": "SexMonster",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1494714
+        691639,
+        911089,
+        922827,
+        926161
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "498|1737534073013",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=498%7C1737534073013"
+    "nextCursor": "499|1741054300778",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=499%7C1741054300778"
   }
 }
