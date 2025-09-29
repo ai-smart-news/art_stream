@@ -1,77 +1,37 @@
 {
   "items": [
     {
-      "id": 31459655,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c95c1068-8659-4ce5-a7ef-f3dff8153a06/original=true/c95c1068-8659-4ce5-a7ef-f3dff8153a06.jpeg",
-      "hash": "U79sF_s;02s*-UW?ENxB0#I;}r%1,;n#S$Si",
-      "width": 832,
-      "height": 1216,
+      "id": 67181147,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/64ffd884-6ef0-40ca-b5c3-52706b07b9bf/original=true/64ffd884-6ef0-40ca-b5c3-52706b07b9bf.jpeg",
+      "hash": "UHEUZ%xc|g-Wl9bHEINF=~WXV=kCj?NasmSg",
+      "width": 1344,
+      "height": 2400,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-26T16:09:24.841Z",
-      "postId": 7032457,
+      "createdAt": "2025-04-01T03:00:00.000Z",
+      "postId": 14941478,
       "stats": {
-        "cryCount": 368,
-        "laughCount": 609,
-        "likeCount": 4865,
+        "cryCount": 384,
+        "laughCount": 673,
+        "likeCount": 4807,
         "dislikeCount": 0,
-        "heartCount": 1843,
-        "commentCount": 6
+        "heartCount": 1819,
+        "commentCount": 5
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 2525707941,
-        "extra": {
-          "remixOfId": 28506885
-        },
-        "steps": 38,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, aesthetic, s1_dram, ncpy13 style, pastels drawing, deep black background,  Using deep blue, gold and black colors create A beautiful young woman dressed as the queen of darkness sits on a throne made entirely of skulls. She's wearing a flowing black dress with gold accents and has a crown made of tiny bats perched atop her head. Her partner, a tall, lean man dressed as Dracula, stands behind her in the shadows. The style is a dark fantasy setting, upperbody portrait, elegant, intricate details.",
-        "sampler": "Euler a",
-        "cfgScale": 4,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-09-26T1605:19.1693757Z",
-        "negativePrompt": "Score_6, score_5, score_4, 3d, bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, ugly, jpeg artifacts, deformed, noisy image, deformation, duplicate horns, head wings,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 135867,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 761452,
-            "modelVersionName": "v2"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 763937,
-            "modelVersionName": "Pony v1.0"
-          }
-        ]
-      },
-      "username": "reaperdarkhorse",
-      "baseModel": "Pony",
+      "meta": null,
+      "username": "PiPimBom",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        135867,
-        290640,
-        761452,
-        763937
+        1490781,
+        1508911,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "504|1743476400000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=504%7C1743476400000"
+    "nextCursor": "505|1758290549820",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=505%7C1758290549820"
   }
 }
