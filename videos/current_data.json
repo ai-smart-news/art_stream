@@ -1,38 +1,100 @@
 {
   "items": [
     {
-      "id": 89680467,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/50af974e-ffac-4db6-b2bd-b95d4f70e5ca/original=true/50af974e-ffac-4db6-b2bd-b95d4f70e5ca.jpeg",
-      "hash": "U9COO6S~0Mn4P9=xIo9u,U%0J:w0}lJ7ElS6",
-      "width": 832,
-      "height": 1216,
+      "id": 38471121,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ef0834b-ed84-465d-87b2-e6aad8e09218/original=true/5ef0834b-ed84-465d-87b2-e6aad8e09218.jpeg",
+      "hash": "U35#bD~WcZJB.9-pxuM{9ZjEnNR4=_-pi^WB",
+      "width": 2048,
+      "height": 3072,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-21T23:31:05.183Z",
-      "postId": 19892970,
+      "createdAt": "2025-03-01T10:19:05.963Z",
+      "postId": 8781461,
       "stats": {
-        "cryCount": 370,
-        "laughCount": 642,
-        "likeCount": 4824,
+        "cryCount": 313,
+        "laughCount": 536,
+        "likeCount": 5161,
         "dislikeCount": 0,
-        "heartCount": 1852,
-        "commentCount": 7
+        "heartCount": 1677,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "FraisySarcasm",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "128x128",
+        "seed": 2205367953,
+        "Model": "pasanctuarySDXL_v20",
+        "steps": 1,
+        "hashes": {
+          "model": "584347c64e",
+          "lora:kingsstyle-illu-beta2-25": "d597a498cc6d"
+        },
+        "prompt": "masterpiece, best quality, hangar, factory, neon, size difference,  spotlight, dark theme, (portrait, close-up:1.2),  (in palm:0.7), <lora:kingsstyle-illu-beta2-25:0.4> \nBREAK (mecha,humanoid:0.7), cupping hand, (armor:1.2),science-fiction, (portrait:1.4), glowing eyes, knight, facing viewer, visor, front view, foreshortening, (close-up:1.3), (hand up:1.1), (face focus:1.2), gauntlets,\nBREAK 1girl, solo, minigirl,sitting,bodysuit, chest harness, overskirt, full body, (brown skin:1.1), short hair, single earring, dark-skinned female, looking at viewer, pants, tomboy, knee boots, smirk, gloves, brown jacket, fur-trimmed jacket, headphones,  hand between legs, smirk, black hair,",
+        "RP Flip": "False",
+        "Version": "f1.0.2-v1.10.1RC-latest-691-g37223711",
+        "sampler": "Euler",
+        "Emphasis": "No norm",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "RP Active": "True",
+        "RP Ratios": {},
+        "resources": [
+          {
+            "hash": "d597a498cc6d",
+            "name": "kingsstyle-illu-beta2-25",
+            "type": "lora",
+            "weight": 0.4
+          },
+          {
+            "hash": "584347c64e",
+            "name": "pasanctuarySDXL_v20",
+            "type": "model"
+          }
+        ],
+        "Model hash": "584347c64e",
+        "RP Options": "False",
+        "RP Use Base": "False",
+        "RP Calc Mode": "Attention",
+        "RP threshold": "0.4",
+        "RP Use Common": "True",
+        "Schedule type": "Align Your Steps",
+        "RP Base Ratios": "0.2",
+        "RP Divide mode": "Matrix",
+        "RP Use Ncommon": "False",
+        "negativePrompt": "worst quality, low quality, lowres, bad anatomy, bad hands, multiple views, comic, jpeg artifacts, patreon logo, patreon username, web address, signature, watermark, text, logo, artist name, censored, blurry background, loli, child, headwear, monster, cropped, standing, ears, hard hat, cowboy shot, upper body,head out of frame, neon genesis evangelion, fake animal ears, animal ears, (own hands together:1.4), pov, pov hands, fingernails, halo, extra digits,",
+        "ADetailer model": "AnzhcFace-seg-v2.pt",
+        "RP Mask submode": "Mask",
+        "ADetailer prompt": {
+          "kingsstyle-illu-beta2-25": "0.9>"
+        },
+        "ADetailer version": "24.8.0",
+        "RP LoRA Stop Step": "0",
+        "RP Matrix submode": "Columns",
+        "RP Prompt submode": "Prompt",
+        "Denoising strength": "0.75",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.6",
+        "RP LoRA Neg U Ratios": "0",
+        "RP LoRA Neg Te Ratios": "0",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint width": "1024",
+        "RP LoRA Hires Stop Step": "0",
+        "ADetailer inpaint height": "1024",
+        "ADetailer inpaint padding": "32",
+        "ADetailer negative prompt": {},
+        "ADetailer denoising strength": "0.65",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer use inpaint width height": "True"
+      },
+      "username": "Bshi",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        691639,
-        793777,
-        1244911,
-        1266839
+        987116
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "501|1740824345963",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=501%7C1740824345963"
+    "nextCursor": "502|1755280446988",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=502%7C1755280446988"
   }
 }
