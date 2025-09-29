@@ -1,33 +1,60 @@
 {
   "items": [
     {
-      "id": 57536284,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5620983f-9910-4f8b-bdee-183f945b82bf/original=true/5620983f-9910-4f8b-bdee-183f945b82bf.jpeg",
-      "hash": "U5Db=#4q03-T47pI1Pw]00p^Gax[}Y+]vM%f",
-      "width": 800,
-      "height": 1200,
+      "id": 58392924,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4cec2f59-eb00-487c-97c2-10b7c70e6652/original=true/4cec2f59-eb00-487c-97c2-10b7c70e6652.jpeg",
+      "hash": "UgLNxcxa~VxaEen,jvV[RMaMM|aeI-V[xuWB",
+      "width": 1288,
+      "height": 2256,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-13T08:02:40.065Z",
-      "postId": 12876967,
+      "createdAt": "2025-02-17T14:09:28.324Z",
+      "postId": 13066835,
       "stats": {
         "cryCount": 344,
-        "laughCount": 514,
-        "likeCount": 5037,
+        "laughCount": 541,
+        "likeCount": 5139,
         "dislikeCount": 0,
-        "heartCount": 1751,
-        "commentCount": 5
+        "heartCount": 1620,
+        "commentCount": 1
       },
-      "meta": null,
-      "username": "biggcriz",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "768x1344",
+        "seed": 1088899725410436,
+        "Model": "redcraftCADSUpdatedFeb08_newrevealF1ULTRA",
+        "steps": 25,
+        "hashes": {
+          "model": "f4676e93e6",
+          "LORA:PCB_Image_Enhancer_for_FLUX": "9caed5dbbd",
+          "LORA:PixarPerfect_3D_Animation_Style_FLUX-000001": "9e95cc5c30"
+        },
+        "prompt": "<lora:PCB_Image_Enhancer_for_FLUX><lora:PixarPerfect_3D_Animation_Style_FLUX-000001>",
+        "Version": "ComfyUI",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "f4676e93e6",
+            "name": "redcraftCADSUpdatedFeb08_newrevealF1ULTRA",
+            "type": "model"
+          }
+        ],
+        "Model hash": "f4676e93e6",
+        "negativePrompt": "unknown"
+      },
+      "username": "sexner740",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        1099451,
+        994332,
+        1387169
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "513|1739801368324",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=513%7C1739801368324"
+    "nextCursor": "514|1725949231915",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=514%7C1725949231915"
   }
 }
