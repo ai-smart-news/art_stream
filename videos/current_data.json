@@ -1,51 +1,67 @@
 {
   "items": [
     {
-      "id": 75801727,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b9548f87-7927-4cfa-a701-d33e2e65636b/original=true/b9548f87-7927-4cfa-a701-d33e2e65636b.jpeg",
-      "hash": "UGA]NP%0EMEN};-QNI9_r==sSO9|xC$$X8I@",
-      "width": 1024,
-      "height": 1536,
+      "id": 58331298,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78889c3f-85ed-4f19-a669-bba4e7587ce9/original=true/78889c3f-85ed-4f19-a669-bba4e7587ce9.jpeg",
+      "hash": "UgHJ~jEORl%0}rR+WCs.E4xEayR+Ejs.R+WC",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-12T09:31:17.766Z",
-      "postId": 16831542,
+      "createdAt": "2025-02-17T10:11:00.000Z",
+      "postId": 13053675,
       "stats": {
-        "cryCount": 444,
-        "laughCount": 780,
-        "likeCount": 4772,
+        "cryCount": 333,
+        "laughCount": 543,
+        "likeCount": 5084,
         "dislikeCount": 0,
-        "heartCount": 1639,
-        "commentCount": 4
+        "heartCount": 1674,
+        "commentCount": 2
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "A thought sparks to life,\ncode born hands paint how we feel,\nsouls reflected back.",
-        "quality": "high",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
+        "seed": 0,
+        "Model": "flux_dev",
+        "steps": 25,
+        "hashes": {
+          "model": "2eda627c8a",
+          "lora:Fancha_style_v": "c1ca756baf",
+          "lora:Memadukan_Brush_Strokes_of_Fineart": "ca59d3967d"
+        },
+        "sampler": "Euler",
+        "cfgScale": 3.5,
+        "resources": [
           {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
+            "hash": "c1ca756baf",
+            "name": "Fancha_style_v",
+            "type": "lora"
+          },
+          {
+            "hash": "ca59d3967d",
+            "name": "Memadukan_Brush_Strokes_of_Fineart",
+            "type": "lora"
+          },
+          {
+            "hash": "2eda627c8a",
+            "name": "flux_dev",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "2eda627c8a",
+        "Schedule type": "Beta"
       },
-      "username": null,
-      "baseModel": "OpenAI",
+      "username": "maxdyner",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        691639,
+        1259245,
+        1217933
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "521|1739787060000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=521%7C1739787060000"
+    "nextCursor": "522|1738649700000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=522%7C1738649700000"
   }
 }
