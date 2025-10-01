@@ -1,59 +1,51 @@
 {
   "items": [
     {
-      "id": 39805702,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/955e12cb-c380-41fc-8425-4ff51fa862e9/original=true/955e12cb-c380-41fc-8425-4ff51fa862e9.jpeg",
-      "hash": "ULEeu$EQ%gkD?^X9%2WXV]t69ujFNHWBIoae",
-      "width": 832,
-      "height": 1216,
+      "id": 75801727,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b9548f87-7927-4cfa-a701-d33e2e65636b/original=true/b9548f87-7927-4cfa-a701-d33e2e65636b.jpeg",
+      "hash": "UGA]NP%0EMEN};-QNI9_r==sSO9|xC$$X8I@",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-11-12T23:42:03.735Z",
-      "postId": 9076238,
+      "createdAt": "2025-05-12T09:31:17.766Z",
+      "postId": 16831542,
       "stats": {
-        "cryCount": 343,
-        "laughCount": 783,
-        "likeCount": 4869,
+        "cryCount": 444,
+        "laughCount": 780,
+        "likeCount": 4772,
         "dislikeCount": 0,
-        "heartCount": 1643,
-        "commentCount": 9
+        "heartCount": 1639,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 16509,
-        "steps": 30,
-        "prompt": "a painting of darth vader from star wars pointing at the camera in the style of james-montgomery-flagg and uncle sam, text below him reads, \"I WANT YOU FOR THE EMPIRE\"",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-11-12T2339:41.5623079Z",
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "A thought sparks to life,\ncode born hands paint how we feel,\nsouls reflected back.",
+        "quality": "high",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 1054968,
-            "modelVersionName": "Flux1-Dev"
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "jboogx_creative",
-      "baseModel": "Flux.1 D",
+      "username": null,
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        691639,
-        1054968
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "520|1747042277766",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=520%7C1747042277766"
+    "nextCursor": "521|1739787060000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=521%7C1739787060000"
   }
 }
