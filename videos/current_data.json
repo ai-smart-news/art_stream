@@ -1,75 +1,75 @@
 {
   "items": [
     {
-      "id": 101241923,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9c83e60-0fb7-4fe1-825c-95f7d96b1b1a/original=true/d9c83e60-0fb7-4fe1-825c-95f7d96b1b1a.jpeg",
-      "hash": "UQF;{10fEMtR~WIpbINy0j-oxDR.EMt8RPxt",
-      "width": 1664,
-      "height": 2432,
+      "id": 47244941,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eac1800c-7403-436a-bd6c-6f7ffe233a18/original=true/eac1800c-7403-436a-bd6c-6f7ffe233a18.jpeg",
+      "hash": "UOE_UU3WWb]i~DKOajw]s.n$S#w^f8W.kDxF",
+      "width": 3328,
+      "height": 4864,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-19T14:42:31.936Z",
-      "postId": 22461130,
+      "createdAt": "2024-12-23T23:26:37.352Z",
+      "postId": 10673382,
       "stats": {
-        "cryCount": 347,
-        "laughCount": 583,
-        "likeCount": 4993,
+        "cryCount": 320,
+        "laughCount": 755,
+        "likeCount": 4954,
         "dislikeCount": 0,
-        "heartCount": 1699,
-        "commentCount": 5
+        "heartCount": 1581,
+        "commentCount": 19
       },
       "meta": {
+        "VAE": "ae.safetensors",
         "Size": "832x1216",
-        "seed": 148192100461305,
-        "steps": 13,
+        "seed": 546926724832861,
+        "Model": "flux1-dev.safetensors",
+        "steps": 25,
         "hashes": {
-          "lora:MJ_mode_V2": "aa952556eb",
-          "lora:Flux_Ultimator": "c213dc6d86",
+          "vae": "afc8e28272",
+          "model": "4610115bb0",
+          "lora:ImpressionismFlux": "94874233f8",
           "lora:FluxDFaeTasticDetails": "4259dc3287",
-          "lora:bright light high key style v1": "86c39146da"
+          "lora:- Flux1 - vanta_black_V2.0": "1dd1fb8b12"
         },
-        "prompt": "Photorealistic cinematic view of a giant illuminated Ferris wheel towering over a cozy park at sunset. The sky is packed with large, fluffy, voluminous clouds, soft and billowing, glowing with warm gold, orange, and purple hues that amplify the dramatic atmosphere. Warm fairy lights hoist the Ferris wheel, beautifully contrasting against the vibrant sky. Silhouettes of leafy trees frame the scene, while people gather peacefully under a canopy, softly lit by ambient evening light. Ultra-sharp detail, vivid color grading, HDR lighting, deep shadows, and a dreamy nostalgic mood, perfectly captured through a high-end DSLR camera High-key lighting Style\n<lora:bright light high key style v1:0.6> <lora:Flux_Ultimator:0.46> <lora:MJ_mode_V2:0.85> <lora:FluxDFaeTasticDetails:1.0>",
-        "cfgScale": 3.5,
+        "prompt": "A whimsical creature peeks into the right side of a vertical canvas, its large, curious eyes staring directly into the frame as if observing the viewer. The frame itself appears to bend slightly, reacting to the creature\u00e2\u0080\u0099s playful presence, creating the illusion that it\u00e2\u0080\u0099s part of the scene, Vibrant Glow",
+        "sampler": "euler_simple",
         "resources": [
           {
-            "hash": "c213dc6d86",
-            "name": "Flux_Ultimator",
-            "type": "lora",
-            "weight": 0.46
-          },
-          {
-            "hash": "aa952556eb",
-            "name": "MJ_mode_V2",
-            "type": "lora",
-            "weight": 0.85
-          },
-          {
-            "hash": "4259dc3287",
-            "name": "FluxDFaeTasticDetails",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "86c39146da",
-            "name": "bright light high key style v1",
-            "type": "lora"
+            "hash": "4610115bb0",
+            "name": "flux1-dev.safetensors",
+            "type": "model"
           }
-        ]
+        ],
+        "Batch size": "6",
+        "Model hash": "4610115bb0",
+        "Batch index": "4",
+        "Lora_0 Model hash": "94874233f8",
+        "Lora_0 Model name": "ImpressionismFlux.safetensors",
+        "Lora_1 Model hash": "4259dc3287",
+        "Lora_1 Model name": "FluxDFaeTasticDetails.safetensors",
+        "Lora_2 Model hash": "1dd1fb8b12",
+        "Lora_2 Model name": "- Flux1 - vanta_black_V2.0.safetensors",
+        "Lora_0 Strength clip": "0",
+        "Lora_1 Strength clip": "0",
+        "Lora_2 Strength clip": "0",
+        "Lora_0 Strength model": "0.5",
+        "Lora_1 Strength model": "0.5",
+        "Lora_2 Strength model": "0.5"
       },
-      "username": "eryckvazalves",
-      "baseModel": "Flux.1 S",
+      "username": "Grymauch",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
+        691639,
         720252,
-        885950,
-        1378151,
-        2196091
+        755598,
+        801005
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "524|1734996397352",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=524%7C1734996397352"
+    "nextCursor": "525|1738809925603",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=525%7C1738809925603"
   }
 }
