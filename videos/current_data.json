@@ -1,33 +1,59 @@
 {
   "items": [
     {
-      "id": 28675106,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4cb6bf08-10a4-4e29-964d-c1a3873536d0/original=true/4cb6bf08-10a4-4e29-964d-c1a3873536d0.jpeg",
-      "hash": "UJE4S-8w8{.T?cIAD%M|J8?arpM{EkRkxCNG",
-      "width": 1536,
-      "height": 2048,
+      "id": 39805702,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/955e12cb-c380-41fc-8425-4ff51fa862e9/original=true/955e12cb-c380-41fc-8425-4ff51fa862e9.jpeg",
+      "hash": "ULEeu$EQ%gkD?^X9%2WXV]t69ujFNHWBIoae",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-10T06:20:31.915Z",
-      "postId": 6413976,
+      "createdAt": "2024-11-12T23:42:03.735Z",
+      "postId": 9076238,
       "stats": {
-        "cryCount": 357,
-        "laughCount": 606,
-        "likeCount": 4827,
+        "cryCount": 343,
+        "laughCount": 783,
+        "likeCount": 4869,
         "dislikeCount": 0,
-        "heartCount": 1854,
-        "commentCount": 3
+        "heartCount": 1643,
+        "commentCount": 9
       },
-      "meta": null,
-      "username": "SOVONOY",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 16509,
+        "steps": 30,
+        "prompt": "a painting of darth vader from star wars pointing at the camera in the style of james-montgomery-flagg and uncle sam, text below him reads, \"I WANT YOU FOR THE EMPIRE\"",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-11-12T2339:41.5623079Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1054968,
+            "modelVersionName": "Flux1-Dev"
+          }
+        ]
+      },
+      "username": "jboogx_creative",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        1054968
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "519|1731454923735",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=519%7C1731454923735"
+    "nextCursor": "520|1747042277766",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=520%7C1747042277766"
   }
 }
