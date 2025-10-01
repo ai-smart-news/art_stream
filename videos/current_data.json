@@ -1,75 +1,33 @@
 {
   "items": [
     {
-      "id": 47244941,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eac1800c-7403-436a-bd6c-6f7ffe233a18/original=true/eac1800c-7403-436a-bd6c-6f7ffe233a18.jpeg",
-      "hash": "UOE_UU3WWb]i~DKOajw]s.n$S#w^f8W.kDxF",
+      "id": 56087529,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b31238ba-331d-4496-adcd-7e8277bdcffa/original=true/b31238ba-331d-4496-adcd-7e8277bdcffa.jpeg",
+      "hash": "UFD]VS}v%Mw@Mh%KW?kCE9yDxbNIEda7xtD*",
       "width": 3328,
       "height": 4864,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-23T23:26:37.352Z",
-      "postId": 10673382,
+      "createdAt": "2025-02-06T02:45:25.603Z",
+      "postId": 12562415,
       "stats": {
-        "cryCount": 320,
-        "laughCount": 755,
-        "likeCount": 4954,
+        "cryCount": 411,
+        "laughCount": 1063,
+        "likeCount": 4601,
         "dislikeCount": 0,
-        "heartCount": 1581,
-        "commentCount": 19
+        "heartCount": 1526,
+        "commentCount": 8
       },
-      "meta": {
-        "VAE": "ae.safetensors",
-        "Size": "832x1216",
-        "seed": 546926724832861,
-        "Model": "flux1-dev.safetensors",
-        "steps": 25,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "4610115bb0",
-          "lora:ImpressionismFlux": "94874233f8",
-          "lora:FluxDFaeTasticDetails": "4259dc3287",
-          "lora:- Flux1 - vanta_black_V2.0": "1dd1fb8b12"
-        },
-        "prompt": "A whimsical creature peeks into the right side of a vertical canvas, its large, curious eyes staring directly into the frame as if observing the viewer. The frame itself appears to bend slightly, reacting to the creature\u00e2\u0080\u0099s playful presence, creating the illusion that it\u00e2\u0080\u0099s part of the scene, Vibrant Glow",
-        "sampler": "euler_simple",
-        "resources": [
-          {
-            "hash": "4610115bb0",
-            "name": "flux1-dev.safetensors",
-            "type": "model"
-          }
-        ],
-        "Batch size": "6",
-        "Model hash": "4610115bb0",
-        "Batch index": "4",
-        "Lora_0 Model hash": "94874233f8",
-        "Lora_0 Model name": "ImpressionismFlux.safetensors",
-        "Lora_1 Model hash": "4259dc3287",
-        "Lora_1 Model name": "FluxDFaeTasticDetails.safetensors",
-        "Lora_2 Model hash": "1dd1fb8b12",
-        "Lora_2 Model name": "- Flux1 - vanta_black_V2.0.safetensors",
-        "Lora_0 Strength clip": "0",
-        "Lora_1 Strength clip": "0",
-        "Lora_2 Strength clip": "0",
-        "Lora_0 Strength model": "0.5",
-        "Lora_1 Strength model": "0.5",
-        "Lora_2 Strength model": "0.5"
-      },
-      "username": "Grymauch",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252,
-        755598,
-        801005
-      ]
+      "meta": null,
+      "username": "jboogx_creative",
+      "baseModel": null,
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "525|1738809925603",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=525%7C1738809925603"
+    "nextCursor": "526|1740098568927",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=526%7C1740098568927"
   }
 }
