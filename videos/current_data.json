@@ -1,92 +1,70 @@
 {
   "items": [
     {
-      "id": 102105123,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e2b80e0-731b-42fa-a334-0f89fecbef5c/original=true/5e2b80e0-731b-42fa-a334-0f89fecbef5c.jpeg",
-      "hash": "UOD]l4IUWEt7~qWBIUt7M{ayD%ofRjWARjog",
+      "id": 67175747,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e8572cc8-4e7f-48fc-afc4-4eebeac4f26c/original=true/e8572cc8-4e7f-48fc-afc4-4eebeac4f26c.jpeg",
+      "hash": "UKKmCo4VJQkR~VEKV]t89@X49Z?H?JsEI.I-",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-24T05:15:00.000Z",
-      "postId": 22651918,
+      "createdAt": "2025-04-01T02:22:04.814Z",
+      "postId": 14940275,
       "stats": {
-        "cryCount": 385,
-        "laughCount": 556,
-        "likeCount": 4769,
+        "cryCount": 453,
+        "laughCount": 638,
+        "likeCount": 4675,
         "dislikeCount": 0,
-        "heartCount": 1852,
-        "commentCount": 4
+        "heartCount": 1795,
+        "commentCount": 1
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 227114926,
+        "nsfw": false,
+        "seed": 32351322,
         "draft": false,
-        "steps": 25,
+        "extra": {
+          "remixOfId": 67162273
+        },
+        "steps": 19,
         "width": 832,
         "height": 1216,
-        "prompt": "Smooth_Quality, FantasyForge, solo goddess, AncientGods, close up portrait, (1woman, phantom),\n(messy white hair:1.5), (porcelain pale mask:1.3), (yellow eyes:1.4), \n(flowing ethereal black shroud with subtle smoky tendrils:1.5), \n(symbolic: dark mist coiling around body:1.5), (ominous poised gesture:1.2),\n(abstract background in muted gray and white with drifting fog:1.8), (soft grayscale atmosphere:1.4), (delicate pale haze and ethereal aura:1.3),\n(cinematic lighting, dramatic contrast, rim lighting:1.2, volumetric shadows:1.1)",
-        "process": "txt2img",
-        "sampler": "Euler",
-        "cfgScale": 3.5,
+        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, long_lashes, blush, looking_at_viewer, dynamic_angle, cinematic, side_view, hearts,  ethereal_aura, uwu, big_eyes, crazy eyes, yandere, crazy eyes, licking bloody knife",
+        "sampler": "Euler a",
+        "cfgScale": 5.5,
         "clipSkip": 2,
-        "quantity": 1,
+        "quantity": 4,
         "workflow": "txt2img",
         "baseModel": "Illustrious",
         "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-09-23T0501:47.7116389Z",
-        "experimental": false,
-        "negativePrompt": "worst quality, low quality, SmoothNegative_Hands, nsfw, halo, crown",
+        "Created Date": "2025-04-01T0221:41.9737579Z",
+        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, old",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1805971
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 1668031
-          },
-          {
-            "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 2196453
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 1470551
+            "modelVersionId": 1528632,
+            "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
             "weight": 0.9,
-            "modelVersionId": 2217543
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 2234264
+            "modelVersionId": 1597055,
+            "modelVersionName": "V1"
           }
         ]
       },
-      "username": "dultrap",
+      "username": "zirconia",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        1470551,
-        1668031,
-        1805971,
-        2196453,
-        2217543,
-        2234264
+        1528632,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "539|1743474124814",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=539%7C1743474124814"
+    "nextCursor": "540|1746702090512",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=540%7C1746702090512"
   }
 }
