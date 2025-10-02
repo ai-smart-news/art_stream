@@ -1,58 +1,64 @@
 {
   "items": [
     {
-      "id": 69134286,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e223183-c069-495a-a2a6-078f400a8513/original=true/0e223183-c069-495a-a2a6-078f400a8513.jpeg",
-      "hash": "UIJaM?IU4U?ao{DjxbtR~U%LIVoL%2IpD*of",
-      "width": 1536,
-      "height": 2752,
+      "id": 63483394,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/61899108-0d38-471e-874d-64066224f8fd/original=true/61899108-0d38-471e-874d-64066224f8fd.jpeg",
+      "hash": "U6A,az:t00C$8cvP@rT^Qq+aOkF=wEKiW?z;",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-10T10:08:19.684Z",
-      "postId": 15360793,
+      "createdAt": "2025-03-14T15:04:16.685Z",
+      "postId": 14161584,
       "stats": {
-        "cryCount": 376,
-        "laughCount": 626,
-        "likeCount": 4677,
+        "cryCount": 357,
+        "laughCount": 589,
+        "likeCount": 4888,
         "dislikeCount": 0,
-        "heartCount": 1825,
-        "commentCount": 21
+        "heartCount": 1665,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "1536x2752",
-        "seed": 1450763270,
-        "steps": 30,
-        "width": 1536,
-        "height": 2752,
-        "prompt": "A beautifully drawn contemporary illustration by Ryan Sook featuring a mysterious scene where swirling ethereal lines mimic the concept of a fantastical realm with a blend of surreal elements like flowing white and gold characters with intricate ornate patterns that suggest a sense of whimsy and wonder The palette includes deep reds and rich earth tones with subtle black and tulle details that add a modern touch The composition is intimately detailed and highly professional with smooth lines and sharp focus that bring out the intricate details in a vividly vibrant display that captures the essence of the best of contemporary illustration .",
-        "sampler": "Undefined",
-        "cfgScale": 7.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@1088507",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-04-10T1002:57.0394550Z",
-        "civitaiResources": [
+        "Size": "1024x1536",
+        "seed": 7840057,
+        "Model": "flux1-dev",
+        "steps": 40,
+        "hashes": {
+          "model": "4610115bb0",
+          "lora:anm-frac-v1-000048": "e6c398f40c"
+        },
+        "prompt": "anm-frac of a bomb in fractal patterns, a glass house that sheds a warm light through its windows , Royal Jewel Tones: Deep emerald, sapphire blue, and ruby red for a luxurious, rich effect Subtle, raised patterns on a smooth surface for an elegant, tactile effect., cinematic film still   <lora:anm-frac-v1-000048:1>",
+        "Version": "v1.9.4",
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1088507,
-            "modelVersionName": "Pro 1.1 Ultra"
+            "hash": "e6c398f40c",
+            "name": "anm-frac-v1-000048",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "4610115bb0",
+            "name": "flux1-dev",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "4610115bb0",
+        "Schedule type": "Beta"
       },
-      "username": "Cinnadust",
+      "username": "anmine42516",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1088507
+        691639,
+        1523260
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "556|1741964656685",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=556%7C1741964656685"
+    "nextCursor": "557|1734370599606",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=557%7C1734370599606"
   }
 }
