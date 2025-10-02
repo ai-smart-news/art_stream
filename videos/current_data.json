@@ -1,64 +1,80 @@
 {
   "items": [
     {
-      "id": 63483394,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/61899108-0d38-471e-874d-64066224f8fd/original=true/61899108-0d38-471e-874d-64066224f8fd.jpeg",
-      "hash": "U6A,az:t00C$8cvP@rT^Qq+aOkF=wEKiW?z;",
-      "width": 1024,
-      "height": 1536,
+      "id": 45861302,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a204aeda-7728-4cba-8c04-2bf08dc2ebd1/original=true/a204aeda-7728-4cba-8c04-2bf08dc2ebd1.jpeg",
+      "hash": "U1DU*D~EfQ~E.kj[e=j[fQfQfQfQ.kj[e=j[",
+      "width": 1080,
+      "height": 1576,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-14T15:04:16.685Z",
-      "postId": 14161584,
+      "createdAt": "2024-12-16T17:36:39.606Z",
+      "postId": 10383432,
       "stats": {
-        "cryCount": 357,
-        "laughCount": 589,
-        "likeCount": 4888,
+        "cryCount": 306,
+        "laughCount": 501,
+        "likeCount": 4978,
         "dislikeCount": 0,
-        "heartCount": 1665,
-        "commentCount": 5
+        "heartCount": 1710,
+        "commentCount": 9
       },
       "meta": {
-        "Size": "1024x1536",
-        "seed": 7840057,
-        "Model": "flux1-dev",
-        "steps": 40,
+        "Size": "832x1216",
+        "seed": 2392071010,
+        "Model": "flux1-dev-bnb-nf4-v2",
+        "steps": 30,
         "hashes": {
-          "model": "4610115bb0",
-          "lora:anm-frac-v1-000048": "e6c398f40c"
+          "model": "bea01d51bd",
+          "lora:last": "2981f98dbae7",
+          "lora:aidmaMJ6.1v0.4": "88027fe63c88"
         },
-        "prompt": "anm-frac of a bomb in fractal patterns, a glass house that sheds a warm light through its windows , Royal Jewel Tones: Deep emerald, sapphire blue, and ruby red for a luxurious, rich effect Subtle, raised patterns on a smooth surface for an elegant, tactile effect., cinematic film still   <lora:anm-frac-v1-000048:1>",
-        "Version": "v1.9.4",
+        "prompt": "concept art Girl in black thin, oily latex, black motorcycle helmet, black glass on helmet, pours a bucket of yellow paint on himself, paint dripping down his body, yellow silk long scarf, sexy, dynamics. Black mirrors in the background, reflections.\n<lora:aidmaMJ6.1v0.4:1> aidmaMJ6.1 <lora:last:1> . digital artwork, illustrative, painterly, matte painting, highly detailed",
+        "Version": "f2.0.1v1.10.1-1.10.1",
         "sampler": "Euler",
         "cfgScale": 1,
         "resources": [
           {
-            "hash": "e6c398f40c",
-            "name": "anm-frac-v1-000048",
+            "hash": "88027fe63c88",
+            "name": "aidmaMJ6.1v0.4",
             "type": "lora",
             "weight": 1
           },
           {
-            "hash": "4610115bb0",
-            "name": "flux1-dev",
+            "hash": "2981f98dbae7",
+            "name": "last",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "bea01d51bd",
+            "name": "flux1-dev-bnb-nf4-v2",
             "type": "model"
           }
         ],
-        "Model hash": "4610115bb0",
-        "Schedule type": "Beta"
+        "Model hash": "bea01d51bd",
+        "Hires steps": "10",
+        "Hires upscale": "1.3",
+        "Schedule type": "Simple",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x-UltraSharp",
+        "negativePrompt": "photo, photorealistic, realism, ugly",
+        "Hires CFG Scale": "1",
+        "Denoising strength": "0.35",
+        "Distilled CFG Scale": "3.5",
+        "Hires Distilled CFG Scale": "1"
       },
-      "username": "anmine42516",
-      "baseModel": "Flux.1 D",
+      "username": "AlG80",
+      "baseModel": null,
       "modelVersionIds": [
-        691639,
-        1523260
+        740450,
+        981456
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "557|1734370599606",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=557%7C1734370599606"
+    "nextCursor": "558|1727901772967",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=558%7C1727901772967"
   }
 }
