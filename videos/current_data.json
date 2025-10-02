@@ -1,81 +1,50 @@
 {
   "items": [
     {
-      "id": 50348245,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e432212-1b76-4ada-bb97-f1b78e9b3ca0/original=true/3e432212-1b76-4ada-bb97-f1b78e9b3ca0.jpeg",
-      "hash": "UPIMmBxa0gof~CofwcsoJDs:$%Nb13Na-TbF",
-      "width": 832,
-      "height": 1216,
+      "id": 74647447,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20766b6b-6dda-4a30-810b-f6bb9e61d6ba/original=true/20766b6b-6dda-4a30-810b-f6bb9e61d6ba.jpeg",
+      "hash": "U48|a_M}01x?04=_~T0O5SE3=x^i9vE3-U~9",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-08T16:15:09.003Z",
-      "postId": 11332456,
+      "createdAt": "2025-05-06T22:14:37.295Z",
+      "postId": 16576133,
       "stats": {
-        "cryCount": 293,
-        "laughCount": 463,
-        "likeCount": 5033,
+        "cryCount": 412,
+        "laughCount": 608,
+        "likeCount": 4727,
         "dislikeCount": 0,
-        "heartCount": 1703,
-        "commentCount": 0
+        "heartCount": 1743,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 4294967297,
-        "draft": false,
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "prompt": "A sunset retro drive by Miami Beach, vibrant glow",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 4,
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "side view, head tilted, a highly detailed digital painting of a young woman with fair skin and freckles, featuring a strikingly realistic style. She has long, dark, wavy hair and expressive green eyes. Her lips are full and slightly parted, giving her a serene yet enigmatic expression. Surrounding her head are three large, green snakes with orange spots, their forked tongues extended as if they are about to taste the air. The snakes' scales are intricately detailed, adding texture to the image. The woman is wearing a light-colored, floral-patterned dress that contrasts with the dark, almost black background. The camera angle is a close-up, focusing on her face and the upper part of her body, with the snakes coiled around her head and shoulders. The lighting highlights her smooth skin and the glossy texture of the snakes' scales, creating a dramatic and slightly surreal atmosphere.",
+        "quantity": 1,
         "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-01-01T1735:39.3470936Z",
+        "background": "opaque",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 1127487,
-            "modelVersionName": "1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 755598,
-            "modelVersionName": "Flux"
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "stormpaper",
-      "baseModel": "Flux.1 D",
+      "username": "VelvetS",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        691639,
-        720252,
-        755598,
-        1127487
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "561|1746569677295",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=561%7C1746569677295"
+    "nextCursor": "562|1728936359696",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=562%7C1728936359696"
   }
 }
