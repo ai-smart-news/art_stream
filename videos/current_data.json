@@ -1,65 +1,50 @@
 {
   "items": [
     {
-      "id": 77512910,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58cd7c03-7561-4caa-98a3-d06cf50bb3a4/original=true/58cd7c03-7561-4caa-98a3-d06cf50bb3a4.jpeg",
-      "hash": "UGBM;xoyRkt6~SoetPkBIVoJ$~WBIXWC${ay",
-      "width": 832,
-      "height": 1216,
+      "id": 74934001,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/917414ba-f586-45b9-87ed-6f3cbd160c53/original=true/917414ba-f586-45b9-87ed-6f3cbd160c53.jpeg",
+      "hash": "U89sYU}@020LtkW;E2Rj5SIp$$-U-nxZRkRk",
+      "width": 1536,
+      "height": 1024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-20T23:37:59.864Z",
-      "postId": 17217911,
+      "createdAt": "2025-05-08T05:45:43.351Z",
+      "postId": 16637550,
       "stats": {
-        "cryCount": 412,
-        "laughCount": 758,
-        "likeCount": 4566,
+        "cryCount": 364,
+        "laughCount": 670,
+        "likeCount": 4860,
         "dislikeCount": 0,
-        "heartCount": 1848,
-        "commentCount": 7
+        "heartCount": 1684,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 3204136474,
-        "Model": "waiNSFWIllustrious_v140",
-        "steps": 25,
-        "hashes": {
-          "model": "bdb59bac77",
-          "lora:Layout1_IL": "f473bf3bb42b"
-        },
-        "prompt": "<lora:Layout1_IL:0.7> layout1, masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, lines, screen, glitch, huge speaker at the center, ring of neon light, sound wave, sound lines, masterpiece, best quality, pose, dynamic angle, dynamic shot, 1boy, solo, (mature:1.2), hood, short sleeve, hoodie, black face, poster art, abstract, collage, (random textures, glitch effect:1.2), yellow and black color palette, soft lighting, limited palette, (glitch:1.4), gltich background, male, 2.5D,",
-        "Version": "f1.3.0-v1.10.1RC-latest-1025-g314b3ae5",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 4.5,
-        "resources": [
+        "width": 1536,
+        "engine": "openai",
+        "height": 1024,
+        "prompt": "(masterpiece:1.1), (highest quality:1.1), (HDR:1.0), Cake, tiramisu , flowers , fruit, cream, intricate detail ,dark background , HD. Photography",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
+        "civitaiResources": [
           {
-            "hash": "f473bf3bb42b",
-            "name": "Layout1_IL",
-            "type": "lora",
-            "weight": 0.7
-          },
-          {
-            "hash": "bdb59bac77",
-            "name": "waiNSFWIllustrious_v140",
-            "type": "model"
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
           }
-        ],
-        "Model hash": "bdb59bac77",
-        "Schedule type": "Karras",
-        "negativePrompt": "lowres, worst quality, bad quality, bad anatomy, signature, username, logo, watermark, artist name, old, bad hands, worst detail, censor, face"
+        ]
       },
-      "username": "Soxan",
-      "baseModel": "Illustrious",
+      "username": "Ocean3",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        1761560,
-        1807560
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "530|1746683143351",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=530%7C1746683143351"
+    "nextCursor": "531|1734113327594",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=531%7C1734113327594"
   }
 }
