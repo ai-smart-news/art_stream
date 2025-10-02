@@ -1,66 +1,38 @@
 {
   "items": [
     {
-      "id": 74972537,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa671302-496f-4dcc-839a-b75a70a7665e/original=true/aa671302-496f-4dcc-839a-b75a70a7665e.jpeg",
-      "hash": "U97oC%rpH;ThQ*i^W?NGjrWAMw%0F$M{s8%g",
-      "width": 1536,
-      "height": 2040,
+      "id": 49492504,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8982f68-46b2-434b-9d55-b822bfdbdb5f/original=true/a8982f68-46b2-434b-9d55-b822bfdbdb5f.jpeg",
+      "hash": "U13[n}Io01?G=^ozE4WB01xt~AIo5AV??DXA",
+      "width": 1496,
+      "height": 1920,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-08T11:01:30.512Z",
-      "postId": 16646466,
+      "createdAt": "2025-01-04T12:25:27.535Z",
+      "postId": 11150598,
       "stats": {
-        "cryCount": 373,
-        "laughCount": 582,
-        "likeCount": 4720,
+        "cryCount": 305,
+        "laughCount": 526,
+        "likeCount": 4966,
         "dislikeCount": 0,
-        "heartCount": 1885,
-        "commentCount": 3
+        "heartCount": 1763,
+        "commentCount": 10
       },
       "meta": {
-        "Eta": "0.67",
-        "RNG": "NV",
-        "ENSD": "31337",
-        "Size": "1024x1360",
-        "seed": 4204868169,
-        "Model": "WAI-Nsfw-Illustrious-14",
-        "steps": 30,
-        "hashes": {
-          "model": "bdb59bac77"
-        },
-        "prompt": "1girl, solo, long hair, city, boots, hands in pockets, coat, blonde hair, sky, planet, night, knee boots, building, star \\(sky\\), cityscape, pantyhose, standing, skyscraper, from below, black footwear\n,masterpiece,best quality,amazing quality,",
-        "Version": "v1.10.1-89-g2174ce5af",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "bdb59bac77",
-            "name": "WAI-Nsfw-Illustrious-14",
-            "type": "model"
-          }
-        ],
-        "Model hash": "bdb59bac77",
-        "Hires steps": "20",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
-        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,",
-        "Denoising strength": "0.5",
-        "Discard penultimate sigma": "True"
+        "steps": 25,
+        "prompt": "The extreme macro photo captures a fearsome black lion's left eye, bathed in a dark and inky contrast. Its piercing pure gold eyes and sharp teeth are visible in the background. The lion's dark fur, matted and messy around the eye due to the spray paint, contrasts dramatically with the metallic gold markings that adorn its face, particularly around and over the eye, resembling scales or armor. The spray paint gives the markings a wet, messy appearance. The photo is highly detailed and intricate.\n",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 4
       },
-      "username": "WAI0731",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1761560
-      ]
+      "username": "pychobj2001741",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "541|1735993527535",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=541%7C1735993527535"
+    "nextCursor": "542|1755902897173",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=542%7C1755902897173"
   }
 }
