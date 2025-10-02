@@ -1,49 +1,155 @@
 {
   "items": [
     {
-      "id": 23361456,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/164b5fb5-0d59-4b4b-9158-7cba7aa92811/original=true/164b5fb5-0d59-4b4b-9158-7cba7aa92811.jpeg",
-      "hash": "UkHU%r~pX7D%M|RjjZofWBafj[j[MyRjt6s:",
-      "width": 712,
-      "height": 920,
+      "id": 61463277,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8f723de2-c34d-4ecb-a65f-63683f7bafbc/original=true/8f723de2-c34d-4ecb-a65f-63683f7bafbc.jpeg",
+      "hash": "U1EqO1~afQ~a?^j?jsj?fQfQfQfQ?^j?jsj?",
+      "width": 2624,
+      "height": 3840,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-08-08T17:43:43.256Z",
-      "postId": 5206016,
+      "createdAt": "2025-03-05T04:20:21.238Z",
+      "postId": 13739620,
       "stats": {
-        "cryCount": 302,
-        "laughCount": 1389,
-        "likeCount": 4386,
+        "cryCount": 309,
+        "laughCount": 595,
+        "likeCount": 4766,
         "dislikeCount": 0,
-        "heartCount": 1453,
-        "commentCount": 12
+        "heartCount": 1859,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "716x921",
-        "seed": 941292956844080,
-        "Model": "flux_1Dev",
-        "steps": 17,
-        "hashes": {
-          "model": ""
+        "nsfw": true,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1410435",
+        "extra": {
+          "remixOfId": 58820735
         },
-        "prompt": "in left top quarter of image text \"engineer complex prompts to get to homepage\" written with huge black letters on white paper , in left bottom quarter of image text \"post memes\" written with huge black letters on white paper , in right top quarter of image face of bald bearded black man (Shaq O'Neal) peacefully sleeping on white pillow in sunlit room , in right bottom quarter of image face of same awake bald bearded black man (Shaq O'Neal) with glowing red opened eyes emitting red light in all directions",
-        "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 0,
-        "resources": [],
-        "Model hash": ""
+        "steps": 30,
+        "width": 1920,
+        "height": 2816,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:827184@1410435"
+        ],
+        "prompt": "<lora:ck-nc-cyberpunk-IL-000011:0.60>,  masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject, dynamic angle, side view, from above, action shot, wabi sabi android woman, rainbow hair, glowing hair, cute simplistic frog hat, gazing at the viewer, clean visible face, clean white rectangular ceramic material and mechanical parts, their face mask is open, one eye has mechanical enhancements, servos, wires, exposed circuits, skin, holding giant green lillypad, (futuristic fractal shaped artemis station in background, window view), Sci-fi anime movie (style by George Shaw),shallow depth of field, vignette, (Fujicolor Superia X-TRA 400) , (bioluminecent glow:0.8),\nin the style of cknc,\n<lora:MoriiMee_Gothic_Niji_Style_Illustrious_r1:0.5>\n<lora:ck-neon-retrowave-IL:0.85>\n<lora:ck-shadow-circuit-IL:0.35>",
+        "denoise": 0.1,
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 4,
+        "workflow": "img2img-hires",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/KG5Q65TKZX0C9TBJJ7KQ77DN10",
+          "width": 1920,
+          "height": 2816
+        },
+        "experimental": false,
+        "negativePrompt": "score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry",
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 1410435
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1410435
+          },
+          {
+            "weight": 0.6,
+            "modelVersionId": 1410611
+          },
+          {
+            "weight": 0.5,
+            "modelVersionId": 1244133
+          },
+          {
+            "weight": 0.35,
+            "modelVersionId": 1380520
+          },
+          {
+            "weight": 0.85,
+            "modelVersionId": 1384132
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1410435
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1410611
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1244133
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1380520
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 1384132
+          }
+        ],
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:903057@1410611",
+            "type": "lora",
+            "strength": 0.6,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:915918@1244133",
+            "type": "lora",
+            "strength": 0.5,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:938811@1380520",
+            "type": "lora",
+            "strength": 0.35,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:816857@1384132",
+            "type": "lora",
+            "strength": 0.85,
+            "strengthClip": 1
+          }
+        ]
       },
-      "username": "cgibson",
-      "baseModel": "Flux.1 D",
+      "username": "FrogCement",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639
+        164821,
+        1244133,
+        1380520,
+        1384132,
+        1410435,
+        1410611
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "549|1738176312993",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=549%7C1738176312993"
+    "nextCursor": "550|1738176312993",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=550%7C1738176312993"
   }
 }
