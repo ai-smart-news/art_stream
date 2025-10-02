@@ -1,81 +1,39 @@
 {
   "items": [
     {
-      "id": 54628701,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/da7378e7-0cc2-4400-9a3c-ddd7332a476e/original=true/da7378e7-0cc2-4400-9a3c-ddd7332a476e.jpeg",
-      "hash": "U44fjF*DDRMPDqH^xs%xM3s:tjb?ylymg1Hc",
-      "width": 832,
-      "height": 1216,
+      "id": 56394043,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ddee860-22bc-4831-b1ef-2882774b7190/original=true/6ddee860-22bc-4831-b1ef-2882774b7190.jpeg",
+      "hash": "UoFN_0~B?H%MSgW;bbofR*WWR*e.s:fkWUj[",
+      "width": 2560,
+      "height": 3712,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-29T18:45:12.993Z",
-      "postId": 12248787,
+      "createdAt": "2025-02-07T16:11:34.631Z",
+      "postId": 12629250,
       "stats": {
-        "cryCount": 328,
-        "laughCount": 529,
-        "likeCount": 5042,
+        "cryCount": 312,
+        "laughCount": 618,
+        "likeCount": 4853,
         "dislikeCount": 0,
-        "heartCount": 1630,
-        "commentCount": 3
+        "heartCount": 1740,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 176332689,
-        "draft": false,
         "steps": 35,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Beneath the gnarled canopy of a blighted forest, a pallid druid in fungus-laden leathers kneels beside rotting tree roots, cooing to corrupted woodland sprites that swirl with malevolent green glows.\n   , aidmabaldursgate3, aidmafluxpro1.1,",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-01-29T1841:48.9042657Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 1244911,
-            "modelVersionName": "FLUX v0.3"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 1345832,
-            "modelVersionName": "Flux v0.1"
-          }
-        ]
+        "prompt": "(masterpiece: 1.2), (best quality: 1.2), very aesthetic, 4k, (InkPunk: 1.2), dynamic pose, vivid color, deep colors,dramatic lighting, intricate details, thick contours, volumetric shadows, Expressiveh,1 girl, solo, Holding a sword,rage, calling ,motherland mother",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "negativePrompt": "(worst quality, low quality: 1.2), bad quality, lowres, low res, pixelated, blurry, blurred, compression artifacts, jpeg artifacts,username, signature, text, signature, watermark, error, downscaled, cropped,bad anatomy,bad hands,deformed hands, deformed fingers,extra fingers,ugly fingers,mutated, fused fingers,bad proportions, bad perspective,overly saturated, unnatural pose, awkward pose,proportionately incorrect,noisy,over-sharpened,3D,high contrast, shadow errors, lighting glitches, impossible geometry,bed,bedding,deformed feet, deformed toes,missing toes, censored, mosaic censoring,pubic hair,bar censor,3d,colorful,Dutch angle,littered horizon,makeup,eye shadow,mascara,minimalism,mature female,loli,"
       },
-      "username": "AIDigitalMediaAgency",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252,
-        1244911,
-        1345832
-      ]
+      "username": "panzeryokai",
+      "baseModel": "SDXL 1.0",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "551|1738944694631",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=551%7C1738944694631"
+    "nextCursor": "552|1752044439225",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=552%7C1752044439225"
   }
 }
