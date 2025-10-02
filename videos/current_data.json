@@ -1,109 +1,69 @@
 {
   "items": [
     {
-      "id": 71579932,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62582be6-4a2f-4538-82f6-941a5c9ab340/original=true/62582be6-4a2f-4538-82f6-941a5c9ab340.jpeg",
-      "hash": "U471L86v8^o$NkaGaXbt00[qyFI.tpTNrqrV",
-      "width": 1520,
-      "height": 1952,
+      "id": 33532921,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4e68301-9559-4904-af51-077d0237fbdc/original=true/b4e68301-9559-4904-af51-077d0237fbdc.jpeg",
+      "hash": "U1F6wz?dfQ?d?wX7n+X7fQfQfQfQ?wX7n+X7",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-22T10:57:58.402Z",
-      "postId": 15899912,
+      "createdAt": "2024-10-08T18:46:31.839Z",
+      "postId": 7669985,
       "stats": {
-        "cryCount": 402,
-        "laughCount": 576,
-        "likeCount": 4731,
+        "cryCount": 337,
+        "laughCount": 605,
+        "likeCount": 4889,
         "dislikeCount": 0,
-        "heartCount": 1860,
-        "commentCount": 5
+        "heartCount": 1733,
+        "commentCount": 17
       },
       "meta": {
-        "RNG": "NV",
         "Size": "896x1152",
-        "seed": 2057439886,
-        "Model": "flux_dev",
-        "steps": 22,
+        "seed": 1646468411,
+        "Model": "F_flux1-dev-bnb-nf4-v2",
+        "steps": 25,
+        "Tiling": "True",
         "hashes": {
-          "model": "2eda627c8a",
-          "lora:Dark_Ghibli": "babb839a9aec",
-          "lora:Artem_Chebokha": "7cdd8e61e56a",
-          "lora:artisketchyfs-v02": "2097f7b0e740",
-          "lora:FluxDFaeTasticDetails": "4259dc328739",
-          "lora:Vibrantly_Sharp_style_v.5": "673c0ad30cb9"
+          "model": "f0dc50b04c",
+          "lora:- Flux1 - impossible_geometry_V1.0": "fca1ec68b062"
         },
-        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
+        "prompt": "(Long focal length shot:1.7), longshot, a portal into a mythical forest on the wall of my small messy bedroom <lora:- Flux1 - impossible_geometry_V1.0:1>, telezoom photography, short depth of field, (800 mm focal length:1.5), telephoto lens image, bokeh, professional, 4k, highly detailed",
+        "Version": "f2.0.1v1.10.1-previous-389-g3e253012",
         "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
         "cfgScale": 1,
         "resources": [
           {
-            "hash": "4259dc328739",
-            "name": "FluxDFaeTasticDetails",
+            "hash": "fca1ec68b062",
+            "name": "- Flux1 - impossible_geometry_V1.0",
             "type": "lora"
           },
           {
-            "hash": "673c0ad30cb9",
-            "name": "Vibrantly_Sharp_style_v.5",
-            "type": "lora"
-          },
-          {
-            "hash": "2097f7b0e740",
-            "name": "artisketchyfs-v02",
-            "type": "lora"
-          },
-          {
-            "hash": "7cdd8e61e56a",
-            "name": "Artem_Chebokha",
-            "type": "lora"
-          },
-          {
-            "hash": "babb839a9aec",
-            "name": "Dark_Ghibli",
-            "type": "lora"
-          },
-          {
-            "hash": "2eda627c8a",
-            "name": "flux_dev",
+            "hash": "f0dc50b04c",
+            "name": "F_flux1-dev-bnb-nf4-v2",
             "type": "model"
           }
         ],
-        "Model hash": "2eda627c8a",
-        "Hires steps": "8",
-        "Hires prompt": {},
-        "Hires upscale": "1.7",
-        "Schedule type": "Beta",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x_NMKD-Siax_200k",
-        "Hires CFG Scale": "1",
-        "Beta schedule beta": "0.6",
-        "Denoising strength": "0.36",
-        "Beta schedule alpha": "0.6",
+        "Model hash": "f0dc50b04c",
+        "Schedule type": "Simple",
+        "negativePrompt": "macro photography, unrealistic, deformation, oversaturated, underexposed, drawing, painting, crayon, sketch, graphite",
         "Distilled CFG Scale": "3.5",
-        "Style Selector Style": "Neo-Baroque",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "Hires negative prompt": "",
+        "Style Selector Style": "02_Telephoto",
         "Style Selector Enabled": "True",
-        "Style Selector Randomize": "True",
-        "Hires Distilled CFG Scale": "5.5"
+        "Style Selector Randomize": "False"
       },
-      "username": "sunnytiersen",
+      "username": "atena",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
         691639,
-        840288,
-        1483395,
-        1524423,
-        1612953
+        874854
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "537|1728413191839",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=537%7C1728413191839"
+    "nextCursor": "538|1758690900000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=538%7C1758690900000"
   }
 }
