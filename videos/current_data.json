@@ -1,67 +1,40 @@
 {
   "items": [
     {
-      "id": 66360791,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d52e00e2-f721-4163-839c-38ce16c0cbc0/original=true/d52e00e2-f721-4163-839c-38ce16c0cbc0.jpeg",
-      "hash": "UpHe%O%LRkt5_MxtWVoLJ;ofs:WqRkWBofoe",
-      "width": 832,
-      "height": 1216,
+      "id": 94666709,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ddec78ca-6cb3-4637-8bea-977a70e44885/original=true/ddec78ca-6cb3-4637-8bea-977a70e44885.jpeg",
+      "hash": "U48NCD_N8_00_2-:My9Z8{D*O=%MD*M{xt-p",
+      "width": 3424,
+      "height": 6144,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-28T05:56:28.245Z",
-      "postId": 14767806,
+      "createdAt": "2025-08-16T19:55:44.685Z",
+      "postId": 21002018,
       "stats": {
-        "cryCount": 408,
-        "laughCount": 648,
-        "likeCount": 4791,
+        "cryCount": 409,
+        "laughCount": 606,
+        "likeCount": 4700,
         "dislikeCount": 0,
-        "heartCount": 1740,
+        "heartCount": 1871,
         "commentCount": 4
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 905053523,
-        "draft": false,
-        "steps": 32,
-        "width": 832,
-        "height": 1216,
-        "prompt": "detailed background, from above,( Calm spring morning landscape), beautiful view, Flower Field, lily flower in full bloom, lily flower, early morning, sunrise sky, beautiful clouds, dappled sunlight, \nI can see a windmill in the distance, \ndepth of field, masterpiece, best quality, ultra-detailed, very aesthetic, illustration, perfect composition, intricate details, absurdres, moody lighting, wisps of light, no humans,",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-03-28T0555:39.6574468Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          }
-        ]
+        "seed": 989240335,
+        "steps": 25,
+        "prompt": "Masterpiece, best quality, amazing quality, newest, very aesthetic, absurdres, (scenery:1.4), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, XUER guangying, CRYOS2, Dark_Niji_Style.\n\n(artist:makoto-shinkai:0.65), (artist:mazjojo:0.83), (artist:pigeon666:0.67), (artist:zawar379:0.77), (artist:remsrar:0.65), (artist:yoneyama mai:0.74), (artist:chimmyming:0.72), (artist:konya karasue:0.55), (artist:remsrar:0.65), nub1mo, (artist:Yomu:0.3),(dino_(dinoartforame):0.5),(artist:quasarcake:0.47),(artist:wlop:0.4), (artist:ebifurya:0.52), (artist:as109:0.82), (artist:krekkov:0.68), (artist:mossacannibalis:0.56), (artist:tianliang duohe fangdongye:0.79), (artist:z-ton:1.04), (artist:pontsuka:0.55), (artist:sakimichan:0.4), (artist:nanFe:0.4), (artist:loish:0.35), (photorealistic:1.2), (illustration:1.3), high resolution, sharp focus, soft lighting, sunlight, (detailed beautiful eyes:1.30), 1girl, expressionless, ((wavy hair)), (disheveled hair:1.30), messy hair, long bangs, hairs between eyes, detailed extremely, sitting, gothic_lolita, red pupils, white hair, red Surrounded by roses, from side, dutch angle,",
+        "sampler": "DPM++ 3M SDE",
+        "cfgScale": 4,
+        "negativePrompt": "lowres, (bad quality,worst quality:1.2), long neck, bad anatomy,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross, nsfw, breast, Cleavage, Nudity"
       },
-      "username": "yuyusikiAI",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252
-      ]
+      "username": "Yoruuu",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "528|1755374144685",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=528%7C1755374144685"
+    "nextCursor": "529|1747784279864",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=529%7C1747784279864"
   }
 }
