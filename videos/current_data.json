@@ -1,71 +1,58 @@
 {
   "items": [
     {
-      "id": 28071631,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76160dcc-25e8-4505-a2f5-d9bf11a0e120/original=true/76160dcc-25e8-4505-a2f5-d9bf11a0e120.jpeg",
-      "hash": "UQEyVAiy0#W=~mV[EMoy9^SNixt6OqSfidn*",
-      "width": 1120,
-      "height": 1440,
+      "id": 69134286,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e223183-c069-495a-a2a6-078f400a8513/original=true/0e223183-c069-495a-a2a6-078f400a8513.jpeg",
+      "hash": "UIJaM?IU4U?ao{DjxbtR~U%LIVoL%2IpD*of",
+      "width": 1536,
+      "height": 2752,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-06T16:07:42.929Z",
-      "postId": 6277955,
+      "createdAt": "2025-04-10T10:08:19.684Z",
+      "postId": 15360793,
       "stats": {
-        "cryCount": 339,
-        "laughCount": 631,
-        "likeCount": 4593,
+        "cryCount": 376,
+        "laughCount": 626,
+        "likeCount": 4677,
         "dislikeCount": 0,
-        "heartCount": 1949,
-        "commentCount": 6
+        "heartCount": 1825,
+        "commentCount": 21
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 2507869311,
-        "Model": "flux1-dev-bnb-nf4-v2",
+        "Size": "1536x2752",
+        "seed": 1450763270,
         "steps": 30,
-        "hashes": {
-          "model": "bea01d51bd",
-          "lora:RetroAnimeFluxV1": "3d6b347c868f",
-          "model:flux1-dev-bnb-nf4-v2": "bea01d51bd"
-        },
-        "prompt": "<lora:RetroAnimeFluxV1:1.2> Detailed, vibrant, high contrast  semi-realistic 90s dark fantasy anime.  A dark elf soreceress with golden brown skin, glittering yellow eyes and long flowing light pink hair. Her expression is serious and determined  other holds her carved ebony magical staff in front of her. She is wearing a silk robe. The robe is sleeveless and is fixed by gold clasps on her shoulders and a gold chain around her waist. She has long elf ears pierced with large hoop earrings. Her hands and forearms are covered in white elbow-length gloves. Her body is adorned with jewelry bearing esotheric symbols and runes. The scene is set against a dark void lit by a shining green fire magical circle bearing mysterious glyphs.",
-        "Version": "f2.0.1v1.10.1-previous-501-g668e87f9",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "cfgScale": 1,
-        "resources": [
+        "width": 1536,
+        "height": 2752,
+        "prompt": "A beautifully drawn contemporary illustration by Ryan Sook featuring a mysterious scene where swirling ethereal lines mimic the concept of a fantastical realm with a blend of surreal elements like flowing white and gold characters with intricate ornate patterns that suggest a sense of whimsy and wonder The palette includes deep reds and rich earth tones with subtle black and tulle details that add a modern touch The composition is intimately detailed and highly professional with smooth lines and sharp focus that bring out the intricate details in a vividly vibrant display that captures the essence of the best of contemporary illustration .",
+        "sampler": "Undefined",
+        "cfgScale": 7.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@1088507",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-04-10T1002:57.0394550Z",
+        "civitaiResources": [
           {
-            "hash": "3d6b347c868f",
-            "name": "RetroAnimeFluxV1",
-            "type": "lora",
-            "weight": 1.2
-          },
-          {
-            "hash": "bea01d51bd",
-            "name": "flux1-dev-bnb-nf4-v2",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 1088507,
+            "modelVersionName": "Pro 1.1 Ultra"
           }
-        ],
-        "Model hash": "bea01d51bd",
-        "Hires steps": "5",
-        "Hires upscale": "1.25",
-        "Schedule type": "Simple",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "Denoising strength": "0.25",
-        "Distilled CFG Scale": "3.5",
-        "Diffusion in Low Bits": "bnb-nf4 (fp16 LoRA)"
+        ]
       },
-      "username": "billyballo171353",
-      "baseModel": null,
+      "username": "Cinnadust",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        806265
+        1088507
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "555|1744279699684",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=555%7C1744279699684"
+    "nextCursor": "556|1741964656685",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=556%7C1741964656685"
   }
 }
