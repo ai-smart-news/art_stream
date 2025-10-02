@@ -1,39 +1,35 @@
 {
   "items": [
     {
-      "id": 56394043,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ddee860-22bc-4831-b1ef-2882774b7190/original=true/6ddee860-22bc-4831-b1ef-2882774b7190.jpeg",
-      "hash": "UoFN_0~B?H%MSgW;bbofR*WWR*e.s:fkWUj[",
-      "width": 2560,
-      "height": 3712,
+      "id": 87179568,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62b16991-077a-41fb-becd-7d87d23401af/original=true/62b16991-077a-41fb-becd-7d87d23401af.jpeg",
+      "hash": "UFF}Wor]0J0J~qxu4nMx57tkIArvxbs8I:t7",
+      "width": 1352,
+      "height": 1736,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-07T16:11:34.631Z",
-      "postId": 12629250,
+      "createdAt": "2025-07-09T07:00:39.225Z",
+      "postId": 19341461,
       "stats": {
-        "cryCount": 312,
-        "laughCount": 618,
-        "likeCount": 4853,
+        "cryCount": 437,
+        "laughCount": 754,
+        "likeCount": 4726,
         "dislikeCount": 0,
-        "heartCount": 1740,
-        "commentCount": 6
+        "heartCount": 1603,
+        "commentCount": 8
       },
       "meta": {
-        "steps": 35,
-        "prompt": "(masterpiece: 1.2), (best quality: 1.2), very aesthetic, 4k, (InkPunk: 1.2), dynamic pose, vivid color, deep colors,dramatic lighting, intricate details, thick contours, volumetric shadows, Expressiveh,1 girl, solo, Holding a sword,rage, calling ,motherland mother",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "negativePrompt": "(worst quality, low quality: 1.2), bad quality, lowres, low res, pixelated, blurry, blurred, compression artifacts, jpeg artifacts,username, signature, text, signature, watermark, error, downscaled, cropped,bad anatomy,bad hands,deformed hands, deformed fingers,extra fingers,ugly fingers,mutated, fused fingers,bad proportions, bad perspective,overly saturated, unnatural pose, awkward pose,proportionately incorrect,noisy,over-sharpened,3D,high contrast, shadow errors, lighting glitches, impossible geometry,bed,bedding,deformed feet, deformed toes,missing toes, censored, mosaic censoring,pubic hair,bar censor,3d,colorful,Dutch angle,littered horizon,makeup,eye shadow,mascara,minimalism,mature female,loli,"
+        "prompt": "ultra detailed cinematic 8k portrait of an alien cephalopod humanoid commander, medium close-up, posed in a dignified three-quarter stance with torso turned to the left and head subtly angled back toward the viewer, powerful upper-body posture, broad shoulders, upright chest, confident yet contemplative expression, glossy pale glass-like eyes with a slight upward gaze, smooth pink-red cephalopod skin with moist surface detailing, four thick fleshy tentacles extending downward and curling from the lower face and chin, alien cranial ridges replacing human features, high anatomical fidelity, digital concept art style, symmetrical facial composition, soft ambient top-left light casting natural rim shadows on collarbone and chest, subject wears a rugged dark brown flight jacket with thick shearling collar, partially open to reveal wrinkled alien neck texture, left shoulder features faded white circular insignia, cloth texture is aged canvas and cracked leather, patch is abstract military or galactic explorer emblem, background is desaturated charcoal-to-purple gradient with painterly brush blending, subdued monochrome colors for background to emphasize subject, hyperreal texture rendering on facial creases and tentacles, camera focal length emulates Hasselblad medium format lens for shallow depth of field, portrait is tightly framed with subject centered, edges softly vignetted, painted in the style of master sci-fi concept artists like Ian McQue and Alex Ries, masterpiece, cinematic realism, galactic commander energy\n"
       },
-      "username": "panzeryokai",
-      "baseModel": "SDXL 1.0",
+      "username": "roboticartist",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "552|1752044439225",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=552%7C1752044439225"
+    "nextCursor": "553|1747651651841",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=553%7C1747651651841"
   }
 }
