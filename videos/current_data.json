@@ -1,69 +1,92 @@
 {
   "items": [
     {
-      "id": 33532921,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4e68301-9559-4904-af51-077d0237fbdc/original=true/b4e68301-9559-4904-af51-077d0237fbdc.jpeg",
-      "hash": "U1F6wz?dfQ?d?wX7n+X7fQfQfQfQ?wX7n+X7",
-      "width": 896,
-      "height": 1152,
+      "id": 102105123,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e2b80e0-731b-42fa-a334-0f89fecbef5c/original=true/5e2b80e0-731b-42fa-a334-0f89fecbef5c.jpeg",
+      "hash": "UOD]l4IUWEt7~qWBIUt7M{ayD%ofRjWARjog",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-08T18:46:31.839Z",
-      "postId": 7669985,
+      "createdAt": "2025-09-24T05:15:00.000Z",
+      "postId": 22651918,
       "stats": {
-        "cryCount": 337,
-        "laughCount": 605,
-        "likeCount": 4889,
+        "cryCount": 385,
+        "laughCount": 556,
+        "likeCount": 4769,
         "dislikeCount": 0,
-        "heartCount": 1733,
-        "commentCount": 17
+        "heartCount": 1852,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 1646468411,
-        "Model": "F_flux1-dev-bnb-nf4-v2",
+        "Size": "832x1216",
+        "seed": 227114926,
+        "draft": false,
         "steps": 25,
-        "Tiling": "True",
-        "hashes": {
-          "model": "f0dc50b04c",
-          "lora:- Flux1 - impossible_geometry_V1.0": "fca1ec68b062"
-        },
-        "prompt": "(Long focal length shot:1.7), longshot, a portal into a mythical forest on the wall of my small messy bedroom <lora:- Flux1 - impossible_geometry_V1.0:1>, telezoom photography, short depth of field, (800 mm focal length:1.5), telephoto lens image, bokeh, professional, 4k, highly detailed",
-        "Version": "f2.0.1v1.10.1-previous-389-g3e253012",
+        "width": 832,
+        "height": 1216,
+        "prompt": "Smooth_Quality, FantasyForge, solo goddess, AncientGods, close up portrait, (1woman, phantom),\n(messy white hair:1.5), (porcelain pale mask:1.3), (yellow eyes:1.4), \n(flowing ethereal black shroud with subtle smoky tendrils:1.5), \n(symbolic: dark mist coiling around body:1.5), (ominous poised gesture:1.2),\n(abstract background in muted gray and white with drifting fog:1.8), (soft grayscale atmosphere:1.4), (delicate pale haze and ethereal aura:1.3),\n(cinematic lighting, dramatic contrast, rim lighting:1.2, volumetric shadows:1.1)",
+        "process": "txt2img",
         "sampler": "Euler",
-        "cfgScale": 1,
-        "resources": [
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-09-23T0501:47.7116389Z",
+        "experimental": false,
+        "negativePrompt": "worst quality, low quality, SmoothNegative_Hands, nsfw, halo, crown",
+        "civitaiResources": [
           {
-            "hash": "fca1ec68b062",
-            "name": "- Flux1 - impossible_geometry_V1.0",
-            "type": "lora"
+            "type": "checkpoint",
+            "modelVersionId": 1805971
           },
           {
-            "hash": "f0dc50b04c",
-            "name": "F_flux1-dev-bnb-nf4-v2",
-            "type": "model"
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 1668031
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 2196453
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 1470551
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 2217543
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 2234264
           }
-        ],
-        "Model hash": "f0dc50b04c",
-        "Schedule type": "Simple",
-        "negativePrompt": "macro photography, unrealistic, deformation, oversaturated, underexposed, drawing, painting, crayon, sketch, graphite",
-        "Distilled CFG Scale": "3.5",
-        "Style Selector Style": "02_Telephoto",
-        "Style Selector Enabled": "True",
-        "Style Selector Randomize": "False"
+        ]
       },
-      "username": "atena",
-      "baseModel": "Flux.1 D",
+      "username": "dultrap",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        874854
+        1470551,
+        1668031,
+        1805971,
+        2196453,
+        2217543,
+        2234264
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "538|1758690900000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=538%7C1758690900000"
+    "nextCursor": "539|1743474124814",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=539%7C1743474124814"
   }
 }
