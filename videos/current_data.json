@@ -1,155 +1,81 @@
 {
   "items": [
     {
-      "id": 61463277,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8f723de2-c34d-4ecb-a65f-63683f7bafbc/original=true/8f723de2-c34d-4ecb-a65f-63683f7bafbc.jpeg",
-      "hash": "U1EqO1~afQ~a?^j?jsj?fQfQfQfQ?^j?jsj?",
-      "width": 2624,
-      "height": 3840,
+      "id": 54628701,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/da7378e7-0cc2-4400-9a3c-ddd7332a476e/original=true/da7378e7-0cc2-4400-9a3c-ddd7332a476e.jpeg",
+      "hash": "U44fjF*DDRMPDqH^xs%xM3s:tjb?ylymg1Hc",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-05T04:20:21.238Z",
-      "postId": 13739620,
+      "createdAt": "2025-01-29T18:45:12.993Z",
+      "postId": 12248787,
       "stats": {
-        "cryCount": 309,
-        "laughCount": 595,
-        "likeCount": 4766,
+        "cryCount": 328,
+        "laughCount": 529,
+        "likeCount": 5042,
         "dislikeCount": 0,
-        "heartCount": 1859,
+        "heartCount": 1630,
         "commentCount": 3
       },
       "meta": {
+        "Size": "832x1216",
         "nsfw": true,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1410435",
-        "extra": {
-          "remixOfId": 58820735
-        },
-        "steps": 30,
-        "width": 1920,
-        "height": 2816,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:827184@1410435"
-        ],
-        "prompt": "<lora:ck-nc-cyberpunk-IL-000011:0.60>,  masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject, dynamic angle, side view, from above, action shot, wabi sabi android woman, rainbow hair, glowing hair, cute simplistic frog hat, gazing at the viewer, clean visible face, clean white rectangular ceramic material and mechanical parts, their face mask is open, one eye has mechanical enhancements, servos, wires, exposed circuits, skin, holding giant green lillypad, (futuristic fractal shaped artemis station in background, window view), Sci-fi anime movie (style by George Shaw),shallow depth of field, vignette, (Fujicolor Superia X-TRA 400) , (bioluminecent glow:0.8),\nin the style of cknc,\n<lora:MoriiMee_Gothic_Niji_Style_Illustrious_r1:0.5>\n<lora:ck-neon-retrowave-IL:0.85>\n<lora:ck-shadow-circuit-IL:0.35>",
-        "denoise": 0.1,
-        "sampler": "Euler a",
-        "cfgScale": 5,
+        "seed": 176332689,
+        "draft": false,
+        "steps": 35,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Beneath the gnarled canopy of a blighted forest, a pallid druid in fungus-laden leathers kneels beside rotting tree roots, cooing to corrupted woodland sprites that swirl with malevolent green glows.\n   , aidmabaldursgate3, aidmafluxpro1.1,",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 4,
-        "workflow": "img2img-hires",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/KG5Q65TKZX0C9TBJJ7KQ77DN10",
-          "width": 1920,
-          "height": 2816
-        },
-        "experimental": false,
-        "negativePrompt": "score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry",
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-01-29T1841:48.9042657Z",
         "civitaiResources": [
           {
-            "weight": 1,
-            "modelVersionId": 1410435
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1410435
-          },
-          {
-            "weight": 0.6,
-            "modelVersionId": 1410611
-          },
-          {
-            "weight": 0.5,
-            "modelVersionId": 1244133
-          },
-          {
-            "weight": 0.35,
-            "modelVersionId": 1380520
-          },
-          {
-            "weight": 0.85,
-            "modelVersionId": 1384132
-          },
-          {
             "type": "checkpoint",
-            "modelVersionId": 1410435
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
             "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 1410611
+            "weight": 0.25,
+            "modelVersionId": 1244911,
+            "modelVersionName": "FLUX v0.3"
           },
           {
             "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1244133
+            "weight": 1,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 1380520
-          },
-          {
-            "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 1384132
-          }
-        ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:903057@1410611",
-            "type": "lora",
-            "strength": 0.6,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:915918@1244133",
-            "type": "lora",
-            "strength": 0.5,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:938811@1380520",
-            "type": "lora",
-            "strength": 0.35,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:816857@1384132",
-            "type": "lora",
-            "strength": 0.85,
-            "strengthClip": 1
+            "weight": 0.75,
+            "modelVersionId": 1345832,
+            "modelVersionName": "Flux v0.1"
           }
         ]
       },
-      "username": "FrogCement",
-      "baseModel": "Illustrious",
+      "username": "AIDigitalMediaAgency",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        164821,
-        1244133,
-        1380520,
-        1384132,
-        1410435,
-        1410611
+        691639,
+        720252,
+        1244911,
+        1345832
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "550|1738176312993",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=550%7C1738176312993"
+    "nextCursor": "551|1738944694631",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=551%7C1738944694631"
   }
 }
