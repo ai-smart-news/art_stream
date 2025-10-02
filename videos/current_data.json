@@ -1,35 +1,146 @@
 {
   "items": [
     {
-      "id": 76500750,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68a954fe-0f00-4157-bd72-fabbdadbbff4/original=true/68a954fe-0f00-4157-bd72-fabbdadbbff4.jpeg",
-      "hash": "UcHek4WBxa%M~qj[WBj[t7ofM{RjayfQofWB",
-      "width": 1024,
-      "height": 1536,
+      "id": 95748311,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a819155-ef9b-4738-96c4-37af7d3b01c5/original=true/3a819155-ef9b-4738-96c4-37af7d3b01c5.jpeg",
+      "hash": "ULI}u1Nf1N%$Y8W?tSnOOaD%$*j[x_M{Ri%1",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-15T23:35:37.757Z",
-      "postId": 16992177,
+      "createdAt": "2025-08-22T22:46:56.216Z",
+      "postId": 21238085,
       "stats": {
-        "cryCount": 394,
-        "laughCount": 1222,
-        "likeCount": 4318,
+        "cryCount": 516,
+        "laughCount": 528,
+        "likeCount": 4770,
         "dislikeCount": 0,
-        "heartCount": 1605,
-        "commentCount": 11
+        "heartCount": 1722,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "Mathurin",
-      "baseModel": "OpenAI",
+      "meta": {
+        "RNG": "CPU",
+        "ENSD": "31337",
+        "Size": "1664x2432",
+        "seed": 1781214364,
+        "Model": "JANKUV5NSFWTrainedNoobaiEPS_v50",
+        "steps": 35,
+        "hashes": {
+          "model": "217daae812",
+          "lora:TRT_IL": "4f993f545850",
+          "embed:lazyneg": "ba21023c70",
+          "embed:lazypos": "3086669265",
+          "embed:lazyhand": "3cc8f76aaf",
+          "lora:WSSKX_WAI": "e6b401310305",
+          "lora:USNR_STYLE_ILL": "44586d05878a",
+          "adetailer:face_yolov9c.pt": "d02fe493c3",
+          "adetailer:hand_yolov9c.pt": "6f116f686e",
+          "lora:SWdressV1_illustrious": "fcfb31d9d4ed",
+          "lora:hololive_kaela_kovalskia_redebut": "11bc3bab8208",
+          "lora:illustriousXLv01_stabilizer_v1198": "ccce66044b45"
+        },
+        "prompt": "1girl,\nsolo, lazypos, anime-style, detailed background, vibrant colors, delicate, dreamy, cinematic lighting, volumetric lighting, ray tracing, dramatic shadows, dappled sunlight, clouds, blue sky, kaela20, blonde hair, red eyes, long hair, smile, SWdress, cropped jacket, long sleeves, lace trim, frills, layered skirt, puffy dress, cross-laced dress, buttons, waist ribbon, pink dress, frilled dress, white socks, frilled socks, kneehighs, ribbon footwear, mary janes, cat ears, outdoors, lake, boat, sitting, holding umbrella, skirt, animal ears, socks, umbrella, watercraft, usnr10th \\(instrument\\), lace-trimmed sleeves, holding, sunlight, sky, dress, pink collar, frilled umbrella, lace-trimmed umbrella,\nA young girl sitting on a wooden boat in the middle of a lake. she is wearing a pink dress and has long blonde hair that is styled in loose waves. the girl is holding a large pink umbrella over her head, which is tilted slightly to the side. the overall mood of the image is peaceful and serene.\n<lora:hololive_kaela_kovalskia_redebut:0.5> <lora:SWdressV1_illustrious:0.8> <lora:USNR_STYLE_ILL:0.5> <lora:WSSKX_WAI:0.3> <lora:TRT_IL:0.65> <lora:illustriousXLv01_stabilizer_v1198:0.35>",
+        "Version": "classic",
+        "sampler": "Euler a",
+        "Emphasis": "Original",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "TI hashes": {
+          "lazyneg": "ba21023c7054",
+          "lazypos": "30866692653c",
+          "lazyhand": "3cc8f76aaf5a"
+        },
+        "resources": [
+          {
+            "hash": "11bc3bab8208",
+            "name": "hololive_kaela_kovalskia_redebut",
+            "type": "lora",
+            "weight": 0.5
+          },
+          {
+            "hash": "fcfb31d9d4ed",
+            "name": "SWdressV1_illustrious",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "44586d05878a",
+            "name": "USNR_STYLE_ILL",
+            "type": "lora",
+            "weight": 0.5
+          },
+          {
+            "hash": "e6b401310305",
+            "name": "WSSKX_WAI",
+            "type": "lora",
+            "weight": 0.3
+          },
+          {
+            "hash": "4f993f545850",
+            "name": "TRT_IL",
+            "type": "lora",
+            "weight": 0.65
+          },
+          {
+            "hash": "ccce66044b45",
+            "name": "illustriousXLv01_stabilizer_v1198",
+            "type": "lora",
+            "weight": 0.35
+          },
+          {
+            "hash": "217daae812",
+            "name": "JANKUV5NSFWTrainedNoobaiEPS_v50",
+            "type": "model"
+          }
+        ],
+        "Model hash": "217daae812",
+        "Schedule type": "Karras",
+        "negativePrompt": "lazyneg, lazyhand, nsfw, (sweat:1.5), (goggles:1.5), sunglasses, (jewelry:1.5), (earrings:1.5), gem, gemstone, (hair ribbon:1.5), (hair bow:1.5), (earring:1.5), bad perspective, poor lighting, missing limbs, cityscape, architecture, glass, glass window, wooden frame, photo, photorealistic, realistic, blush, leaning forward, white sleeves, multiple boats, frilled headband, lace headband, black cat ears",
+        "ADetailer model": "face_yolov9c.pt",
+        "ADetailer prompt": {
+          "hololive_kaela_kovalskia_redebut": "0.75> kaela20"
+        },
+        "ADetailer version": "25.3.0",
+        "Denoising strength": "0.25",
+        "ADetailer mask blur": "4",
+        "ADetailer model 2nd": "hand_yolov9c.pt",
+        "ADetailer confidence": "0.65",
+        "ADetailer prompt 2nd": {},
+        "ADetailer dilate erode": "4",
+        "ADetailer mask blur 2nd": "4",
+        "ADetailer confidence 2nd": "0.3",
+        "ADetailer inpaint padding": "32",
+        "ADetailer negative prompt": {
+          "(sweat": "1.5)"
+        },
+        "ADetailer dilate erode 2nd": "4",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer inpaint padding 2nd": "32",
+        "ADetailer negative prompt 2nd": {},
+        "ADetailer denoising strength 2nd": "0.4",
+        "ADetailer inpaint only masked 2nd": "True"
+      },
+      "username": "akizukirei608",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1733399
+        923592,
+        1261280,
+        1550840,
+        1552087,
+        1591515,
+        1833157,
+        1860747,
+        1896532,
+        2055853,
+        2122462
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "547|1755902816216",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=547%7C1755902816216"
+    "nextCursor": "548|1723139023256",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=548%7C1723139023256"
   }
 }
