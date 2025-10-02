@@ -1,52 +1,71 @@
 {
   "items": [
     {
-      "id": 77210055,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0796af75-8c32-4cac-b74b-b3508ce9f858/original=true/0796af75-8c32-4cac-b74b-b3508ce9f858.jpeg",
-      "hash": "U45OsdDODi_N?vDiIA-=DOyDx]Mx8_%hx]Di",
-      "width": 1024,
-      "height": 1536,
+      "id": 28071631,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76160dcc-25e8-4505-a2f5-d9bf11a0e120/original=true/76160dcc-25e8-4505-a2f5-d9bf11a0e120.jpeg",
+      "hash": "UQEyVAiy0#W=~mV[EMoy9^SNixt6OqSfidn*",
+      "width": 1120,
+      "height": 1440,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-19T10:47:31.841Z",
-      "postId": 17148320,
+      "createdAt": "2024-09-06T16:07:42.929Z",
+      "postId": 6277955,
       "stats": {
-        "cryCount": 381,
-        "laughCount": 1182,
-        "likeCount": 4265,
+        "cryCount": 339,
+        "laughCount": 631,
+        "likeCount": 4593,
         "dislikeCount": 0,
-        "heartCount": 1686,
-        "commentCount": 13
+        "heartCount": 1949,
+        "commentCount": 6
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "alien gray taking a selfie from inside the ship,making a peace sign gesture, outside a black and white cow being abducted ,ultra realistic photo, cinematic scene.",
-        "process": "txt2img",
-        "quality": "medium",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
+        "Size": "896x1152",
+        "seed": 2507869311,
+        "Model": "flux1-dev-bnb-nf4-v2",
+        "steps": 30,
+        "hashes": {
+          "model": "bea01d51bd",
+          "lora:RetroAnimeFluxV1": "3d6b347c868f",
+          "model:flux1-dev-bnb-nf4-v2": "bea01d51bd"
+        },
+        "prompt": "<lora:RetroAnimeFluxV1:1.2> Detailed, vibrant, high contrast  semi-realistic 90s dark fantasy anime.  A dark elf soreceress with golden brown skin, glittering yellow eyes and long flowing light pink hair. Her expression is serious and determined  other holds her carved ebony magical staff in front of her. She is wearing a silk robe. The robe is sleeveless and is fixed by gold clasps on her shoulders and a gold chain around her waist. She has long elf ears pierced with large hoop earrings. Her hands and forearms are covered in white elbow-length gloves. Her body is adorned with jewelry bearing esotheric symbols and runes. The scene is set against a dark void lit by a shining green fire magical circle bearing mysterious glyphs.",
+        "Version": "f2.0.1v1.10.1-previous-501-g668e87f9",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "cfgScale": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
+            "hash": "3d6b347c868f",
+            "name": "RetroAnimeFluxV1",
+            "type": "lora",
+            "weight": 1.2
+          },
+          {
+            "hash": "bea01d51bd",
+            "name": "flux1-dev-bnb-nf4-v2",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "bea01d51bd",
+        "Hires steps": "5",
+        "Hires upscale": "1.25",
+        "Schedule type": "Simple",
+        "Hires upscaler": "4x_foolhardy_Remacri",
+        "Denoising strength": "0.25",
+        "Distilled CFG Scale": "3.5",
+        "Diffusion in Low Bits": "bnb-nf4 (fp16 LoRA)"
       },
-      "username": "Max2021",
-      "baseModel": "OpenAI",
+      "username": "billyballo171353",
+      "baseModel": null,
       "modelVersionIds": [
-        1733399
+        806265
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "554|1725638862929",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=554%7C1725638862929"
+    "nextCursor": "555|1744279699684",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=555%7C1744279699684"
   }
 }
