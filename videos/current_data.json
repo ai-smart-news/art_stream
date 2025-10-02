@@ -1,70 +1,66 @@
 {
   "items": [
     {
-      "id": 67175747,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e8572cc8-4e7f-48fc-afc4-4eebeac4f26c/original=true/e8572cc8-4e7f-48fc-afc4-4eebeac4f26c.jpeg",
-      "hash": "UKKmCo4VJQkR~VEKV]t89@X49Z?H?JsEI.I-",
-      "width": 832,
-      "height": 1216,
+      "id": 74972537,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa671302-496f-4dcc-839a-b75a70a7665e/original=true/aa671302-496f-4dcc-839a-b75a70a7665e.jpeg",
+      "hash": "U97oC%rpH;ThQ*i^W?NGjrWAMw%0F$M{s8%g",
+      "width": 1536,
+      "height": 2040,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T02:22:04.814Z",
-      "postId": 14940275,
+      "createdAt": "2025-05-08T11:01:30.512Z",
+      "postId": 16646466,
       "stats": {
-        "cryCount": 453,
-        "laughCount": 638,
-        "likeCount": 4675,
+        "cryCount": 373,
+        "laughCount": 582,
+        "likeCount": 4720,
         "dislikeCount": 0,
-        "heartCount": 1795,
-        "commentCount": 1
+        "heartCount": 1885,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 32351322,
-        "draft": false,
-        "extra": {
-          "remixOfId": 67162273
+        "Eta": "0.67",
+        "RNG": "NV",
+        "ENSD": "31337",
+        "Size": "1024x1360",
+        "seed": 4204868169,
+        "Model": "WAI-Nsfw-Illustrious-14",
+        "steps": 30,
+        "hashes": {
+          "model": "bdb59bac77"
         },
-        "steps": 19,
-        "width": 832,
-        "height": 1216,
-        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, long_lashes, blush, looking_at_viewer, dynamic_angle, cinematic, side_view, hearts,  ethereal_aura, uwu, big_eyes, crazy eyes, yandere, crazy eyes, licking bloody knife",
+        "prompt": "1girl, solo, long hair, city, boots, hands in pockets, coat, blonde hair, sky, planet, night, knee boots, building, star \\(sky\\), cityscape, pantyhose, standing, skyscraper, from below, black footwear\n,masterpiece,best quality,amazing quality,",
+        "Version": "v1.10.1-89-g2174ce5af",
         "sampler": "Euler a",
-        "cfgScale": 5.5,
+        "cfgScale": 7,
         "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
-        "Created Date": "2025-04-01T0221:41.9737579Z",
-        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, old",
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1528632,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.9,
-            "modelVersionId": 1597055,
-            "modelVersionName": "V1"
+            "hash": "bdb59bac77",
+            "name": "WAI-Nsfw-Illustrious-14",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "bdb59bac77",
+        "Hires steps": "20",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,",
+        "Denoising strength": "0.5",
+        "Discard penultimate sigma": "True"
       },
-      "username": "zirconia",
+      "username": "WAI0731",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        1528632,
-        1597055
+        1761560
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "540|1746702090512",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=540%7C1746702090512"
+    "nextCursor": "541|1735993527535",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=541%7C1735993527535"
   }
 }
