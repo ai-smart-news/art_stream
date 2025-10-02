@@ -1,101 +1,109 @@
 {
   "items": [
     {
-      "id": 76322915,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/784871a5-0c1d-4a7d-9872-ca25862c1f56/original=true/784871a5-0c1d-4a7d-9872-ca25862c1f56.jpeg",
-      "hash": "UKI64SDj0zS#.mVr01of4oxW;xV@jZVui]E2",
-      "width": 2624,
-      "height": 3840,
+      "id": 71579932,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62582be6-4a2f-4538-82f6-941a5c9ab340/original=true/62582be6-4a2f-4538-82f6-941a5c9ab340.jpeg",
+      "hash": "U471L86v8^o$NkaGaXbt00[qyFI.tpTNrqrV",
+      "width": 1520,
+      "height": 1952,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-16T22:06:11.810Z",
-      "postId": 16947391,
+      "createdAt": "2025-04-22T10:57:58.402Z",
+      "postId": 15899912,
       "stats": {
-        "cryCount": 362,
-        "laughCount": 709,
-        "likeCount": 4811,
+        "cryCount": 402,
+        "laughCount": 576,
+        "likeCount": 4731,
         "dislikeCount": 0,
-        "heartCount": 1688,
-        "commentCount": 1
+        "heartCount": 1860,
+        "commentCount": 5
       },
       "meta": {
-        "seed": 602587268,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1490781",
-        "extra": {},
-        "steps": 29,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:827184@1490781"
-        ],
-        "prompt": "1girl, kajitsumomose, green hair, long hair, masterpiece, best quality, absurdres, cute, kawaii, small breasts,\nstrapless dress, armband, bare shoulders, black dress,\noutdoors, nature,\nstanding, holding cat, hug, (cheek press:0.5), kitten, cat on head, happy smile, closed eyes, very happy,\nintricate, highly detailed, majestic",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "modelIds": [],
-        "workflow": "img2img",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "sketch, greyscale, monochrome, lowres, bad, bad anatomy, text, error, fewer, extra, missing, cropped, worst quality, jpeg artifacts, low quality, signature, watermark, username, artist name, blurry, extra limb, missing limb, mutation, mutated, disconnected, unfinished, ugly, disgusting, displeasing, amputation, extra digits, artistic error, (nsfw, cleavage), flat chest, loli",
-        "civitaiResources": [
+        "RNG": "NV",
+        "Size": "896x1152",
+        "seed": 2057439886,
+        "Model": "flux_dev",
+        "steps": 22,
+        "hashes": {
+          "model": "2eda627c8a",
+          "lora:Dark_Ghibli": "babb839a9aec",
+          "lora:Artem_Chebokha": "7cdd8e61e56a",
+          "lora:artisketchyfs-v02": "2097f7b0e740",
+          "lora:FluxDFaeTasticDetails": "4259dc328739",
+          "lora:Vibrantly_Sharp_style_v.5": "673c0ad30cb9"
+        },
+        "Version": "f2.0.1v1.10.1-previous-659-gc055f2d4",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "resources": [
           {
-            "weight": 1,
-            "modelVersionId": 1490781
+            "hash": "4259dc328739",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora"
           },
           {
-            "weight": 1,
-            "modelVersionId": 1490781
+            "hash": "673c0ad30cb9",
+            "name": "Vibrantly_Sharp_style_v.5",
+            "type": "lora"
           },
           {
-            "weight": 1,
-            "modelVersionId": 1652667
+            "hash": "2097f7b0e740",
+            "name": "artisketchyfs-v02",
+            "type": "lora"
           },
           {
-            "weight": 1,
-            "modelVersionId": 1349176
+            "hash": "7cdd8e61e56a",
+            "name": "Artem_Chebokha",
+            "type": "lora"
           },
           {
-            "type": "checkpoint",
-            "modelVersionId": 1490781
+            "hash": "babb839a9aec",
+            "name": "Dark_Ghibli",
+            "type": "lora"
           },
           {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1652667
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1349176
+            "hash": "2eda627c8a",
+            "name": "flux_dev",
+            "type": "model"
           }
         ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:1461427@1652667",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:1198141@1349176",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          }
-        ]
+        "Model hash": "2eda627c8a",
+        "Hires steps": "8",
+        "Hires prompt": {},
+        "Hires upscale": "1.7",
+        "Schedule type": "Beta",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x_NMKD-Siax_200k",
+        "Hires CFG Scale": "1",
+        "Beta schedule beta": "0.6",
+        "Denoising strength": "0.36",
+        "Beta schedule alpha": "0.6",
+        "Distilled CFG Scale": "3.5",
+        "Style Selector Style": "Neo-Baroque",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "Hires negative prompt": "",
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "True",
+        "Hires Distilled CFG Scale": "5.5"
       },
-      "username": "Zlia",
-      "baseModel": "Illustrious",
+      "username": "sunnytiersen",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1349176,
-        1490781,
-        1652667
+        691639,
+        840288,
+        1483395,
+        1524423,
+        1612953
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "536|1745319478402",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=536%7C1745319478402"
+    "nextCursor": "537|1728413191839",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=537%7C1728413191839"
   }
 }
