@@ -1,48 +1,96 @@
 {
   "items": [
     {
-      "id": 98780806,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13744eea-8388-41c5-9f34-2fb155df2bea/original=true/13744eea-8388-41c5-9f34-2fb155df2bea.jpeg",
-      "hash": "UHB{Y{9#NHxZ~UEQRkxZ%LxFE4bb-oxY9vxY",
-      "width": 768,
-      "height": 1344,
+      "id": 67261073,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2b129ab4-d169-45e9-b1c9-9a15362dabbf/original=true/2b129ab4-d169-45e9-b1c9-9a15362dabbf.jpeg",
+      "hash": "U5B{[-:+4T-p_O0#L3^51$544-ys3o.AHq%2",
+      "width": 1152,
+      "height": 1680,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-07T19:58:26.745Z",
-      "postId": 21918779,
+      "createdAt": "2025-04-01T13:00:00.000Z",
+      "postId": 14958594,
       "stats": {
-        "cryCount": 331,
-        "laughCount": 584,
-        "likeCount": 4761,
+        "cryCount": 382,
+        "laughCount": 725,
+        "likeCount": 4543,
         "dislikeCount": 0,
-        "heartCount": 1810,
-        "commentCount": 7
+        "heartCount": 1838,
+        "commentCount": 5
       },
       "meta": {
-        "seed": 3971715163,
-        "vaes": [
-          "ae.sft"
+        "Size": "768x1120",
+        "seed": 1977549975,
+        "Model": "be-re085-mix",
+        "steps": 30,
+        "hashes": {
+          "model": "0597f90762",
+          "lora:CivChan": "295906106644",
+          "lora:Detailer_NoobAI_Incrs_v1": "9f242f949d7b"
+        },
+        "prompt": "<lora:CivChan:0.65> civchan, , hair between eyes, \n1girl, breasts, maid headdress, light, pink hair, , , (purple eyes), , black ribbon, , frills, ribbon,  hair between eyes, medium hair, , heart-shaped pupils, dark, shade, solo, yandere, reaching, glitter hair, sparkle, grin, teeth, yandere, black dress\npink galaxy hair, long hair, galaxy eyes, galaxy skin , , indoors, ,, covered in stars, in space, ,, , 1girl, stars, , , in space, , , (solo, giant, giantess:1.2), , from above, earth \\(planet\\), holding, outdoors, no humans, large breast, outstretched hand, reaching, looking down, black background, stars, masterwork, masterpiece, best quality, , dynamic pose,,  dynamic angle, , , (realistic:1.2), (lineless:1.2), detailed, <lora:Detailer_NoobAI_Incrs_v1:0.75>, , aged up, adult,  cheekbones, dynamic lighting",
+        "Refiner": "bemixwa11.fp16 [350aae7e41]",
+        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "295906106644",
+            "name": "CivChan",
+            "type": "lora",
+            "weight": 0.65
+          },
+          {
+            "hash": "9f242f949d7b",
+            "name": "Detailer_NoobAI_Incrs_v1",
+            "type": "lora",
+            "weight": 0.75
+          },
+          {
+            "hash": "0597f90762",
+            "name": "be-re085-mix",
+            "type": "model"
+          }
         ],
-        "comfy": "{\"prompt\": {\"10005\": {\"class_type\": \"UnetLoaderGGUF\", \"inputs\": {\"unet_name\": \"EMS-1085410-EMS.gguf\"}, \"_properties\": null}, \"10019\": {\"class_type\": \"CLIPLoader\", \"inputs\": {\"clip_name\": \"t5xxl_fp8_e4m3fn.safetensors\", \"device\": \"default\", \"type\": \"chroma\"}, \"_properties\": null}, \"10021\": {\"class_type\": \"T5TokenizerOptions\", \"inputs\": {\"clip\": [\"10019\", 0], \"min_length\": 3, \"min_padding\": 0}, \"_properties\": null}, \"10022\": {\"class_type\": \"LoraTagLoader\", \"inputs\": {\"clip\": [\"10021\", 0], \"model\": [\"10005\", 0], \"text\": \"ECHO_EMPTY\"}, \"_properties\": null}, \"10023\": {\"class_type\": \"VAELoader\", \"inputs\": {\"vae_name\": \"ae.sft\"}, \"_properties\": null}, \"10038\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10022\", 1], \"text\": \"Closeup body, A hyper-stylistic,, extremely detailed image is a breathtaking painting created from a combination of smeared black and gold metallic colors. The silhouette of a young  woman is captured in streaks as if they were moving rapidly in the same direction. The black paint is applied in bold, dynamic strokes, creating a sense of energy and movement that contrasts beautifully with the gold accents. Gold paint is used to highlight the female silhouette, adding a sense of depth and dimension to the image. The overall effect is an exciting, surreal dynamism, as if the viewer has captured a fleeting moment in time. Every detail of the image is meticulously detailed, from the subtle, swirling patterns of the gold paint to the complex, textural patterns of the black paint. The contrasts between light and dark, color and texture create a sense of tension and energy that draws the viewer in, inviting them to explore the kinetic world of the painting. the highest quality, intricate detail, visually stunning, masterpiece, black and gold street backdrop\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10039\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10022\", 1], \"text\": \"neck,(worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, (Integration of fingers and fingers, melting fingers), signature, watermarks, ugly, imperfect eyes, error, extra limb, missing limbs, painting by , 3d art\\n\\nembedding:bad-artist\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10064\": {\"class_type\": \"EmptySD3LatentImage\", \"inputs\": {\"batch_size\": 2, \"height\": 1344, \"width\": 768}, \"_properties\": null}, \"11002\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 3.5, \"denoise\": 1, \"ensd\": 31337, \"latent_image\": [\"10064\", 0], \"model\": [\"10022\", 0], \"negative\": [\"10039\", 0], \"positive\": [\"10038\", 0], \"sampler_name\": \"dpmpp_2m\", \"scheduler\": \"sgm_uniform\", \"seed\": 3971715163, \"seed_mode\": \"A1111\", \"steps\": 25}, \"_properties\": null}, \"11021\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"11002\", 0], \"vae\": [\"10023\", 0]}, \"_properties\": null}, \"12005\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"903908994664570572\", \"images\": [\"11021\", 0]}, \"_properties\": null}}, \"workflow\": undefined}",
-        "steps": 25,
-        "width": 768,
-        "height": 1344,
-        "prompt": "Closeup body, A hyper-stylistic,, extremely detailed image is a breathtaking painting created from a combination of smeared black and gold metallic colors. The silhouette of a young  woman is captured in streaks as if they were moving rapidly in the same direction. The black paint is applied in bold, dynamic strokes, creating a sense of energy and movement that contrasts beautifully with the gold accents. Gold paint is used to highlight the female silhouette, adding a sense of depth and dimension to the image. The overall effect is an exciting, surreal dynamism, as if the viewer has captured a fleeting moment in time. Every detail of the image is meticulously detailed, from the subtle, swirling patterns of the gold paint to the complex, textural patterns of the black paint. The contrasts between light and dark, color and texture create a sense of tension and energy that draws the viewer in, inviting them to explore the kinetic world of the painting. the highest quality, intricate detail, visually stunning, masterpiece, black and gold street backdrop",
-        "denoise": 1,
-        "sampler": "DPM++ 2M",
-        "cfgScale": 3.5,
-        "scheduler": "sgm_uniform",
-        "negativePrompt": "neck,(worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, (Integration of fingers and fingers, melting fingers), signature, watermarks, ugly, imperfect eyes, error, extra limb, missing limbs, painting by , 3d art\n\nembedding:bad-artist"
+        "Model hash": "0597f90762",
+        "Hires steps": "30",
+        "ADetailer VAE": "sdxl_vae.safetensors",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "None",
+        "negativePrompt": ", , , , spacecraft, nude, (cleavage:1.5),  clothing cutout, frown, selfie, hand up,, blurry, lowres, worst quality, low quality, bad anatomy, bad hands,  jpeg artifacts, signature, watermark, text, logo, artist name, censored, patreon username, (anime:1.2), loli, (big_mouth:0.5), wide_lips",
+        "ADetailer model": "Anzhc Face seg 640 v2 y8n.pt",
+        "ADetailer steps": "20",
+        "Hires CFG Scale": "7",
+        "ADetailer sampler": "DPM++ 2M",
+        "ADetailer version": "24.11.1",
+        "Refiner switch at": "0.8",
+        "Denoising strength": "0.3",
+        "ADetailer mask blur": "4",
+        "ADetailer scheduler": "Automatic",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer use separate VAE": "True",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer use separate steps": "True",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer use separate sampler": "True"
       },
-      "username": "Sheat13",
-      "baseModel": "Other",
-      "modelVersionIds": []
+      "username": "phinjo",
+      "baseModel": null,
+      "modelVersionIds": [
+        1191626,
+        1597055
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "564|1754494871753",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=564%7C1754494871753"
+    "nextCursor": "565|1754494871753",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=565%7C1754494871753"
   }
 }
