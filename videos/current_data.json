@@ -1,96 +1,50 @@
 {
   "items": [
     {
-      "id": 67261073,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2b129ab4-d169-45e9-b1c9-9a15362dabbf/original=true/2b129ab4-d169-45e9-b1c9-9a15362dabbf.jpeg",
-      "hash": "U5B{[-:+4T-p_O0#L3^51$544-ys3o.AHq%2",
-      "width": 1152,
-      "height": 1680,
+      "id": 74689329,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2dec1922-96df-4606-b5db-2c56d48bc18b/original=true/2dec1922-96df-4606-b5db-2c56d48bc18b.jpeg",
+      "hash": "UB4V*ccIXAjdXrcHk7i]RwkZohahTUb{kYjD",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T13:00:00.000Z",
-      "postId": 14958594,
+      "createdAt": "2025-05-07T02:29:31.657Z",
+      "postId": 16585076,
       "stats": {
-        "cryCount": 382,
-        "laughCount": 725,
-        "likeCount": 4543,
+        "cryCount": 424,
+        "laughCount": 653,
+        "likeCount": 4743,
         "dislikeCount": 0,
-        "heartCount": 1838,
-        "commentCount": 5
+        "heartCount": 1666,
+        "commentCount": 1
       },
       "meta": {
-        "Size": "768x1120",
-        "seed": 1977549975,
-        "Model": "be-re085-mix",
-        "steps": 30,
-        "hashes": {
-          "model": "0597f90762",
-          "lora:CivChan": "295906106644",
-          "lora:Detailer_NoobAI_Incrs_v1": "9f242f949d7b"
-        },
-        "prompt": "<lora:CivChan:0.65> civchan, , hair between eyes, \n1girl, breasts, maid headdress, light, pink hair, , , (purple eyes), , black ribbon, , frills, ribbon,  hair between eyes, medium hair, , heart-shaped pupils, dark, shade, solo, yandere, reaching, glitter hair, sparkle, grin, teeth, yandere, black dress\npink galaxy hair, long hair, galaxy eyes, galaxy skin , , indoors, ,, covered in stars, in space, ,, , 1girl, stars, , , in space, , , (solo, giant, giantess:1.2), , from above, earth \\(planet\\), holding, outdoors, no humans, large breast, outstretched hand, reaching, looking down, black background, stars, masterwork, masterpiece, best quality, , dynamic pose,,  dynamic angle, , , (realistic:1.2), (lineless:1.2), detailed, <lora:Detailer_NoobAI_Incrs_v1:0.75>, , aged up, adult,  cheekbones, dynamic lighting",
-        "Refiner": "bemixwa11.fp16 [350aae7e41]",
-        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "clipSkip": 2,
-        "resources": [
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "Create a futuristic cityscape where nature and technology coexist harmoniously. The skyline should be dotted with towering, bioluminescent trees and sleek, glass-like skyscrapers. The streets glow with digital neon lights, and flying cars zip through the air, leaving trails of light. In the foreground, a figure stands, gazing at the horizon, with a holographic interface in hand, interacting with the environment. Use vibrant colors and bold contrasts to bring this utopian world to life.",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
+        "civitaiResources": [
           {
-            "hash": "295906106644",
-            "name": "CivChan",
-            "type": "lora",
-            "weight": 0.65
-          },
-          {
-            "hash": "9f242f949d7b",
-            "name": "Detailer_NoobAI_Incrs_v1",
-            "type": "lora",
-            "weight": 0.75
-          },
-          {
-            "hash": "0597f90762",
-            "name": "be-re085-mix",
-            "type": "model"
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
           }
-        ],
-        "Model hash": "0597f90762",
-        "Hires steps": "30",
-        "ADetailer VAE": "sdxl_vae.safetensors",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "None",
-        "negativePrompt": ", , , , spacecraft, nude, (cleavage:1.5),  clothing cutout, frown, selfie, hand up,, blurry, lowres, worst quality, low quality, bad anatomy, bad hands,  jpeg artifacts, signature, watermark, text, logo, artist name, censored, patreon username, (anime:1.2), loli, (big_mouth:0.5), wide_lips",
-        "ADetailer model": "Anzhc Face seg 640 v2 y8n.pt",
-        "ADetailer steps": "20",
-        "Hires CFG Scale": "7",
-        "ADetailer sampler": "DPM++ 2M",
-        "ADetailer version": "24.11.1",
-        "Refiner switch at": "0.8",
-        "Denoising strength": "0.3",
-        "ADetailer mask blur": "4",
-        "ADetailer scheduler": "Automatic",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer use separate VAE": "True",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer use separate steps": "True",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer use separate sampler": "True"
+        ]
       },
-      "username": "phinjo",
-      "baseModel": null,
+      "username": "mommymia",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        1191626,
-        1597055
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "566|1746584971657",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=566%7C1746584971657"
+    "nextCursor": "567|1744995290921",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=567%7C1744995290921"
   }
 }
