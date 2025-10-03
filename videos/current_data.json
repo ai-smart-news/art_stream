@@ -1,33 +1,69 @@
 {
   "items": [
     {
-      "id": 56181565,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbdef5d2-d068-4357-9b3d-119e65a398fb/original=true/dbdef5d2-d068-4357-9b3d-119e65a398fb.jpeg",
-      "hash": "USMaOx-;t7%2~qt7j[oft7j[M{WBxuofWUWV",
-      "width": 2160,
-      "height": 3840,
+      "id": 43357087,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e8b85964-3acb-4a23-9aa2-dd53b2b1bb30/original=true/e8b85964-3acb-4a23-9aa2-dd53b2b1bb30.jpeg",
+      "hash": "UJK_I9~qIU_3~qt7j[juRjRjWBM{IUWBj[ay",
+      "width": 1456,
+      "height": 2128,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-06T14:35:10.830Z",
-      "postId": 12582629,
+      "createdAt": "2024-12-02T23:15:00.000Z",
+      "postId": 9858460,
       "stats": {
-        "cryCount": 326,
-        "laughCount": 566,
-        "likeCount": 4923,
+        "cryCount": 324,
+        "laughCount": 540,
+        "likeCount": 4959,
         "dislikeCount": 0,
-        "heartCount": 1662,
-        "commentCount": 3
+        "heartCount": 1651,
+        "commentCount": 8
       },
-      "meta": null,
-      "username": "AstrokX",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "RNG": "NV",
+        "Size": "832x1216",
+        "seed": 1310583849,
+        "Model": "PaSanctuary_v4",
+        "steps": 30,
+        "hashes": {
+          "model": "42e4e4a08a"
+        },
+        "prompt": "masterpiece, best quality, newest, absurdres, highres, 1girl, whiteboard \\(medium\\), marker \\(medium\\), photo \\(medium\\), traditional media, monochrome, sketch, whiteboard, shirakami fubuki, fox shadow puppet, fox tail, korean text, hand on own hip, greyscale, upper body, wide shot, classroom, coffee mug, table,",
+        "Version": "f2.0.1v1.10.1-previous-584-g9a698e26",
+        "sampler": "Euler a",
+        "Emphasis": "No norm",
+        "Module 1": "sdxl_vae",
+        "cfgScale": 6,
+        "resources": [
+          {
+            "hash": "42e4e4a08a",
+            "name": "PaSanctuary_v4",
+            "type": "model"
+          }
+        ],
+        "Model hash": "42e4e4a08a",
+        "Hires steps": "10",
+        "Hires upscale": "1.75",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x-AnimeSharp",
+        "Variation seed": "40110390",
+        "negativePrompt": "worst quality, old, early, low quality, lowres, bad hands, mutated hands,",
+        "Hires CFG Scale": "6",
+        "Denoising strength": "0.4",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "Variation seed strength": "0.01"
+      },
+      "username": "FallenIncursio",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1123094
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "572|1733181300000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=572%7C1733181300000"
+    "nextCursor": "573|1749801699515",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=573%7C1749801699515"
   }
 }
