@@ -1,50 +1,70 @@
 {
   "items": [
     {
-      "id": 74689329,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2dec1922-96df-4606-b5db-2c56d48bc18b/original=true/2dec1922-96df-4606-b5db-2c56d48bc18b.jpeg",
-      "hash": "UB4V*ccIXAjdXrcHk7i]RwkZohahTUb{kYjD",
-      "width": 1024,
-      "height": 1536,
+      "id": 70860635,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a48d3edd-9692-4bef-ba4e-93786882a6d7/original=true/a48d3edd-9692-4bef-ba4e-93786882a6d7.jpeg",
+      "hash": "U7D8j^%f7M#+0MjF$$kBO@~B,.9}^iIpNdox",
+      "width": 1576,
+      "height": 2024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-07T02:29:31.657Z",
-      "postId": 16585076,
+      "createdAt": "2025-04-18T16:54:50.921Z",
+      "postId": 15739965,
       "stats": {
-        "cryCount": 424,
-        "laughCount": 653,
-        "likeCount": 4743,
+        "cryCount": 512,
+        "laughCount": 599,
+        "likeCount": 4597,
         "dislikeCount": 0,
-        "heartCount": 1666,
-        "commentCount": 1
+        "heartCount": 1776,
+        "commentCount": 18
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "Create a futuristic cityscape where nature and technology coexist harmoniously. The skyline should be dotted with towering, bioluminescent trees and sleek, glass-like skyscrapers. The streets glow with digital neon lights, and flying cars zip through the air, leaving trails of light. In the foreground, a figure stands, gazing at the horizon, with a holographic interface in hand, interacting with the environment. Use vibrant colors and bold contrasts to bring this utopian world to life.",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
+        "VAE": "FLUX1\\flux-vae-bf16.safetensors",
+        "seed": 8206077063646,
+        "Model": "flux_dev.safetensors",
+        "steps": 80,
+        "hashes": {
+          "vae": "0c0c8ac498",
+          "model": "2eda627c8a",
+          "lora:Surreal_Photo": "87565291e7",
+          "lora:FluxDFaeTasticDetails": "4259dc3287"
+        },
+        "prompt": "Illustrate a surrealist, macro-level close-up of a human eye with a perfectly formed honeycomb pattern fused into the iris, where the hexagonal cells appear to extend inward like a tunnel of light and order, each chamber subtly pulsing with golden illumination. The pupil rests at the center of this hive tunnel, a dark portal surrounded by symmetry and structure, suggesting a balance between organic instinct and intelligent design. The skin surrounding the eye is covered in a biomimetic mesh resembling beehive architecture\u2014hexagonal tessellations that stretch like scales across the lid, brow, and upper cheek, blending seamlessly with natural skin tones. A single honeybee lands delicately on the lower eyelid, its tiny wings catching the ambient light, its fine legs gently touching the boundary between the hive eye and human skin as though delivering a secret. The bee is captured in perfect anatomical realism, its eyes reflecting the honeycomb pattern it seems drawn to. The eyelashes curve like antennae, slightly iridescent at the tips, creating a unified aesthetic between insect and human. Lighting should be dramatic but intimate\u2014highlights glinting off the wet iris surface, shadows forming between the skin\u2019s honeycomb ridges, and a subtle lens flare in the reflection of the bee\u2019s eye. The concept should convey the union of nature and consciousness, where the eye becomes the central organ of the hive\u2014a visual metaphor for collective intelligence, ecological awareness, and the quiet, powerful intelligence of pollinators in a shared biosphere. Let the entire composition radiate reverence for the elegance of bees, the miracle of vision, and the hidden geometries of nature woven into the human form.                                       <lora:Surreal_Photo:0.6000000000000001> <lora:FluxDFaeTasticDetails:0.4000000000000001>",
+        "sampler": "DPM++ 2M_beta",
+        "resources": [
           {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
+            "hash": "87565291e7",
+            "name": "Surreal_Photo",
+            "type": "lora",
+            "weight": 0.6000000000000001
+          },
+          {
+            "hash": "4259dc3287",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora",
+            "weight": 0.4000000000000001
+          },
+          {
+            "hash": "2eda627c8a",
+            "name": "flux_dev.safetensors",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "2eda627c8a"
       },
-      "username": "mommymia",
-      "baseModel": "OpenAI",
+      "username": "amre92YH",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        691639,
+        720252,
+        762800
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "567|1744995290921",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=567%7C1744995290921"
+    "nextCursor": "568|1758706200000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=568%7C1758706200000"
   }
 }
