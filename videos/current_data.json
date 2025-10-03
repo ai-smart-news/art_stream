@@ -1,70 +1,57 @@
 {
   "items": [
     {
-      "id": 70860635,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a48d3edd-9692-4bef-ba4e-93786882a6d7/original=true/a48d3edd-9692-4bef-ba4e-93786882a6d7.jpeg",
-      "hash": "U7D8j^%f7M#+0MjF$$kBO@~B,.9}^iIpNdox",
-      "width": 1576,
-      "height": 2024,
+      "id": 102136890,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0a7ac65-eaa4-4f69-8ba3-d6c871f509fb/original=true/b0a7ac65-eaa4-4f69-8ba3-d6c871f509fb.jpeg",
+      "hash": "U7AuEls.0$;N}s=KNKAG9v=K-U5:0+J9^1sm",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-18T16:54:50.921Z",
-      "postId": 15739965,
+      "createdAt": "2025-09-24T09:30:00.000Z",
+      "postId": 22659121,
       "stats": {
-        "cryCount": 512,
-        "laughCount": 599,
-        "likeCount": 4597,
+        "cryCount": 411,
+        "laughCount": 558,
+        "likeCount": 4814,
         "dislikeCount": 0,
-        "heartCount": 1776,
-        "commentCount": 18
+        "heartCount": 1699,
+        "commentCount": 10
       },
       "meta": {
-        "VAE": "FLUX1\\flux-vae-bf16.safetensors",
-        "seed": 8206077063646,
-        "Model": "flux_dev.safetensors",
-        "steps": 80,
-        "hashes": {
-          "vae": "0c0c8ac498",
-          "model": "2eda627c8a",
-          "lora:Surreal_Photo": "87565291e7",
-          "lora:FluxDFaeTasticDetails": "4259dc3287"
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "A vibrant CGI image depicting a surreal, multicolored, ring-like structure floating above a city skyline at night. The ring, composed of concentric, glowing bands in red, orange, yellow, green, and blue, appears to be made of light and has a dark, central hole. Below, the cityscape with towering buildings and bright lights reflects on the water's surface, creating a dynamic, futuristic atmosphere. The sky is dark, enhancing the vividness of the glowing ring. The image combines elements of science fiction and fantasy, evoking a sense of otherworldly wonder.",
+        "process": "img2img",
+        "quality": "medium",
+        "quantity": 1,
+        "baseModel": "OpenAI",
+        "background": "opaque",
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/93819819900061513301719895060808666922.jpg?sig=CfDJ8J868rbHQQlNuTOL2qbAsuRc_e945Whv9UByyrVrJ8AZVWRZ_WXiSVqQeqP0cCobXKEpr5ZvjryblOB4Rm6bC20PccJTIBndA06bGsKE1_343WxuMfFbrHGjRKQ2LVxXO-3eNerZ85R9r6OJzHMkIfky1chOOsQX1xyFojfzu60OhuD9IKga1NW85_45ZpjO6oMXf0qcQ0VL3cpSiaLvUlbKtE6F47s2ACVHM5GoeApzCQtxv5HFr1CowuTHghsBFj77OE47QvjGwBSJKnBBDQmJmlwKSYQ9f5FwNAsZMhuiScD5H5svnYniYU-KpJPhLQ&exp=2026-09-24T08:08:53.8188911Z",
+          "width": 736,
+          "height": 1308
         },
-        "prompt": "Illustrate a surrealist, macro-level close-up of a human eye with a perfectly formed honeycomb pattern fused into the iris, where the hexagonal cells appear to extend inward like a tunnel of light and order, each chamber subtly pulsing with golden illumination. The pupil rests at the center of this hive tunnel, a dark portal surrounded by symmetry and structure, suggesting a balance between organic instinct and intelligent design. The skin surrounding the eye is covered in a biomimetic mesh resembling beehive architecture\u2014hexagonal tessellations that stretch like scales across the lid, brow, and upper cheek, blending seamlessly with natural skin tones. A single honeybee lands delicately on the lower eyelid, its tiny wings catching the ambient light, its fine legs gently touching the boundary between the hive eye and human skin as though delivering a secret. The bee is captured in perfect anatomical realism, its eyes reflecting the honeycomb pattern it seems drawn to. The eyelashes curve like antennae, slightly iridescent at the tips, creating a unified aesthetic between insect and human. Lighting should be dramatic but intimate\u2014highlights glinting off the wet iris surface, shadows forming between the skin\u2019s honeycomb ridges, and a subtle lens flare in the reflection of the bee\u2019s eye. The concept should convey the union of nature and consciousness, where the eye becomes the central organ of the hive\u2014a visual metaphor for collective intelligence, ecological awareness, and the quiet, powerful intelligence of pollinators in a shared biosphere. Let the entire composition radiate reverence for the elegance of bees, the miracle of vision, and the hidden geometries of nature woven into the human form.                                       <lora:Surreal_Photo:0.6000000000000001> <lora:FluxDFaeTasticDetails:0.4000000000000001>",
-        "sampler": "DPM++ 2M_beta",
-        "resources": [
+        "civitaiResources": [
           {
-            "hash": "87565291e7",
-            "name": "Surreal_Photo",
-            "type": "lora",
-            "weight": 0.6000000000000001
-          },
-          {
-            "hash": "4259dc3287",
-            "name": "FluxDFaeTasticDetails",
-            "type": "lora",
-            "weight": 0.4000000000000001
-          },
-          {
-            "hash": "2eda627c8a",
-            "name": "flux_dev.safetensors",
-            "type": "model"
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
           }
-        ],
-        "Model hash": "2eda627c8a"
+        ]
       },
-      "username": "amre92YH",
-      "baseModel": "Flux.1 D",
+      "username": "Cinnadust",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        691639,
-        720252,
-        762800
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "568|1758706200000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=568%7C1758706200000"
+    "nextCursor": "569|1752529784992",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=569%7C1752529784992"
   }
 }
