@@ -1,40 +1,35 @@
 {
   "items": [
     {
-      "id": 96659235,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/95f04f69-97d6-4187-a6f8-68ca99ebd945/original=true/95f04f69-97d6-4187-a6f8-68ca99ebd945.jpeg",
-      "hash": "U9C5xaAC}[NZ^RNFNZad1ywI0x$jEKR*m,xa",
-      "width": 3424,
-      "height": 6144,
+      "id": 36717109,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c71a037c-82c1-4c5e-b78c-35d2e1a886cb/original=true/c71a037c-82c1-4c5e-b78c-35d2e1a886cb.jpeg",
+      "hash": "U12$BTs:00NGE0ay%Mof0JR*~DxZ~Xof4-NH",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-27T11:04:41.454Z",
-      "postId": 21441019,
+      "createdAt": "2024-10-26T20:19:49.610Z",
+      "postId": 8386811,
       "stats": {
-        "cryCount": 489,
-        "laughCount": 596,
-        "likeCount": 4643,
+        "cryCount": 311,
+        "laughCount": 605,
+        "likeCount": 4719,
         "dislikeCount": 0,
-        "heartCount": 1713,
-        "commentCount": 4
+        "heartCount": 1801,
+        "commentCount": 15
       },
-      "meta": {
-        "seed": 1704518559,
-        "steps": 25,
-        "prompt": "Masterpiece, best quality, amazing quality, newest, very aesthetic, absurdres, (scenery:1.4), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, CRYOS2, XUER guangying, 748cmstyle, Gl9w.\n\n(kukka:1.1), (pigeon666:0.67), (remsrar:0.65), (yoneyama mai:0.74), (konya karasue:0.55), (ub1mo:0.34), (dino_(dinoartforame):0.9), (quasarcake:0.8), (wlop:0.4), (ebifurya:0.52), (mossacannibalis:0.56), (tianliang duohe fangdongye:0.8), (z-ton:0.5), (photorealistic:1.2), (illustration:1.3), high resolution, sharp focus, soft lighting, aged up, close-up, 1girl, long hair, white hair, lips, very long hair, robot joints, pink hair, breasts, armor, bodysuit, scarf, sword, katana, science fiction, android, cyborg, mechanical parts, sheath, single mechanical arm, mecha musume, robot, solo, floating, weapon, demon horns, mechanical arms, weapon on back, mechanical legs, headgear, head-mounted display, covered eyes, smile, sheathed, closed mouth, joints, mechanical horns, red scarf, translucent, close up, from above, dark background, glowing tattoos, patterns, light particles, (dutch angle:1.1), (depth of field:1.3), (medium\\), tesun \\(g noh\\).",
-        "sampler": "DPM++ 3M SDE",
-        "cfgScale": 4,
-        "negativePrompt": "lowres, (bad quality,worst quality:1.2), long neck, bad anatomy,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross, loli, nsfw, nudity,"
-      },
-      "username": "Yoruuu",
-      "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "meta": null,
+      "username": "_degenerativeai_",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        992642
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "587|1729973989610",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=587%7C1729973989610"
+    "nextCursor": "588|1755607271508",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=588%7C1755607271508"
   }
 }
