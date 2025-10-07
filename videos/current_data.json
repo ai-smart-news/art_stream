@@ -1,37 +1,72 @@
 {
   "items": [
     {
-      "id": 52632283,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d031671e-b25e-4acd-a429-910bd51831ff/original=true/d031671e-b25e-4acd-a429-910bd51831ff.jpeg",
-      "hash": "UVDSE@s.58NK}nof9|NH#mjYS1bIItoMxro0",
-      "width": 832,
-      "height": 1216,
+      "id": 13166175,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc4970b6-a501-4329-9e80-6391c479ef8a/original=true/dc4970b6-a501-4329-9e80-6391c479ef8a.jpeg",
+      "hash": "UPFrCK4=D*xZ~UIqE3xF?Z9wWWs,-SNKbbjF",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-21T19:01:00.000Z",
-      "postId": 11825232,
+      "createdAt": "2024-05-21T17:09:41.875Z",
+      "postId": 2911309,
       "stats": {
-        "cryCount": 280,
-        "laughCount": 472,
-        "likeCount": 4931,
+        "cryCount": 275,
+        "laughCount": 589,
+        "likeCount": 4669,
         "dislikeCount": 0,
-        "heartCount": 1688,
-        "commentCount": 8
+        "heartCount": 1837,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "DoreenAI",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "VAE": "sdxl_vae.safetensors",
+        "Size": "832x1216",
+        "seed": 3909117495,
+        "Model": "boltningRealistic_hyperD",
+        "steps": 10,
+        "hashes": {
+          "vae": "e852361da7",
+          "model": "d204f3d548",
+          "lora:MJ52": "000c96b6bd08"
+        },
+        "prompt": "Floating market on Venus at dawn, masterpiece, fantasy, digital art, highly detailed, overall detail, atmospheric lighting, Awash in a haze of light leaks reminiscent of film photography,  awesome background, highly detailed styling,  studio photo, intricate details, highly detailed, cinematic,  <lora:MJ52:0.6>,",
+        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+        "sampler": "Euler a",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "000c96b6bd08",
+            "name": "MJ52",
+            "type": "lora",
+            "weight": 0.6
+          },
+          {
+            "hash": "d204f3d548",
+            "name": "boltningRealistic_hyperD",
+            "type": "model"
+          }
+        ],
+        "Model hash": "d204f3d548",
+        "Hires steps": "10",
+        "Hires upscale": "1.5",
+        "Hires upscaler": "4x_NMKD-Siax_200k",
+        "Variation seed": "301753292",
+        "negativePrompt": "worst quality, low quality, low contrast, blurry, low quality, medium quality, (watermark:1.1), username, (signature:1.1), (text:1.1), bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, bad feet, extra fingers, mutated hands, poorly drawn hands, bad proportions, extra limbs, disfigured, bad anatomy, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, mutated hands, fused fingers, too many fingers, long neck, watermark,",
+        "Denoising strength": "0.4",
+        "Variation seed strength": "0.53"
+      },
+      "username": "Olejkee",
+      "baseModel": "SDXL Hyper",
       "modelVersionIds": [
-        793777,
-        803128,
-        978472
+        283697,
+        488645
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "607|1716311381875",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=607%7C1716311381875"
+    "nextCursor": "608|1737572700000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=608%7C1737572700000"
   }
 }
