@@ -1,35 +1,88 @@
 {
   "items": [
     {
-      "id": 36717109,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c71a037c-82c1-4c5e-b78c-35d2e1a886cb/original=true/c71a037c-82c1-4c5e-b78c-35d2e1a886cb.jpeg",
-      "hash": "U12$BTs:00NGE0ay%Mof0JR*~DxZ~Xof4-NH",
-      "width": 1664,
-      "height": 2432,
+      "id": 95217394,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10cfb287-f677-4042-9a80-ebc1dfdae741/original=true/10cfb287-f677-4042-9a80-ebc1dfdae741.jpeg",
+      "hash": "UACgDqSg2EWq1^,Y;hAq{zOCApwes:a|6Nsn",
+      "width": 1520,
+      "height": 1952,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-26T20:19:49.610Z",
-      "postId": 8386811,
+      "createdAt": "2025-08-19T12:41:11.508Z",
+      "postId": 21120626,
       "stats": {
-        "cryCount": 311,
-        "laughCount": 605,
-        "likeCount": 4719,
+        "cryCount": 374,
+        "laughCount": 587,
+        "likeCount": 4811,
         "dislikeCount": 0,
-        "heartCount": 1801,
-        "commentCount": 15
+        "heartCount": 1661,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "_degenerativeai_",
+      "meta": {
+        "RNG": "NV",
+        "Size": "896x1152",
+        "seed": 3539792830,
+        "Model": "flux_dev",
+        "steps": 20,
+        "hashes": {
+          "model": "2eda627c8a",
+          "lora:FluxMythV2": "4a0b058b56",
+          "lora:artisketchyfs-v02": "a60c37a9a6",
+          "lora:FluxDFaeTasticDetails": "4259dc3287",
+          "lora:Anime_Scenery_style_v.1": "cedf4497d7",
+          "lora:sxz-eldenring-aitoolkit-flux": "be8bcf4670"
+        },
+        "Version": "f2.0.1v1.10.1-previous-669-gdfdcbab6",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "t5xxl_fp16",
+        "Module 3": "clip_l",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "2eda627c8a",
+            "name": "flux_dev",
+            "type": "model"
+          }
+        ],
+        "Model hash": "2eda627c8a",
+        "Hires steps": "8",
+        "Hires prompt": {
+          "FluxMythV2": "0.5> mythp0rt",
+          "sxz-eldenring-aitoolkit-flux": "0.4> elden ring style"
+        },
+        "Hires upscale": "1.7",
+        "Schedule type": "Beta",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x_foolhardy_Remacri",
+        "Hires CFG Scale": "1",
+        "Beta schedule beta": "0.6",
+        "Denoising strength": "0.36",
+        "Beta schedule alpha": "0.6",
+        "Distilled CFG Scale": "3.5",
+        "Style Selector Style": "Surrealism",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "Hires negative prompt": {},
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "True",
+        "Hires Distilled CFG Scale": "5.5"
+      },
+      "username": "sunnytiersen",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        992642
+        691639,
+        720252,
+        737407,
+        840288,
+        967375,
+        1975873
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "588|1755607271508",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=588%7C1755607271508"
+    "nextCursor": "589|1738522860000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=589%7C1738522860000"
   }
 }
