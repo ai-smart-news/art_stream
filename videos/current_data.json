@@ -1,66 +1,52 @@
 {
   "items": [
     {
-      "id": 97626518,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9ca594fc-9f53-4fab-8f3f-62e73d6ff604/original=true/9ca594fc-9f53-4fab-8f3f-62e73d6ff604.jpeg",
-      "hash": "UBIFfNVx4px^_M-QROMy00t2~AE2%6NaH@-U",
-      "width": 1536,
-      "height": 2040,
+      "id": 94550904,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51db53d8-2002-4a9c-aa8a-44be2451fab4/original=true/51db53d8-2002-4a9c-aa8a-44be2451fab4.jpeg",
+      "hash": "U8CY2E0,1K};$#IpRkn$03$|-AIuI[-nt7xt",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-31T21:43:47.852Z",
-      "postId": 21660417,
+      "createdAt": "2025-08-16T19:15:00.000Z",
+      "postId": 20977020,
       "stats": {
-        "cryCount": 375,
-        "laughCount": 545,
-        "likeCount": 4566,
+        "cryCount": 352,
+        "laughCount": 910,
+        "likeCount": 4407,
         "dislikeCount": 0,
-        "heartCount": 1906,
-        "commentCount": 0
+        "heartCount": 1717,
+        "commentCount": 14
       },
       "meta": {
-        "Eta": "0.67",
-        "RNG": "NV",
-        "ENSD": "31337",
-        "Size": "1024x1360",
-        "seed": 1969228758,
-        "Model": "WAI-Nsfw-Illustrious-15",
-        "steps": 30,
-        "hashes": {
-          "model": "befc694a29"
-        },
-        "prompt": "1girl, hatsune miku, white pupils, power elements, microphone, vibrant blue color palette, abstract,abstract background, dreamlike atmosphere, delicate linework, wind-swept hair, energy\n,masterpiece,best quality,",
-        "Version": "v1.10.1-89-g2174ce5af",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "resources": [
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "Generate me a cute fluffy happy photorealistic poptart with a cat head and feet. The cat parts are orange. It's got a rainbow comet tail trailing it as it flies through space, it has a happy expression on its face. Fluffy, realistic, 8k, uhd, high quality, depth of field, side view",
+        "process": "txt2img",
+        "quality": "medium",
+        "quantity": 1,
+        "baseModel": "OpenAI",
+        "background": "opaque",
+        "civitaiResources": [
           {
-            "hash": "befc694a29",
-            "name": "WAI-Nsfw-Illustrious-15",
-            "type": "model"
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
           }
-        ],
-        "Model hash": "befc694a29",
-        "Hires steps": "20",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
-        "negativePrompt": "bad quality,worst quality,worst detail,",
-        "Denoising strength": "0.5",
-        "Discard penultimate sigma": "True"
+        ]
       },
-      "username": "WAI0731",
-      "baseModel": "Illustrious",
+      "username": "Eva4321",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        2167369
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "596|1755371700000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=596%7C1755371700000"
+    "nextCursor": "597|1759104600000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=597%7C1759104600000"
   }
 }
