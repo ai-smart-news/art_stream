@@ -1,61 +1,36 @@
 {
   "items": [
     {
-      "id": 67299290,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/edd9a02c-b939-4059-b6ea-3436317d3e5b/original=true/edd9a02c-b939-4059-b6ea-3436317d3e5b.jpeg",
-      "hash": "UAEK=c9}VV^40.-P0LspInIW~AX9NIxtRSW.",
-      "width": 1440,
-      "height": 2160,
+      "id": 55709299,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d52311e9-0f48-4e8c-911b-f3487af244b8/original=true/d52311e9-0f48-4e8c-911b-f3487af244b8.jpeg",
+      "hash": "UOG[J_-;Kh-.~px]O?xsLLtR,sR.L1xtv~IW",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T17:00:03.068Z",
-      "postId": 14966464,
+      "createdAt": "2025-02-04T05:26:56.343Z",
+      "postId": 12479484,
       "stats": {
-        "cryCount": 369,
-        "laughCount": 694,
-        "likeCount": 4564,
+        "cryCount": 277,
+        "laughCount": 620,
+        "likeCount": 4798,
         "dislikeCount": 0,
-        "heartCount": 1756,
-        "commentCount": 2
+        "heartCount": 1685,
+        "commentCount": 8
       },
-      "meta": {
-        "VAE": "ae.sft",
-        "seed": 98733643874016,
-        "Model": "AtomixFluxV1.safetensors",
-        "steps": 25,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "3bb92a09b2",
-          "lora:Techno_Digitalis": "debb173eca"
-        },
-        "prompt": "1girl,solo, CivChan, pink hair, purple eyes, maid uniform, cleavage,holding a fire extinguisher, flames erupting from the servers next to her,surrounded by flames.dark background, server room, servers with fire,from back,look back,panic face",
-        "sampler": "euler_simple",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "3bb92a09b2",
-            "name": "AtomixFluxV1.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "3bb92a09b2",
-        "Lora_0 Model hash": "debb173eca",
-        "Lora_0 Model name": "Techno_Digitalis.safetensors",
-        "Lora_0 Strength clip": "0.7",
-        "Lora_0 Strength model": "0.7"
-      },
-      "username": "AlexLai",
+      "meta": null,
+      "username": "HoisaanFei",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        980131,
-        1358337
+        691639,
+        1307118
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "599|1738646816343",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=599%7C1738646816343"
+    "nextCursor": "600|1742852885130",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=600%7C1742852885130"
   }
 }
