@@ -1,69 +1,40 @@
 {
   "items": [
     {
-      "id": 98020610,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de1bfa3b-ce7b-4454-a605-2106d90d5714/original=true/de1bfa3b-ce7b-4454-a605-2106d90d5714.jpeg",
-      "hash": "USC6.DM{?bxu~qWBxu%L-;axWBt7oft7M{of",
-      "width": 3328,
-      "height": 4864,
+      "id": 88065186,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5994e3a8-2044-4932-a1ec-3e01b0248143/original=true/5994e3a8-2044-4932-a1ec-3e01b0248143.jpeg",
+      "hash": "UoKn-*%2_3-=~qRjRPxt%1R*M{aztQkCayjY",
+      "width": 3424,
+      "height": 6144,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-02T23:30:00.000Z",
-      "postId": 21747461,
+      "createdAt": "2025-07-13T20:53:41.168Z",
+      "postId": 19536303,
       "stats": {
-        "cryCount": 360,
-        "laughCount": 569,
-        "likeCount": 4627,
+        "cryCount": 312,
+        "laughCount": 533,
+        "likeCount": 4792,
         "dislikeCount": 0,
-        "heartCount": 1820,
-        "commentCount": 7
+        "heartCount": 1739,
+        "commentCount": 15
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1841508181,
-        "steps": 30,
-        "prompt": "a dark, gothic fantasy style. The central figure is a humanoid bird character with a black, avian beak, and a dark, feathered face. The character is dressed in an elegant, Victorian-style black suit with a high-collared shirt and a black top hat adorned with a gold emblem. The suit is detailed with gold buttons and chains, adding a touch of opulence. The character's right hand is raised, holding a martini glass filled with a clear liquid, while their left hand rests on their hip. Perched on the character's left shoulder is a black crow, adding to the dark, mysterious atmosphere. The character's eyes are obscured by shadows, giving them an enigmatic appearance. The background is a soft, abstract blend of light grey and white, with subtle, wispy textures that contrast with the dark, detailed figure. The overall color palette is dominated by blacks and greys, with occasional gold accents. The painting's texture is smooth with subtle brush strokes, adding depth and realism to the character's feathers and clothing. The image conveys a sense of mystery, elegance, and dark fantasy.",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-09-02T2144:53.4872600Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 1202162
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 1227179
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 1698347
-          }
-        ]
+        "seed": 4092761545,
+        "steps": 40,
+        "prompt": "Masterpiece, best quality, amazing quality, newest, very aesthetic, scenery, 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, 4ur4_illu,shiny.\n\n1girl, solo, laurel crown, white hair, straight bangs, elf ears, mouth veil, oversized hoodie, Skirt, cybernetic, translucent cloak(flowing cloak:1.2), blue eyes, glowing eyes, intense gaze, looking at viewer, thighboots, prosthetic cyber leg, matrix halo, pixelate halo, floating weapon around body, sword, holding sword, intricate weapon design, geometric accents, stylish design, epic character design, dynamic pose(Close-Up), sitting, Plantar flexion, motion blur, light rays, dutch angle, depth of field, foreshortening, blurry edges, light_theme, colorful, matrix, bold, geometric, pixelate, white background, abrstact background, detailed background.",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "negativePrompt": "lowres, (bad quality,worst quality:1.2), bad anatomy,blurry,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross, nsfw, breast, Cleavage"
       },
-      "username": "VelvetS",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        1202162,
-        1227179,
-        1698347
-      ]
+      "username": "Yoruuu",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "602|1752440021168",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=602%7C1752440021168"
+    "nextCursor": "603|1750701133877",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=603%7C1750701133877"
   }
 }
