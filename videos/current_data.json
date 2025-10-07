@@ -1,52 +1,65 @@
 {
   "items": [
     {
-      "id": 94550904,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51db53d8-2002-4a9c-aa8a-44be2451fab4/original=true/51db53d8-2002-4a9c-aa8a-44be2451fab4.jpeg",
-      "hash": "U8CY2E0,1K};$#IpRkn$03$|-AIuI[-nt7xt",
-      "width": 1024,
-      "height": 1536,
+      "id": 103013632,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd8bb1d3-e5e6-47b2-8ee0-b55c4cfd0dde/original=true/fd8bb1d3-e5e6-47b2-8ee0-b55c4cfd0dde.jpeg",
+      "hash": "U91rpmiaUug4mPa#XSf+n3kXV?aJpye.VXgN",
+      "width": 2048,
+      "height": 3072,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-16T19:15:00.000Z",
-      "postId": 20977020,
+      "createdAt": "2025-09-29T00:10:00.000Z",
+      "postId": 22854532,
       "stats": {
-        "cryCount": 352,
-        "laughCount": 910,
-        "likeCount": 4407,
+        "cryCount": 339,
+        "laughCount": 571,
+        "likeCount": 4748,
         "dislikeCount": 0,
-        "heartCount": 1717,
-        "commentCount": 14
+        "heartCount": 1731,
+        "commentCount": 6
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "Generate me a cute fluffy happy photorealistic poptart with a cat head and feet. The cat parts are orange. It's got a rainbow comet tail trailing it as it flies through space, it has a happy expression on its face. Fluffy, realistic, 8k, uhd, high quality, depth of field, side view",
-        "process": "txt2img",
-        "quality": "medium",
-        "quantity": 1,
-        "baseModel": "OpenAI",
-        "background": "opaque",
+        "Size": "1024x1536",
+        "seed": 191424079440206,
+        "Model": "ramthrustsNSFWPINK_alchemyMix169",
+        "steps": 25,
+        "prompt": ",1girl, Masterpiece, amazing quality, catgirlstyle, colored lineart, solo, dynamic pose, vibrant colors, (cat ears:1.2), cinematic position, long hair, asia, chinese, dress, night, water, from side, bird, long sleeves, sky, black hair, building, standing, looking up, hair ornament, blue theme, whale, blue dress, animal, high contrast, backlighting, bokeh, volumetric lighting, cloud, looking afar, watercraft, blurry background, standing on one leg, scenery, glowing butterfly, light smile, horizon, flower, animal ears, cloudy sky, outstretched arm, barefoot, boat, sidelocks, moon, black eyes, closed mouth, chromatic aberration, blue flower, blurry, ocean, bug, outdoors, crescent moon, hair flower, best quality",
+        "Version": "ComfyUI",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "negativePrompt": "(bad quality:1.1),(worst quality:1.1),bad details, (bad hands:1.2), artist name, patreon username, signature, name, logo, cross, child, loli, aged down, realistic, blush stickers, female ejaculation",
         "civitaiResources": [
           {
             "type": "checkpoint",
+            "modelVersionId": 1892573
+          },
+          {
+            "type": "lora",
             "weight": 1,
-            "modelVersionId": 1733399
+            "modelVersionId": 2255398
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1570070
           }
         ]
       },
-      "username": "Eva4321",
-      "baseModel": "OpenAI",
+      "username": "IRLCatGirl",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1733399
+        1570070,
+        1892573,
+        2255398
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "597|1759104600000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=597%7C1759104600000"
+    "nextCursor": "598|1743526803068",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=598%7C1743526803068"
   }
 }
