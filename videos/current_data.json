@@ -1,73 +1,68 @@
 {
   "items": [
     {
-      "id": 53262191,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/227d27d0-230b-4674-8a72-5e6f3a1d52d4/original=true/227d27d0-230b-4674-8a72-5e6f3a1d52d4.jpeg",
-      "hash": "U6D]x7^h6PcsSWtk9EnM2?9s+u$L*H%K={o}",
-      "width": 832,
-      "height": 1472,
+      "id": 57643083,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0da3e181-3123-4281-a4af-32e7452c6517/original=true/0da3e181-3123-4281-a4af-32e7452c6517.jpeg",
+      "hash": "U8EM%p];-G00*J+}M}-pGF0JMJ%LLKEePUTc",
+      "width": 1080,
+      "height": 1576,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-22T19:05:00.000Z",
-      "postId": 11960115,
+      "createdAt": "2025-02-14T14:49:36.550Z",
+      "postId": 12901924,
       "stats": {
-        "cryCount": 298,
-        "laughCount": 733,
-        "likeCount": 4722,
+        "cryCount": 357,
+        "laughCount": 522,
+        "likeCount": 4876,
         "dislikeCount": 0,
-        "heartCount": 1615,
-        "commentCount": 5
+        "heartCount": 1607,
+        "commentCount": 1
       },
       "meta": {
-        "VAE": "ae.safetensors",
-        "Size": "832x1479",
-        "seed": 793251928825192,
-        "Model": "flux1-dev.safetensors",
-        "steps": 25,
+        "Size": "832x1216",
+        "seed": 2083853492,
+        "Model": "hassakuXLIllustrious_v13StyleA",
+        "steps": 30,
         "hashes": {
-          "vae": "afc8e28272",
-          "model": "4610115bb0",
-          "lora:FluxDFaeTasticDetails": "4259dc3287",
-          "lora:PinkieFluxProUltraFantasia": "f375cc3839",
-          "lora:aidmaImageUpgrader-FLUX-V0.2": "3879d63298"
+          "model": "163ac69059",
+          "lora:ck-nc-cyberpunk-IL-000011": "935e6755554c"
         },
-        "prompt": "pinkfluxproultrafantasia, aidmaimageupgrader\nA charming photographic illustration of an anthropomorphic Japanese robot goldfish, standing gracefully by the edge of a tranquil Zen garden lake. The goldfish has a vibrant metallic body adorned with intricate patterns and designs, blending traditional Japanese aesthetics with futuristic robotics. Its large, expressive eyes convey intelligence and curiosity, while delicate mechanical fins and a flowing tail add to its whimsical appearance. The background features a serene Zen garden, complete with carefully arranged stones, bonsai trees, and gently rippling water that reflects the peaceful surroundings. Soft sunlight filters through the trees, creating a warm and inviting atmosphere that emphasizes the harmony between nature and technology.",
-        "sampler": "euler_beta",
+        "prompt": "<lora:ck-nc-cyberpunk-IL-000011:1>, masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject, Wabi-sabi (woman:0.3) assassin with (cyborg face parts),cyborg cybernetic enhancements, looking at the viewer, wielding an (enormous sci-fi sword) with mechanical parts at the viewer, (action pose, action shot ), action camera effects, intricate detailed, epic quality, profile picture, mechanical, background is a cyborg lab she is trying to escape from. manga, in the style of cknc",
+        "Version": "f2.0.1v1.10.1-1.10.1",
+        "sampler": "Euler a",
+        "cfgScale": 5,
         "resources": [
           {
-            "hash": "4610115bb0",
-            "name": "flux1-dev.safetensors",
+            "hash": "935e6755554c",
+            "name": "ck-nc-cyberpunk-IL-000011",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "163ac69059",
+            "name": "hassakuXLIllustrious_v13StyleA",
             "type": "model"
           }
         ],
-        "Model hash": "4610115bb0",
-        "Lora_0 Model hash": "f375cc3839",
-        "Lora_0 Model name": "PinkieFluxProUltraFantasia.safetensors",
-        "Lora_1 Model hash": "3879d63298",
-        "Lora_1 Model name": "aidmaImageUpgrader-FLUX-V0.2.safetensors",
-        "Lora_2 Model hash": "4259dc3287",
-        "Lora_2 Model name": "FluxDFaeTasticDetails.safetensors",
-        "Lora_0 Strength clip": "1.0",
-        "Lora_1 Strength clip": "0.5",
-        "Lora_2 Strength clip": "0.6",
-        "Lora_0 Strength model": "1.0",
-        "Lora_1 Strength model": "0.5",
-        "Lora_2 Strength model": "0.6"
+        "Model hash": "163ac69059",
+        "Hires steps": "20",
+        "Hires upscale": "1.3",
+        "Schedule type": "Simple",
+        "Hires upscaler": "4x-AnimeSharp",
+        "negativePrompt": "score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry",
+        "Hires CFG Scale": "5",
+        "Denoising strength": "0.35",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
       },
-      "username": "Pinkielicious",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        863991,
-        720252,
-        691639,
-        1279996
-      ]
+      "username": "ChronoKnight",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "609|1739544576550",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=609%7C1739544576550"
+    "nextCursor": "610|1746263533459",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=610%7C1746263533459"
   }
 }
