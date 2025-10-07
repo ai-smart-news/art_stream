@@ -1,72 +1,73 @@
 {
   "items": [
     {
-      "id": 13166175,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc4970b6-a501-4329-9e80-6391c479ef8a/original=true/dc4970b6-a501-4329-9e80-6391c479ef8a.jpeg",
-      "hash": "UPFrCK4=D*xZ~UIqE3xF?Z9wWWs,-SNKbbjF",
-      "width": 1248,
-      "height": 1824,
+      "id": 53262191,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/227d27d0-230b-4674-8a72-5e6f3a1d52d4/original=true/227d27d0-230b-4674-8a72-5e6f3a1d52d4.jpeg",
+      "hash": "U6D]x7^h6PcsSWtk9EnM2?9s+u$L*H%K={o}",
+      "width": 832,
+      "height": 1472,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-21T17:09:41.875Z",
-      "postId": 2911309,
+      "createdAt": "2025-01-22T19:05:00.000Z",
+      "postId": 11960115,
       "stats": {
-        "cryCount": 275,
-        "laughCount": 589,
-        "likeCount": 4669,
+        "cryCount": 298,
+        "laughCount": 733,
+        "likeCount": 4722,
         "dislikeCount": 0,
-        "heartCount": 1837,
+        "heartCount": 1615,
         "commentCount": 5
       },
       "meta": {
-        "VAE": "sdxl_vae.safetensors",
-        "Size": "832x1216",
-        "seed": 3909117495,
-        "Model": "boltningRealistic_hyperD",
-        "steps": 10,
+        "VAE": "ae.safetensors",
+        "Size": "832x1479",
+        "seed": 793251928825192,
+        "Model": "flux1-dev.safetensors",
+        "steps": 25,
         "hashes": {
-          "vae": "e852361da7",
-          "model": "d204f3d548",
-          "lora:MJ52": "000c96b6bd08"
+          "vae": "afc8e28272",
+          "model": "4610115bb0",
+          "lora:FluxDFaeTasticDetails": "4259dc3287",
+          "lora:PinkieFluxProUltraFantasia": "f375cc3839",
+          "lora:aidmaImageUpgrader-FLUX-V0.2": "3879d63298"
         },
-        "prompt": "Floating market on Venus at dawn, masterpiece, fantasy, digital art, highly detailed, overall detail, atmospheric lighting, Awash in a haze of light leaks reminiscent of film photography,  awesome background, highly detailed styling,  studio photo, intricate details, highly detailed, cinematic,  <lora:MJ52:0.6>,",
-        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
-        "sampler": "Euler a",
-        "cfgScale": 1,
+        "prompt": "pinkfluxproultrafantasia, aidmaimageupgrader\nA charming photographic illustration of an anthropomorphic Japanese robot goldfish, standing gracefully by the edge of a tranquil Zen garden lake. The goldfish has a vibrant metallic body adorned with intricate patterns and designs, blending traditional Japanese aesthetics with futuristic robotics. Its large, expressive eyes convey intelligence and curiosity, while delicate mechanical fins and a flowing tail add to its whimsical appearance. The background features a serene Zen garden, complete with carefully arranged stones, bonsai trees, and gently rippling water that reflects the peaceful surroundings. Soft sunlight filters through the trees, creating a warm and inviting atmosphere that emphasizes the harmony between nature and technology.",
+        "sampler": "euler_beta",
         "resources": [
           {
-            "hash": "000c96b6bd08",
-            "name": "MJ52",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "d204f3d548",
-            "name": "boltningRealistic_hyperD",
+            "hash": "4610115bb0",
+            "name": "flux1-dev.safetensors",
             "type": "model"
           }
         ],
-        "Model hash": "d204f3d548",
-        "Hires steps": "10",
-        "Hires upscale": "1.5",
-        "Hires upscaler": "4x_NMKD-Siax_200k",
-        "Variation seed": "301753292",
-        "negativePrompt": "worst quality, low quality, low contrast, blurry, low quality, medium quality, (watermark:1.1), username, (signature:1.1), (text:1.1), bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, bad feet, extra fingers, mutated hands, poorly drawn hands, bad proportions, extra limbs, disfigured, bad anatomy, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, mutated hands, fused fingers, too many fingers, long neck, watermark,",
-        "Denoising strength": "0.4",
-        "Variation seed strength": "0.53"
+        "Model hash": "4610115bb0",
+        "Lora_0 Model hash": "f375cc3839",
+        "Lora_0 Model name": "PinkieFluxProUltraFantasia.safetensors",
+        "Lora_1 Model hash": "3879d63298",
+        "Lora_1 Model name": "aidmaImageUpgrader-FLUX-V0.2.safetensors",
+        "Lora_2 Model hash": "4259dc3287",
+        "Lora_2 Model name": "FluxDFaeTasticDetails.safetensors",
+        "Lora_0 Strength clip": "1.0",
+        "Lora_1 Strength clip": "0.5",
+        "Lora_2 Strength clip": "0.6",
+        "Lora_0 Strength model": "1.0",
+        "Lora_1 Strength model": "0.5",
+        "Lora_2 Strength model": "0.6"
       },
-      "username": "Olejkee",
-      "baseModel": "SDXL Hyper",
+      "username": "Pinkielicious",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        283697,
-        488645
+        863991,
+        720252,
+        691639,
+        1279996
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "608|1737572700000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=608%7C1737572700000"
+    "nextCursor": "609|1739544576550",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=609%7C1739544576550"
   }
 }
