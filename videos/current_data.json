@@ -1,52 +1,53 @@
 {
   "items": [
     {
-      "id": 37227981,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f61497dd-6578-4e8f-b190-581023e9892a/original=true/f61497dd-6578-4e8f-b190-581023e9892a.jpeg",
-      "hash": "UE72:OH?I9%g*0H?aex]XkMdxvtl*0RjVstR",
+      "id": 84341031,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2f90967-02fa-4bd4-b537-5fa9696cf325/original=true/e2f90967-02fa-4bd4-b537-5fa9696cf325.jpeg",
+      "hash": "U41PCploY6Ubl:icUbaKQ8bbpwlUS~Z$pci_",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-29T16:04:22.346Z",
-      "postId": 8501561,
+      "createdAt": "2025-06-25T00:02:41.522Z",
+      "postId": 18722490,
       "stats": {
-        "cryCount": 331,
-        "laughCount": 572,
-        "likeCount": 4626,
+        "cryCount": 408,
+        "laughCount": 747,
+        "likeCount": 4469,
         "dislikeCount": 0,
-        "heartCount": 1873,
-        "commentCount": 16
+        "heartCount": 1773,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1802888331,
-        "steps": 4,
-        "prompt": "A hyper-stylized image of a cute Halloween ghost couple spending time together in an enchanted graveyard. One ghost, a charming, transparent figure with a sweet, smiling face, is offering the other ghost a pretty pink flower. The flower glows and sparkles with a magical, ethereal light, adding to the overall sense of whimsical, supernatural charm. The ghost being offered the flower is blushing, its transparent face glowing with a soft, pink hue. The air is filled with a spooky, romantic atmosphere, with a few wispy, ghostly strands of fog and mist adding to the overall sense of enchantment. The graveyard is a beautiful, moonlit landscape, with a few subtle, glowing tombstones and a full moon hanging low in the sky. The overall effect is one of eerie, whimsical romance, as if the ghosts are enjoying a magical, supernatural date. highest-Quality, intricate details, visually stunning, Masterpiece",
-        "sampler": "Undefined",
+        "seed": 0,
+        "vaes": [
+          "FLUX1\\ae.safetensors"
+        ],
+        "comfy": "{\"prompt\": {\"8\": {\"inputs\": {\"samples\": [\"100\", 0], \"vae\": [\"10\", 0]}, \"class_type\": \"VAEDecode\", \"_meta\": {\"title\": \"VAE Decode\"}}, \"10\": {\"inputs\": {\"vae_name\": \"FLUX1\\\\ae.safetensors\"}, \"class_type\": \"VAELoader\", \"_meta\": {\"title\": \"Load VAE\"}}, \"11\": {\"inputs\": {\"clip_name1\": \"t5xxl_fp16.safetensors\", \"clip_name2\": \"clip_l.safetensors\", \"type\": \"flux\", \"device\": \"default\"}, \"class_type\": \"DualCLIPLoader\", \"_meta\": {\"title\": \"DualCLIPLoader\"}}, \"12\": {\"inputs\": {\"unet_name\": \"fluxArtFusionNF4Fp8Fp16_v10Fp16.safetensors\", \"weight_dtype\": \"fp8_e5m2\"}, \"class_type\": \"UNETLoader\", \"_meta\": {\"title\": \"Load Diffusion Model\"}}, \"60\": {\"inputs\": {\"guidance\": 3.5, \"conditioning\": [\"108\", 0]}, \"class_type\": \"FluxGuidance\", \"_meta\": {\"title\": \"FluxGuidance\"}}, \"91\": {\"inputs\": {\"PowerLoraLoaderHeaderWidget\": {\"type\": \"PowerLoraLoaderHeaderWidget\"}, \"lora_1\": {\"on\": false, \"lora\": \"1-FLUX\\\\B_Kolekce Lora\\\\anime_lora_comfy_converted.safetensors\", \"strength\": 1}, \"lora_2\": {\"on\": false, \"lora\": \"1-FLUX\\\\AA_TEST\\\\Ancient _Robots.safetensors\", \"strength\": 1}, \"\\u2795 Add Lora\": \"\", \"model\": [\"12\", 0], \"clip\": [\"11\", 0]}, \"class_type\": \"Power Lora Loader (rgthree)\", \"_meta\": {\"title\": \"Power Lora Loader (rgthree)\"}}, \"94\": {\"inputs\": {\"output_path\": \"[time(%Y-%m-%d)]\", \"filename_prefix\": \"ComfyUI\", \"filename_delimiter\": \"_\", \"filename_number_padding\": 4, \"filename_number_start\": \"false\", \"img_extension\": \"png\", \"prompt_extension\": \"txt\", \"quality\": 100, \"overwrite_mode\": \"false\", \"show_history\": \"false\", \"show_history_by_prefix\": \"false\", \"embed_workflow\": \"false\", \"show_previews\": \"true\", \"save_prompt\": \"true\", \"images\": [\"8\", 0]}, \"class_type\": \"Save IMG Prompt\", \"_meta\": {\"title\": \"Save IMG Prompt\"}}, \"99\": {\"inputs\": {\"width\": 832, \"height\": 1216, \"batch_size\": 2}, \"class_type\": \"EmptyLatentImage\", \"_meta\": {\"title\": \"Empty Latent Image\"}}, \"100\": {\"inputs\": {\"seed\": 0, \"steps\": 20, \"cfg\": 1.0, \"sampler_name\": \"deis\", \"scheduler\": \"beta\", \"denoise\": 1.0, \"model\": [\"91\", 0], \"positive\": [\"107\", 0], \"negative\": [\"108\", 0], \"latent_image\": [\"99\", 0]}, \"class_type\": \"KSampler\", \"_meta\": {\"title\": \"KSampler\"}}, \"101\": {\"inputs\": {\"style1\": \"No Style\", \"style2\": \"No Style\", \"style3\": \"No Style\", \"style4\": \"No Style\"}, \"class_type\": \"Prompt Multiple Styles Selector\", \"_meta\": {\"title\": \"Prompt Multiple Styles Selector\"}}, \"105\": {\"inputs\": {\"positive\": \"anime, full body of slim sleek droid kneeling on the ground, his head in his hands, glowing glass helmet with blue green luminous circuits code, anntenas on the head, intricate futuristic details,matrix code background\"}, \"class_type\": \"easy positive\", \"_meta\": {\"title\": \"Positive\"}}, \"106\": {\"inputs\": {\"delimiter\": \"none\", \"text1\": [\"105\", 0], \"text2\": [\"101\", 0]}, \"class_type\": \"Text Concatenate (JPS)\", \"_meta\": {\"title\": \"Text Concatenate (JPS)\"}}, \"107\": {\"inputs\": {\"text\": [\"106\", 0], \"clip\": [\"91\", 1]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Prompt)\"}}, \"108\": {\"inputs\": {\"text\": [\"106\", 0], \"clip\": [\"91\", 1]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Prompt)\"}}, \"109\": {\"inputs\": {\"lora_name\": {\"content\": \"1-FLUX\\\\_TEST\\\\wicker-oval-basket.safetensors\", \"image\": null}, \"strength_model\": 1, \"strength_clip\": 1, \"example\": \"[none]\"}, \"class_type\": \"LoraLoader|pysssss\", \"_meta\": {\"title\": \"Lora Loader \\ud83d\\udc0d\"}}}, \"workflow\": undefined}",
+        "steps": 20,
+        "width": 832,
+        "height": 1216,
+        "models": [],
+        "prompt": "anime, full body of slim sleek droid kneeling on the ground, his head in his hands, helmet with blue green luminous circuits , anntenas on the head, intricate futuristic details, matrix code background",
+        "denoise": 1,
+        "sampler": "deis",
         "cfgScale": 1,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-10-29T1554:49.1625423Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 699279,
-            "modelVersionName": "Schnell"
-          }
-        ]
+        "modelIds": [],
+        "scheduler": "beta",
+        "upscalers": [],
+        "versionIds": [],
+        "controlNets": [],
+        "additionalResources": []
       },
-      "username": "Cinnadust",
+      "username": "Robotka",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        699279
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "594|1750809761522",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=594%7C1750809761522"
+    "nextCursor": "595|1756676627852",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=595%7C1756676627852"
   }
 }
