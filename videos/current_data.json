@@ -1,33 +1,69 @@
 {
   "items": [
     {
-      "id": 65635552,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75d4fb38-469f-4772-b5e0-04cdfe446d81/original=true/75d4fb38-469f-4772-b5e0-04cdfe446d81.jpeg",
-      "hash": "UE7n|3oftSj[.Tj]j[ofRPayRPj[IAayRiWB",
-      "width": 768,
-      "height": 1408,
+      "id": 98020610,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de1bfa3b-ce7b-4454-a605-2106d90d5714/original=true/de1bfa3b-ce7b-4454-a605-2106d90d5714.jpeg",
+      "hash": "USC6.DM{?bxu~qWBxu%L-;axWBt7oft7M{of",
+      "width": 3328,
+      "height": 4864,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-24T21:48:05.130Z",
-      "postId": 14615182,
+      "createdAt": "2025-09-02T23:30:00.000Z",
+      "postId": 21747461,
       "stats": {
-        "cryCount": 417,
-        "laughCount": 566,
-        "likeCount": 4699,
+        "cryCount": 360,
+        "laughCount": 569,
+        "likeCount": 4627,
         "dislikeCount": 0,
-        "heartCount": 1697,
-        "commentCount": 9
+        "heartCount": 1820,
+        "commentCount": 7
       },
-      "meta": null,
-      "username": "rMada",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1841508181,
+        "steps": 30,
+        "prompt": "a dark, gothic fantasy style. The central figure is a humanoid bird character with a black, avian beak, and a dark, feathered face. The character is dressed in an elegant, Victorian-style black suit with a high-collared shirt and a black top hat adorned with a gold emblem. The suit is detailed with gold buttons and chains, adding a touch of opulence. The character's right hand is raised, holding a martini glass filled with a clear liquid, while their left hand rests on their hip. Perched on the character's left shoulder is a black crow, adding to the dark, mysterious atmosphere. The character's eyes are obscured by shadows, giving them an enigmatic appearance. The background is a soft, abstract blend of light grey and white, with subtle, wispy textures that contrast with the dark, detailed figure. The overall color palette is dominated by blacks and greys, with occasional gold accents. The painting's texture is smooth with subtle brush strokes, adding depth and realism to the character's feathers and clothing. The image conveys a sense of mystery, elegance, and dark fantasy.",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-09-02T2144:53.4872600Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1202162
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1227179
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 1698347
+          }
+        ]
+      },
+      "username": "VelvetS",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        1202162,
+        1227179,
+        1698347
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "601|1756855800000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=601%7C1756855800000"
+    "nextCursor": "602|1752440021168",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=602%7C1752440021168"
   }
 }
