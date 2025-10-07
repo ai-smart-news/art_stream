@@ -1,98 +1,58 @@
 {
   "items": [
     {
-      "id": 46347899,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43e89e9b-766e-488d-93e0-9eee2a6974c4/original=true/43e89e9b-766e-488d-93e0-9eee2a6974c4.jpeg",
-      "hash": "UMGRL~^%WAe=~p-.xD$$MxxZR.niZgIpM~Vt",
-      "width": 2304,
-      "height": 3072,
+      "id": 49326876,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60322cd9-d9fe-43db-a403-e94b6b339bc5/original=true/60322cd9-d9fe-43db-a403-e94b6b339bc5.jpeg",
+      "hash": "UaS}f~xug5xZt:fSkDfRkYjXi_fPt7j=f$jr",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-19T06:40:25.094Z",
-      "postId": 10485724,
+      "createdAt": "2025-01-03T16:32:17.084Z",
+      "postId": 11114566,
       "stats": {
-        "cryCount": 271,
-        "laughCount": 611,
-        "likeCount": 4876,
+        "cryCount": 242,
+        "laughCount": 554,
+        "likeCount": 4718,
         "dislikeCount": 0,
-        "heartCount": 1654,
-        "commentCount": 10
+        "heartCount": 1893,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "768x1024",
-        "seed": 3032382900,
-        "Model": "commonxl_V10",
-        "steps": 40,
-        "hashes": {
-          "model": "a5f39a8fc7",
-          "lora:crystalClearXL_ccxl": "de565cd82172",
-          "lora:juggernautXL_version6Rundiffusion": "fb05fa8f9cb0"
-        },
-        "prompt": "comic (rabbit) is (running:1.05) to the viewer whilst Moulting,, (dynamic:1.1), sun rays,, (taken by 7.5mm fisheye lens:1.1) (looking to the right)\n=\nWith a rainbow nebula background elements . Epic dynamic lighting .(2. Serene Lakeside Sunset)\n=\n=\n((Vivid, HDR, Canon50, 8K,  Hyper Realistic, Dramatic, Epic, Dynamic Contrast, Cinematic Lighting)) (((Zoomed Out, Far away Shot)))\n= \n  <lora:juggernautXL_version6Rundiffusion:0.8>  <lora:crystalClearXL_ccxl:0.8>\n((Vivid, Epic, Dynamic contrast)) (((Zoomed out, Far away shot, In frame)), By art germ . graphic illustration, comic art, graphic novel art, vibrant, highly detailed",
-        "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 5,
-        "resources": [
+        "Size": "832x1216",
+        "seed": 792957824,
+        "steps": 28,
+        "prompt": "Cute chubby Pikachu in the grass with small white flowers,soft pastel anime",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-01-03T1618:57.0306725Z",
+        "civitaiResources": [
           {
-            "hash": "fb05fa8f9cb0",
-            "name": "juggernautXL_version6Rundiffusion",
-            "type": "lora",
-            "weight": 0.8
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
-            "hash": "de565cd82172",
-            "name": "crystalClearXL_ccxl",
             "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "a5f39a8fc7",
-            "name": "commonxl_V10",
-            "type": "model"
+            "weight": 1,
+            "modelVersionId": 1235855,
+            "modelVersionName": "v1.0"
           }
-        ],
-        "Model hash": "a5f39a8fc7",
-        "Hires steps": "42",
-        "Hires upscale": "3",
-        "Hires upscaler": "4xNMKDSuperscale_4xNMKDSuperscale",
-        "negativePrompt": "photograph, deformed, glitch, noisy, realistic, stock photo, (((Real, Realism, Real life, In a picture frame, framed picture, framed photo, photo frame, frame, framed)))\n(( worst quality, low quality, normal quality, low res, low details, oversaturated, undersaturated, overexposed, underexposed, deformed iris, deformed pupils, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, )) (((( signature, watermark, username))))",
-        "ADetailer model": "face_yolov8n.pt",
-        "Wildcard prompt": {
-          "(dynamic": "1.1)",
-          "crystalClearXL_ccxl": "0.8>\\n\\n\\n((Vivid",
-          "(taken by 7.5mm fisheye lens": "1.1) (looking to the right)\\n=\\nWith a rainbow nebula background elements . Epic dynamic lighting .(__scenery__)\\n=\\n\\n=\\n((Vivid",
-          "comic (__Animals__) is (running": "1.05) to the viewer whilst __actions__"
-        },
-        "ADetailer version": "24.3.1",
-        "Denoising strength": "0.45",
-        "ADetailer mask blur": "4",
-        "ADetailer model 2nd": "mediapipe_face_mesh",
-        "ADetailer confidence": "0.3",
-        "Style Selector Style": "Comic Book",
-        "ADetailer dilate erode": "4",
-        "Style Selector Enabled": "True",
-        "ADetailer mask blur 2nd": "4",
-        "ADetailer confidence 2nd": "0.3",
-        "Style Selector Randomize": "False",
-        "ADetailer inpaint padding": "32",
-        "ADetailer dilate erode 2nd": "4",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 2nd": "32",
-        "ADetailer denoising strength 2nd": "0.4",
-        "ADetailer inpaint only masked 2nd": "True"
+        ]
       },
-      "username": "CivitXII",
-      "baseModel": "SDXL 1.0",
+      "username": "Meower2024",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        220648
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "591|1735921937084",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=591%7C1735921937084"
+    "nextCursor": "592|1755069600000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=592%7C1755069600000"
   }
 }
