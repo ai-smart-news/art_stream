@@ -1,53 +1,66 @@
 {
   "items": [
     {
-      "id": 84341031,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2f90967-02fa-4bd4-b537-5fa9696cf325/original=true/e2f90967-02fa-4bd4-b537-5fa9696cf325.jpeg",
-      "hash": "U41PCploY6Ubl:icUbaKQ8bbpwlUS~Z$pci_",
-      "width": 832,
-      "height": 1216,
+      "id": 97626518,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9ca594fc-9f53-4fab-8f3f-62e73d6ff604/original=true/9ca594fc-9f53-4fab-8f3f-62e73d6ff604.jpeg",
+      "hash": "UBIFfNVx4px^_M-QROMy00t2~AE2%6NaH@-U",
+      "width": 1536,
+      "height": 2040,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-25T00:02:41.522Z",
-      "postId": 18722490,
+      "createdAt": "2025-08-31T21:43:47.852Z",
+      "postId": 21660417,
       "stats": {
-        "cryCount": 408,
-        "laughCount": 747,
-        "likeCount": 4469,
+        "cryCount": 375,
+        "laughCount": 545,
+        "likeCount": 4566,
         "dislikeCount": 0,
-        "heartCount": 1773,
-        "commentCount": 8
+        "heartCount": 1906,
+        "commentCount": 0
       },
       "meta": {
-        "seed": 0,
-        "vaes": [
-          "FLUX1\\ae.safetensors"
+        "Eta": "0.67",
+        "RNG": "NV",
+        "ENSD": "31337",
+        "Size": "1024x1360",
+        "seed": 1969228758,
+        "Model": "WAI-Nsfw-Illustrious-15",
+        "steps": 30,
+        "hashes": {
+          "model": "befc694a29"
+        },
+        "prompt": "1girl, hatsune miku, white pupils, power elements, microphone, vibrant blue color palette, abstract,abstract background, dreamlike atmosphere, delicate linework, wind-swept hair, energy\n,masterpiece,best quality,",
+        "Version": "v1.10.1-89-g2174ce5af",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "befc694a29",
+            "name": "WAI-Nsfw-Illustrious-15",
+            "type": "model"
+          }
         ],
-        "comfy": "{\"prompt\": {\"8\": {\"inputs\": {\"samples\": [\"100\", 0], \"vae\": [\"10\", 0]}, \"class_type\": \"VAEDecode\", \"_meta\": {\"title\": \"VAE Decode\"}}, \"10\": {\"inputs\": {\"vae_name\": \"FLUX1\\\\ae.safetensors\"}, \"class_type\": \"VAELoader\", \"_meta\": {\"title\": \"Load VAE\"}}, \"11\": {\"inputs\": {\"clip_name1\": \"t5xxl_fp16.safetensors\", \"clip_name2\": \"clip_l.safetensors\", \"type\": \"flux\", \"device\": \"default\"}, \"class_type\": \"DualCLIPLoader\", \"_meta\": {\"title\": \"DualCLIPLoader\"}}, \"12\": {\"inputs\": {\"unet_name\": \"fluxArtFusionNF4Fp8Fp16_v10Fp16.safetensors\", \"weight_dtype\": \"fp8_e5m2\"}, \"class_type\": \"UNETLoader\", \"_meta\": {\"title\": \"Load Diffusion Model\"}}, \"60\": {\"inputs\": {\"guidance\": 3.5, \"conditioning\": [\"108\", 0]}, \"class_type\": \"FluxGuidance\", \"_meta\": {\"title\": \"FluxGuidance\"}}, \"91\": {\"inputs\": {\"PowerLoraLoaderHeaderWidget\": {\"type\": \"PowerLoraLoaderHeaderWidget\"}, \"lora_1\": {\"on\": false, \"lora\": \"1-FLUX\\\\B_Kolekce Lora\\\\anime_lora_comfy_converted.safetensors\", \"strength\": 1}, \"lora_2\": {\"on\": false, \"lora\": \"1-FLUX\\\\AA_TEST\\\\Ancient _Robots.safetensors\", \"strength\": 1}, \"\\u2795 Add Lora\": \"\", \"model\": [\"12\", 0], \"clip\": [\"11\", 0]}, \"class_type\": \"Power Lora Loader (rgthree)\", \"_meta\": {\"title\": \"Power Lora Loader (rgthree)\"}}, \"94\": {\"inputs\": {\"output_path\": \"[time(%Y-%m-%d)]\", \"filename_prefix\": \"ComfyUI\", \"filename_delimiter\": \"_\", \"filename_number_padding\": 4, \"filename_number_start\": \"false\", \"img_extension\": \"png\", \"prompt_extension\": \"txt\", \"quality\": 100, \"overwrite_mode\": \"false\", \"show_history\": \"false\", \"show_history_by_prefix\": \"false\", \"embed_workflow\": \"false\", \"show_previews\": \"true\", \"save_prompt\": \"true\", \"images\": [\"8\", 0]}, \"class_type\": \"Save IMG Prompt\", \"_meta\": {\"title\": \"Save IMG Prompt\"}}, \"99\": {\"inputs\": {\"width\": 832, \"height\": 1216, \"batch_size\": 2}, \"class_type\": \"EmptyLatentImage\", \"_meta\": {\"title\": \"Empty Latent Image\"}}, \"100\": {\"inputs\": {\"seed\": 0, \"steps\": 20, \"cfg\": 1.0, \"sampler_name\": \"deis\", \"scheduler\": \"beta\", \"denoise\": 1.0, \"model\": [\"91\", 0], \"positive\": [\"107\", 0], \"negative\": [\"108\", 0], \"latent_image\": [\"99\", 0]}, \"class_type\": \"KSampler\", \"_meta\": {\"title\": \"KSampler\"}}, \"101\": {\"inputs\": {\"style1\": \"No Style\", \"style2\": \"No Style\", \"style3\": \"No Style\", \"style4\": \"No Style\"}, \"class_type\": \"Prompt Multiple Styles Selector\", \"_meta\": {\"title\": \"Prompt Multiple Styles Selector\"}}, \"105\": {\"inputs\": {\"positive\": \"anime, full body of slim sleek droid kneeling on the ground, his head in his hands, glowing glass helmet with blue green luminous circuits code, anntenas on the head, intricate futuristic details,matrix code background\"}, \"class_type\": \"easy positive\", \"_meta\": {\"title\": \"Positive\"}}, \"106\": {\"inputs\": {\"delimiter\": \"none\", \"text1\": [\"105\", 0], \"text2\": [\"101\", 0]}, \"class_type\": \"Text Concatenate (JPS)\", \"_meta\": {\"title\": \"Text Concatenate (JPS)\"}}, \"107\": {\"inputs\": {\"text\": [\"106\", 0], \"clip\": [\"91\", 1]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Prompt)\"}}, \"108\": {\"inputs\": {\"text\": [\"106\", 0], \"clip\": [\"91\", 1]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Prompt)\"}}, \"109\": {\"inputs\": {\"lora_name\": {\"content\": \"1-FLUX\\\\_TEST\\\\wicker-oval-basket.safetensors\", \"image\": null}, \"strength_model\": 1, \"strength_clip\": 1, \"example\": \"[none]\"}, \"class_type\": \"LoraLoader|pysssss\", \"_meta\": {\"title\": \"Lora Loader \\ud83d\\udc0d\"}}}, \"workflow\": undefined}",
-        "steps": 20,
-        "width": 832,
-        "height": 1216,
-        "models": [],
-        "prompt": "anime, full body of slim sleek droid kneeling on the ground, his head in his hands, helmet with blue green luminous circuits , anntenas on the head, intricate futuristic details, matrix code background",
-        "denoise": 1,
-        "sampler": "deis",
-        "cfgScale": 1,
-        "modelIds": [],
-        "scheduler": "beta",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "additionalResources": []
+        "Model hash": "befc694a29",
+        "Hires steps": "20",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+        "negativePrompt": "bad quality,worst quality,worst detail,",
+        "Denoising strength": "0.5",
+        "Discard penultimate sigma": "True"
       },
-      "username": "Robotka",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "username": "WAI0731",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        2167369
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "595|1756676627852",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=595%7C1756676627852"
+    "nextCursor": "596|1755371700000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=596%7C1755371700000"
   }
 }
