@@ -1,121 +1,37 @@
 {
   "items": [
     {
-      "id": 68937714,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a429b22c-539f-46aa-9ea0-b0ba28392529/original=true/a429b22c-539f-46aa-9ea0-b0ba28392529.jpeg",
-      "hash": "UUIYIQ-;~qxu-:V@Rkt7?bM{IUt7WVt7j[WA",
-      "width": 1280,
-      "height": 1856,
+      "id": 52632283,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d031671e-b25e-4acd-a429-910bd51831ff/original=true/d031671e-b25e-4acd-a429-910bd51831ff.jpeg",
+      "hash": "UVDSE@s.58NK}nof9|NH#mjYS1bIItoMxro0",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-09T23:02:00.000Z",
-      "postId": 15316530,
+      "createdAt": "2025-01-21T19:01:00.000Z",
+      "postId": 11825232,
       "stats": {
-        "cryCount": 377,
-        "laughCount": 616,
-        "likeCount": 4517,
+        "cryCount": 280,
+        "laughCount": 472,
+        "likeCount": 4931,
         "dislikeCount": 0,
-        "heartCount": 1861,
+        "heartCount": 1688,
         "commentCount": 8
       },
-      "meta": {
-        "nsfw": false,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:257749@290640",
-        "extra": {},
-        "steps": 15,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:257749@290640"
-        ],
-        "prompt": "(absurdres, highres, best quality, masterpiece:1.4), \nscore_9, score_8_up, score_7_up, score_6_up, \ndetailed, \ndetailed body, \ndetailed face, \n\n(culDraenei, \nfemale, \npurple eyes, \nno sclera, \nno pupils, \nathletic, \ntall, \nslim, \npale skin,\ngrey skin, \nlong ears),\n\nloose long blue dress,  \nyellow pendant, \nsleeveless, \n\ncheerful, \n(((full body))), \nposing, \n\n(((white background, plain background))), \n(((no objects in background)))",
-        "denoise": 0.4,
-        "sampler": "Euler a",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Pony",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/JNFZW24APD4W7BEM9WKP7DBKS0.jpeg",
-          "width": 832,
-          "height": 1216
-        },
-        "experimental": false,
-        "negativePrompt": "nude, text, anime, score_4, score_5, \n\nnipples, skin markings, \n\nhair behind eyes, blur, blurry face, broken shoulders,  tattoo, tattoos,  ",
-        "civitaiResources": [
-          {
-            "weight": 1,
-            "modelVersionId": 290640
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 290640
-          },
-          {
-            "weight": 4,
-            "modelVersionId": 712947
-          },
-          {
-            "weight": 0.75,
-            "modelVersionId": 1145217
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 290640
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          },
-          {
-            "type": "lora",
-            "weight": 4,
-            "modelVersionId": 712947
-          },
-          {
-            "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 1145217
-          }
-        ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:402462@712947",
-            "type": "lora",
-            "strength": 4,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:1021307@1145217",
-            "type": "lora",
-            "strength": 0.75,
-            "strengthClip": 1
-          }
-        ]
-      },
-      "username": "Vorfreude",
-      "baseModel": "Pony",
+      "meta": null,
+      "username": "DoreenAI",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        164821,
-        290640,
-        712947,
-        1145217
+        793777,
+        803128,
+        978472
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "606|1737486060000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=606%7C1737486060000"
+    "nextCursor": "607|1716311381875",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=607%7C1716311381875"
   }
 }
