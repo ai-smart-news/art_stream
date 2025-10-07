@@ -1,68 +1,37 @@
 {
   "items": [
     {
-      "id": 57643083,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0da3e181-3123-4281-a4af-32e7452c6517/original=true/0da3e181-3123-4281-a4af-32e7452c6517.jpeg",
-      "hash": "U8EM%p];-G00*J+}M}-pGF0JMJ%LLKEePUTc",
-      "width": 1080,
-      "height": 1576,
+      "id": 73892255,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34e53951-f96c-4381-9f26-244abd73a16b/original=true/34e53951-f96c-4381-9f26-244abd73a16b.jpeg",
+      "hash": "U8E,c{~S:j9x0.Dkv#pIofX7KO#+;KxEF|NH",
+      "width": 1920,
+      "height": 2816,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-14T14:49:36.550Z",
-      "postId": 12901924,
+      "createdAt": "2025-05-03T09:12:13.459Z",
+      "postId": 16410084,
       "stats": {
-        "cryCount": 357,
-        "laughCount": 522,
-        "likeCount": 4876,
+        "cryCount": 1051,
+        "laughCount": 1183,
+        "likeCount": 3461,
         "dislikeCount": 0,
-        "heartCount": 1607,
-        "commentCount": 1
+        "heartCount": 1666,
+        "commentCount": 0
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 2083853492,
-        "Model": "hassakuXLIllustrious_v13StyleA",
-        "steps": 30,
-        "hashes": {
-          "model": "163ac69059",
-          "lora:ck-nc-cyberpunk-IL-000011": "935e6755554c"
-        },
-        "prompt": "<lora:ck-nc-cyberpunk-IL-000011:1>, masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject, Wabi-sabi (woman:0.3) assassin with (cyborg face parts),cyborg cybernetic enhancements, looking at the viewer, wielding an (enormous sci-fi sword) with mechanical parts at the viewer, (action pose, action shot ), action camera effects, intricate detailed, epic quality, profile picture, mechanical, background is a cyborg lab she is trying to escape from. manga, in the style of cknc",
-        "Version": "f2.0.1v1.10.1-1.10.1",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "resources": [
-          {
-            "hash": "935e6755554c",
-            "name": "ck-nc-cyberpunk-IL-000011",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "163ac69059",
-            "name": "hassakuXLIllustrious_v13StyleA",
-            "type": "model"
-          }
-        ],
-        "Model hash": "163ac69059",
-        "Hires steps": "20",
-        "Hires upscale": "1.3",
-        "Schedule type": "Simple",
-        "Hires upscaler": "4x-AnimeSharp",
-        "negativePrompt": "score_6, score_5, score_4, bad quality, worst quality, worst detail, sketch, censorship, furry",
-        "Hires CFG Scale": "5",
-        "Denoising strength": "0.35",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
-      },
-      "username": "ChronoKnight",
-      "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "meta": null,
+      "username": "qazsedcAI",
+      "baseModel": "NoobAI",
+      "modelVersionIds": [
+        164821,
+        1319527,
+        1587228
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "610|1746263533459",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=610%7C1746263533459"
+    "nextCursor": "611|1759307399761",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=611%7C1759307399761"
   }
 }
