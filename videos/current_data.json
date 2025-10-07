@@ -1,58 +1,79 @@
 {
   "items": [
     {
-      "id": 49326876,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60322cd9-d9fe-43db-a403-e94b6b339bc5/original=true/60322cd9-d9fe-43db-a403-e94b6b339bc5.jpeg",
-      "hash": "UaS}f~xug5xZt:fSkDfRkYjXi_fPt7j=f$jr",
-      "width": 832,
-      "height": 1216,
+      "id": 93910263,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6dd4f7d-4bc2-42ce-a736-3c8a74bf808d/original=true/b6dd4f7d-4bc2-42ce-a736-3c8a74bf808d.jpeg",
+      "hash": "UHNk3.IBMwsF#$Si}vRQIUo#s;RjM#EdNFox",
+      "width": 1536,
+      "height": 2688,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-03T16:32:17.084Z",
-      "postId": 11114566,
+      "createdAt": "2025-08-13T07:20:00.000Z",
+      "postId": 20832906,
       "stats": {
-        "cryCount": 242,
-        "laughCount": 554,
-        "likeCount": 4718,
+        "cryCount": 481,
+        "laughCount": 615,
+        "likeCount": 4466,
         "dislikeCount": 0,
-        "heartCount": 1893,
-        "commentCount": 5
+        "heartCount": 1844,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 792957824,
-        "steps": 28,
-        "prompt": "Cute chubby Pikachu in the grass with small white flowers,soft pastel anime",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-01-03T1618:57.0306725Z",
-        "civitaiResources": [
+        "": {},
+        "Size": "768x1344",
+        "seed": 1355963426,
+        "Model": "furrytoonmix_xlIllustrious",
+        "model": {},
+        "steps": 30,
+        "Hashes": {
+          "{embed": "EasyNegative"
+        },
+        "hashes": {
+          "model": "9439791c88",
+          "lora:748cmSDXL": "A4F81EC6C80B",
+          "embed:EasyNegative": "46c7c468f1",
+          "embed:easynegative": "8bb393a7f1"
+        },
+        "prompt": "girl, solo, (hair: medium length pastel pink + straight with soft inward tips + side bangs framing face), (eyes: large grayish brown + calm neutral gaze), (expression: relaxed subtle pout), (pose: sitting on knees with body slightly angled forward), medium breast, (clothes: pastel pink cow-pattern onesie with purple spots + hood up with small black and brown cow horns + pink ears + yellow ear tags), (background: cozy feminine bedroom+ wooden furniture + soft fairy lights + patterned curtains + potted plants + warm ambient glow from bedside lamp), soft pastel palette, gentle shading, cozy and cute atmosphere, anime watercolor illustration style  <lora:748cmSDXL:1> 748cmstyle",
+        "Version": "f2.0.1v1.10.1-previous-626-ga332f7cc",
+        "sampler": "Euler a",
+        "Module 1": "andromedaXLILNAIVAE_v10",
+        "cfgScale": 4.5,
+        "Mask blur": "4",
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "hash": "A4F81EC6C80B",
+            "name": "748cmSDXL",
+            "type": "lora",
+            "weight": 1
           },
           {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1235855,
-            "modelVersionName": "v1.0"
+            "hash": "9439791c88",
+            "name": "furrytoonmix_xlIllustrious",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "9439791c88",
+        "Schedule type": "Automatic",
+        "lora:748cmSDXL": {},
+        "negativePrompt": "terrible quality, (bad anatomy:1.3), (bad hands:1.2), (bad legs:1.2), (ugly legs:1.2), bad eyes, (text:1.1), (furry:1.1), 3D, easynegative",
+        "Denoising strength": "0.2",
+        "SD upscale overlap": "64",
+        "embed:easynegative": {},
+        "SD upscale upscaler": "R-ESRGAN 4x+ Anime6B",
+        "{embed:EasyNegative": {}
       },
-      "username": "Meower2024",
-      "baseModel": "Flux.1 D",
+      "username": "KostyaGA",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639
+        1056404
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "592|1755069600000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=592%7C1755069600000"
+    "nextCursor": "593|1730217862346",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=593%7C1730217862346"
   }
 }
