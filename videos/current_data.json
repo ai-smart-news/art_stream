@@ -1,37 +1,79 @@
 {
   "items": [
     {
-      "id": 73892255,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34e53951-f96c-4381-9f26-244abd73a16b/original=true/34e53951-f96c-4381-9f26-244abd73a16b.jpeg",
-      "hash": "U8E,c{~S:j9x0.Dkv#pIofX7KO#+;KxEF|NH",
-      "width": 1920,
-      "height": 2816,
+      "id": 90217117,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afb4f06f-a07f-426d-a0b2-eedb944cb8e3/original=true/afb4f06f-a07f-426d-a0b2-eedb944cb8e3.jpeg",
+      "hash": "UJGjyb-T03Ip-pxF57EM~A%0D*IpJCjbnhn$",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-03T09:12:13.459Z",
-      "postId": 16410084,
+      "createdAt": "2025-07-24T17:34:00.000Z",
+      "postId": 20008363,
       "stats": {
-        "cryCount": 1051,
-        "laughCount": 1183,
-        "likeCount": 3461,
+        "cryCount": 364,
+        "laughCount": 585,
+        "likeCount": 4628,
         "dislikeCount": 0,
-        "heartCount": 1666,
-        "commentCount": 0
+        "heartCount": 1782,
+        "commentCount": 8
       },
-      "meta": null,
-      "username": "qazsedcAI",
-      "baseModel": "NoobAI",
+      "meta": {
+        "Size": "896x1152",
+        "seed": 202011993,
+        "Model": "flux1-dev",
+        "steps": 30,
+        "hashes": {
+          "model": "3f97fdc57a",
+          "lora:Anime Art V3_flux": "e5e8260b8293",
+          "lora:Clean_Minimalist_Flux": "211bb9df9752",
+          "lora:Illustration concept Variant 3A_FLUX": "8694412dba8c"
+        },
+        "prompt": "Miles into a canyon of shimmering sandstone, the explorer stands at the foot of a monumental staircase. But these steps are not made by hands \u00e2\u0080\u0093 each is a fossilized wave, a curve of time hardened into geometry. The stairs spiral skyward for kilometers, vanishing into golden clouds. With every step she climbs, the wind shifts direction, whispering in unknown dialects. Legends say the summit grants the memory of all things lost. The light changes here too, refracting like through stained glass, giving everything a dreamlike hue. As she begins to ascend, she\u00e2\u0080\u0099s already forgetting where she came from. \n<lora:Anime Art V3_flux:0.6>  <lora:Clean_Minimalist_Flux:0.3>  <lora:Illustration concept Variant 3A_FLUX:0.4>",
+        "Version": "f2.0.1v1.10.1-previous-661-g0b261213",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "211bb9df9752",
+            "name": "Clean_Minimalist_Flux",
+            "type": "lora",
+            "weight": 0.3
+          },
+          {
+            "hash": "e5e8260b8293",
+            "name": "Anime Art V3_flux",
+            "type": "lora"
+          },
+          {
+            "hash": "8694412dba8c",
+            "name": "Illustration concept Variant 3A_FLUX",
+            "type": "lora"
+          },
+          {
+            "hash": "3f97fdc57a",
+            "name": "flux1-dev",
+            "type": "model"
+          }
+        ],
+        "Model hash": "3f97fdc57a",
+        "Schedule type": "Simple",
+        "Distilled CFG Scale": "3.5"
+      },
+      "username": "misterX258",
+      "baseModel": null,
       "modelVersionIds": [
-        164821,
-        1319527,
-        1587228
+        1558303
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "612|1753378440000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=612%7C1753378440000"
+    "nextCursor": "613|1749141388999",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=613%7C1749141388999"
   }
 }
