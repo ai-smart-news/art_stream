@@ -1,35 +1,40 @@
 {
   "items": [
     {
-      "id": 74892588,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6b9ab904-26ab-4fb8-8ea9-afc00a80d2fe/original=true/6b9ab904-26ab-4fb8-8ea9-afc00a80d2fe.jpeg",
-      "hash": "UD9Qv,00~pDj-;IU%LNG4n?aD%x[IVxuM{t7",
-      "width": 1024,
-      "height": 1536,
+      "id": 99353057,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8869bda7-68c0-478e-8280-b222812968b1/original=true/8869bda7-68c0-478e-8280-b222812968b1.jpeg",
+      "hash": "UPIE35x[%ft7~pkV?GxaEKj?-VaKwcV@S#bv",
+      "width": 3328,
+      "height": 6144,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-08T01:19:45.974Z",
-      "postId": 16628539,
+      "createdAt": "2025-09-10T10:09:38.104Z",
+      "postId": 22045241,
       "stats": {
-        "cryCount": 338,
-        "laughCount": 607,
-        "likeCount": 4641,
+        "cryCount": 263,
+        "laughCount": 487,
+        "likeCount": 4811,
         "dislikeCount": 0,
-        "heartCount": 1682,
-        "commentCount": 4
+        "heartCount": 1694,
+        "commentCount": 3
       },
-      "meta": null,
-      "username": "Cosmic_Crafter",
-      "baseModel": "OpenAI",
-      "modelVersionIds": [
-        1733399
-      ]
+      "meta": {
+        "seed": 588236795,
+        "steps": 25,
+        "prompt": "SmoothNoob_Quality, masterpiece, best quality, amazing quality, newest, very aesthetic, absurdres, (scenery:1.4), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, CRYOS2, Y0ney4m4_illu,digital art, surreal, dynamic composition.\n\nhigh resolution, sharp focus, 1girl, black hair, hair bun, grey eyes, bare shoulders, hand on own face, lips, off shoulder, blush, earrings, mask, japanese clothes, fingernails, kimono, sleeveless, sitting, looking at viewer, head rest, sword, katana, sheath, solo, holding, brown background, upper body, tattoo, oni mask, weapon, jewelry, arm tattoo, shoulder tattoo, nail polish, red nails, sheathed, closed mouth, holding mask, unworn mask, black nails, hand tattoo, motion blur, (dutch angle:1.1), (depth of field:1.3). ",
+        "sampler": "DPM++ 2M SDE",
+        "cfgScale": 4,
+        "negativePrompt": "lowres, (bad quality,worst quality:1.2), long neck, bad anatomy,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross, SmoothNoob_Negative  "
+      },
+      "username": "Yoruuu",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "638|1757498978104",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=638%7C1757498978104"
+    "nextCursor": "639|1757958660000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=639%7C1757958660000"
   }
 }
