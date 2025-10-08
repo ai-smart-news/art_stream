@@ -1,74 +1,35 @@
 {
   "items": [
     {
-      "id": 48659265,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20174810-0fa8-4c4a-9435-472f09da2fa6/original=true/20174810-0fa8-4c4a-9435-472f09da2fa6.jpeg",
-      "hash": "UZ4|}hV@Q-oydBjFVYbHpxayVsj[yXWBRQof",
-      "width": 832,
-      "height": 1216,
+      "id": 76661224,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec9d156-b784-435d-b214-6b3a666f3a11/original=true/5ec9d156-b784-435d-b214-6b3a666f3a11.jpeg",
+      "hash": "U37^_O0100_MF4jYIA-o00?F?v9G#Pt7.84.",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-31T05:31:19.612Z",
-      "postId": 10966703,
+      "createdAt": "2025-05-16T20:08:44.480Z",
+      "postId": 17027325,
       "stats": {
-        "cryCount": 341,
-        "laughCount": 568,
-        "likeCount": 4781,
+        "cryCount": 380,
+        "laughCount": 668,
+        "likeCount": 4684,
         "dislikeCount": 0,
-        "heartCount": 1627,
-        "commentCount": 12
+        "heartCount": 1584,
+        "commentCount": 3
       },
-      "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 1574274302,
-        "draft": false,
-        "steps": 40,
-        "width": 832,
-        "height": 1216,
-        "prompt": "A hyper-detailed underwater scene depicting a Range Rover L322 abandoned and resting at a significant depth on the ocean floor. The dark, shadowy expanse is illuminated by ethereal beams of sunlight filtering weakly through the water from the surface above, casting a surreal interplay of light and shadow over the wreck. The vehicle lies motionless, its once-rugged exterior now severely corroded, covered in patches of rust, algae, and marine encrustations. The body is heavily deformed, with dents, broken windows, and parts of the frame twisted from years of underwater decay.\nThe headlights emit a faint, eerie glow, their dim light barely penetrating the surrounding murk, the only sign of lingering power within the lifeless vehicle. Small particles of sediment float in the water, stirred slightly by the faint ocean currents. The Range Rover\u2019s silhouette is haunting, blending into the surrounding shadows while still holding an unmistakable presence.\nThe seabed around the car is rugged, dotted with jagged rocks, coral formations, and patches of sand partially burying the tires. Small schools of fish swim cautiously around the wreck, occasionally darting through the vehicle\u2019s broken windows. Long-forgotten, the Range Rover has become a relic of both human technology and nature\u2019s reclaiming force, exuding an eerie yet strangely beautiful stillness in the mysterious depths of the ocean. detailifier",
-        "sampler": "Undefined",
-        "cfgScale": 6,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2024-12-31T0353:05.8482433Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1220674,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1031573,
-            "modelVersionName": "Flux v2.5"
-          }
-        ]
-      },
-      "username": "Ernesta_Ze_Guevara",
-      "baseModel": "Flux.1 D",
+      "meta": null,
+      "username": "DDDLSTE",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        691639,
-        1031573,
-        1220674
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "630|1747426124480",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=630%7C1747426124480"
+    "nextCursor": "631|1743580176944",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=631%7C1743580176944"
   }
 }
