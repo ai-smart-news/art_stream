@@ -1,117 +1,74 @@
 {
   "items": [
     {
-      "id": 54523770,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5c05bd3c-393b-4e60-a82a-2a8873004cff/original=true/5c05bd3c-393b-4e60-a82a-2a8873004cff.jpeg",
-      "hash": "UHC?7JAI}?I@~oozs.oy5?-n58-nK5V[Iot6",
-      "width": 1344,
-      "height": 1728,
+      "id": 48659265,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20174810-0fa8-4c4a-9435-472f09da2fa6/original=true/20174810-0fa8-4c4a-9435-472f09da2fa6.jpeg",
+      "hash": "UZ4|}hV@Q-oydBjFVYbHpxayVsj[yXWBRQof",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-29T04:28:38.231Z",
-      "postId": 12225831,
+      "createdAt": "2024-12-31T05:31:19.612Z",
+      "postId": 10966703,
       "stats": {
-        "cryCount": 295,
-        "laughCount": 503,
-        "likeCount": 4941,
+        "cryCount": 341,
+        "laughCount": 568,
+        "likeCount": 4781,
         "dislikeCount": 0,
-        "heartCount": 1578,
-        "commentCount": 7
+        "heartCount": 1627,
+        "commentCount": 12
       },
       "meta": {
-        "RNG": "NV",
-        "Size": "896x1152",
-        "seed": 1337686343,
-        "Model": "flux1-dev",
-        "steps": 32,
-        "hashes": {
-          "model": "3f97fdc57a",
-          "lora:Blue_Future": "55996c1ced23",
-          "lora:80sFantasyMovie2": "a66035c75165",
-          "lora:FLUX-daubrez-DB4RZ-v2": "9A6DFC274BBD",
-          "lora:FluxDFaeTasticDetails": "4259dc3287",
-          "lora:\u00ec\u0088\u0098\u00eb\u00ac\u00b5\u00ed\u0099\u0094_No2": "89256f6529f1",
-          "lora:- Flux1 - vanta_black_V2.0": "5d8cf3724039"
-        },
-        "Version": "f2.0.1v1.10.1-previous-636-gb835f24a",
-        "sampler": "Euler",
-        "Emphasis": "No norm",
-        "Module 1": "ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "resources": [
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 1574274302,
+        "draft": false,
+        "steps": 40,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A hyper-detailed underwater scene depicting a Range Rover L322 abandoned and resting at a significant depth on the ocean floor. The dark, shadowy expanse is illuminated by ethereal beams of sunlight filtering weakly through the water from the surface above, casting a surreal interplay of light and shadow over the wreck. The vehicle lies motionless, its once-rugged exterior now severely corroded, covered in patches of rust, algae, and marine encrustations. The body is heavily deformed, with dents, broken windows, and parts of the frame twisted from years of underwater decay.\nThe headlights emit a faint, eerie glow, their dim light barely penetrating the surrounding murk, the only sign of lingering power within the lifeless vehicle. Small particles of sediment float in the water, stirred slightly by the faint ocean currents. The Range Rover\u2019s silhouette is haunting, blending into the surrounding shadows while still holding an unmistakable presence.\nThe seabed around the car is rugged, dotted with jagged rocks, coral formations, and patches of sand partially burying the tires. Small schools of fish swim cautiously around the wreck, occasionally darting through the vehicle\u2019s broken windows. Long-forgotten, the Range Rover has become a relic of both human technology and nature\u2019s reclaiming force, exuding an eerie yet strangely beautiful stillness in the mysterious depths of the ocean. detailifier",
+        "sampler": "Undefined",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2024-12-31T0353:05.8482433Z",
+        "civitaiResources": [
           {
-            "hash": "4259dc3287",
-            "name": "FluxDFaeTasticDetails",
-            "type": "lora"
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
-            "hash": "5d8cf3724039",
-            "name": "- Flux1 - vanta_black_V2.0",
-            "type": "lora"
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1220674,
+            "modelVersionName": "V1"
           },
           {
-            "hash": "55996c1ced23",
-            "name": "Blue_Future",
-            "type": "lora"
-          },
-          {
-            "hash": "89256f6529f1",
-            "name": "\u00ec\u0088\u0098\u00eb\u00ac\u00b5\u00ed\u0099\u0094_No2",
-            "type": "lora"
-          },
-          {
-            "hash": "a66035c75165",
-            "name": "80sFantasyMovie2",
-            "type": "lora"
-          },
-          {
-            "hash": "9A6DFC274BBD",
-            "name": "FLUX-daubrez-DB4RZ-v2",
-            "type": "lora"
-          },
-          {
-            "hash": "3f97fdc57a",
-            "name": "flux1-dev",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1031573,
+            "modelVersionName": "Flux v2.5"
           }
-        ],
-        "Model hash": "3f97fdc57a",
-        "Hires steps": "8",
-        "Hires prompt": {},
-        "Hires upscale": "1.5",
-        "Schedule type": "Beta",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "Hires CFG Scale": "1",
-        "Beta schedule beta": "0.6",
-        "Denoising strength": "0.36",
-        "Beta schedule alpha": "0.6",
-        "Distilled CFG Scale": "3.5",
-        "Style Selector Style": "ads-fashion editorial",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
-        "Hires negative prompt": "",
-        "Style Selector Enabled": "True",
-        "Style Selector Randomize": "True",
-        "Hires Distilled CFG Scale": "5.5"
+        ]
       },
-      "username": "sunnytiersen",
+      "username": "Ernesta_Ze_Guevara",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        720252,
-        737325,
-        801005,
-        1277410,
-        778925,
-        959383
+        691639,
+        1031573,
+        1220674
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "629|1735623079612",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=629%7C1735623079612"
+    "nextCursor": "630|1747426124480",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=630%7C1747426124480"
   }
 }
