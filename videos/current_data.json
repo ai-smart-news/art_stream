@@ -1,100 +1,48 @@
 {
   "items": [
     {
-      "id": 59293189,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d62d8ddd-ad82-439c-a7f7-41e5633393a5/original=true/d62d8ddd-ad82-439c-a7f7-41e5633393a5.jpeg",
-      "hash": "UVGYHE1v|HOD[rOX#mS2v~w{n%j[-BV@SgoL",
-      "width": 1400,
-      "height": 2046,
+      "id": 69978836,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5c63560-92ed-456c-9151-16c311b31706/original=true/b5c63560-92ed-456c-9151-16c311b31706.jpeg",
+      "hash": "UBAc}301_1Ip_24p%1NH~VD*xaxa.7M|xZkC",
+      "width": 3072,
+      "height": 3072,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-22T00:07:00.000Z",
-      "postId": 13263456,
+      "createdAt": "2025-04-14T13:09:37.194Z",
+      "postId": 15545271,
       "stats": {
-        "cryCount": 313,
-        "laughCount": 519,
-        "likeCount": 4689,
+        "cryCount": 400,
+        "laughCount": 608,
+        "likeCount": 4445,
         "dislikeCount": 0,
-        "heartCount": 1758,
-        "commentCount": 6
+        "heartCount": 1820,
+        "commentCount": 8
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1407384881,
-        "steps": 30,
-        "sampler": "Undefined",
+        "Size": "1024x1024",
+        "seed": 119,
+        "Model": "Flux.1 [Dev",
+        "steps": 31,
+        "hashes": {
+          "model": ""
+        },
+        "prompt": "surreal scene of a woman standing at the center of a spiraling storm of black bats, her elegant gown seamlessly morphing into the bats in flight. Dress melting into the background. The composition merges serenity with motion, as the bats form a hypnotic vortex into a dark tunnel behind her. Rendered in soft black, muted grays, and dark golden hues, the image evokes a dreamlike sense of transformation, peace, and otherworldly beauty. The visual flow and symbolism suggest themes of inner liberation, grace, and transcendence",
+        "Version": "ComfyUI",
+        "sampler": "deis_ddim_uniform",
         "cfgScale": 3,
-        "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-12-22T1452:36.6413308Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 863655,
-            "modelVersionName": "Balance_v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 806265,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 747534,
-            "modelVersionName": "Flux.1 D v1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 754068,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 983288,
-            "modelVersionName": "Flux v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 840288,
-            "modelVersionName": "artisketchyfs"
-          },
-          {
-            "type": "lora",
-            "weight": -0.45,
-            "modelVersionId": 857446,
-            "modelVersionName": "v0.1"
-          }
-        ]
+        "Model hash": "",
+        "negativePrompt": "-"
       },
-      "username": "ArtifyAI",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        747534,
-        754068,
-        806265,
-        840288,
-        857446,
-        863655,
-        983288
-      ]
+      "username": "Krawuzzn",
+      "baseModel": null,
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "634|1744636177194",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=634%7C1744636177194"
+    "nextCursor": "635|1743603851289",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=635%7C1743603851289"
   }
 }
