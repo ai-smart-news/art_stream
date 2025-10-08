@@ -1,35 +1,123 @@
 {
   "items": [
     {
-      "id": 76661224,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec9d156-b784-435d-b214-6b3a666f3a11/original=true/5ec9d156-b784-435d-b214-6b3a666f3a11.jpeg",
-      "hash": "U37^_O0100_MF4jYIA-o00?F?v9G#Pt7.84.",
-      "width": 1024,
-      "height": 1536,
+      "id": 67443348,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b673397-337d-47d7-802e-45e2569c4acb/original=true/4b673397-337d-47d7-802e-45e2569c4acb.jpeg",
+      "hash": "UBJG$:wJ00%N}[~qTI9F0J}[%M9t0|TIE0Io",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-16T20:08:44.480Z",
-      "postId": 17027325,
+      "createdAt": "2025-04-02T07:49:36.944Z",
+      "postId": 14996630,
       "stats": {
-        "cryCount": 380,
-        "laughCount": 668,
-        "likeCount": 4684,
+        "cryCount": 398,
+        "laughCount": 696,
+        "likeCount": 4451,
         "dislikeCount": 0,
-        "heartCount": 1584,
-        "commentCount": 3
+        "heartCount": 1765,
+        "commentCount": 1
       },
-      "meta": null,
-      "username": "DDDLSTE",
-      "baseModel": "OpenAI",
+      "meta": {
+        "nsfw": false,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:1353314@1528632",
+        "extra": {
+          "remixOfId": 67181501
+        },
+        "steps": 19,
+        "width": 832,
+        "height": 1216,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:1353314@1528632"
+        ],
+        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, CivChan, artist:moriimee, 1girl  ((holding oversized pink stuffed bear toy)) crazy_eyes, ((uwu)), glowing eyes, heart-shaped_pupils , maniacal grin, laughing, hair_ribbon  magical_girl open_mouth pink_hair purple_eyes ribbon maid_headdress maid_uniform skirt smile yandere, Dynamic angle, best quality, halftone_background, pink_background, black_background, ethereal_aura, ",
+        "denoise": 0.3,
+        "sampler": "Euler a",
+        "cfgScale": 5.5,
+        "clipSkip": 2,
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-hires",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/AX3ZTN87YNCREJWANQ7A6MNK80.jpeg",
+          "width": 832,
+          "height": 1216
+        },
+        "experimental": false,
+        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, young,",
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 1528632
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1528632
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1597055
+          },
+          {
+            "weight": 0.8,
+            "modelVersionId": 1244133
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1528632
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1597055
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 1244133
+          }
+        ],
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:1412708@1597055",
+            "type": "lora",
+            "strength": 1,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:915918@1244133",
+            "type": "lora",
+            "strength": 0.8,
+            "strengthClip": 1
+          }
+        ]
+      },
+      "username": "Nythorin",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1733399
+        164821,
+        1244133,
+        1528632,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "631|1743580176944",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=631%7C1743580176944"
+    "nextCursor": "632|1737600789113",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=632%7C1737600789113"
   }
 }
