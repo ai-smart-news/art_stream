@@ -1,83 +1,39 @@
 {
   "items": [
     {
-      "id": 57215949,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6fd754d-b233-4c48-a5cb-bcba71b8ebf4/original=true/b6fd754d-b233-4c48-a5cb-bcba71b8ebf4.jpeg",
-      "hash": "UBF62#R%56~VAN9bx_M|A3w@MwSe%$RjrCW?",
-      "width": 1248,
-      "height": 1824,
+      "id": 43814090,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/461a34c1-2bd5-4293-9fe7-26784b0de568/original=true/461a34c1-2bd5-4293-9fe7-26784b0de568.jpeg",
+      "hash": "U98DL]Osm*E{CTsB9r#k=gjuv|J,J5aeR%s;",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-11T23:59:00.000Z",
-      "postId": 12808497,
+      "createdAt": "2024-12-05T13:36:03.068Z",
+      "postId": 9951800,
       "stats": {
-        "cryCount": 295,
-        "laughCount": 532,
-        "likeCount": 4634,
+        "cryCount": 290,
+        "laughCount": 470,
+        "likeCount": 5021,
         "dislikeCount": 0,
-        "heartCount": 1868,
-        "commentCount": 5
+        "heartCount": 1549,
+        "commentCount": 12
       },
-      "meta": {
-        "": {},
-        "Size": "832x1216",
-        "seed": 3847547359,
-        "Model": "SmoothMix_Illustrious_v2",
-        "model": {},
-        "steps": 30,
-        "Hashes": {
-          "{embed": "Smooth Quality"
-        },
-        "hashes": {
-          "model": "cb39f56617",
-          "embed:Smooth Quality": "0388be1500",
-          "embed:Smooth Negative": "636f58fdcd"
-        },
-        "prompt": "Smooth Quality, 1girl, solo, light smile, basket, blonde hair, blue sky, boots, bouquet, cloud, cloudy sky, daisy, dandelion, day, field, flower, flower field, flower pot, garden, gloves, grass, hat, hill, holding bouquet, holding flower, hydrangea, long hair, mountain, mountainous horizon, orange flower, outdoors, pink flower, plant, potted plant, purple flower, rose, scenery, sky, straw hat, sun hat, sunflower, sunset, tulip, windmill, wooden fence, yellow flower, yellow rose, cowboy shot,",
-        "Version": "f1.3.0-v1.10.1RC-latest-992-g8ac78f65",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "TI hashes": {
-          "Smooth Quality": "0388be1500af",
-          "Smooth Negative": "636f58fdcdcb"
-        },
-        "resources": [
-          {
-            "hash": "cb39f56617",
-            "name": "SmoothMix_Illustrious_v2",
-            "type": "model"
-          }
-        ],
-        "Model hash": "cb39f56617",
-        "Hires steps": "15",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "negativePrompt": "Smooth Negative\u200b\u200b\u200b",
-        "ADetailer model": "face_yolov8n.pt",
-        "Hires CFG Scale": "5",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.1",
-        "ADetailer mask blur": "7",
-        "ADetailer confidence": "0.3",
-        "{embed:Smooth Quality": {},
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.2",
-        "ADetailer inpaint only masked": "True"
-      },
-      "username": "DigitalPastel",
-      "baseModel": "Illustrious",
+      "meta": null,
+      "username": "Rhailo",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1195460,
-        1195487
+        691639,
+        840288,
+        1018961,
+        1022295,
+        1050932
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "622|1733405763068",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=622%7C1733405763068"
+    "nextCursor": "623|1716846199979",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=623%7C1716846199979"
   }
 }
