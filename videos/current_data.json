@@ -1,54 +1,71 @@
 {
   "items": [
     {
-      "id": 2008378,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9da6ff35-4f68-406d-b610-e1408ef5d293/original=true/9da6ff35-4f68-406d-b610-e1408ef5d293.jpeg",
-      "hash": "U3K1UQ^lx]=}_KIANE%1s+VZX,t+%~t7r]ni",
-      "width": 1024,
-      "height": 1024,
+      "id": 32611504,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9783ff10-7002-4a5f-bbf9-2d27533fab41/original=true/9783ff10-7002-4a5f-bbf9-2d27533fab41.jpeg",
+      "hash": "UD9jm1t89Dn,9DWARiWUD$R*x_og?ds:R4jH",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-02-14T00:11:57.548Z",
-      "postId": 493857,
+      "createdAt": "2024-10-03T15:12:19.667Z",
+      "postId": 7464164,
       "stats": {
-        "cryCount": 782,
-        "laughCount": 1662,
-        "likeCount": 3707,
+        "cryCount": 332,
+        "laughCount": 578,
+        "likeCount": 4524,
         "dislikeCount": 0,
-        "heartCount": 1100,
-        "commentCount": 144
+        "heartCount": 1812,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "1024x1024",
-        "seed": 2814388551,
-        "Model": "sdvn6Realxl_detailface",
-        "steps": 46,
+        "Size": "832x1216",
+        "seed": 2231679042,
+        "Model": "flux_dev",
+        "steps": 22,
         "hashes": {
-          "model": "777f31751a"
+          "model": "",
+          "LORA:dark_fantasy_flux": "6e5f580c0e",
+          "LORA:FredFraiStyle-FLUX-Share": "63bfaa1cf9",
+          "LORA:sxz-Dark-Fantasy-v2-Flux": "5045fdb3ee"
         },
-        "prompt": "Amazing detailed photography of a perfect beautiful 1girl ((flying through a paradox)), high resolution face, piercing eyes, Simon Bisley, Anti-Aliasing, FXAA, De-Noise, Post-Production, SFX, insanely detailed & intricate, hypermaximalist, elegant, ornate, hyper realistic, super detailed, noir coloration, serene, 16k resolution, full body,",
-        "Version": "v1.5.1",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 7,
+        "prompt": "A young woman with shoulder-length wavy black hair is shown from the torso up, holding a glowing katana in front of her. She is wearing a traditional kimono that is white with iridescent, vibrant floral patterns in shades of pink, orange, blue, and green. The katana has a glowing, rainbow-colored blade, with the hilt held firmly in both her hands. Her right hand, visible and ungloved, grips the handle near the bottom, while her left hand, wearing a black glove, is placed near the guard. Her expression is calm, her gaze lowered. The kimono drapes softly over her form, and colorful, ethereal flowers seem to emerge from the fabric. The background is dark and minimal, which contrasts sharply with the vibrant light coming from the sword and the glowing floral patterns on her clothing. The lighting emphasizes the soft glow of the sword and flowers, creating a magical, serene atmosphere. The perspective is a close-up shot focusing on the upper half of her body, highlighting the intricate details of her kimono and the vibrant, colorful light effects.    <lora:dark_fantasy_flux:0.83> <lora:FredFraiStyle-FLUX-Share:0.63> <lora:sxz-Dark-Fantasy-v2-Flux:0.33> drkfnts style,",
+        "Version": "ComfyUI",
+        "sampler": "Euler",
+        "cfgScale": 3.3,
         "resources": [
           {
-            "hash": "777f31751a",
-            "name": "sdvn6Realxl_detailface",
-            "type": "model"
+            "name": "dark_fantasy_flux",
+            "type": "lora",
+            "weight": 0.83
+          },
+          {
+            "name": "FredFraiStyle-FLUX-Share",
+            "type": "lora",
+            "weight": 0.63
+          },
+          {
+            "name": "sxz-Dark-Fantasy-v2-Flux",
+            "type": "lora",
+            "weight": 0.33
           }
         ],
-        "Model hash": "777f31751a",
-        "negativePrompt": "(worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch), tooth, open mouth, dull, blurry,watermark,low quality, black and white"
+        "Model hash": ""
       },
-      "username": "StatikFlux",
-      "baseModel": "",
-      "modelVersionIds": []
+      "username": "Rekano33",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        759880,
+        759600,
+        738658
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "641|1727968339667",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=641%7C1727968339667"
+    "nextCursor": "642|1736873024601",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=642%7C1736873024601"
   }
 }
