@@ -1,123 +1,88 @@
 {
   "items": [
     {
-      "id": 67443348,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b673397-337d-47d7-802e-45e2569c4acb/original=true/4b673397-337d-47d7-802e-45e2569c4acb.jpeg",
-      "hash": "UBJG$:wJ00%N}[~qTI9F0J}[%M9t0|TIE0Io",
-      "width": 1280,
-      "height": 1856,
+      "id": 53342127,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c52ba1e9-7494-4d3b-9b72-85e2dfcfba92/original=true/c52ba1e9-7494-4d3b-9b72-85e2dfcfba92.jpeg",
+      "hash": "UGEKK#[|NEE_^7t9rxJ5$%NXEIog}w#8R%OD",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-02T07:49:36.944Z",
-      "postId": 14996630,
+      "createdAt": "2025-01-23T02:53:09.113Z",
+      "postId": 11976833,
       "stats": {
-        "cryCount": 398,
-        "laughCount": 696,
-        "likeCount": 4451,
+        "cryCount": 328,
+        "laughCount": 494,
+        "likeCount": 4783,
         "dislikeCount": 0,
-        "heartCount": 1765,
-        "commentCount": 1
+        "heartCount": 1692,
+        "commentCount": 8
       },
       "meta": {
-        "nsfw": false,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:1353314@1528632",
-        "extra": {
-          "remixOfId": 67181501
-        },
-        "steps": 19,
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 1456462762,
+        "draft": false,
+        "steps": 23,
         "width": 832,
         "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:1353314@1528632"
-        ],
-        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, CivChan, artist:moriimee, 1girl  ((holding oversized pink stuffed bear toy)) crazy_eyes, ((uwu)), glowing eyes, heart-shaped_pupils , maniacal grin, laughing, hair_ribbon  magical_girl open_mouth pink_hair purple_eyes ribbon maid_headdress maid_uniform skirt smile yandere, Dynamic angle, best quality, halftone_background, pink_background, black_background, ethereal_aura, ",
-        "denoise": 0.3,
-        "sampler": "Euler a",
-        "cfgScale": 5.5,
+        "prompt": "Beautiful art in the style of limbo game, Meeting a giant benevolent creature in the forest",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
         "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/AX3ZTN87YNCREJWANQ7A6MNK80.jpeg",
-          "width": 832,
-          "height": 1216
-        },
-        "experimental": false,
-        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, young,",
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-01-22T1550:01.6078310Z",
         "civitaiResources": [
           {
-            "weight": 1,
-            "modelVersionId": 1528632
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1528632
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1597055
-          },
-          {
-            "weight": 0.8,
-            "modelVersionId": 1244133
-          },
-          {
             "type": "checkpoint",
-            "modelVersionId": 1528632
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055
+            "weight": 0.85,
+            "modelVersionId": 1089413,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 1178104,
+            "modelVersionName": "FLUX v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 813863,
+            "modelVersionName": "v1"
           },
           {
             "type": "lora",
             "weight": 0.8,
-            "modelVersionId": 1244133
-          }
-        ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:1412708@1597055",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:915918@1244133",
-            "type": "lora",
-            "strength": 0.8,
-            "strengthClip": 1
+            "modelVersionId": 985663,
+            "modelVersionName": "V1"
           }
         ]
       },
-      "username": "Nythorin",
-      "baseModel": "Illustrious",
+      "username": "Serg3D",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        164821,
-        1244133,
-        1528632,
-        1597055
+        691639,
+        813863,
+        985663,
+        1089413,
+        1178104
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "632|1737600789113",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=632%7C1737600789113"
+    "nextCursor": "633|1740182820000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=633%7C1740182820000"
   }
 }
