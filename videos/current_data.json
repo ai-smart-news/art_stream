@@ -1,37 +1,95 @@
 {
   "items": [
     {
-      "id": 80586883,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e47d562-ed9d-4612-af41-848399feffa6/original=true/2e47d562-ed9d-4612-af41-848399feffa6.jpeg",
-      "hash": "UCBgSK_2IsRP_M%MaMWAXTx[xZxut3awt7t8",
-      "width": 1152,
-      "height": 1728,
+      "id": 77651995,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/762ed5c6-b0d0-449b-92ee-c209662f4d86/original=true/762ed5c6-b0d0-449b-92ee-c209662f4d86.jpeg",
+      "hash": "U7CjR]pI4T73F%SxnhNe00xbPqr;w:w4Iuoy",
+      "width": 1216,
+      "height": 832,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-05T16:36:28.999Z",
-      "postId": 17898676,
+      "createdAt": "2025-05-21T17:36:37.122Z",
+      "postId": 17248717,
       "stats": {
-        "cryCount": 354,
-        "laughCount": 620,
-        "likeCount": 4769,
+        "cryCount": 399,
+        "laughCount": 716,
+        "likeCount": 4455,
         "dislikeCount": 0,
-        "heartCount": 1615,
-        "commentCount": 4
+        "heartCount": 1781,
+        "commentCount": 7
       },
-      "meta": null,
-      "username": "sexner740",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "1216x832",
+        "nsfw": false,
+        "seed": 438640656,
+        "draft": false,
+        "steps": 38,
+        "width": 1216,
+        "height": 832,
+        "prompt": "lazypos, Mystic Lumina\ncosmic surrealism, bioluminescent, astral fantasy, ultra-detailed, divine artwork, dreamscape, celestial beings, vibrant colors, 8k\na masterpiece artwork created by celestial beings from distant galaxies, ultra-detailed and transcendent, depicting otherworldly magic and cosmic miracles unfolding in a dreamlike dimension. Bioluminescent spirit forms drift through nebula-like mist, their whispers and echoes painting the void with ethereal light. Surreal constellations pulse in harmony with shimmering auroras, as translucent beings of stardust channel ancient energies into luminous arcs of divine geometry. The scene radiates interstellar wonder, an astral daydream woven from mystic glow, sacred harmony, and galactic reverence. Celestial architecture floats in the distance, partially obscured by radiant fog, as galaxies spiral across an infinite horizon.",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7.5,
+        "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "SDXL",
+        "resources": [],
+        "Created Date": "2025-05-21T1726:36.7726875Z",
+        "negativePrompt": "lazyneg",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1054326,
+            "modelVersionName": "Pixel Alchemy v30"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 1470451,
+            "modelVersionName": "lazypos"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 1591915,
+            "modelVersionName": "lazyneg"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 640946,
+            "modelVersionName": "V 1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1670651,
+            "modelVersionName": "v2.3I Illustrious 4/15"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 654321,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "ascherwarfeather",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        720252,
-        945221,
-        1693152
+        640946,
+        654321,
+        1054326,
+        1470451,
+        1591915,
+        1670651
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "615|1747848997122",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=615%7C1747848997122"
+    "nextCursor": "616|1751539297915",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=616%7C1751539297915"
   }
 }
