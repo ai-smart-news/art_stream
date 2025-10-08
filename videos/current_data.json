@@ -1,39 +1,94 @@
 {
   "items": [
     {
-      "id": 43814090,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/461a34c1-2bd5-4293-9fe7-26784b0de568/original=true/461a34c1-2bd5-4293-9fe7-26784b0de568.jpeg",
-      "hash": "U98DL]Osm*E{CTsB9r#k=gjuv|J,J5aeR%s;",
+      "id": 13774580,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30fbb89d-b9dd-47a9-9fa8-542ffe11caba/original=true/30fbb89d-b9dd-47a9-9fa8-542ffe11caba.jpeg",
+      "hash": "UPEC,gs.SuS#?dN[i^R-L2KNrrsAw7r?r@xY",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-05T13:36:03.068Z",
-      "postId": 9951800,
+      "createdAt": "2024-05-27T21:43:19.979Z",
+      "postId": 3052664,
       "stats": {
-        "cryCount": 290,
-        "laughCount": 470,
-        "likeCount": 5021,
+        "cryCount": 287,
+        "laughCount": 597,
+        "likeCount": 4718,
         "dislikeCount": 0,
-        "heartCount": 1549,
-        "commentCount": 12
+        "heartCount": 1725,
+        "commentCount": 6
       },
-      "meta": null,
-      "username": "Rhailo",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 2067392852,
+        "steps": 30,
+        "prompt": "Full body illustration of ultra realistic very detailed cute orange red toad with big green very detailed dreamy cosmic eyes hiding in a very realistic very detailed colorful field of flowers in a realistic very detailed meadow, realistic very detailed grass, realistic very detailed trees, highest contrast, masterpiece, 32k, high contrast, vibrant colors, vivid colors, high resolution textures, crisp colors, ultra sharp, sharp focus, <lora:xl_more_art-full_v1:0.28>,\n <lora:add-detail-xl:1>,\n <lora:WildcardX-XL-Detail-Enhancer:0.7>  ,\n <lora:ral-vltne:0.8>",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "name": "xl_more_art-full_v1",
+            "type": "lora",
+            "weight": 0.28
+          },
+          {
+            "name": "add-detail-xl",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "name": "WildcardX-XL-Detail-Enhancer",
+            "type": "lora",
+            "weight": 0.7
+          },
+          {
+            "name": "ral-vltne",
+            "type": "lora",
+            "weight": 0.8
+          }
+        ],
+        "Created Date": "2024-05-27T2127:28.4802811Z",
+        "negativePrompt": "(CyberRealistic_Negative-neg:0.8), mature, curvy, big tits, (deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers:1.4), (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, amputation",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 345685,
+            "modelVersionName": "FUSION OG"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 285837,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 532216,
+            "modelVersionName": "TQ - Origami Style XL"
+          },
+          {
+            "type": "vae",
+            "weight": 1,
+            "modelVersionId": 333245,
+            "modelVersionName": "SDXL-VAE"
+          }
+        ]
+      },
+      "username": "PetroUA",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        691639,
-        840288,
-        1018961,
-        1022295,
-        1050932
+        285837,
+        345685,
+        532216
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "623|1716846199979",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=623%7C1716846199979"
+    "nextCursor": "624|1753476300000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=624%7C1753476300000"
   }
 }
