@@ -1,60 +1,88 @@
 {
   "items": [
     {
-      "id": 51604823,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/921367c9-77e9-4b7f-8be0-2ac768b9b8d0/original=true/921367c9-77e9-4b7f-8be0-2ac768b9b8d0.jpeg",
-      "hash": "U484rz=_00%24}oz.6R+uONwDgfz00t6~nxs",
-      "width": 2304,
-      "height": 2976,
+      "id": 81207470,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9119c065-dc64-4ed4-ad9d-6670343bad13/original=true/9119c065-dc64-4ed4-ad9d-6670343bad13.jpeg",
+      "hash": "UEH1_1~VH;01020P9yM|X=^%9G=;#3-3x^NM",
+      "width": 1152,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-14T16:43:44.601Z",
-      "postId": 11604914,
+      "createdAt": "2025-06-09T01:45:00.000Z",
+      "postId": 18037775,
       "stats": {
-        "cryCount": 318,
-        "laughCount": 572,
-        "likeCount": 4829,
+        "cryCount": 343,
+        "laughCount": 619,
+        "likeCount": 4632,
         "dislikeCount": 0,
-        "heartCount": 1523,
-        "commentCount": 9
+        "heartCount": 1640,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "896x1152",
-        "seed": 65468754,
-        "Model": "fluxmania_III",
+        "Size": "768x1152",
+        "seed": 3781955839,
+        "Model": "dmixfouth",
         "steps": 20,
+        "Script": "X/Y/Z plot",
+        "X Type": "Checkpoint name",
         "hashes": {
-          "model": "925a7f7148",
-          "LORA:flux\\civitaiLogoFlux.safetensors": "54eaecc4a6",
-          "LORA:flux\\aidmaYearOfTheSnake-FLUX-v0.1.safetensors": "0e6b55cd6a"
+          "model": "1157694b22",
+          "lora:Detailer_NoobAI_Incrs_v1": "9f242f949d7b"
         },
-        "prompt": "aidmayearofthesnake , white round snake inside of civitaiLogo floating above sea during night, <lora:flux\\civitaiLogoFlux.safetensors:1.0:1.0> <lora:flux\\aidmaYearOfTheSnake-FLUX-v0.1.safetensors:0.8:0.8>",
-        "Version": "ComfyUI",
-        "sampler": "UniPC",
-        "cfgScale": 1,
-        "clipSkip": 1,
+        "prompt": "mechanical parts, solo, damaged, android, science fiction, cable,, 1girl, cyborg, portrait, , , bald, robot, black sclera, cyberpunk, gold pupils,  white skin, gold, wires, , gold lips, cyberpunk, single tear, expressionless, crying with eyes open, colored eyelashes,, <lora:Detailer_NoobAI_Incrs_v1:0.75>, masterwork, masterpiece, best quality,  detailed, depth of field, realistic, ultra-HD,  (impressionism:1.5), high detail, best quality, very aesthetic, 8k, , , , photorealistic, , , (cheekbones:0.75), adult, aged up, dynamic pose, depth of field, dynamic angle",
+        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
+        "sampler": "Euler a",
+        "X Values": "dmixfouth.safetensors [1157694b22]",
+        "cfgScale": 6,
         "resources": [
           {
-            "hash": "925a7f7148",
-            "name": "fluxmania_III",
+            "hash": "9f242f949d7b",
+            "name": "Detailer_NoobAI_Incrs_v1",
+            "type": "lora",
+            "weight": 0.75
+          },
+          {
+            "hash": "1157694b22",
+            "name": "dmixfouth",
             "type": "model"
           }
         ],
-        "Model hash": "925a7f7148"
+        "Model hash": "1157694b22",
+        "Hires steps": "10",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "None",
+        "negativePrompt": "arch, pillar, dual wielding, multiple swords, outdoors,, lowres, worst quality, low quality, bad anatomy, bad hands, jpeg artifacts, signature, watermark, text, logo, artist name, extra digits,  censored, patreon username, (anime:1.2), loli",
+        "ADetailer model": "Anzhc Face seg 640 v2 y8n.pt",
+        "ADetailer steps": "20",
+        "Hires CFG Scale": "6",
+        "ADetailer sampler": "DPM++ 2M",
+        "ADetailer version": "24.11.1",
+        "Denoising strength": "0.1",
+        "ADetailer mask blur": "4",
+        "ADetailer scheduler": "Automatic",
+        "ADetailer confidence": "0.25",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer mask only top k": "1",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer use separate steps": "True",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer use separate sampler": "True",
+        "ADetailer method to decide top k masks": "Area"
       },
-      "username": "cgibson",
-      "baseModel": "Flux.1 D",
+      "username": "phinjo",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        1282322,
-        864939,
-        1205317
+        1191626
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "643|1749433500000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=643%7C1749433500000"
+    "nextCursor": "644|1733995568637",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=644%7C1733995568637"
   }
 }
