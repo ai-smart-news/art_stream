@@ -1,37 +1,54 @@
 {
   "items": [
     {
-      "id": 79054263,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ba0f17c-4b70-4571-9695-ed52dde81090/original=true/5ba0f17c-4b70-4571-9695-ed52dde81090.jpeg",
-      "hash": "U3C=l10a00zT03^j=Yrp0#}XCTNx^,J==XQ,",
-      "width": 832,
-      "height": 1216,
+      "id": 2008378,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9da6ff35-4f68-406d-b610-e1408ef5d293/original=true/9da6ff35-4f68-406d-b610-e1408ef5d293.jpeg",
+      "hash": "U3K1UQ^lx]=}_KIANE%1s+VZX,t+%~t7r]ni",
+      "width": 1024,
+      "height": 1024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-15T17:51:00.000Z",
-      "postId": 17562169,
+      "createdAt": "2024-02-14T00:11:57.548Z",
+      "postId": 493857,
       "stats": {
-        "cryCount": 360,
-        "laughCount": 584,
-        "likeCount": 4529,
+        "cryCount": 782,
+        "laughCount": 1662,
+        "likeCount": 3707,
         "dislikeCount": 0,
-        "heartCount": 1618,
-        "commentCount": 3
+        "heartCount": 1100,
+        "commentCount": 144
       },
-      "meta": null,
-      "username": "simiancopulation",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        888169,
-        1075587
-      ]
+      "meta": {
+        "Size": "1024x1024",
+        "seed": 2814388551,
+        "Model": "sdvn6Realxl_detailface",
+        "steps": 46,
+        "hashes": {
+          "model": "777f31751a"
+        },
+        "prompt": "Amazing detailed photography of a perfect beautiful 1girl ((flying through a paradox)), high resolution face, piercing eyes, Simon Bisley, Anti-Aliasing, FXAA, De-Noise, Post-Production, SFX, insanely detailed & intricate, hypermaximalist, elegant, ornate, hyper realistic, super detailed, noir coloration, serene, 16k resolution, full body,",
+        "Version": "v1.5.1",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7,
+        "resources": [
+          {
+            "hash": "777f31751a",
+            "name": "sdvn6Realxl_detailface",
+            "type": "model"
+          }
+        ],
+        "Model hash": "777f31751a",
+        "negativePrompt": "(worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch), tooth, open mouth, dull, blurry,watermark,low quality, black and white"
+      },
+      "username": "StatikFlux",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "640|1707869517548",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=640%7C1707869517548"
+    "nextCursor": "641|1727968339667",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=641%7C1727968339667"
   }
 }
