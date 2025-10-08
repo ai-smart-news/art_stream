@@ -1,95 +1,106 @@
 {
   "items": [
     {
-      "id": 77651995,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/762ed5c6-b0d0-449b-92ee-c209662f4d86/original=true/762ed5c6-b0d0-449b-92ee-c209662f4d86.jpeg",
-      "hash": "U7CjR]pI4T73F%SxnhNe00xbPqr;w:w4Iuoy",
-      "width": 1216,
-      "height": 832,
+      "id": 86015738,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0306b12b-460b-468a-8362-b0704e7047d2/original=true/0306b12b-460b-468a-8362-b0704e7047d2.jpeg",
+      "hash": "UBCsp-E300xt~VS4WUjF4nnh-:T0NIo0adSh",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-21T17:36:37.122Z",
-      "postId": 17248717,
+      "createdAt": "2025-07-03T10:41:37.915Z",
+      "postId": 19088448,
       "stats": {
-        "cryCount": 399,
-        "laughCount": 716,
-        "likeCount": 4455,
+        "cryCount": 404,
+        "laughCount": 684,
+        "likeCount": 4485,
         "dislikeCount": 0,
-        "heartCount": 1781,
-        "commentCount": 7
+        "heartCount": 1773,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "1216x832",
-        "nsfw": false,
-        "seed": 438640656,
+        "Size": "832x1216",
+        "seed": 1117557592,
         "draft": false,
-        "steps": 38,
-        "width": 1216,
-        "height": 832,
-        "prompt": "lazypos, Mystic Lumina\ncosmic surrealism, bioluminescent, astral fantasy, ultra-detailed, divine artwork, dreamscape, celestial beings, vibrant colors, 8k\na masterpiece artwork created by celestial beings from distant galaxies, ultra-detailed and transcendent, depicting otherworldly magic and cosmic miracles unfolding in a dreamlike dimension. Bioluminescent spirit forms drift through nebula-like mist, their whispers and echoes painting the void with ethereal light. Surreal constellations pulse in harmony with shimmering auroras, as translucent beings of stardust channel ancient energies into luminous arcs of divine geometry. The scene radiates interstellar wonder, an astral daydream woven from mystic glow, sacred harmony, and galactic reverence. Celestial architecture floats in the distance, partially obscured by radiant fog, as galaxies spiral across an infinite horizon.",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 7.5,
+        "steps": 25,
+        "width": 832,
+        "height": 1216,
+        "prompt": "F1CNShanhaij, The image depicts a beautifully illustrated phoenix surrounded by swirling clouds and floral elements. The phoenix is predominantly white with shades of blue and teal, and it has long, flowing feathers that resemble a blend of smoke and water. It is adorned with delicate blossoms, some of which are pink and others are white, adding a touch of elegance to the scene. The background is a dark, abstract composition with subtle floral patterns and small, glowing particles scattered throughout, creating a mystical and ethereal atmosphere. The overall design is intricate and artistic, with a harmonious balance of colors and forms.",
+        "process": "txt2img",
+        "sampler": "Undefined",
+        "cfgScale": 1,
         "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
         "quantity": 4,
         "workflow": "txt2img",
-        "baseModel": "SDXL",
+        "baseModel": "Flux1",
         "resources": [],
-        "Created Date": "2025-05-21T1726:36.7726875Z",
-        "negativePrompt": "lazyneg",
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-07-02T1549:45.4687640Z",
+        "experimental": false,
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1054326,
-            "modelVersionName": "Pixel Alchemy v30"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 1470451,
-            "modelVersionName": "lazypos"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 1591915,
-            "modelVersionName": "lazyneg"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 640946,
-            "modelVersionName": "V 1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1670651,
-            "modelVersionName": "v2.3I Illustrious 4/15"
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
             "type": "lora",
             "weight": 0.7,
-            "modelVersionId": 654321,
+            "modelVersionId": 728041,
+            "modelVersionName": "v01"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1568518,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 846064,
             "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.1,
+            "modelVersionId": 1568400,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1564733,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 1163590,
+            "modelVersionName": "v1.0"
           }
-        ]
+        ],
+        "fluxUltraAspectRatio": "4"
       },
-      "username": "ascherwarfeather",
-      "baseModel": "SDXL 1.0",
+      "username": "coldwood",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        640946,
-        654321,
-        1054326,
-        1470451,
-        1591915,
-        1670651
+        691639,
+        728041,
+        846064,
+        1163590,
+        1564733,
+        1568400,
+        1568518
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "616|1751539297915",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=616%7C1751539297915"
+    "nextCursor": "617|1746150713599",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=617%7C1746150713599"
   }
 }
