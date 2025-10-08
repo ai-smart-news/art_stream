@@ -1,40 +1,89 @@
 {
   "items": [
     {
-      "id": 67283422,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22908727-7c34-474a-85be-4fcc24828e2e/original=true/22908727-7c34-474a-85be-4fcc24828e2e.jpeg",
-      "hash": "UCJ6=_^Y0e~9}ax@xm}=011jrD9G0-9cD*4:",
-      "width": 1280,
-      "height": 1856,
+      "id": 55740804,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd3baace-f2eb-469f-b7d9-ef6d50c202b3/original=true/bd3baace-f2eb-469f-b7d9-ef6d50c202b3.jpeg",
+      "hash": "UOD+*pD*%M%2~pE2-:t6t7NHt7RkxZS4M|WV",
+      "width": 2112,
+      "height": 3072,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T15:32:31.603Z",
-      "postId": 14963288,
+      "createdAt": "2025-02-04T10:02:36.697Z",
+      "postId": 12486487,
       "stats": {
-        "cryCount": 349,
-        "laughCount": 769,
-        "likeCount": 4371,
+        "cryCount": 292,
+        "laughCount": 483,
+        "likeCount": 4833,
         "dislikeCount": 0,
-        "heartCount": 1721,
-        "commentCount": 0
+        "heartCount": 1592,
+        "commentCount": 4
       },
       "meta": {
-        "seed": 998874300567796,
-        "steps": 30,
-        "prompt": "absurdres, masterpiece, 1girl, anime girl, solo, BREAK, CivChan, purple eyes, pink hair, BREAK, heart earrings, BREAK, maid, BREAK, writtenpeak, sidelighting, 1girl, holding quill, feathers, lamp, inkwell, map, indoors, writing, looking at object, smile, profile, from side,",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 5,
-        "negativePrompt": "jpeg artifacts, 3d, realistic, censored, glitch, deformed, mutated, ugly, disfigured, frown, long body, lowres, bad anatomy, bad hands, missing fingers, (extra fingers:1.4), fewer digits, cropped, very displeasing, worst quality, bad quality, bad anatomy, sketch, watermark, artist name, title, text, text in corner, cropped image, child, loli, frown,"
+        "nsfw": true,
+        "seed": 989138488,
+        "vaes": [],
+        "draft": false,
+        "extra": {},
+        "image": "https://orchestration.civitai.com/v2/consumer/blobs/TQ14YCCRF83TF3X2V0NHEVREZ0.jpeg",
+        "steps": 50,
+        "width": 832,
+        "height": 1216,
+        "models": [],
+        "prompt": "\nA 4K HDR masterpiece featuring a giant black serpent, its scales shimmering with iridescence, coiled around a mystical ancient tower of weathered stone. The tower, adorned with classical Doric columns and intricate carvings, stands in a serene, fantastical landscape. The architecture, reminiscent of ancient Greek temples, blends with lush gardens of vibrant flowers and towering trees. An immense crowd in ornate robes, showing awe, surrounds this classical structure. Majestic mountains rise in the background. The scene is bathed in soft golden light at dusk, casting long shadows that highlight the tower's classical elements. The mood is mystical, regal, evoking a timeless realm where magic intertwines with classical beauty.",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 3.5,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-upscale",
+        "baseModel": "Flux1",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "upscaleWidth": 2112,
+        "upscaleHeight": 3072,
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 691639
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 691639
+          },
+          {
+            "weight": 0.7,
+            "modelVersionId": 720252
+          },
+          {
+            "weight": 0.9,
+            "modelVersionId": 728041
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          }
+        ],
+        "additionalResources": []
       },
-      "username": "scfk",
-      "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "username": "BernardoDaChiaravalle",
+      "baseModel": "Flux.1 DFlux.1 D",
+      "modelVersionIds": [
+        164821,
+        691639,
+        691639,
+        720252,
+        728041
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "649|1738663356697",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=649%7C1738663356697"
+    "nextCursor": "650|1738952696022",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=650%7C1738952696022"
   }
 }
