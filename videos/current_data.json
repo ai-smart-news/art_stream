@@ -1,52 +1,52 @@
 {
   "items": [
     {
-      "id": 45084424,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/276e7c36-c893-4d03-93b9-a723bb40e3f5/original=true/276e7c36-c893-4d03-93b9-a723bb40e3f5.jpeg",
-      "hash": "URCG7C-nRit6~V%LM{of-oxuNbR+ogaeRkRk",
-      "width": 1792,
-      "height": 2368,
+      "id": 96445583,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa770b4a-c22b-4aef-92cf-887d60accad7/original=true/fa770b4a-c22b-4aef-92cf-887d60accad7.jpeg",
+      "hash": "U42%UrXURlnMn3R5WByEiaQ,V?tmysWBe-og",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-12T09:26:08.637Z",
-      "postId": 10216745,
+      "createdAt": "2025-08-25T15:51:20.031Z",
+      "postId": 21391759,
       "stats": {
-        "cryCount": 239,
-        "laughCount": 500,
-        "likeCount": 4682,
+        "cryCount": 477,
+        "laughCount": 817,
+        "likeCount": 4335,
         "dislikeCount": 0,
-        "heartCount": 1794,
-        "commentCount": 12
+        "heartCount": 1584,
+        "commentCount": 9
       },
       "meta": {
-        "Size": "1792x2368",
-        "seed": 186347038,
-        "steps": 30,
-        "prompt": "A stunning reimagining of Sally from The Nightmare Before Christmas, designed as a beautiful and stylish figure while maintaining her iconic stitched-together appearance. She has soft, pale blue skin with intricately detailed stitches running across her body, stitched mouth, now resembling elegant embroidery. Her long, flowing red hair cascades like silk, catching subtle glints of moonlight. She wears a modern, high-fashion gown inspired by her patchwork dress, redesigned with a sleek silhouette and bold, contrasting textures, blending delicate lace, velvet, and satin in deep, moody hues like midnight blue, crimson, and black. The background is a softly lit, ethereal scene with a full moon glowing behind her, surrounded by whimsical swirls and patterns reminiscent of Tim Burton\u2019s aesthetic. Her eyes are large and expressive, framed with delicate eyeliner and a subtle shimmer, conveying both mystery and charm. Dramatic lighting enhances her features and highlights the textures of her ensemble, creating a dreamlike and gothic-chic ambiance.",
-        "sampler": "Undefined",
-        "cfgScale": 7.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-12-12T0917:58.2118867Z",
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "A breathtaking cinematic fantasy scene of a humble farmer with tousled brown hair, wearing rustic clothing, harvesting luminous blue crystalline lightning bolt symbols that grow from the soil like enchanted crops. Each bolt glows with an ethereal radiance, casting shimmering blue light that softly illuminates the misty night air and reflects in the farmer\u2019s basket. The field is bathed in moonlight and sparkling particles drift through the atmosphere, enhancing the dreamlike quality. Shot in a sweeping wide-angle film composition with dramatic contrast and a magical, otherworldly atmosphere, as if from an epic fantasy movie.",
+        "process": "txt2img",
+        "quality": "high",
+        "quantity": 1,
+        "baseModel": "OpenAI",
+        "background": "opaque",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1088507,
-            "modelVersionName": "Pro 1.1 Ultra"
+            "weight": 1,
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "DigitalArtMatrix",
-      "baseModel": "Flux.1 D",
+      "username": "PixelMark",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        1088507
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "645|1756137080031",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=645%7C1756137080031"
+    "nextCursor": "646|1755374914691",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=646%7C1755374914691"
   }
 }
