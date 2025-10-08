@@ -1,89 +1,63 @@
 {
   "items": [
     {
-      "id": 55740804,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd3baace-f2eb-469f-b7d9-ef6d50c202b3/original=true/bd3baace-f2eb-469f-b7d9-ef6d50c202b3.jpeg",
-      "hash": "UOD+*pD*%M%2~pE2-:t6t7NHt7RkxZS4M|WV",
-      "width": 2112,
-      "height": 3072,
+      "id": 56412202,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e753e1c1-f920-49ba-933c-db976f703f0b/original=true/e753e1c1-f920-49ba-933c-db976f703f0b.jpeg",
+      "hash": "U01o%;M_00?cITt7%NM{00xv?wD$_NM{8^%N",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-04T10:02:36.697Z",
-      "postId": 12486487,
+      "createdAt": "2025-02-07T18:24:56.022Z",
+      "postId": 12633585,
       "stats": {
-        "cryCount": 292,
-        "laughCount": 483,
-        "likeCount": 4833,
+        "cryCount": 339,
+        "laughCount": 616,
+        "likeCount": 4648,
         "dislikeCount": 0,
-        "heartCount": 1592,
-        "commentCount": 4
+        "heartCount": 1594,
+        "commentCount": 3
       },
       "meta": {
+        "Size": "832x1216",
         "nsfw": true,
-        "seed": 989138488,
-        "vaes": [],
+        "seed": 427070526,
         "draft": false,
-        "extra": {},
-        "image": "https://orchestration.civitai.com/v2/consumer/blobs/TQ14YCCRF83TF3X2V0NHEVREZ0.jpeg",
-        "steps": 50,
+        "extra": {
+          "remixOfId": 51762916
+        },
+        "steps": 32,
         "width": 832,
         "height": 1216,
-        "models": [],
-        "prompt": "\nA 4K HDR masterpiece featuring a giant black serpent, its scales shimmering with iridescence, coiled around a mystical ancient tower of weathered stone. The tower, adorned with classical Doric columns and intricate carvings, stands in a serene, fantastical landscape. The architecture, reminiscent of ancient Greek temples, blends with lush gardens of vibrant flowers and towering trees. An immense crowd in ornate robes, showing awe, surrounds this classical structure. Majestic mountains rise in the background. The scene is bathed in soft golden light at dusk, casting long shadows that highlight the tower's classical elements. The mood is mystical, regal, evoking a timeless realm where magic intertwines with classical beauty.",
-        "sampler": "DPM++ 2M",
+        "prompt": "A digital artwork of a mysterious figure wearing a large, wide-brimmed black hat and a black mask adorned with small white dots. The background is dark. The figure's face is partially blurred, with striking blue lips as a focal point. The textures of the hat, mask, and skin are emphasized to add depth and intrigue. Subtle lighting is used to highlight the contours and shadows, creating a sense of enigma and allure. Delicate patterns and motifs are integrated into the mask and hat to add uniqueness and intricacy. The overall composition evokes a sense of mystery, elegance, and captivating beauty.",
+        "sampler": "Undefined",
         "cfgScale": 3.5,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "modelIds": [],
-        "priority": "low",
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@922358",
         "quantity": 1,
-        "workflow": "img2img-upscale",
+        "workflow": "txt2img",
         "baseModel": "Flux1",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "upscaleWidth": 2112,
-        "upscaleHeight": 3072,
+        "resources": [],
+        "Created Date": "2025-01-17T0751:19.8032838Z",
         "civitaiResources": [
           {
-            "weight": 1,
-            "modelVersionId": 691639
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 691639
-          },
-          {
-            "weight": 0.7,
-            "modelVersionId": 720252
-          },
-          {
-            "weight": 0.9,
-            "modelVersionId": 728041
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "type": "checkpoint",
+            "modelVersionId": 922358,
+            "modelVersionName": "Pro 1.1"
           }
-        ],
-        "additionalResources": []
+        ]
       },
-      "username": "BernardoDaChiaravalle",
-      "baseModel": "Flux.1 DFlux.1 D",
+      "username": "Ai_Collector",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        164821,
-        691639,
-        691639,
-        720252,
-        728041
+        922358
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "650|1738952696022",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=650%7C1738952696022"
+    "nextCursor": "651|1754457258205",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=651%7C1754457258205"
   }
 }
