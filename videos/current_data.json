@@ -1,51 +1,40 @@
 {
   "items": [
     {
-      "id": 76241594,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e0402aa-a378-415a-9f03-335ca2d1fa73/original=true/0e0402aa-a378-415a-9f03-335ca2d1fa73.jpeg",
-      "hash": "U02P6]=_$%bb^*$#$#kCZMoJxDs:NFS4bHsm",
-      "width": 1024,
-      "height": 1536,
+      "id": 67283422,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22908727-7c34-474a-85be-4fcc24828e2e/original=true/22908727-7c34-474a-85be-4fcc24828e2e.jpeg",
+      "hash": "UCJ6=_^Y0e~9}ax@xm}=011jrD9G0-9cD*4:",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-14T14:40:46.912Z",
-      "postId": 16931575,
+      "createdAt": "2025-04-01T15:32:31.603Z",
+      "postId": 14963288,
       "stats": {
-        "cryCount": 460,
-        "laughCount": 824,
-        "likeCount": 4437,
+        "cryCount": 349,
+        "laughCount": 769,
+        "likeCount": 4371,
         "dislikeCount": 0,
-        "heartCount": 1489,
-        "commentCount": 10
+        "heartCount": 1721,
+        "commentCount": 0
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "The Mawfield Orchard a grove of twisted fruit trees whose trunks are ringed with gaping mouths. The fruit is sweet and glows softly, but the mouths whisper apologies from voices you recognize, though no one else is there. live action 80's dark fantasy vhs still, , Grindhouse Gothic Pop-Noir aesthetic, no text",
-        "quality": "auto",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "background": "opaque",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
-          }
-        ]
+        "seed": 998874300567796,
+        "steps": 30,
+        "prompt": "absurdres, masterpiece, 1girl, anime girl, solo, BREAK, CivChan, purple eyes, pink hair, BREAK, heart earrings, BREAK, maid, BREAK, writtenpeak, sidelighting, 1girl, holding quill, feathers, lamp, inkwell, map, indoors, writing, looking at object, smile, profile, from side,",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 5,
+        "negativePrompt": "jpeg artifacts, 3d, realistic, censored, glitch, deformed, mutated, ugly, disfigured, frown, long body, lowres, bad anatomy, bad hands, missing fingers, (extra fingers:1.4), fewer digits, cropped, very displeasing, worst quality, bad quality, bad anatomy, sketch, watermark, artist name, title, text, text in corner, cropped image, child, loli, frown,"
       },
-      "username": "OdiousStooge",
-      "baseModel": "OpenAI",
-      "modelVersionIds": [
-        1733399
-      ]
+      "username": "scfk",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "648|1743521551603",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=648%7C1743521551603"
+    "nextCursor": "649|1738663356697",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=649%7C1738663356697"
   }
 }
