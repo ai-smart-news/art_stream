@@ -1,71 +1,60 @@
 {
   "items": [
     {
-      "id": 32611504,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9783ff10-7002-4a5f-bbf9-2d27533fab41/original=true/9783ff10-7002-4a5f-bbf9-2d27533fab41.jpeg",
-      "hash": "UD9jm1t89Dn,9DWARiWUD$R*x_og?ds:R4jH",
-      "width": 1248,
-      "height": 1824,
+      "id": 51604823,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/921367c9-77e9-4b7f-8be0-2ac768b9b8d0/original=true/921367c9-77e9-4b7f-8be0-2ac768b9b8d0.jpeg",
+      "hash": "U484rz=_00%24}oz.6R+uONwDgfz00t6~nxs",
+      "width": 2304,
+      "height": 2976,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-03T15:12:19.667Z",
-      "postId": 7464164,
+      "createdAt": "2025-01-14T16:43:44.601Z",
+      "postId": 11604914,
       "stats": {
-        "cryCount": 332,
-        "laughCount": 578,
-        "likeCount": 4524,
+        "cryCount": 318,
+        "laughCount": 572,
+        "likeCount": 4829,
         "dislikeCount": 0,
-        "heartCount": 1812,
-        "commentCount": 7
+        "heartCount": 1523,
+        "commentCount": 9
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 2231679042,
-        "Model": "flux_dev",
-        "steps": 22,
+        "Size": "896x1152",
+        "seed": 65468754,
+        "Model": "fluxmania_III",
+        "steps": 20,
         "hashes": {
-          "model": "",
-          "LORA:dark_fantasy_flux": "6e5f580c0e",
-          "LORA:FredFraiStyle-FLUX-Share": "63bfaa1cf9",
-          "LORA:sxz-Dark-Fantasy-v2-Flux": "5045fdb3ee"
+          "model": "925a7f7148",
+          "LORA:flux\\civitaiLogoFlux.safetensors": "54eaecc4a6",
+          "LORA:flux\\aidmaYearOfTheSnake-FLUX-v0.1.safetensors": "0e6b55cd6a"
         },
-        "prompt": "A young woman with shoulder-length wavy black hair is shown from the torso up, holding a glowing katana in front of her. She is wearing a traditional kimono that is white with iridescent, vibrant floral patterns in shades of pink, orange, blue, and green. The katana has a glowing, rainbow-colored blade, with the hilt held firmly in both her hands. Her right hand, visible and ungloved, grips the handle near the bottom, while her left hand, wearing a black glove, is placed near the guard. Her expression is calm, her gaze lowered. The kimono drapes softly over her form, and colorful, ethereal flowers seem to emerge from the fabric. The background is dark and minimal, which contrasts sharply with the vibrant light coming from the sword and the glowing floral patterns on her clothing. The lighting emphasizes the soft glow of the sword and flowers, creating a magical, serene atmosphere. The perspective is a close-up shot focusing on the upper half of her body, highlighting the intricate details of her kimono and the vibrant, colorful light effects.    <lora:dark_fantasy_flux:0.83> <lora:FredFraiStyle-FLUX-Share:0.63> <lora:sxz-Dark-Fantasy-v2-Flux:0.33> drkfnts style,",
+        "prompt": "aidmayearofthesnake , white round snake inside of civitaiLogo floating above sea during night, <lora:flux\\civitaiLogoFlux.safetensors:1.0:1.0> <lora:flux\\aidmaYearOfTheSnake-FLUX-v0.1.safetensors:0.8:0.8>",
         "Version": "ComfyUI",
-        "sampler": "Euler",
-        "cfgScale": 3.3,
+        "sampler": "UniPC",
+        "cfgScale": 1,
+        "clipSkip": 1,
         "resources": [
           {
-            "name": "dark_fantasy_flux",
-            "type": "lora",
-            "weight": 0.83
-          },
-          {
-            "name": "FredFraiStyle-FLUX-Share",
-            "type": "lora",
-            "weight": 0.63
-          },
-          {
-            "name": "sxz-Dark-Fantasy-v2-Flux",
-            "type": "lora",
-            "weight": 0.33
+            "hash": "925a7f7148",
+            "name": "fluxmania_III",
+            "type": "model"
           }
         ],
-        "Model hash": ""
+        "Model hash": "925a7f7148"
       },
-      "username": "Rekano33",
+      "username": "cgibson",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639,
-        759880,
-        759600,
-        738658
+        1282322,
+        864939,
+        1205317
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "642|1736873024601",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=642%7C1736873024601"
+    "nextCursor": "643|1749433500000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=643%7C1749433500000"
   }
 }
