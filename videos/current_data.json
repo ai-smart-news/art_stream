@@ -1,48 +1,63 @@
 {
   "items": [
     {
-      "id": 69978836,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5c63560-92ed-456c-9151-16c311b31706/original=true/b5c63560-92ed-456c-9151-16c311b31706.jpeg",
-      "hash": "UBAc}301_1Ip_24p%1NH~VD*xaxa.7M|xZkC",
-      "width": 3072,
-      "height": 3072,
+      "id": 67493140,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be6cab55-1126-40c7-92d7-c5a575d6ae4f/original=true/be6cab55-1126-40c7-92d7-c5a575d6ae4f.jpeg",
+      "hash": "UFMZ2t}v01-=+}4-ABo{%eJ#0dJP%#n+MdWY",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-14T13:09:37.194Z",
-      "postId": 15545271,
+      "createdAt": "2025-04-02T14:24:11.289Z",
+      "postId": 15007164,
       "stats": {
-        "cryCount": 400,
-        "laughCount": 608,
-        "likeCount": 4445,
+        "cryCount": 357,
+        "laughCount": 638,
+        "likeCount": 4523,
         "dislikeCount": 0,
-        "heartCount": 1820,
-        "commentCount": 8
+        "heartCount": 1752,
+        "commentCount": 1
       },
       "meta": {
-        "Size": "1024x1024",
-        "seed": 119,
-        "Model": "Flux.1 [Dev",
-        "steps": 31,
-        "hashes": {
-          "model": ""
+        "Size": "832x1216",
+        "seed": 456183572,
+        "extra": {
+          "remixOfId": 67162273
         },
-        "prompt": "surreal scene of a woman standing at the center of a spiraling storm of black bats, her elegant gown seamlessly morphing into the bats in flight. Dress melting into the background. The composition merges serenity with motion, as the bats form a hypnotic vortex into a dark tunnel behind her. Rendered in soft black, muted grays, and dark golden hues, the image evokes a dreamlike sense of transformation, peace, and otherworldly beauty. The visual flow and symbolism suggest themes of inner liberation, grace, and transcendence",
-        "Version": "ComfyUI",
-        "sampler": "deis_ddim_uniform",
-        "cfgScale": 3,
+        "steps": 40,
+        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, \nlong_lashes, blush, dynamic_angle, maid uniform, cinematic, lifting a big cake overhead, preparing to throw, pink background, black_background, ethereal_aura, big_eyes, pastel_mint, pastel_pink, pastel_yellow, dutch angle, cute smile",
+        "sampler": "Euler a",
+        "cfgScale": 5.5,
+        "clipSkip": 2,
         "resources": [],
-        "Model hash": "",
-        "negativePrompt": "-"
+        "Created Date": "2025-04-02T1423:23.0035663Z",
+        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, young,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1528632,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1597055,
+            "modelVersionName": "V1"
+          }
+        ]
       },
-      "username": "Krawuzzn",
-      "baseModel": null,
-      "modelVersionIds": []
+      "username": null,
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1528632,
+        1597055
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "635|1743603851289",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=635%7C1743603851289"
+    "nextCursor": "636|1738951200000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=636%7C1738951200000"
   }
 }
