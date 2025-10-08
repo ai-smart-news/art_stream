@@ -1,88 +1,52 @@
 {
   "items": [
     {
-      "id": 81207470,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9119c065-dc64-4ed4-ad9d-6670343bad13/original=true/9119c065-dc64-4ed4-ad9d-6670343bad13.jpeg",
-      "hash": "UEH1_1~VH;01020P9yM|X=^%9G=;#3-3x^NM",
-      "width": 1152,
-      "height": 1728,
+      "id": 45084424,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/276e7c36-c893-4d03-93b9-a723bb40e3f5/original=true/276e7c36-c893-4d03-93b9-a723bb40e3f5.jpeg",
+      "hash": "URCG7C-nRit6~V%LM{of-oxuNbR+ogaeRkRk",
+      "width": 1792,
+      "height": 2368,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-09T01:45:00.000Z",
-      "postId": 18037775,
+      "createdAt": "2024-12-12T09:26:08.637Z",
+      "postId": 10216745,
       "stats": {
-        "cryCount": 343,
-        "laughCount": 619,
-        "likeCount": 4632,
+        "cryCount": 239,
+        "laughCount": 500,
+        "likeCount": 4682,
         "dislikeCount": 0,
-        "heartCount": 1640,
-        "commentCount": 2
+        "heartCount": 1794,
+        "commentCount": 12
       },
       "meta": {
-        "Size": "768x1152",
-        "seed": 3781955839,
-        "Model": "dmixfouth",
-        "steps": 20,
-        "Script": "X/Y/Z plot",
-        "X Type": "Checkpoint name",
-        "hashes": {
-          "model": "1157694b22",
-          "lora:Detailer_NoobAI_Incrs_v1": "9f242f949d7b"
-        },
-        "prompt": "mechanical parts, solo, damaged, android, science fiction, cable,, 1girl, cyborg, portrait, , , bald, robot, black sclera, cyberpunk, gold pupils,  white skin, gold, wires, , gold lips, cyberpunk, single tear, expressionless, crying with eyes open, colored eyelashes,, <lora:Detailer_NoobAI_Incrs_v1:0.75>, masterwork, masterpiece, best quality,  detailed, depth of field, realistic, ultra-HD,  (impressionism:1.5), high detail, best quality, very aesthetic, 8k, , , , photorealistic, , , (cheekbones:0.75), adult, aged up, dynamic pose, depth of field, dynamic angle",
-        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
-        "sampler": "Euler a",
-        "X Values": "dmixfouth.safetensors [1157694b22]",
-        "cfgScale": 6,
-        "resources": [
+        "Size": "1792x2368",
+        "seed": 186347038,
+        "steps": 30,
+        "prompt": "A stunning reimagining of Sally from The Nightmare Before Christmas, designed as a beautiful and stylish figure while maintaining her iconic stitched-together appearance. She has soft, pale blue skin with intricately detailed stitches running across her body, stitched mouth, now resembling elegant embroidery. Her long, flowing red hair cascades like silk, catching subtle glints of moonlight. She wears a modern, high-fashion gown inspired by her patchwork dress, redesigned with a sleek silhouette and bold, contrasting textures, blending delicate lace, velvet, and satin in deep, moody hues like midnight blue, crimson, and black. The background is a softly lit, ethereal scene with a full moon glowing behind her, surrounded by whimsical swirls and patterns reminiscent of Tim Burton\u2019s aesthetic. Her eyes are large and expressive, framed with delicate eyeliner and a subtle shimmer, conveying both mystery and charm. Dramatic lighting enhances her features and highlights the textures of her ensemble, creating a dreamlike and gothic-chic ambiance.",
+        "sampler": "Undefined",
+        "cfgScale": 7.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-12-12T0917:58.2118867Z",
+        "civitaiResources": [
           {
-            "hash": "9f242f949d7b",
-            "name": "Detailer_NoobAI_Incrs_v1",
-            "type": "lora",
-            "weight": 0.75
-          },
-          {
-            "hash": "1157694b22",
-            "name": "dmixfouth",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 1088507,
+            "modelVersionName": "Pro 1.1 Ultra"
           }
-        ],
-        "Model hash": "1157694b22",
-        "Hires steps": "10",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "None",
-        "negativePrompt": "arch, pillar, dual wielding, multiple swords, outdoors,, lowres, worst quality, low quality, bad anatomy, bad hands, jpeg artifacts, signature, watermark, text, logo, artist name, extra digits,  censored, patreon username, (anime:1.2), loli",
-        "ADetailer model": "Anzhc Face seg 640 v2 y8n.pt",
-        "ADetailer steps": "20",
-        "Hires CFG Scale": "6",
-        "ADetailer sampler": "DPM++ 2M",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.1",
-        "ADetailer mask blur": "4",
-        "ADetailer scheduler": "Automatic",
-        "ADetailer confidence": "0.25",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer mask only top k": "1",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer use separate steps": "True",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer use separate sampler": "True",
-        "ADetailer method to decide top k masks": "Area"
+        ]
       },
-      "username": "phinjo",
-      "baseModel": "Illustrious",
+      "username": "DigitalArtMatrix",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1191626
+        1088507
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "644|1733995568637",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=644%7C1733995568637"
+    "nextCursor": "645|1756137080031",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=645%7C1756137080031"
   }
 }
