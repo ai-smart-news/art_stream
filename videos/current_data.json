@@ -1,33 +1,83 @@
 {
   "items": [
     {
-      "id": 63091411,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4340a4c-c295-4b00-a04c-42c7571dbaac/original=true/a4340a4c-c295-4b00-a04c-42c7571dbaac.jpeg",
-      "hash": "UPK1gUJuT1-mRM9I9Gt3EAxU$_WtJGx]?at8",
-      "width": 2160,
-      "height": 3840,
+      "id": 57215949,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6fd754d-b233-4c48-a5cb-bcba71b8ebf4/original=true/b6fd754d-b233-4c48-a5cb-bcba71b8ebf4.jpeg",
+      "hash": "UBF62#R%56~VAN9bx_M|A3w@MwSe%$RjrCW?",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-12T13:42:18.267Z",
-      "postId": 14077909,
+      "createdAt": "2025-02-11T23:59:00.000Z",
+      "postId": 12808497,
       "stats": {
-        "cryCount": 284,
-        "laughCount": 539,
-        "likeCount": 4813,
+        "cryCount": 295,
+        "laughCount": 532,
+        "likeCount": 4634,
         "dislikeCount": 0,
-        "heartCount": 1695,
-        "commentCount": 6
+        "heartCount": 1868,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "AstrokX",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "": {},
+        "Size": "832x1216",
+        "seed": 3847547359,
+        "Model": "SmoothMix_Illustrious_v2",
+        "model": {},
+        "steps": 30,
+        "Hashes": {
+          "{embed": "Smooth Quality"
+        },
+        "hashes": {
+          "model": "cb39f56617",
+          "embed:Smooth Quality": "0388be1500",
+          "embed:Smooth Negative": "636f58fdcd"
+        },
+        "prompt": "Smooth Quality, 1girl, solo, light smile, basket, blonde hair, blue sky, boots, bouquet, cloud, cloudy sky, daisy, dandelion, day, field, flower, flower field, flower pot, garden, gloves, grass, hat, hill, holding bouquet, holding flower, hydrangea, long hair, mountain, mountainous horizon, orange flower, outdoors, pink flower, plant, potted plant, purple flower, rose, scenery, sky, straw hat, sun hat, sunflower, sunset, tulip, windmill, wooden fence, yellow flower, yellow rose, cowboy shot,",
+        "Version": "f1.3.0-v1.10.1RC-latest-992-g8ac78f65",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "TI hashes": {
+          "Smooth Quality": "0388be1500af",
+          "Smooth Negative": "636f58fdcdcb"
+        },
+        "resources": [
+          {
+            "hash": "cb39f56617",
+            "name": "SmoothMix_Illustrious_v2",
+            "type": "model"
+          }
+        ],
+        "Model hash": "cb39f56617",
+        "Hires steps": "15",
+        "Hires upscale": "1.5",
+        "Schedule type": "Automatic",
+        "Hires upscaler": "4x_foolhardy_Remacri",
+        "negativePrompt": "Smooth Negative\u200b\u200b\u200b",
+        "ADetailer model": "face_yolov8n.pt",
+        "Hires CFG Scale": "5",
+        "ADetailer version": "24.11.1",
+        "Denoising strength": "0.1",
+        "ADetailer mask blur": "7",
+        "ADetailer confidence": "0.3",
+        "{embed:Smooth Quality": {},
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.2",
+        "ADetailer inpaint only masked": "True"
+      },
+      "username": "DigitalPastel",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1195460,
+        1195487
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "621|1739318340000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=621%7C1739318340000"
+    "nextCursor": "622|1733405763068",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=622%7C1733405763068"
   }
 }
