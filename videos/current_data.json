@@ -1,106 +1,33 @@
 {
   "items": [
     {
-      "id": 86015738,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0306b12b-460b-468a-8362-b0704e7047d2/original=true/0306b12b-460b-468a-8362-b0704e7047d2.jpeg",
-      "hash": "UBCsp-E300xt~VS4WUjF4nnh-:T0NIo0adSh",
-      "width": 832,
-      "height": 1216,
+      "id": 73612129,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/227a0fa9-e107-4673-b05e-fc0fa1db0870/original=true/227a0fa9-e107-4673-b05e-fc0fa1db0870.jpeg",
+      "hash": "UX8=$ctQyDa}.mozo}af%gozV@afyDozV@az",
+      "width": 3072,
+      "height": 3072,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-03T10:41:37.915Z",
-      "postId": 19088448,
+      "createdAt": "2025-05-02T01:51:53.599Z",
+      "postId": 16269649,
       "stats": {
-        "cryCount": 404,
-        "laughCount": 684,
-        "likeCount": 4485,
+        "cryCount": 528,
+        "laughCount": 620,
+        "likeCount": 4544,
         "dislikeCount": 0,
-        "heartCount": 1773,
-        "commentCount": 6
+        "heartCount": 1645,
+        "commentCount": 3
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 1117557592,
-        "draft": false,
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "prompt": "F1CNShanhaij, The image depicts a beautifully illustrated phoenix surrounded by swirling clouds and floral elements. The phoenix is predominantly white with shades of blue and teal, and it has long, flowing feathers that resemble a blend of smoke and water. It is adorned with delicate blossoms, some of which are pink and others are white, adding a touch of elegance to the scene. The background is a dark, abstract composition with subtle floral patterns and small, glowing particles scattered throughout, creating a mystical and ethereal atmosphere. The overall design is intricate and artistic, with a harmonious balance of colors and forms.",
-        "process": "txt2img",
-        "sampler": "Undefined",
-        "cfgScale": 1,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-07-02T1549:45.4687640Z",
-        "experimental": false,
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 728041,
-            "modelVersionName": "v01"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1568518,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 846064,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.1,
-            "modelVersionId": 1568400,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1564733,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 1163590,
-            "modelVersionName": "v1.0"
-          }
-        ],
-        "fluxUltraAspectRatio": "4"
-      },
-      "username": "coldwood",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        728041,
-        846064,
-        1163590,
-        1564733,
-        1568400,
-        1568518
-      ]
+      "meta": null,
+      "username": "ChoccoNCream",
+      "baseModel": null,
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "617|1746150713599",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=617%7C1746150713599"
+    "nextCursor": "618|1758312553361",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=618%7C1758312553361"
   }
 }
