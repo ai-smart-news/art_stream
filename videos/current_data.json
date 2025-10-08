@@ -1,63 +1,33 @@
 {
   "items": [
     {
-      "id": 67493140,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be6cab55-1126-40c7-92d7-c5a575d6ae4f/original=true/be6cab55-1126-40c7-92d7-c5a575d6ae4f.jpeg",
-      "hash": "UFMZ2t}v01-=+}4-ABo{%eJ#0dJP%#n+MdWY",
-      "width": 832,
-      "height": 1216,
+      "id": 56357269,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74634376-5c3c-46f8-ab9a-e210bba35347/original=true/74634376-5c3c-46f8-ab9a-e210bba35347.jpeg",
+      "hash": "UdGFUw6kRjwb}HN_NZn$Jmw]R*S2B6w]jES4",
+      "width": 720,
+      "height": 1280,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-02T14:24:11.289Z",
-      "postId": 15007164,
+      "createdAt": "2025-02-07T18:00:00.000Z",
+      "postId": 12621076,
       "stats": {
-        "cryCount": 357,
-        "laughCount": 638,
-        "likeCount": 4523,
+        "cryCount": 285,
+        "laughCount": 569,
+        "likeCount": 4738,
         "dislikeCount": 0,
-        "heartCount": 1752,
-        "commentCount": 1
+        "heartCount": 1678,
+        "commentCount": 2
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 456183572,
-        "extra": {
-          "remixOfId": 67162273
-        },
-        "steps": 40,
-        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, \nlong_lashes, blush, dynamic_angle, maid uniform, cinematic, lifting a big cake overhead, preparing to throw, pink background, black_background, ethereal_aura, big_eyes, pastel_mint, pastel_pink, pastel_yellow, dutch angle, cute smile",
-        "sampler": "Euler a",
-        "cfgScale": 5.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-04-02T1423:23.0035663Z",
-        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, young,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1528632,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055,
-            "modelVersionName": "V1"
-          }
-        ]
-      },
-      "username": null,
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1528632,
-        1597055
-      ]
+      "meta": null,
+      "username": "BadArt",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "636|1738951200000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=636%7C1738951200000"
+    "nextCursor": "637|1746667185974",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=637%7C1746667185974"
   }
 }
