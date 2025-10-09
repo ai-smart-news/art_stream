@@ -1,79 +1,77 @@
 {
   "items": [
     {
-      "id": 50748949,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/565a80f2-6118-40a9-99bf-3471bfcfe529/original=true/565a80f2-6118-40a9-99bf-3471bfcfe529.jpeg",
-      "hash": "UMDlN7xZ?sR+whR+Efs.~TkBo|sVr=V[S5f7",
-      "width": 3328,
-      "height": 4864,
+      "id": 29087042,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5806e11-8476-4ed1-9518-26e2b5a4e6ea/original=true/b5806e11-8476-4ed1-9518-26e2b5a4e6ea.jpeg",
+      "hash": "UEGtDc~75;of=]V]oLt5KNS55EI=-St39_N1",
+      "width": 1488,
+      "height": 1776,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-10T15:35:32.248Z",
-      "postId": 11418008,
+      "createdAt": "2024-09-12T19:24:33.597Z",
+      "postId": 6508056,
       "stats": {
-        "cryCount": 285,
-        "laughCount": 463,
-        "likeCount": 4911,
+        "cryCount": 407,
+        "laughCount": 629,
+        "likeCount": 4477,
         "dislikeCount": 0,
-        "heartCount": 1537,
-        "commentCount": 1
+        "heartCount": 1681,
+        "commentCount": 0
       },
       "meta": {
-        "VAE": "ae.safetensors",
-        "Size": "832x1216",
-        "seed": 371657737877220,
-        "Model": "flux_dev.safetensors",
-        "steps": 30,
+        "Size": "1488x1776",
+        "seed": 948860933,
+        "Model": "flux1-dev-Q4_0",
+        "steps": 20,
         "hashes": {
-          "vae": "afc8e28272",
-          "model": "2eda627c8a",
-          "lora:InkSketch_Flux": "be64315800",
-          "lora:sketch_style_v1.0": "239e041ceb",
-          "lora:aidmaMJ6.1-FLUX-v0.5": "ecb64944ab",
-          "lora:FluxDFaeTasticDetails": "4259dc3287"
+          "model": "e9c9d702d0",
+          "lora:ImageUpgraderV2": "e5598e0ef11d",
+          "lora:style_of_Hieronymus_Bosch_FLUX_189": "f5ba17a355ca"
         },
-        "prompt": "Retro game style, man in old school suit, upper body, true detective, detailed character, nigh sky, crimson moon silhouette, american muscle car parked on dark street in background, complex background in style of Bill Sienkiewicz and Dave McKean and Carne Griffiths, extremely detailed, mysterious, grim, provocative, thrilling, dynamic, action-packed, fallout style, vintage, game theme, masterpiece, high contrast, stark. vivid colors, 16-bit, pixelated, textured, distressed",
-        "sampler": "euler_simple",
+        "prompt": "Imagine a surreal, dreamlike portrait of a ladybug resting on the vibrant yellow petal of a sunflower. style of Hieronymus Bosch. The ladybug, with its deep red shell and bold black spots, is rendered with a soft, glowing texture that contrasts gently against the flower's vivid yellow petals. Its enlarged, reflective eyes catch the light, adding an innocent, curious expression.\nThe sunflower, towering and oversized, dominates the background, its textured brown center providing a rich, earthy contrast to the smooth red of the ladybug\u00e2\u0080\u0099s shell. The petals extend outward, curving gently, their bright yellow tones blending softly into the background of muted greens and browns.\nThe overall atmosphere is one of serene elegance, with soft, flowing lines and a harmonious color palette. The background, slightly blurred and abstracted, enhances the focus on the ladybug and sunflower, creating a sense of stillness and quiet beauty.\ndetailmaximizer\n<lora:ImageUpgraderV2:.75> <lora:style_of_Hieronymus_Bosch_FLUX_189:1>",
+        "Version": "f2.0.1v1.10.1-previous-527-g720b80da",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "t5xxl_fp8_e4m3fn",
+        "Module 3": "clip_l",
         "cfgScale": 1,
         "resources": [
           {
-            "hash": "2eda627c8a",
-            "name": "flux_dev.safetensors",
+            "hash": "e5598e0ef11d",
+            "name": "ImageUpgraderV2",
+            "type": "lora",
+            "weight": 0.75
+          },
+          {
+            "hash": "f5ba17a355ca",
+            "name": "style_of_Hieronymus_Bosch_FLUX_189",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "e9c9d702d0",
+            "name": "flux1-dev-Q4_0",
             "type": "model"
           }
         ],
-        "Model hash": "2eda627c8a",
-        "Lora_0 Model hash": "4259dc3287",
-        "Lora_0 Model name": "FluxDFaeTasticDetails.safetensors",
-        "Lora_1 Model hash": "239e041ceb",
-        "Lora_1 Model name": "sketch_style_v1.0.safetensors",
-        "Lora_2 Model hash": "be64315800",
-        "Lora_2 Model name": "InkSketch_Flux.safetensors",
-        "Lora_3 Model hash": "ecb64944ab",
-        "Lora_3 Model name": "aidmaMJ6.1-FLUX-v0.5.safetensors",
-        "Lora_0 Strength clip": "1.0",
-        "Lora_1 Strength clip": "1.0",
-        "Lora_2 Strength clip": "1.0",
-        "Lora_3 Strength clip": "1.0",
-        "Lora_0 Strength model": "0.5",
-        "Lora_1 Strength model": "0.5",
-        "Lora_2 Strength model": "0.5",
-        "Lora_3 Strength model": "1.0"
+        "Model hash": "e9c9d702d0",
+        "Schedule type": "Simple",
+        "Denoising strength": "0.25",
+        "Distilled CFG Scale": "3.5",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
       },
-      "username": "Vuxyjeke",
-      "baseModel": "Flux.1 D",
+      "username": "KoffJerky",
+      "baseModel": null,
       "modelVersionIds": [
-        897643,
-        691639,
-        720252,
-        1249246
+        735063,
+        796618
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "653|1726169073597",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=653%7C1726169073597"
+    "nextCursor": "654|1738602181810",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=654%7C1738602181810"
   }
 }
