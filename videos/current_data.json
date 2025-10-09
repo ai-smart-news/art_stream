@@ -1,77 +1,35 @@
 {
   "items": [
     {
-      "id": 29087042,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5806e11-8476-4ed1-9518-26e2b5a4e6ea/original=true/b5806e11-8476-4ed1-9518-26e2b5a4e6ea.jpeg",
-      "hash": "UEGtDc~75;of=]V]oLt5KNS55EI=-St39_N1",
-      "width": 1488,
-      "height": 1776,
+      "id": 55601696,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3a60039-b1ab-4a69-b01e-ebe24324e059/original=true/f3a60039-b1ab-4a69-b01e-ebe24324e059.jpeg",
+      "hash": "UL4D*nf6ixj[ugayVGfkpbf*VGkBpHfka1fQ",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-12T19:24:33.597Z",
-      "postId": 6508056,
+      "createdAt": "2025-02-03T17:03:01.810Z",
+      "postId": 12456456,
       "stats": {
-        "cryCount": 407,
-        "laughCount": 629,
-        "likeCount": 4477,
+        "cryCount": 255,
+        "laughCount": 481,
+        "likeCount": 4936,
         "dislikeCount": 0,
-        "heartCount": 1681,
-        "commentCount": 0
+        "heartCount": 1518,
+        "commentCount": 4
       },
-      "meta": {
-        "Size": "1488x1776",
-        "seed": 948860933,
-        "Model": "flux1-dev-Q4_0",
-        "steps": 20,
-        "hashes": {
-          "model": "e9c9d702d0",
-          "lora:ImageUpgraderV2": "e5598e0ef11d",
-          "lora:style_of_Hieronymus_Bosch_FLUX_189": "f5ba17a355ca"
-        },
-        "prompt": "Imagine a surreal, dreamlike portrait of a ladybug resting on the vibrant yellow petal of a sunflower. style of Hieronymus Bosch. The ladybug, with its deep red shell and bold black spots, is rendered with a soft, glowing texture that contrasts gently against the flower's vivid yellow petals. Its enlarged, reflective eyes catch the light, adding an innocent, curious expression.\nThe sunflower, towering and oversized, dominates the background, its textured brown center providing a rich, earthy contrast to the smooth red of the ladybug\u00e2\u0080\u0099s shell. The petals extend outward, curving gently, their bright yellow tones blending softly into the background of muted greens and browns.\nThe overall atmosphere is one of serene elegance, with soft, flowing lines and a harmonious color palette. The background, slightly blurred and abstracted, enhances the focus on the ladybug and sunflower, creating a sense of stillness and quiet beauty.\ndetailmaximizer\n<lora:ImageUpgraderV2:.75> <lora:style_of_Hieronymus_Bosch_FLUX_189:1>",
-        "Version": "f2.0.1v1.10.1-previous-527-g720b80da",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "t5xxl_fp8_e4m3fn",
-        "Module 3": "clip_l",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "e5598e0ef11d",
-            "name": "ImageUpgraderV2",
-            "type": "lora",
-            "weight": 0.75
-          },
-          {
-            "hash": "f5ba17a355ca",
-            "name": "style_of_Hieronymus_Bosch_FLUX_189",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "e9c9d702d0",
-            "name": "flux1-dev-Q4_0",
-            "type": "model"
-          }
-        ],
-        "Model hash": "e9c9d702d0",
-        "Schedule type": "Simple",
-        "Denoising strength": "0.25",
-        "Distilled CFG Scale": "3.5",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
-      },
-      "username": "KoffJerky",
-      "baseModel": null,
+      "meta": null,
+      "username": "monstera",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        735063,
-        796618
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "654|1738602181810",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=654%7C1738602181810"
+    "nextCursor": "655|1738851032496",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=655%7C1738851032496"
   }
 }
