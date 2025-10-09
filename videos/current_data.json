@@ -1,36 +1,61 @@
 {
   "items": [
     {
-      "id": 96099483,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e5aba428-d9d6-4f67-b728-353b47cf53fa/original=true/e5aba428-d9d6-4f67-b728-353b47cf53fa.jpeg",
-      "hash": "UJJu4S579Z~C^jbvyExa8_IUX9M{afM{ITt7",
-      "width": 832,
-      "height": 1216,
+      "id": 42750475,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7281429-7dc8-4256-9907-2e2c55137f40/original=true/c7281429-7dc8-4256-9907-2e2c55137f40.jpeg",
+      "hash": "UBD+M20g01~U9v-nofIp4poz^%E2X8jsaea}",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-25T09:45:07.712Z",
-      "postId": 21315951,
+      "createdAt": "2024-11-29T16:46:42.165Z",
+      "postId": 9730981,
       "stats": {
-        "cryCount": 579,
-        "laughCount": 672,
-        "likeCount": 4328,
+        "cryCount": 257,
+        "laughCount": 575,
+        "likeCount": 4570,
         "dislikeCount": 0,
-        "heartCount": 1583,
-        "commentCount": 3
+        "heartCount": 1760,
+        "commentCount": 10
       },
-      "meta": null,
-      "username": null,
-      "baseModel": "Illustrious",
+      "meta": {
+        "Size": "896x1152",
+        "seed": 3442713924,
+        "Model": "pixelwave_flux1Dev03",
+        "steps": 20,
+        "hashes": {
+          "model": "7d13a711c5"
+        },
+        "prompt": "of a smiling cat, oil painting art style from Renaissance period, masterful composition, Renaissance mood, renaissance oil painting, brush strokes, Fantasy illustration style, transports viewers to imaginative worlds, epic landscape, and heroic adventures, sparks wonder and inspiration",
+        "Version": "f2.0.1v1.10.1-previous-480-g3b9b2f65",
+        "sampler": "Euler",
+        "Module 1": "clip_l",
+        "Module 2": "t5xxl_fp8_e4m3fn",
+        "Module 3": "fluxVAEW_w2",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "7d13a711c5",
+            "name": "pixelwave_flux1Dev03",
+            "type": "model"
+          }
+        ],
+        "Model hash": "7d13a711c5",
+        "Schedule type": "Simple",
+        "negativePrompt": "painting frame, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts",
+        "Distilled CFG Scale": "3.5"
+      },
+      "username": "7Zack",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1761560,
-        1805761
+        992642
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "663|1732898802165",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=663%7C1732898802165"
+    "nextCursor": "664|1744318692023",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=664%7C1744318692023"
   }
 }
