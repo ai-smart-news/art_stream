@@ -1,40 +1,74 @@
 {
   "items": [
     {
-      "id": 98002816,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7434fc2-db4c-496c-af62-fb2f80ab8aa4/original=true/e7434fc2-db4c-496c-af62-fb2f80ab8aa4.jpeg",
-      "hash": "UFF~5L00%#~qIUD*IVM{bv9FIAxuoz~p?bWB",
-      "width": 3424,
-      "height": 6144,
+      "id": 49942186,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d30d77ca-ebbc-40b6-8c21-8efc26c2fb30/original=true/d30d77ca-ebbc-40b6-8c21-8efc26c2fb30.jpeg",
+      "hash": "UBEelX~W004n^5=|O?9v8wNG.RoztknOMeI;",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-02T23:03:26.349Z",
-      "postId": 21743755,
+      "createdAt": "2025-01-06T17:04:13.355Z",
+      "postId": 11249078,
       "stats": {
-        "cryCount": 297,
-        "laughCount": 453,
-        "likeCount": 4624,
+        "cryCount": 272,
+        "laughCount": 450,
+        "likeCount": 4853,
         "dislikeCount": 0,
-        "heartCount": 1798,
+        "heartCount": 1594,
         "commentCount": 3
       },
       "meta": {
-        "seed": 1730115288,
-        "steps": 25,
-        "prompt": "dynamic_pose, depth of field,lens flare,(artist:quasarcake:0.8),extreme aesthetic,(wlop:0.6),wanke,newest, dynamic pose,depth of field,muted color,masterpiece,best quality,amazing quality,very aesthetic,absurdres,newest, looking_at_viewer,close-up,HDR,Shadow Play,ambient occlusion,ray_tracing,(perspective:1.3),dutch angle,exaggerated perspective,foreshortening,Visual impact,A shot with tension, masterpiece,best quality,high quality,newest,absurdres,1girl,weapon,sword,black hair,solo,katana,long hair,blood,blue eyes,breasts,sarashi,looking at viewer,earrings,bandages,piercing,ear piercing,jewelry,blood on face,bangs,mechanical parts, CRYOS2, 748cmstyle, XUER guangying, eth3re4l,minimalism,no outline,muted color,retro artstyle,limited palette, realistic.",
-        "sampler": "DPM++ 3M SDE",
-        "cfgScale": 4,
-        "negativePrompt": "lowres, (bad quality,worst quality:1.2), long neck, bad anatomy,watermark, sketch,jpeg artifacts,ugly, poorly drawn,(censor),cross, loli, nsfw, nudity,"
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 2103267637,
+        "draft": false,
+        "steps": 50,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A fantasy landscape featuring an enchanted forest filled with massive, oversized red mushrooms with realistic textures and glowing edges. The forest floor is covered in vibrant autumn foliage and soft moss. Sunlight filters through a gentle mist, casting warm golden beams across the scene. A lone adventurer, a small human figure with a backpack, walks down a narrow forest path, emphasizing the scale of the gigantic mushrooms. The atmosphere is whimsical, magical, and dreamlike, with a surreal balance of realism and fantasy elements. Soft focus in the background enhances the depth and otherworldly feel",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-01-06T1651:45.7721906Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 728041,
+            "modelVersionName": "v01"
+          }
+        ]
       },
-      "username": "Yoruuu",
-      "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "username": "linxtree657",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        720252,
+        728041
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "658|1736183053355",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=658%7C1736183053355"
+    "nextCursor": "659|1747540200000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=659%7C1747540200000"
   }
 }
