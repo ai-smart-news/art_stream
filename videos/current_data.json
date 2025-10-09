@@ -1,63 +1,79 @@
 {
   "items": [
     {
-      "id": 56412202,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e753e1c1-f920-49ba-933c-db976f703f0b/original=true/e753e1c1-f920-49ba-933c-db976f703f0b.jpeg",
-      "hash": "U01o%;M_00?cITt7%NM{00xv?wD$_NM{8^%N",
-      "width": 832,
-      "height": 1216,
+      "id": 50748949,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/565a80f2-6118-40a9-99bf-3471bfcfe529/original=true/565a80f2-6118-40a9-99bf-3471bfcfe529.jpeg",
+      "hash": "UMDlN7xZ?sR+whR+Efs.~TkBo|sVr=V[S5f7",
+      "width": 3328,
+      "height": 4864,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-07T18:24:56.022Z",
-      "postId": 12633585,
+      "createdAt": "2025-01-10T15:35:32.248Z",
+      "postId": 11418008,
       "stats": {
-        "cryCount": 339,
-        "laughCount": 616,
-        "likeCount": 4648,
+        "cryCount": 285,
+        "laughCount": 463,
+        "likeCount": 4911,
         "dislikeCount": 0,
-        "heartCount": 1594,
-        "commentCount": 3
+        "heartCount": 1537,
+        "commentCount": 1
       },
       "meta": {
+        "VAE": "ae.safetensors",
         "Size": "832x1216",
-        "nsfw": true,
-        "seed": 427070526,
-        "draft": false,
-        "extra": {
-          "remixOfId": 51762916
+        "seed": 371657737877220,
+        "Model": "flux_dev.safetensors",
+        "steps": 30,
+        "hashes": {
+          "vae": "afc8e28272",
+          "model": "2eda627c8a",
+          "lora:InkSketch_Flux": "be64315800",
+          "lora:sketch_style_v1.0": "239e041ceb",
+          "lora:aidmaMJ6.1-FLUX-v0.5": "ecb64944ab",
+          "lora:FluxDFaeTasticDetails": "4259dc3287"
         },
-        "steps": 32,
-        "width": 832,
-        "height": 1216,
-        "prompt": "A digital artwork of a mysterious figure wearing a large, wide-brimmed black hat and a black mask adorned with small white dots. The background is dark. The figure's face is partially blurred, with striking blue lips as a focal point. The textures of the hat, mask, and skin are emphasized to add depth and intrigue. Subtle lighting is used to highlight the contours and shadows, creating a sense of enigma and allure. Delicate patterns and motifs are integrated into the mask and hat to add uniqueness and intricacy. The overall composition evokes a sense of mystery, elegance, and captivating beauty.",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@922358",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-01-17T0751:19.8032838Z",
-        "civitaiResources": [
+        "prompt": "Retro game style, man in old school suit, upper body, true detective, detailed character, nigh sky, crimson moon silhouette, american muscle car parked on dark street in background, complex background in style of Bill Sienkiewicz and Dave McKean and Carne Griffiths, extremely detailed, mysterious, grim, provocative, thrilling, dynamic, action-packed, fallout style, vintage, game theme, masterpiece, high contrast, stark. vivid colors, 16-bit, pixelated, textured, distressed",
+        "sampler": "euler_simple",
+        "cfgScale": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 922358,
-            "modelVersionName": "Pro 1.1"
+            "hash": "2eda627c8a",
+            "name": "flux_dev.safetensors",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "2eda627c8a",
+        "Lora_0 Model hash": "4259dc3287",
+        "Lora_0 Model name": "FluxDFaeTasticDetails.safetensors",
+        "Lora_1 Model hash": "239e041ceb",
+        "Lora_1 Model name": "sketch_style_v1.0.safetensors",
+        "Lora_2 Model hash": "be64315800",
+        "Lora_2 Model name": "InkSketch_Flux.safetensors",
+        "Lora_3 Model hash": "ecb64944ab",
+        "Lora_3 Model name": "aidmaMJ6.1-FLUX-v0.5.safetensors",
+        "Lora_0 Strength clip": "1.0",
+        "Lora_1 Strength clip": "1.0",
+        "Lora_2 Strength clip": "1.0",
+        "Lora_3 Strength clip": "1.0",
+        "Lora_0 Strength model": "0.5",
+        "Lora_1 Strength model": "0.5",
+        "Lora_2 Strength model": "0.5",
+        "Lora_3 Strength model": "1.0"
       },
-      "username": "Ai_Collector",
+      "username": "Vuxyjeke",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        922358
+        897643,
+        691639,
+        720252,
+        1249246
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "652|1736523332248",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=652%7C1736523332248"
+    "nextCursor": "653|1726169073597",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=653%7C1726169073597"
   }
 }
