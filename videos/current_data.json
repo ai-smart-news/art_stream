@@ -1,37 +1,70 @@
 {
   "items": [
     {
-      "id": 56178199,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d6321a2-0804-48cb-89c1-9fbe9a811682/original=true/2d6321a2-0804-48cb-89c1-9fbe9a811682.jpeg",
-      "hash": "UDExeD4p01~V0_oyJBM{VF%L-XM{J8NGott7",
-      "width": 768,
-      "height": 1024,
+      "id": 63881098,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67520db7-5bca-4cdf-b995-cfe4ff72c89e/original=true/67520db7-5bca-4cdf-b995-cfe4ff72c89e.jpeg",
+      "hash": "UYLpy+M|,.-nlobHR,ayAdslN_NHPBRQWBof",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-06T14:10:32.496Z",
-      "postId": 12556446,
+      "createdAt": "2025-03-16T23:00:00.000Z",
+      "postId": 14246903,
       "stats": {
-        "cryCount": 436,
-        "laughCount": 1449,
-        "likeCount": 3909,
+        "cryCount": 369,
+        "laughCount": 865,
+        "likeCount": 4234,
         "dislikeCount": 0,
-        "heartCount": 1384,
-        "commentCount": 9
+        "heartCount": 1708,
+        "commentCount": 10
       },
       "meta": {
-        "steps": 8,
-        "prompt": "Surreal cinematic photograph. Candid portrait of fat Princess Peach with a large bulbous nose and exaggerated features. Shot on 35mm analog film. Subtle film grain. Natural and soft lightning, blurred bokeh background. Detailed skin texture. d0nm4rt1n. Photo in the style of Don Martin\n",
-        "sampler": "DDIM"
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 686250144,
+        "draft": false,
+        "extra": {
+          "remixOfId": 43677569
+        },
+        "steps": 33,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Depict a surreal image of a polar bear, lounging on a deck chair among the vast sand dunes of a scorching desert. The bear is wearing a straw hat and sunglasses, sipping a cool lemonade. The sun beats down, but the bear appears entirely at ease in its unlikely setting.",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-03-16T1515:08.3463118Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          }
+        ]
       },
-      "username": "WizardWhitebeard",
+      "username": "CptnChaos",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        691639,
+        720252
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "656|1742166000000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=656%7C1742166000000"
+    "nextCursor": "657|1756854206349",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=657%7C1756854206349"
   }
 }
