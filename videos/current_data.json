@@ -1,91 +1,50 @@
 {
   "items": [
     {
-      "id": 63857579,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/360549c7-720e-4d17-89e7-f76d96ecabc6/original=true/360549c7-720e-4d17-89e7-f76d96ecabc6.jpeg",
-      "hash": "ULK]y10LrZozvgIV^%s;RRsUs,t7~AV@J7tR",
-      "width": 1216,
-      "height": 832,
+      "id": 74976326,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7684d347-966e-4b65-b04d-2c555163260d/original=true/7684d347-966e-4b65-b04d-2c555163260d.jpeg",
+      "hash": "UBBpFT%KGt-p_N%L%#%LL1%M$+x[?ctQNHx]",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-16T12:50:14.320Z",
-      "postId": 14241888,
+      "createdAt": "2025-05-08T11:33:51.284Z",
+      "postId": 16647382,
       "stats": {
-        "cryCount": 361,
-        "laughCount": 602,
-        "likeCount": 4384,
+        "cryCount": 372,
+        "laughCount": 616,
+        "likeCount": 4514,
         "dislikeCount": 0,
-        "heartCount": 1793,
-        "commentCount": 4
+        "heartCount": 1637,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "1216x832",
-        "nsfw": false,
-        "seed": 1051798722,
-        "draft": true,
-        "extra": {
-          "remixOfId": 63059247
-        },
-        "steps": 33,
-        "width": 1216,
-        "height": 832,
-        "prompt": "Paint a serene yet dynamic watercolor scene in the Flux art style, where a sleeping cat is *fully nestled within a swirling vortex of cherry blossom petals*. The cat\u2019s body, rendered in soft, muted washes of ash-gray and ivory, is half-buried under cascading layers of petals that pile like delicate snowdrifts. Use bold, sweeping strokes to create a sense of motion, as if the petals are alive\u2014curling over the cat\u2019s back, clinging to its fur, and dissolving into loose, abstract splatters of pink, pearl-white, and blush. Highlight the contrast between the cat\u2019s tranquil posture and the chaotic energy of the blossoms, with petals rendered in translucent, overlapping layers that deepen into coral and magenta near the edges. Add flecks of metallic gold ink to suggest sunlight glinting through the floral storm, while keeping the Flux style\u2019s raw, textured spontaneity. For the background, blur into watery gradients of slate blue and moss green, hinting at a windswept garden where blossoms spiral endlessly toward the sky.Oriental painting",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 4,
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "Masterpiece, high detail, photo, A stunningly close-up image of blood-red woman lips, with sharp, ivory-white fangs just barely visible. The lips are coated in a glossy sheen that reflects flashes of neon green and electric blue as if they are dripping with liquid fire. Tiny rivulets of glowing, purple-tinted blood trickle from the corners of the mouth, forming intricate, swirling patterns as they fall. the lips are plumb, plump lips. The skin around the lips is a flawless, icy pale, but glowing with hints of fluorescent blue veins. Behind the lips, there\u2019s a hint of an eerie, multicolored aurora-like light, creating a contrast between the glowing, radiant colors and the dark, dangerous sensuality of the fangs.",
+        "quantity": 1,
         "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-03-16T1248:30.3394440Z",
+        "background": "opaque",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 747534,
-            "modelVersionName": "Flux.1 D v1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 806265,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 1376386,
-            "modelVersionName": "Variant 3"
+            "weight": 1,
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "Jshmr",
-      "baseModel": "Flux.1 D",
+      "username": "NaughtySnuggles",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        691639,
-        720252,
-        747534,
-        806265,
-        1376386
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "676|1746704031284",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=676%7C1746704031284"
+    "nextCursor": "677|1728411811131",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=677%7C1728411811131"
   }
 }
