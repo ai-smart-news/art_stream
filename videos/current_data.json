@@ -1,67 +1,91 @@
 {
   "items": [
     {
-      "id": 67471253,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7dab53b2-9442-475d-a6fc-53813ff38f3f/original=true/7dab53b2-9442-475d-a6fc-53813ff38f3f.jpeg",
-      "hash": "UUFE_{kC9tbH~DbH9ZWVJUjZM{WVE}ofaKaz",
-      "width": 832,
-      "height": 1216,
+      "id": 63857579,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/360549c7-720e-4d17-89e7-f76d96ecabc6/original=true/360549c7-720e-4d17-89e7-f76d96ecabc6.jpeg",
+      "hash": "ULK]y10LrZozvgIV^%s;RRsUs,t7~AV@J7tR",
+      "width": 1216,
+      "height": 832,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-02T11:49:13.850Z",
-      "postId": 15002651,
+      "createdAt": "2025-03-16T12:50:14.320Z",
+      "postId": 14241888,
       "stats": {
-        "cryCount": 332,
-        "laughCount": 640,
-        "likeCount": 4470,
+        "cryCount": 361,
+        "laughCount": 602,
+        "likeCount": 4384,
         "dislikeCount": 0,
-        "heartCount": 1698,
-        "commentCount": 5
+        "heartCount": 1793,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 1242745631,
-        "draft": false,
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "CivChan, purple eyes, pink hair, vampire, fangs, smile, open mouth, looking at viewer, goth clothing, fishnet top, black corset, spiked choker, elbow fingerless gloves, shows her claws, night, outdoors, graveyard background, horror",
-        "sampler": "Euler a",
-        "cfgScale": 5,
+        "Size": "1216x832",
+        "nsfw": false,
+        "seed": 1051798722,
+        "draft": true,
+        "extra": {
+          "remixOfId": 63059247
+        },
+        "steps": 33,
+        "width": 1216,
+        "height": 832,
+        "prompt": "Paint a serene yet dynamic watercolor scene in the Flux art style, where a sleeping cat is *fully nestled within a swirling vortex of cherry blossom petals*. The cat\u2019s body, rendered in soft, muted washes of ash-gray and ivory, is half-buried under cascading layers of petals that pile like delicate snowdrifts. Use bold, sweeping strokes to create a sense of motion, as if the petals are alive\u2014curling over the cat\u2019s back, clinging to its fur, and dissolving into loose, abstract splatters of pink, pearl-white, and blush. Highlight the contrast between the cat\u2019s tranquil posture and the chaotic energy of the blossoms, with petals rendered in translucent, overlapping layers that deepen into coral and magenta near the edges. Add flecks of metallic gold ink to suggest sunlight glinting through the floral storm, while keeping the Flux style\u2019s raw, textured spontaneity. For the background, blur into watery gradients of slate blue and moss green, hinting at a windswept garden where blossoms spiral endlessly toward the sky.Oriental painting",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "quantity": 1,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 4,
         "workflow": "txt2img",
-        "baseModel": "Illustrious",
+        "baseModel": "Flux1",
         "resources": [],
-        "Created Date": "2025-04-02T1148:08.8740062Z",
-        "negativePrompt": "extra claws, 3d, render, realistic, worst quality, bad anatomy, bad drawing, loli",
+        "Created Date": "2025-03-16T1248:30.3394440Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1490781,
-            "modelVersionName": "v12.0"
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055,
-            "modelVersionName": "V1"
+            "weight": 0.45,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 747534,
+            "modelVersionName": "Flux.1 D v1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 806265,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 1376386,
+            "modelVersionName": "Variant 3"
           }
         ]
       },
-      "username": "DrFapFario",
-      "baseModel": "Illustrious",
+      "username": "Jshmr",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1490781,
-        1597055
+        691639,
+        720252,
+        747534,
+        806265,
+        1376386
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "675|1742129414320",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=675%7C1742129414320"
+    "nextCursor": "676|1746704031284",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=676%7C1746704031284"
   }
 }
