@@ -1,52 +1,55 @@
 {
   "items": [
     {
-      "id": 37409629,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/41f94d43-a33f-43b9-81fd-a55d4eb3febf/original=true/41f94d43-a33f-43b9-81fd-a55d4eb3febf.jpeg",
-      "hash": "U7AJZi#,4:EN1JNHxYnO0gWC-Ut6}rsmIptR",
+      "id": 102312134,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3ec37f71-ec74-428c-b4c4-6d11123f0d6c/original=true/3ec37f71-ec74-428c-b4c4-6d11123f0d6c.jpeg",
+      "hash": "UMI#7AE-%f={PXx]IUNGPDW?D*NH%ht7xYxt",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-30T16:34:22.208Z",
-      "postId": 8544127,
+      "createdAt": "2025-09-25T06:25:40.865Z",
+      "postId": 22698960,
       "stats": {
-        "cryCount": 322,
-        "laughCount": 729,
-        "likeCount": 4457,
+        "cryCount": 366,
+        "laughCount": 653,
+        "likeCount": 4437,
         "dislikeCount": 0,
-        "heartCount": 1639,
-        "commentCount": 9
+        "heartCount": 1688,
+        "commentCount": 6
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 823354834,
-        "steps": 4,
-        "prompt": "A charming, bright-eyed octopus sports a miniature, pointed witch's hat, its brim adorned with a delicate, sparkling broom. The octopus's eyes, shining like two bright, black jewels, sparkle with excitement as it gazes out from beneath its witchy disguise. One of its tentacles grasps a tiny, wooden broom, its bristles perfectly proportioned to the octopus's miniature size. Another tentacle holds a cauldron-shaped candy pail, its metal surface adorned with a miniature, glowing jack-o'-lantern face. The atmosphere is playful and lighthearted, with a hint of spooky, Halloween fun. The octopus's very presence seems to radiate a sense of joyful, mischievous energy, as if it's ready to cast a spell of delight on all who encounter it. highest-Quality, intricate details, visually stunning, Masterpiece",
-        "sampler": "Undefined",
-        "cfgScale": 1,
+        "seed": 2116192638,
+        "steps": 19,
+        "prompt": "A close-up photo of an adorable brown rabbit sitting on the beachside, wearing a sunhat with soft, fluffy ear flaps. The rabbit looks content and snug, with the summer landscape blurred in the background, creating a charming and warm contrast between the sunny environment and the lovely appearance of the bunny. The hat adds a cute and whimsical touch to the scene, making it perfect for a summer-themed setting.",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 3.5,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-10-30T1627:32.6632719Z",
+        "Created Date": "2024-09-18T1227:47.2283711Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 699279,
-            "modelVersionName": "Schnell"
+            "modelVersionId": 782002
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 106916
           }
         ]
       },
-      "username": "Cinnadust",
-      "baseModel": "Flux.1 D",
+      "username": "Lady_Luminous",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        699279
+        782002
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "670|1758781540865",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=670%7C1758781540865"
+    "nextCursor": "671|1758418200000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=671%7C1758418200000"
   }
 }
