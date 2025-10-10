@@ -1,35 +1,67 @@
 {
   "items": [
     {
-      "id": 35980641,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7e95ad7-5ad7-4e5e-a34d-a70a2e498938/original=true/e7e95ad7-5ad7-4e5e-a34d-a70a2e498938.jpeg",
-      "hash": "UB0{rZbcUgl6cZl7kQaPhIgzZ*e;hbgzeCf5",
+      "id": 67471253,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7dab53b2-9442-475d-a6fc-53813ff38f3f/original=true/7dab53b2-9442-475d-a6fc-53813ff38f3f.jpeg",
+      "hash": "UUFE_{kC9tbH~DbH9ZWVJUjZM{WVE}ofaKaz",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-22T16:23:34.277Z",
-      "postId": 8220187,
+      "createdAt": "2025-04-02T11:49:13.850Z",
+      "postId": 15002651,
       "stats": {
-        "cryCount": 364,
-        "laughCount": 621,
-        "likeCount": 4546,
+        "cryCount": 332,
+        "laughCount": 640,
+        "likeCount": 4470,
         "dislikeCount": 0,
-        "heartCount": 1610,
-        "commentCount": 10
+        "heartCount": 1698,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "Ai_Collector",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 1242745631,
+        "draft": false,
+        "steps": 30,
+        "width": 832,
+        "height": 1216,
+        "prompt": "CivChan, purple eyes, pink hair, vampire, fangs, smile, open mouth, looking at viewer, goth clothing, fishnet top, black corset, spiked choker, elbow fingerless gloves, shows her claws, night, outdoors, graveyard background, horror",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "Created Date": "2025-04-02T1148:08.8740062Z",
+        "negativePrompt": "extra claws, 3d, render, realistic, worst quality, bad anatomy, bad drawing, loli",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1490781,
+            "modelVersionName": "v12.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1597055,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "DrFapFario",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        922358
+        1490781,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "674|1743594553850",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=674%7C1743594553850"
+    "nextCursor": "675|1742129414320",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=675%7C1742129414320"
   }
 }
