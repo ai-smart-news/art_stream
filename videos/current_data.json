@@ -1,33 +1,38 @@
 {
   "items": [
     {
-      "id": 77003623,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63f92aab-7694-4338-84ee-38677575c8ef/original=true/63f92aab-7694-4338-84ee-38677575c8ef.jpeg",
-      "hash": "U8FOJgEg00-=T|=_E1tSD%tS~U9G8{bc_2Mx",
-      "width": 1024,
-      "height": 1536,
+      "id": 91379599,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9fc5b58-6e4f-4e5d-ac01-07c29dbc614b/original=true/d9fc5b58-6e4f-4e5d-ac01-07c29dbc614b.jpeg",
+      "hash": "UX9@[6Z~ISXS-@iwS4X5MwnNtmW;9tngxue:",
+      "width": 720,
+      "height": 1280,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-18T10:53:44.655Z",
-      "postId": 17102574,
+      "createdAt": "2025-07-30T13:15:06.583Z",
+      "postId": 20271207,
       "stats": {
-        "cryCount": 391,
-        "laughCount": 804,
-        "likeCount": 4092,
+        "cryCount": 322,
+        "laughCount": 588,
+        "likeCount": 4505,
         "dislikeCount": 0,
-        "heartCount": 1847,
-        "commentCount": 11
+        "heartCount": 1713,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "Meower2024",
-      "baseModel": "OpenAI",
+      "meta": {
+        "steps": 40,
+        "prompt": "A breathtaking night scene of a young man standing on the edge of a jagged precipice, overlooking an immense, otherworldly landscape. Below him, a deep river gorge cuts through towering rocky peaks, their shadows etched in moonlight. The air is crisp and thin, with a faint mist rising from the canyon depths. But the true spectacle is above\u2014a mesmerizing celestial intergalactic light show painting the sky in swirling neon hues: electric blues, cosmic purples, and radiant golds, as if distant galaxies are colliding in a silent, luminous dance. The Milky Way arcs overhead, but it\u2019s outshone by surreal auroras that ripple like living veils, casting an ethereal glow on the man\u2019s awestruck face. His wind-swept hair and slightly rugged outdoor gear (a worn jacket, hiking boots) suggest an adventurer who stumbled upon this cosmic secret. The rocks beneath his feet are textured with lichen and ancient cracks, grounding the scene in realism despite the sky\u2019s fantasy. The composition is vertical (720x1280), emphasizing the dizzying drop below and the infinite expanse above. Shot with a high-dynamic-range lens\u2014crisp foreground, dreamy astral bokeh\u2014blending the grit of Earth with the grandeur of the cosmos.",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 3
+      },
+      "username": "condzero1950",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "679|1753881306583",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=679%7C1753881306583"
+    "nextCursor": "680|1754391098029",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=680%7C1754391098029"
   }
 }
