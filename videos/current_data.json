@@ -1,60 +1,89 @@
 {
   "items": [
     {
-      "id": 98790967,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5907a389-b53c-45be-8ef1-d039cd342bf2/original=true/5907a389-b53c-45be-8ef1-d039cd342bf2.jpeg",
-      "hash": "U8F=5IEM0$-:00oe^iso+@E1D*%2~V-ojbE2",
-      "width": 832,
-      "height": 1216,
+      "id": 63210907,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7b54966a-bedd-44a9-a203-3b1d73c24fe7/original=true/7b54966a-bedd-44a9-a203-3b1d73c24fe7.jpeg",
+      "hash": "UJBfb8tk9ZR6~Wo|ROVtx]kCWAaK?HoyIUV@",
+      "width": 1408,
+      "height": 2048,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-06T21:53:12.928Z",
-      "postId": 21920707,
+      "createdAt": "2025-03-13T04:30:00.000Z",
+      "postId": 14103141,
       "stats": {
-        "cryCount": 343,
-        "laughCount": 514,
-        "likeCount": 4592,
+        "cryCount": 324,
+        "laughCount": 554,
+        "likeCount": 4709,
         "dislikeCount": 0,
-        "heartCount": 1707,
-        "commentCount": 4
+        "heartCount": 1561,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1789482029,
-        "extra": {
-          "remixOfId": 35333879
+        "nsfw": true,
+        "seed": 1703937569,
+        "vaes": [],
+        "draft": false,
+        "extra": {},
+        "steps": 25,
+        "width": 832,
+        "height": 1216,
+        "models": [],
+        "prompt": "aidmaimageupgrader, a high quality digital image of an intricate unmask your emotions, we're all a little broken, no humans",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 3.5,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-upscale",
+        "baseModel": "Flux1",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/E60DMGFH847NM1SWPZCQWDJEG0.jpeg",
+          "width": 832,
+          "height": 1216,
+          "upscaleWidth": 1408,
+          "upscaleHeight": 2048
         },
-        "steps": 33,
-        "prompt": "He was heading towards Titan from Saturn, so that the gravity of the planet would dampen the speed  \u0014 for the sake of saving fuel  \u0014 and the ship hooked the magnetosphere of the giant, so that there was a crackle on the waves of all ranges. And almost immediately, he accepted the challenge of this spaceport. The navigator must obey the dispatch service. And here they didn't even let him take off his spacesuit, they began to interrogate him. He still felt like he was sitting in the control room  \u0014 the straps desperately cut into his chest and shoulders when the rocket had already hit the concrete with its outstretched paws, and the boosters had not yet burned out completely and were buzzing with fire, causing the hull to shake.\n (Depth of field), Fujica GW690 camera, 20mm medium-format film.",
-        "sampler": "Undefined",
-        "cfgScale": 3.4,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-09-06T2141:01.2236423Z",
+        "upscaleWidth": 1408,
+        "upscaleHeight": 2048,
         "civitaiResources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 2068000
+            "weight": 1,
+            "modelVersionId": 691639
           },
           {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 2172932
+            "modelVersionId": 691639
+          },
+          {
+            "weight": 0.4,
+            "modelVersionId": 984672
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
-        ]
+        ],
+        "additionalResources": []
       },
-      "username": "doc_team",
+      "username": "Mr_Flibble",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        2068000,
-        2172932
+        164821,
+        691639,
+        984672
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "668|1741840200000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=668%7C1741840200000"
+    "nextCursor": "669|1730306062208",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=669%7C1730306062208"
   }
 }
