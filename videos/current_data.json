@@ -1,61 +1,88 @@
 {
   "items": [
     {
-      "id": 33493321,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d662b711-2da2-4311-aa5c-958775846870/original=true/d662b711-2da2-4311-aa5c-958775846870.jpeg",
-      "hash": "U56kngoLMfoe58n%t6j@WEWCRkoe_JafMzof",
-      "width": 768,
-      "height": 1368,
+      "id": 54976946,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31152e75-8fca-497f-bef6-aa065dd7cb67/original=true/31152e75-8fca-497f-bef6-aa065dd7cb67.jpeg",
+      "hash": "U630Nmo#D4VrWYadi^jYH;kD%%jYaeaej]kD",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-08T13:24:04.990Z",
-      "postId": 7661097,
+      "createdAt": "2025-01-31T15:33:16.831Z",
+      "postId": 12324400,
       "stats": {
-        "cryCount": 392,
-        "laughCount": 565,
-        "likeCount": 4541,
+        "cryCount": 276,
+        "laughCount": 462,
+        "likeCount": 4843,
         "dislikeCount": 0,
-        "heartCount": 1619,
-        "commentCount": 9
+        "heartCount": 1531,
+        "commentCount": 1
       },
       "meta": {
-        "Size": "768x1368",
-        "seed": 3884930992,
-        "Model": "lyhAnimeFlux_v4Niji",
-        "steps": 35,
-        "hashes": {
-          "model": "6f5dd9e72b"
-        },
-        "prompt": "A master-level, highly detailed dark fantasy scene set in a dimly lit, ominous room. The floor is marked with a large, blood-drawn pentagram, its sinister lines glowing faintly. Surrounding the pentagram are countless dark white candles of varying lengths and thicknesses, their flickering flames casting unsettling shadows across the room. At the center of the pentagram, a menacing black demon is emerging from the blood-drawn symbol. The demon\u00e2\u0080\u0099s glowing green eyes pierce through the darkness, and an eerie, malevolent grin spreads across its face, exuding a sense of pure evil. Covered in shadows",
-        "Version": "f2.0.1v1.10.1-previous-551-g7d88741f",
-        "sampler": "Euler",
-        "Module 1": "ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "resources": [
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 309003637,
+        "draft": false,
+        "steps": 27,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A skeletal hand firmly grasps a white candle, its bony fingers wrapped around the smooth wax. The candle burns with an unnatural blue flame, casting an eerie glow that flickers softly in the darkness. Wisps of smoke rise from the flame, twisting and curling into the distinct shape of a mind\u2014abstract yet unmistakable, resembling a swirling brain or an ethereal thought. The dim and mysterious background is shrouded in deep shadows, enhancing the otherworldly atmosphere. The ghostly light reflects off the skeletal fingers, emphasizing their hollow, lifeless form. The scene evokes a sense of mystery, the supernatural, and the fragile boundary between life, thought, and death. aidmamj6.1, aidmaimageupgrader, aidmafluxpro1.1, bo-exposure",
+        "sampler": "Undefined",
+        "cfgScale": 2.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-01-31T1531:57.9475848Z",
+        "civitaiResources": [
           {
-            "hash": "6f5dd9e72b",
-            "name": "lyhAnimeFlux_v4Niji",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1249246,
+            "modelVersionName": "FLUX v0.5"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 984672,
+            "modelVersionName": "FLUX v0.3"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1244911,
+            "modelVersionName": "FLUX v0.3"
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 859666,
+            "modelVersionName": "FLUX v2.0"
           }
-        ],
-        "Model hash": "6f5dd9e72b",
-        "Schedule type": "Simple",
-        "Distilled CFG Scale": "3.5",
-        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
+        ]
       },
-      "username": "Van978",
+      "username": "Erikus313",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639
+        691639,
+        859666,
+        984672,
+        1244911,
+        1249246
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "682|1738337596831",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=682%7C1738337596831"
+    "nextCursor": "683|1738854207710",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=683%7C1738854207710"
   }
 }
