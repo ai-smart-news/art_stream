@@ -1,89 +1,52 @@
 {
   "items": [
     {
-      "id": 63210907,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7b54966a-bedd-44a9-a203-3b1d73c24fe7/original=true/7b54966a-bedd-44a9-a203-3b1d73c24fe7.jpeg",
-      "hash": "UJBfb8tk9ZR6~Wo|ROVtx]kCWAaK?HoyIUV@",
-      "width": 1408,
-      "height": 2048,
+      "id": 37409629,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/41f94d43-a33f-43b9-81fd-a55d4eb3febf/original=true/41f94d43-a33f-43b9-81fd-a55d4eb3febf.jpeg",
+      "hash": "U7AJZi#,4:EN1JNHxYnO0gWC-Ut6}rsmIptR",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-13T04:30:00.000Z",
-      "postId": 14103141,
+      "createdAt": "2024-10-30T16:34:22.208Z",
+      "postId": 8544127,
       "stats": {
-        "cryCount": 324,
-        "laughCount": 554,
-        "likeCount": 4709,
+        "cryCount": 322,
+        "laughCount": 729,
+        "likeCount": 4457,
         "dislikeCount": 0,
-        "heartCount": 1561,
-        "commentCount": 3
+        "heartCount": 1639,
+        "commentCount": 9
       },
       "meta": {
-        "nsfw": true,
-        "seed": 1703937569,
-        "vaes": [],
-        "draft": false,
-        "extra": {},
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "models": [],
-        "prompt": "aidmaimageupgrader, a high quality digital image of an intricate unmask your emotions, we're all a little broken, no humans",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 3.5,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-upscale",
-        "baseModel": "Flux1",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/E60DMGFH847NM1SWPZCQWDJEG0.jpeg",
-          "width": 832,
-          "height": 1216,
-          "upscaleWidth": 1408,
-          "upscaleHeight": 2048
-        },
-        "upscaleWidth": 1408,
-        "upscaleHeight": 2048,
+        "Size": "832x1216",
+        "seed": 823354834,
+        "steps": 4,
+        "prompt": "A charming, bright-eyed octopus sports a miniature, pointed witch's hat, its brim adorned with a delicate, sparkling broom. The octopus's eyes, shining like two bright, black jewels, sparkle with excitement as it gazes out from beneath its witchy disguise. One of its tentacles grasps a tiny, wooden broom, its bristles perfectly proportioned to the octopus's miniature size. Another tentacle holds a cauldron-shaped candy pail, its metal surface adorned with a miniature, glowing jack-o'-lantern face. The atmosphere is playful and lighthearted, with a hint of spooky, Halloween fun. The octopus's very presence seems to radiate a sense of joyful, mischievous energy, as if it's ready to cast a spell of delight on all who encounter it. highest-Quality, intricate details, visually stunning, Masterpiece",
+        "sampler": "Undefined",
+        "cfgScale": 1,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-10-30T1627:32.6632719Z",
         "civitaiResources": [
           {
-            "weight": 1,
-            "modelVersionId": 691639
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 691639
-          },
-          {
-            "weight": 0.4,
-            "modelVersionId": 984672
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "type": "checkpoint",
+            "modelVersionId": 699279,
+            "modelVersionName": "Schnell"
           }
-        ],
-        "additionalResources": []
+        ]
       },
-      "username": "Mr_Flibble",
+      "username": "Cinnadust",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        164821,
-        691639,
-        984672
+        699279
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "669|1730306062208",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=669%7C1730306062208"
+    "nextCursor": "670|1758781540865",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=670%7C1758781540865"
   }
 }
