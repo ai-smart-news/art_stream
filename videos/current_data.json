@@ -1,38 +1,61 @@
 {
   "items": [
     {
-      "id": 91379599,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9fc5b58-6e4f-4e5d-ac01-07c29dbc614b/original=true/d9fc5b58-6e4f-4e5d-ac01-07c29dbc614b.jpeg",
-      "hash": "UX9@[6Z~ISXS-@iwS4X5MwnNtmW;9tngxue:",
-      "width": 720,
-      "height": 1280,
+      "id": 33493321,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d662b711-2da2-4311-aa5c-958775846870/original=true/d662b711-2da2-4311-aa5c-958775846870.jpeg",
+      "hash": "U56kngoLMfoe58n%t6j@WEWCRkoe_JafMzof",
+      "width": 768,
+      "height": 1368,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-30T13:15:06.583Z",
-      "postId": 20271207,
+      "createdAt": "2024-10-08T13:24:04.990Z",
+      "postId": 7661097,
       "stats": {
-        "cryCount": 322,
-        "laughCount": 588,
-        "likeCount": 4505,
+        "cryCount": 392,
+        "laughCount": 565,
+        "likeCount": 4541,
         "dislikeCount": 0,
-        "heartCount": 1713,
-        "commentCount": 2
+        "heartCount": 1619,
+        "commentCount": 9
       },
       "meta": {
-        "steps": 40,
-        "prompt": "A breathtaking night scene of a young man standing on the edge of a jagged precipice, overlooking an immense, otherworldly landscape. Below him, a deep river gorge cuts through towering rocky peaks, their shadows etched in moonlight. The air is crisp and thin, with a faint mist rising from the canyon depths. But the true spectacle is above\u2014a mesmerizing celestial intergalactic light show painting the sky in swirling neon hues: electric blues, cosmic purples, and radiant golds, as if distant galaxies are colliding in a silent, luminous dance. The Milky Way arcs overhead, but it\u2019s outshone by surreal auroras that ripple like living veils, casting an ethereal glow on the man\u2019s awestruck face. His wind-swept hair and slightly rugged outdoor gear (a worn jacket, hiking boots) suggest an adventurer who stumbled upon this cosmic secret. The rocks beneath his feet are textured with lichen and ancient cracks, grounding the scene in realism despite the sky\u2019s fantasy. The composition is vertical (720x1280), emphasizing the dizzying drop below and the infinite expanse above. Shot with a high-dynamic-range lens\u2014crisp foreground, dreamy astral bokeh\u2014blending the grit of Earth with the grandeur of the cosmos.",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3
+        "Size": "768x1368",
+        "seed": 3884930992,
+        "Model": "lyhAnimeFlux_v4Niji",
+        "steps": 35,
+        "hashes": {
+          "model": "6f5dd9e72b"
+        },
+        "prompt": "A master-level, highly detailed dark fantasy scene set in a dimly lit, ominous room. The floor is marked with a large, blood-drawn pentagram, its sinister lines glowing faintly. Surrounding the pentagram are countless dark white candles of varying lengths and thicknesses, their flickering flames casting unsettling shadows across the room. At the center of the pentagram, a menacing black demon is emerging from the blood-drawn symbol. The demon\u00e2\u0080\u0099s glowing green eyes pierce through the darkness, and an eerie, malevolent grin spreads across its face, exuding a sense of pure evil. Covered in shadows",
+        "Version": "f2.0.1v1.10.1-previous-551-g7d88741f",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "6f5dd9e72b",
+            "name": "lyhAnimeFlux_v4Niji",
+            "type": "model"
+          }
+        ],
+        "Model hash": "6f5dd9e72b",
+        "Schedule type": "Simple",
+        "Distilled CFG Scale": "3.5",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
       },
-      "username": "condzero1950",
+      "username": "Van978",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        691639
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "681|1728393844990",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=681%7C1728393844990"
+    "nextCursor": "682|1738337596831",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=682%7C1738337596831"
   }
 }
