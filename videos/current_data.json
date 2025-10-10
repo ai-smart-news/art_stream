@@ -1,37 +1,60 @@
 {
   "items": [
     {
-      "id": 39558078,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5117b90d-1771-4e76-b2ff-dde531616d59/original=true/5117b90d-1771-4e76-b2ff-dde531616d59.jpeg",
-      "hash": "U78|bxrp0vxw}w$+1FV=z:Ee73R%RjWYkDS$",
+      "id": 98790967,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5907a389-b53c-45be-8ef1-d039cd342bf2/original=true/5907a389-b53c-45be-8ef1-d039cd342bf2.jpeg",
+      "hash": "U8F=5IEM0$-:00oe^iso+@E1D*%2~V-ojbE2",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-11-11T23:01:00.000Z",
-      "postId": 9021721,
+      "createdAt": "2025-09-06T21:53:12.928Z",
+      "postId": 21920707,
       "stats": {
-        "cryCount": 323,
-        "laughCount": 458,
-        "likeCount": 4824,
+        "cryCount": 343,
+        "laughCount": 514,
+        "likeCount": 4592,
         "dislikeCount": 0,
-        "heartCount": 1553,
-        "commentCount": 7
+        "heartCount": 1707,
+        "commentCount": 4
       },
-      "meta": null,
-      "username": "SummerA",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1789482029,
+        "extra": {
+          "remixOfId": 35333879
+        },
+        "steps": 33,
+        "prompt": "He was heading towards Titan from Saturn, so that the gravity of the planet would dampen the speed  \u0014 for the sake of saving fuel  \u0014 and the ship hooked the magnetosphere of the giant, so that there was a crackle on the waves of all ranges. And almost immediately, he accepted the challenge of this spaceport. The navigator must obey the dispatch service. And here they didn't even let him take off his spacesuit, they began to interrogate him. He still felt like he was sitting in the control room  \u0014 the straps desperately cut into his chest and shoulders when the rocket had already hit the concrete with its outstretched paws, and the boosters had not yet burned out completely and were buzzing with fire, causing the hull to shake.\n (Depth of field), Fujica GW690 camera, 20mm medium-format film.",
+        "sampler": "Undefined",
+        "cfgScale": 3.4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-09-06T2141:01.2236423Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 2068000
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 2172932
+          }
+        ]
+      },
+      "username": "doc_team",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639,
-        801100,
-        1010560
+        2068000,
+        2172932
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "667|1757195592928",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=667%7C1757195592928"
+    "nextCursor": "668|1741840200000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=668%7C1741840200000"
   }
 }
