@@ -1,35 +1,101 @@
 {
   "items": [
     {
-      "id": 56185747,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ce51649-1994-4556-9088-769ef1282bac/original=true/8ce51649-1994-4556-9088-769ef1282bac.jpeg",
-      "hash": "UQIrjMj[_Nt7R*ofM{WB_3WBM{t7xuj[Rjj[",
-      "width": 1920,
-      "height": 3360,
+      "id": 55568119,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/911b1d90-f18d-4d6d-93aa-fb2d07fc7893/original=true/911b1d90-f18d-4d6d-93aa-fb2d07fc7893.jpeg",
+      "hash": "USC5GKW=IoR*}uW;Iojb-VWVIosp-Wj[Ion%",
+      "width": 1344,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-06T15:03:27.710Z",
-      "postId": 12583647,
+      "createdAt": "2025-02-03T12:42:14.328Z",
+      "postId": 12449380,
       "stats": {
-        "cryCount": 334,
-        "laughCount": 567,
-        "likeCount": 4576,
+        "cryCount": 276,
+        "laughCount": 515,
+        "likeCount": 4886,
         "dislikeCount": 0,
-        "heartCount": 1633,
-        "commentCount": 14
+        "heartCount": 1433,
+        "commentCount": 2
       },
       "meta": {
-        "prompt": "."
+        "RNG": "NV",
+        "Size": "896x1152",
+        "seed": 1931544742,
+        "Model": "flux1-dev",
+        "steps": 32,
+        "hashes": {
+          "model": "3f97fdc57a",
+          "lora:MJ6.1_Flux-PRO": "b5c582d1a0c6",
+          "lora:FluxDFaeTasticDetails": "4259dc3287",
+          "lora:- Flux1 - vanta_black_V2.0": "5d8cf3724039",
+          "lora:flux.1_lora_flyway_Epic-detail_v2": "2DBB61AC85E1"
+        },
+        "Version": "f2.0.1v1.10.1-previous-636-gb835f24a",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "4259dc3287",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora"
+          },
+          {
+            "hash": "5d8cf3724039",
+            "name": "- Flux1 - vanta_black_V2.0",
+            "type": "lora"
+          },
+          {
+            "hash": "b5c582d1a0c6",
+            "name": "MJ6.1_Flux-PRO",
+            "type": "lora"
+          },
+          {
+            "hash": "2DBB61AC85E1",
+            "name": "flux.1_lora_flyway_Epic-detail_v2",
+            "type": "lora"
+          },
+          {
+            "hash": "3f97fdc57a",
+            "name": "flux1-dev",
+            "type": "model"
+          }
+        ],
+        "Model hash": "3f97fdc57a",
+        "Hires steps": "8",
+        "Hires prompt": "",
+        "Hires upscale": "1.5",
+        "Schedule type": "Beta",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x_foolhardy_Remacri",
+        "Hires CFG Scale": "1",
+        "Beta schedule beta": "0.6",
+        "Denoising strength": "0.36",
+        "Beta schedule alpha": "0.6",
+        "Distilled CFG Scale": "4",
+        "Style Selector Style": "Googie Art Style",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "Hires negative prompt": "",
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "True",
+        "Hires Distilled CFG Scale": "5.5"
       },
-      "username": "Clear_Note",
+      "username": "sunnytiersen",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        863655,
+        720252,
+        801005
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "684|1738586534328",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=684%7C1738586534328"
+    "nextCursor": "685|1732465149924",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=685%7C1732465149924"
   }
 }
