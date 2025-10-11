@@ -1,101 +1,53 @@
 {
   "items": [
     {
-      "id": 76322936,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3238a274-e219-4d80-9884-73a396c857ef/original=true/3238a274-e219-4d80-9884-73a396c857ef.jpeg",
-      "hash": "UHMQ6Etl%~t.%~xtDiXn*09EDi%g-BvyR5%0",
-      "width": 2624,
-      "height": 3840,
+      "id": 65890550,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40d9d6e4-18c4-421e-9b20-34a52a09b938/original=true/40d9d6e4-18c4-421e-9b20-34a52a09b938.jpeg",
+      "hash": "UFChpU=e^l-V}[s9xGofELWBR%W;I;s:kCWC",
+      "width": 1024,
+      "height": 1024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-16T17:57:45.425Z",
-      "postId": 16947391,
+      "createdAt": "2025-03-26T02:17:55.567Z",
+      "postId": 14669159,
       "stats": {
-        "cryCount": 364,
-        "laughCount": 687,
-        "likeCount": 4574,
+        "cryCount": 331,
+        "laughCount": 582,
+        "likeCount": 4479,
         "dislikeCount": 0,
-        "heartCount": 1451,
-        "commentCount": 1
+        "heartCount": 1684,
+        "commentCount": 11
       },
       "meta": {
-        "seed": 1133362688,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1490781",
-        "extra": {},
-        "steps": 29,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:827184@1490781"
-        ],
-        "prompt": "1girl, suelecia, aqua eyes, aqua hair, very-long hair, single braid, hair ornament, masterpiece, best quality, absurdres,\nwarhammer 40K themed, beautiful Valkyrie wearing bulky golden plate armor, boobplate, golden long skirt, armored skirt, spiky golden gauntlets, gold tiara, halo, scale golden wings, golden cape, huge scaly pauldrons, armored boots, high heels,\n(clouds and stars, gold gate), (sparkles, sparkling scales, bright pupils), sharp focus, (glossy gold clothing, glittering gold fabric), \nstanding, legs apart, contrapposto, full body, dutch angle, looking at viewer, holding trident, holding shield, (tower shield),\nintricate, highly detailed, majestic, shallow depth of field, movie still, circular polarizer",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "modelIds": [],
-        "workflow": "img2img",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "sketch, monochrome, greyscale, lowres, (bad), bad anatomy, text, error, fewer, extra, missing, cropped, worst quality, jpeg artifacts, low quality, signature, watermark, username, artist name, blurry, extra limb, missing limb, (mutation, mutated), disconnected, unfinished, ugly, disgusting, displeasing, amputation, extra digits, artistic error, skull",
-        "civitaiResources": [
+        "Size": "512x512",
+        "Model": "290640.safetensors",
+        "steps": 30,
+        "hashes": {
+          "model": "67AB2FD8EC"
+        },
+        "prompt": "score_9, score_8_up, score_7_up, masterpiece, best quality, newest, absurdres, highres, 1girl, HellionDD-Il.V1.0, jewelry, necklace, red hair, armor, leather armor, fur coat, red hair, tribal, clevage,",
+        "sampler": "DDIM",
+        "cfgScale": 7.5,
+        "resources": [
           {
-            "weight": 1,
-            "modelVersionId": 1490781
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1490781
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1442094
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1652667
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1490781
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1442094
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1652667
+            "hash": "67AB2FD8EC",
+            "name": "290640.safetensors",
+            "type": "model"
           }
         ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:892755@1442094",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:1461427@1652667",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          }
-        ]
+        "Model hash": "67AB2FD8EC"
       },
-      "username": "Zlia",
-      "baseModel": "Illustrious",
+      "username": "Shrekman17",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1442094,
-        1490781,
-        1652667
+        290640
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "698|1742955475567",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=698%7C1742955475567"
+    "nextCursor": "699|1752165542464",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=699%7C1752165542464"
   }
 }
