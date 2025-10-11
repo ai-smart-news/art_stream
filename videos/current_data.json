@@ -1,80 +1,47 @@
 {
   "items": [
     {
-      "id": 70459893,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/314648c5-60c4-413a-87d5-2f58cdd60fc3/original=true/314648c5-60c4-413a-87d5-2f58cdd60fc3.jpeg",
-      "hash": "UBDSBxg39ue._MniIBS49aWBE1%LrrNHNa%1",
-      "width": 3328,
-      "height": 4864,
+      "id": 62879642,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7652e4f-801c-470d-9aec-8b0ad9805ffe/original=true/e7652e4f-801c-470d-9aec-8b0ad9805ffe.jpeg",
+      "hash": "UJC5x*{bIlC9-r+@RzKPD$KQJ~rpH@Fzf-#Q",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-16T23:50:00.000Z",
-      "postId": 15652669,
+      "createdAt": "2025-03-11T13:59:05.912Z",
+      "postId": 13991185,
       "stats": {
-        "cryCount": 309,
-        "laughCount": 523,
-        "likeCount": 4535,
+        "cryCount": 265,
+        "laughCount": 506,
+        "likeCount": 4669,
         "dislikeCount": 0,
-        "heartCount": 1726,
-        "commentCount": 6
+        "heartCount": 1639,
+        "commentCount": 2
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1899063918,
+        "seed": 620878742534213,
         "steps": 30,
-        "prompt": "a fantasy character in a dramatic pose. The character is a woman with pale skin and long black hair, styled with bangs. She is wearing a vibrant red kimono with intricate patterns, and her lips are painted a striking red. She holds a fox mask partially covering her face, adding an air of mystery. Behind her, large fox tails are visible, suggesting a mythical or supernatural theme. The background is a misty, atmospheric setting with a traditional Japanese torii gate and a glowing lantern, enhancing the mystical ambiance.",
-        "sampler": "Undefined",
+        "hashes": {
+          "model": "",
+          "LORA:boFLUX Cyborgsplash.safetensors": "80271c7294",
+          "Model:flux1-dev.sft<lora:boFLUX Cyborgsplash.safetensors:1.0:1": ""
+        },
+        "prompt": "A digital cyberpunk art splash in the style of bo-cyborgsplash, a vibrant and mystical landscape depicted in a series of vertical banners, each featuring a different color palette, the first banner on the left shows a glowing tree with intricate patterns, the second banner features a swirling orange and red design, the third banner features an abstract landscape with a tree in the center, the fourth banner showcases a glowing blue planet in the sky, the fifth banner showcases an otherworldly landscape with distant mountains, the sixth panel showcases a distant landscape with trees and distant structures, the seventh panel showcases an ocean scene, the eighth panel features a mystical tree with vibrant colors, the ninth panel displays a stunning sunset landscape, the final panel features an ethereal landscape with glowing elements, the overall effect is a mesmerizing and captivating image that exudes a sense of otherworldly beauty<lora:boFLUX Cyborgsplash.safetensors:1.0:1.0>",
+        "Version": "ComfyUI",
+        "sampler": "Euler Simple",
         "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-04-16T1620:53.3117120Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1227179,
-            "modelVersionName": "Flux Realistic Fantasy"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 1202162,
-            "modelVersionName": "Flux Gothic Lines"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 1470588,
-            "modelVersionName": "Flux Retro"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 978472,
-            "modelVersionName": "v2.0"
-          }
-        ]
+        "resources": []
       },
-      "username": "VelvetS",
+      "username": "bo4rsworld",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        978472,
-        1202162,
-        1227179,
-        1470588
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "696|1741701545912",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=696%7C1741701545912"
+    "nextCursor": "697|1747418265425",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=697%7C1747418265425"
   }
 }
