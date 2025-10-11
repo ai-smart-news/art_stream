@@ -1,33 +1,77 @@
 {
   "items": [
     {
-      "id": 26586829,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/884f1312-5880-4c11-88dc-49d7ebb51957/original=true/884f1312-5880-4c11-88dc-49d7ebb51957.jpeg",
-      "hash": "UOHdTV~80%4=S~ENIWV[xYjbi{%1E3NHt5Sh",
-      "width": 896,
-      "height": 1152,
+      "id": 18498633,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6d768d97-511a-45f8-af5f-4b9613a5085c/original=true/6d768d97-511a-45f8-af5f-4b9613a5085c.jpeg",
+      "hash": "U6BMfQLgxI?wk?Mc8wN@3V=LVrOBKiITQlxv",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-08-28T15:51:19.204Z",
-      "postId": 5942335,
+      "createdAt": "2024-07-05T04:45:03.941Z",
+      "postId": 4132301,
       "stats": {
-        "cryCount": 250,
-        "laughCount": 886,
-        "likeCount": 4324,
+        "cryCount": 215,
+        "laughCount": 477,
+        "likeCount": 4507,
         "dislikeCount": 0,
-        "heartCount": 1637,
-        "commentCount": 6
+        "heartCount": 1898,
+        "commentCount": 7
       },
-      "meta": null,
-      "username": "Bob59000",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 123759327,
+        "steps": 25,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, aesthetic ,  punk, demon, horns,  outdoors, alley, night, graffiti, t-shirt,  solo,  dutch angle,  g0thicPXL,  (big lips:0.6), (close up:1.2), portrait, medium breasts, smug, smirk, skinny, pov, leaning toward viewer, realistic",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 5.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-07-05T0435:57.1482287Z",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), extra hands,  hoops, hoop earrings, jewelry, 3d, eyebrow piercing, holding object, blush, blushing, shaved head,  earrings,  nipple rings, tail",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
+          }
+        ]
+      },
+      "username": "mastershaper",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        290640,
+        398847,
+        436219
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "692|1720154703941",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=692%7C1720154703941"
+    "nextCursor": "693|1742493136253",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=693%7C1742493136253"
   }
 }
