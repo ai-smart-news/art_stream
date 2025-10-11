@@ -1,37 +1,34 @@
 {
   "items": [
     {
-      "id": 63178343,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc39391f-7926-4df2-97b8-867c18dbbc43/original=true/fc39391f-7926-4df2-97b8-867c18dbbc43.jpeg",
-      "hash": "U76[psxC9INyuij?Q.g4JBX8rCnhDkR+xBrW",
+      "id": 58690819,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31a130b7-0785-44dc-9594-4a949dfd4086/original=true/31a130b7-0785-44dc-9594-4a949dfd4086.jpeg",
+      "hash": "U8Am@*Dj00~q0Ls:.8IUDjjE=|M{pKoIQ-x]",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-12T23:57:54.592Z",
-      "postId": 14096065,
+      "createdAt": "2025-02-18T23:42:39.197Z",
+      "postId": 13131237,
       "stats": {
-        "cryCount": 302,
-        "laughCount": 581,
-        "likeCount": 4649,
+        "cryCount": 310,
+        "laughCount": 672,
+        "likeCount": 4507,
         "dislikeCount": 0,
-        "heartCount": 1567,
+        "heartCount": 1609,
         "commentCount": 5
       },
       "meta": {
         "Size": "832x1216",
         "nsfw": false,
-        "seed": 1229579012,
+        "seed": 1627901341,
         "draft": false,
-        "extra": {
-          "remixOfId": 61340710
-        },
-        "steps": 25,
+        "steps": 35,
         "width": 832,
         "height": 1216,
-        "prompt": "boris vallejo style, frank frazetta style, 8k high quality digital painting, masterpiece, very detailed, ultra realistic, (best quality) very detailed epic masterpiece, detailed face, full body, wrinkly wizard toad reading an ancient scroll in a swamp, best quality, epic scene, Dungeons and dragons atmosphere, heroic fantasy, realistic, realism, full body",
+        "prompt": "Jeddtlv3, A cat in a lab coat, standing in front of a chalkboard full of \"complex equations,\" but the only thing written is a doodle of a fish",
         "sampler": "Undefined",
         "cfgScale": 3.5,
         "clipSkip": 2,
@@ -40,7 +37,7 @@
         "workflow": "txt2img",
         "baseModel": "Flux1",
         "resources": [],
-        "Created Date": "2025-03-07T2246:51.7256675Z",
+        "Created Date": "2025-02-18T2308:08.1191125Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -49,36 +46,29 @@
           },
           {
             "type": "lora",
-            "weight": 1.1,
-            "modelVersionId": 951509,
-            "modelVersionName": "Variant 2"
+            "weight": 0.5,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 1189379,
-            "modelVersionName": "FLUX"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1433936,
-            "modelVersionName": "Greg Rutkowski"
+            "weight": 1,
+            "modelVersionId": 1374948,
+            "modelVersionName": "V3"
           }
         ]
       },
-      "username": "tomfool",
+      "username": "Jedas",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
         691639,
-        951509,
-        1189379,
-        1433936
+        720252,
+        1374948
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "690|1739922159197",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=690%7C1739922159197"
+    "nextCursor": "691|1724860279204",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=691%7C1724860279204"
   }
 }
