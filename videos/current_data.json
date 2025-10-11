@@ -1,39 +1,84 @@
 {
   "items": [
     {
-      "id": 74279877,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5538fc28-56cf-4e46-992e-b89f3d4110a8/original=true/5538fc28-56cf-4e46-992e-b89f3d4110a8.jpeg",
-      "hash": "U7CZCB0K0603yDxBE2D+W8?G4;tQ0oIU~8tR",
+      "id": 63178343,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc39391f-7926-4df2-97b8-867c18dbbc43/original=true/fc39391f-7926-4df2-97b8-867c18dbbc43.jpeg",
+      "hash": "U76[psxC9INyuij?Q.g4JBX8rCnhDkR+xBrW",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-05T03:49:44.171Z",
-      "postId": 16493712,
+      "createdAt": "2025-03-12T23:57:54.592Z",
+      "postId": 14096065,
       "stats": {
-        "cryCount": 418,
-        "laughCount": 621,
-        "likeCount": 4511,
+        "cryCount": 302,
+        "laughCount": 581,
+        "likeCount": 4649,
         "dislikeCount": 0,
-        "heartCount": 1556,
-        "commentCount": 8
+        "heartCount": 1567,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "Graf137",
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 1229579012,
+        "draft": false,
+        "extra": {
+          "remixOfId": 61340710
+        },
+        "steps": 25,
+        "width": 832,
+        "height": 1216,
+        "prompt": "boris vallejo style, frank frazetta style, 8k high quality digital painting, masterpiece, very detailed, ultra realistic, (best quality) very detailed epic masterpiece, detailed face, full body, wrinkly wizard toad reading an ancient scroll in a swamp, best quality, epic scene, Dungeons and dragons atmosphere, heroic fantasy, realistic, realism, full body",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-03-07T2246:51.7256675Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 1.1,
+            "modelVersionId": 951509,
+            "modelVersionName": "Variant 2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1189379,
+            "modelVersionName": "FLUX"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 1433936,
+            "modelVersionName": "Greg Rutkowski"
+          }
+        ]
+      },
+      "username": "tomfool",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
         691639,
-        720252,
-        1244911,
-        1524423,
-        1639190
+        951509,
+        1189379,
+        1433936
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "689|1741823874592",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=689%7C1741823874592"
+    "nextCursor": "690|1739922159197",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=690%7C1739922159197"
   }
 }
