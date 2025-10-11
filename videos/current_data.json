@@ -1,39 +1,73 @@
 {
   "items": [
     {
-      "id": 64704871,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3cd3d21a-5705-48e9-a4e6-b3f7dcbec6c2/original=true/3cd3d21a-5705-48e9-a4e6-b3f7dcbec6c2.jpeg",
-      "hash": "UC9re4OX5lrr}rFv9^+^=an%E%oLadR*OXxa",
-      "width": 832,
-      "height": 1216,
+      "id": 37409118,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1725088b-1244-4c63-a28f-895791ce70cd/original=true/1725088b-1244-4c63-a28f-895791ce70cd.jpeg",
+      "hash": "U95F,#MbiHtmk@VrkWt7SiiwgOn$ysROVroz",
+      "width": 720,
+      "height": 1256,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-20T17:52:16.253Z",
-      "postId": 14421443,
+      "createdAt": "2024-10-30T16:28:04.043Z",
+      "postId": 8543991,
       "stats": {
-        "cryCount": 354,
-        "laughCount": 672,
-        "likeCount": 4356,
+        "cryCount": 348,
+        "laughCount": 579,
+        "likeCount": 4578,
         "dislikeCount": 0,
-        "heartCount": 1713,
-        "commentCount": 11
+        "heartCount": 1589,
+        "commentCount": 6
       },
-      "meta": null,
-      "username": "FraisySarcasm",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "720x1260",
+        "seed": 704821689,
+        "Model": "Realism_By_Stable_Yogi_Pony_V3_VAE",
+        "steps": 27,
+        "hashes": {
+          "model": "144d4dcf8c",
+          "embed:Stable_Yogis_PDXL_Positives": "1454a43d6c",
+          "embed:Stable_Yogis_PDXL_Negatives-neg": "29b22709a6"
+        },
+        "prompt": "Stable_Yogis_PDXL_Positives  score_9, score_8_up, score_7_up, score_6_up, hllwn, halloween, vintage, ghost costume, no humans, ghost, tree, halloween, bare tree, outdoors, signature, water, building, traditional media",
+        "Version": "f0.0.17v1.8.0rc-latest-277-g0af28699",
+        "sampler": "Euler a",
+        "cfgScale": 9,
+        "clipSkip": 2,
+        "TI hashes": {
+          "Stable_Yogis_PDXL_Positives": "1454a43d6ca2"
+        },
+        "resources": [
+          {
+            "hash": "144d4dcf8c",
+            "name": "Realism_By_Stable_Yogi_Pony_V3_VAE",
+            "type": "model"
+          }
+        ],
+        "Model hash": "144d4dcf8c",
+        "negativePrompt": "Stable_Yogis_PDXL_Negatives-neg",
+        "ADetailer model": "face_yolov8n.pt",
+        "Face restoration": "CodeFormer",
+        "ADetailer version": "24.9.0",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
+      },
+      "username": "Stable_Yogi",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        691639,
-        720252,
-        793777,
-        1244911,
-        1266839
+        775151,
+        772342,
+        992946
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "694|1730305684043",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=694%7C1730305684043"
+    "nextCursor": "695|1744847400000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=695%7C1744847400000"
   }
 }
