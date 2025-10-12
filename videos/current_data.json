@@ -1,39 +1,89 @@
 {
   "items": [
     {
-      "id": 79579727,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/61ca706d-9cf4-4977-a652-77a46884aade/original=true/61ca706d-9cf4-4977-a652-77a46884aade.jpeg",
-      "hash": "UEHBPR?bZO00_L9_M|NGQ-0L-V_2xDM|xZ-o",
-      "width": 832,
-      "height": 1216,
+      "id": 67181501,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9e1df41-1831-4e35-bb80-b99b22d83fbd/original=true/c9e1df41-1831-4e35-bb80-b99b22d83fbd.jpeg",
+      "hash": "UGM~w^IoMM-;I9EK0KNFs;}]9Z?HJ.0d-pxa",
+      "width": 2688,
+      "height": 3840,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-31T13:06:19.185Z",
-      "postId": 17680441,
+      "createdAt": "2025-04-01T02:52:14.944Z",
+      "postId": 14941541,
       "stats": {
-        "cryCount": 311,
-        "laughCount": 488,
-        "likeCount": 4467,
+        "cryCount": 367,
+        "laughCount": 671,
+        "likeCount": 4289,
         "dislikeCount": 0,
-        "heartCount": 1767,
-        "commentCount": 9
+        "heartCount": 1706,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "sithwalter452",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "nsfw": false,
+        "vaes": [],
+        "extra": {},
+        "steps": 19,
+        "width": 1280,
+        "height": 1856,
+        "models": [],
+        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, \nlong_lashes, blush, looking_at_viewer, dynamic_angle, cinematic, side_view, hearts, halftone_background, pink_background, black_background, ethereal_aura,  uwu, big_eyes, holding a running chainsaw, maniacal grin, laughing",
+        "sampler": "Euler a",
+        "cfgScale": 5.5,
+        "clipSkip": 2,
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-upscale",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/12841TN12ANKP6JB1X54Q5Y0H0",
+          "width": 1280,
+          "height": 1856,
+          "upscaleWidth": 2688,
+          "upscaleHeight": 3840
+        },
+        "experimental": false,
+        "upscaleWidth": 2688,
+        "upscaleHeight": 3840,
+        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, young,",
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 1528632
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1528632
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1597055
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          }
+        ],
+        "additionalResources": []
+      },
+      "username": "Callipyginous",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        720252,
-        747534,
-        806265,
-        1376386
+        164821,
+        1528632,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "716|1743475934944",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=716%7C1743475934944"
+    "nextCursor": "717|1739729468444",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=717%7C1739729468444"
   }
 }
