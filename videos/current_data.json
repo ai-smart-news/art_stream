@@ -1,90 +1,112 @@
 {
   "items": [
     {
-      "id": 34061737,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcda2993-1cc2-4689-9ac7-a1dc2021893f/original=true/dcda2993-1cc2-4689-9ac7-a1dc2021893f.jpeg",
-      "hash": "U8B3Br@=tRk]Oung0]3X-UK6tAjCOlO]S4%3",
-      "width": 832,
-      "height": 1216,
+      "id": 102887687,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/476bc65d-0be2-4b29-8808-8bcfdcd45ad6/original=true/476bc65d-0be2-4b29-8808-8bcfdcd45ad6.jpeg",
+      "hash": "UJFOiik=D%iw~q^jShIWs;-oT0t65qbJ=tt6",
+      "width": 800,
+      "height": 1440,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-11T19:34:24.266Z",
-      "postId": 7785917,
+      "createdAt": "2025-09-29T01:39:00.000Z",
+      "postId": 22826739,
       "stats": {
-        "cryCount": 350,
-        "laughCount": 606,
-        "likeCount": 4529,
+        "cryCount": 312,
+        "laughCount": 557,
+        "likeCount": 4578,
         "dislikeCount": 0,
-        "heartCount": 1584,
-        "commentCount": 27
+        "heartCount": 1618,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 4294967298,
-        "extra": {
-          "remixOfId": 31054952
+        "TI": {},
+        "Size": "672x1200",
+        "seed": 3588271052,
+        "Model": "wildcardxXLFusion_fusionOG",
+        "steps": 30,
+        "hashes": {
+          "model": "22ebc61141",
+          "lora:add-detail-xl": "9c783c8ce46c",
+          "lora:extremely_detailed": "ef4a6eac1515",
+          "lora:Vivid Midjourney mimic - XL SDXL v2.0": "9b7a0c8da916"
         },
-        "steps": 50,
-        "prompt": "bo-exposure, BMStyle, Anime, TOK, zavy-hrglw, aidmasoftglow\nepic portrait of cyber geisha, (neon kimono:1.6), double exposure of (Shibuya at night:1.7), (botanical garden:1.5), (bioluminescent plants:1.6), fairies, (floating koi fish:1.5), (abstract neon patterns:1.6), (katana on back:1.4), (glowing flower:1.7), stunning girl, (light on face:1.8), (glitch art:1.5), (novuschroma79 style:1.6), (anime:1.6), vibrant colors, (cinematic color grading:1.7), surreal lighting, cinematic depth, neon hair, cybernetic galaxy eyes",
-        "sampler": "Undefined",
+        "prompt": "Dark Fantasy Art, ethereal fantasy concept art of  landscape,landscape creator, rainbow light, traveler between worlds, chromatic aberrations, halo,,\nPetrified wood badlands where silica-infused cellular preservation document geological history, an ancient bioluminescent forest, with weathered plants, fascinating structures, a sense of history,  dawn, , summer, \n<lora:add-detail-xl:0.7>,\n<lora:extremely_detailed:0.7> extremely detailed,\n <lora:Vivid Midjourney mimic - XL SDXL v2.0:0.3>,, magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, dark, moody, dark fantasy style, Realistic anime art style, combines anime aesthetics with lifelike details, detailed character designs, intricate backgrounds, immersive storytelling",
+        "Version": "f2.0.1v1.10.1-previous-665-gae278f79",
+        "sampler": "DPM++ 2M",
+        "Module 1": "neptuniaXLVAE_contrastColors",
         "cfgScale": 3.5,
         "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-10-11T1914:01.3754109Z",
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "hash": "9c783c8ce46c",
+            "name": "add-detail-xl",
+            "type": "lora",
+            "weight": 0.7
           },
           {
+            "hash": "ef4a6eac1515",
+            "name": "extremely_detailed",
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 859666,
-            "modelVersionName": "FLUX v2.0"
+            "weight": 0.7
           },
           {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 929230,
-            "modelVersionName": "FLUX"
+            "hash": "9b7a0c8da916",
+            "name": "Vivid Midjourney mimic - XL SDXL v2.0",
+            "type": "lora"
           },
           {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 791664,
-            "modelVersionName": "V2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 745472,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 824589,
-            "modelVersionName": "v1.0"
+            "hash": "22ebc61141",
+            "name": "wildcardxXLFusion_fusionOG",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "22ebc61141",
+        "Hires steps": "10",
+        "Hires prompt": {},
+        "Hires upscale": "1.2",
+        "Schedule type": "Karras",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "remacri_original",
+        "negativePrompt": "<lora:sdxl_neg_overfit_v1:8> overfit style, bad-picture-chill-75v ,FastNegativeV2-SDXL, BadDream, photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white, ugly, deformed, noisy, blurry, low contrast, bright, sunny, painting, drawing, signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts",
+        "ADetailer model": "person_yolov8s-seg.pt",
+        "Hires CFG Scale": "3.5",
+        "ADetailer version": "24.11.1",
+        "Denoising strength": "0.3",
+        "ADetailer mask blur": "4",
+        "ADetailer model 2nd": "mediapipe_face_full",
+        "ADetailer model 3rd": "Eyeful_v2-Paired.pt",
+        "Token merging ratio": "0.3",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "Token merging ratio hr": "0.3",
+        "ADetailer mask blur 2nd": "4",
+        "ADetailer mask blur 3rd": "4",
+        "ADetailer confidence 2nd": "0.3",
+        "ADetailer confidence 3rd": "0.3",
+        "ADetailer inpaint padding": "32",
+        "ADetailer dilate erode 2nd": "4",
+        "ADetailer dilate erode 3rd": "4",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer inpaint padding 2nd": "32",
+        "ADetailer inpaint padding 3rd": "32",
+        "ADetailer denoising strength 2nd": "0.4",
+        "ADetailer denoising strength 3rd": "0.4",
+        "ADetailer inpaint only masked 2nd": "True",
+        "ADetailer inpaint only masked 3rd": "True"
       },
-      "username": "haiti5",
-      "baseModel": "Flux.1 D",
+      "username": "Omega_Xlll",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        691639,
-        745472,
-        791664,
-        824589,
-        859666,
-        929230
+        135867,
+        345685
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "705|1759109940000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=705%7C1759109940000"
+    "nextCursor": "706|1759087800000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=706%7C1759087800000"
   }
 }
