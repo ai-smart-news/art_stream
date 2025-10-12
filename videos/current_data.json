@@ -1,113 +1,38 @@
 {
   "items": [
     {
-      "id": 59678179,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7539835-be74-4d34-b13f-85713010c788/original=true/f7539835-be74-4d34-b13f-85713010c788.jpeg",
-      "hash": "UBIp^r~U4;%0$+f8xZoJD%oe%1R+E2NIIpWq",
-      "width": 1280,
-      "height": 1856,
+      "id": 28676533,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/306363c9-b14b-4dd7-a975-139c61332cf2/original=true/306363c9-b14b-4dd7-a975-139c61332cf2.jpeg",
+      "hash": "UNAmO~oeENay~Tj[Iqay-nfQIpfQoya|Ipay",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-23T19:49:00.472Z",
-      "postId": 13346611,
+      "createdAt": "2024-09-10T06:32:38.321Z",
+      "postId": 6414261,
       "stats": {
-        "cryCount": 306,
-        "laughCount": 887,
-        "likeCount": 4204,
+        "cryCount": 420,
+        "laughCount": 582,
+        "likeCount": 4411,
         "dislikeCount": 0,
-        "heartCount": 1644,
-        "commentCount": 17
+        "heartCount": 1627,
+        "commentCount": 2
       },
-      "meta": {
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:140272@1240288",
-        "extra": {
-          "remixOfId": 59667177
-        },
-        "steps": 35,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:140272@1240288"
-        ],
-        "prompt": "neverhoodstyle, clay,  highly-detailed, best quality, masterpiece, very aesthetic, cl1ppy, pokemon (creature), solo, no humans, computer, office background",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 7,
-        "modelIds": [],
-        "workflow": "img2img-hires",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "civit_nsfw,  watermark, unfinished, displeasing, oldest, early,chromatic aberration, signature,artistic error, username, scan, ",
-        "civitaiResources": [
-          {
-            "weight": 1,
-            "modelVersionId": 1240288
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1240288
-          },
-          {
-            "weight": 1.1,
-            "modelVersionId": 1453067
-          },
-          {
-            "weight": 1.2,
-            "modelVersionId": 1054362
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 106916
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1240288
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          },
-          {
-            "type": "lora",
-            "weight": 1.1,
-            "modelVersionId": 1453067
-          },
-          {
-            "type": "lora",
-            "weight": 1.2,
-            "modelVersionId": 1054362
-          }
-        ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:861844@1453067",
-            "type": "lora",
-            "strength": 1.1,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:941814@1054362",
-            "type": "lora",
-            "strength": 1.2,
-            "strengthClip": 1
-          }
-        ]
-      },
-      "username": "kftiger",
-      "baseModel": "Illustrious",
+      "meta": null,
+      "username": "Zakman99",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        164821,
-        1054362,
-        1240288,
-        1453067
+        742813,
+        745845,
+        735063,
+        721627
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "713|1725949958321",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=713%7C1725949958321"
+    "nextCursor": "714|1735585500000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=714%7C1735585500000"
   }
 }
