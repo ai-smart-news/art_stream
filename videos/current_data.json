@@ -1,67 +1,52 @@
 {
   "items": [
     {
-      "id": 54947162,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3cd5e7b7-47fe-470a-b1df-356c700f0c4e/original=true/3cd5e7b7-47fe-470a-b1df-356c700f0c4e.jpeg",
-      "hash": "U8A^gxof00SjKlkC9GxCDNax%gaz00WB~WNL",
+      "id": 28675643,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/14378277-d266-464a-afa8-5979bd367ce4/original=true/14378277-d266-464a-afa8-5979bd367ce4.jpeg",
+      "hash": "UGF5,3-;0.%K.StRR,r=0[o|]|RRbuSirqoe",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-31T11:55:45.966Z",
-      "postId": 12318198,
+      "createdAt": "2024-09-10T06:22:21.043Z",
+      "postId": 6414105,
       "stats": {
-        "cryCount": 282,
-        "laughCount": 584,
-        "likeCount": 4651,
+        "cryCount": 391,
+        "laughCount": 592,
+        "likeCount": 4459,
         "dislikeCount": 0,
-        "heartCount": 1487,
-        "commentCount": 7
+        "heartCount": 1562,
+        "commentCount": 1
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": false,
-        "seed": 1508957653,
-        "draft": false,
-        "steps": 20,
-        "width": 832,
-        "height": 1216,
-        "prompt": "A whimsical illustration of a grey cat with spiky fur in dark whimsical art style, standing among lavender and yellow flowers, digital painting with expressive brushstrokes showing textured fur, dark green background, characteristic Tim Burton inspired design with huge round eyes and pink nose",
+        "seed": 233694271,
+        "steps": 42,
+        "prompt": "highly detailed yellow leaf (with fine textures) on a weathered, textured blue wooden surface, vibrant contrast between the (bold yellow) and the (faded, peeling wood), depth and shadow enhanced using (Gaussian blur) for a soft background focus, (sharpen filter) applied to the leaf for crisp edges, (color grading) to enhance contrast between warm and cool tones, (lens flare) subtly added to create natural lighting effect, (noise reduction) for a smooth, clean finish, (HDR toning) used for extra depth and detail, emphasizing the intricate patterns in both the leaf and wood grain",
         "sampler": "Undefined",
-        "cfgScale": 2,
+        "cfgScale": 3.5,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
         "resources": [],
-        "Created Date": "2025-01-31T1152:01.0717650Z",
+        "Created Date": "2024-09-10T0626:05.5805021Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
             "modelVersionId": 691639,
             "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1293775,
-            "modelVersionName": "V1"
           }
         ]
       },
-      "username": "SANTA21",
+      "username": "mr_Jack",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639,
-        1293775
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "728|1725949341043",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=728%7C1725949341043"
+    "nextCursor": "729|1745348700000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=729%7C1745348700000"
   }
 }
