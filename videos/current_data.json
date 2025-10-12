@@ -1,35 +1,81 @@
 {
   "items": [
     {
-      "id": 41563256,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e10a75f9-704d-4139-970e-df0bf7e03985/original=true/e10a75f9-704d-4139-970e-df0bf7e03985.jpeg",
-      "hash": "UFBz8]00%h%L~pDix]oJRjM{t7RjtRIVsot8",
-      "width": 832,
-      "height": 1216,
+      "id": 81414265,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d22d5059-8304-46cf-922b-a2a4cb4c9775/original=true/d22d5059-8304-46cf-922b-a2a4cb4c9775.jpeg",
+      "hash": "UZGRkvRPkVtQ~UWBs:oyV@oyaeV@M|j[a}jZ",
+      "width": 792,
+      "height": 1408,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-11-23T00:34:23.387Z",
-      "postId": 9463921,
+      "createdAt": "2025-06-10T01:15:00.000Z",
+      "postId": 18084204,
       "stats": {
-        "cryCount": 267,
-        "laughCount": 441,
-        "likeCount": 4694,
+        "cryCount": 339,
+        "laughCount": 526,
+        "likeCount": 4434,
         "dislikeCount": 0,
-        "heartCount": 1591,
-        "commentCount": 7
+        "heartCount": 1691,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "NaomiVK",
-      "baseModel": null,
+      "meta": {
+        "VAE": "FLUX1\\ae.safetensors",
+        "seed": 183760420999709,
+        "Model": "flux1_devFP8Kijai11GB.safetensors",
+        "steps": 20,
+        "hashes": {
+          "vae": "afc8e28272",
+          "model": "1be961341b",
+          "lora:Defluxion II": "a600415961",
+          "lora:Defluxion_II": "a600415961",
+          "lora:FluxDFaeTasticDetails": "4259dc3287",
+          "lora:RM_Fantastify_v0.8M_classic": "3fc064b606"
+        },
+        "prompt": "A 3/4-view 9:16 portrait, painterly realism with shallow canvas texture. Diffuse daylight from upper left kisses the subject, soft shadows pooling among flowers. The adult fox sits proud on a mossy stump; short russet-orange fur is overlaid by swirling cloisonn\u00c3\u00a9 motifs\u00e2\u0080\u0094vermillion blooms, teal droplets, ochre curlicues\u00e2\u0080\u0094that echo lacquered inlay. Cream ruff and forepaws add contrast. Amber eyes gaze left with serene focus. No apparel, but ornamental patterning suggests living porcelain. Surrounding foliage is a muted teal and sage underwash dotted with marigold blossoms and curling stems; the backdrop is aged parchment spattered with gold leaf. Color palette: marigold orange (dominant), sage teal (cool split), vermillion red (warm split), sky-blue (accent), parchment beige (variant), weathered gold (neutral). in the style of James Jean, 8k masterwork, whimsical fauna, organic ornament, tranquil reverie, living lacquer <lora:FluxDFaeTasticDetails:0.7000000000000002> <lora:RM_Fantastify_v0.8M_classic:0.8000000000000002> <lora:Defluxion_II:0.6000000000000001>",
+        "sampler": "Euler_beta",
+        "resources": [
+          {
+            "hash": "4259dc3287",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora",
+            "weight": 0.7000000000000002
+          },
+          {
+            "hash": "3fc064b606",
+            "name": "RM_Fantastify_v0.8M_classic",
+            "type": "lora",
+            "weight": 0.8000000000000002
+          },
+          {
+            "hash": "a600415961",
+            "name": "Defluxion_II",
+            "type": "lora",
+            "weight": 0.6000000000000001
+          },
+          {
+            "hash": "1be961341b",
+            "name": "flux1_devFP8Kijai11GB.safetensors",
+            "type": "model"
+          }
+        ],
+        "Batch size": "4",
+        "Model hash": "1be961341b",
+        "Batch index": "1"
+      },
+      "username": "Frond",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1089413
+        694648,
+        720252,
+        1298660,
+        1565102
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "736|1749518100000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=736%7C1749518100000"
+    "nextCursor": "737|1747601930919",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=737%7C1747601930919"
   }
 }
