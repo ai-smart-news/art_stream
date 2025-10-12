@@ -1,88 +1,98 @@
 {
   "items": [
     {
-      "id": 50743768,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bf983f0-3c73-4d91-8010-902791b52bc0/original=true/0bf983f0-3c73-4d91-8010-902791b52bc0.jpeg",
-      "hash": "UA6IHP?]%gxus.t7ayWCt7ofayayxutRxutQ",
+      "id": 89779435,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/daac612b-9cb6-4cdf-aace-d0752bea9bb8/original=true/daac612b-9cb6-4cdf-aace-d0752bea9bb8.jpeg",
+      "hash": "UpMtN]Rj-;%2~pt7ozt6D%j]V@WV%gWAV@WW",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-10T14:55:02.404Z",
-      "postId": 11416927,
+      "createdAt": "2025-07-22T11:21:09.678Z",
+      "postId": 19914420,
       "stats": {
-        "cryCount": 313,
-        "laughCount": 458,
-        "likeCount": 4720,
+        "cryCount": 268,
+        "laughCount": 571,
+        "likeCount": 4666,
         "dislikeCount": 0,
-        "heartCount": 1551,
+        "heartCount": 1536,
         "commentCount": 3
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": true,
-        "seed": 295536633,
+        "seed": 24964693,
         "draft": false,
         "steps": 29,
         "width": 832,
         "height": 1216,
-        "prompt": "The image depicts a dramatic scene where a ship, likely an old sailing vessel, is surrounded by a thick, dark cloud formation. The cloud is shaped in a way that strikingly resembles a skull face, giving the scene an ominous, almost supernatural feel. Birds are seen flying near the ship, adding to the eerie atmosphere. The overall mood of the image suggests themes of adventure, mystery, or even horror",
-        "sampler": "Undefined",
+        "prompt": "realistic,HassaKu_illu, artist:moriimee, 748cmstyle, jsyu_style, 2025. 07, \n(1girl, solo, masterpiece, best quality, amazing quality, absurdres, newest),  \nelf, 1 elf girl, white hair, bangs, photoshoot with skateboard, posing cute, posing sexy, portrait, tanned skin, oversized jeans, loose oversized skater shirt, shy, blushing, teardrop shaped tits, thick thighs, fit body, thin waists, from waist up",
+        "process": "txt2img",
+        "sampler": "Euler a",
         "cfgScale": 3.5,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
+        "quantity": 2,
         "workflow": "txt2img",
-        "baseModel": "Flux1",
+        "baseModel": "Illustrious",
         "resources": [],
-        "Created Date": "2025-01-02T0328:47.6970882Z",
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-07-22T1105:06.2645900Z",
+        "experimental": false,
+        "negativePrompt": "source_furry, source_Futanari, censored, worst quality, low quality, hands on own face, hands on own cheeks, ugly, deformed fingers, extra fingers, fused fingers, too many fingers, grainy, Sweat, facial mark, tears of blood, tear drop tattoo, tear tattoo",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "modelVersionId": 1761560,
+            "modelVersionName": "v14.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1809575,
+            "modelVersionName": "v2.4I Illustrious 5/18"
           },
           {
             "type": "lora",
             "weight": 0.2,
-            "modelVersionId": 720252,
+            "modelVersionId": 1784760,
+            "modelVersionName": "Smooth Booster v3"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1056404,
             "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 747534,
-            "modelVersionName": "Flux.1 D v1"
+            "weight": 0.5,
+            "modelVersionId": 1244133,
+            "modelVersionName": "V1 Ilustrious"
           },
           {
             "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 863655,
-            "modelVersionName": "Balance_v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 981456,
-            "modelVersionName": "FLUX v0.4"
+            "weight": 0.8,
+            "modelVersionId": 1580764,
+            "modelVersionName": "v1.0"
           }
         ]
       },
-      "username": "Ai_Collector",
-      "baseModel": "Flux.1 D",
+      "username": "JSyu",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639,
-        720252,
-        747534,
-        863655,
-        981456
+        1056404,
+        1244133,
+        1580764,
+        1761560,
+        1784760,
+        1809575
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "711|1753183269678",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=711%7C1753183269678"
+    "nextCursor": "712|1740340140472",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=712%7C1740340140472"
   }
 }
