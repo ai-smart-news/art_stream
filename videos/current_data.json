@@ -1,54 +1,88 @@
 {
   "items": [
     {
-      "id": 91249398,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fd93df7-5d8f-4f80-8650-aa1251b1d6bd/original=true/3fd93df7-5d8f-4f80-8650-aa1251b1d6bd.jpeg",
-      "hash": "UPJ7{x_3~oR,^%xYtS$%0Mt7NK-.x]kXi_oz",
-      "width": 1664,
-      "height": 2432,
+      "id": 50743768,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bf983f0-3c73-4d91-8010-902791b52bc0/original=true/0bf983f0-3c73-4d91-8010-902791b52bc0.jpeg",
+      "hash": "UA6IHP?]%gxus.t7ayWCt7ofayayxutRxutQ",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-29T21:29:41.240Z",
-      "postId": 20240227,
+      "createdAt": "2025-01-10T14:55:02.404Z",
+      "postId": 11416927,
       "stats": {
-        "cryCount": 338,
-        "laughCount": 596,
-        "likeCount": 4327,
+        "cryCount": 313,
+        "laughCount": 458,
+        "likeCount": 4720,
         "dislikeCount": 0,
-        "heartCount": 1783,
-        "commentCount": 5
+        "heartCount": 1551,
+        "commentCount": 3
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 398977290745322,
-        "steps": 61,
-        "hashes": {
-          "model": "",
-          "Model:sdxl_nevolutionSDXL_v2Base": "c74ccae2b4",
-          "LORA:sdxl_ta86artstyle_velvet_rust.safetensors": "9d53f35d22",
-          "LORA:sdxl_ta86artstyle_charcoal_brush.safetensors": "edf413dab5",
-          "Model:<lora:sdxl_ta86artstyle_velvet_rust.safetensors:0.5:0.5> <lora:sdxl_ta86artstyle_charcoal_brush.safetensors:0.6:0": ""
-        },
-        "prompt": "breathtaking detailed, masterpiece, absurdres, awe-inspiring, best quality, vibrant colors,  velvet rust, painterly coal, majestic woman with coal black hair, wearing a wide lacquered hat painted with swirling golden landscapes and traditional temple silhouettes, BREAK, (baroque-inspired cloak), flowing into a painterly collage of misty mountains and blue-gold rivers, BREAK, thick brush textures around architectural motifs, soft Rembrandt lighting across her serene face, fragments of patina and gilded brushwork layered into the design, ornamental harmony between nature and geometry, BREAK, ornate, dreamlike, quietly regal, artistic realism          <lora:sdxl_ta86artstyle_velvet_rust.safetensors:0.5:0.5> <lora:sdxl_ta86artstyle_charcoal_brush.safetensors:0.6:0.6>",
-        "Version": "ComfyUI",
-        "sampler": "DPM++ 2M SGM Uniform",
-        "cfgScale": 4,
+        "nsfw": true,
+        "seed": 295536633,
+        "draft": false,
+        "steps": 29,
+        "width": 832,
+        "height": 1216,
+        "prompt": "The image depicts a dramatic scene where a ship, likely an old sailing vessel, is surrounded by a thick, dark cloud formation. The cloud is shaped in a way that strikingly resembles a skull face, giving the scene an ominous, almost supernatural feel. Birds are seen flying near the ship, adding to the eerie atmosphere. The overall mood of the image suggests themes of adventure, mystery, or even horror",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
         "resources": [],
-        "negativePrompt": "lowres, low quality, worst quality, deformed, deformed face, multiple limbs, shadow in background, watermark, signature patreon, multiple limbs, closed eyes"
+        "Created Date": "2025-01-02T0328:47.6970882Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 747534,
+            "modelVersionName": "Flux.1 D v1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 863655,
+            "modelVersionName": "Balance_v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 981456,
+            "modelVersionName": "FLUX v0.4"
+          }
+        ]
       },
-      "username": "tehalex86",
-      "baseModel": "SDXL 1.0",
+      "username": "Ai_Collector",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1645671,
-        2036128,
-        2061516
+        691639,
+        720252,
+        747534,
+        863655,
+        981456
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "710|1736520902404",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=710%7C1736520902404"
+    "nextCursor": "711|1753183269678",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=711%7C1753183269678"
   }
 }
