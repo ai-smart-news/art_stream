@@ -1,67 +1,35 @@
 {
   "items": [
     {
-      "id": 102987910,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/829b4da7-6a07-4f4b-88e4-a81fa466de53/original=true/829b4da7-6a07-4f4b-88e4-a81fa466de53.jpeg",
-      "hash": "UC7B+TogRjtR?^ofROtR%hoKMxtRxvjYV@kC",
-      "width": 1152,
-      "height": 1728,
+      "id": 90644729,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/698de3f1-af9d-498a-894a-5901b54756ee/original=true/698de3f1-af9d-498a-894a-5901b54756ee.jpeg",
+      "hash": "UWE3M6WAIU-;~qxuIUoextt6M{M{M{ofayM{",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-28T19:30:00.000Z",
-      "postId": 22848933,
+      "createdAt": "2025-07-27T04:16:00.000Z",
+      "postId": 20102485,
       "stats": {
-        "cryCount": 298,
-        "laughCount": 550,
-        "likeCount": 4527,
+        "cryCount": 305,
+        "laughCount": 573,
+        "likeCount": 4295,
         "dislikeCount": 0,
-        "heartCount": 1679,
-        "commentCount": 4
+        "heartCount": 1882,
+        "commentCount": 15
       },
-      "meta": {
-        "VAE": "Flux\\ae.safetensors",
-        "seed": 904144989180957,
-        "Model": "Flux\\flux1-krea-dev.safetensors",
-        "steps": 20,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "f6315581b7",
-          "lora:YFG-FaceGear-v1e9": "b7976caf76",
-          "lora:YFG-Thorn-Krea-v1e8": "d474eb1218"
-        },
-        "prompt": "A digital fantasy artwork depicting a hooded female riding a large, black panther through a dense, misty forest. The female, with a focused expression, wears dark, tattered armor and a hood that partially conceals her face. Her hand holds a long spear, which is pointed forward. The panther's eyes glow with an eerie yellow light, adding a sense of mysticism and intensity to the scene. The forest is lush and verdant, with tall trees and thick foliage that create a sense of depth and seclusion. Light filters through the trees, casting a soft, blue-green glow over the entire scene. The background is filled with tall, slender trees that fade into the mist, adding to the sense of an enchanted, otherworldly forest. The texture of the panther's fur is detailed, with visible muscles and a sleek, shiny coat, while the armor of the warrior is rugged and worn, indicating use and battle. The overall color palette is dominated by shades of green and blue, with the dark armor and panther providing contrast. The style is highly detailed and realistic, with a focus on fantasy elements.",
-        "sampler": "dpmpp_2m_beta",
-        "resources": [
-          {
-            "hash": "f6315581b7",
-            "name": "Flux\\flux1-krea-dev.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "f6315581b7",
-        "Prompt Index": "28958",
-        "Lora_0 Model hash": "b7976caf76",
-        "Lora_0 Model name": "YFG-FaceGear-v1e9.safetensors",
-        "Lora_1 Model hash": "d474eb1218",
-        "Lora_1 Model name": "YFG-Thorn-Krea-v1e8.safetensors",
-        "Lora_0 Strength clip": "0.45",
-        "Lora_1 Strength clip": "0.45",
-        "Lora_0 Strength model": "0.45",
-        "Lora_1 Strength model": "0.45"
-      },
-      "username": "gonzalu",
+      "meta": null,
+      "username": "Freako0",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1473352,
-        2068000,
-        2228245
+        990775
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "707|1753589760000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=707%7C1753589760000"
+    "nextCursor": "708|1755902816216",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=708%7C1755902816216"
   }
 }
