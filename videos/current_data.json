@@ -1,37 +1,51 @@
 {
   "items": [
     {
-      "id": 71622996,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ea5a7a5-1cb9-47b0-bf49-01265e66c3fe/original=true/1ea5a7a5-1cb9-47b0-bf49-01265e66c3fe.jpeg",
-      "hash": "UOIO5#.8~V%2?G~p%1oM^%4:IVxYxZIp%1oe",
-      "width": 1248,
-      "height": 1824,
+      "id": 58410409,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bbeade04-0e08-478d-bcd5-bf89868fbcae/original=true/bbeade04-0e08-478d-bcd5-bf89868fbcae.jpeg",
+      "hash": "UEC@BNj]00j]*0o#xZof^*bH00ad00RP-;Ri",
+      "width": 816,
+      "height": 1456,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-23T12:50:21.783Z",
-      "postId": 15909646,
+      "createdAt": "2025-02-19T07:00:00.000Z",
+      "postId": 13070806,
       "stats": {
-        "cryCount": 384,
-        "laughCount": 490,
-        "likeCount": 4486,
+        "cryCount": 330,
+        "laughCount": 500,
+        "likeCount": 4657,
         "dislikeCount": 0,
-        "heartCount": 1713,
-        "commentCount": 16
+        "heartCount": 1585,
+        "commentCount": 7
       },
       "meta": {
-        "seed": 919460448554291,
-        "steps": 30,
-        "cfgScale": 1
+        "seed": 2757817553,
+        "vaes": [],
+        "comfy": "{\"prompt\": {\"10001\": {\"class_type\": \"ECHOCheckpointLoaderSimple\", \"inputs\": {\"ckpt_name\": \"EMS-446170-EMS.safetensors\"}, \"_properties\": null}, \"10011\": {\"class_type\": \"LoraTagLoader\", \"inputs\": {\"clip\": [\"10001\", 1], \"model\": [\"10001\", 0], \"text\": \"<lora:EMS-533774-EMS.safetensors:0.800000>\"}, \"_properties\": null}, \"10014\": {\"class_type\": \"EmptySD3LatentImage\", \"inputs\": {\"batch_size\": 2, \"height\": 1456, \"width\": 816}, \"_properties\": null}, \"10025\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10011\", 1], \"text\": \"In a breathtaking 8K Charcoal Art wallpaper, a stunning Captain america combatant from the future crouches on one knee within a circle of Bomb light, his handsome face staring directly at the viewer. light swirl around him. With a subtle dynamic pose, he raises his right knee, exuding an air of power and readiness.Emission of a large light wave that burst out behind him enhanced the dark cyberpunk atmosphere. Up close, his detailed hands and face are rendered in photorealistic 2. 0 quality, with piercing blue glowing eyes that seem to pierce through the darkness. A masterpiece of cinematic experience, this stunning image transports the viewer into a world of high-tech fantasy.highlighting her curvaceous figure and toned physique, His gaze is directed forward,serious horror, in hyper-realistic fantasy illustrations , meticulously captured with precision and care, centered, perfect composition, overexposed image creating a striking and ethereal city atmosphere, sharp focus ensuring exquisite details, clear and bright elements highlighting his iconic ,expressive eyes filled with regal command and inner turmoil, the intricate details showcasing his shield and stoic pose, seamlessly merging realism with fantasy, celebrating the essence of power and his inner conflicts in a visually stunning and imaginative setting, a newyork street in sketching background is detailed and evokes an eerie alien atmosphere, in the style of H R Giger --ar 9:16 --sref 145864451 --sw 700 --stylize 1000,charcoal \\\\(medium\\\\)\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10026\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10011\", 1], \"text\": \"\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10027\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"10025\", 0], \"guidance\": 3.5}, \"_properties\": null}, \"11001\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"ensd\": 31337, \"latent_image\": [\"10014\", 0], \"model\": [\"10011\", 0], \"negative\": [\"10026\", 0], \"positive\": [\"10027\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 2757817553, \"seed_mode\": \"A1111\", \"steps\": 25}, \"_properties\": null}, \"11016\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"11001\", 0], \"vae\": [\"10001\", 2]}, \"_properties\": null}, \"12004\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"831228724857809156\", \"images\": [\"11016\", 0]}, \"_properties\": null}}, \"workflow\": undefined}",
+        "steps": 25,
+        "width": 816,
+        "height": 1456,
+        "models": [],
+        "prompt": "In a breathtaking 8K Charcoal Art wallpaper, a stunning Captain america combatant from the future crouches on one knee within a circle of Bomb light, his handsome face staring directly at the viewer. light swirl around him. With a subtle dynamic pose, he raises his right knee, exuding an air of power and readiness.Emission of a large light wave that burst out behind him enhanced the dark cyberpunk atmosphere. Up close, his detailed hands and face are rendered in photorealistic 2. 0 quality, with piercing blue glowing eyes that seem to pierce through the darkness. A masterpiece of cinematic experience, this stunning image transports the viewer into a world of high-tech fantasy.highlighting her curvaceous figure and toned physique, His gaze is directed forward,serious horror, in hyper-realistic fantasy illustrations , meticulously captured with precision and care, centered, perfect composition, overexposed image creating a striking and ethereal city atmosphere, sharp focus ensuring exquisite details, clear and bright elements highlighting his iconic ,expressive eyes filled with regal command and inner turmoil, the intricate details showcasing his shield and stoic pose, seamlessly merging realism with fantasy, celebrating the essence of power and his inner conflicts in a visually stunning and imaginative setting, a newyork street in sketching background is detailed and evokes an eerie alien atmosphere, in the style of H R Giger --ar 9:16 --sref 145864451 --sw 700 --stylize 1000,charcoal \\(medium\\)",
+        "denoise": 1,
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "modelIds": [],
+        "scheduler": "simple",
+        "upscalers": [],
+        "versionIds": [],
+        "controlNets": [],
+        "additionalResources": []
       },
-      "username": "GegenDenTag",
+      "username": "BadArt",
       "baseModel": "Flux.1 D",
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "703|1739948400000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=703%7C1739948400000"
+    "nextCursor": "704|1728675264266",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=704%7C1728675264266"
   }
 }
