@@ -1,139 +1,54 @@
 {
   "items": [
     {
-      "id": 95747058,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d3c4c44c-5df4-4708-b126-9206d5195437/original=true/d3c4c44c-5df4-4708-b126-9206d5195437.jpeg",
-      "hash": "U7HKRv0L00~BMv0L^+^*00^k^kEL?cW=004:",
+      "id": 91249398,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fd93df7-5d8f-4f80-8650-aa1251b1d6bd/original=true/3fd93df7-5d8f-4f80-8650-aa1251b1d6bd.jpeg",
+      "hash": "UPJ7{x_3~oR,^%xYtS$%0Mt7NK-.x]kXi_oz",
       "width": 1664,
       "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-22T22:46:56.216Z",
-      "postId": 21237754,
+      "createdAt": "2025-07-29T21:29:41.240Z",
+      "postId": 20240227,
       "stats": {
-        "cryCount": 434,
-        "laughCount": 569,
-        "likeCount": 4451,
+        "cryCount": 338,
+        "laughCount": 596,
+        "likeCount": 4327,
         "dislikeCount": 0,
-        "heartCount": 1592,
-        "commentCount": 1
+        "heartCount": 1783,
+        "commentCount": 5
       },
       "meta": {
-        "RNG": "CPU",
-        "ENSD": "31337",
-        "Size": "1664x2432",
-        "seed": 2679468567,
-        "Model": "JANKUV5NSFWTrainedNoobaiEPS_v50",
-        "steps": 35,
+        "Size": "832x1216",
+        "seed": 398977290745322,
+        "steps": 61,
         "hashes": {
-          "model": "217daae812",
-          "lora:TRT_IL": "4f993f545850",
-          "embed:lazyneg": "ba21023c70",
-          "embed:lazypos": "3086669265",
-          "embed:lazyhand": "3cc8f76aaf",
-          "lora:WSSKX_WAI": "e6b401310305",
-          "lora:USNR_STYLE_ILL": "44586d05878a",
-          "adetailer:face_yolov9c.pt": "d02fe493c3",
-          "adetailer:hand_yolov9c.pt": "6f116f686e",
-          "lora:SWdressV1_illustrious": "fcfb31d9d4ed",
-          "lora:hololive_kaela_kovalskia_redebut": "11bc3bab82",
-          "lora:illustriousXLv01_stabilizer_v1198": "ccce66044b45"
+          "model": "",
+          "Model:sdxl_nevolutionSDXL_v2Base": "c74ccae2b4",
+          "LORA:sdxl_ta86artstyle_velvet_rust.safetensors": "9d53f35d22",
+          "LORA:sdxl_ta86artstyle_charcoal_brush.safetensors": "edf413dab5",
+          "Model:<lora:sdxl_ta86artstyle_velvet_rust.safetensors:0.5:0.5> <lora:sdxl_ta86artstyle_charcoal_brush.safetensors:0.6:0": ""
         },
-        "prompt": "1girl,\nsolo, lazypos, anime-style, detailed background, vibrant colors, delicate, dreamy, side view, cinematic lighting, volumetric lighting, ray tracing, dramatic shadows, dim light, night\nkaela20, blonde hair, red eyes, long hair, smile, SWdress, cropped jacket, long sleeves, lace trim, frills, layered skirt, puffy dress, cross-laced dress, buttons, waist ribbon, pink dress, frilled dress, white socks, frilled socks, kneehighs, ribbon footwear, pink collar, mary janes, cat ears, indoors, sitting, on sofa, reading book, library, lamp light, skirt, usnr, socks, lace-trimmed skirt, dress, animal ears,\nlora: hololive_kaela_kovalskia_redebut:0.5> <lora:SWdressV1_illustrious:0.8> <lora:USNR_STYLE_ILL:0.5> <lora:WSSKX_WAI:0.3> <lora:TRT_IL:0.65> <lora:illustriousXLv01_stabilizer_v1198:0.35>",
-        "Version": "classic",
-        "sampler": "Euler a",
-        "Emphasis": "Original",
-        "cfgScale": 5,
-        "clipSkip": 2,
-        "TI hashes": {
-          "lazyneg": "ba21023c7054",
-          "lazypos": "30866692653c",
-          "lazyhand": "3cc8f76aaf5a"
-        },
-        "resources": [
-          {
-            "hash": "fcfb31d9d4ed",
-            "name": "SWdressV1_illustrious",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "44586d05878a",
-            "name": "USNR_STYLE_ILL",
-            "type": "lora",
-            "weight": 0.5
-          },
-          {
-            "hash": "e6b401310305",
-            "name": "WSSKX_WAI",
-            "type": "lora",
-            "weight": 0.3
-          },
-          {
-            "hash": "4f993f545850",
-            "name": "TRT_IL",
-            "type": "lora",
-            "weight": 0.65
-          },
-          {
-            "hash": "ccce66044b45",
-            "name": "illustriousXLv01_stabilizer_v1198",
-            "type": "lora",
-            "weight": 0.35
-          },
-          {
-            "hash": "217daae812",
-            "name": "JANKUV5NSFWTrainedNoobaiEPS_v50",
-            "type": "model"
-          }
-        ],
-        "Model hash": "217daae812",
-        "Schedule type": "Karras",
-        "negativePrompt": "lazyneg, lazyhand, nsfw, (sweat:1.5), (goggles:1.5), sunglasses, (jewelry:1.5), (earrings:1.5), gem, gemstone, (hair ribbon:1.5), (hair bow:1.5), (earring:1.5), bad perspective, poor lighting, missing limbs, cityscape, architecture, glass, glass window, wooden frame, photo, photorealistic, realistic, blush, leaning forward, white sleeves, black cat ears",
-        "ADetailer model": "face_yolov9c.pt",
-        "ADetailer prompt": {
-          "hololive_kaela_kovalskia_redebut": "0.75> kaela20"
-        },
-        "ADetailer version": "25.3.0",
-        "Denoising strength": "0.35",
-        "ADetailer mask blur": "4",
-        "ADetailer model 2nd": "hand_yolov9c.pt",
-        "ADetailer confidence": "0.3",
-        "ADetailer prompt 2nd": {},
-        "ADetailer dilate erode": "4",
-        "ADetailer mask blur 2nd": "4",
-        "ADetailer confidence 2nd": "0.3",
-        "ADetailer inpaint padding": "32",
-        "ADetailer negative prompt": {
-          "(sweat": "1.5)"
-        },
-        "ADetailer dilate erode 2nd": "4",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 2nd": "32",
-        "ADetailer negative prompt 2nd": {},
-        "ADetailer denoising strength 2nd": "0.4",
-        "ADetailer inpaint only masked 2nd": "True"
+        "prompt": "breathtaking detailed, masterpiece, absurdres, awe-inspiring, best quality, vibrant colors,  velvet rust, painterly coal, majestic woman with coal black hair, wearing a wide lacquered hat painted with swirling golden landscapes and traditional temple silhouettes, BREAK, (baroque-inspired cloak), flowing into a painterly collage of misty mountains and blue-gold rivers, BREAK, thick brush textures around architectural motifs, soft Rembrandt lighting across her serene face, fragments of patina and gilded brushwork layered into the design, ornamental harmony between nature and geometry, BREAK, ornate, dreamlike, quietly regal, artistic realism          <lora:sdxl_ta86artstyle_velvet_rust.safetensors:0.5:0.5> <lora:sdxl_ta86artstyle_charcoal_brush.safetensors:0.6:0.6>",
+        "Version": "ComfyUI",
+        "sampler": "DPM++ 2M SGM Uniform",
+        "cfgScale": 4,
+        "resources": [],
+        "negativePrompt": "lowres, low quality, worst quality, deformed, deformed face, multiple limbs, shadow in background, watermark, signature patreon, multiple limbs, closed eyes"
       },
-      "username": "akizukirei608",
-      "baseModel": "Illustrious",
+      "username": "tehalex86",
+      "baseModel": "SDXL 1.0",
       "modelVersionIds": [
-        923592,
-        1261280,
-        1550840,
-        1552087,
-        1833157,
-        1860747,
-        1896532,
-        2055853,
-        2122462
+        1645671,
+        2036128,
+        2061516
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "709|1753824581240",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=709%7C1753824581240"
+    "nextCursor": "710|1736520902404",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=710%7C1736520902404"
   }
 }
