@@ -1,75 +1,35 @@
 {
   "items": [
     {
-      "id": 98872742,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/659c43d3-7458-44ef-bb09-db24954e7ec4/original=true/659c43d3-7458-44ef-bb09-db24954e7ec4.jpeg",
-      "hash": "UIDwQ.xG00V[?]W=IBV@t*NG9coK=|spNHWC",
-      "width": 832,
-      "height": 1216,
+      "id": 26780730,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6498a443-0b3a-4e7d-92b1-1030c2ce3d4d/original=true/6498a443-0b3a-4e7d-92b1-1030c2ce3d4d.jpeg",
+      "hash": "UIA^,k?^8{DPMxV@RjRjo}kCt7ozDOMxWVWB",
+      "width": 768,
+      "height": 1344,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-07T19:58:14.571Z",
-      "postId": 21937919,
+      "createdAt": "2024-08-29T20:30:02.808Z",
+      "postId": 5988114,
       "stats": {
-        "cryCount": 364,
-        "laughCount": 567,
-        "likeCount": 4570,
+        "cryCount": 315,
+        "laughCount": 570,
+        "likeCount": 4448,
         "dislikeCount": 0,
-        "heartCount": 1514,
-        "commentCount": 2
+        "heartCount": 1681,
+        "commentCount": 10
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 1102976695,
-        "steps": 30,
-        "prompt": "Create a photorealistic image of a group of flamingos, lake, water, plants, palms, jungle, trees, vibrant colors, from a distance, highly detailed, aesthetic, great lighting, extremely detailed,   perfect composition, a vibrant tissue of hues and textures captured digitally, best quality, realistic, captivating, intricately detailed, hyper detailed, maximalist style, dynamic lighting, superb composition, finest details, highest aesthetics, best quality, sharp focus, high contrast, stylized, clear, colorful, ultra quality, whimsical, fantastic, splash art, intricate detailed, hyperdetailed, maximalist style, hyper detailed, maximalist style,  concept art, sharp focus, harmony, serenity, calm, mysterious glow, dynamic lighting, superb composition, sharp focus, high contrast, stylized, clear, colorful, ultra quality,  best quality, DB4RZ, DB4RZ style painting, NeoPigma, in the style of cksc, anime, cyberpunk, a masterpiece, award winning,",
-        "sampler": "Undefined",
-        "cfgScale": 3.6,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-01-21T1130:23.2157183Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 747534
-          },
-          {
-            "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 1050932
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 778925
-          },
-          {
-            "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 1043949
-          }
-        ]
-      },
-      "username": "Lady_Luminous",
+      "meta": null,
+      "username": "gr33narrow",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        691639,
-        747534,
-        778925,
-        1043949,
-        1050932
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "720|1724963402808",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=720%7C1724963402808"
+    "nextCursor": "721|1725949076114",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=721%7C1725949076114"
   }
 }
