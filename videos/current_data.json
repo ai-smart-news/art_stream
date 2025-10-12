@@ -1,39 +1,67 @@
 {
   "items": [
     {
-      "id": 12613899,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bfb1c30-c23a-4231-8a12-31b002ad515b/original=true/0bfb1c30-c23a-4231-8a12-31b002ad515b.jpeg",
-      "hash": "UDBy+;~TNtI[b_%e-nxty9%K?G-o-o?FofNK",
+      "id": 54947162,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3cd5e7b7-47fe-470a-b1df-356c700f0c4e/original=true/3cd5e7b7-47fe-470a-b1df-356c700f0c4e.jpeg",
+      "hash": "U8A^gxof00SjKlkC9GxCDNax%gaz00WB~WNL",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-05-16T04:58:53.031Z",
-      "postId": 2787866,
+      "createdAt": "2025-01-31T11:55:45.966Z",
+      "postId": 12318198,
       "stats": {
-        "cryCount": 201,
-        "laughCount": 626,
-        "likeCount": 4330,
+        "cryCount": 282,
+        "laughCount": 584,
+        "likeCount": 4651,
         "dislikeCount": 0,
-        "heartCount": 1850,
-        "commentCount": 5
+        "heartCount": 1487,
+        "commentCount": 7
       },
-      "meta": null,
-      "username": null,
-      "baseModel": "SDXL 1.0",
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 1508957653,
+        "draft": false,
+        "steps": 20,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A whimsical illustration of a grey cat with spiky fur in dark whimsical art style, standing among lavender and yellow flowers, digital painting with expressive brushstrokes showing textured fur, dark green background, characteristic Tim Burton inspired design with huge round eyes and pink nose",
+        "sampler": "Undefined",
+        "cfgScale": 2,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-01-31T1152:01.0717650Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1293775,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "SANTA21",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        152309,
-        258687,
-        344487,
-        153732,
-        209649
+        691639,
+        1293775
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "727|1738324545966",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=727%7C1738324545966"
+    "nextCursor": "728|1725949341043",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=728%7C1725949341043"
   }
 }
