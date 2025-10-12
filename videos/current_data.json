@@ -1,33 +1,91 @@
 {
   "items": [
     {
-      "id": 71635257,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53f9db6e-d7d0-4974-bed2-f59f69eef255/original=true/53f9db6e-d7d0-4974-bed2-f59f69eef255.jpeg",
-      "hash": "UVHK%,xG9]s:~AoMDjo2OrbIM{bHajjrbrWV",
-      "width": 832,
-      "height": 1456,
+      "id": 67337147,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/476eccd9-b73b-4d86-b3ce-559fefff7034/original=true/476eccd9-b73b-4d86-b3ce-559fefff7034.jpeg",
+      "hash": "UOM6l3ix%4xvx]ru9soyL29sD%xt*0R%?HIo",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-22T19:05:00.000Z",
-      "postId": 15912192,
+      "createdAt": "2025-04-01T21:06:01.650Z",
+      "postId": 14975039,
       "stats": {
-        "cryCount": 366,
-        "laughCount": 758,
-        "likeCount": 4267,
+        "cryCount": 381,
+        "laughCount": 605,
+        "likeCount": 4202,
         "dislikeCount": 0,
-        "heartCount": 1609,
-        "commentCount": 3
+        "heartCount": 1810,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "Pinkielicious",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:1224788@1379960",
+        "extra": {},
+        "steps": 28,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:1224788@1379960"
+        ],
+        "prompt": "Hey you! CivChan needs your buzz,\nsolo, (floating, midair), [bent over], reaching out to viewer, dangling legs, spring, outside, meadow, carrying basket,\n(bee costume bee onesie), insect wings,\npurple eyes, pink hair, curvy,\nwind, happy, wink, red pupil,\n(takashia \\(akimototakashia\\):0.5), (sam yang:0.5), (ciloranko:0.5), (moshimoshibe:0.5), \nmasterpiece, newest, highres, absurdres, amazing quality, best quality, ultra-detailed",
+        "sampler": "Euler",
+        "cfgScale": 5,
+        "modelIds": [],
+        "workflow": "img2img-hires",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "worst quality, worst detail, signature, artist name, oldest, bad hands, child, aged down, loli, simple background, border, nipples",
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 1379960
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1379960
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1597055
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1379960
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1597055
+          }
+        ],
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:1412708@1597055",
+            "type": "lora",
+            "strength": 1,
+            "strengthClip": 1
+          }
+        ]
+      },
+      "username": "kastakanin",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        164821,
+        1379960,
+        1597055
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "730|1743541561650",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=730%7C1743541561650"
+    "nextCursor": "731|1735591500000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=731%7C1735591500000"
   }
 }
