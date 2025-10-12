@@ -1,89 +1,44 @@
 {
   "items": [
     {
-      "id": 67181501,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9e1df41-1831-4e35-bb80-b99b22d83fbd/original=true/c9e1df41-1831-4e35-bb80-b99b22d83fbd.jpeg",
-      "hash": "UGM~w^IoMM-;I9EK0KNFs;}]9Z?HJ.0d-pxa",
-      "width": 2688,
-      "height": 3840,
+      "id": 58219389,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39c808cb-e44a-4d80-bb06-2646ee0d5bb8/original=true/39c808cb-e44a-4d80-bb06-2646ee0d5bb8.jpeg",
+      "hash": "UPDbmAs:i_ae~WoLM{f6x]WVIoj[xtayRjkB",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T02:52:14.944Z",
-      "postId": 14941541,
+      "createdAt": "2025-02-16T18:11:08.444Z",
+      "postId": 13029053,
       "stats": {
-        "cryCount": 367,
-        "laughCount": 671,
-        "likeCount": 4289,
+        "cryCount": 316,
+        "laughCount": 788,
+        "likeCount": 4370,
         "dislikeCount": 0,
-        "heartCount": 1706,
-        "commentCount": 2
+        "heartCount": 1554,
+        "commentCount": 9
       },
       "meta": {
-        "nsfw": false,
-        "vaes": [],
-        "extra": {},
-        "steps": 19,
-        "width": 1280,
-        "height": 1856,
-        "models": [],
-        "prompt": "masterpiece, high_quality, highres, flat_colors, gradient, \nlong_lashes, blush, looking_at_viewer, dynamic_angle, cinematic, side_view, hearts, halftone_background, pink_background, black_background, ethereal_aura,  uwu, big_eyes, holding a running chainsaw, maniacal grin, laughing",
+        "seed": 366931152,
+        "Model": "OfficialStableDiffusion/hassakuXLIllustrious_v12Style",
+        "steps": 35,
+        "width": 832,
+        "height": 1216,
+        "prompt": "absurdres, highly-detailed, best quality, masterpiece, very aesthetic, amazing quality, l3g0,  1boy, Pyramid Head (Silent Hill), holding absurdly large knife, horror (theme), horror background",
         "sampler": "Euler a",
-        "cfgScale": 5.5,
-        "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-upscale",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/12841TN12ANKP6JB1X54Q5Y0H0",
-          "width": 1280,
-          "height": 1856,
-          "upscaleWidth": 2688,
-          "upscaleHeight": 3840
-        },
-        "experimental": false,
-        "upscaleWidth": 2688,
-        "upscaleHeight": 3840,
-        "negativePrompt": "worst_quality, bad_quality, poorly_detailed, young,",
-        "civitaiResources": [
-          {
-            "weight": 1,
-            "modelVersionId": 1528632
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1528632
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1597055
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          }
-        ],
-        "additionalResources": []
+        "cfgScale": 5,
+        "negativePrompt": "anime, 2d, bad quality, worst quality, worst detail, sketch, censor, simple background, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early,chromatic aberration, signature,artistic error, username, scan, nipples",
+        "originalSampler": "euler_ancestral"
       },
-      "username": "Callipyginous",
+      "username": "kftiger",
       "baseModel": "Illustrious",
-      "modelVersionIds": [
-        164821,
-        1528632,
-        1597055
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "717|1739729468444",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=717%7C1739729468444"
+    "nextCursor": "718|1757275094571",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=718%7C1757275094571"
   }
 }
