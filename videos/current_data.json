@@ -1,35 +1,40 @@
 {
   "items": [
     {
-      "id": 54447080,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51f779b7-2c51-482e-9a43-9ad23211f3dc/original=true/51f779b7-2c51-482e-9a43-9ad23211f3dc.jpeg",
-      "hash": "U24V2Yz.V?kW?^R4ofWC01ES%gRP4nOt%MaK",
-      "width": 1792,
-      "height": 2368,
+      "id": 67179498,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f683136-e9db-46ca-9a41-c130789f3b6e/original=true/1f683136-e9db-46ca-9a41-c130789f3b6e.jpeg",
+      "hash": "UPGRMJ9a9txu~CIpX8xaEfs:RjofTJjZM{xa",
+      "width": 1480,
+      "height": 2120,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-28T22:00:00.000Z",
-      "postId": 12211077,
+      "createdAt": "2025-04-01T02:42:55.729Z",
+      "postId": 14941078,
       "stats": {
-        "cryCount": 321,
-        "laughCount": 476,
-        "likeCount": 4669,
+        "cryCount": 334,
+        "laughCount": 694,
+        "likeCount": 4230,
         "dislikeCount": 0,
-        "heartCount": 1501,
-        "commentCount": 10
+        "heartCount": 1703,
+        "commentCount": 4
       },
-      "meta": null,
-      "username": "fussypixel",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        1088507
-      ]
+      "meta": {
+        "seed": 120924723,
+        "steps": 28,
+        "prompt": "1girl, solo, civchan, medium_hair, pink hair, looking_at_viewer, smile, bangs, anime, simple_background, black background, twintails, purple_eyes, boots, maid, teeth, grin, glowing, glowing_eyes, dutch angle, (pout:0.9),\nheart-shaped pupils, [crazy eyes], cg, masterpiece, 8k, holding technological orb, meme, comic\n\n<lora:CivChan:0.9>",
+        "sampler": "Euler",
+        "cfgScale": 3,
+        "negativePrompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, (sketch), flat color, ugly, fat, muscular, abs, blurry eyes, wrinkled skin, crying, child, speech bubble"
+      },
+      "username": "Ocean3",
+      "baseModel": "Illustrious",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "742|1743475375729",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=742%7C1743475375729"
+    "nextCursor": "743|1754394924085",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=743%7C1754394924085"
   }
 }
