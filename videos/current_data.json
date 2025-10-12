@@ -1,112 +1,67 @@
 {
   "items": [
     {
-      "id": 102887687,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/476bc65d-0be2-4b29-8808-8bcfdcd45ad6/original=true/476bc65d-0be2-4b29-8808-8bcfdcd45ad6.jpeg",
-      "hash": "UJFOiik=D%iw~q^jShIWs;-oT0t65qbJ=tt6",
-      "width": 800,
-      "height": 1440,
+      "id": 102987910,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/829b4da7-6a07-4f4b-88e4-a81fa466de53/original=true/829b4da7-6a07-4f4b-88e4-a81fa466de53.jpeg",
+      "hash": "UC7B+TogRjtR?^ofROtR%hoKMxtRxvjYV@kC",
+      "width": 1152,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-29T01:39:00.000Z",
-      "postId": 22826739,
+      "createdAt": "2025-09-28T19:30:00.000Z",
+      "postId": 22848933,
       "stats": {
-        "cryCount": 312,
-        "laughCount": 557,
-        "likeCount": 4578,
+        "cryCount": 298,
+        "laughCount": 550,
+        "likeCount": 4527,
         "dislikeCount": 0,
-        "heartCount": 1618,
-        "commentCount": 2
+        "heartCount": 1679,
+        "commentCount": 4
       },
       "meta": {
-        "TI": {},
-        "Size": "672x1200",
-        "seed": 3588271052,
-        "Model": "wildcardxXLFusion_fusionOG",
-        "steps": 30,
+        "VAE": "Flux\\ae.safetensors",
+        "seed": 904144989180957,
+        "Model": "Flux\\flux1-krea-dev.safetensors",
+        "steps": 20,
         "hashes": {
-          "model": "22ebc61141",
-          "lora:add-detail-xl": "9c783c8ce46c",
-          "lora:extremely_detailed": "ef4a6eac1515",
-          "lora:Vivid Midjourney mimic - XL SDXL v2.0": "9b7a0c8da916"
+          "vae": "afc8e28272",
+          "model": "f6315581b7",
+          "lora:YFG-FaceGear-v1e9": "b7976caf76",
+          "lora:YFG-Thorn-Krea-v1e8": "d474eb1218"
         },
-        "prompt": "Dark Fantasy Art, ethereal fantasy concept art of  landscape,landscape creator, rainbow light, traveler between worlds, chromatic aberrations, halo,,\nPetrified wood badlands where silica-infused cellular preservation document geological history, an ancient bioluminescent forest, with weathered plants, fascinating structures, a sense of history,  dawn, , summer, \n<lora:add-detail-xl:0.7>,\n<lora:extremely_detailed:0.7> extremely detailed,\n <lora:Vivid Midjourney mimic - XL SDXL v2.0:0.3>,, magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, dark, moody, dark fantasy style, Realistic anime art style, combines anime aesthetics with lifelike details, detailed character designs, intricate backgrounds, immersive storytelling",
-        "Version": "f2.0.1v1.10.1-previous-665-gae278f79",
-        "sampler": "DPM++ 2M",
-        "Module 1": "neptuniaXLVAE_contrastColors",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
+        "prompt": "A digital fantasy artwork depicting a hooded female riding a large, black panther through a dense, misty forest. The female, with a focused expression, wears dark, tattered armor and a hood that partially conceals her face. Her hand holds a long spear, which is pointed forward. The panther's eyes glow with an eerie yellow light, adding a sense of mysticism and intensity to the scene. The forest is lush and verdant, with tall trees and thick foliage that create a sense of depth and seclusion. Light filters through the trees, casting a soft, blue-green glow over the entire scene. The background is filled with tall, slender trees that fade into the mist, adding to the sense of an enchanted, otherworldly forest. The texture of the panther's fur is detailed, with visible muscles and a sleek, shiny coat, while the armor of the warrior is rugged and worn, indicating use and battle. The overall color palette is dominated by shades of green and blue, with the dark armor and panther providing contrast. The style is highly detailed and realistic, with a focus on fantasy elements.",
+        "sampler": "dpmpp_2m_beta",
         "resources": [
           {
-            "hash": "9c783c8ce46c",
-            "name": "add-detail-xl",
-            "type": "lora",
-            "weight": 0.7
-          },
-          {
-            "hash": "ef4a6eac1515",
-            "name": "extremely_detailed",
-            "type": "lora",
-            "weight": 0.7
-          },
-          {
-            "hash": "9b7a0c8da916",
-            "name": "Vivid Midjourney mimic - XL SDXL v2.0",
-            "type": "lora"
-          },
-          {
-            "hash": "22ebc61141",
-            "name": "wildcardxXLFusion_fusionOG",
+            "hash": "f6315581b7",
+            "name": "Flux\\flux1-krea-dev.safetensors",
             "type": "model"
           }
         ],
-        "Model hash": "22ebc61141",
-        "Hires steps": "10",
-        "Hires prompt": {},
-        "Hires upscale": "1.2",
-        "Schedule type": "Karras",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "remacri_original",
-        "negativePrompt": "<lora:sdxl_neg_overfit_v1:8> overfit style, bad-picture-chill-75v ,FastNegativeV2-SDXL, BadDream, photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white, ugly, deformed, noisy, blurry, low contrast, bright, sunny, painting, drawing, signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts",
-        "ADetailer model": "person_yolov8s-seg.pt",
-        "Hires CFG Scale": "3.5",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.3",
-        "ADetailer mask blur": "4",
-        "ADetailer model 2nd": "mediapipe_face_full",
-        "ADetailer model 3rd": "Eyeful_v2-Paired.pt",
-        "Token merging ratio": "0.3",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "Token merging ratio hr": "0.3",
-        "ADetailer mask blur 2nd": "4",
-        "ADetailer mask blur 3rd": "4",
-        "ADetailer confidence 2nd": "0.3",
-        "ADetailer confidence 3rd": "0.3",
-        "ADetailer inpaint padding": "32",
-        "ADetailer dilate erode 2nd": "4",
-        "ADetailer dilate erode 3rd": "4",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 2nd": "32",
-        "ADetailer inpaint padding 3rd": "32",
-        "ADetailer denoising strength 2nd": "0.4",
-        "ADetailer denoising strength 3rd": "0.4",
-        "ADetailer inpaint only masked 2nd": "True",
-        "ADetailer inpaint only masked 3rd": "True"
+        "Model hash": "f6315581b7",
+        "Prompt Index": "28958",
+        "Lora_0 Model hash": "b7976caf76",
+        "Lora_0 Model name": "YFG-FaceGear-v1e9.safetensors",
+        "Lora_1 Model hash": "d474eb1218",
+        "Lora_1 Model name": "YFG-Thorn-Krea-v1e8.safetensors",
+        "Lora_0 Strength clip": "0.45",
+        "Lora_1 Strength clip": "0.45",
+        "Lora_0 Strength model": "0.45",
+        "Lora_1 Strength model": "0.45"
       },
-      "username": "Omega_Xlll",
-      "baseModel": "SDXL 1.0",
+      "username": "gonzalu",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        135867,
-        345685
+        1473352,
+        2068000,
+        2228245
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "706|1759087800000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=706%7C1759087800000"
+    "nextCursor": "707|1753589760000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=707%7C1753589760000"
   }
 }
