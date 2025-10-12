@@ -1,67 +1,73 @@
 {
   "items": [
     {
-      "id": 97239205,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e92aaaff-2f2f-4758-900a-45d16f87325d/original=true/e92aaaff-2f2f-4758-900a-45d16f87325d.jpeg",
-      "hash": "UGDl~Axu00S2_NkCIokCD$WC%Ms:-oofD%Rj",
-      "width": 832,
-      "height": 1216,
+      "id": 103072622,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f772689b-da92-4c1a-8484-49572fb1e0f4/original=true/f772689b-da92-4c1a-8484-49572fb1e0f4.jpeg",
+      "hash": "UFC$Ww|o?GwGCIM[o#R.00NQIWSjy{GcIms%",
+      "width": 896,
+      "height": 1600,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-01T09:31:19.448Z",
-      "postId": 21572125,
+      "createdAt": "2025-09-29T04:45:00.000Z",
+      "postId": 22866544,
       "stats": {
-        "cryCount": 364,
-        "laughCount": 667,
-        "likeCount": 4419,
+        "cryCount": 343,
+        "laughCount": 536,
+        "likeCount": 4535,
         "dislikeCount": 0,
-        "heartCount": 1532,
-        "commentCount": 2
+        "heartCount": 1560,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 294153978,
-        "draft": false,
-        "steps": 25,
-        "width": 832,
-        "height": 1216,
-        "prompt": "(masterpiece), (best quality), (ultra-detailed),   score_9, score_8_up, score_7_up, high quality, detailed, perfect face, perfect eyes, illustration, disheveled hair, detailed eyes, perfect composition, moist skin, intricate details, earrings, detailled eyes, detailled face, realistic, high dynamic range (HDR), realistic painting, rich detail, hyperrealistic subject skin texture, realistic body anatomy, super sharp full body detail, hyper textured image, HDR,chiaroscuro, (blond hair:1.5), long hair, (long twintails:1.5), (twin hair buns:1.4), (black ribbons:1.4), powder blue eyes, medium sized breasts, slender waist, big hips, serious looks, (combat pose while running:1.5), (black kneehighs:1.3), (black leather skirt:1.4), (plain black leather armor:2), (need_buzz, holding sign:2),  (dynamic motion lines, dynamic effects:1.5), (strong wind and thunder around girl body:1.4), (forest background:1.3), (high angle view:1.2), (full body view:1.2),   score_9, score_8_up, score_7_up, high quality, detailed, perfect face, perfect eyes, sharp focus, cinematic, artistic, highly intricate, innocent, elegant, complex composition, light, colors, fine detail, inspired, beautiful, epic, gorgeous, breathtaking, coherent, joyful, amazing",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-08-29T1948:37.3449202Z",
-        "experimental": false,
-        "negativePrompt": "duplicate, duplicates, extra person, extra people, clones, cloned, (emaciated, skinny, bony, anorexic, malnourished, thin arms, visible ribs, visible collarbones, sunken cheeks:1.3), easynegative\nsplit panel, multiple panels,  comic panel,  collage,  grid\nframe, card frame, trading card, trading card game, text on image, border, card border, card art, card background, card game, game card\nunwanted background elements (elementos de fondo no deseados)",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 2110275
+        "seed": 342125069673357,
+        "vaes": [
+          "ae.safetensors"
+        ],
+        "comfy": "{\"prompt\": {\"1\": {\"inputs\": {\"width\": [\"7\", 0], \"height\": [\"7\", 1], \"batch_size\": 1}, \"class_type\": \"EmptyLatentImage\", \"_meta\": {\"title\": \"Empty Latent Image\"}}, \"2\": {\"inputs\": {\"text\": \"\", \"clip\": [\"10\", 1]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Prompt)\"}}, \"3\": {\"inputs\": {\"samples\": [\"9\", 0], \"vae\": [\"5:2\", 0]}, \"class_type\": \"VAEDecode\", \"_meta\": {\"title\": \"VAE Decode\"}}, \"4\": {\"inputs\": {\"max_shift\": 1.75, \"base_shift\": 0.5, \"width\": 1024, \"height\": 1024, \"model\": [\"5:0\", 0]}, \"class_type\": \"ModelSamplingFlux\", \"_meta\": {\"title\": \"ModelSamplingFlux\"}}, \"6\": {\"inputs\": {\"guidance\": 3.0, \"conditioning\": [\"11\", 0]}, \"class_type\": \"FluxGuidance\", \"_meta\": {\"title\": \"FluxGuidance\"}}, \"7\": {\"inputs\": {\"Xi\": 896, \"Xf\": 896.0, \"Yi\": 1600, \"Yf\": 1600.0, \"isfloatX\": 0, \"isfloatY\": 0}, \"class_type\": \"mxSlider2D\", \"_meta\": {\"title\": \"Slider 2D\"}}, \"8\": {\"inputs\": {\"filename_prefix\": \"Comfy_\", \"images\": [\"3\", 0]}, \"class_type\": \"SaveImage\", \"_meta\": {\"title\": \"Save Image\"}}, \"9\": {\"inputs\": {\"seed\": 342125069673357, \"steps\": 30, \"cfg\": 1.0, \"sampler_name\": \"euler\", \"scheduler\": \"beta\", \"denoise\": 1.0, \"model\": [\"10\", 0], \"positive\": [\"6\", 0], \"negative\": [\"2\", 0], \"latent_image\": [\"1\", 0]}, \"class_type\": \"KSampler\", \"_meta\": {\"title\": \"KSampler\"}}, \"10\": {\"inputs\": {\"PowerLoraLoaderHeaderWidget\": {\"type\": \"PowerLoraLoaderHeaderWidget\"}, \"lora_9\": {\"on\": true, \"lora\": \"Lora\\\\0000-Raz's Model\\\\Raz's Unstable Artistic Takes\\\\GlitchStorm-Mk.1.safetensors\", \"strength\": 1}, \"\\u2795 Add Lora\": \"\", \"model\": [\"4\", 0], \"clip\": [\"5:1\", 0]}, \"class_type\": \"Power Lora Loader (rgthree)\", \"_meta\": {\"title\": \"Power Lora Loader (rgthree)\"}}, \"11\": {\"inputs\": {\"text\": \"photoreal neon sports car mid-drift, body splitting into RGB echoes, headlights glowing cyan and lime  \\nStorm of prism shards bursting in magenta and yellow, barcode overlays streaking across hood, HUD reticles floating above, pixel storm scattering into road, glitch tearline cutting the asphalt, FFT glow flooding exhaust trail  \\nRGB_split, prism_explosion, barcode_overlay, HUD_reticles, pixel_scatter, FFT_glow, glitchwave_tear, holographic_overlay, compression_artifacts, oscillograph_rays, neon_colorburst  \\nglitchstorm-mk.1\\n\", \"clip\": [\"10\", 1]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Prompt)\"}}, \"5:0\": {\"inputs\": {\"unet_name\": \"flux1-dev22gig.safetensors\", \"weight_dtype\": \"default\"}, \"class_type\": \"UNETLoader\", \"_meta\": {\"title\": \"Load Diffusion Model\"}}, \"5:1\": {\"inputs\": {\"clip_name1\": \"ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors\", \"clip_name2\": \"google_t5-v1_1-xxl_encoderonly-fp16.safetensors\", \"type\": \"flux\", \"device\": \"default\"}, \"class_type\": \"DualCLIPLoader\", \"_meta\": {\"title\": \"DualCLIPLoader\"}}, \"5:2\": {\"inputs\": {\"vae_name\": \"ae.safetensors\"}, \"class_type\": \"VAELoader\", \"_meta\": {\"title\": \"Load VAE\"}}}, \"workflow\": {\"id\": \"c4180fb9-7c9c-4ad3-9bc9-d6f5a598bd2d\", \"revision\": 0, \"last_node_id\": 13, \"last_link_id\": 23, \"nodes\": [{\"id\": 1, \"type\": \"EmptyLatentImage\", \"pos\": [-5449.70654296875, 1098.0555419921875], \"size\": [315, 106], \"flags\": {}, \"order\": 2, \"mode\": 0, \"inputs\": [{\"name\": \"width\", \"type\": \"INT\", \"widget\": {\"name\": \"width\"}, \"link\": 1}, {\"name\": \"height\", \"type\": \"INT\", \"widget\": {\"name\": \"height\"}, \"link\": 2}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": [12]}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.30\", \"Node name for S&R\": \"EmptyLatentImage\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"width\": true, \"height\": true, \"batch_size\": true}}}, \"widgets_values\": [1024, 1024, 1]}, {\"id\": 2, \"type\": \"CLIPTextEncode\", \"pos\": [-4960, 740], \"size\": [400, 200], \"flags\": {\"collapsed\": false}, \"order\": 5, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 3}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"slot_index\": 0, \"links\": [11]}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"CLIPTextEncode\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"text\": true}}}, \"widgets_values\": [\"\"], \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 3, \"type\": \"VAEDecode\", \"pos\": [-4360, 750], \"size\": [220, 60], \"flags\": {}, \"order\": 9, \"mode\": 0, \"inputs\": [{\"name\": \"samples\", \"type\": \"LATENT\", \"link\": 4}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 5}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"slot_index\": 0, \"links\": [8]}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"VAEDecode\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {}}}, \"widgets_values\": []}, {\"id\": 8, \"type\": \"SaveImage\", \"pos\": [-4050, 690], \"size\": [650, 780], \"flags\": {}, \"order\": 10, \"mode\": 0, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 8}], \"outputs\": [], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"SaveImage\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"filename_prefix\": true}}}, \"widgets_values\": [\"Comfy_\"]}, {\"id\": 4, \"type\": \"ModelSamplingFlux\", \"pos\": [-4380, 1330], \"size\": [290, 130], \"flags\": {}, \"order\": 3, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 6}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"slot_index\": 0, \"links\": [13]}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"ModelSamplingFlux\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"max_shift\": true, \"base_shift\": true, \"width\": true, \"height\": true}}}, \"widgets_values\": [1.75, 0.5, 1024, 1024], \"color\": \"#2a363b\", \"bgcolor\": \"#3f5159\", \"shape\": 1}, {\"id\": 10, \"type\": \"Power Lora Loader (rgthree)\", \"pos\": [-5070, 1080], \"size\": [650, 502], \"flags\": {}, \"order\": 4, \"mode\": 0, \"inputs\": [{\"dir\": 3, \"name\": \"model\", \"type\": \"MODEL\", \"link\": 13}, {\"dir\": 3, \"name\": \"clip\", \"type\": \"CLIP\", \"link\": 14}], \"outputs\": [{\"dir\": 4, \"name\": \"MODEL\", \"shape\": 3, \"type\": \"MODEL\", \"slot_index\": 0, \"links\": [9]}, {\"dir\": 4, \"name\": \"CLIP\", \"shape\": 3, \"type\": \"CLIP\", \"slot_index\": 1, \"links\": [3, 19]}], \"properties\": {\"cnr_id\": \"rgthree-comfy\", \"ver\": \"32142fe476878a354dda6e2d4b5ea98960de3ced\", \"Show Strengths\": \"Single Strength\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {}}}, \"widgets_values\": [{}, {\"type\": \"PowerLoraLoaderHeaderWidget\"}, {\"on\": true, \"lora\": \"Lora\\\\0000-Raz's Model\\\\Raz's Unstable Artistic Takes\\\\GlitchStorm-Mk.1.safetensors\", \"strength\": 1, \"strengthTwo\": null}, {}, \"\"]}, {\"id\": 7, \"type\": \"mxSlider2D\", \"pos\": [-5520, 1090], \"size\": [420, 370], \"flags\": {}, \"order\": 0, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"\", \"type\": \"INT\", \"links\": [1]}, {\"name\": \"\", \"type\": \"INT\", \"links\": [2]}], \"properties\": {\"valueX\": 896, \"valueY\": 1600, \"minX\": 0, \"minY\": 0, \"maxX\": 2048, \"maxY\": 2048, \"stepX\": 32, \"stepY\": 32, \"decimalsX\": 0, \"decimalsY\": 0, \"snap\": true, \"dots\": true, \"frame\": true, \"frameAlert\": 0, \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"Xi\": true, \"Xf\": true, \"Yi\": true, \"Yf\": true, \"isfloatX\": true, \"isfloatY\": true}}}, \"widgets_values\": [896, 896, 1600, 1600, 0, 0], \"color\": \"#323\", \"bgcolor\": \"#535\"}, {\"id\": 9, \"type\": \"KSampler\", \"pos\": [-4370, 690], \"size\": [290, 600], \"flags\": {}, \"order\": 8, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 9}, {\"name\": \"positive\", \"type\": \"CONDITIONING\", \"link\": 10}, {\"name\": \"negative\", \"type\": \"CONDITIONING\", \"link\": 11}, {\"name\": \"latent_image\", \"type\": \"LATENT\", \"link\": 12}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"slot_index\": 0, \"links\": [4]}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"KSampler\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"seed\": true, \"steps\": true, \"cfg\": true, \"sampler_name\": true, \"scheduler\": true, \"denoise\": true}}}, \"widgets_values\": [342125069673357, \"randomize\", 30, 1, \"euler\", \"beta\", 1]}, {\"id\": 5, \"type\": \"workflow>Model/CLIP/VAE\", \"pos\": [-5519.70654296875, 688.0555419921875], \"size\": [440, 242], \"flags\": {}, \"order\": 1, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [6]}, {\"name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [14]}, {\"name\": \"VAE\", \"type\": \"VAE\", \"links\": [5]}], \"properties\": {\"Node name for S&R\": \"workflow>Model/CLIP/VAE\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"unet_name\": true, \"weight_dtype\": true, \"clip_name1\": true, \"clip_name2\": true, \"type\": true, \"device\": true, \"vae_name\": true}}}, \"widgets_values\": [\"flux1-dev22gig.safetensors\", \"default\", \"ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors\", \"google_t5-v1_1-xxl_encoderonly-fp16.safetensors\", \"flux\", \"default\", \"ae.safetensors\"]}, {\"id\": 6, \"type\": \"FluxGuidance\", \"pos\": [-5519.70654296875, 978.0555419921875], \"size\": [430, 60], \"flags\": {}, \"order\": 7, \"mode\": 0, \"inputs\": [{\"name\": \"conditioning\", \"type\": \"CONDITIONING\", \"link\": 7}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"slot_index\": 0, \"links\": [10]}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"FluxGuidance\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"guidance\": true}}}, \"widgets_values\": [3]}, {\"id\": 11, \"type\": \"CLIPTextEncode\", \"pos\": [-5070, 680], \"size\": [660, 350], \"flags\": {}, \"order\": 6, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 19}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"slot_index\": 0, \"links\": [7]}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"CLIPTextEncode\", \"ue_properties\": {\"version\": \"7.0.1\", \"widget_ue_connectable\": {\"text\": true}}}, \"widgets_values\": [\"photoreal neon sports car mid-drift, body splitting into RGB echoes, headlights glowing cyan and lime  \\nStorm of prism shards bursting in magenta and yellow, barcode overlays streaking across hood, HUD reticles floating above, pixel storm scattering into road, glitch tearline cutting the asphalt, FFT glow flooding exhaust trail  \\nRGB_split, prism_explosion, barcode_overlay, HUD_reticles, pixel_scatter, FFT_glow, glitchwave_tear, holographic_overlay, compression_artifacts, oscillograph_rays, neon_colorburst  \\nglitchstorm-mk.1\\n\"], \"color\": \"#232\", \"bgcolor\": \"#353\"}], \"links\": [[1, 7, 0, 1, 0, \"INT\"], [2, 7, 1, 1, 1, \"INT\"], [3, 10, 1, 2, 0, \"CLIP\"], [4, 9, 0, 3, 0, \"LATENT\"], [5, 5, 2, 3, 1, \"VAE\"], [6, 5, 0, 4, 0, \"MODEL\"], [7, 11, 0, 6, 0, \"CONDITIONING\"], [8, 3, 0, 8, 0, \"IMAGE\"], [9, 10, 0, 9, 0, \"MODEL\"], [10, 6, 0, 9, 1, \"CONDITIONING\"], [11, 2, 0, 9, 2, \"CONDITIONING\"], [12, 1, 0, 9, 3, \"LATENT\"], [13, 4, 0, 10, 0, \"MODEL\"], [14, 5, 1, 10, 1, \"CLIP\"], [19, 10, 1, 11, 0, \"CLIP\"]], \"groups\": [{\"id\": 1, \"title\": \"Basic Image Generation\", \"bounding\": [-5530, 610, 2150, 873.5999755859375], \"color\": \"#3f789e\", \"font_size\": 24, \"flags\": {}}], \"config\": {}, \"extra\": {\"ue_links\": [], \"groupNodes\": {\"Model/CLIP/VAE\": {\"nodes\": [{\"id\": -1, \"type\": \"UNETLoader\", \"pos\": [-1960, 140], \"size\": [210, 82], \"flags\": {}, \"order\": 5, \"mode\": 0, \"inputs\": [{\"name\": \"unet_name\", \"localized_name\": \"unet_name\", \"type\": \"COMBO\", \"widget\": {\"name\": \"unet_name\"}, \"link\": null}, {\"name\": \"weight_dtype\", \"localized_name\": \"weight_dtype\", \"type\": \"COMBO\", \"widget\": {\"name\": \"weight_dtype\"}, \"link\": null}], \"outputs\": [{\"name\": \"MODEL\", \"localized_name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"UNETLoader\"}, \"widgets_values\": [\"STOIQOAfroditeFLUXXL_F1DAlpha.safetensors\", \"default\"], \"index\": 0}, {\"id\": -1, \"type\": \"DualCLIPLoader\", \"pos\": [-1980, 280], \"size\": [210, 122], \"flags\": {}, \"order\": 3, \"mode\": 0, \"inputs\": [{\"name\": \"clip_name1\", \"localized_name\": \"clip_name1\", \"type\": \"COMBO\", \"widget\": {\"name\": \"clip_name1\"}, \"link\": null}, {\"name\": \"clip_name2\", \"localized_name\": \"clip_name2\", \"type\": \"COMBO\", \"widget\": {\"name\": \"clip_name2\"}, \"link\": null}, {\"name\": \"type\", \"localized_name\": \"type\", \"type\": \"COMBO\", \"widget\": {\"name\": \"type\"}, \"link\": null}, {\"name\": \"device\", \"localized_name\": \"device\", \"type\": \"COMBO\", \"shape\": 7, \"widget\": {\"name\": \"device\"}, \"link\": null}], \"outputs\": [{\"name\": \"CLIP\", \"localized_name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"DualCLIPLoader\"}, \"widgets_values\": [\"t5xxl_fp16.safetensors\", \"clip_l.safetensors\", \"flux\", \"default\"], \"index\": 1}, {\"id\": -1, \"type\": \"VAELoader\", \"pos\": [-1980, 440], \"size\": [210, 58], \"flags\": {}, \"order\": 4, \"mode\": 0, \"inputs\": [{\"name\": \"vae_name\", \"localized_name\": \"vae_name\", \"type\": \"COMBO\", \"widget\": {\"name\": \"vae_name\"}, \"link\": null}], \"outputs\": [{\"name\": \"VAE\", \"localized_name\": \"VAE\", \"type\": \"VAE\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"VAELoader\"}, \"widgets_values\": [\"ae.safetensors\"], \"index\": 2}], \"links\": [], \"external\": [[{\"id\": -1, \"type\": \"DualCLIPLoader\", \"pos\": [-1980, 280], \"size\": [210, 122], \"flags\": {}, \"order\": 3, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"CLIP\", \"localized_name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"DualCLIPLoader\"}, \"widgets_values\": [\"t5xxl_fp16.safetensors\", \"clip_l.safetensors\", \"flux\", \"default\"], \"index\": 1}, 0, \"CLIP\"], [{\"id\": -1, \"type\": \"VAELoader\", \"pos\": [-1980, 440], \"size\": [210, 58], \"flags\": {}, \"order\": 4, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"VAE\", \"localized_name\": \"VAE\", \"type\": \"VAE\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"VAELoader\"}, \"widgets_values\": [\"ae.safetensors\"], \"index\": 2}, 0, \"VAE\"], [{\"id\": -1, \"type\": \"UNETLoader\", \"pos\": [-1960, 140], \"size\": [210, 82], \"flags\": {}, \"order\": 5, \"mode\": 0, \"inputs\": [], \"outputs\": [{\"name\": \"MODEL\", \"localized_name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"cnr_id\": \"comfy-core\", \"ver\": \"0.3.15\", \"Node name for S&R\": \"UNETLoader\"}, \"widgets_values\": [\"STOIQOAfroditeFLUXXL_F1DAlpha.safetensors\", \"default\"], \"index\": 0}, 0, \"MODEL\"]], \"config\": {\"0\": {}, \"1\": {}, \"2\": {}}}}, \"links_added_by_ue\": [], \"ds\": {\"scale\": 0.8621022406369226, \"offset\": [5933.72991565449, -385.242061282702]}, \"frontendVersion\": \"1.26.13\", \"VHS_latentpreview\": false, \"VHS_latentpreviewrate\": 0, \"VHS_MetadataImage\": true, \"VHS_KeepIntermediate\": true}, \"version\": 0.4, \"widget_idx_map\": {\"9\": {\"seed\": 0, \"sampler_name\": 4, \"scheduler\": 5}}, \"seed_widgets\": {\"9\": 0}}}",
+        "steps": 30,
+        "width": {
+          "_meta": {
+            "title": "Slider 2D"
           },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1214240
-          }
-        ]
+          "inputs": {
+            "Xf": 896,
+            "Xi": 896,
+            "Yf": 1600,
+            "Yi": 1600,
+            "isfloatX": 0,
+            "isfloatY": 0
+          },
+          "class_type": "mxSlider2D"
+        },
+        "height": {
+          "_meta": {
+            "title": "Slider 2D"
+          },
+          "inputs": {
+            "Xf": 896,
+            "Xi": 896,
+            "Yf": 1600,
+            "Yi": 1600,
+            "isfloatX": 0,
+            "isfloatY": 0
+          },
+          "class_type": "mxSlider2D"
+        },
+        "prompt": "photoreal neon sports car mid-drift, body splitting into RGB echoes, headlights glowing cyan and lime  \nStorm of prism shards bursting in magenta and yellow, barcode overlays streaking across hood, HUD reticles floating above, pixel storm scattering into road, glitch tearline cutting the asphalt, FFT glow flooding exhaust trail  \nRGB_split, prism_explosion, barcode_overlay, HUD_reticles, pixel_scatter, FFT_glow, glitchwave_tear, holographic_overlay, compression_artifacts, oscillograph_rays, neon_colorburst  \nglitchstorm-mk.1\n",
+        "denoise": 1,
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "scheduler": "beta"
       },
-      "username": "xMythril",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1214240,
-        2110275
-      ]
+      "username": "Razane",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "739|1759121100000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=739%7C1759121100000"
+    "nextCursor": "740|1733507251519",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=740%7C1733507251519"
   }
 }
