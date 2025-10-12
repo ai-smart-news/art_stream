@@ -1,44 +1,75 @@
 {
   "items": [
     {
-      "id": 58219389,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39c808cb-e44a-4d80-bb06-2646ee0d5bb8/original=true/39c808cb-e44a-4d80-bb06-2646ee0d5bb8.jpeg",
-      "hash": "UPDbmAs:i_ae~WoLM{f6x]WVIoj[xtayRjkB",
-      "width": 1248,
-      "height": 1824,
+      "id": 98872742,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/659c43d3-7458-44ef-bb09-db24954e7ec4/original=true/659c43d3-7458-44ef-bb09-db24954e7ec4.jpeg",
+      "hash": "UIDwQ.xG00V[?]W=IBV@t*NG9coK=|spNHWC",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-16T18:11:08.444Z",
-      "postId": 13029053,
+      "createdAt": "2025-09-07T19:58:14.571Z",
+      "postId": 21937919,
       "stats": {
-        "cryCount": 316,
-        "laughCount": 788,
-        "likeCount": 4370,
+        "cryCount": 364,
+        "laughCount": 567,
+        "likeCount": 4570,
         "dislikeCount": 0,
-        "heartCount": 1554,
-        "commentCount": 9
+        "heartCount": 1514,
+        "commentCount": 2
       },
       "meta": {
-        "seed": 366931152,
-        "Model": "OfficialStableDiffusion/hassakuXLIllustrious_v12Style",
-        "steps": 35,
-        "width": 832,
-        "height": 1216,
-        "prompt": "absurdres, highly-detailed, best quality, masterpiece, very aesthetic, amazing quality, l3g0,  1boy, Pyramid Head (Silent Hill), holding absurdly large knife, horror (theme), horror background",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "negativePrompt": "anime, 2d, bad quality, worst quality, worst detail, sketch, censor, simple background, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early,chromatic aberration, signature,artistic error, username, scan, nipples",
-        "originalSampler": "euler_ancestral"
+        "Size": "832x1216",
+        "seed": 1102976695,
+        "steps": 30,
+        "prompt": "Create a photorealistic image of a group of flamingos, lake, water, plants, palms, jungle, trees, vibrant colors, from a distance, highly detailed, aesthetic, great lighting, extremely detailed,   perfect composition, a vibrant tissue of hues and textures captured digitally, best quality, realistic, captivating, intricately detailed, hyper detailed, maximalist style, dynamic lighting, superb composition, finest details, highest aesthetics, best quality, sharp focus, high contrast, stylized, clear, colorful, ultra quality, whimsical, fantastic, splash art, intricate detailed, hyperdetailed, maximalist style, hyper detailed, maximalist style,  concept art, sharp focus, harmony, serenity, calm, mysterious glow, dynamic lighting, superb composition, sharp focus, high contrast, stylized, clear, colorful, ultra quality,  best quality, DB4RZ, DB4RZ style painting, NeoPigma, in the style of cksc, anime, cyberpunk, a masterpiece, award winning,",
+        "sampler": "Undefined",
+        "cfgScale": 3.6,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-01-21T1130:23.2157183Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 747534
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1050932
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 778925
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1043949
+          }
+        ]
       },
-      "username": "kftiger",
-      "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "username": "Lady_Luminous",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        747534,
+        778925,
+        1043949,
+        1050932
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "718|1757275094571",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=718%7C1757275094571"
+    "nextCursor": "719|1724963402808",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=719%7C1724963402808"
   }
 }
