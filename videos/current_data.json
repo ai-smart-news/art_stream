@@ -1,60 +1,33 @@
 {
   "items": [
     {
-      "id": 37791624,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe85a087-3c75-41a3-ba65-7eaed81fe4ba/original=true/fe85a087-3c75-41a3-ba65-7eaed81fe4ba.jpeg",
-      "hash": "UED?:e^SxI#q}cxbw}jZ1YWBWUOW1EEdbHxa",
-      "width": 832,
-      "height": 1216,
+      "id": 87061846,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3f9c840-fac4-49e8-ac66-56f1b16a2329/original=true/b3f9c840-fac4-49e8-ac66-56f1b16a2329.jpeg",
+      "hash": "U34.cP%N9WNykKk]MtIQm{rVwcRfM|NLJ5xA",
+      "width": 627,
+      "height": 916,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-11-01T19:39:56.135Z",
-      "postId": 8630719,
+      "createdAt": "2025-07-08T19:05:00.000Z",
+      "postId": 19315238,
       "stats": {
-        "cryCount": 311,
-        "laughCount": 569,
-        "likeCount": 4487,
+        "cryCount": 299,
+        "laughCount": 579,
+        "likeCount": 4372,
         "dislikeCount": 0,
-        "heartCount": 1576,
-        "commentCount": 6
+        "heartCount": 1693,
+        "commentCount": 8
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 2739998319,
-        "Model": "getphatFLUXReality_v20",
-        "steps": 20,
-        "hashes": {
-          "model": "5b79348422"
-        },
-        "prompt": "hyperdetailed dyanamic photography of sci-fi futurisitic, based onRhodolite Garnet: A pink to reddish-purple gemstone, displaying a lovely hue reminiscent of rhododendron flowers.   futurisitc, color explosion , web of neon lights, motion, catched in motion, Ultra Realistic Style , shallow depth of field, vignette, highly detailed, high budget Hollywood film, cinemascope, moody, epic, gorgeous, dark colors ,  detailed, low light, darknes, limited colors, black, detailed background, focus on character ,  depth of field, color explosion, intricated background, life, vivid colors , realsitic,",
-        "Version": "f2.0.1v1.10.1-previous-531-g210af4f8",
-        "sampler": "Euler",
-        "Module 1": "t5xxl_fp8_e4m3fn",
-        "Module 2": "ae",
-        "Module 3": "clip_l",
-        "cfgScale": 1,
-        "resources": [
-          {
-            "hash": "5b79348422",
-            "name": "getphatFLUXReality_v20",
-            "type": "model"
-          }
-        ],
-        "Model hash": "5b79348422",
-        "Schedule type": "Beta",
-        "Beta schedule beta": "0.6",
-        "Beta schedule alpha": "0.6",
-        "Distilled CFG Scale": "2"
-      },
-      "username": "Atryda",
-      "baseModel": "",
+      "meta": null,
+      "username": "Pinkielicious",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "756|1752001500000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=756%7C1752001500000"
+    "nextCursor": "757|1749650149998",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=757%7C1749650149998"
   }
 }
