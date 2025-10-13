@@ -1,40 +1,64 @@
 {
   "items": [
     {
-      "id": 67179498,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f683136-e9db-46ca-9a41-c130789f3b6e/original=true/1f683136-e9db-46ca-9a41-c130789f3b6e.jpeg",
-      "hash": "UPGRMJ9a9txu~CIpX8xaEfs:RjofTJjZM{xa",
-      "width": 1480,
-      "height": 2120,
+      "id": 42377599,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd7e694e-b704-47ab-bd95-ebf01354287a/original=true/bd7e694e-b704-47ab-bd95-ebf01354287a.jpeg",
+      "hash": "UDBq_B.8Mwg4*0o#s+oe8^IAR5tSIUt7ogxt",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T02:42:55.729Z",
-      "postId": 14941078,
+      "createdAt": "2024-11-27T13:09:44.987Z",
+      "postId": 9639934,
       "stats": {
-        "cryCount": 334,
-        "laughCount": 694,
-        "likeCount": 4230,
+        "cryCount": 324,
+        "laughCount": 499,
+        "likeCount": 4525,
         "dislikeCount": 0,
-        "heartCount": 1703,
-        "commentCount": 4
+        "heartCount": 1610,
+        "commentCount": 9
       },
       "meta": {
-        "seed": 120924723,
-        "steps": 28,
-        "prompt": "1girl, solo, civchan, medium_hair, pink hair, looking_at_viewer, smile, bangs, anime, simple_background, black background, twintails, purple_eyes, boots, maid, teeth, grin, glowing, glowing_eyes, dutch angle, (pout:0.9),\nheart-shaped pupils, [crazy eyes], cg, masterpiece, 8k, holding technological orb, meme, comic\n\n<lora:CivChan:0.9>",
-        "sampler": "Euler",
-        "cfgScale": 3,
-        "negativePrompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, (sketch), flat color, ugly, fat, muscular, abs, blurry eyes, wrinkled skin, crying, child, speech bubble"
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 303908679,
+        "draft": false,
+        "extra": {
+          "remixOfId": 41761932
+        },
+        "steps": 20,
+        "width": 832,
+        "height": 1216,
+        "prompt": "beautiful aesthetic, intricate, a tarantula made of ice, covered in icicles, walking on water, its steps freezes the water, magical aura, fantasy art, peaceful, high fantasy style, mysterious, celestial light, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, sparkling ice, dramatic lighting",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@922358",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2024-11-27T1301:14.8518238Z",
+        "fluxUltraRaw": false,
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 922358,
+            "modelVersionName": "Pro 1.1"
+          }
+        ]
       },
-      "username": "Ocean3",
-      "baseModel": "Illustrious",
-      "modelVersionIds": []
+      "username": "DigitalPastel",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        922358
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "750|1732712984987",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=750%7C1732712984987"
+    "nextCursor": "751|1726754926827",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=751%7C1726754926827"
   }
 }
