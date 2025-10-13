@@ -1,33 +1,93 @@
 {
   "items": [
     {
-      "id": 85944011,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08ee242a-1ff3-41c1-8d65-1d5982129b4b/original=true/08ee242a-1ff3-41c1-8d65-1d5982129b4b.jpeg",
-      "hash": "UnHU^F-o%MoL.TofofkCIpWBM{t6RPkCWAay",
-      "width": 1024,
-      "height": 1536,
+      "id": 60932747,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1703c5c5-9aa0-4990-938d-c60c0d843f02/original=true/1703c5c5-9aa0-4990-938d-c60c0d843f02.jpeg",
+      "hash": "UICXyZ9_WB9]}qEg$$ENr=aet6NwNa$ijbf+",
+      "width": 1500,
+      "height": 2192,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-03T01:53:54.027Z",
-      "postId": 19073071,
+      "createdAt": "2025-03-02T00:10:00.000Z",
+      "postId": 13629707,
       "stats": {
-        "cryCount": 356,
-        "laughCount": 1061,
-        "likeCount": 4040,
+        "cryCount": 277,
+        "laughCount": 522,
+        "likeCount": 4438,
         "dislikeCount": 0,
-        "heartCount": 1481,
-        "commentCount": 11
+        "heartCount": 1696,
+        "commentCount": 8
       },
-      "meta": null,
-      "username": "Fujido",
-      "baseModel": "OpenAI",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1220540233,
+        "steps": 30,
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-02-28T1105:54.1297225Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 962598,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 806265,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 753053,
+            "modelVersionName": "Flux Original"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1253584,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 863655,
+            "modelVersionName": "Balance_v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 754068,
+            "modelVersionName": "v1.0"
+          }
+        ]
+      },
+      "username": "ArtifyAI",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        753053,
+        754068,
+        806265,
+        863655,
+        962598,
+        1253584
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "759|1740874200000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=759%7C1740874200000"
+    "nextCursor": "760|1734032969240",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=760%7C1734032969240"
   }
 }
