@@ -1,64 +1,64 @@
 {
   "items": [
     {
-      "id": 42377599,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd7e694e-b704-47ab-bd95-ebf01354287a/original=true/bd7e694e-b704-47ab-bd95-ebf01354287a.jpeg",
-      "hash": "UDBq_B.8Mwg4*0o#s+oe8^IAR5tSIUt7ogxt",
-      "width": 832,
-      "height": 1216,
+      "id": 30256469,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59735736-f274-4478-bf38-1cec2da2f839/original=true/59735736-f274-4478-bf38-1cec2da2f839.jpeg",
+      "hash": "U5DIXuGF00%2xyE%^P-V00NG.kW=vjOW10Io",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-11-27T13:09:44.987Z",
-      "postId": 9639934,
+      "createdAt": "2024-09-19T14:08:46.827Z",
+      "postId": 6769506,
       "stats": {
-        "cryCount": 324,
-        "laughCount": 499,
-        "likeCount": 4525,
+        "cryCount": 358,
+        "laughCount": 696,
+        "likeCount": 4243,
         "dislikeCount": 0,
-        "heartCount": 1610,
-        "commentCount": 9
+        "heartCount": 1661,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 303908679,
-        "draft": false,
-        "extra": {
-          "remixOfId": 41761932
+        "Size": "896x1152",
+        "seed": 23096904,
+        "Model": "CreArtV2.4-Hyper-Flux-Dev-Fp8-Unet",
+        "steps": 10,
+        "hashes": {
+          "model": "d7e0e95bb0"
         },
-        "steps": 20,
-        "width": 832,
-        "height": 1216,
-        "prompt": "beautiful aesthetic, intricate, a tarantula made of ice, covered in icicles, walking on water, its steps freezes the water, magical aura, fantasy art, peaceful, high fantasy style, mysterious, celestial light, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, sparkling ice, dramatic lighting",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@922358",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2024-11-27T1301:14.8518238Z",
-        "fluxUltraRaw": false,
-        "civitaiResources": [
+        "prompt": "Several people are trying to enter a large eye,oil painting of,Graffiti style Street art vibrant urban detailed tag mural,minimalistic sharp outlines glass translucency Curly electric field long exposure contour Swirling (Dilapidated iridescent mercury:1.1) veins in colored fiber optic hightly detailled perfect body back light ligth flow spread arms,style by Sam Toft,detailed masterpiece most beautiful artwork in the world Ultrarealistic,Fuji superia 400,volumetric lighting",
+        "Version": "f2.0.1v1.10.1-previous-532-g791f04f7",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 922358,
-            "modelVersionName": "Pro 1.1"
+            "hash": "d7e0e95bb0",
+            "name": "CreArtV2.4-Hyper-Flux-Dev-Fp8-Unet",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "d7e0e95bb0",
+        "Schedule type": "Beta",
+        "Beta schedule beta": "0.6",
+        "Beta schedule alpha": "0.6",
+        "Distilled CFG Scale": "3",
+        "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+        "CreaPrompt random From categories": "lection"
       },
-      "username": "DigitalPastel",
+      "username": "jice",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        922358
+        862930
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "751|1726754926827",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=751%7C1726754926827"
+    "nextCursor": "752|1751476500000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=752%7C1751476500000"
   }
 }
