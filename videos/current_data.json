@@ -1,33 +1,94 @@
 {
   "items": [
     {
-      "id": 87061846,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3f9c840-fac4-49e8-ac66-56f1b16a2329/original=true/b3f9c840-fac4-49e8-ac66-56f1b16a2329.jpeg",
-      "hash": "U34.cP%N9WNykKk]MtIQm{rVwcRfM|NLJ5xA",
-      "width": 627,
-      "height": 916,
+      "id": 81703424,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/61de0d6c-6ba4-4afa-b806-c145be6f1b6e/original=true/61de0d6c-6ba4-4afa-b806-c145be6f1b6e.jpeg",
+      "hash": "U69jT2%2xZIV~WR+IVax0LM|M|xtD%oJ%LWC",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-08T19:05:00.000Z",
-      "postId": 19315238,
+      "createdAt": "2025-06-11T13:55:49.998Z",
+      "postId": 18149269,
       "stats": {
-        "cryCount": 299,
-        "laughCount": 579,
-        "likeCount": 4372,
+        "cryCount": 348,
+        "laughCount": 535,
+        "likeCount": 4508,
         "dislikeCount": 0,
-        "heartCount": 1693,
-        "commentCount": 8
+        "heartCount": 1548,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "Pinkielicious",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 4294967295,
+        "draft": false,
+        "steps": 50,
+        "width": 832,
+        "height": 1216,
+        "prompt": "In a spectral graveyard, beneath a vast black sky pierced by a towering Iridescent moon, an Angel stands as the embodiment of Justice, spectral graves and tombstones scattered across the open plains, Shooting stars streak against the starlit night, perfect proportion, amplifying her divine yet sacred presence.\nHer white hair flows like clouds in the wind, and a pair of symmetrical, A halo of Gold above her head, Her glowing Golden eyes cut through the darkness, gaze warm and loving. Her face is beyond beautiful, with serene, almost celestial symmetry,\nWhite, Seraph wings unfurl behind her\u2014accented with glowing Gold,\nShe wears a form-fitting while silk dress, smooth and delicate, tightly sculpted to her soft, athletic frame. Gold accents woven into the dress, engraved with Holy symbols. The design fuses ornate elegance with the Divine.\nA white veil falls from her shoulders,\nGripped in one hand is a colossal twin-bladed halberd\u2014its shaft thin and Majestic, forged of Silver-black alloy entwined with deep gold. At the center of the double blade gleams a White core like a gemstone. The blade\u2019s surface glows faintly as if still searing from its last strike,\nShe is captured in a low-angle cinematic shot that enhances her divine stature,\nRendered with ultra-detailed cinematic quality, every detail\u2014from soft dress to star-lit sky, from dynamic pose to empty graveyard\u2014is composed for maximum visual tension and mythic impact.\nhkevil.",
+        "sampler": "Undefined",
+        "cfgScale": 11,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-06-11T1353:41.7984032Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 742813,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 774588,
+            "modelVersionName": "Flux"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 957818,
+            "modelVersionName": "v1.0-dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 1604249,
+            "modelVersionName": "v1.0"
+          }
+        ]
+      },
+      "username": "CR33D",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        691639,
+        720252,
+        742813,
+        774588,
+        957818,
+        1604249
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "757|1749650149998",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=757%7C1749650149998"
+    "nextCursor": "758|1751507634027",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=758%7C1751507634027"
   }
 }
