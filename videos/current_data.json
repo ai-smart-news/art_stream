@@ -1,65 +1,60 @@
 {
   "items": [
     {
-      "id": 43470959,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c9c0f79-771e-4132-95a5-75f511af7850/original=true/1c9c0f79-771e-4132-95a5-75f511af7850.jpeg",
-      "hash": "UQGR;-oz~VR*D%-obHRk00In4nt8o}D*xuxZ",
-      "width": 768,
-      "height": 1152,
+      "id": 37791624,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe85a087-3c75-41a3-ba65-7eaed81fe4ba/original=true/fe85a087-3c75-41a3-ba65-7eaed81fe4ba.jpeg",
+      "hash": "UED?:e^SxI#q}cxbw}jZ1YWBWUOW1EEdbHxa",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-03T14:15:25.469Z",
-      "postId": 9880871,
+      "createdAt": "2024-11-01T19:39:56.135Z",
+      "postId": 8630719,
       "stats": {
-        "cryCount": 268,
-        "laughCount": 467,
-        "likeCount": 4595,
+        "cryCount": 311,
+        "laughCount": 569,
+        "likeCount": 4487,
         "dislikeCount": 0,
-        "heartCount": 1623,
-        "commentCount": 9
+        "heartCount": 1576,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "768x1156",
-        "seed": 1663638248,
-        "Model": "ntrMIXIllustriousXL_v40",
-        "steps": 24,
+        "Size": "832x1216",
+        "seed": 2739998319,
+        "Model": "getphatFLUXReality_v20",
+        "steps": 20,
         "hashes": {
-          "model": "eb6ccc05e5",
-          "lora:NV_Celestial_Skin_IL": "d54dfeb16788"
+          "model": "5b79348422"
         },
-        "prompt": "masterpiece,   <lora:NV_Celestial_Skin_IL:1> nv-celestialskin, colored skin,   void cosmic body, stars, black skin, chromatic aberration,\ngiant tiger, in a canyon, from below, dutch angle,monster, glowing eyes, animal focus, dissolving ,",
-        "Version": "f2.0.1v1.10.1-previous-626-ga332f7cc",
-        "sampler": "Euler a",
-        "Module 1": "sdxl_vae",
-        "cfgScale": 6.5,
+        "prompt": "hyperdetailed dyanamic photography of sci-fi futurisitic, based onRhodolite Garnet: A pink to reddish-purple gemstone, displaying a lovely hue reminiscent of rhododendron flowers.   futurisitc, color explosion , web of neon lights, motion, catched in motion, Ultra Realistic Style , shallow depth of field, vignette, highly detailed, high budget Hollywood film, cinemascope, moody, epic, gorgeous, dark colors ,  detailed, low light, darknes, limited colors, black, detailed background, focus on character ,  depth of field, color explosion, intricated background, life, vivid colors , realsitic,",
+        "Version": "f2.0.1v1.10.1-previous-531-g210af4f8",
+        "sampler": "Euler",
+        "Module 1": "t5xxl_fp8_e4m3fn",
+        "Module 2": "ae",
+        "Module 3": "clip_l",
+        "cfgScale": 1,
         "resources": [
           {
-            "hash": "d54dfeb16788",
-            "name": "NV_Celestial_Skin_IL",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "eb6ccc05e5",
-            "name": "ntrMIXIllustriousXL_v40",
+            "hash": "5b79348422",
+            "name": "getphatFLUXReality_v20",
             "type": "model"
           }
         ],
-        "Model hash": "eb6ccc05e5",
-        "Schedule type": "Automatic",
-        "negativePrompt": "lowres, worst quality, bad quality, bad anatomy, jpeg artifacts, bad composition, 2koma, 4koma, comic, multiple views, oldest"
+        "Model hash": "5b79348422",
+        "Schedule type": "Beta",
+        "Beta schedule beta": "0.6",
+        "Beta schedule alpha": "0.6",
+        "Distilled CFG Scale": "2"
       },
-      "username": "navimixu",
-      "baseModel": null,
-      "modelVersionIds": [
-        1124762
-      ]
+      "username": "Atryda",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "755|1730489996135",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=755%7C1730489996135"
+    "nextCursor": "756|1752001500000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=756%7C1752001500000"
   }
 }
