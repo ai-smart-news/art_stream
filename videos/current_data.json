@@ -1,33 +1,65 @@
 {
   "items": [
     {
-      "id": 75708064,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8fbe2467-25a5-47f2-bd3c-ce5bf3f3702c/original=true/8fbe2467-25a5-47f2-bd3c-ce5bf3f3702c.jpeg",
-      "hash": "UEB3ve01t5?HD*t7M{WB0L?HRjIU~pE1oJ-p",
-      "width": 1792,
-      "height": 2288,
+      "id": 43470959,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c9c0f79-771e-4132-95a5-75f511af7850/original=true/1c9c0f79-771e-4132-95a5-75f511af7850.jpeg",
+      "hash": "UQGR;-oz~VR*D%-obHRk00In4nt8o}D*xuxZ",
+      "width": 768,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-11T23:28:32.388Z",
-      "postId": 16811397,
+      "createdAt": "2024-12-03T14:15:25.469Z",
+      "postId": 9880871,
       "stats": {
-        "cryCount": 322,
-        "laughCount": 605,
-        "likeCount": 4360,
+        "cryCount": 268,
+        "laughCount": 467,
+        "likeCount": 4595,
         "dislikeCount": 0,
-        "heartCount": 1665,
-        "commentCount": 5
+        "heartCount": 1623,
+        "commentCount": 9
       },
-      "meta": null,
-      "username": "Thrack",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "768x1156",
+        "seed": 1663638248,
+        "Model": "ntrMIXIllustriousXL_v40",
+        "steps": 24,
+        "hashes": {
+          "model": "eb6ccc05e5",
+          "lora:NV_Celestial_Skin_IL": "d54dfeb16788"
+        },
+        "prompt": "masterpiece,   <lora:NV_Celestial_Skin_IL:1> nv-celestialskin, colored skin,   void cosmic body, stars, black skin, chromatic aberration,\ngiant tiger, in a canyon, from below, dutch angle,monster, glowing eyes, animal focus, dissolving ,",
+        "Version": "f2.0.1v1.10.1-previous-626-ga332f7cc",
+        "sampler": "Euler a",
+        "Module 1": "sdxl_vae",
+        "cfgScale": 6.5,
+        "resources": [
+          {
+            "hash": "d54dfeb16788",
+            "name": "NV_Celestial_Skin_IL",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "eb6ccc05e5",
+            "name": "ntrMIXIllustriousXL_v40",
+            "type": "model"
+          }
+        ],
+        "Model hash": "eb6ccc05e5",
+        "Schedule type": "Automatic",
+        "negativePrompt": "lowres, worst quality, bad quality, bad anatomy, jpeg artifacts, bad composition, 2koma, 4koma, comic, multiple views, oldest"
+      },
+      "username": "navimixu",
+      "baseModel": null,
+      "modelVersionIds": [
+        1124762
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "754|1733235325469",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=754%7C1733235325469"
+    "nextCursor": "755|1730489996135",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=755%7C1730489996135"
   }
 }
