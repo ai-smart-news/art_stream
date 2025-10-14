@@ -1,41 +1,33 @@
 {
   "items": [
     {
-      "id": 84324843,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68d3283a-a574-47a8-99f9-ee8b4426dc1d/original=true/68d3283a-a574-47a8-99f9-ee8b4426dc1d.jpeg",
-      "hash": "U7B:Q@nj~XIn0Jx]00xaJ.NGrXadI9IT=}gO",
-      "width": 2176,
-      "height": 3840,
+      "id": 45791159,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4e16ff4a-48d8-4262-adb4-c02578b8b522/original=true/4e16ff4a-48d8-4262-adb4-c02578b8b522.jpeg",
+      "hash": "UDGkUwMz0KSz~DInbbt700%2EeoL-W?H0dNu",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-24T22:04:35.944Z",
-      "postId": 18719091,
+      "createdAt": "2024-12-17T21:00:00.000Z",
+      "postId": 10368627,
       "stats": {
-        "cryCount": 297,
-        "laughCount": 587,
-        "likeCount": 4376,
+        "cryCount": 242,
+        "laughCount": 460,
+        "likeCount": 4623,
         "dislikeCount": 0,
-        "heartCount": 1633,
-        "commentCount": 4
+        "heartCount": 1565,
+        "commentCount": 8
       },
       "meta": null,
-      "username": "EROOJIN",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        164821,
-        1550840,
-        1714002,
-        1805073,
-        1809575,
-        1833157,
-        1860747
-      ]
+      "username": null,
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "777|1734469200000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=777%7C1734469200000"
+    "nextCursor": "778|1748028818949",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=778%7C1748028818949"
   }
 }
