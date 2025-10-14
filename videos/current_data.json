@@ -1,93 +1,37 @@
 {
   "items": [
     {
-      "id": 60932747,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1703c5c5-9aa0-4990-938d-c60c0d843f02/original=true/1703c5c5-9aa0-4990-938d-c60c0d843f02.jpeg",
-      "hash": "UICXyZ9_WB9]}qEg$$ENr=aet6NwNa$ijbf+",
-      "width": 1500,
-      "height": 2192,
+      "id": 45158010,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/64add527-a873-42a0-8aa9-89eb93d0f6f5/original=true/64add527-a873-42a0-8aa9-89eb93d0f6f5.jpeg",
+      "hash": "U9976y]|x8oz0{Ems?wb0JOHEME1~C=?w?kB",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-02T00:10:00.000Z",
-      "postId": 13629707,
+      "createdAt": "2024-12-12T19:49:29.240Z",
+      "postId": 10232921,
       "stats": {
-        "cryCount": 277,
-        "laughCount": 522,
-        "likeCount": 4438,
+        "cryCount": 249,
+        "laughCount": 454,
+        "likeCount": 4628,
         "dislikeCount": 0,
-        "heartCount": 1696,
-        "commentCount": 8
+        "heartCount": 1601,
+        "commentCount": 7
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 1220540233,
-        "steps": 30,
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-02-28T1105:54.1297225Z",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 962598,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 806265,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 753053,
-            "modelVersionName": "Flux Original"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1253584,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 863655,
-            "modelVersionName": "Balance_v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 754068,
-            "modelVersionName": "v1.0"
-          }
-        ]
-      },
-      "username": "ArtifyAI",
-      "baseModel": "Flux.1 D",
+      "meta": null,
+      "username": "DoreenAI",
+      "baseModel": null,
       "modelVersionIds": [
-        691639,
-        753053,
-        754068,
-        806265,
-        863655,
-        962598,
-        1253584
+        803128,
+        978472,
+        793777
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "760|1734032969240",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=760%7C1734032969240"
+    "nextCursor": "761|1730888100000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=761%7C1730888100000"
   }
 }
