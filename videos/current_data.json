@@ -1,53 +1,64 @@
 {
   "items": [
     {
-      "id": 61351231,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/075e9e60-1da5-4b89-941b-99aea034b5e3/original=true/075e9e60-1da5-4b89-941b-99aea034b5e3.jpeg",
-      "hash": "USFYP?Na4ni_~qozE0IUMxxaxHMyM{ozW;WB",
+      "id": 99744102,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bbfcf4ac-b3db-4a17-8135-dd91c7273465/original=true/bbfcf4ac-b3db-4a17-8135-dd91c7273465.jpeg",
+      "hash": "USN,_D%M~qof?bfQM{ofxuayWBj[_3j[xuj[",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-04T00:16:51.918Z",
-      "postId": 13716941,
+      "createdAt": "2025-09-11T19:41:29.094Z",
+      "postId": 22131477,
       "stats": {
-        "cryCount": 323,
-        "laughCount": 574,
-        "likeCount": 4420,
+        "cryCount": 358,
+        "laughCount": 608,
+        "likeCount": 4303,
         "dislikeCount": 0,
-        "heartCount": 1612,
-        "commentCount": 3
+        "heartCount": 1659,
+        "commentCount": 7
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 446897350892774,
+        "VAE": "ae.safetensors",
+        "seed": 835200569330172,
+        "Model": "Chroma1-HD-Q8_0.gguf",
         "steps": 30,
         "hashes": {
-          "model": "",
-          "Model:flux1-dev": "4610115bb0",
-          "LORA:ArcaneFGTNR.safetensors": "bc3c15d5be",
-          "LORA:boFLUX Abyss Neon.safetensors": "1c596b6c54",
-          "Model:<lora:boFLUX Abyss Neon.safetensors:0.8:0.8> <lora:ArcaneFGTNR.safetensors:1.0:1": ""
+          "vae": "afc8e28272",
+          "model": "8c8d66177b",
+          "lora:- Chroma - profphotos_high_res_concatextr_2.0": "27a0117d8c",
+          "lora:-_Chroma_-_profphotos_high_res_concatextr_2.0": "27a0117d8c"
         },
-        "prompt": "bo-neon, ArcaneFGTNR, a highly detailed digital artwork depicting a close-up of a person's face, likely a clown or clown, with a striking and intense expression, the subject's face is predominantly white, with bold, black and red graffiti-like patterns covering the entire surface, including horizontal and vertical lines, creating a chaotic yet striking design, the graffiti is predominantly black with gold accents, adding a sense of chaos and intensity, the person's eyes are large and expressive, with golden irises that stand out against the stark white background, their lips are full and slightly parted, revealing sharp, white teeth with a vivid red interior, dripping with blood, the texture of the graffiti appears rough and uneven, with some areas appearing darker than others, the background is a solid black, ensuring that the focus remains on the subject, the overall style of the artwork is highly stylized and hyper-realistic, with meticulous attention to detail and texture, making it a captivating and provocative piece of art, high quality, ultra detailed, colorful, grainy, cyberpunk fantasy<lora:boFLUX Abyss Neon.safetensors:0.8:0.8> <lora:ArcaneFGTNR.safetensors:1.0:1.0>",
-        "Version": "ComfyUI",
-        "sampler": "Euler Simple",
-        "cfgScale": 3.5,
-        "resources": []
+        "prompt": "aesthetic 9, digital_media_(artwork), collage, surreal, conceptual, mixed_media. A grayscale portrait of a woman with bold red lips, her eyes obscured by an abstract visor made of torn paper. From her head bursts a chaotic explosion of ripped book pages, arranged like wild hair spreading outward in jagged fragments. The overlapping text fragments form a crown of words, symbolizing thoughts, memory, and imagination. The background is minimalist white, emphasizing the stark contrast between the monochrome portrait and the textured paper composition. The style is surreal and modern, blending fine art collage with expressive symbolism. <lora:-_Chroma_-_profphotos_high_res_concatextr_2.0:0.8>",
+        "sampler": "res_multistep_beta",
+        "cfgScale": 4.000000000000001,
+        "clipSkip": 1,
+        "resources": [
+          {
+            "hash": "27a0117d8c",
+            "name": "-_Chroma_-_profphotos_high_res_concatextr_2.0",
+            "type": "lora",
+            "weight": 0.8
+          },
+          {
+            "hash": "8c8d66177b",
+            "name": "Chroma1-HD-Q8_0.gguf",
+            "type": "model"
+          }
+        ],
+        "Model hash": "8c8d66177b"
       },
-      "username": "bo4rsworld",
-      "baseModel": "Flux.1 D",
+      "username": "Jorot",
+      "baseModel": "Chroma",
       "modelVersionIds": [
-        1178104,
-        691639,
-        1089413
+        2202445
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "765|1757619689094",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=765%7C1757619689094"
+    "nextCursor": "766|1742937601531",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=766%7C1742937601531"
   }
 }
