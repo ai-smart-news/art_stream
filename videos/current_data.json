@@ -1,64 +1,70 @@
 {
   "items": [
     {
-      "id": 99744102,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bbfcf4ac-b3db-4a17-8135-dd91c7273465/original=true/bbfcf4ac-b3db-4a17-8135-dd91c7273465.jpeg",
-      "hash": "USN,_D%M~qof?bfQM{ofxuayWBj[_3j[xuj[",
-      "width": 832,
-      "height": 1216,
+      "id": 65850684,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fea78e31-9e47-4d88-8aed-da1ddf309dd9/original=true/fea78e31-9e47-4d88-8aed-da1ddf309dd9.jpeg",
+      "hash": "UMCr~KIoWA=}~DflR+xag5slM{R-9Zt7WBIp",
+      "width": 1544,
+      "height": 2312,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-09-11T19:41:29.094Z",
-      "postId": 22131477,
+      "createdAt": "2025-03-25T21:20:01.531Z",
+      "postId": 14661090,
       "stats": {
-        "cryCount": 358,
-        "laughCount": 608,
-        "likeCount": 4303,
+        "cryCount": 325,
+        "laughCount": 521,
+        "likeCount": 4564,
         "dislikeCount": 0,
-        "heartCount": 1659,
-        "commentCount": 7
+        "heartCount": 1516,
+        "commentCount": 6
       },
       "meta": {
-        "VAE": "ae.safetensors",
-        "seed": 835200569330172,
-        "Model": "Chroma1-HD-Q8_0.gguf",
+        "VAE": "sdxl.vae.safetensors",
+        "Size": "1024x1536",
+        "seed": 3520992665,
+        "Model": "JANKU-v2.1-IllustriousXL-NoobESP-NSFW-Mix.safetensors",
         "steps": 30,
         "hashes": {
-          "vae": "afc8e28272",
-          "model": "8c8d66177b",
-          "lora:- Chroma - profphotos_high_res_concatextr_2.0": "27a0117d8c",
-          "lora:-_Chroma_-_profphotos_high_res_concatextr_2.0": "27a0117d8c"
+          "vae": "235745af8d",
+          "model": "8a5c2c7767",
+          "embed:lazyneg": "e56abc0d9e",
+          "embed:lazypos": "5060dec74f",
+          "lora:TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious": "bd7a379343"
         },
-        "prompt": "aesthetic 9, digital_media_(artwork), collage, surreal, conceptual, mixed_media. A grayscale portrait of a woman with bold red lips, her eyes obscured by an abstract visor made of torn paper. From her head bursts a chaotic explosion of ripped book pages, arranged like wild hair spreading outward in jagged fragments. The overlapping text fragments form a crown of words, symbolizing thoughts, memory, and imagination. The background is minimalist white, emphasizing the stark contrast between the monochrome portrait and the textured paper composition. The style is surreal and modern, blending fine art collage with expressive symbolism. <lora:-_Chroma_-_profphotos_high_res_concatextr_2.0:0.8>",
-        "sampler": "res_multistep_beta",
-        "cfgScale": 4.000000000000001,
-        "clipSkip": 1,
+        "prompt": "embedding:lazypos, 1girl, subway, sitting, black jacket, puffer jacket, white socks, high socks, black leggings, dynamic pose, white headphones, medium breasts, purple hair, red eyes, long hair, wavy hair, crossed arms, dim lighting, white and purple sneakers, banned artist, looking at viewer, crossed legs, sexy, light smile, sunset, clouds, blushing <lora:TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious:0.6>",
+        "sampler": "Euler a",
+        "cfgScale": 7,
+        "clipSkip": 2,
         "resources": [
           {
-            "hash": "27a0117d8c",
-            "name": "-_Chroma_-_profphotos_high_res_concatextr_2.0",
+            "hash": "bd7a379343",
+            "name": "TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious",
             "type": "lora",
-            "weight": 0.8
+            "weight": 0.6
           },
           {
-            "hash": "8c8d66177b",
-            "name": "Chroma1-HD-Q8_0.gguf",
+            "hash": "8a5c2c7767",
+            "name": "JANKU-v2.1-IllustriousXL-NoobESP-NSFW-Mix.safetensors",
             "type": "model"
           }
         ],
-        "Model hash": "8c8d66177b"
+        "Model hash": "8a5c2c7767",
+        "negativePrompt": "embedding:lazyneg"
       },
-      "username": "Jorot",
-      "baseModel": "Chroma",
+      "username": "janxd",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        2202445
+        1470451,
+        1470501,
+        1520822,
+        1525879
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "766|1742937601531",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=766%7C1742937601531"
+    "nextCursor": "767|1734728104216",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=767%7C1734728104216"
   }
 }
