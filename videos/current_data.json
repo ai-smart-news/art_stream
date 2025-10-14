@@ -1,68 +1,35 @@
 {
   "items": [
     {
-      "id": 90569378,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0988cbe-efaf-496d-9797-f36cb75316e2/original=true/a0988cbe-efaf-496d-9797-f36cb75316e2.jpeg",
-      "hash": "U7A]H|ae0vNZErxG5PSi]KWB5]Nx}]jYtAR%",
-      "width": 3072,
-      "height": 4608,
+      "id": 56980373,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09709aea-969e-4a75-a742-70e5251982ac/original=true/09709aea-969e-4a75-a742-70e5251982ac.jpeg",
+      "hash": "U79@Y9?]I;^*%fyCxtRk0LaeozE2RQ%0xFIV",
+      "width": 2560,
+      "height": 2992,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-26T11:04:00.112Z",
-      "postId": 20085455,
+      "createdAt": "2025-02-10T15:27:38.115Z",
+      "postId": 12756725,
       "stats": {
-        "cryCount": 363,
-        "laughCount": 678,
-        "likeCount": 4434,
+        "cryCount": 303,
+        "laughCount": 506,
+        "likeCount": 4383,
         "dislikeCount": 0,
-        "heartCount": 1435,
-        "commentCount": 1
+        "heartCount": 1717,
+        "commentCount": 14
       },
       "meta": {
-        "Size": "768x1152",
-        "seed": 5309352752963149,
-        "steps": 31,
-        "hashes": {
-          "lora:Disney_Animation_v5-V7": "2764b11c4e",
-          "lora:PinkLemonadeStyle_IXL_v1": "dff1e39ff2",
-          "lora:AddMicroDetails_Illustrious_v5": "78c94b1f0d"
-        },
-        "prompt": "<lora:Disney_Animation_v5-V7:1.0> <lora:AddMicroDetails_Illustrious_v5:0.4> <lora:PinkLemonadeStyle_IXL_v1:1.0>",
-        "sampler": "Euler a beta",
-        "resources": [
-          {
-            "hash": "2764b11c4e",
-            "name": "Disney_Animation_v5-V7",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "78c94b1f0d",
-            "name": "AddMicroDetails_Illustrious_v5",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "hash": "dff1e39ff2",
-            "name": "PinkLemonadeStyle_IXL_v1",
-            "type": "lora",
-            "weight": 1
-          }
-        ]
+        "prompt": "The image portrays a young woman with long, dark hair holding a vintage camera close to her face, partially obscuring one of her eyes. She gazes directly into the lens with an intense, thoughtful expression. The photograph has a distinct cinematic and nostalgic aesthetic, with soft lighting, a grainy texture, and subtle color grading that gives it a vintage, film-like quality.\n\nSubject and Composition\nThe subject's face is positioned slightly off-center, drawing immediate attention to her sharp and expressive features. Her dark, well-defined eyebrows frame her deep-set eyes, which are slightly shadowed, adding to the introspective mood of the image. Her lips, which are slightly parted and tinted a natural red, contrast subtly with her smooth, pale skin. Strands of hair fall loosely across her face, reinforcing the unposed, organic nature of the portrait.\n\nThe camera she holds is an older model, silver and black with a rounded lens, possibly a vintage point-and-shoot film camera. Its reflective surface catches some light, making it a noticeable focal point. Her fingers gently rest on the camera's body, showcasing her relaxed grip, suggesting familiarity and comfort with the device. The camera partially obscures her left eye, creating an artistic and symbolic interplay between the act of capturing an image and being observed.\n\nLighting and Color Tone\nThe lighting in the image is soft and diffused, casting a gentle glow on the subject\u2019s skin. There are no harsh shadows, which enhances the ethereal quality of the portrait. The overall color palette consists of muted greens, blues, and sepia tones, adding to the vintage ambiance. A slight light leak effect, visible on the left edge, introduces warm, reddish-orange hues, reinforcing the analog film aesthetic.\n\nDepth and Focus\nThe background is blurred, placing the emphasis entirely on the woman and her camera. This shallow depth of field isolates the subject, directing attention to the details of her face and the textures of the camera. The soft blur of the background suggests an indoor or dimly lit setting, though specific environmental details are indistinct.\n\nMood and Interpretation\nThe image exudes a sense of quiet introspection and nostalgia. The subject\u2019s expression is serious yet calm, with an enigmatic quality that invites viewers to interpret her emotions. The presence of the vintage camera further reinforces themes of memory, storytelling, and the passage of time. It suggests a personal connection to photography, hinting at themes of capturing fleeting moments or looking at the world through a different lens.\n\nThe film-like grain and light leaks contribute to the dreamlike atmosphere, making the image feel like a memory frozen in time. The muted tones evoke a feeling of solitude, while the subject\u2019s direct gaze creates an intimate connection with the viewer.\n\nOverall Impression\nThis photograph is a striking blend of portraiture and artistic storytelling. The careful composition, soft lighting, and vintage color grading work together to create an image that feels timeless and emotionally resonant. It is an evocative representation of personal reflection, the art of photography, and the beauty of capturing a moment that feels both contemporary and nostalgic."
       },
-      "username": "inuwu",
-      "baseModel": null,
-      "modelVersionIds": [
-        1416874,
-        1963644,
-        2026475
-      ]
+      "username": "J1B",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "772|1739201258115",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=772%7C1739201258115"
+    "nextCursor": "773|1741705200000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=773%7C1741705200000"
   }
 }
