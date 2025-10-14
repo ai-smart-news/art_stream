@@ -1,40 +1,53 @@
 {
   "items": [
     {
-      "id": 64143904,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac8ae105-526a-4579-acbe-d7306f291f65/original=true/ac8ae105-526a-4579-acbe-d7306f291f65.jpeg",
-      "hash": "U62tOyQqHay.L+pGuKQpofbGV@n,p@a2U~pF",
-      "width": 3840,
-      "height": 3840,
+      "id": 61351231,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/075e9e60-1da5-4b89-941b-99aea034b5e3/original=true/075e9e60-1da5-4b89-941b-99aea034b5e3.jpeg",
+      "hash": "USFYP?Na4ni_~qozE0IUMxxaxHMyM{ozW;WB",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-18T04:30:09.287Z",
-      "postId": 14303327,
+      "createdAt": "2025-03-04T00:16:51.918Z",
+      "postId": 13716941,
       "stats": {
-        "cryCount": 354,
-        "laughCount": 598,
-        "likeCount": 4311,
+        "cryCount": 323,
+        "laughCount": 574,
+        "likeCount": 4420,
         "dislikeCount": 0,
-        "heartCount": 1666,
+        "heartCount": 1612,
         "commentCount": 3
       },
-      "meta": null,
-      "username": "black_mate47",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 446897350892774,
+        "steps": 30,
+        "hashes": {
+          "model": "",
+          "Model:flux1-dev": "4610115bb0",
+          "LORA:ArcaneFGTNR.safetensors": "bc3c15d5be",
+          "LORA:boFLUX Abyss Neon.safetensors": "1c596b6c54",
+          "Model:<lora:boFLUX Abyss Neon.safetensors:0.8:0.8> <lora:ArcaneFGTNR.safetensors:1.0:1": ""
+        },
+        "prompt": "bo-neon, ArcaneFGTNR, a highly detailed digital artwork depicting a close-up of a person's face, likely a clown or clown, with a striking and intense expression, the subject's face is predominantly white, with bold, black and red graffiti-like patterns covering the entire surface, including horizontal and vertical lines, creating a chaotic yet striking design, the graffiti is predominantly black with gold accents, adding a sense of chaos and intensity, the person's eyes are large and expressive, with golden irises that stand out against the stark white background, their lips are full and slightly parted, revealing sharp, white teeth with a vivid red interior, dripping with blood, the texture of the graffiti appears rough and uneven, with some areas appearing darker than others, the background is a solid black, ensuring that the focus remains on the subject, the overall style of the artwork is highly stylized and hyper-realistic, with meticulous attention to detail and texture, making it a captivating and provocative piece of art, high quality, ultra detailed, colorful, grainy, cyberpunk fantasy<lora:boFLUX Abyss Neon.safetensors:0.8:0.8> <lora:ArcaneFGTNR.safetensors:1.0:1.0>",
+        "Version": "ComfyUI",
+        "sampler": "Euler Simple",
+        "cfgScale": 3.5,
+        "resources": []
+      },
+      "username": "bo4rsworld",
       "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        164821,
+        1178104,
         691639,
-        720252,
-        863655,
-        1308497,
-        1470588
+        1089413
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "764|1741047411918",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=764%7C1741047411918"
+    "nextCursor": "765|1757619689094",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=765%7C1757619689094"
   }
 }
