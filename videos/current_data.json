@@ -1,84 +1,63 @@
 {
   "items": [
     {
-      "id": 33956498,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ff2006e2-fbb8-4fbd-a39c-18a47d45ed95/original=true/ff2006e2-fbb8-4fbd-a39c-18a47d45ed95.jpeg",
-      "hash": "U4GSxd?$fQ?$%Lj?fij?fQfQfQfQ%Lj?fij?",
-      "width": 1248,
-      "height": 1824,
+      "id": 94443406,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eeb497ed-e77b-4d55-bb22-cc28f5a71587/original=true/eeb497ed-e77b-4d55-bb22-cc28f5a71587.jpeg",
+      "hash": "UFJjrS4:00xu;KNI9[Ip00of,WR*UHRk,[Io",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-11T05:06:58.249Z",
-      "postId": 7762409,
+      "createdAt": "2025-08-15T17:54:06.988Z",
+      "postId": 20953765,
       "stats": {
-        "cryCount": 333,
-        "laughCount": 576,
-        "likeCount": 4432,
+        "cryCount": 454,
+        "laughCount": 587,
+        "likeCount": 4171,
         "dislikeCount": 0,
-        "heartCount": 1577,
-        "commentCount": 19
+        "heartCount": 1704,
+        "commentCount": 4
       },
       "meta": {
-        "VAE": "sdxl_vae.safetensors",
         "Size": "832x1216",
-        "seed": 1994692099,
-        "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
-        "steps": 22,
+        "seed": 1192192155,
+        "Model": "JANKU v5.0 By JANXD",
+        "steps": 30,
         "hashes": {
-          "vae": "235745af8d",
-          "model": "67ab2fd8ec",
-          "embed:zPDXL3": "1727c6cddf",
-          "lora:detailed_notrigger": "0f984fef7394",
-          "lora:Zygarde50_Pokemon_V1": "e03c2f0d5cb7"
+          "model": "217daae812",
+          "embed:lazyneg": "ba21023c70",
+          "embed:lazypos": "3086669265",
+          "embed:lazyloli": "d23ccce75d"
         },
-        "prompt": "zPDXL3, score_9_up, score_8_up, score_7_up, detailed, (best quality:1.2), hi res, digital media \\(artwork\\) BREAK full-length portrait, glowing, zygarde_50, pokemon (creature), green and black body, compound eyes <lora:detailed_notrigger:1> <lora:Zygarde50_Pokemon_V1:1>",
-        "Version": "f1.0.2-v1.10.1RC-latest-697-g037b6482",
+        "prompt": "lazypos, upper body, indoors, cinematic lighting, varesa_(genshin_impact), 1girl, solo, horns, pink hair, colorful sweater, ahoge, animal ears, navel, purple eyes, bandaid, long hair, braid, black skirt, multicolored hair, smile, double v, twin braids, looking at viewer,, bangs, hairband, cow horns,  hair ornament, cow ears, wink",
+        "Version": "ComfyUI",
         "sampler": "Euler a",
-        "cfgScale": 6,
+        "cfgScale": 3,
         "clipSkip": 2,
         "resources": [
           {
-            "hash": "0f984fef7394",
-            "name": "detailed_notrigger",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "e03c2f0d5cb7",
-            "name": "Zygarde50_Pokemon_V1",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "67ab2fd8ec",
-            "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+            "hash": "217daae812",
+            "name": "JANKU v5.0 By JANXD",
             "type": "model"
           }
         ],
-        "Model hash": "67ab2fd8ec",
-        "Hires steps": "20",
-        "Hires upscale": "1.5",
-        "Schedule type": "Automatic",
-        "Hires upscaler": "4x_foolhardy_Remacri",
-        "negativePrompt": "score_6, score_5, score_4, (low quality, bad quality, worst quality:1.2), (low res:1.3), watermark, artist name, signature",
-        "Denoising strength": "0.4",
-        "Token merging ratio": "0.2",
-        "Token merging ratio hr": "0.2"
+        "Model hash": "217daae812",
+        "negativePrompt": "lazyneg, lazyloli"
       },
-      "username": "Cell1310",
-      "baseModel": "Pony",
+      "username": "janxd",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        290640,
-        383563,
-        720175,
-        941529
+        1833157,
+        1833199,
+        1860747,
+        1896532
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "770|1755280446988",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=770%7C1755280446988"
+    "nextCursor": "771|1753527840112",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=771%7C1753527840112"
   }
 }
