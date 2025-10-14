@@ -1,35 +1,36 @@
 {
   "items": [
     {
-      "id": 56980373,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09709aea-969e-4a75-a742-70e5251982ac/original=true/09709aea-969e-4a75-a742-70e5251982ac.jpeg",
-      "hash": "U79@Y9?]I;^*%fyCxtRk0LaeozE2RQ%0xFIV",
-      "width": 2560,
-      "height": 2992,
+      "id": 62881841,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/699bc273-e036-41cc-ab69-48053968e850/original=true/699bc273-e036-41cc-ab69-48053968e850.jpeg",
+      "hash": "UBE268F=0JMKyq~W9F9ZtSIU-oXS01nO=eXm",
+      "width": 768,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-10T15:27:38.115Z",
-      "postId": 12756725,
+      "createdAt": "2025-03-11T15:00:00.000Z",
+      "postId": 14034469,
       "stats": {
-        "cryCount": 303,
-        "laughCount": 506,
-        "likeCount": 4383,
+        "cryCount": 326,
+        "laughCount": 534,
+        "likeCount": 4433,
         "dislikeCount": 0,
-        "heartCount": 1717,
-        "commentCount": 14
+        "heartCount": 1615,
+        "commentCount": 24
       },
       "meta": {
-        "prompt": "The image portrays a young woman with long, dark hair holding a vintage camera close to her face, partially obscuring one of her eyes. She gazes directly into the lens with an intense, thoughtful expression. The photograph has a distinct cinematic and nostalgic aesthetic, with soft lighting, a grainy texture, and subtle color grading that gives it a vintage, film-like quality.\n\nSubject and Composition\nThe subject's face is positioned slightly off-center, drawing immediate attention to her sharp and expressive features. Her dark, well-defined eyebrows frame her deep-set eyes, which are slightly shadowed, adding to the introspective mood of the image. Her lips, which are slightly parted and tinted a natural red, contrast subtly with her smooth, pale skin. Strands of hair fall loosely across her face, reinforcing the unposed, organic nature of the portrait.\n\nThe camera she holds is an older model, silver and black with a rounded lens, possibly a vintage point-and-shoot film camera. Its reflective surface catches some light, making it a noticeable focal point. Her fingers gently rest on the camera's body, showcasing her relaxed grip, suggesting familiarity and comfort with the device. The camera partially obscures her left eye, creating an artistic and symbolic interplay between the act of capturing an image and being observed.\n\nLighting and Color Tone\nThe lighting in the image is soft and diffused, casting a gentle glow on the subject\u2019s skin. There are no harsh shadows, which enhances the ethereal quality of the portrait. The overall color palette consists of muted greens, blues, and sepia tones, adding to the vintage ambiance. A slight light leak effect, visible on the left edge, introduces warm, reddish-orange hues, reinforcing the analog film aesthetic.\n\nDepth and Focus\nThe background is blurred, placing the emphasis entirely on the woman and her camera. This shallow depth of field isolates the subject, directing attention to the details of her face and the textures of the camera. The soft blur of the background suggests an indoor or dimly lit setting, though specific environmental details are indistinct.\n\nMood and Interpretation\nThe image exudes a sense of quiet introspection and nostalgia. The subject\u2019s expression is serious yet calm, with an enigmatic quality that invites viewers to interpret her emotions. The presence of the vintage camera further reinforces themes of memory, storytelling, and the passage of time. It suggests a personal connection to photography, hinting at themes of capturing fleeting moments or looking at the world through a different lens.\n\nThe film-like grain and light leaks contribute to the dreamlike atmosphere, making the image feel like a memory frozen in time. The muted tones evoke a feeling of solitude, while the subject\u2019s direct gaze creates an intimate connection with the viewer.\n\nOverall Impression\nThis photograph is a striking blend of portraiture and artistic storytelling. The careful composition, soft lighting, and vintage color grading work together to create an image that feels timeless and emotionally resonant. It is an evocative representation of personal reflection, the art of photography, and the beauty of capturing a moment that feels both contemporary and nostalgic."
+        "prompt": "\"a graphic style inspired by Manucolgraf's artistic approach featuring bold, dynamic compositions with vibrant color contrasts and intricate line work\\nDark Art\"",
+        "sampler": "Euler"
       },
-      "username": "J1B",
+      "username": "surush",
       "baseModel": "Flux.1 D",
       "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "773|1741705200000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=773%7C1741705200000"
+    "nextCursor": "774|1735585500000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=774%7C1735585500000"
   }
 }
