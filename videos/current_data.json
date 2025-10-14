@@ -1,70 +1,38 @@
 {
   "items": [
     {
-      "id": 65850684,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fea78e31-9e47-4d88-8aed-da1ddf309dd9/original=true/fea78e31-9e47-4d88-8aed-da1ddf309dd9.jpeg",
-      "hash": "UMCr~KIoWA=}~DflR+xag5slM{R-9Zt7WBIp",
-      "width": 1544,
-      "height": 2312,
+      "id": 46639148,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e005a482-2627-420e-9d25-a1d629919d91/original=true/e005a482-2627-420e-9d25-a1d629919d91.jpeg",
+      "hash": "UA7VDXfihybIHDbHDijFtjogRPRi?GWBt5oz",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-25T21:20:01.531Z",
-      "postId": 14661090,
+      "createdAt": "2024-12-20T20:55:04.216Z",
+      "postId": 10547473,
       "stats": {
-        "cryCount": 325,
-        "laughCount": 521,
-        "likeCount": 4564,
+        "cryCount": 253,
+        "laughCount": 535,
+        "likeCount": 4530,
         "dislikeCount": 0,
-        "heartCount": 1516,
-        "commentCount": 6
+        "heartCount": 1600,
+        "commentCount": 7
       },
-      "meta": {
-        "VAE": "sdxl.vae.safetensors",
-        "Size": "1024x1536",
-        "seed": 3520992665,
-        "Model": "JANKU-v2.1-IllustriousXL-NoobESP-NSFW-Mix.safetensors",
-        "steps": 30,
-        "hashes": {
-          "vae": "235745af8d",
-          "model": "8a5c2c7767",
-          "embed:lazyneg": "e56abc0d9e",
-          "embed:lazypos": "5060dec74f",
-          "lora:TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious": "bd7a379343"
-        },
-        "prompt": "embedding:lazypos, 1girl, subway, sitting, black jacket, puffer jacket, white socks, high socks, black leggings, dynamic pose, white headphones, medium breasts, purple hair, red eyes, long hair, wavy hair, crossed arms, dim lighting, white and purple sneakers, banned artist, looking at viewer, crossed legs, sexy, light smile, sunset, clouds, blushing <lora:TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious:0.6>",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "bd7a379343",
-            "name": "TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "8a5c2c7767",
-            "name": "JANKU-v2.1-IllustriousXL-NoobESP-NSFW-Mix.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "8a5c2c7767",
-        "negativePrompt": "embedding:lazyneg"
-      },
-      "username": "janxd",
-      "baseModel": "Illustrious",
+      "meta": null,
+      "username": "tavoltennis837",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1470451,
-        1470501,
-        1520822,
-        1525879
+        691639,
+        720252,
+        857668,
+        1074934
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "767|1734728104216",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=767%7C1734728104216"
+    "nextCursor": "768|1728623218249",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=768%7C1728623218249"
   }
 }
