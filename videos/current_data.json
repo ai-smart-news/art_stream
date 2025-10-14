@@ -1,63 +1,68 @@
 {
   "items": [
     {
-      "id": 94443406,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eeb497ed-e77b-4d55-bb22-cc28f5a71587/original=true/eeb497ed-e77b-4d55-bb22-cc28f5a71587.jpeg",
-      "hash": "UFJjrS4:00xu;KNI9[Ip00of,WR*UHRk,[Io",
-      "width": 1664,
-      "height": 2432,
+      "id": 90569378,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0988cbe-efaf-496d-9797-f36cb75316e2/original=true/a0988cbe-efaf-496d-9797-f36cb75316e2.jpeg",
+      "hash": "U7A]H|ae0vNZErxG5PSi]KWB5]Nx}]jYtAR%",
+      "width": 3072,
+      "height": 4608,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-15T17:54:06.988Z",
-      "postId": 20953765,
+      "createdAt": "2025-07-26T11:04:00.112Z",
+      "postId": 20085455,
       "stats": {
-        "cryCount": 454,
-        "laughCount": 587,
-        "likeCount": 4171,
+        "cryCount": 363,
+        "laughCount": 678,
+        "likeCount": 4434,
         "dislikeCount": 0,
-        "heartCount": 1704,
-        "commentCount": 4
+        "heartCount": 1435,
+        "commentCount": 1
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1192192155,
-        "Model": "JANKU v5.0 By JANXD",
-        "steps": 30,
+        "Size": "768x1152",
+        "seed": 5309352752963149,
+        "steps": 31,
         "hashes": {
-          "model": "217daae812",
-          "embed:lazyneg": "ba21023c70",
-          "embed:lazypos": "3086669265",
-          "embed:lazyloli": "d23ccce75d"
+          "lora:Disney_Animation_v5-V7": "2764b11c4e",
+          "lora:PinkLemonadeStyle_IXL_v1": "dff1e39ff2",
+          "lora:AddMicroDetails_Illustrious_v5": "78c94b1f0d"
         },
-        "prompt": "lazypos, upper body, indoors, cinematic lighting, varesa_(genshin_impact), 1girl, solo, horns, pink hair, colorful sweater, ahoge, animal ears, navel, purple eyes, bandaid, long hair, braid, black skirt, multicolored hair, smile, double v, twin braids, looking at viewer,, bangs, hairband, cow horns,  hair ornament, cow ears, wink",
-        "Version": "ComfyUI",
-        "sampler": "Euler a",
-        "cfgScale": 3,
-        "clipSkip": 2,
+        "prompt": "<lora:Disney_Animation_v5-V7:1.0> <lora:AddMicroDetails_Illustrious_v5:0.4> <lora:PinkLemonadeStyle_IXL_v1:1.0>",
+        "sampler": "Euler a beta",
         "resources": [
           {
-            "hash": "217daae812",
-            "name": "JANKU v5.0 By JANXD",
-            "type": "model"
+            "hash": "2764b11c4e",
+            "name": "Disney_Animation_v5-V7",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "78c94b1f0d",
+            "name": "AddMicroDetails_Illustrious_v5",
+            "type": "lora",
+            "weight": 0.4
+          },
+          {
+            "hash": "dff1e39ff2",
+            "name": "PinkLemonadeStyle_IXL_v1",
+            "type": "lora",
+            "weight": 1
           }
-        ],
-        "Model hash": "217daae812",
-        "negativePrompt": "lazyneg, lazyloli"
+        ]
       },
-      "username": "janxd",
-      "baseModel": "Illustrious",
+      "username": "inuwu",
+      "baseModel": null,
       "modelVersionIds": [
-        1833157,
-        1833199,
-        1860747,
-        1896532
+        1416874,
+        1963644,
+        2026475
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "771|1753527840112",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=771%7C1753527840112"
+    "nextCursor": "772|1739201258115",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=772%7C1739201258115"
   }
 }
