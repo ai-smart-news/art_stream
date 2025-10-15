@@ -1,115 +1,33 @@
 {
   "items": [
     {
-      "id": 103939465,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3c21620-496e-4436-a36e-3c6d6ff68911/original=true/f3c21620-496e-4436-a36e-3c6d6ff68911.jpeg",
-      "hash": "U8JYk_-DIp^7}vEfX9Io00}uKO9tnQ5jEzsA",
-      "width": 2048,
-      "height": 3072,
+      "id": 45791159,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4e16ff4a-48d8-4262-adb4-c02578b8b522/original=true/4e16ff4a-48d8-4262-adb4-c02578b8b522.jpeg",
+      "hash": "UDGkUwMz0KSz~DInbbt700%2EeoL-W?H0dNu",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-10-09T23:24:27.883Z",
-      "postId": 23060466,
+      "createdAt": "2024-12-17T21:00:00.000Z",
+      "postId": 10368627,
       "stats": {
-        "cryCount": 327,
-        "laughCount": 483,
-        "likeCount": 4558,
+        "cryCount": 242,
+        "laughCount": 460,
+        "likeCount": 4623,
         "dislikeCount": 0,
-        "heartCount": 1518,
-        "commentCount": 5
+        "heartCount": 1565,
+        "commentCount": 8
       },
-      "meta": {
-        "TI": {},
-        "Size": "2048x3072",
-        "seed": 4431321312,
-        "Model": "JANKUV5NSFWTrainedNoobai_v50",
-        "steps": 40,
-        "hashes": {
-          "model": "217daae812",
-          "lora:Aura_illu": "23cf2a816de6",
-          "lora:BossBattleIL": "3725aed91b0a",
-          "lora:Catgirlstyle": "41a3500e9321",
-          "lora:Dynamic Poses slider": "0d47fc066a9a",
-          "lora:USNR_STYLE_ILL_V1_lokr3": "44586d05878a",
-          "lora:aesthetic portraits style": "5fb13c2fd03a",
-          "lora:illustriousXLv01_stabilizer_v1.185c": "b2bebdbd774b"
-        },
-        "prompt": "masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, yae miko, glowing eyes, black gloves, skirt, closed mouth, kimono, holding sword, glowing katana, energy, serious, solo, <lora:Aura_illu:0.7>, 4ur4_illu,shiny, <lora:aesthetic portraits style:0.7>, <lora:Dynamic Poses slider:1>, dynamic pose, foreshortening, extreme perspective, <lora:BossBattleIL:0.7>, <lora:illustriousXLv01_stabilizer_v1.185c:0.35>, <lora:USNR_STYLE_ILL_V1_lokr3:0.4>, usnr, dynamic pose, dynamic view, dutch angle, profile, from side, portrait,  <lora:Catgirlstyle:1>, Catgirlstyle",
-        "Version": "f2.0.1v1.10.1-previous-669-gdfdcbab6",
-        "sampler": "DPM++ 2M SDE",
-        "cfgScale": 5,
-        "resources": [
-          {
-            "hash": "23cf2a816de6",
-            "name": "Aura_illu",
-            "type": "lora",
-            "weight": 0.7
-          },
-          {
-            "hash": "3725aed91b0a",
-            "name": "BossBattleIL",
-            "type": "lora",
-            "weight": 0.7
-          },
-          {
-            "hash": "b2bebdbd774b",
-            "name": "illustriousXLv01_stabilizer_v1.185c",
-            "type": "lora",
-            "weight": 0.35
-          },
-          {
-            "hash": "44586d05878a",
-            "name": "USNR_STYLE_ILL_V1_lokr3",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "hash": "41a3500e9321",
-            "name": "Catgirlstyle",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "5fb13c2fd03a",
-            "name": "aesthetic portraits style",
-            "type": "lora"
-          },
-          {
-            "hash": "0d47fc066a9a",
-            "name": "Dynamic Poses slider",
-            "type": "lora"
-          },
-          {
-            "hash": "217daae812",
-            "name": "JANKUV5NSFWTrainedNoobai_v50",
-            "type": "model"
-          }
-        ],
-        "Model hash": "217daae812",
-        "Schedule type": "Karras",
-        "negativePrompt": "bad quality, worst quality, bad anatomy, sketch, jpeg artifacts, ugly, poorly drawn, blurry, watermark, bad eyes, bright pupils, white pupils, ugly, bad hands, bad face, loli, lazyneg3.1, lazyhand2",
-        "Denoising strength": "0.3",
-        "SD upscale overlap": "64",
-        "SD upscale upscaler": "4x_IllustrationJaNai_V1_DAT2_190k",
-        "Style Selector Style": "base",
-        "Style Selector Enabled": "True",
-        "Style Selector Randomize": "False"
-      },
-      "username": "FireDextro",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1465405,
-        1478930,
-        1552087,
-        1896532,
-        2255398
-      ]
+      "meta": null,
+      "username": null,
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "781|1748028818949",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=781%7C1748028818949"
+    "nextCursor": "782|1748028818949",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=782%7C1748028818949"
   }
 }
