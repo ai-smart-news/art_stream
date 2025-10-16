@@ -1,33 +1,94 @@
 {
   "items": [
     {
-      "id": 45791159,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4e16ff4a-48d8-4262-adb4-c02578b8b522/original=true/4e16ff4a-48d8-4262-adb4-c02578b8b522.jpeg",
-      "hash": "UDGkUwMz0KSz~DInbbt700%2EeoL-W?H0dNu",
-      "width": 896,
-      "height": 1152,
+      "id": 87722359,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a96456c1-8372-442e-92f5-2e6c4d467ad5/original=true/a96456c1-8372-442e-92f5-2e6c4d467ad5.jpeg",
+      "hash": "UMCZFcIBIV-;~qNGM{%2%2soRjRjIot7NGM{",
+      "width": 3328,
+      "height": 4864,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-17T21:00:00.000Z",
-      "postId": 10368627,
+      "createdAt": "2025-07-12T03:00:00.000Z",
+      "postId": 19459934,
       "stats": {
-        "cryCount": 242,
-        "laughCount": 460,
-        "likeCount": 4623,
+        "cryCount": 280,
+        "laughCount": 515,
+        "likeCount": 4342,
         "dislikeCount": 0,
-        "heartCount": 1565,
-        "commentCount": 8
+        "heartCount": 1747,
+        "commentCount": 12
       },
-      "meta": null,
-      "username": null,
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 825525217,
+        "steps": 30,
+        "prompt": "Monochrome, black and white photo, a digital painting featuring a mystical and haunting scene. At the center is a young woman with pale skin and long, dark hair, dressed in a flowing black and red dress adorned with gold accents. Her back is to the viewer, and she appears to be embracing a large, ethereal wolf. The wolf's fur is predominantly white, with hints of gray, and it has piercing red eyes that seem to glow ominously. The wolf's fur is rendered in a way that suggests movement, with wisps and tendrils swirling around the woman and the wolf. The background is dark and shadowy, with subtle hints of a misty or smoky atmosphere that adds to the mystical and otherworldly feel of the image. The overall color palette is dominated by dark tones with occasional highlights of white and gold, creating a dramatic and surreal effect. The style of the painting is highly detailed and realistic, with a focus on texture and movement, giving it a lifelike yet fantastical quality. The woman's dress and the wolf's fur are rendered with intricate detail, emphasizing the contrast between the delicate human form and the wild, untamed nature of the wolf.",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-07-09T1341:21.0745232Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 806265,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 914935,
+            "modelVersionName": "ink-dynamic"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 1189379,
+            "modelVersionName": "FLUX"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1202162,
+            "modelVersionName": "Flux Gothic Lines"
+          },
+          {
+            "type": "lora",
+            "weight": 0.75,
+            "modelVersionId": 746484,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 757030,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "VelvetS",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        746484,
+        757030,
+        806265,
+        914935,
+        1189379,
+        1202162
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "784|1752289200000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=784%7C1752289200000"
+    "nextCursor": "785|1756011600000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=785%7C1756011600000"
   }
 }
