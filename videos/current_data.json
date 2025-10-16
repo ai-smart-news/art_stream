@@ -1,84 +1,39 @@
 {
   "items": [
     {
-      "id": 69080674,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/12acd4d7-ee6c-4511-8a1e-1b63581a18fe/original=true/12acd4d7-ee6c-4511-8a1e-1b63581a18fe.jpeg",
-      "hash": "UBC$[rtR4oD%.mRixsoz4pn3tko}m,%0R-R*",
-      "width": 1440,
-      "height": 2304,
+      "id": 73199649,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4afb06ec-03a7-4642-8883-08e4619f1baf/original=true/4afb06ec-03a7-4642-8883-08e4619f1baf.jpeg",
+      "hash": "UjF5K#ae9[of~qWBM{of%~WVn4j[-;ayM{ay",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-10T03:19:48.352Z",
-      "postId": 15348587,
+      "createdAt": "2025-04-30T04:18:01.677Z",
+      "postId": 16260499,
       "stats": {
-        "cryCount": 334,
-        "laughCount": 562,
-        "likeCount": 4359,
+        "cryCount": 472,
+        "laughCount": 575,
+        "likeCount": 4320,
         "dislikeCount": 0,
-        "heartCount": 1620,
-        "commentCount": 7
+        "heartCount": 1502,
+        "commentCount": 11
       },
       "meta": {
-        "Size": "1440x2304",
-        "seed": 56926759,
-        "Model": "flux1-dev",
-        "steps": 25,
-        "hashes": {
-          "model": "3f97fdc57a",
-          "lora:aidmaMJ6.1v0.4": "88027fe63c88",
-          "lora:detailifier_sd3.5": "4abeda69c3f9"
-        },
-        "prompt": "an ornate floating airship garden where Victorian ladies in pastel dresses sip tea surrounded by potted flowers and hovering brass dragonflies,view opens up to reveal an immense gear-filled city below,steam rising between rooftops,glowing signs and rotating cogs creating rhythmic shadows,vibrant lighting with backlit clouds,vivid storybook style,\n<lora:aidmaMJ6.1v0.4:0.6>,aidmaMJ6.1,<lora:detailifier_sd3.5:0.8>,detailifier,",
-        "Version": "f2.0.1v1.10.1-previous-635-gf5330788",
-        "sampler": "Euler",
-        "Module 1": "flux_ae",
-        "Module 2": "clip_l",
-        "Module 3": "t5xxl_fp16",
-        "cfgScale": 1,
-        "Mask blur": "2",
-        "resources": [
-          {
-            "hash": "88027fe63c88",
-            "name": "aidmaMJ6.1v0.4",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "4abeda69c3f9",
-            "name": "detailifier_sd3.5",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "3f97fdc57a",
-            "name": "flux1-dev",
-            "type": "model"
-          }
-        ],
-        "Model hash": "3f97fdc57a",
-        "Schedule type": "Simple",
-        "Denoising strength": "0.5",
-        "Distilled CFG Scale": "3.5",
-        "Soft inpainting enabled": "True",
-        "Soft inpainting schedule bias": "1",
-        "Soft inpainting mask influence": "0",
-        "Soft inpainting difference contrast": "2",
-        "Soft inpainting difference threshold": "0.5",
-        "Soft inpainting preservation strength": "0.5",
-        "Soft inpainting transition contrast boost": "4"
+        "seed": 99869343962809,
+        "steps": 30,
+        "prompt": "A dark and sinister underwater scene depicts a descent into a watery abyss. The silhouettes of numerous figures, resembling the undead, fill the depths, creating a dense and unsettling atmosphere. Two protagonists move swiftly among these dark, indistinct figures in a dramatic top-down perspective. The figures below possess an almost ethereal, almost abstract quality; their forms are distorted and rendered as silhouettes. In the brightly lit upper section, a sinking ship\u2014broken, split, dark, and shattered\u2014lies on the surface, sinking headfirst, separating the clear upper world from the crimson underwater world. Shades of white, crimson, and stark black dominate the color palette, symbolizing the darkness and danger of the scene. The descent into the depths is depicted through a wide perspective, emphasizing the scale of the environment. High-contrast lighting accentuates the silhouettes and the bright, sinister red hues. The atmosphere is intense, eerie, and melancholic; a sense of impending doom hangs over the surface. The style evokes a dark fantasy painting or a graphic novel illustration. The image uses stark contrast and dynamic composition to amplify the sinister tones. The artistic emphasis is on atmosphere and emotional impact, rather than realistic representation.\n",
+        "sampler": "Euler a",
+        "cfgScale": 3
       },
-      "username": "karlcrane2015",
+      "username": "Andulce",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        981456,
-        1031573
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "789|1745986681677",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=789%7C1745986681677"
+    "nextCursor": "790|1760051022404",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=790%7C1760051022404"
   }
 }
