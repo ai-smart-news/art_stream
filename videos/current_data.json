@@ -1,94 +1,52 @@
 {
   "items": [
     {
-      "id": 87722359,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a96456c1-8372-442e-92f5-2e6c4d467ad5/original=true/a96456c1-8372-442e-92f5-2e6c4d467ad5.jpeg",
-      "hash": "UMCZFcIBIV-;~qNGM{%2%2soRjRjIot7NGM{",
-      "width": 3328,
-      "height": 4864,
+      "id": 96149408,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0abd162-7ce8-4a54-887a-b8958ec7800c/original=true/a0abd162-7ce8-4a54-887a-b8958ec7800c.jpeg",
+      "hash": "U8B21Q^60{EfFcxHsmR*1GxG=yxG}a-BxHbH",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-12T03:00:00.000Z",
-      "postId": 19459934,
+      "createdAt": "2025-08-24T05:00:00.000Z",
+      "postId": 21326349,
       "stats": {
-        "cryCount": 280,
-        "laughCount": 515,
-        "likeCount": 4342,
+        "cryCount": 396,
+        "laughCount": 578,
+        "likeCount": 4197,
         "dislikeCount": 0,
-        "heartCount": 1747,
-        "commentCount": 12
+        "heartCount": 1708,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 825525217,
-        "steps": 30,
-        "prompt": "Monochrome, black and white photo, a digital painting featuring a mystical and haunting scene. At the center is a young woman with pale skin and long, dark hair, dressed in a flowing black and red dress adorned with gold accents. Her back is to the viewer, and she appears to be embracing a large, ethereal wolf. The wolf's fur is predominantly white, with hints of gray, and it has piercing red eyes that seem to glow ominously. The wolf's fur is rendered in a way that suggests movement, with wisps and tendrils swirling around the woman and the wolf. The background is dark and shadowy, with subtle hints of a misty or smoky atmosphere that adds to the mystical and otherworldly feel of the image. The overall color palette is dominated by dark tones with occasional highlights of white and gold, creating a dramatic and surreal effect. The style of the painting is highly detailed and realistic, with a focus on texture and movement, giving it a lifelike yet fantastical quality. The woman's dress and the wolf's fur are rendered with intricate detail, emphasizing the contrast between the delicate human form and the wild, untamed nature of the wolf.",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-07-09T1341:21.0745232Z",
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "A majestic and realistic cherry blossom snake, it's body completely covered in cherry blossoms. It's bright neon violet eyes and bright pink floral body stand out against the brown bark of a dark cherry tree. It's body coiled as it lay and waits in a pile of blossoms and reddish brown leaves in a mid autumn evening.",
+        "process": "txt2img",
+        "quality": "medium",
+        "quantity": 1,
+        "baseModel": "OpenAI",
+        "background": "opaque",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 806265,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 914935,
-            "modelVersionName": "ink-dynamic"
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 1189379,
-            "modelVersionName": "FLUX"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 1202162,
-            "modelVersionName": "Flux Gothic Lines"
-          },
-          {
-            "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 746484,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 757030,
-            "modelVersionName": "V1"
+            "weight": 1,
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "VelvetS",
-      "baseModel": "Flux.1 D",
+      "username": "Cinnadust",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        691639,
-        746484,
-        757030,
-        806265,
-        914935,
-        1189379,
-        1202162
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "785|1756011600000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=785%7C1756011600000"
+    "nextCursor": "786|1727900477941",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=786%7C1727900477941"
   }
 }
