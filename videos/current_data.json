@@ -1,39 +1,63 @@
 {
   "items": [
     {
-      "id": 73199649,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4afb06ec-03a7-4642-8883-08e4619f1baf/original=true/4afb06ec-03a7-4642-8883-08e4619f1baf.jpeg",
-      "hash": "UjF5K#ae9[of~qWBM{of%~WVn4j[-;ayM{ay",
-      "width": 1664,
-      "height": 2432,
+      "id": 16845323,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/57c914d3-e314-46cc-937e-502286553765/original=true/57c914d3-e314-46cc-937e-502286553765.jpeg",
+      "hash": "UABydM}8Mers7$9]IUoJFeXSIAEj;e={v~nh",
+      "width": 1296,
+      "height": 1960,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-30T04:18:01.677Z",
-      "postId": 16260499,
+      "createdAt": "2024-06-23T08:12:17.888Z",
+      "postId": 3779159,
       "stats": {
-        "cryCount": 472,
-        "laughCount": 575,
-        "likeCount": 4320,
+        "cryCount": 201,
+        "laughCount": 510,
+        "likeCount": 4486,
         "dislikeCount": 0,
-        "heartCount": 1502,
-        "commentCount": 11
+        "heartCount": 1664,
+        "commentCount": 5
       },
       "meta": {
-        "seed": 99869343962809,
-        "steps": 30,
-        "prompt": "A dark and sinister underwater scene depicts a descent into a watery abyss. The silhouettes of numerous figures, resembling the undead, fill the depths, creating a dense and unsettling atmosphere. Two protagonists move swiftly among these dark, indistinct figures in a dramatic top-down perspective. The figures below possess an almost ethereal, almost abstract quality; their forms are distorted and rendered as silhouettes. In the brightly lit upper section, a sinking ship\u2014broken, split, dark, and shattered\u2014lies on the surface, sinking headfirst, separating the clear upper world from the crimson underwater world. Shades of white, crimson, and stark black dominate the color palette, symbolizing the darkness and danger of the scene. The descent into the depths is depicted through a wide perspective, emphasizing the scale of the environment. High-contrast lighting accentuates the silhouettes and the bright, sinister red hues. The atmosphere is intense, eerie, and melancholic; a sense of impending doom hangs over the surface. The style evokes a dark fantasy painting or a graphic novel illustration. The image uses stark contrast and dynamic composition to amplify the sinister tones. The artistic emphasis is on atmosphere and emotional impact, rather than realistic representation.\n",
-        "sampler": "Euler a",
-        "cfgScale": 3
+        "Size": "512x768",
+        "seed": 2676625826,
+        "Model": "4_fav_darksun_v41",
+        "steps": 20,
+        "hashes": {
+          "model": "6d6e223662",
+          "embed:EasyNegative": "66a7279a88",
+          "embed:AloeCrapArt-5000": "e6809d8cd6",
+          "embed:negative_hand-neg": "73b524a2da",
+          "embed:ng_deepnegative_v1_75t": "54e7e4826d"
+        },
+        "prompt": "(masterpiece:1.2), (photo of a partially buried cyborg, sandblasted and rusted, their robotic arm reaching towards a flickering sun Emphasizing the harsh environment, with cracked lenses and fading paint details:1.1), (bathed in the cold light of a holographic moon:1.1), (art by Cyril Rolando:1.4), (close-up shot:1.0), (hyperdetailed:1.1), (intricate details:1.0), (Refined details:1.1), (best quality:1.1), (high resolution:1.2)",
+        "Version": "ComfyUI",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7,
+        "resources": [
+          {
+            "hash": "6d6e223662",
+            "name": "4_fav_darksun_v41",
+            "type": "model"
+          }
+        ],
+        "Model hash": "6d6e223662",
+        "negativePrompt": "embedding:EasyNegative, embedding:negative_hand-neg, (worst quality, low quality, bad quality:1.3), low-res, blur, blurry, (extra fingers, bad anatomy, wrong proportions, deformed, mutated hands and fingers:1.2), (monochrome, grayscale:1.1), image artifacts, low resolution, (watermark:1.2), loli, headphones, text, embedding:ng_deepnegative_v1_75t, embedding:AloeCrapArt-5000"
       },
-      "username": "Andulce",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "username": "RIDD",
+      "baseModel": "SD 1.5",
+      "modelVersionIds": [
+        5637,
+        9536,
+        130121,
+        60938
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "791|1719130337888",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=791%7C1719130337888"
+    "nextCursor": "792|1740693895179",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=792%7C1740693895179"
   }
 }
