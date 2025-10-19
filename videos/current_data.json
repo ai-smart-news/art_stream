@@ -1,51 +1,40 @@
 {
   "items": [
     {
-      "id": 58397449,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/035302a3-baf7-4e22-bc4d-6121669b4c80/original=true/035302a3-baf7-4e22-bc4d-6121669b4c80.jpeg",
-      "hash": "UGDbT8WC7KjZ}qe:K3oeD-j[R*WC1zkB+wWC",
-      "width": 768,
-      "height": 1152,
+      "id": 69843439,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8476af70-2cb4-490c-ab50-193665744317/original=true/8476af70-2cb4-490c-ab50-193665744317.jpeg",
+      "hash": "U99Z}[00R5?b_N9Ft7xu9Zs:%MD%Di%MxuD%",
+      "width": 2048,
+      "height": 2992,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-19T03:00:00.000Z",
-      "postId": 13067721,
+      "createdAt": "2025-04-13T22:00:00.000Z",
+      "postId": 15516164,
       "stats": {
-        "cryCount": 321,
-        "laughCount": 465,
-        "likeCount": 4483,
+        "cryCount": 384,
+        "laughCount": 500,
+        "likeCount": 4234,
         "dislikeCount": 0,
-        "heartCount": 1548,
-        "commentCount": 2
+        "heartCount": 1697,
+        "commentCount": 10
       },
-      "meta": {
-        "seed": 742569460,
-        "vaes": [],
-        "comfy": "{\"prompt\": {\"10001\": {\"class_type\": \"ECHOCheckpointLoaderSimple\", \"inputs\": {\"ckpt_name\": \"EMS-446170-EMS.safetensors\"}, \"_properties\": null}, \"10011\": {\"class_type\": \"LoraTagLoader\", \"inputs\": {\"clip\": [\"10001\", 1], \"model\": [\"10001\", 0], \"text\": \"<lora:EMS-486327-EMS.safetensors:0.800000>,<lora:EMS-529508-EMS.safetensors:0.800000>\"}, \"_properties\": null}, \"10014\": {\"class_type\": \"EmptySD3LatentImage\", \"inputs\": {\"batch_size\": 2, \"height\": 1152, \"width\": 768}, \"_properties\": null}, \"10025\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10011\", 1], \"text\": \"A screen print artwork in a green and orange bichromy. Inkstyle old engraving. In a dimly lit abandoned corn field, the silhouette of a steampunk mechanical scarecrow stands creepily, hands-up forming a cross, like a disjointed puppet. Some crows are there on his arms, looking around with hunger. A thick fog that gradually morphs into an ethereal aura add a glommy atmosphere to the scene. The scarecrow eyes shine with a bright weird light, echoing the full moon behind him. A non-printed frame all around the illustration reveals the paper texture.\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10026\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10011\", 1], \"text\": \"\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10027\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"10025\", 0], \"guidance\": 3.5}, \"_properties\": null}, \"11001\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"ensd\": 31337, \"latent_image\": [\"10014\", 0], \"model\": [\"10011\", 0], \"negative\": [\"10026\", 0], \"positive\": [\"10027\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 742569460, \"seed_mode\": \"A1111\", \"steps\": 25}, \"_properties\": null}, \"11016\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"11001\", 0], \"vae\": [\"10001\", 2]}, \"_properties\": null}, \"12004\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"831203612184145248\", \"images\": [\"11016\", 0]}, \"_properties\": null}}, \"workflow\": undefined}",
-        "steps": 25,
-        "width": 768,
-        "height": 1152,
-        "models": [],
-        "prompt": "A screen print artwork in a green and orange bichromy. Inkstyle old engraving. In a dimly lit abandoned corn field, the silhouette of a steampunk mechanical scarecrow stands creepily, hands-up forming a cross, like a disjointed puppet. Some crows are there on his arms, looking around with hunger. A thick fog that gradually morphs into an ethereal aura add a glommy atmosphere to the scene. The scarecrow eyes shine with a bright weird light, echoing the full moon behind him. A non-printed frame all around the illustration reveals the paper texture.",
-        "denoise": 1,
-        "sampler": "Euler",
-        "cfgScale": 1,
-        "modelIds": [],
-        "scheduler": "simple",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "additionalResources": []
-      },
-      "username": "BadArt",
+      "meta": null,
+      "username": "NightmareMan",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        691639,
+        951509,
+        976226,
+        1189379,
+        1244911,
+        1329246
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "802|1744581600000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=802%7C1744581600000"
+    "nextCursor": "803|1752789300000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=803%7C1752789300000"
   }
 }
