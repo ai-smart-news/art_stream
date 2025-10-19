@@ -1,64 +1,85 @@
 {
   "items": [
     {
-      "id": 88128864,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/efacbcfe-1080-4c99-af0c-809f2c5c6f87/original=true/efacbcfe-1080-4c99-af0c-809f2c5c6f87.jpeg",
-      "hash": "UKFhVm$*55E1{~9tEzxZ9uJAZ}-VTI$iozaK",
+      "id": 94483151,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/82e4cfd8-7092-4544-aa9e-cbd0d0cdb481/original=true/82e4cfd8-7092-4544-aa9e-cbd0d0cdb481.jpeg",
+      "hash": "UC9uQhn%02cF4sae-Mof4TWX^$s-_Lj[9bWV",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-14T09:30:00.000Z",
-      "postId": 19549271,
+      "createdAt": "2025-08-15T22:59:17.931Z",
+      "postId": 20962404,
       "stats": {
-        "cryCount": 303,
-        "laughCount": 540,
-        "likeCount": 4312,
+        "cryCount": 572,
+        "laughCount": 713,
+        "likeCount": 4109,
         "dislikeCount": 0,
-        "heartCount": 1688,
-        "commentCount": 9
+        "heartCount": 1447,
+        "commentCount": 7
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 641642136,
+        "seed": 430205177,
         "draft": false,
-        "steps": 27,
+        "steps": 24,
         "width": 832,
         "height": 1216,
-        "prompt": "Wokemedia Render , ultra digital ,Quartz, Fracture, Velvet, Static, Ashen, Glitch, Flicker, Spindle, Echo, Neon, tree, marble chinese",
-        "process": "txt2img",
-        "sampler": "Undefined",
-        "cfgScale": 4,
+        "prompt": "starry_morph, bzzb4tt3ryCitron,",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7,
         "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@922358",
         "quantity": 1,
         "workflow": "txt2img",
-        "baseModel": "Flux1",
+        "baseModel": "Illustrious",
         "resources": [],
         "disablePoi": true,
         "aspectRatio": "13:19",
-        "Created Date": "2025-07-14T0308:11.1578836Z",
+        "Created Date": "2025-08-15T2128:41.5130549Z",
         "experimental": false,
+        "negativePrompt": "no humans, green glass, nsfw, (worst quality, low quality, bad quality, normal quality), (monochrome, grayscale), old, logo, watermark,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 922358,
-            "modelVersionName": "Pro 1.1"
+            "modelVersionId": 2100813
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1215123
+          },
+          {
+            "type": "lora",
+            "weight": 0.1,
+            "modelVersionId": 2069228
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 640285
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 2077714
           }
-        ],
-        "fluxUltraAspectRatio": "4"
+        ]
       },
-      "username": "lightyagami_",
-      "baseModel": "Flux.1 D",
+      "username": "mheaney47256",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        922358
+        640285,
+        1215123,
+        2069228,
+        2077714,
+        2100813
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "798|1755298757931",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=798%7C1755298757931"
+    "nextCursor": "799|1749345300000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=799%7C1749345300000"
   }
 }
