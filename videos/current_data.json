@@ -1,42 +1,62 @@
 {
   "items": [
     {
-      "id": 82863528,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d738698-74a2-4165-9491-6a337e51fd64/original=true/5d738698-74a2-4165-9491-6a337e51fd64.jpeg",
-      "hash": "UAF~XL00-.Di~WDhkC00Rit7%hD*.8WE-oIU",
-      "width": 1280,
-      "height": 1856,
+      "id": 50361957,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/050cd594-6a13-4725-92e9-52787b45df84/original=true/050cd594-6a13-4725-92e9-52787b45df84.jpeg",
+      "hash": "UmK_B?a}_Nxu_2j[RkjtbwofMxWB-;j[n~j[",
+      "width": 896,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-06-20T12:49:28.404Z",
-      "postId": 18403966,
+      "createdAt": "2025-01-08T17:52:51.794Z",
+      "postId": 11335238,
       "stats": {
-        "cryCount": 275,
-        "laughCount": 529,
-        "likeCount": 4454,
+        "cryCount": 267,
+        "laughCount": 473,
+        "likeCount": 4553,
         "dislikeCount": 0,
-        "heartCount": 1590,
+        "heartCount": 1555,
         "commentCount": 1
       },
-      "meta": null,
-      "username": "Kalrdr",
-      "baseModel": "Illustrious",
+      "meta": {
+        "VAE": "ae.sft",
+        "seed": 691996122503906,
+        "Model": "Fluxmania V3 fp8.safetensors",
+        "steps": 25,
+        "hashes": {
+          "vae": "afc8e28272",
+          "model": "790a27f33d",
+          "lora:Bonafida.Studio": "286055611f"
+        },
+        "prompt": "Delirium style. The image is a digital artwork, rendered in a hyper-realistic CGI style, featuring a surreal and abstract depiction of a human head. The central figure is a stylized, almost robotic humanoid head with a glossy, dark, almost black surface that reflects and refracts light, giving it a sleek, metallic appearance. The head is split vertically, with the upper half forming a hollow, transparent, and reflective dome. Inside this dome, a stunning, glowing image of a tree with a fiery, orange-yellow aura is visible, creating a stark contrast to the dark outer surface. <lora:Bonafida.Studio:1>",
+        "sampler": "DPM++ 2M",
+        "resources": [
+          {
+            "hash": "286055611f",
+            "name": "Bonafida.Studio",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "790a27f33d",
+            "name": "Fluxmania V3 fp8.safetensors",
+            "type": "model"
+          }
+        ],
+        "Model hash": "790a27f33d"
+      },
+      "username": "Adel_AI",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        9208,
-        111363,
-        164821,
-        333245,
-        372639,
-        1412563,
-        1441559,
-        1490781
+        1257218,
+        1205317
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "795|1736358771794",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=795%7C1736358771794"
+    "nextCursor": "796|1741902714342",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=796%7C1741902714342"
   }
 }
