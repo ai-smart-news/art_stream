@@ -1,62 +1,35 @@
 {
   "items": [
     {
-      "id": 50361957,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/050cd594-6a13-4725-92e9-52787b45df84/original=true/050cd594-6a13-4725-92e9-52787b45df84.jpeg",
-      "hash": "UmK_B?a}_Nxu_2j[RkjtbwofMxWB-;j[n~j[",
-      "width": 896,
-      "height": 1152,
+      "id": 63343012,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3701383b-ffd4-4438-90f6-c351db39d609/original=true/3701383b-ffd4-4438-90f6-c351db39d609.jpeg",
+      "hash": "UNG[i{WVtRay_N%M9ZIo%2bI4nn%.9M{IUs.",
+      "width": 1536,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-08T17:52:51.794Z",
-      "postId": 11335238,
+      "createdAt": "2025-03-13T21:51:54.342Z",
+      "postId": 14131386,
       "stats": {
-        "cryCount": 267,
-        "laughCount": 473,
-        "likeCount": 4553,
+        "cryCount": 382,
+        "laughCount": 581,
+        "likeCount": 4265,
         "dislikeCount": 0,
-        "heartCount": 1555,
-        "commentCount": 1
+        "heartCount": 1617,
+        "commentCount": 5
       },
-      "meta": {
-        "VAE": "ae.sft",
-        "seed": 691996122503906,
-        "Model": "Fluxmania V3 fp8.safetensors",
-        "steps": 25,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "790a27f33d",
-          "lora:Bonafida.Studio": "286055611f"
-        },
-        "prompt": "Delirium style. The image is a digital artwork, rendered in a hyper-realistic CGI style, featuring a surreal and abstract depiction of a human head. The central figure is a stylized, almost robotic humanoid head with a glossy, dark, almost black surface that reflects and refracts light, giving it a sleek, metallic appearance. The head is split vertically, with the upper half forming a hollow, transparent, and reflective dome. Inside this dome, a stunning, glowing image of a tree with a fiery, orange-yellow aura is visible, creating a stark contrast to the dark outer surface. <lora:Bonafida.Studio:1>",
-        "sampler": "DPM++ 2M",
-        "resources": [
-          {
-            "hash": "286055611f",
-            "name": "Bonafida.Studio",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "790a27f33d",
-            "name": "Fluxmania V3 fp8.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "790a27f33d"
-      },
-      "username": "Adel_AI",
-      "baseModel": "Flux.1 D",
+      "meta": null,
+      "username": "SynthAI",
+      "baseModel": null,
       "modelVersionIds": [
-        1257218,
-        1205317
+        432719
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "796|1741902714342",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=796%7C1741902714342"
+    "nextCursor": "797|1752485400000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=797%7C1752485400000"
   }
 }
