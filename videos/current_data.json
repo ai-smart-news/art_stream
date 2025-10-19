@@ -1,85 +1,85 @@
 {
   "items": [
     {
-      "id": 94483151,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/82e4cfd8-7092-4544-aa9e-cbd0d0cdb481/original=true/82e4cfd8-7092-4544-aa9e-cbd0d0cdb481.jpeg",
-      "hash": "UC9uQhn%02cF4sae-Mof4TWX^$s-_Lj[9bWV",
-      "width": 832,
-      "height": 1216,
+      "id": 80928436,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9bd2eb9c-916f-4be0-a4b4-68c835c07f85/original=true/9bd2eb9c-916f-4be0-a4b4-68c835c07f85.jpeg",
+      "hash": "UMECj=tk-;R*~qNbtlxt-;eot8xZ?HXSn%M|",
+      "width": 2688,
+      "height": 3840,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-08-15T22:59:17.931Z",
-      "postId": 20962404,
+      "createdAt": "2025-06-08T01:15:00.000Z",
+      "postId": 17974999,
       "stats": {
-        "cryCount": 572,
-        "laughCount": 713,
-        "likeCount": 4109,
+        "cryCount": 281,
+        "laughCount": 480,
+        "likeCount": 4363,
         "dislikeCount": 0,
-        "heartCount": 1447,
-        "commentCount": 7
+        "heartCount": 1717,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 430205177,
+        "nsfw": false,
+        "seed": 265532509,
+        "vaes": [],
         "draft": false,
-        "steps": 24,
+        "extra": {},
+        "steps": 35,
         "width": 832,
         "height": 1216,
-        "prompt": "starry_morph, bzzb4tt3ryCitron,",
+        "models": [],
+        "prompt": "Anime art, Full-length, gorgeous fantasy redhead, naturally curly long ginger hair, tiara, tight silver armor, standing on a hill. Full breasts, tight waist, round thighs, green eyes, no blush. Backdrop of fantasy highlands in fall, bright autumn colors, lakes and wooded areas, braided hairstyle, diffused lighting, determined facial expression, intricate armor details. Shield on back, sword in scabbard on hip. <lora:aidmaMJ6.1_v0.5_3:0.5>,  <lora:Anime Art V3_Flux:0.5>",
         "sampler": "DPM++ 2M Karras",
         "cfgScale": 7,
         "clipSkip": 2,
-        "quantity": 1,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "modelIds": [],
+        "quantity": 2,
         "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
+        "baseModel": "Flux1",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
         "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-08-15T2128:41.5130549Z",
+        "versionIds": [],
+        "controlNets": [],
         "experimental": false,
-        "negativePrompt": "no humans, green glass, nsfw, (worst quality, low quality, bad quality, normal quality), (monochrome, grayscale), old, logo, watermark,",
+        "openAIQuality": "medium",
         "civitaiResources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 2100813
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1215123
-          },
-          {
-            "type": "lora",
-            "weight": 0.1,
-            "modelVersionId": 2069228
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 640285
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 2077714
+            "modelVersionId": 691639
+          },
+          {
+            "weight": 0.5,
+            "modelVersionId": 1249246
+          },
+          {
+            "weight": 1.3,
+            "modelVersionId": 1376386
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
-        ]
+        ],
+        "additionalResources": [],
+        "fluxUltraAspectRatio": "4"
       },
-      "username": "mheaney47256",
-      "baseModel": "Illustrious",
+      "username": "Uberocarina",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        640285,
-        1215123,
-        2069228,
-        2077714,
-        2100813
+        164821,
+        691639,
+        1249246,
+        1376386
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "799|1749345300000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=799%7C1749345300000"
+    "nextCursor": "800|1742086075283",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=800%7C1742086075283"
   }
 }
