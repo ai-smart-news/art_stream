@@ -1,53 +1,51 @@
 {
   "items": [
     {
-      "id": 63760302,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d440d1d-a6e4-40e1-befb-62386f4e61e4/original=true/5d440d1d-a6e4-40e1-befb-62386f4e61e4.jpeg",
-      "hash": "U87m{ui]00XoX=f5n0kD0wbd}unMwYj]OIWA",
-      "width": 1024,
-      "height": 1024,
+      "id": 58397449,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/035302a3-baf7-4e22-bc4d-6121669b4c80/original=true/035302a3-baf7-4e22-bc4d-6121669b4c80.jpeg",
+      "hash": "UGDbT8WC7KjZ}qe:K3oeD-j[R*WC1zkB+wWC",
+      "width": 768,
+      "height": 1152,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-16T00:47:55.283Z",
-      "postId": 14221400,
+      "createdAt": "2025-02-19T03:00:00.000Z",
+      "postId": 13067721,
       "stats": {
-        "cryCount": 359,
-        "laughCount": 591,
-        "likeCount": 4228,
+        "cryCount": 321,
+        "laughCount": 465,
+        "likeCount": 4483,
         "dislikeCount": 0,
-        "heartCount": 1656,
-        "commentCount": 7
+        "heartCount": 1548,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "1024x1024",
-        "seed": 370801346,
-        "steps": 30,
-        "hashes": {
-          "model": "",
-          "Model:flux1-dev-fp8": "8e91b68084",
-          "LORA:test\\kai.safetensors": "ecd3d3266f",
-          "LORA:test\\lytepainting_epoch_6.safetensors": "715f50d10c",
-          "Model:kai.safetensors:0.6800000000000002:0": "",
-          "LORA:Scifi\\FluxDFaeTasticDetails.safetensors": "4259dc3287"
-        },
-        "prompt": "kai,FluxDFaeTasticDetails,   dynamic splashes, bright colors, high contrast, dark background, vivid lighting,  A beautiful transparent vase made out of glass , acting like a greenhouse, with plant and butterly, in a forest by the lake, light painting in the background,fireflies,faeries,bokeh,depth of field, kai,FluxDFaeTasticDetails,   dynamic splashes, bright colors, high contrast, dark background, vivid lighting,  A beautiful transparent vase made out of glass , acting like a greenhouse, with plant and butterly, in a forest by the lake, light painting in the background,fireflies,faeries,bokeh,depth of field, sfw<lora:test\\lytepainting_epoch_6.safetensors:0.7500000000000001:0.7500000000000001> <lora:Scifi\\FluxDFaeTasticDetails.safetensors:0.6000000000000001:0.6000000000000001> <lora:test\\kai.safetensors:0.6800000000000002:0.6800000000000002>",
-        "Version": "ComfyUI",
-        "sampler": "DPM++ 2M Simple",
-        "cfgScale": 3.5,
-        "resources": []
+        "seed": 742569460,
+        "vaes": [],
+        "comfy": "{\"prompt\": {\"10001\": {\"class_type\": \"ECHOCheckpointLoaderSimple\", \"inputs\": {\"ckpt_name\": \"EMS-446170-EMS.safetensors\"}, \"_properties\": null}, \"10011\": {\"class_type\": \"LoraTagLoader\", \"inputs\": {\"clip\": [\"10001\", 1], \"model\": [\"10001\", 0], \"text\": \"<lora:EMS-486327-EMS.safetensors:0.800000>,<lora:EMS-529508-EMS.safetensors:0.800000>\"}, \"_properties\": null}, \"10014\": {\"class_type\": \"EmptySD3LatentImage\", \"inputs\": {\"batch_size\": 2, \"height\": 1152, \"width\": 768}, \"_properties\": null}, \"10025\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10011\", 1], \"text\": \"A screen print artwork in a green and orange bichromy. Inkstyle old engraving. In a dimly lit abandoned corn field, the silhouette of a steampunk mechanical scarecrow stands creepily, hands-up forming a cross, like a disjointed puppet. Some crows are there on his arms, looking around with hunger. A thick fog that gradually morphs into an ethereal aura add a glommy atmosphere to the scene. The scarecrow eyes shine with a bright weird light, echoing the full moon behind him. A non-printed frame all around the illustration reveals the paper texture.\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10026\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10011\", 1], \"text\": \"\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10027\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"10025\", 0], \"guidance\": 3.5}, \"_properties\": null}, \"11001\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"ensd\": 31337, \"latent_image\": [\"10014\", 0], \"model\": [\"10011\", 0], \"negative\": [\"10026\", 0], \"positive\": [\"10027\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 742569460, \"seed_mode\": \"A1111\", \"steps\": 25}, \"_properties\": null}, \"11016\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"11001\", 0], \"vae\": [\"10001\", 2]}, \"_properties\": null}, \"12004\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"831203612184145248\", \"images\": [\"11016\", 0]}, \"_properties\": null}}, \"workflow\": undefined}",
+        "steps": 25,
+        "width": 768,
+        "height": 1152,
+        "models": [],
+        "prompt": "A screen print artwork in a green and orange bichromy. Inkstyle old engraving. In a dimly lit abandoned corn field, the silhouette of a steampunk mechanical scarecrow stands creepily, hands-up forming a cross, like a disjointed puppet. Some crows are there on his arms, looking around with hunger. A thick fog that gradually morphs into an ethereal aura add a glommy atmosphere to the scene. The scarecrow eyes shine with a bright weird light, echoing the full moon behind him. A non-printed frame all around the illustration reveals the paper texture.",
+        "denoise": 1,
+        "sampler": "Euler",
+        "cfgScale": 1,
+        "modelIds": [],
+        "scheduler": "simple",
+        "upscalers": [],
+        "versionIds": [],
+        "controlNets": [],
+        "additionalResources": []
       },
-      "username": "xanity131",
-      "baseModel": null,
-      "modelVersionIds": [
-        720252,
-        1385356
-      ]
+      "username": "BadArt",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "801|1739934000000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=801%7C1739934000000"
+    "nextCursor": "802|1744581600000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=802%7C1744581600000"
   }
 }
