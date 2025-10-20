@@ -1,33 +1,122 @@
 {
   "items": [
     {
-      "id": 28673295,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d600e8d1-407b-41ac-bded-ddea01e13a86/original=true/d600e8d1-407b-41ac-bded-ddea01e13a86.jpeg",
-      "hash": "UPJP47Io5Qxt}tV@I:S#0yW;%1sBELxas:Rk",
-      "width": 1104,
-      "height": 1416,
+      "id": 72639945,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b87e93d-cf9d-41db-8a52-edfcb8088ab7/original=true/0b87e93d-cf9d-41db-8a52-edfcb8088ab7.jpeg",
+      "hash": "UAF$wx%M00Dj00My01Rjxuo0_Ms:00X8?as:",
+      "width": 1344,
+      "height": 1728,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-10T06:04:09.650Z",
-      "postId": 6413613,
+      "createdAt": "2025-04-27T11:01:42.358Z",
+      "postId": 16136163,
       "stats": {
-        "cryCount": 345,
-        "laughCount": 533,
-        "likeCount": 4302,
+        "cryCount": 409,
+        "laughCount": 848,
+        "likeCount": 4171,
         "dislikeCount": 0,
-        "heartCount": 1628,
-        "commentCount": 3
+        "heartCount": 1378,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": null,
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "RNG": "NV",
+        "Size": "896x1152",
+        "seed": 2664515829,
+        "Model": "flux_dev",
+        "steps": 32,
+        "hashes": {
+          "model": "2eda627c8a",
+          "lora:sameface2": "79EB7AB9F04F",
+          "lora:Dark_Ghibli": "babb839a9aec",
+          "lora:artisketchyfs-v02": "2097f7b0e740",
+          "lora:ck-painterly-fantasy": "2fc3f53ef01a",
+          "lora:FluxDFaeTasticDetails": "4259dc328739",
+          "lora:Vibrantly_sharp_style_v.2": "a7b8c3437d63",
+          "lora:- Flux1 - vanta_black_V2.0": "5d8cf3724039"
+        },
+        "Version": "f2.0.1v1.10.1-previous-656-g3ce37393",
+        "sampler": "Euler",
+        "Module 1": "ae",
+        "Module 2": "clip_l",
+        "Module 3": "t5xxl_fp16",
+        "cfgScale": 1,
+        "resources": [
+          {
+            "hash": "4259dc328739",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora"
+          },
+          {
+            "hash": "2097f7b0e740",
+            "name": "artisketchyfs-v02",
+            "type": "lora"
+          },
+          {
+            "hash": "5d8cf3724039",
+            "name": "- Flux1 - vanta_black_V2.0",
+            "type": "lora"
+          },
+          {
+            "hash": "79EB7AB9F04F",
+            "name": "sameface2",
+            "type": "lora"
+          },
+          {
+            "hash": "a7b8c3437d63",
+            "name": "Vibrantly_sharp_style_v.2",
+            "type": "lora"
+          },
+          {
+            "hash": "2fc3f53ef01a",
+            "name": "ck-painterly-fantasy",
+            "type": "lora"
+          },
+          {
+            "hash": "babb839a9aec",
+            "name": "Dark_Ghibli",
+            "type": "lora"
+          },
+          {
+            "hash": "2eda627c8a",
+            "name": "flux_dev",
+            "type": "model"
+          }
+        ],
+        "Model hash": "2eda627c8a",
+        "Hires steps": "8",
+        "Hires prompt": "\\",
+        "Hires upscale": "1.5",
+        "Schedule type": "Beta",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x_NMKD-Siax_200k",
+        "Hires CFG Scale": "1",
+        "Beta schedule beta": "0.6",
+        "Denoising strength": "0.36",
+        "Beta schedule alpha": "0.6",
+        "Distilled CFG Scale": "3.5",
+        "Style Selector Style": "Dark Fantasy",
+        "Hires negative prompt": "",
+        "Style Selector Enabled": "True",
+        "Style Selector Randomize": "True",
+        "Hires Distilled CFG Scale": "5.5"
+      },
+      "username": "sunnytiersen",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        801005,
+        840288,
+        857446,
+        1189379,
+        1365363,
+        1524423
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "809|1745751702358",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=809%7C1745751702358"
+    "nextCursor": "810|1754463120000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=810%7C1754463120000"
   }
 }
