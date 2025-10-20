@@ -1,98 +1,57 @@
 {
   "items": [
     {
-      "id": 67905106,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ccef2550-a529-4611-8bdd-f71fc030ab4c/original=true/ccef2550-a529-4611-8bdd-f71fc030ab4c.jpeg",
-      "hash": "U596?sW=00s8o~xZivEM0Ls.~BS4^kNHE1-U",
-      "width": 832,
-      "height": 1216,
+      "id": 104629757,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e47309b-6eed-402a-9d03-5159ec456294/original=true/2e47309b-6eed-402a-9d03-5159ec456294.jpeg",
+      "hash": "UA9Zo@}@H?M{=y$Mrrs.01M{?a%29aN_x]S4",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-04T15:00:00.000Z",
-      "postId": 15095474,
+      "createdAt": "2025-10-07T05:45:00.000Z",
+      "postId": 23214610,
       "stats": {
-        "cryCount": 267,
-        "laughCount": 571,
-        "likeCount": 4082,
+        "cryCount": 94,
+        "laughCount": 168,
+        "likeCount": 1552,
         "dislikeCount": 0,
-        "heartCount": 1892,
-        "commentCount": 13
+        "heartCount": 465,
+        "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 368334805,
-        "draft": false,
-        "extra": {
-          "remixOfId": 64900673
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "Detailed photograph of a Halloween-themed latte in a ceramic cup. The cup is filled with frothy, white whipped cream with a cute skull design, and drizzled with chocolate syrup. The background features a small, carved pumpkin with a menacing face and a black coffee cup. The setting is dark, with a rustic wooden surface and scattered coffee beans. The overall mood is spooky and festive.",
+        "process": "img2img",
+        "quality": "medium",
+        "quantity": 1,
+        "baseModel": "OpenAI",
+        "background": "opaque",
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/265800608925361185397229625144890116311.jpg?sig=CfDJ8J868rbHQQlNuTOL2qbAsuRww-DzK11_1jwuSWJkFHCTFRpJCqXZKhQkeP9YaD16ayij4KyF1YX8jY3UB0qWaHuKpg3UKRXdJ9oT3KA7rjz7ONShqEJaQNwDDH2phOFcl1w1g8YoOC64M9AOQWGz3DB-dEHH7uHPX88dScn08p3gy_P7kuiL5QwtJHWTdZx59047Sz_4EhsDRFKXXj7ZuyepJ1VDIUhAbjHyJ1UYf1JB6dA53YF5BOx3GKvfOAYtqssqms8ruyttxWiAvkxuPNWT7_TQqp-Szesz7UNKQLN2jEHot5uvlt0HOBFJuEt4xw&exp=2026-10-07T04:08:24.6700950Z",
+          "width": 720,
+          "height": 1080
         },
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "score_9_up, score_9, score_8_up, score_8, score_7_up, score_7, cinematic lighting, raw, high quality, 4k resolution, absurdres, masterpiece, dynamic lighting, high contrast, morimee_style, detailed face, \n1girl, solo, mature, (dragon horns), ((white hair)), ((long hairstyle)), ((((wet body)))), gold jewelry, choker, (exposed breasts), (black robe), exposed ass, (gold jewelry),\n(((standing))), ((arched back)),\n((focus in ass)), ((((((back to viewer)))))), (((((((((((close view))))))))))), close angle, back view, (black background)",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
-        "resources": [],
-        "Created Date": "2025-04-04T1318:18.9724479Z",
-        "negativePrompt": "score_4, score_5, score_6, futanari,extra fingers,distorted hands,distorted fingers, low quality, lowres, bad anatomy,worst quality, simple background, censored,text,signature,  lineless,watermark,signature, logo, easynegative,  low-quality, moir pattern, downsampling, aliasing, distorted, blurry, glossy, blur, jpeg artifacts, compression artifacts, poorly drawn, low-resolution, bad, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, symmetrical, duplicate, error, pattern, beginner, pixelated, fake, hyper, glitch, overexposed, bad-contrast, messy, Deformed, Deformed face, Deformed fingers, Deformed hands, Out of frame, Poorly drawn face, Poorly drawn feet, Poorly drawn hands, Draft, Grainy, Kitsch, Low-res, old, sketch, black and white, exaggerated anatomy, long neck, SimpleNegativeV3, zPDXLxxx, (((curly hair))), ((curly hairstyle)), 3D, ((animal ears)),",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "embed",
             "weight": 1,
-            "modelVersionId": 287973,
-            "modelVersionName": "V3"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 380277,
-            "modelVersionName": "XXX Rating"
-          },
-          {
-            "type": "lora",
-            "weight": 0.1,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1122823,
-            "modelVersionName": "V1 Pony Redux"
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "Pijjiot",
-      "baseModel": "Pony",
+      "username": "Cinnadust",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        287973,
-        290640,
-        380277,
-        398847,
-        436219,
-        1122823
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "805|1754319629272",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=805%7C1754319629272"
+    "nextCursor": "806|1746566320553",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=806%7C1746566320553"
   }
 }
