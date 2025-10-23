@@ -1,52 +1,60 @@
 {
   "items": [
     {
-      "id": 76350305,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3300c816-0b7b-40e5-a5a9-7d524ef684b9/original=true/3300c816-0b7b-40e5-a5a9-7d524ef684b9.jpeg",
-      "hash": "UHDkVg0#ww-n~9E3S4%0-nRjJUs-%1RkX9sm",
-      "width": 1024,
-      "height": 1536,
+      "id": 57461317,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75384298-7dda-40d9-b956-0de63d67578d/original=true/75384298-7dda-40d9-b956-0de63d67578d.jpeg",
+      "hash": "UbQ~.UzsxZox*AXjNdn*?OS$s9oJwLt3jZe:",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-05-15T04:09:30.784Z",
-      "postId": 16956198,
+      "createdAt": "2025-02-13T00:04:04.447Z",
+      "postId": 12861184,
       "stats": {
-        "cryCount": 343,
-        "laughCount": 721,
-        "likeCount": 4278,
+        "cryCount": 291,
+        "laughCount": 455,
+        "likeCount": 4525,
         "dislikeCount": 0,
-        "heartCount": 1444,
-        "commentCount": 2
+        "heartCount": 1515,
+        "commentCount": 6
       },
       "meta": {
-        "width": 1024,
-        "engine": "openai",
-        "height": 1536,
-        "prompt": "A close-up shot of a mesmerizing hybrid between a barn owl and a dragon in mid-flight, its body covered in soft down interwoven with striking black and green stripes reminiscent of a owl. Its wings have a strong, large bird-like texture with a subtle golden shimmer reflecting the sunset light. Large, intelligent eyes exude mystery. Its legs, a fusion of owl talons and west dragon-like structures. A shallow depth of field enhances the subject, with a soft bokeh and warm background tones. Dramatic lighting highlights the intricate feather and wing details, creating a fantasy-inspired yet naturalistic scene",
-        "process": "txt2img",
-        "quality": "medium",
-        "quantity": 1,
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 1011282147,
+        "draft": false,
+        "steps": 4,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A sharply dressed man standing alone in a vast, flat, brightly colored landscape, his black-and-white figure contrasting starkly against the vivid abstraction of rolling red hills and a golden sun.\nminimalist abstract landscape with bold geometric color fields, vibrant warm yellows, deep blues, and rich reds, flattened perspective with simple expressive brushstrokes, meditative composition with poetic emotional depth",
+        "sampler": "Undefined",
+        "cfgScale": 1,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@699279",
+        "quantity": 4,
         "workflow": "txt2img",
-        "background": "opaque",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-02-12T2345:42.2073305Z",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "weight": 1,
-            "modelVersionId": 1733399
+            "modelVersionId": 699279,
+            "modelVersionName": "Schnell"
           }
         ]
       },
-      "username": "Ivan0802",
-      "baseModel": "OpenAI",
+      "username": "RelaxedKiwi",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        1733399
+        699279
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "819|1739405044447",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=819%7C1739405044447"
+    "nextCursor": "820|1760028642313",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=820%7C1760028642313"
   }
 }
