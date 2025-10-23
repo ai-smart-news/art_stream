@@ -1,89 +1,70 @@
 {
   "items": [
     {
-      "id": 48186810,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5633dba0-b37f-4c65-b798-b6b1d7909b19/original=true/5633dba0-b37f-4c65-b798-b6b1d7909b19.jpeg",
-      "hash": "UDDIwT4:%z=yNHj]I;RP~BNGIpjs~VRj?Hbb",
-      "width": 1280,
-      "height": 1856,
+      "id": 54771094,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6e98c11-d1d7-4e1c-be3c-6ef53c917e87/original=true/f6e98c11-d1d7-4e1c-be3c-6ef53c917e87.jpeg",
+      "hash": "UQJ6WO%eEkn7~9J9jExX68RR#,Sz0%Vv=[-m",
+      "width": 1792,
+      "height": 2304,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-12-28T22:06:08.744Z",
-      "postId": 10866998,
+      "createdAt": "2025-01-30T13:25:49.846Z",
+      "postId": 12280066,
       "stats": {
-        "cryCount": 257,
-        "laughCount": 383,
-        "likeCount": 4404,
+        "cryCount": 296,
+        "laughCount": 596,
+        "likeCount": 4258,
         "dislikeCount": 0,
-        "heartCount": 1754,
-        "commentCount": 7
+        "heartCount": 1647,
+        "commentCount": 12
       },
       "meta": {
-        "nsfw": true,
-        "seed": 1706290923,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:565749@1060748",
-        "extra": {},
-        "image": "https://orchestration.civitai.com/v2/consumer/blobs/W4BN15QB6KSTXEEBCHMJXKA410",
-        "steps": 26,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:565749@1060748"
-        ],
-        "prompt": "score_9, score_8_up, score_7_up, source_anime, source_explicit,,flat colors, flat illustration, lineart, highly detailed, ultra detailed,\ngirl as a goth, black makeup, black lips, blunt bangs, voluptuous body, grey eyes, big lips, lipstick, red hair long hair straight hair,\nwearing school uniform, blouse, black shirt with black tie, long sleeves, black pleated skirt, stockings,\nindoor background, blackboard, teacher's desk, \nfront view, professional lighting, smile, posing",
-        "denoise": 0.4,
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "modelIds": [],
-        "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Pony",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "experimental": false,
-        "negativePrompt": "score_4, score_3, score_2, muscular, fury, child, kid, easynegative, low-quality, bad, distortion, artifacts, bad-anatomy, monochrome, worst-quality, aliasing, lowres, twisted, blurry, signature, extra fingers, distorted, blur, censored, low-quality,",
-        "civitaiResources": [
+        "VAE": "FLUX1\\ae.sft",
+        "seed": 887205238839690,
+        "Model": "flux_dev.safetensors",
+        "steps": 50,
+        "hashes": {
+          "vae": "afc8e28272",
+          "model": "2eda627c8a",
+          "lora:FluxDFaeTasticDetails": "4259dc3287",
+          "lora:aidmaHyperrealism-FLUX-v0.3": "4977e01ab0"
+        },
+        "prompt": "aidmaHyperrealism, hyper-detailed,\n\"Create a surreal composition of a turtle made from a peeled mandarin, with its shell constructed from carefully layered fruit segments that glisten under soft natural light. The legs and head are carved from whole sections of orange flesh, detailed with ridges that imitate reptilian skin, while the peel forms a vibrant border around the shell\u2019s base. Black seeds are positioned as small, glinting eyes, and the background features a rustic wood surface with scattered fruit pieces, enhancing the realism of the handcrafted turtle. Emphasize the juicy, lifelike qualities of the fruit while maintaining the whimsical essence of the turtle design.\"\n <lora:FluxDFaeTasticDetails:0.2> <lora:aidmaHyperrealism-FLUX-v0.3:0.8>",
+        "sampler": "DPM++ 2M",
+        "resources": [
           {
-            "weight": 1,
-            "modelVersionId": 1060748
+            "hash": "4259dc3287",
+            "name": "FluxDFaeTasticDetails",
+            "type": "lora",
+            "weight": 0.2
           },
           {
-            "weight": 1,
-            "modelVersionId": 1060748
+            "hash": "4977e01ab0",
+            "name": "aidmaHyperrealism-FLUX-v0.3",
+            "type": "lora",
+            "weight": 0.8
           },
           {
-            "weight": 1,
-            "modelVersionId": 9208
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1060748
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "hash": "2eda627c8a",
+            "name": "flux_dev.safetensors",
+            "type": "model"
           }
         ],
-        "additionalResources": []
+        "Model hash": "2eda627c8a"
       },
-      "username": "MatureOnly",
-      "baseModel": "Pony",
+      "username": "amre92YH",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        9208,
-        164821,
-        1060748
+        691639,
+        720252,
+        980278
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "815|1738243549846",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=815%7C1738243549846"
+    "nextCursor": "816|1753086719700",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=816%7C1753086719700"
   }
 }
