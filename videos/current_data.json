@@ -1,48 +1,60 @@
 {
   "items": [
     {
-      "id": 56919805,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21e3b296-2d03-4ad8-9eb7-52744299efc7/original=true/21e3b296-2d03-4ad8-9eb7-52744299efc7.jpeg",
-      "hash": "ULJbc~}[KiI;1iyDK4IV0LEM8{a0%LI:?G%2",
+      "id": 52112731,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/02c9b01a-1b90-4cd6-957e-a138c9c983f9/original=true/02c9b01a-1b90-4cd6-957e-a138c9c983f9.jpeg",
+      "hash": "U3JYnk=e01}@0Fxt0yIq06JRugtQ0}s,U{bZ",
       "width": 832,
-      "height": 1216,
+      "height": 1456,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-02-10T06:59:43.687Z",
-      "postId": 12742572,
+      "createdAt": "2025-01-17T19:05:00.000Z",
+      "postId": 11715338,
       "stats": {
-        "cryCount": 332,
-        "laughCount": 603,
-        "likeCount": 4234,
+        "cryCount": 272,
+        "laughCount": 528,
+        "likeCount": 4521,
         "dislikeCount": 0,
-        "heartCount": 1604,
+        "heartCount": 1452,
         "commentCount": 5
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 624083726292309,
-        "Model": "flux_dev_fp8",
-        "steps": 23,
+        "VAE": "ae.safetensors",
+        "Size": "832x1456",
+        "seed": 613709844116264,
+        "Model": "flux1-dev.safetensors",
+        "steps": 25,
         "hashes": {
-          "model": ""
+          "vae": "afc8e28272",
+          "model": "4610115bb0",
+          "lora:PinkieChibiSnakeYearFLUX": "c9251f6253"
         },
-        "prompt": "ppstorybook,A whimsical, flying van with rainbow-colored paint and oversized wheels, soaring through the clouds with balloons trailing behind, surrounded by fluffy clouds and playful birds, depicted in a cheerful, cartoonish style with soft pastel hues.",
-        "Version": "ComfyUI",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 3.5,
-        "clipSkip": 1,
-        "resources": [],
-        "Model hash": ""
+        "prompt": "pinkchibisnakeyear,\nA golden snake wrapped around a traditional Chinese archway decorated with red and gold accents. Above the gate, \"Happy Snake Year\" glows brightly in the night sky.",
+        "sampler": "euler_beta",
+        "resources": [
+          {
+            "hash": "4610115bb0",
+            "name": "flux1-dev.safetensors",
+            "type": "model"
+          }
+        ],
+        "Model hash": "4610115bb0",
+        "Lora_0 Model hash": "c9251f6253",
+        "Lora_0 Model name": "PinkieChibiSnakeYearFLUX.safetensors",
+        "Lora_0 Strength clip": "1.0",
+        "Lora_0 Strength model": "1.0"
       },
-      "username": "PixelPawsAI",
+      "username": "Pinkielicious",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": []
+      "modelVersionIds": [
+        691639
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "822|1737140700000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=822%7C1737140700000"
+    "nextCursor": "823|1735679671895",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=823%7C1735679671895"
   }
 }
