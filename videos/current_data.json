@@ -1,73 +1,42 @@
 {
   "items": [
     {
-      "id": 67495968,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/95b1be87-df21-46a4-b880-698eacd7b50d/original=true/95b1be87-df21-46a4-b880-698eacd7b50d.jpeg",
-      "hash": "URPY6tRkM_xt~Cs,g%NGOBM|S}RjbpVsoyem",
-      "width": 832,
-      "height": 1216,
+      "id": 21437097,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7e4f50d-ac49-4bcc-8d97-35f9abe669f1/original=true/f7e4f50d-ac49-4bcc-8d97-35f9abe669f1.jpeg",
+      "hash": "UBCYp:%LEz%f~Vt7I;kW9v-UM|9tIo-.V@9G",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-02T14:40:33.447Z",
-      "postId": 15007728,
+      "createdAt": "2024-07-26T10:59:27.568Z",
+      "postId": 4779247,
       "stats": {
-        "cryCount": 346,
-        "laughCount": 599,
-        "likeCount": 4224,
+        "cryCount": 185,
+        "laughCount": 467,
+        "likeCount": 4356,
         "dislikeCount": 0,
-        "heartCount": 1630,
-        "commentCount": 1
+        "heartCount": 1791,
+        "commentCount": 6
       },
-      "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 1983205620,
-        "draft": false,
-        "steps": 19,
-        "width": 832,
-        "height": 1216,
-        "prompt": "sscore_9, score_8_up, score_7_up, Tiger,CivChan, purple eyes, pink hair, half-side view,  The tiger has big paws, best quality, high  detail, 4k, upscaled, enhanced, detailed background,",
-        "sampler": "Euler a",
-        "cfgScale": 5.5,
-        "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
-        "Created Date": "2025-04-02T1438:53.7669244Z",
-        "negativePrompt": "score_4, score_3, score_2, score_1, 3d, lowers, error, worst quality, low quality, watermark,  wheels, human, ng_deepnegative_v1_75t, robots, humans, woman, girl, man,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 889818,
-            "modelVersionName": "v0.1"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1597055,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "vae",
-            "weight": 1,
-            "modelVersionId": 333245,
-            "modelVersionName": "SDXL-VAE"
-          }
-        ]
-      },
-      "username": "Dreid",
-      "baseModel": "Illustrious",
+      "meta": null,
+      "username": "LennMcL",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        889818,
-        1597055
+        164821,
+        382152,
+        388624,
+        438481,
+        522995,
+        578496,
+        638231,
+        672738
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "813|1721991567568",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=813%7C1721991567568"
+    "nextCursor": "814|1735423568744",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=814%7C1735423568744"
   }
 }
