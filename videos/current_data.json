@@ -1,59 +1,52 @@
 {
   "items": [
     {
-      "id": 54951618,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3854caae-7647-473e-a384-bf479313fa73/original=true/3854caae-7647-473e-a384-bf479313fa73.jpeg",
-      "hash": "U47d5uIp;2Nx^+WCwIsA}=R+-URk5Ss.Sgn%",
-      "width": 832,
-      "height": 1216,
+      "id": 76350305,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3300c816-0b7b-40e5-a5a9-7d524ef684b9/original=true/3300c816-0b7b-40e5-a5a9-7d524ef684b9.jpeg",
+      "hash": "UHDkVg0#ww-n~9E3S4%0-nRjJUs-%1RkX9sm",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-31T12:32:59.883Z",
-      "postId": 12319140,
+      "createdAt": "2025-05-15T04:09:30.784Z",
+      "postId": 16956198,
       "stats": {
-        "cryCount": 279,
-        "laughCount": 940,
-        "likeCount": 4264,
+        "cryCount": 343,
+        "laughCount": 721,
+        "likeCount": 4278,
         "dislikeCount": 0,
-        "heartCount": 1305,
-        "commentCount": 5
+        "heartCount": 1444,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 723844843,
-        "steps": 21,
-        "prompt": "sh03f4c3, a jazz singer with shoe face, they stand on the stage in a jazzy pose, singing into the radio microphone with the wide open mouth, the background is a jazz club, there is a poster on the wall featuring a shoe and the words: \"Tonight: Jazz and Sole\"",
-        "sampler": "Undefined",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2025-01-31T1125:50.6533733Z",
+        "width": 1024,
+        "engine": "openai",
+        "height": 1536,
+        "prompt": "A close-up shot of a mesmerizing hybrid between a barn owl and a dragon in mid-flight, its body covered in soft down interwoven with striking black and green stripes reminiscent of a owl. Its wings have a strong, large bird-like texture with a subtle golden shimmer reflecting the sunset light. Large, intelligent eyes exude mystery. Its legs, a fusion of owl talons and west dragon-like structures. A shallow depth of field enhances the subject, with a soft bokeh and warm background tones. Dramatic lighting highlights the intricate feather and wing details, creating a fantasy-inspired yet naturalistic scene",
+        "process": "txt2img",
+        "quality": "medium",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "background": "opaque",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 1352375,
-            "modelVersionName": "v1.0"
+            "modelVersionId": 1733399
           }
         ]
       },
-      "username": "Reyn__",
-      "baseModel": "Flux.1 D",
+      "username": "Ivan0802",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        691639,
-        1352375
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "818|1747282170784",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=818%7C1747282170784"
+    "nextCursor": "819|1739405044447",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=819%7C1739405044447"
   }
 }
