@@ -1,70 +1,33 @@
 {
   "items": [
     {
-      "id": 54771094,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6e98c11-d1d7-4e1c-be3c-6ef53c917e87/original=true/f6e98c11-d1d7-4e1c-be3c-6ef53c917e87.jpeg",
-      "hash": "UQJ6WO%eEkn7~9J9jExX68RR#,Sz0%Vv=[-m",
-      "width": 1792,
-      "height": 2304,
+      "id": 89556191,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26dd8909-cd60-4a2f-aa8e-50f463e5c8a2/original=true/26dd8909-cd60-4a2f-aa8e-50f463e5c8a2.jpeg",
+      "hash": "UDFgQ^oe06R,}TazShs-0*xE-RWW5;snNIR,",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-30T13:25:49.846Z",
-      "postId": 12280066,
+      "createdAt": "2025-07-21T08:31:59.700Z",
+      "postId": 19865368,
       "stats": {
-        "cryCount": 296,
-        "laughCount": 596,
-        "likeCount": 4258,
+        "cryCount": 281,
+        "laughCount": 585,
+        "likeCount": 4344,
         "dislikeCount": 0,
-        "heartCount": 1647,
-        "commentCount": 12
+        "heartCount": 1584,
+        "commentCount": 9
       },
-      "meta": {
-        "VAE": "FLUX1\\ae.sft",
-        "seed": 887205238839690,
-        "Model": "flux_dev.safetensors",
-        "steps": 50,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "2eda627c8a",
-          "lora:FluxDFaeTasticDetails": "4259dc3287",
-          "lora:aidmaHyperrealism-FLUX-v0.3": "4977e01ab0"
-        },
-        "prompt": "aidmaHyperrealism, hyper-detailed,\n\"Create a surreal composition of a turtle made from a peeled mandarin, with its shell constructed from carefully layered fruit segments that glisten under soft natural light. The legs and head are carved from whole sections of orange flesh, detailed with ridges that imitate reptilian skin, while the peel forms a vibrant border around the shell\u2019s base. Black seeds are positioned as small, glinting eyes, and the background features a rustic wood surface with scattered fruit pieces, enhancing the realism of the handcrafted turtle. Emphasize the juicy, lifelike qualities of the fruit while maintaining the whimsical essence of the turtle design.\"\n <lora:FluxDFaeTasticDetails:0.2> <lora:aidmaHyperrealism-FLUX-v0.3:0.8>",
-        "sampler": "DPM++ 2M",
-        "resources": [
-          {
-            "hash": "4259dc3287",
-            "name": "FluxDFaeTasticDetails",
-            "type": "lora",
-            "weight": 0.2
-          },
-          {
-            "hash": "4977e01ab0",
-            "name": "aidmaHyperrealism-FLUX-v0.3",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "2eda627c8a",
-            "name": "flux_dev.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "2eda627c8a"
-      },
-      "username": "amre92YH",
-      "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639,
-        720252,
-        980278
-      ]
+      "meta": null,
+      "username": "KeltonAI",
+      "baseModel": "",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "816|1753086719700",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=816%7C1753086719700"
+    "nextCursor": "817|1738326779883",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=817%7C1738326779883"
   }
 }
