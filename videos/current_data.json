@@ -1,33 +1,59 @@
 {
   "items": [
     {
-      "id": 89556191,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26dd8909-cd60-4a2f-aa8e-50f463e5c8a2/original=true/26dd8909-cd60-4a2f-aa8e-50f463e5c8a2.jpeg",
-      "hash": "UDFgQ^oe06R,}TazShs-0*xE-RWW5;snNIR,",
+      "id": 54951618,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3854caae-7647-473e-a384-bf479313fa73/original=true/3854caae-7647-473e-a384-bf479313fa73.jpeg",
+      "hash": "U47d5uIp;2Nx^+WCwIsA}=R+-URk5Ss.Sgn%",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-07-21T08:31:59.700Z",
-      "postId": 19865368,
+      "createdAt": "2025-01-31T12:32:59.883Z",
+      "postId": 12319140,
       "stats": {
-        "cryCount": 281,
-        "laughCount": 585,
-        "likeCount": 4344,
+        "cryCount": 279,
+        "laughCount": 940,
+        "likeCount": 4264,
         "dislikeCount": 0,
-        "heartCount": 1584,
-        "commentCount": 9
+        "heartCount": 1305,
+        "commentCount": 5
       },
-      "meta": null,
-      "username": "KeltonAI",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "seed": 723844843,
+        "steps": 21,
+        "prompt": "sh03f4c3, a jazz singer with shoe face, they stand on the stage in a jazzy pose, singing into the radio microphone with the wide open mouth, the background is a jazz club, there is a poster on the wall featuring a shoe and the words: \"Tonight: Jazz and Sole\"",
+        "sampler": "Undefined",
+        "cfgScale": 3.5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-01-31T1125:50.6533733Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1352375,
+            "modelVersionName": "v1.0"
+          }
+        ]
+      },
+      "username": "Reyn__",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        1352375
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "817|1738326779883",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=817%7C1738326779883"
+    "nextCursor": "818|1747282170784",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=818%7C1747282170784"
   }
 }
