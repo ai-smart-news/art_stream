@@ -1,60 +1,33 @@
 {
   "items": [
     {
-      "id": 52112731,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/02c9b01a-1b90-4cd6-957e-a138c9c983f9/original=true/02c9b01a-1b90-4cd6-957e-a138c9c983f9.jpeg",
-      "hash": "U3JYnk=e01}@0Fxt0yIq06JRugtQ0}s,U{bZ",
-      "width": 832,
-      "height": 1456,
+      "id": 48776242,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed1bf63c-2f7a-418e-8f20-c806684741ac/original=true/ed1bf63c-2f7a-418e-8f20-c806684741ac.jpeg",
+      "hash": "UEA9]Gwc4mX8}ts:EgR%xbbHM|WUEmWWbVjF",
+      "width": 768,
+      "height": 1344,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-17T19:05:00.000Z",
-      "postId": 11715338,
+      "createdAt": "2024-12-31T21:14:31.895Z",
+      "postId": 10991734,
       "stats": {
-        "cryCount": 272,
-        "laughCount": 528,
-        "likeCount": 4521,
+        "cryCount": 263,
+        "laughCount": 606,
+        "likeCount": 4390,
         "dislikeCount": 0,
-        "heartCount": 1452,
+        "heartCount": 1514,
         "commentCount": 5
       },
-      "meta": {
-        "VAE": "ae.safetensors",
-        "Size": "832x1456",
-        "seed": 613709844116264,
-        "Model": "flux1-dev.safetensors",
-        "steps": 25,
-        "hashes": {
-          "vae": "afc8e28272",
-          "model": "4610115bb0",
-          "lora:PinkieChibiSnakeYearFLUX": "c9251f6253"
-        },
-        "prompt": "pinkchibisnakeyear,\nA golden snake wrapped around a traditional Chinese archway decorated with red and gold accents. Above the gate, \"Happy Snake Year\" glows brightly in the night sky.",
-        "sampler": "euler_beta",
-        "resources": [
-          {
-            "hash": "4610115bb0",
-            "name": "flux1-dev.safetensors",
-            "type": "model"
-          }
-        ],
-        "Model hash": "4610115bb0",
-        "Lora_0 Model hash": "c9251f6253",
-        "Lora_0 Model name": "PinkieChibiSnakeYearFLUX.safetensors",
-        "Lora_0 Strength clip": "1.0",
-        "Lora_0 Strength model": "1.0"
-      },
-      "username": "Pinkielicious",
+      "meta": null,
+      "username": "MarcianoTheVoyager",
       "baseModel": "Flux.1 D",
-      "modelVersionIds": [
-        691639
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "823|1735679671895",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=823%7C1735679671895"
+    "nextCursor": "824|1741839025413",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=824%7C1741839025413"
   }
 }
