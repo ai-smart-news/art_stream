@@ -1,76 +1,57 @@
 {
   "items": [
     {
-      "id": 67178905,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a684b25f-cfbd-4d8a-9ef2-e295e423da07/original=true/a684b25f-cfbd-4d8a-9ef2-e295e423da07.jpeg",
-      "hash": "UOMjExRkF.-:~XoftnogX;WBV|WrpdfkWCkB",
+      "id": 104631454,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228eaa7e-7544-49f4-b33d-957ee7109b9e/original=true/228eaa7e-7544-49f4-b33d-957ee7109b9e.jpeg",
+      "hash": "UIBfR*~Csm9au6TeWBR574KQaxrW-U=wn$NG",
       "width": 1024,
-      "height": 1536,
+      "height": 1024,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-04-01T02:38:56.605Z",
-      "postId": 14940937,
+      "createdAt": "2025-10-07T06:00:00.000Z",
+      "postId": 23215086,
       "stats": {
-        "cryCount": 354,
-        "laughCount": 625,
-        "likeCount": 4063,
+        "cryCount": 105,
+        "laughCount": 293,
+        "likeCount": 1549,
         "dislikeCount": 0,
-        "heartCount": 1711,
+        "heartCount": 437,
         "commentCount": 2
       },
       "meta": {
-        "Size": "1024x1536",
-        "seed": 1391129040,
-        "Model": "JANKU v3.0 NOOB EPS ROUWEI Mix.safetensors",
-        "steps": 30,
-        "hashes": {
-          "model": "7c92c6e21b",
-          "lora:CivChan": "adf956abf9",
-          "embed:lazyneg": "4fa59e6d9a",
-          "embed:lazympos,": "3a5c2a561b",
-          "lora:TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious": "bd7a379343"
+        "width": 1024,
+        "engine": "openai",
+        "height": 1024,
+        "prompt": "A CGI image depicting an old witch with long gray hair and a large, crooked nose, wearing a pointed hat and dark cloak, taking a selfie as she looks towards the phone. She has a mischievous expression, and she puckers her lips as she makes a kissy face while wrapping her arm around glowing jack-o'-lantern with a carved face beside her. Her cheeks are sunken in and her skin is wrinkled. The background features a full moon, bats flying, and a dilapidated wooden house. The scene is set outdoors under a night sky, creating a spooky Halloween atmosphere.",
+        "process": "img2img",
+        "quality": "medium",
+        "quantity": 1,
+        "baseModel": "OpenAI",
+        "background": "opaque",
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/129157483731476537344569700746373207477.jpg?sig=CfDJ8J868rbHQQlNuTOL2qbAsuR1lhEu8AsQFpG_eLIOYE_nJQBD3H3FQHnJIQAY2XAH6oqvu4fXC57YIno58kEnsuImx70s3nfSF71qjquk3TZjSFBigds0cRRa5xQO5wtyOlePxJzOzEph9BlPPkkoqV1Oyxi0J-1geIa6IjANJMXVPAXhzkkFTfaQ247aBk8oL-vfM7EoPqcXfhAPJpoPSH9_CJpUKo-BvUOUQejWi4bF2NzMk06jcmNG96mvW_g3bBLyAJ1YRUThNKYHYRmr3AGh6kTzIwVglpXqXRkBDYFZp0S-oY2_EAMh5ifi_SD_1g&exp=2026-10-07T04:34:23.3968969Z",
+          "width": 1199,
+          "height": 1200
         },
-        "prompt": "embedding:lazympos, 1girl,solo, CivChan, pink hair, purple eyes, heart eyes, shy, embarassed, holding flower, looking at viewer, maid outfit, grass field, leafy ruffles, spring picnic setting with blooming flowers and a sunny sky, charming and wholesome style <lora:CivChan:0.9> <lora:TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious:0.2>",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "clipSkip": 2,
-        "resources": [
+        "civitaiResources": [
           {
-            "hash": "adf956abf9",
-            "name": "CivChan",
-            "type": "lora",
-            "weight": 0.9
-          },
-          {
-            "hash": "bd7a379343",
-            "name": "TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious",
-            "type": "lora",
-            "weight": 0.2
-          },
-          {
-            "hash": "7c92c6e21b",
-            "name": "JANKU v3.0 NOOB EPS ROUWEI Mix.safetensors",
-            "type": "model"
+            "type": "checkpoint",
+            "weight": 1,
+            "modelVersionId": 1733399
           }
-        ],
-        "Model hash": "7c92c6e21b",
-        "negativePrompt": "embedding:lazyneg"
+        ]
       },
-      "username": "janxd",
-      "baseModel": "Illustrious",
+      "username": "Cinnadust",
+      "baseModel": "OpenAI",
       "modelVersionIds": [
-        1525879,
-        1558647,
-        1591915,
-        1596786,
-        1597055
+        1733399
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "829|1759816800000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=829%7C1759816800000"
+    "nextCursor": "830|1739954700000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=830%7C1739954700000"
   }
 }
