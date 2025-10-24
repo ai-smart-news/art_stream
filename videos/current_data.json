@@ -1,33 +1,77 @@
 {
   "items": [
     {
-      "id": 63210691,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c2c27f10-34e3-4189-8119-2cad0da2b874/original=true/c2c27f10-34e3-4189-8119-2cad0da2b874.jpeg",
-      "hash": "UgHnyp-:~VRks:NGt7oft6j[M|WB-pWCt6oL",
-      "width": 1024,
-      "height": 1024,
+      "id": 50300505,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d546436-af2f-4c02-a604-88b15e12e65b/original=true/3d546436-af2f-4c02-a604-88b15e12e65b.jpeg",
+      "hash": "U66Iy#Vs4Tb^ysV[VYWAxuo}RkRO%gyDMxMx",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-03-13T04:10:25.413Z",
-      "postId": 14103091,
+      "createdAt": "2025-01-08T10:09:23.657Z",
+      "postId": 11322466,
       "stats": {
-        "cryCount": 291,
-        "laughCount": 474,
-        "likeCount": 4469,
+        "cryCount": 261,
+        "laughCount": 447,
+        "likeCount": 4569,
         "dislikeCount": 0,
-        "heartCount": 1532,
+        "heartCount": 1487,
         "commentCount": 4
       },
-      "meta": null,
-      "username": "RammokuNoIto",
-      "baseModel": "",
-      "modelVersionIds": []
+      "meta": {
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 1830946165,
+        "draft": false,
+        "extra": {
+          "remixOfId": 49942186
+        },
+        "steps": 40,
+        "width": 832,
+        "height": 1216,
+        "prompt": "A nightmare landscape featuring an enchanted forest filled with massive, oversized black wet mushrooms with countless creepy old faces featuring with open and closed human mouth on their stems and dripping saliva sparkling in dark shadows. The forest floor is covered in rocks and soft moss. moonlight filters through a gentle mist, casting cold golden beams across the scene. A lone adventurer, a small human figure with a flashlight, yellow raincoat and a backpack, panically running away on a narrow forest path to an ancient temple ruins covered in lush moss like a mirage, emphasising the scale of the gigantic mushrooms with their various scary expressions. The atmosphere is dark, magical, with a surreal balance of realism and fantasy elements. Soft focus in the background enhances the depth and otherworldly feel, heavy raining in dark environment, inspired by Junji Ito, cult, vantage photography taken in 90s,(dutch angle), (glitchy borders, film grain,color channel artifacts,grainy texture,vignette,burnt edges,overexposure,soft focus or blurry edges,frame flicker,double exposure,off-center,chromatic aberration:1.2),",
+        "sampler": "Undefined",
+        "cfgScale": 4.5,
+        "clipSkip": 2,
+        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Flux1",
+        "resources": [],
+        "Created Date": "2025-01-08T1005:52.1927419Z",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 691639,
+            "modelVersionName": "Dev"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 720252,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 728041,
+            "modelVersionName": "v01"
+          }
+        ]
+      },
+      "username": "Artict",
+      "baseModel": "Flux.1 D",
+      "modelVersionIds": [
+        691639,
+        720252,
+        728041
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "825|1736330963657",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=825%7C1736330963657"
+    "nextCursor": "826|1725638400000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=826%7C1725638400000"
   }
 }
