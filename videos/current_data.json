@@ -1,77 +1,84 @@
 {
   "items": [
     {
-      "id": 50300505,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d546436-af2f-4c02-a604-88b15e12e65b/original=true/3d546436-af2f-4c02-a604-88b15e12e65b.jpeg",
-      "hash": "U66Iy#Vs4Tb^ysV[VYWAxuo}RkRO%gyDMxMx",
+      "id": 22591061,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f451bfe7-4134-466d-a2bb-d1b255543fd7/original=true/f451bfe7-4134-466d-a2bb-d1b255543fd7.jpeg",
+      "hash": "U8B:{DOr10~A?]t6U|M}pJS1MeWF?^W=9~bI",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2025-01-08T10:09:23.657Z",
-      "postId": 11322466,
+      "createdAt": "2024-09-06T16:00:00.000Z",
+      "postId": 5033871,
       "stats": {
-        "cryCount": 261,
-        "laughCount": 447,
-        "likeCount": 4569,
+        "cryCount": 324,
+        "laughCount": 1121,
+        "likeCount": 3890,
         "dislikeCount": 0,
-        "heartCount": 1487,
+        "heartCount": 1425,
         "commentCount": 4
       },
       "meta": {
+        "CDT": {},
+        "RNG": "NV",
+        "VAE": "fixFP16ErrorsSDXLLowerMemoryUse_v10.safetensors",
         "Size": "832x1216",
-        "nsfw": true,
-        "seed": 1830946165,
-        "draft": false,
-        "extra": {
-          "remixOfId": 49942186
+        "seed": 1224240388,
+        "Model": "mfcgPaintjob_v40",
+        "steps": 24,
+        "hashes": {
+          "vae": "235745af8d",
+          "model": "da7a42748f",
+          "lora:Shrek_XLPD": "88e2be0feb27",
+          "lora:ImaginationSpongebobMeme_pdxl_Incrs_v1": "6918600e8f7e"
         },
-        "steps": 40,
-        "width": 832,
-        "height": 1216,
-        "prompt": "A nightmare landscape featuring an enchanted forest filled with massive, oversized black wet mushrooms with countless creepy old faces featuring with open and closed human mouth on their stems and dripping saliva sparkling in dark shadows. The forest floor is covered in rocks and soft moss. moonlight filters through a gentle mist, casting cold golden beams across the scene. A lone adventurer, a small human figure with a flashlight, yellow raincoat and a backpack, panically running away on a narrow forest path to an ancient temple ruins covered in lush moss like a mirage, emphasising the scale of the gigantic mushrooms with their various scary expressions. The atmosphere is dark, magical, with a surreal balance of realism and fantasy elements. Soft focus in the background enhances the depth and otherworldly feel, heavy raining in dark environment, inspired by Junji Ito, cult, vantage photography taken in 90s,(dutch angle), (glitchy borders, film grain,color channel artifacts,grainy texture,vignette,burnt edges,overexposure,soft focus or blurry edges,frame flicker,double exposure,off-center,chromatic aberration:1.2),",
-        "sampler": "Undefined",
-        "cfgScale": 4.5,
-        "clipSkip": 2,
-        "fluxMode": "urn:air:flux1:checkpoint:civitai:618692@691639",
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Flux1",
-        "resources": [],
-        "Created Date": "2025-01-08T1005:52.1927419Z",
-        "civitaiResources": [
+        "prompt": "score_9, score_8_up, score_7_up, rainbow, outstretched arms, arms up, <lora:ImaginationSpongebobMeme_pdxl_Incrs_v1:1.2>, <lora:Shrek_XLPD:0.8> shrek, green skin, solo, 1boy,",
+        "Version": "f0.0.17v1.8.0rc-latest-287-g77bdb920",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 691639,
-            "modelVersionName": "Dev"
+            "hash": "6918600e8f7e",
+            "name": "ImaginationSpongebobMeme_pdxl_Incrs_v1",
+            "type": "lora",
+            "weight": 1.2
           },
           {
+            "hash": "88e2be0feb27",
+            "name": "Shrek_XLPD",
             "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 720252,
-            "modelVersionName": "v1.0"
+            "weight": 0.8
           },
           {
-            "type": "lora",
-            "weight": 0.9,
-            "modelVersionId": 728041,
-            "modelVersionName": "v01"
+            "hash": "da7a42748f",
+            "name": "mfcgPaintjob_v40",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "da7a42748f",
+        "negativePrompt": "monochrome",
+        "ADetailer model": "face_yolov8n.pt",
+        "ADetailer version": "24.6.0",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer negative prompt": "3d",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
       },
-      "username": "Artict",
-      "baseModel": "Flux.1 D",
+      "username": "FallenIncursio",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        691639,
-        720252,
-        728041
+        555687,
+        693452
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "826|1725638400000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=826%7C1725638400000"
+    "nextCursor": "827|1728935394746",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=827%7C1728935394746"
   }
 }
