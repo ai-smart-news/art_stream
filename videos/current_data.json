@@ -1,84 +1,35 @@
 {
   "items": [
     {
-      "id": 22591061,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f451bfe7-4134-466d-a2bb-d1b255543fd7/original=true/f451bfe7-4134-466d-a2bb-d1b255543fd7.jpeg",
-      "hash": "U8B:{DOr10~A?]t6U|M}pJS1MeWF?^W=9~bI",
-      "width": 832,
-      "height": 1216,
+      "id": 34604199,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32180d4d-8caa-4d2d-8697-7726cad44af2/original=true/32180d4d-8caa-4d2d-8697-7726cad44af2.jpeg",
+      "hash": "U7B{*%uM.twb3o%eOn5,_mOA%^^$btNx+}KN",
+      "width": 834,
+      "height": 1219,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-09-06T16:00:00.000Z",
-      "postId": 5033871,
+      "createdAt": "2024-10-14T19:49:54.746Z",
+      "postId": 7907155,
       "stats": {
-        "cryCount": 324,
-        "laughCount": 1121,
-        "likeCount": 3890,
+        "cryCount": 507,
+        "laughCount": 723,
+        "likeCount": 4058,
         "dislikeCount": 0,
-        "heartCount": 1425,
-        "commentCount": 4
+        "heartCount": 1466,
+        "commentCount": 46
       },
-      "meta": {
-        "CDT": {},
-        "RNG": "NV",
-        "VAE": "fixFP16ErrorsSDXLLowerMemoryUse_v10.safetensors",
-        "Size": "832x1216",
-        "seed": 1224240388,
-        "Model": "mfcgPaintjob_v40",
-        "steps": 24,
-        "hashes": {
-          "vae": "235745af8d",
-          "model": "da7a42748f",
-          "lora:Shrek_XLPD": "88e2be0feb27",
-          "lora:ImaginationSpongebobMeme_pdxl_Incrs_v1": "6918600e8f7e"
-        },
-        "prompt": "score_9, score_8_up, score_7_up, rainbow, outstretched arms, arms up, <lora:ImaginationSpongebobMeme_pdxl_Incrs_v1:1.2>, <lora:Shrek_XLPD:0.8> shrek, green skin, solo, 1boy,",
-        "Version": "f0.0.17v1.8.0rc-latest-287-g77bdb920",
-        "sampler": "Euler a",
-        "cfgScale": 6,
-        "resources": [
-          {
-            "hash": "6918600e8f7e",
-            "name": "ImaginationSpongebobMeme_pdxl_Incrs_v1",
-            "type": "lora",
-            "weight": 1.2
-          },
-          {
-            "hash": "88e2be0feb27",
-            "name": "Shrek_XLPD",
-            "type": "lora",
-            "weight": 0.8
-          },
-          {
-            "hash": "da7a42748f",
-            "name": "mfcgPaintjob_v40",
-            "type": "model"
-          }
-        ],
-        "Model hash": "da7a42748f",
-        "negativePrompt": "monochrome",
-        "ADetailer model": "face_yolov8n.pt",
-        "ADetailer version": "24.6.0",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer negative prompt": "3d",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
-      },
-      "username": "FallenIncursio",
-      "baseModel": "Pony",
+      "meta": null,
+      "username": "Lo_Fi",
+      "baseModel": "Flux.1 D",
       "modelVersionIds": [
-        555687,
-        693452
+        691639
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "827|1728935394746",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=827%7C1728935394746"
+    "nextCursor": "828|1743475136605",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=828%7C1743475136605"
   }
 }
