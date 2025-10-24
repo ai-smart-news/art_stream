@@ -1,35 +1,76 @@
 {
   "items": [
     {
-      "id": 34604199,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32180d4d-8caa-4d2d-8697-7726cad44af2/original=true/32180d4d-8caa-4d2d-8697-7726cad44af2.jpeg",
-      "hash": "U7B{*%uM.twb3o%eOn5,_mOA%^^$btNx+}KN",
-      "width": 834,
-      "height": 1219,
+      "id": 67178905,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a684b25f-cfbd-4d8a-9ef2-e295e423da07/original=true/a684b25f-cfbd-4d8a-9ef2-e295e423da07.jpeg",
+      "hash": "UOMjExRkF.-:~XoftnogX;WBV|WrpdfkWCkB",
+      "width": 1024,
+      "height": 1536,
       "nsfwLevel": "None",
       "type": "image",
       "nsfw": false,
       "browsingLevel": 1,
-      "createdAt": "2024-10-14T19:49:54.746Z",
-      "postId": 7907155,
+      "createdAt": "2025-04-01T02:38:56.605Z",
+      "postId": 14940937,
       "stats": {
-        "cryCount": 507,
-        "laughCount": 723,
-        "likeCount": 4058,
+        "cryCount": 354,
+        "laughCount": 625,
+        "likeCount": 4063,
         "dislikeCount": 0,
-        "heartCount": 1466,
-        "commentCount": 46
+        "heartCount": 1711,
+        "commentCount": 2
       },
-      "meta": null,
-      "username": "Lo_Fi",
-      "baseModel": "Flux.1 D",
+      "meta": {
+        "Size": "1024x1536",
+        "seed": 1391129040,
+        "Model": "JANKU v3.0 NOOB EPS ROUWEI Mix.safetensors",
+        "steps": 30,
+        "hashes": {
+          "model": "7c92c6e21b",
+          "lora:CivChan": "adf956abf9",
+          "embed:lazyneg": "4fa59e6d9a",
+          "embed:lazympos,": "3a5c2a561b",
+          "lora:TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious": "bd7a379343"
+        },
+        "prompt": "embedding:lazympos, 1girl,solo, CivChan, pink hair, purple eyes, heart eyes, shy, embarassed, holding flower, looking at viewer, maid outfit, grass field, leafy ruffles, spring picnic setting with blooming flowers and a sunny sky, charming and wholesome style <lora:CivChan:0.9> <lora:TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious:0.2>",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "adf956abf9",
+            "name": "CivChan",
+            "type": "lora",
+            "weight": 0.9
+          },
+          {
+            "hash": "bd7a379343",
+            "name": "TrendCraft_The_Peoples_Style_Detailer-v1.0A-3_13_2025-illustrious",
+            "type": "lora",
+            "weight": 0.2
+          },
+          {
+            "hash": "7c92c6e21b",
+            "name": "JANKU v3.0 NOOB EPS ROUWEI Mix.safetensors",
+            "type": "model"
+          }
+        ],
+        "Model hash": "7c92c6e21b",
+        "negativePrompt": "embedding:lazyneg"
+      },
+      "username": "janxd",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        691639
+        1525879,
+        1558647,
+        1591915,
+        1596786,
+        1597055
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "828|1743475136605",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=828%7C1743475136605"
+    "nextCursor": "829|1759816800000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&cursor=829%7C1759816800000"
   }
 }
